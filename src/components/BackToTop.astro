@@ -1,0 +1,32 @@
+---
+---
+<button
+  id="back-to-top"
+  class="fixed bottom-8 right-8 z-[100] bg-slate-900 text-yellow-400 p-4 rounded-2xl shadow-2xl translate-y-24 opacity-0 transition-all duration-500 hover:bg-yellow-400 hover:text-slate-900 group"
+  aria-label="Back to Top"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transition-transform group-hover:-translate-y-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+  </svg>
+</button>
+
+<script is:inline>
+  const btt = document.getElementById('back-to-top');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) {
+      btt.classList.remove('translate-y-24', 'opacity-0');
+      btt.classList.add('translate-y-0', 'opacity-100');
+    } else {
+      btt.classList.add('translate-y-24', 'opacity-0');
+      btt.classList.remove('translate-y-0', 'opacity-100');
+    }
+  });
+
+  btt.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>

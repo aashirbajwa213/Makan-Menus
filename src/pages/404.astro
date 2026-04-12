@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="404: Page Not Found - Malaysia Menu" description="The page you are looking for does not exist on Malaysia Menu.">
+  <section class="min-h-[80vh] flex items-center justify-center bg-slate-50 py-[90px] relative overflow-hidden">
+    
+    {/* Background subtle pattern */}
+    <div class="absolute inset-0 z-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, black 1px, transparent 0); background-size: 32px 32px;"></div>
+
+    <div class="max-w-[700px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 w-full">
+      <div class="bg-white p-12 md:p-16 rounded-[3rem] shadow-xl border border-slate-100 flex flex-col items-center">
+        
+        {/* Giant 404 Text */}
+        <h1 class="text-[120px] md:text-[180px] font-black leading-none text-transparent bg-clip-text bg-gradient-to-br from-yellow-300 to-yellow-500 drop-shadow-sm select-none">
+          404
+        </h1>
+        
+        {/* Error Message */}
+        <h2 class="text-3xl md:text-5xl font-black text-black mt-2 mb-6 tracking-tight">
+          Oops! Page Not Found
+        </h2>
+        
+        <p class="text-lg text-slate-500 mb-10 max-w-md mx-auto leading-relaxed font-medium">
+          The menu, restaurant, or page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+        </p>
+        
+        {/* Action Buttons */}
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
+          <a href="/" class="w-full sm:w-auto bg-black text-yellow-400 font-bold py-4 px-10 rounded-xl hover:bg-slate-800 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+            </svg>
+            Back to Home
+          </a>
+          <a href="/categories/" class="w-full sm:w-auto bg-yellow-400 text-slate-900 font-bold py-4 px-10 rounded-xl hover:bg-yellow-500 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 border border-yellow-500/50">
+            Browse Categories
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</Layout>

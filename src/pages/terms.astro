@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = "Terms & Conditions | Malaysia Menu";
+const description = "Official terms of service for Malaysia Menu. By using our site, you agree to these operating policies and user guidelines.";
+
+// --- Schema Markup ---
+const siteUrl = "https://malaysiamenu.my";
+const pageUrl = `${siteUrl}/terms/`;
+
+const termsSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": pageUrl,
+  "keywords": "terms of service, user agreement, malaysia menu policies"
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Terms & Conditions", "item": pageUrl }
+  ]
+};
+---
+
+<Layout title={title} description={description}>
+  <Schema item={[termsSchema, breadcrumbSchema]} />
+  
+  <Breadcrumbs items={[{ name: 'Terms & Conditions' }]} />
+
+  <section class="relative pt-[134px] md:pt-[142px] pb-[70px] bg-black overflow-hidden border-b border-yellow-500/10">
+        {/* Yellow Grid Lines */}
+        <div class="absolute inset-0 z-0 opacity-20 bg-[linear-gradient(to_right,#facc151a_1px,transparent_1px),linear-gradient(to_bottom,#facc151a_1px,transparent_1px)] bg-[size:45px_45px]"></div>
+        
+        {/* Soft Yellow Glow */}
+        <div class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(234,179,8,0.12),transparent_70%)]"></div>
+
+        <div class="max-w-[1000px] mx-auto px-4 relative z-10 text-center">
+            <h1 class="text-3xl md:text-5xl lg:text-[54px] font-black text-yellow-400 mb-6 drop-shadow-[0_0_15px_rgba(234,179,8,0.3)] uppercase tracking-tight leading-[1.15]">Terms & Conditions</h1>
+            <p class="text-sm md:text-lg text-white font-medium leading-relaxed max-w-2xl mx-auto opacity-90">
+                Welcome to malaysiamenu.my. These terms and conditions outline the rules and regulations for the use of our website. By accessing this website, we assume you accept these terms and conditions.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-[70px] bg-white border-b border-slate-100">
+        <div class="max-w-3xl mx-auto px-4">
+            <div class="prose prose-slate max-w-none text-center">
+                <p class="text-slate-500 text-xs md:text-sm italic mb-12 text-center uppercase tracking-widest font-black">Last Updated: April 2026</p>
+
+                <h2 class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight">Acceptance of Terms</h2>
+                <p class="text-sm md:text-lg text-slate-600 mb-12 text-center font-medium leading-relaxed">
+                    By accessing or using our website, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you are prohibited from using or accessing this site. All materials contained on this website are protected by applicable copyright and trademark law.
+                </p>
+
+                <h2 class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight">Use License</h2>
+                <p class="text-sm md:text-lg text-slate-600 mb-12 text-center font-medium leading-relaxed">
+                    Permission is granted to temporarily download one copy of the materials on malaysiamenu.my's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license, you may not modify or copy the materials for commercial gain without explicit permission.
+                </p>
+
+                <h2 class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight">Accuracy of Materials</h2>
+                <p class="text-sm md:text-lg text-slate-600 mb-12 text-center font-medium leading-relaxed">
+                    The materials appearing on malaysiamenu.my's website could include technical, typographical, or photographic errors. While we strive for absolute accuracy, we do not warrant that any of the materials on our website are 100% accurate, complete, or current. We may make changes to the materials contained on our website at any time without notice.
+                </p>
+
+                <h2 class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight">Governing Law</h2>
+                <p class="text-sm md:text-lg text-slate-600 mb-12 text-center font-medium leading-relaxed">
+                    These terms and conditions are governed by and construed in accordance with the laws of Malaysia and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
+                </p>
+
+                <h2 class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight">Contact Us</h2>
+                <p class="text-sm md:text-lg text-slate-600 text-center font-medium leading-relaxed">
+                    If you have any questions about our Terms and Conditions, please contact us at <a href="mailto:contact@malaysiamenu.my" class="text-yellow-600 hover:text-yellow-700 font-black underline underline-offset-4">contact@malaysiamenu.my</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+</Layout>

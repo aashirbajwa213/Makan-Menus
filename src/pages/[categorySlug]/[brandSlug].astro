@@ -1,0 +1,729 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Schema from "../../components/Schema.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import BackToTop from "../../components/BackToTop.astro";
+import { brandMocks } from "../../data/mockBrands";
+import { blogPosts } from "../../data/blogs";
+
+export async function getStaticPaths() {
+  const categories = Object.keys(brandMocks);
+  const paths = categories.flatMap((catSlug) => {
+    const brands = brandMocks[catSlug];
+    return brands.map((brand) => ({
+      params: {
+        categorySlug: catSlug,
+        brandSlug: `${brand.slug}-menu`,
+      },
+      props: { brand },
+    }));
+  });
+  return paths;
+}
+
+const { brand } = Astro.props;
+
+// Get unique categories from menu items for the filter bar
+const menuCategories = brand.menu
+  ? [...new Set(brand.menu.map((item: any) => item.category))]
+  : [];
+
+// Extract unique Menu Types (e.g., Breakfast vs Regular), if any
+const menuTypes = brand.menu
+  ? [...new Set(brand.menu.map((item: any) => item.menuType).filter(Boolean))]
+  : [];
+
+// --- Internal Linking Logic ---
+// 1. Related Brands (Same Category)
+const relatedBrands = brandMocks[brand.category]
+  ? brandMocks[brand.category]
+      .filter((b: any) => b.slug !== brand.slug)
+      .slice(0, 4)
+  : [];
+
+// 2. Related Guides (Blogs mentioning this brand)
+const relatedGuides = blogPosts
+  .filter((post) => post.content.includes(brand.name) || post.title.includes(brand.name))
+  .slice(0, 3);
+
+// Helper to find which menu types a category belongs to
+const getCategoryMenuTypes = (category: string) => {
+  if (!brand.menu || menuTypes.length === 0) return "";
+  const items = brand.menu.filter((item: any) => item.category === category);
+  return [
+    ...new Set(items.map((item: any) => item.menuType).filter(Boolean)),
+  ].join(",");
+};
+
+// If menu is empty, show a coming soon state
+const hasMenu = brand.menu && brand.menu.length > 0;
+
+// Default SEO Article Fallback
+const defaultArticle = `
+  <h2>${brand.name} Menu Malaysia Overview</h2>
+  <p>The ${brand.name} menu in Malaysia offers a wide range of flavor-packed options designed to satisfy your cravings. From signature classics to seasonal promotions, this brand has established itself as a go-to destination for quality dining across the country.</p>
+  
+  <h2>Latest ${brand.name} Menu Updates 2026</h2>
+  <p>We monitor ${brand.name} outlets nationwide to bring you the most accurate pricing. Whether you are in Kuala Lumpur, Penang, or Johor Bahru, our guide ensures you have the latest updates on your favorite meals in 2026.</p>
+  
+  <h2>Why Choose ${brand.name} in Malaysia?</h2>
+  <p>${brand.name} is known for its commitment to quality and service. With consistent growth and an expanding presence, it continues to be a favorite choice for individuals and families looking for a great meal at a fair price.</p>
+`;
+
+const articleContent = brand.seoArticle || defaultArticle;
+
+// --- Schema Markup ---
+const siteUrl = "https://malaysiamenu.my";
+const pageUrl = `${siteUrl}/${brand.category}/${brand.slug}-menu/`;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": brand.category.replace(/-/g, ' '), "item": `${siteUrl}/${brand.category}/` },
+    { "@type": "ListItem", "position": 3, "name": brand.name, "item": pageUrl }
+  ]
+};
+
+// Group menu items by category for the schema
+const schemaGroups = hasMenu ? brand.menu.reduce((acc: any, item: any) => {
+  if (!acc[item.category]) acc[item.category] = [];
+  acc[item.category].push(item);
+  return acc;
+}, {}) : {};
+
+const foodEstSchema = {
+  "@context": "https://schema.org",
+  "@type": "FoodEstablishment",
+  "name": brand.name,
+  "description": brand.desc,
+  "image": brand.image,
+  "url": pageUrl,
+  "priceRange": "$$",
+  "hasMenu": {
+    "@type": "Menu",
+    "name": `${brand.name} Menu`,
+    "hasMenuSection": Object.keys(schemaGroups).map(catName => ({
+      "@type": "MenuSection",
+      "name": catName,
+      "hasMenuItem": schemaGroups[catName].map((item: any) => ({
+        "@type": "MenuItem",
+        "name": item.name,
+        "description": item.description,
+        "offers": {
+          "@type": "Offer",
+          "price": item.price.replace(/[^\d.-]/g, ''),
+          "priceCurrency": "MYR"
+        }
+      }))
+    }))
+  }
+};
+---
+<Layout
+  title={`${brand.name} Menu Price Malaysia 2026 | Official Updated List`}
+  description={`Check the latest ${brand.name} menu in Malaysia for 2026. Verified price list, signature dishes, and official updates.`}
+  ogImage={brand.image}
+>
+  <Schema item={[breadcrumbSchema, foodEstSchema]} />
+  
+  <Breadcrumbs items={[
+    { name: 'Categories', href: '/categories/' },
+    { name: brand.category.replace(/-/g, ' '), href: `/${brand.category}/` },
+    { name: brand.name }
+  ]} />
+
+  {/* Brand Hero */}
+  <section class="relative pt-32 pb-24 md:pt-48 md:pb-40 overflow-hidden bg-slate-900">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-slate-900/40 to-slate-900/90 z-10"></div>
+      <img
+        src={brand.image}
+        alt={`${brand.name} Full Menu Prices Malaysia 2026`}
+        class="w-full h-full object-cover opacity-60 scale-105"
+      />
+    </div>
+
+    <div class="relative z-20 max-w-[1000px] mx-auto px-4 flex flex-col items-center text-center">
+      <div class="inline-flex items-center gap-3 mb-8 bg-yellow-400 text-slate-900 border border-yellow-500 px-5 py-2.5 rounded-full shadow-[0_0_30px_rgba(234,179,8,0.3)] transform -rotate-1">
+        <span class="w-2 h-2 rounded-full bg-slate-900 animate-pulse"></span>
+        <span class="text-[10px] md:text-sm font-black uppercase tracking-widest italic">✓ Verified April 2026 Edition</span>
+      </div>
+
+      <h1 class="text-4xl md:text-6xl lg:text-[72px] font-black text-white mb-8 uppercase tracking-tighter leading-[0.95] drop-shadow-2xl">
+        {brand.name} <br /><span class="text-yellow-400">Menu & Prices</span>
+      </h1>
+
+      <p class="text-sm md:text-xl text-white/90 mb-0 mx-auto font-medium leading-relaxed max-w-2xl text-center drop-shadow-md">
+        Explore the most updated {brand.name} official price list in Malaysia for 2026. Verified signature dishes and current promos.
+      </p>
+    </div>
+  </section>
+
+  {/* Sticky Filter & Menu Section */}
+  <section class="py-[70px] bg-white" id="menu-section">
+    <div class="max-w-[1100px] mx-auto px-4">
+      {
+        hasMenu && (
+          <>
+            {/* Dedicated Menu Type Filter (Only if 2+ types exist, e.g., Breakfast vs Regular) */}
+            {menuTypes.length > 1 && (
+              <div class="max-w-[1100px] mx-auto px-4 mb-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {menuTypes.map((type: any) => (
+                    <button 
+                      class="type-btn bg-white border-2 border-slate-100 text-slate-600 font-black py-4 px-6 rounded-2xl shadow-sm transition-all hover:border-yellow-400 hover:bg-slate-50 flex items-center justify-center text-center text-lg"
+                      data-menu-type={type}
+                    >
+                      {type}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+
+          {/* Unified Filter Bar with Arrows (Categories) */}
+          <div class="sticky top-16 md:top-[72px] z-40 bg-white/90 backdrop-blur-md border-b border-slate-100 mb-12 -mx-4 px-4 group/filters">
+              <div class="relative max-w-[1100px] mx-auto">
+                <button
+                  id="scroll-left"
+                  class="absolute left-0 top-1/2 -translate-y-1/2 z-50 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.15)] rounded-full p-2.5 text-slate-900 border-2 border-slate-100 opacity-0 invisible transition-all hover:scale-110 active:scale-95 hover:border-yellow-400"
+                  aria-label="Scroll Left"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+
+                <button
+                  id="scroll-right"
+                  class="absolute right-0 top-1/2 -translate-y-1/2 z-50 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.15)] rounded-full p-2.5 text-slate-900 border-2 border-slate-100 opacity-0 invisible transition-all hover:scale-110 active:scale-95 hover:border-yellow-400"
+                  aria-label="Scroll Right"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+
+                <div class="overflow-x-auto no-scrollbar py-4" id="category-scroll-container">
+                  <div class="flex items-center gap-3 min-w-max px-2" id="category-filter-container">
+                    <button class="filter-btn bg-black text-yellow-400 font-bold py-2 px-5 rounded-lg shadow-md transition-all active text-sm" data-category="all" data-menu-types="">
+                      All Items
+                    </button>
+
+                    {/* Integrated Categories */}
+                    {menuCategories.map((cat: any) => (
+                      <button 
+                        class="filter-btn bg-slate-50 text-slate-600 hover:bg-yellow-400 hover:text-slate-900 font-bold py-2 px-5 rounded-lg transition-all text-sm"
+                        data-category={cat}
+                        data-menu-types={getCategoryMenuTypes(cat as string)}
+                      >
+                        {cat}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Menu Items Grid */}
+            <div class="grid grid-cols-2 gap-3 md:gap-6" id="menu-grid">
+              {brand.menu.map((item: any) => (
+                <div
+                  class="menu-item group bg-slate-50 rounded-xl p-3 md:p-6 border border-slate-100 hover:border-yellow-400 hover:bg-white hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center h-full"
+                  data-category={item.category}
+                  data-menu-type={item.menuType || ""}
+                >
+                  <div class="flex flex-col items-center gap-1 mb-2">
+                    <h3 class="text-sm md:text-lg font-black text-black group-hover:text-yellow-600 transition-colors leading-tight line-clamp-2">
+                      {item.name}
+                    </h3>
+                  </div>
+                  <p class="text-slate-500 font-medium leading-tight text-[10px] md:text-sm line-clamp-2 flex-grow text-center">
+                    {item.description}
+                  </p>
+                  <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
+                    <span class="bg-yellow-400 text-slate-900 font-black px-2 py-1 rounded-lg text-xs md:text-base shadow-sm whitespace-nowrap">
+                      {item.price}
+                    </span>
+                    <span class="text-[9px] md:text-[10px] font-black uppercase tracking-wider bg-slate-200 text-slate-600 px-2 py-0.5 rounded shrink-0">
+                      {item.category}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )
+      }
+    </div>
+  </section>
+
+  {/* Standardized Information Sections */}
+      <section class="border-t border-slate-100 py-[70px]">
+        <div class="max-w-[1000px] mx-auto px-4">
+          <div class="text-center mb-[70px]">
+            <h2 class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight">
+              Detailed {brand.name} Menu Guide
+            </h2>
+            <div class="space-y-6 text-base text-slate-600 leading-relaxed max-w-2xl mx-auto opacity-80">
+              <p>
+                Welcome to the most comprehensive guide for {brand.name} Menu Prices in Malaysia for 2026. Whether you are planning a family dinner or looking for a quick lunch, knowing the latest pricing is essential for budgeting and a smooth dining experience.
+              </p>
+              <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-2xl text-center">
+                <p class="text-slate-800 italic text-center">
+                  "Our team updates these prices daily by cross-referencing official delivery platforms and physical store visits to guarantee 99% accuracy for {brand.name}."
+                </p>
+              </div>
+              <div class="seo-article-content mt-12 text-center" set:html={articleContent} />
+            </div>
+          </div>
+
+          <div class="mt-20 border-t border-slate-100 pt-[70px]">
+            <h2 class="text-2xl md:text-4xl font-black text-black mb-12 text-center uppercase tracking-tight">
+              Nutrition & Quality at {brand.name}
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div class="space-y-6 text-slate-600">
+                <p class="text-lg">
+                  For health-conscious diners, understanding the nutritional value of your meal is key. {brand.name} Malaysia provides general calorie and allergen information for most of its signature items.
+                </p>
+                <ul class="space-y-3 list-none">
+                  <li class="flex items-start gap-3">
+                    <span class="text-yellow-500 font-bold">✓</span>
+                    <span><strong>Calorie Counts:</strong> Most standard meals range between 450-900 kcal.</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-yellow-500 font-bold">✓</span>
+                    <span><strong>Allergen Info:</strong> Reports on gluten, dairy, and nuts are usually available at the main counter.</span>
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-yellow-500 font-bold">✓</span>
+                    <span><strong>Quality Control:</strong> All ingredients follow strict local food safety and JAKIM guidelines where applicable.</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="bg-slate-900 p-8 rounded-[2rem] text-white shadow-xl relative overflow-hidden group">
+                <div class="absolute -right-4 -top-4 w-32 h-32 bg-yellow-400/10 rounded-full blur-3xl"></div>
+                <h3 class="text-xl font-black text-yellow-400 mb-4 uppercase">Healthy Ordering Tip</h3>
+                <p class="text-slate-300 italic text-lg leading-relaxed">
+                  "Try swapping fries for a side salad or opting for zero-sugar beverages to reduce the overall calorie count of your combo meal at {brand.name}."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-20 border-t border-slate-100 pt-[70px]">
+             <h2 class="text-2xl md:text-4xl font-black text-black mb-12 text-center uppercase tracking-tight">
+              How to Order {brand.name} Delivery
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              {[
+                { name: "GrabFood", color: "text-green-600", desc: "Best for express delivery in urban centers like KL and Penang." },
+                { name: "Foodpanda", color: "text-pink-600", desc: "Widest coverage across East and West Malaysia with great deals." },
+                { name: "Official App", color: "text-blue-600", desc: "Direct ordering for loyalty points and app-exclusive rewards." }
+              ].map(app => (
+                <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 hover:border-yellow-400 transition-all hover:shadow-lg text-center flex flex-col items-center">
+                  <div class={`text-2xl font-black mb-3 ${app.color}`}>{app.name}</div>
+                  <p class="text-slate-500 text-sm font-medium">{app.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div class="max-w-[850px] mx-auto mt-20 border-t border-slate-100 pt-[70px]">
+            <div class="text-center mb-12">
+              <h2 class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight">
+                {brand.name} FAQs
+              </h2>
+            </div>
+            
+            <div class="space-y-4">
+              {
+                [
+                  {
+                    q: `Are all ${brand.name} restaurants listed here Halal certified?`,
+                    a: "The majority of international and major local chains in Malaysia hold official JAKIM Halal certification. We suggest checking the 'Halal' tag on our brand cards for specific verification.",
+                  },
+                  {
+                    q: `How often are the ${brand.name} prices updated?`,
+                    a: "Our team monitors major restaurant chains weekly. We update prices immediately following nationwide menu launches or promotional price adjustments.",
+                  },
+                  {
+                    q: `Does ${brand.name} offer home delivery in Malaysia?`,
+                    a: `Yes, you can order ${brand.name} via popular delivery services like GrabFood and Foodpanda, or through their official website/app depending on your location.`,
+                  },
+                  {
+                    q: "Does the pricing include SST and Service Charge?",
+                    a: "Standard prices usually exclude the 6% Sales and Service Tax (SST) and 10% Service Charge, unless the menu specifically mentions 'Nett' pricing.",
+                  },
+                  {
+                    q: `Can I customize my ${brand.name} order?`,
+                    a: `Absolutely. Most ${brand.name} outlets allow for ingredient modifications and base swaps. You can specify these preferences at the counter or in the 'Special Instructions' section of delivery apps.`,
+                  },
+                  {
+                    q: `What are the typical operating hours for ${brand.name}?`,
+                    a: "Most outlets operate from 10:00 AM to 10:00 PM daily, though drive-thru locations and those in major shopping malls may have extended or shorter hours.",
+                  }
+                ].map((faq) => (
+                  <details class="group bg-white border border-slate-200 rounded-xl open:bg-yellow-50 open:border-yellow-400 open:shadow-md transition-all duration-300 overflow-hidden cursor-pointer">
+                    <summary class="flex justify-between items-center p-4 md:p-5 font-bold text-black text-base md:text-lg marker:content-none [&::-webkit-details-marker]:hidden select-none outline-none text-center leading-tight">
+                      <span class="mx-auto pl-8">{faq.q}</span>
+                      <span class="transition-transform duration-300 group-open:rotate-180 bg-slate-900 text-yellow-500 rounded-full w-7 h-7 md:w-8 md:h-8 flex items-center justify-center shrink-0 shadow-sm border-2 border-slate-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:h-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                      </span>
+                    </summary>
+                    <div class="px-4 pb-4 md:px-5 md:pb-5 text-slate-600 leading-relaxed font-medium text-sm md:text-base text-center">
+                      <p>{faq.a}</p>
+                    </div>
+                  </details>
+                ))
+              }
+            </div>
+          </div>
+
+          {/* Related Content & Internal Linking */}
+          <div class="mt-20 border-t border-slate-100 pt-[70px]">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+              
+              {/* Related Brands Column */}
+              {relatedBrands.length > 0 && (
+                <div>
+                  <h3 class="text-xl md:text-2xl font-black text-black mb-8 uppercase tracking-tight">People Also Viewed</h3>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {relatedBrands.map((b: any) => (
+                      <a href={`/${b.category}/${b.slug}-menu/`} class="group flex items-center gap-4 p-3 rounded-2xl bg-white border border-slate-100 hover:border-yellow-400 hover:shadow-md transition-all">
+                        <div class="w-14 h-14 rounded-xl overflow-hidden shadow-sm">
+                          <img src={b.image} alt={b.name} class="w-full h-full object-cover group-hover:scale-110 transition-transform" />
+                        </div>
+                        <div>
+                          <span class="block font-bold text-black group-hover:text-yellow-600 transition-colors leading-tight">{b.name}</span>
+                          <span class="block text-[10px] text-slate-400 font-bold uppercase tracking-wider mt-1">View Menu &rarr;</span>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Related Guides Column */}
+              {relatedGuides.length > 0 && (
+                <div>
+                  <h3 class="text-xl md:text-2xl font-black text-black mb-8 uppercase tracking-tight">Expert Food Guides</h3>
+                  <div class="space-y-4">
+                    {relatedGuides.map((guide) => (
+                      <a href={`/blogs/${guide.slug}/`} class="group flex flex-col p-4 rounded-2xl bg-slate-50 border border-transparent hover:border-yellow-400 hover:bg-white transition-all">
+                        <span class="text-[10px] font-bold text-yellow-600 uppercase tracking-widest mb-2">{guide.category}</span>
+                        <h4 class="font-bold text-black group-hover:text-yellow-500 transition-colors leading-tight mb-2">{guide.title}</h4>
+                        <p class="text-xs text-slate-500 line-clamp-2 leading-relaxed">{guide.excerpt}</p>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Site-Wide Value Links */}
+          <div class="mt-[70px] bg-slate-900 rounded-[3rem] p-12 text-center relative overflow-hidden">
+            <div class="absolute inset-0 z-0 opacity-10 bg-[radial-gradient(circle_at_center,rgba(234,179,8,1),transparent_70%)]"></div>
+            <div class="relative z-10">
+              <h2 class="text-2xl md:text-3xl font-black text-white mb-6">Explore More Categories</h2>
+              <div class="flex flex-wrap justify-center gap-3">
+                {['fast-food', 'coffee-bakeries', 'local-asian', 'teas-desserts'].map(cat => (
+                  <a href={`/${cat}/`} class="px-6 py-3 rounded-xl bg-white/10 hover:bg-yellow-400 hover:text-slate-900 border border-white/10 text-white font-bold transition-all capitalize text-sm">
+                    {cat.replace(/-/g, ' ')}
+                  </a>
+                ))}
+                <a href="/categories/" class="px-6 py-3 rounded-xl bg-yellow-400 text-slate-900 font-black hover:bg-white transition-all text-sm shadow-lg">
+                  View All &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+  {/* Client Side Filtering Logic */}
+  <script is:inline>
+    // Execute after DOM paints
+    document.addEventListener("DOMContentLoaded", () => {
+      const typeBtns = document.querySelectorAll(".type-btn");
+      const filterBtns = document.querySelectorAll(".filter-btn");
+      const menuItems = document.querySelectorAll(".menu-item");
+
+      const scrollContainer = document.getElementById(
+        "category-scroll-container",
+      );
+      const leftArrow = document.getElementById("scroll-left");
+      const rightArrow = document.getElementById("scroll-right");
+
+      // --- Filter Initialization Logic ---
+      // User requested: Default filter should be the first one AFTER "All Items"
+      let currentMenuType = "";
+      let currentCategory = "all";
+
+      // 1. Check if there are specific "Menu Types" (e.g. Drinks, Breakfast)
+      if (typeBtns.length > 0) {
+        currentMenuType = typeBtns[0].getAttribute("data-menu-type");
+        
+        // Find first valid category for this type (bypassing "All Items" at index 0)
+        for (let i = 1; i < filterBtns.length; i++) {
+          const btnTypes = filterBtns[i].getAttribute("data-menu-types");
+          if (!btnTypes || btnTypes.includes(currentMenuType)) {
+             currentCategory = filterBtns[i].getAttribute("data-category");
+             break;
+          }
+        }
+      } 
+      // 2. Otherwise, check if there are specific Categories
+      else if (filterBtns.length > 1) {
+        // filterBtns[0] is always "All Items", so we pick filterBtns[1]
+        currentCategory = filterBtns[1].getAttribute("data-category");
+      }
+
+      // Handle Arrow Visibility
+      const updateArrows = () => {
+        if (!scrollContainer || !leftArrow || !rightArrow) return;
+
+        const scrollLeft = scrollContainer.scrollLeft;
+        const maxScroll =
+          scrollContainer.scrollWidth - scrollContainer.clientWidth;
+
+        // Show left arrow if scrolled
+        if (scrollLeft > 2) {
+          leftArrow.classList.remove("opacity-0", "invisible");
+          leftArrow.classList.add("opacity-100", "visible");
+        } else {
+          leftArrow.classList.add("opacity-0", "invisible");
+          leftArrow.classList.remove("opacity-100", "visible");
+        }
+
+        // Show right arrow if more to scroll
+        if (scrollLeft < maxScroll - 2) {
+          rightArrow.classList.remove("opacity-0", "invisible");
+          rightArrow.classList.add("opacity-100", "visible");
+        } else {
+          rightArrow.classList.add("opacity-0", "invisible");
+          rightArrow.classList.remove("opacity-100", "visible");
+        }
+      };
+
+      // Click to scroll (Smooth & responsive)
+      leftArrow?.addEventListener("click", () => {
+        scrollContainer.scrollBy({ left: -250, behavior: "smooth" });
+      });
+
+      rightArrow?.addEventListener("click", () => {
+        scrollContainer.scrollBy({ left: 250, behavior: "smooth" });
+      });
+
+      scrollContainer?.addEventListener("scroll", updateArrows);
+      
+      // Force initial arrow check after a short delay for layout calculation
+      setTimeout(updateArrows, 200);
+;
+
+      // Primary function to evaluate and render DOM visibility based on twin-states
+      const renderFiltering = () => {
+        let firstVisibleCategory = null;
+
+        // Pass 1: Handle Category Button Visibility
+        filterBtns.forEach((btn) => {
+          const btnTypes = btn.getAttribute("data-menu-types");
+          if (
+            currentMenuType &&
+            btnTypes &&
+            !btnTypes.includes(currentMenuType)
+          ) {
+            btn.style.display = "none";
+          } else {
+            btn.style.display = "inline-block";
+            if (!firstVisibleCategory)
+              firstVisibleCategory = btn.getAttribute("data-category");
+          }
+        });
+
+        // Update arrows after potentially hiding/showing categories
+        setTimeout(updateArrows, 50);
+
+        // Styling Update: Handle visual state for both tiers independently
+        
+        // Tier 1: Menu Types
+        typeBtns.forEach((b) => {
+          if (b.getAttribute("data-menu-type") === currentMenuType) {
+            b.classList.add("border-yellow-400", "bg-yellow-50", "text-yellow-700");
+            b.classList.remove("border-slate-100", "bg-white", "text-slate-600");
+          } else {
+            b.classList.remove("border-yellow-400", "bg-yellow-50", "text-yellow-700");
+            b.classList.add("border-slate-100", "bg-white", "text-slate-600");
+          }
+        });
+
+        // Tier 2: Categories
+        filterBtns.forEach((b) => {
+           b.classList.remove("active", "bg-black", "text-yellow-400", "shadow-md");
+           b.classList.add("bg-slate-50", "text-slate-600");
+        });
+
+        const activeCatBtn = Array.from(filterBtns).find(b => b.getAttribute("data-category") === currentCategory);
+        if (activeCatBtn) {
+          activeCatBtn.classList.add("active", "bg-black", "text-yellow-400", "shadow-md");
+          activeCatBtn.classList.remove("bg-slate-50", "text-slate-600");
+        }
+
+        // If the current category is now hidden because of menu switch, auto-switch to first valid category
+        const activeBtn = Array.from(filterBtns).find(
+          (btn) => btn.getAttribute("data-category") === currentCategory,
+        );
+        if (activeBtn && activeBtn.style.display === "none") {
+          currentCategory = firstVisibleCategory;
+          // Re-trigger styling after auto-switch
+          return renderFiltering();
+        }
+
+        // Pass 2: Handle Menu Items Display
+        menuItems.forEach((item) => {
+          const itemCat = item.getAttribute("data-category");
+          const itemType = item.getAttribute("data-menu-type");
+
+          let typeMatch = true;
+          if (currentMenuType && itemType) {
+            typeMatch = itemType === currentMenuType;
+          }
+
+          const categoryMatch =
+            currentCategory === "all" || itemCat === currentCategory;
+
+          if (categoryMatch && typeMatch) {
+            if (item.style.display !== "block") {
+              item.style.display = "block";
+              item.animate(
+                [
+                  { transform: "translateY(10px)", opacity: 0 },
+                  { transform: "translateY(0)", opacity: 1 },
+                ],
+                { duration: 300, easing: "ease-out" },
+              );
+            }
+          } else {
+            item.style.display = "none";
+          }
+        });
+      };
+
+      // Event Listeners for Integrated Menu Types
+      typeBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const type = btn.getAttribute("data-menu-type");
+          if (currentMenuType === type) {
+            currentMenuType = ""; // Toggle off
+          } else {
+            currentMenuType = type;
+            // When switching types, find first valid specific category for that type
+            let found = false;
+            for (let i = 1; i < filterBtns.length; i++) {
+              const btnTypes = filterBtns[i].getAttribute("data-menu-types");
+              if (!btnTypes || btnTypes.includes(type)) {
+                 currentCategory = filterBtns[i].getAttribute("data-category");
+                 found = true;
+                 break;
+              }
+            }
+            if (!found) currentCategory = "all";
+          }
+          renderFiltering();
+        });
+      });
+
+      // Event Listeners for Categories
+      filterBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const cat = btn.getAttribute("data-category");
+          currentCategory = cat;
+          
+          // Reset Menu Type if "All Items" is clicked
+          if (cat === "all") {
+            currentMenuType = "";
+          }
+          
+          // If a category is selected, ensure its corresponding type is also active if hidden
+          const btnTypes = btn.getAttribute("data-menu-types");
+          if (btnTypes && currentMenuType && !btnTypes.includes(currentMenuType)) {
+             currentMenuType = btnTypes.split(',')[0]; 
+          }
+          
+          renderFiltering();
+        });
+      });
+
+      // Initial Render Paint
+      renderFiltering();
+
+      // Monitor window size for arrow visibility
+      window.addEventListener("resize", updateArrows);
+    });
+  </script>
+
+  <style is:global>
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* SEO Article Custom Formatting to match Homepage Typography */
+    .seo-article-content h2 {
+      font-size: 1.5rem; /* text-2xl */
+      line-height: 2rem;
+      font-weight: 900;
+      color: #000000;
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      .seo-article-content h2 {
+        font-size: 2.25rem; /* text-4xl */
+        line-height: 2.5rem;
+      }
+    }
+    .seo-article-content h3 {
+      font-size: 1.25rem; /* text-xl */
+      font-weight: 900;
+      color: #000000;
+      margin-top: 3.5rem;
+      margin-bottom: 1.25rem;
+    }
+    .seo-article-content p {
+      font-size: 1rem; /* text-base */
+      line-height: 1.625; /* leading-relaxed */
+      color: #475569; /* text-slate-600 */
+      margin-bottom: 1.5rem;
+    }
+    .seo-article-content ul {
+      margin-bottom: 2rem;
+      padding-left: 1.5rem;
+      list-style-type: disc;
+    }
+    .seo-article-content li {
+      font-size: 1rem;
+      color: #475569;
+      margin-bottom: 0.75rem;
+    }
+  </style>
+
+  <div class="bg-white pb-[70px]">
+    <div class="max-w-[1000px] mx-auto px-4">
+    </div>
+  </div>
+
+  <BackToTop />
+</Layout>

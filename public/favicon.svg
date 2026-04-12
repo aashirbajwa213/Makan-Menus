@@ -1,0 +1,5 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="56" fill="#000000" />
+  <!-- A hand-drawn heavy geometric M path matching the vibe of Poppins font-black -->
+  <path d="M 60 190 L 60 76 L 100 76 L 128 140 L 156 76 L 196 76 L 196 190 L 160 190 L 160 115 L 135 174 L 121 174 L 96 115 L 96 190 Z" fill="#FACC15" />
+</svg>

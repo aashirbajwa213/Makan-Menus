@@ -1,0 +1,18 @@
+---
+/**
+ * Schema.astro
+ * Reusable component to inject JSON-LD Structured Data
+ */
+
+interface Props {
+  item: object | object[];
+}
+
+const { item } = Astro.props;
+
+// Ensure we have an array for consistent processing if desired, 
+// though single objects are most common for @context.
+const schema = JSON.stringify(item, null, 2);
+---
+
+<script type="application/ld+json" set:html={schema} />

@@ -1,0 +1,323 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Schema from '../components/Schema.astro';
+import { blogPosts } from '../data/blogs';
+
+const categories = [
+  { name: 'Fast Food & Burgers', slug: 'fast-food', icon: '🍔', color: 'bg-red-50 text-red-600 border-red-100' },
+  { name: 'Coffee & Bakeries', slug: 'coffee-bakeries', icon: '☕', color: 'bg-orange-50 text-orange-700 border-orange-100' },
+  { name: 'Local & Asian', slug: 'local-asian', icon: '🍚', color: 'bg-emerald-50 text-emerald-600 border-emerald-100' },
+  { name: 'Teas & Desserts', slug: 'teas-desserts', icon: '🧋', color: 'bg-purple-50 text-purple-600 border-purple-100' },
+  { name: 'Japanese & Korean', slug: 'japanese-korean', icon: '🍣', color: 'bg-indigo-50 text-indigo-600 border-indigo-100' },
+  { name: 'Pizza & Italian', slug: 'pizza-italian', icon: '🍕', color: 'bg-yellow-50 text-yellow-600 border-yellow-100' },
+  { name: 'Western & Grilled', slug: 'western-grilled', icon: '🥩', color: 'bg-blue-50 text-blue-600 border-blue-100' },
+  { name: 'Convenience Stores', slug: 'convenience-stores', icon: '🏪', color: 'bg-cyan-50 text-cyan-600 border-cyan-100' },
+  { name: 'Buffet & Fine Dining', slug: 'buffet-dining', icon: '🍽️', color: 'bg-teal-50 text-teal-600 border-teal-100' },
+  { name: 'Sandwiches & Health', slug: 'sandwiches-health', icon: '🥪', color: 'bg-lime-50 text-lime-700 border-lime-100' },
+  { name: 'Specialty Burgers', slug: 'specialty-burgers', icon: '🍔', color: 'bg-rose-50 text-rose-600 border-rose-100' }
+];
+
+const trending = [
+    { name: "McDonald's", category: "Fast Food", url: "/fast-food/mcdonalds-menu/", img: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&q=80&w=600&h=400", tags: ["Halal", "Popular"] },
+    { name: "Chagee", category: "Teas & Desserts", url: "/teas-desserts/chagee-menu/", img: "/images/chagee.png", tags: ["Halal", "Trending"] },
+    { name: "KFC", category: "Fast Food", url: "/fast-food/kfc-menu/", img: "https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?auto=format&fit=crop&q=80&w=600&h=400", tags: ["Halal"] },
+    { name: "Starbucks", category: "Coffee & Bakeries", url: "/coffee-bakeries/starbucks-menu/", img: "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&q=80&w=600&h=400", tags: ["Coffee", "Wifi"] },
+    { name: "ZUS Coffee", category: "Coffee & Bakeries", url: "/coffee-bakeries/zus-coffee-menu/", img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600&h=400", tags: ["Local Hero", "Trending"] },
+    { name: "Texas Chicken", category: "Fast Food", url: "/fast-food/texas-chicken-menu/", img: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=600&h=400", tags: ["Halal", "Boss"] },
+];
+
+const blogs = blogPosts.slice(0, 3);
+
+// --- Schema Markup ---
+const siteUrl = "https://malaysiamenu.my";
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Malaysia Menu",
+  "url": siteUrl,
+  "logo": `${siteUrl}/favicon.svg`,
+  "description": "Malaysia's largest directory for restaurant menus, accurate prices, and Halal-verified dining options."
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Malaysia Menu",
+  "url": siteUrl,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": `${siteUrl}/search/?q={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  }
+};
+
+const faqs = [
+  {
+    q: "Are the menu prices listed here accurate?",
+    a: "We strive to provide the most updated menus and verify them daily. However, prices can occasionally vary slightly by location (e.g., airports, malls or delivery platforms) and are subject to unannounced changes by the restaurant."
+  },
+  {
+    q: "How do you verify if a restaurant is Halal?",
+    a: "We strictly rely on official JAKIM certifications and public brand statements. For popular pork-free and Muslim-owned eateries that haven't received official certification yet, we clearly add a specific 'Pork-Free' or 'Muslim-Owned' badge."
+  },
+  {
+    q: "Can I order food delivery directly from Malaysia Menu?",
+    a: "Currently, Malaysia Menu acts as a comprehensive discovery directory. We do not process food delivery directly, but we help you find the best dishes and prices before you launch apps like GrabFood or foodpanda."
+  },
+  {
+    q: "Is it completely free to use this directory?",
+    a: "Yes, 100% free! Our platform is built by foodies, for foodies. You can search, browse, and read all our dining guides without ever paying a subscription fee or signing up for a premium account."
+  },
+  {
+    q: "Is MalaysiaMenu.my affiliated with these restaurants?",
+    a: "No, we are a completely independent directory designed to help foodies find prices and menus easily in one place. All brand names, logos, and trademarks belong to their respective corporate owners."
+  }
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.a
+    }
+  }))
+};
+---
+
+<Layout 
+  title="Malaysia Menu: Latest Restaurant Menus & Prices 2026" 
+  description="Discover the most updated and accurate restaurant menus and prices in Malaysia. Verified Halal status, new dishes, and hidden deals for 2026."
+>
+  <Schema item={[organizationSchema, websiteSchema, faqSchema]} />
+  
+  {/* Hero Section */}
+  <section class="relative pt-[134px] md:pt-[142px] pb-[70px] flex items-center justify-center min-h-[600px] overflow-hidden">
+    <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0 bg-slate-900/85 mix-blend-multiply z-10"></div>
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Popular Restaurant Menus and Prices in Malaysia for 2026" class="w-full h-full object-cover" />
+    </div>
+    
+    <div class="relative z-20 max-w-[950px] mx-auto px-4 text-center mt-6 md:mt-8">
+      <span class="inline-block py-1 px-3 rounded-full bg-yellow-400 text-slate-900 font-bold text-[10px] md:text-xs mb-4 md:mb-5 border border-yellow-500 shadow-sm">Updated Daily for 2026</span>
+      <h1 class="text-3xl md:text-5xl lg:text-[54px] font-black text-white mb-5 leading-[1.15] max-w-4xl mx-auto">
+        Malaysia's Largest <br class="hidden sm:block"/><span class="text-yellow-400 drop-shadow-md">Restaurant Menu Directory</span>
+      </h1>
+      <p class="text-sm md:text-lg text-slate-200 mb-8 md:mb-10 mx-auto font-medium leading-relaxed max-w-2xl opacity-90">
+        Find accurate prices, hidden dishes, and verified halal options for over 100+ top restaurants across the country. Updated daily by our community.
+      </p>
+      
+      {/* Search Bar */}
+      <form action="/search" method="get" class="max-w-[700px] mx-auto bg-white p-1 rounded-2xl shadow-[0_0_40px_rgba(251,191,36,0.3)] flex flex-col sm:flex-row items-center relative z-30 gap-2 sm:gap-0">
+        <div class="hidden sm:flex pl-4 text-slate-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+        </div>
+        <input type="text" name="q" required placeholder="Search for McDonald's..." class="w-full py-3 px-4 text-slate-800 focus:outline-none bg-transparent text-base md:text-lg font-medium" />
+        <button type="submit" class="w-full sm:w-auto bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-bold py-3 px-8 rounded-xl transition-all shadow-lg hover:shadow-yellow-400/50 whitespace-nowrap">
+          Find Menu
+        </button>
+      </form>
+      
+      <div class="flex flex-wrap justify-center gap-3 mt-8 font-medium">
+        <span class="text-sm text-yellow-400 font-bold">Popular Searches:</span>
+        <a href="/search/?q=Fast+Food" class="text-sm text-white hover:text-yellow-400 transition-colors">Fast Food</a>
+        <a href="/search/?q=KFC+Menu" class="text-sm text-white hover:text-yellow-400 transition-colors">KFC Menu</a>
+        <a href="/search/?q=Coffee" class="text-sm text-white hover:text-yellow-400 transition-colors">Coffee</a>
+        <a href="/search/?q=Halal" class="text-sm text-white hover:text-yellow-400 transition-colors">Halal</a>
+      </div>
+    </div>
+  </section>
+
+  {/* Categories Section */}
+  <section class="py-[70px] bg-slate-50">
+    <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-4xl font-black text-black mb-4 text-center">Explore by Category</h2>
+        <p class="text-slate-600 mx-auto text-base max-w-2xl leading-relaxed text-center">
+          Browse menus by your favorite cuisine or category to find exactly what you're craving today. Meticulously organized for seamless discovery.
+        </p>
+      </div>
+      
+      <div class="flex flex-wrap justify-center gap-3 md:gap-6">
+        {categories.map(cat => (
+          <a href={`/${cat.slug}/`} class="w-[calc(50%-0.75rem)] md:w-[calc(25%-1.5rem)] group relative bg-white border border-slate-100 p-6 rounded-3xl hover:border-yellow-400 transition-all duration-300 transform hover:-translate-y-1.5 shadow-sm hover:shadow-xl overflow-hidden">
+            <div class={cat.color + " w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-5 mx-auto group-hover:scale-110 transition-transform shadow-sm border border-transparent"}>
+              {cat.icon}
+            </div>
+            <h3 class="font-black text-black group-hover:text-yellow-500 transition-colors text-center text-base leading-tight mb-2">{cat.name}</h3>
+            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider text-center">View Menu &rarr;</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {/* Trending Now */}
+  <section id="trending" class="py-[70px] bg-white">
+    <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-4xl font-black text-black mb-4 text-center">Trending Now</h2>
+        <p class="text-slate-600 mx-auto text-base max-w-3xl leading-relaxed text-center">
+          The most searched and viewed restaurant menus in Malaysia this week. Discover what everyone is craving right now.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-8">
+        {trending.map(item => (
+          <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
+            <div class="h-48 overflow-hidden relative">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent z-10"></div>
+              <img src={item.img} alt={`${item.name} Menu Prices Malaysia 2026`} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute bottom-4 left-4 z-20 flex gap-2">
+                {item.tags.map(tag => (
+                   <span class="bg-yellow-400 text-slate-900 text-xs font-black uppercase px-2 py-1 rounded">{tag}</span>
+                ))}
+              </div>
+            </div>
+            <div class="p-3 md:p-6 text-center flex flex-col items-center">
+              <p class="text-[10px] md:text-sm text-yellow-500 font-black mb-1 uppercase tracking-widest">{item.category}</p>
+              <h3 class="text-base md:text-2xl font-bold text-black mb-3 md:mb-4 line-clamp-1">{item.name}</h3>
+              
+              <a href={item.url} class="inline-flex justify-center items-center px-4 md:px-8 w-fit mx-auto bg-slate-900 hover:bg-black text-yellow-400 font-bold py-2 md:py-3 rounded-lg md:rounded-xl transition-colors text-[10px] md:text-base whitespace-nowrap">
+                View Menu
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+      
+      <div class="mt-12 flex justify-center">
+        <a href="/categories/" class="inline-flex text-yellow-500 font-bold hover:text-yellow-400 items-center gap-1 underline text-lg transition-colors">
+          Explore all <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {/* Why Choose Us */}
+  <section class="py-[70px] bg-black text-white">
+    <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-3xl font-black mb-4 text-yellow-400 text-center uppercase tracking-tight">Why Trust Us?</h2>
+        <p class="text-slate-400 mx-auto font-medium text-sm md:text-lg leading-relaxed max-w-3xl text-center opacity-90">
+          We are building the most accurate directory for foodies in Malaysia. Verified prices, hidden dishes, and halal statuses daily.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-3 gap-3 md:gap-8">
+        <div class="aspect-square flex flex-col items-center justify-center text-center bg-neutral-900 p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
+          <div class="w-10 h-10 md:w-16 md:h-16 bg-yellow-400 rounded-lg md:rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-6">
+             <span class="text-xl md:text-3xl">🔄</span>
+          </div>
+          <h3 class="text-xs md:text-2xl font-black mb-1 md:mb-3 text-white uppercase tracking-tighter md:tracking-normal">Updated Daily</h3>
+          <p class="text-[10px] md:text-lg text-slate-400 font-bold opacity-80 leading-tight md:leading-normal">Daily price tracking.</p>
+        </div>
+        <div class="aspect-square flex flex-col items-center justify-center text-center bg-neutral-900 p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
+           <div class="w-10 h-10 md:w-16 md:h-16 bg-yellow-400 rounded-lg md:rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-6">
+             <span class="text-xl md:text-3xl">✅</span>
+          </div>
+          <h3 class="text-xs md:text-2xl font-black mb-1 md:mb-3 text-white uppercase tracking-tighter md:tracking-normal">Halal Verified</h3>
+          <p class="text-[10px] md:text-lg text-slate-400 font-bold opacity-80 leading-tight md:leading-normal">JAKIM & Pork-Free.</p>
+        </div>
+        <div class="aspect-square flex flex-col items-center justify-center text-center bg-neutral-900 p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
+           <div class="w-10 h-10 md:w-16 md:h-16 bg-yellow-400 rounded-lg md:rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-6">
+             <span class="text-xl md:text-3xl">💯</span>
+          </div>
+          <h3 class="text-xs md:text-2xl font-black mb-1 md:mb-3 text-white uppercase tracking-tighter md:tracking-normal">100+ Brands</h3>
+          <p class="text-[10px] md:text-lg text-slate-400 font-bold opacity-80 leading-tight md:leading-normal">Top local favorites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* Blogs Section */}
+  <section class="py-[70px] bg-slate-50">
+     <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight">Foodie Guides</h2>
+        <p class="text-slate-600 mx-auto text-sm md:text-base max-w-2xl leading-relaxed text-center opacity-80">
+          Explore our comprehensive library of hand-picked dining guides, expert tips, and local secrets. Whether you're looking for the best budget eats, hidden restaurant gems, or the latest food trends in Kuala Lumpur and beyond, our detailed guides help you discover the best value for your money every time you dine out.
+        </p>
+      </div>
+
+       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+         {blogs.map(blog => (
+            <a href={`/blogs/${blog.slug}/`} class="group flex flex-col bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
+              {/* Image Container */}
+              <div class="relative h-[180px] overflow-hidden">
+                <img src={blog.image} alt={blog.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              </div>
+
+              {/* Card Body */}
+              <div class="p-6 flex flex-col flex-grow">
+                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">{blog.date}</span>
+                <h3 class="text-lg font-black text-black mb-3 group-hover:text-yellow-500 transition-colors line-clamp-2 leading-tight">
+                  {blog.title}
+                </h3>
+                <p class="text-slate-500 text-xs leading-relaxed mb-6 line-clamp-2">
+                  {blog.excerpt}
+                </p>
+                
+                <div class="mt-auto pt-4 border-t border-slate-50 flex items-center gap-2 text-black font-black text-xs group-hover:text-yellow-500 transition-colors">
+                  <span>Read Guide</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+         ))}
+       </div>
+       
+       <div class="mt-12 flex justify-center">
+        <a href="/blogs" class="inline-flex text-yellow-500 font-bold hover:text-yellow-400 items-center gap-1 underline text-lg transition-colors">
+          View All Guides <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+     </div>
+  </section>
+
+  {/* FAQs */}
+  <section class="py-[70px] bg-slate-50 border-t border-slate-100">
+     <div class="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-2xl md:text-3xl font-black text-black mb-4 uppercase tracking-tight">FAQ</h2>
+            <p class="text-slate-600 mx-auto text-sm md:text-base max-w-2xl leading-relaxed opacity-80">
+              Frequently asked questions about our menu directory.
+            </p>
+        </div>
+        
+        <div class="space-y-3">
+            {
+              [
+                {q: "Are the menu prices accurate?", a: "We verify menus daily, but prices can vary by location or delivery platform."},
+                {q: "How do you verify Halal?", a: "We rely on official JAKIM certifications and verified brand statements."},
+                {q: "Can I order food here?", a: "No, we are a discovery directory. Use apps like GrabFood or foodpanda for ordering."},
+                {q: "Is it free to use?", a: "Yes, 100% free for everyone!"},
+                {q: "Are you affiliated with restaurants?", a: "No, we are independent. Logos belong to their respective owners."}
+              ].map((faq) => (
+                <details class="group bg-white border border-slate-200 rounded-xl open:bg-yellow-50 open:border-yellow-400 transition-all duration-300 overflow-hidden">
+                  <summary class="flex justify-between items-center cursor-pointer p-5 font-bold text-black text-base md:text-lg select-none outline-none">
+                    {faq.q}
+                    <span class="transition-transform duration-300 group-open:rotate-180 bg-slate-900 text-yellow-500 rounded-full w-7 h-7 flex items-center justify-center shrink-0 shadow-sm border-2 border-slate-900">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <div class="px-5 pb-5 text-slate-700 text-sm leading-relaxed opacity-90">
+                    <p>{faq.a}</p>
+                  </div>
+                </details>
+              ))
+            }
+        </div>
+     </div>
+  </section>
+</Layout>

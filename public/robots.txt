@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Disallow internal search results to avoid duplicate content & spam
+Disallow: /search/
+
+# Sitemap location
+Sitemap: https://malaysiamenu.my/sitemap-index.xml

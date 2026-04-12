@@ -1,0 +1,156 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Schema from '../../components/Schema.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { blogPosts, type BlogPost } from '../../data/blogs';
+
+export async function getStaticPaths() {
+  return blogPosts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+interface Props {
+  post: BlogPost;
+}
+
+const { post } = Astro.props;
+
+// --- Schema Markup ---
+const siteUrl = "https://malaysiamenu.my";
+const pageUrl = `${siteUrl}/blogs/${post.slug}/`;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Blogs", "item": `${siteUrl}/blogs/` },
+    { "@type": "ListItem", "position": 3, "name": post.title, "item": pageUrl }
+  ]
+};
+
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": post.title,
+  "description": post.excerpt,
+  "image": post.image,
+  "datePublished": new Date(post.date).toISOString(),
+  "author": {
+    "@type": "Organization",
+    "name": "Malaysia Menu Team",
+    "url": siteUrl
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Malaysia Menu",
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}/favicon.svg`
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": pageUrl
+  }
+};
+---
+
+<Layout 
+  title={`${post.title} | Malaysia Menu Guides 2026`} 
+  description={post.excerpt}
+  ogType="article"
+>
+  <Schema item={[breadcrumbSchema, blogSchema]} />
+  
+  <Breadcrumbs items={[{ name: 'Expert Guides', href: '/blogs/' }, { name: post.title }]} />
+
+  <article class="bg-white">
+    {/* Page Header / Hero - Matches Homepage Hero Spacing */}
+    <header class="relative pt-[134px] md:pt-[142px] pb-[70px] bg-slate-50 border-b border-slate-100 overflow-hidden text-center">
+      <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <div class="flex flex-col items-center max-w-4xl mx-auto">
+          <div class="inline-flex items-center gap-2 mb-8 animate-fade-in">
+            <span class="h-px w-8 bg-yellow-400"></span>
+            <span class="text-xs md:text-sm font-black text-yellow-600 uppercase tracking-[0.2em]">{post.category}</span>
+            <span class="h-px w-8 bg-yellow-400"></span>
+          </div>
+          
+          <h1 class="text-3xl md:text-5xl lg:text-[54px] font-black text-black mb-6 leading-[1.15] tracking-tight">
+            {post.title}
+          </h1>
+          
+          <div class="flex items-center gap-4 text-slate-500 font-bold text-sm mb-12">
+            <time datetime={post.date}>{post.date}</time>
+            <span class="w-1.5 h-1.5 rounded-full bg-slate-200"></span>
+            <span class="uppercase tracking-widest text-[10px]">2026 Edition</span>
+          </div>
+
+          <p class="text-sm md:text-lg text-slate-600 mb-0 font-medium leading-relaxed max-w-2xl mx-auto">
+            {post.excerpt}
+          </p>
+        </div>
+      </div>
+    </header>
+
+    {/* Featured Image */}
+    <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 -mt-8 md:-mt-16 mb-16 relative z-20">
+      <div class="rounded-2xl md:rounded-[2.5rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white aspect-[16/9] md:aspect-[21/9]">
+        <img src={post.image} alt={post.title} class="w-full h-full object-cover" />
+      </div>
+    </div>
+
+    {/* Content Section - Matches Homepage Section Spacing */}
+    <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 py-[70px]">
+      
+      <div class="prose prose-slate max-w-none 
+                    prose-h2:text-2xl prose-h2:md:text-4xl prose-h2:font-black prose-h2:text-black prose-h2:mt-20 prose-h2:mb-8 prose-h2:text-center prose-h2:uppercase prose-h2:tracking-tight
+                    prose-p:text-slate-600 prose-p:leading-relaxed prose-p:mb-8 prose-p:text-sm md:prose-p:text-lg prose-p:font-medium prose-p:text-center
+                    prose-li:text-slate-600 prose-li:font-medium prose-li:mb-4 prose-li:text-sm md:prose-li:text-lg prose-li:text-center prose-li:list-none
+                    prose-img:rounded-[2rem] prose-img:shadow-xl prose-img:my-16 prose-img:mx-auto
+                    prose-lead:text-lg md:prose-lead:text-xl prose-lead:font-black prose-lead:text-black prose-lead:leading-relaxed prose-lead:mb-12 prose-lead:text-center
+                    prose-a:text-yellow-600 prose-a:font-black prose-a:no-underline hover:prose-a:underline hover:prose-a:text-yellow-500
+                    prose-strong:text-black prose-strong:font-black
+                    prose-table:border prose-table:border-slate-100 prose-table:rounded-2xl prose-table:overflow-hidden prose-table:shadow-sm">
+        <Fragment set:html={post.content} />
+      </div>
+
+    </div>
+  </article>
+
+  {/* Related Section - Matches Homepage Section Spacing */}
+  <section class="py-[70px] bg-slate-50 border-t border-slate-100">
+    <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl lg:text-[54px] font-black text-black mb-4 text-center uppercase tracking-tight">Related Guides</h2>
+        <p class="text-slate-600 mx-auto text-lg leading-relaxed text-center max-w-3xl">
+          Discover more hidden gems, budget secrets, and restaurant reviews from our expert team.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-8">
+        {blogPosts.filter(b => b.slug !== post.slug).slice(0, 3).map((p) => (
+          <a href={`/blogs/${p.slug}/`} class="group flex flex-col bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-xl hover:border-yellow-400 transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
+            <div class="relative h-[180px] overflow-hidden">
+              <img src={p.image} alt={p.title} class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+              <div class="absolute top-3 left-3 z-10">
+                <span class="bg-yellow-400 text-slate-900 text-[8px] font-black uppercase tracking-widest px-2.5 py-1 rounded-lg">
+                  {p.category}
+                </span>
+              </div>
+            </div>
+            <div class="p-6 flex flex-col flex-grow">
+              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">{p.date}</span>
+              <h4 class="text-lg font-bold text-black group-hover:text-yellow-500 transition-colors line-clamp-2 leading-tight mb-4">{p.title}</h4>
+              <div class="mt-auto pt-4 border-t border-slate-50 flex items-center gap-2 text-black font-black text-[10px] group-hover:text-yellow-500 transition-colors uppercase tracking-wider">
+                  <span>Read Full Guide &rarr;</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
