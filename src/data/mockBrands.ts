@@ -700,7 +700,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Secret Recipe",
       slug: "secret-recipe",
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1578985545062-69928b1ea636?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "/images/secret-recipe.png",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Gourmet Cakes & Cafe Meals",
       seoArticle: `

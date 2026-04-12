@@ -122,8 +122,8 @@ const foodEstSchema = {
 };
 ---
 <Layout
-  title={`${brand.name} Menu Price Malaysia 2026 | Official Updated List`}
-  description={`Check the latest ${brand.name} menu in Malaysia for 2026. Verified price list, signature dishes, and official updates.`}
+  title={`${brand.name} Menu with Prices Malaysia 2026 | Official Updated List`}
+  description={`Check the latest ${brand.name} menu with prices in Malaysia for 2026. Verified list, signature dishes, and official updates.`}
   ogImage={brand.image}
 >
   <Schema item={[breadcrumbSchema, foodEstSchema]} />
@@ -152,7 +152,7 @@ const foodEstSchema = {
       </div>
 
       <h1 class="text-4xl md:text-6xl lg:text-[72px] font-black text-white mb-8 uppercase tracking-tighter leading-[0.95] drop-shadow-2xl">
-        {brand.name} <br /><span class="text-yellow-400">Menu & Prices</span>
+        {brand.name} <br /><span class="text-yellow-400">Menu with Prices</span>
       </h1>
 
       <p class="text-sm md:text-xl text-white/90 mb-0 mx-auto font-medium leading-relaxed max-w-2xl text-center drop-shadow-md">
@@ -392,15 +392,15 @@ const foodEstSchema = {
               
               {/* Related Brands Column */}
               {relatedBrands.length > 0 && (
-                <div>
-                  <h3 class="text-xl md:text-2xl font-black text-black mb-8 uppercase tracking-tight">People Also Viewed</h3>
-                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="flex flex-col items-center">
+                  <h3 class="text-xl md:text-2xl font-black text-black mb-8 uppercase tracking-tight text-center">People Also Viewed</h3>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
                     {relatedBrands.map((b: any) => (
                       <a href={`/${b.category}/${b.slug}-menu/`} class="group flex items-center gap-4 p-3 rounded-2xl bg-white border border-slate-100 hover:border-yellow-400 hover:shadow-md transition-all">
                         <div class="w-14 h-14 rounded-xl overflow-hidden shadow-sm">
                           <img src={b.image} alt={b.name} class="w-full h-full object-cover group-hover:scale-110 transition-transform" />
                         </div>
-                        <div>
+                        <div class="text-left">
                           <span class="block font-bold text-black group-hover:text-yellow-600 transition-colors leading-tight">{b.name}</span>
                           <span class="block text-[10px] text-slate-400 font-bold uppercase tracking-wider mt-1">View Menu &rarr;</span>
                         </div>
@@ -412,11 +412,11 @@ const foodEstSchema = {
 
               {/* Related Guides Column */}
               {relatedGuides.length > 0 && (
-                <div>
-                  <h3 class="text-xl md:text-2xl font-black text-black mb-8 uppercase tracking-tight">Expert Food Guides</h3>
-                  <div class="space-y-4">
+                <div class="flex flex-col items-center">
+                  <h3 class="text-xl md:text-2xl font-black text-black mb-8 uppercase tracking-tight text-center">Expert Food Guides</h3>
+                  <div class="space-y-4 w-full">
                     {relatedGuides.map((guide) => (
-                      <a href={`/blogs/${guide.slug}/`} class="group flex flex-col p-4 rounded-2xl bg-slate-50 border border-transparent hover:border-yellow-400 hover:bg-white transition-all">
+                      <a href={`/blogs/${guide.slug}/`} class="group flex flex-col p-4 rounded-2xl bg-slate-50 border border-transparent hover:border-yellow-400 hover:bg-white transition-all text-center">
                         <span class="text-[10px] font-bold text-yellow-600 uppercase tracking-widest mb-2">{guide.category}</span>
                         <h4 class="font-bold text-black group-hover:text-yellow-500 transition-colors leading-tight mb-2">{guide.title}</h4>
                         <p class="text-xs text-slate-500 line-clamp-2 leading-relaxed">{guide.excerpt}</p>
