@@ -232,29 +232,23 @@ const foodEstSchema = {
             <div class="grid grid-cols-2 gap-3 md:gap-6" id="menu-grid">
               {brand.menu.map((item: any) => (
                 <div
-                  class="menu-item group bg-slate-50 rounded-xl p-4 md:p-6 border border-slate-100 hover:border-yellow-400 hover:bg-white hover:shadow-lg transition-all duration-300 md:grid md:grid-cols-[11fr_4fr] md:gap-4 flex flex-col items-center text-center md:text-left h-full"
+                  class="menu-item group bg-slate-50 rounded-xl p-3 md:p-6 border border-slate-100 hover:border-yellow-400 hover:bg-white hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center h-full"
                   data-category={item.category}
                   data-menu-type={item.menuType || ""}
                 >
-                  <div class="flex flex-col items-center md:items-start gap-1 mb-2 md:mb-0">
+                  <div class="flex flex-col items-center gap-1 mb-2">
                     <h3 class="text-sm md:text-lg font-black text-black group-hover:text-yellow-600 transition-colors leading-tight line-clamp-2">
                       {item.name}
                     </h3>
-                    <p class="text-slate-500 font-medium leading-tight text-[10px] md:text-sm line-clamp-2 md:mt-2">
-                      {item.description}
-                    </p>
-                    <div class="hidden md:block mt-4">
-                      <span class="text-[9px] md:text-[10px] font-black uppercase tracking-wider bg-slate-100 text-slate-500 px-2 py-1 rounded">
-                        {item.category}
-                      </span>
-                    </div>
                   </div>
-                  
-                  <div class="mt-4 md:mt-0 flex flex-wrap items-center justify-center md:justify-end md:items-start gap-2">
+                  <p class="text-slate-500 font-medium leading-tight text-[10px] md:text-sm line-clamp-2 flex-grow text-center">
+                    {item.description}
+                  </p>
+                  <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
                     <span class="bg-yellow-400 text-slate-900 font-black px-2 py-1 rounded-lg text-xs md:text-base shadow-sm whitespace-nowrap">
                       {item.price}
                     </span>
-                    <span class="text-[9px] md:text-[10px] font-black uppercase tracking-wider bg-slate-200 text-slate-600 px-2 py-0.5 rounded shrink-0 md:hidden">
+                    <span class="text-[9px] md:text-[10px] font-black uppercase tracking-wider bg-slate-200 text-slate-600 px-2 py-0.5 rounded shrink-0">
                       {item.category}
                     </span>
                   </div>
