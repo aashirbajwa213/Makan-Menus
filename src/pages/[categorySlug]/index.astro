@@ -95,7 +95,7 @@ const { category, allCategories } = Astro.props;
 const brands = brandMocks[category.slug] || brandMocks["fast-food"];
 
 // --- Schema Markup ---
-const siteUrl = "https://malaysiamenu.my";
+const siteUrl = "https://makanmenus.my";
 const pageUrl = `${siteUrl}/${category.slug}/`;
 
 const breadcrumbSchema = {
@@ -328,7 +328,7 @@ const itemListSchema = {
               <details class="group bg-white border border-slate-200 rounded-2xl open:bg-yellow-50 open:border-yellow-400 open:shadow-md transition-all duration-300 overflow-hidden cursor-pointer">
                 <summary class="flex justify-between items-center p-6 font-bold text-black text-lg md:text-xl marker:content-none [&::-webkit-details-marker]:hidden select-none outline-none text-left">
                   {faq.q}
-                  <span class="transition-transform duration-300 group-open:rotate-180 bg-slate-900 text-yellow-500 rounded-full w-8 h-8 flex items-center justify-center shrink-0 shadow-sm ml-4 border-2 border-slate-900">
+                  <span class="transition-transform duration-300 group-open:rotate-180 bg-black text-yellow-500 rounded-full w-8 h-8 flex items-center justify-center shrink-0 shadow-sm ml-4 border-2 border-black">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="h-5 w-5"

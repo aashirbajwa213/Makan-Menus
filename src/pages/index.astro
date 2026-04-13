@@ -29,21 +29,21 @@ const trending = [
 const blogs = blogPosts.slice(0, 3);
 
 // --- Schema Markup ---
-const siteUrl = "https://malaysiamenu.my";
+const siteUrl = "https://makanmenus.my";
 
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Malaysia Menu",
+  "name": "Makan Menus",
   "url": siteUrl,
   "logo": `${siteUrl}/favicon.svg`,
-  "description": "Malaysia's largest directory for restaurant menus, accurate prices, and Halal-verified dining options."
+  "description": "Makan Menus is your ultimate directory for restaurant menus, accurate prices, and Halal-verified dining options across Malaysia."
 };
 
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Malaysia Menu",
+  "name": "Makan Menus",
   "url": siteUrl,
   "potentialAction": {
     "@type": "SearchAction",
@@ -62,15 +62,15 @@ const faqs = [
     a: "We strictly rely on official JAKIM certifications and public brand statements. For popular pork-free and Muslim-owned eateries that haven't received official certification yet, we clearly add a specific 'Pork-Free' or 'Muslim-Owned' badge."
   },
   {
-    q: "Can I order food delivery directly from Malaysia Menu?",
-    a: "Currently, Malaysia Menu acts as a comprehensive discovery directory. We do not process food delivery directly, but we help you find the best dishes and prices before you launch apps like GrabFood or foodpanda."
+    q: "Can I order food delivery directly from Makan Menus?",
+    a: "Currently, Makan Menus acts as a comprehensive discovery directory. We do not process food delivery directly, but we help you find the best dishes and prices before you launch apps like GrabFood or foodpanda."
   },
   {
     q: "Is it completely free to use this directory?",
     a: "Yes, 100% free! Our platform is built by foodies, for foodies. You can search, browse, and read all our dining guides without ever paying a subscription fee or signing up for a premium account."
   },
   {
-    q: "Is MalaysiaMenu.my affiliated with these restaurants?",
+    q: "Is MakanMenus.my affiliated with these restaurants?",
     a: "No, we are a completely independent directory designed to help foodies find prices and menus easily in one place. All brand names, logos, and trademarks belong to their respective corporate owners."
   }
 ];
@@ -90,20 +90,20 @@ const faqSchema = {
 ---
 
 <Layout 
-  title="Malaysia Menu: Latest Restaurant Menus & Prices 2026" 
-  description="Discover the most updated and accurate restaurant menus and prices in Malaysia. Verified Halal status, new dishes, and hidden deals for 2026."
+  title="Makan Menus: Latest Restaurant Menus & Prices 2026" 
+  description="Discover the most updated and accurate restaurant menus and prices on Makan Menus. Verified Halal status, new dishes, and hidden deals for 2026."
 >
   <Schema item={[organizationSchema, websiteSchema, faqSchema]} />
   
   {/* Hero Section */}
   <section class="relative pt-[134px] md:pt-[142px] pb-[70px] flex items-center justify-center min-h-[600px] overflow-hidden">
     <div class="absolute inset-0 z-0">
-        <div class="absolute inset-0 bg-slate-900/85 mix-blend-multiply z-10"></div>
+        <div class="absolute inset-0 bg-black/85 mix-blend-multiply z-10"></div>
         <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Popular Restaurant Menus and Prices in Malaysia for 2026" class="w-full h-full object-cover" />
     </div>
     
     <div class="relative z-20 max-w-[950px] mx-auto px-4 text-center mt-6 md:mt-8">
-      <span class="inline-block py-1 px-3 rounded-full bg-yellow-400 text-slate-900 font-bold text-[10px] md:text-xs mb-4 md:mb-5 border border-yellow-500 shadow-sm">Updated Daily for 2026</span>
+      <span class="inline-block py-1 px-3 rounded-full bg-yellow-400 text-black font-bold text-[10px] md:text-xs mb-4 md:mb-5 border border-yellow-500 shadow-sm">Updated Daily for 2026</span>
       <h1 class="text-3xl md:text-5xl lg:text-[54px] font-black text-white mb-5 leading-[1.15] max-w-4xl mx-auto">
         Malaysia's Largest <br class="hidden sm:block"/><span class="text-yellow-400 drop-shadow-md">Restaurant Menu Directory</span>
       </h1>
@@ -172,11 +172,11 @@ const faqSchema = {
         {trending.map(item => (
           <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
             <div class="h-48 overflow-hidden relative">
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent z-10"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
               <img src={item.img} alt={`${item.name} Menu Prices Malaysia 2026`} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div class="absolute bottom-4 left-4 z-20 flex gap-2">
                 {item.tags.map(tag => (
-                   <span class="bg-yellow-400 text-slate-900 text-xs font-black uppercase px-2 py-1 rounded">{tag}</span>
+                   <span class="bg-yellow-400 text-black text-xs font-black uppercase px-2 py-1 rounded">{tag}</span>
                 ))}
               </div>
             </div>
@@ -184,7 +184,7 @@ const faqSchema = {
               <p class="text-[10px] md:text-sm text-yellow-500 font-black mb-1 uppercase tracking-widest">{item.category}</p>
               <h3 class="text-base md:text-2xl font-bold text-black mb-3 md:mb-4 line-clamp-1">{item.name}</h3>
               
-              <a href={item.url} class="inline-flex justify-center items-center px-4 md:px-8 w-fit mx-auto bg-slate-900 hover:bg-black text-yellow-400 font-bold py-2 md:py-3 rounded-lg md:rounded-xl transition-colors text-[10px] md:text-base whitespace-nowrap">
+              <a href={item.url} class="inline-flex justify-center items-center px-4 md:px-8 w-fit mx-auto bg-black hover:bg-neutral-900 text-yellow-400 font-bold py-2 md:py-3 rounded-lg md:rounded-xl transition-colors text-[10px] md:text-base whitespace-nowrap">
                 View Menu
               </a>
             </div>
@@ -211,21 +211,21 @@ const faqSchema = {
       </div>
 
       <div class="grid grid-cols-3 gap-3 md:gap-8">
-        <div class="aspect-square flex flex-col items-center justify-center text-center bg-neutral-900 p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
+        <div class="aspect-square flex flex-col items-center justify-center text-center bg-black p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
           <div class="w-10 h-10 md:w-16 md:h-16 bg-yellow-400 rounded-lg md:rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-6">
              <span class="text-xl md:text-3xl">🔄</span>
           </div>
           <h3 class="text-xs md:text-2xl font-black mb-1 md:mb-3 text-white uppercase tracking-tighter md:tracking-normal">Updated Daily</h3>
           <p class="text-[10px] md:text-lg text-slate-400 font-bold opacity-80 leading-tight md:leading-normal">Daily price tracking.</p>
         </div>
-        <div class="aspect-square flex flex-col items-center justify-center text-center bg-neutral-900 p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
+        <div class="aspect-square flex flex-col items-center justify-center text-center bg-black p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
            <div class="w-10 h-10 md:w-16 md:h-16 bg-yellow-400 rounded-lg md:rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-6">
              <span class="text-xl md:text-3xl">✅</span>
           </div>
           <h3 class="text-xs md:text-2xl font-black mb-1 md:mb-3 text-white uppercase tracking-tighter md:tracking-normal">Halal Verified</h3>
           <p class="text-[10px] md:text-lg text-slate-400 font-bold opacity-80 leading-tight md:leading-normal">JAKIM & Pork-Free.</p>
         </div>
-        <div class="aspect-square flex flex-col items-center justify-center text-center bg-neutral-900 p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
+        <div class="aspect-square flex flex-col items-center justify-center text-center bg-black p-4 md:p-8 rounded-xl md:rounded-2xl border border-neutral-800 shadow-sm hover:border-yellow-400 transition-colors">
            <div class="w-10 h-10 md:w-16 md:h-16 bg-yellow-400 rounded-lg md:rounded-xl flex items-center justify-center mx-auto mb-3 md:mb-6">
              <span class="text-xl md:text-3xl">💯</span>
           </div>
@@ -305,7 +305,7 @@ const faqSchema = {
                 <details class="group bg-white border border-slate-200 rounded-xl open:bg-yellow-50 open:border-yellow-400 transition-all duration-300 overflow-hidden">
                   <summary class="flex justify-between items-center cursor-pointer p-5 font-bold text-black text-base md:text-lg select-none outline-none">
                     {faq.q}
-                    <span class="transition-transform duration-300 group-open:rotate-180 bg-slate-900 text-yellow-500 rounded-full w-7 h-7 flex items-center justify-center shrink-0 shadow-sm border-2 border-slate-900">
+                    <span class="transition-transform duration-300 group-open:rotate-180 bg-black text-yellow-500 rounded-full w-7 h-7 flex items-center justify-center shrink-0 shadow-sm border-2 border-black">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                       </svg>

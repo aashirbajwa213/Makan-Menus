@@ -18,7 +18,7 @@ interface Props {
 const { post } = Astro.props;
 
 // --- Schema Markup ---
-const siteUrl = "https://malaysiamenu.my";
+const siteUrl = "https://makanmenus.my";
 const pageUrl = `${siteUrl}/blogs/${post.slug}/`;
 
 const breadcrumbSchema = {
@@ -40,12 +40,12 @@ const blogSchema = {
   "datePublished": new Date(post.date).toISOString(),
   "author": {
     "@type": "Organization",
-    "name": "Malaysia Menu Team",
+    "name": "Makan Menus Team",
     "url": siteUrl
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Malaysia Menu",
+    "name": "Makan Menus",
     "logo": {
       "@type": "ImageObject",
       "url": `${siteUrl}/favicon.svg`
@@ -59,7 +59,7 @@ const blogSchema = {
 ---
 
 <Layout 
-  title={`${post.title} | Malaysia Menu Guides 2026`} 
+  title={`${post.title} | Makan Menus Guides 2026`} 
   description={post.excerpt}
   ogType="article"
 >
