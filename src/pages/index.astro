@@ -99,7 +99,7 @@ const faqSchema = {
   <section class="relative pt-[134px] md:pt-[142px] pb-[70px] flex items-center justify-center min-h-[600px] overflow-hidden">
     <div class="absolute inset-0 z-0">
         <div class="absolute inset-0 bg-black/85 mix-blend-multiply z-10"></div>
-        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Popular Restaurant Menus and Prices in Malaysia for 2026" class="w-full h-full object-cover" />
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&fm=webp&w=1200&q=60" alt="Popular Restaurant Menus and Prices in Malaysia for 2026" fetchpriority="high" class="w-full h-full object-cover" />
     </div>
     
     <div class="relative z-20 max-w-[950px] mx-auto px-4 text-center mt-6 md:mt-8">
@@ -146,12 +146,12 @@ const faqSchema = {
       
       <div class="flex flex-wrap justify-center gap-3 md:gap-6">
         {categories.map(cat => (
-          <a href={`/${cat.slug}/`} class="w-[calc(50%-0.75rem)] md:w-[calc(25%-1.5rem)] group relative bg-white border border-slate-100 p-6 rounded-3xl hover:border-yellow-400 transition-all duration-300 transform hover:-translate-y-1.5 shadow-sm hover:shadow-xl overflow-hidden">
+          <a href={`/${cat.slug}/`} aria-label={`View ${cat.name} menu category`} class="w-[calc(50%-0.75rem)] md:w-[calc(25%-1.5rem)] group relative bg-white border border-slate-100 p-6 rounded-3xl hover:border-yellow-400 transition-all duration-300 transform hover:-translate-y-1.5 shadow-sm hover:shadow-xl overflow-hidden">
             <div class={cat.color + " w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-5 mx-auto group-hover:scale-110 transition-transform shadow-sm border border-transparent"}>
               {cat.icon}
             </div>
             <h3 class="font-black text-black group-hover:text-yellow-500 transition-colors text-center text-base leading-tight mb-2">{cat.name}</h3>
-            <p class="text-[10px] text-slate-400 font-bold uppercase tracking-wider text-center">View Menu &rarr;</p>
+            <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider text-center">View Menu &rarr;</p>
           </a>
         ))}
       </div>
@@ -173,7 +173,7 @@ const faqSchema = {
           <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-100 group">
             <div class="h-48 overflow-hidden relative">
               <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-              <img src={item.img} alt={`${item.name} Menu Prices Malaysia 2026`} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src={item.img} alt={`${item.name} Menu Prices Malaysia 2026`} loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div class="absolute bottom-4 left-4 z-20 flex gap-2">
                 {item.tags.map(tag => (
                    <span class="bg-yellow-400 text-black text-xs font-black uppercase px-2 py-1 rounded">{tag}</span>
@@ -181,10 +181,10 @@ const faqSchema = {
               </div>
             </div>
             <div class="p-3 md:p-6 text-center flex flex-col items-center">
-              <p class="text-[10px] md:text-sm text-yellow-500 font-black mb-1 uppercase tracking-widest">{item.category}</p>
+              <p class="text-[10px] md:text-sm text-yellow-700 font-black mb-1 uppercase tracking-widest">{item.category}</p>
               <h3 class="text-base md:text-2xl font-bold text-black mb-3 md:mb-4 line-clamp-1">{item.name}</h3>
               
-              <a href={item.url} class="inline-flex justify-center items-center px-4 md:px-8 w-fit mx-auto bg-black hover:bg-neutral-900 text-yellow-400 font-bold py-2 md:py-3 rounded-lg md:rounded-xl transition-colors text-[10px] md:text-base whitespace-nowrap">
+              <a href={item.url} aria-label={`View ${item.name} Menu`} class="inline-flex justify-center items-center px-4 md:px-8 w-fit mx-auto bg-black hover:bg-neutral-900 text-yellow-400 font-bold py-2 md:py-3 rounded-lg md:rounded-xl transition-colors text-[10px] md:text-base whitespace-nowrap">
                 View Menu
               </a>
             </div>
@@ -193,7 +193,7 @@ const faqSchema = {
       </div>
       
       <div class="mt-12 flex justify-center">
-        <a href="/categories/" class="inline-flex text-yellow-500 font-bold hover:text-yellow-400 items-center gap-1 underline text-lg transition-colors">
+        <a href="/categories/" class="inline-flex text-yellow-700 font-bold hover:text-yellow-600 items-center gap-1 underline text-lg transition-colors">
           Explore all <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
@@ -241,22 +241,22 @@ const faqSchema = {
      <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight">Foodie Guides</h2>
-        <p class="text-slate-600 mx-auto text-sm md:text-base max-w-2xl leading-relaxed text-center opacity-80">
+        <p class="text-slate-700 mx-auto text-sm md:text-base max-w-2xl leading-relaxed text-center">
           Explore our comprehensive library of hand-picked dining guides, expert tips, and local secrets. Whether you're looking for the best budget eats, hidden restaurant gems, or the latest food trends in Kuala Lumpur and beyond, our detailed guides help you discover the best value for your money every time you dine out.
         </p>
       </div>
 
        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
          {blogs.map(blog => (
-            <a href={`/blogs/${blog.slug}/`} class="group flex flex-col bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
+            <a href={`/blogs/${blog.slug}/`} aria-label={`Read guide: ${blog.title}`} class="group flex flex-col bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
               {/* Image Container */}
               <div class="relative h-[180px] overflow-hidden">
-                <img src={blog.image} alt={blog.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src={blog.image} alt={blog.title} loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
 
               {/* Card Body */}
               <div class="p-6 flex flex-col flex-grow">
-                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">{blog.date}</span>
+                <span class="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-3">{blog.date}</span>
                 <h3 class="text-lg font-black text-black mb-3 group-hover:text-yellow-500 transition-colors line-clamp-2 leading-tight">
                   {blog.title}
                 </h3>
@@ -276,7 +276,7 @@ const faqSchema = {
        </div>
        
        <div class="mt-12 flex justify-center">
-        <a href="/blogs" class="inline-flex text-yellow-500 font-bold hover:text-yellow-400 items-center gap-1 underline text-lg transition-colors">
+        <a href="/blogs" class="inline-flex text-yellow-700 font-bold hover:text-yellow-600 items-center gap-1 underline text-lg transition-colors">
           View All Guides <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
@@ -288,7 +288,7 @@ const faqSchema = {
      <div class="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
             <h2 class="text-2xl md:text-3xl font-black text-black mb-4 uppercase tracking-tight">FAQ</h2>
-            <p class="text-slate-600 mx-auto text-sm md:text-base max-w-2xl leading-relaxed opacity-80">
+            <p class="text-slate-700 mx-auto text-sm md:text-base max-w-2xl leading-relaxed">
               Frequently asked questions about our menu directory.
             </p>
         </div>
