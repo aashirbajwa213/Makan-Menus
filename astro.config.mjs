@@ -12,8 +12,8 @@ export default defineConfig({
     enabled: false
   },
 
-  // Disable Astro's dev-overlay bypass
-  trailingSlash: 'ignore',
+  // Enforce trailing slashes site-wide for SEO consistency
+  trailingSlash: 'always',
 
   build: {
     format: 'directory' // Still build folders for production trailing slashes
