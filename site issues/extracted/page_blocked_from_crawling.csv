@@ -1,0 +1,16 @@
+Url,page_blocked_reason
+https://makanmenus.my/categories/buffet-dining/,http_header
+https://makanmenus.my/categories/coffee-bakeries/,http_header
+https://makanmenus.my/categories/convenience-stores/,http_header
+https://makanmenus.my/categories/fast-food/,http_header
+https://makanmenus.my/categories/japanese-korean/,http_header
+https://makanmenus.my/categories/local-asian/,http_header
+https://makanmenus.my/categories/pizza-italian/,http_header
+https://makanmenus.my/categories/sandwiches-health/,http_header
+https://makanmenus.my/categories/specialty-burgers/,http_header
+https://makanmenus.my/categories/teas-desserts/,http_header
+https://makanmenus.my/categories/western-grilled/,http_header
+https://makanmenus.my/search/?q=Coffee,robots_txt
+https://makanmenus.my/search/?q=Fast+Food,robots_txt
+https://makanmenus.my/search/?q=Halal,robots_txt
+https://makanmenus.my/search/?q=KFC+Menu,robots_txt

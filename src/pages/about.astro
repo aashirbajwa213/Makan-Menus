@@ -31,15 +31,47 @@ const breadcrumbSchema = {
         { "@type": "ListItem", position: 2, name: "About", item: pageUrl },
     ],
 };
+
+const faqs = [
+  {
+    q: "Are the menu prices on Makan Menus accurate?",
+    a: "We strive to provide the most updated menus and verify them daily. Prices can occasionally vary slightly by location (e.g., airports or delivery platforms) and are subject to unannounced changes by the restaurant."
+  },
+  {
+    q: "How do you check if a restaurant is Halal?",
+    a: "We rely on official JAKIM certifications and public brand statements. For popular pork-free establishments that haven't received official certification yet, we clearly add a 'Pork-Free' badge."
+  },
+  {
+    q: "Why do some local restaurants not appear on your site?",
+    a: "We prioritize establishing the largest nationwide chains first to serve the most people, but our team is actively expanding to include hundreds of beloved local neighborhood foodie spots."
+  },
+  {
+    q: "Are you affiliated with the brands listed?",
+    a: "No, MakanMenus.my is an independent, unofficial directory. We are not officially partnered with McDonald's, KFC, or any brands showcased. All trademarks belong to their respective corporate owners."
+  }
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.a
+    }
+  }))
+};
 ---
 
 <Layout title={title} description={description}>
-    <Schema item={[aboutSchema, breadcrumbSchema]} />
+    <Schema item={[aboutSchema, breadcrumbSchema, faqSchema]} />
 
     <Breadcrumbs items={[{ name: "About" }]} />
 
     <section
-        class="relative pt-[134px] md:pt-[142px] pb-[70px] bg-black overflow-hidden border-b border-yellow-500/10"
+        class="relative pt-[134px] md:pt-[142px] pb-[70px] bg-black overflow-hidden border-b border-yellow-500/10 text-center"
     >
         {/* Yellow Grid Lines */}
         <div
@@ -60,7 +92,7 @@ const breadcrumbSchema = {
                 About Us
             </h1>
             <p
-                class="text-sm md:text-lg text-white font-medium leading-relaxed max-w-2xl mx-auto opacity-90"
+                class="text-sm md:text-lg text-white font-medium leading-relaxed max-w-2xl mx-auto opacity-90 text-center"
             >
                 makanmenus.my is dedicated to being your most reliable and
                 comprehensive source for dining information throughout Malaysia.
@@ -71,111 +103,89 @@ const breadcrumbSchema = {
         </div>
     </section>
 
-    <section class="py-[70px] bg-white border-b border-slate-100">
-        <div class="max-w-3xl mx-auto px-4">
-            <div class="prose prose-slate max-w-none text-center">
-                <h2
-                    class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight"
-                >
-                    Our Mission
-                </h2>
-                <p
-                    class="text-sm md:text-lg text-slate-600 mb-12 font-medium text-center leading-relaxed"
-                >
-                    At <strong>makanmenus.my</strong>, our mission is simple: to
-                    make dining out in Malaysia easier and more predictable. We
-                    understand that finding accurate and up-to-date menu prices
-                    can be frustrating. That's why we meticulously curate and
-                    verify menu data from hundreds of restaurant chains across
-                    the country.
+    <section class="py-[70px] bg-white border-b border-slate-100 text-center">
+        <div class="max-w-[900px] mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl lg:text-[54px] font-black text-black mb-8 text-center leading-[1.15] tracking-tight uppercase">
+                Our Mission
+            </h2>
+            <p class="text-sm md:text-lg lg:text-xl text-slate-600 font-medium mb-16 text-center leading-relaxed">
+                At <strong>makanmenus.my</strong>, our mission is simple: to make dining out in Malaysia easier and more predictable. 
+                We understand that finding accurate and up-to-date menu prices can be frustrating. That's why we meticulously curate 
+                and verify menu data from hundreds of restaurant chains across the country.
+            </p>
+
+            <h2 class="text-3xl md:text-5xl lg:text-[54px] font-black text-black mb-8 text-center leading-[1.15] tracking-tight uppercase">
+                Who We Are
+            </h2>
+            <p class="text-sm md:text-lg lg:text-xl text-slate-600 font-medium mb-16 text-center leading-relaxed">
+                We are a team of passionate food enthusiasts and tech experts based in Malaysia. We noticed a gap in the market 
+                for a clean, fast, and comprehensive directory that focuses purely on menu data and pricing. Since our launch, 
+                we've helped thousands of Malaysians plan their meals better, whether it's for a family gathering, a quick lunch, 
+                or a special celebration.
+            </p>
+
+            <h2 class="text-3xl md:text-5xl lg:text-[54px] font-black text-black mb-8 text-center leading-[1.15] tracking-tight uppercase">
+                Why Choose Us?
+            </h2>
+            <div class="flex flex-col items-center justify-center space-y-6 mb-16 text-slate-600 font-medium text-sm md:text-lg lg:text-xl text-center">
+                <p>
+                    <span class="text-yellow-500 font-black text-xl md:text-2xl mr-2">✓</span>
+                    <strong class="text-black">Verified Data:</strong> We cross-reference our prices with official sources.
                 </p>
-
-                <h2
-                    class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight"
-                >
-                    Who We Are
-                </h2>
-                <p
-                    class="text-sm md:text-lg text-slate-600 mb-12 font-medium text-center leading-relaxed"
-                >
-                    We are a team of passionate food enthusiasts and tech
-                    experts based in Malaysia. We noticed a gap in the market
-                    for a clean, fast, and comprehensive directory that focuses
-                    purely on menu data and pricing. Since our launch, we've
-                    helped thousands of Malaysians plan their meals better,
-                    whether it's for a family gathering, a quick lunch, or a
-                    special celebration.
+                <p>
+                    <span class="text-yellow-500 font-black text-xl md:text-2xl mr-2">✓</span>
+                    <strong class="text-black">User-First Design:</strong> Optimized for speed and easy navigation.
                 </p>
-
-                <h2
-                    class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight"
-                >
-                    Why Choose Us?
-                </h2>
-                <div
-                    class="flex flex-col items-center space-y-6 mb-16 text-slate-600 font-medium text-sm md:text-lg"
-                >
-                    <div class="flex flex-col items-center">
-                        <span class="text-yellow-500 mb-2 font-black text-xl"
-                            >✓</span
-                        >
-                        <span
-                            ><strong class="text-black">Verified Data:</strong> We
-                            cross-reference our prices with official sources and physical
-                            checks.</span
-                        >
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <span class="text-yellow-500 mb-2 font-black text-xl"
-                            >✓</span
-                        >
-                        <span
-                            ><strong class="text-black"
-                                >User-First Design:</strong
-                            > Our site is optimized for speed and easy navigation
-                            on mobile devices.</span
-                        >
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <span class="text-yellow-500 mb-2 font-black text-xl"
-                            >✓</span
-                        >
-                        <span
-                            ><strong class="text-black"
-                                >Halal Information:</strong
-                            > We clearly mark the Halal status of restaurants to help
-                            you make informed choices.</span
-                        >
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <span class="text-yellow-500 mb-2 font-black text-xl"
-                            >✓</span
-                        >
-                        <span
-                            ><strong class="text-black"
-                                >Comprehensive Coverage:</strong
-                            > From international fast-food giants to local kopitiam
-                            chains, we cover them all.</span
-                        >
-                    </div>
-                </div>
-
-                <h2
-                    class="text-2xl md:text-4xl font-black text-black mb-8 text-center uppercase tracking-tight"
-                >
-                    Contact Us
-                </h2>
-                <p
-                    class="text-sm md:text-lg text-slate-600 text-center font-medium leading-relaxed"
-                >
-                    Have questions or feedback? We'd love to hear from you. You
-                    can reach us at <a
-                        href="mailto:contact@makanmenus.my"
-                        class="text-yellow-600 hover:text-yellow-700 font-black underline underline-offset-4"
-                        >contact@makanmenus.my</a
-                    >.
+                <p>
+                    <span class="text-yellow-500 font-black text-xl md:text-2xl mr-2">✓</span>
+                    <strong class="text-black">Halal Information:</strong> We clearly mark the Halal status of restaurants.
+                </p>
+                <p>
+                    <span class="text-yellow-500 font-black text-xl md:text-2xl mr-2">✓</span>
+                    <strong class="text-black">Comprehensive Coverage:</strong> From international fast-food giants to local icons.
                 </p>
             </div>
+            
+            <h2 class="text-3xl md:text-5xl lg:text-[54px] font-black text-black mb-8 text-center leading-[1.15] tracking-tight uppercase">
+                Contact Us
+            </h2>
+            <p class="text-sm md:text-lg lg:text-xl text-slate-600 font-medium mb-4 text-center leading-relaxed">
+                Have questions or feedback? We'd love to hear from you. You can reach us at:
+            </p>
+            <p class="text-center mb-16">
+                <!--email_off--><a href="mailto:contact@makanmenus.my" class="text-yellow-500 hover:text-black font-black text-lg md:text-2xl underline underline-offset-4 transition-colors">contact@makanmenus.my</a>
+            </p>
         </div>
+    </section>
+
+    {/* FAQs */}
+    <section class="py-[70px] bg-slate-50 border-t border-slate-100 text-center flex flex-col items-center justify-center">
+      <div class="max-w-[800px] w-full mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-12">
+              <h2 class="text-3xl md:text-5xl lg:text-[54px] font-black text-black mb-4 uppercase tracking-tight leading-[1.15]">FAQ</h2>
+              <p class="text-slate-700 mx-auto text-sm md:text-lg lg:text-xl max-w-2xl leading-relaxed text-center font-medium">
+                Frequently asked questions about our directory.
+              </p>
+          </div>
+          
+          <div class="space-y-3 w-full">
+              {faqs.map((faq) => (
+                  <details class="group bg-white border border-slate-200 rounded-xl open:bg-yellow-50 open:border-yellow-400 transition-all duration-300 overflow-hidden text-center w-full">
+                    <summary class="flex justify-between items-center cursor-pointer p-5 font-bold text-black text-base md:text-xl lg:text-2xl select-none outline-none marker:content-none [&::-webkit-details-marker]:hidden w-full">
+                      <span class="flex-grow text-center">{faq.q}</span>
+                      <span class="transition-transform duration-300 group-open:rotate-180 bg-black text-yellow-500 rounded-full w-8 h-8 flex items-center justify-center shrink-0 shadow-sm border-2 border-black ml-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                      </span>
+                    </summary>
+                    <div class="px-5 pb-5 text-slate-700 text-sm md:text-lg lg:text-xl leading-relaxed opacity-90 font-medium text-center w-full">
+                      <p>{faq.a}</p>
+                    </div>
+                  </details>
+                ))
+              }
+          </div>
+      </div>
     </section>
 </Layout>

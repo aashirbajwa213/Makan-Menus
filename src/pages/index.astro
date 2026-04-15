@@ -99,7 +99,7 @@ const faqSchema = {
   <section class="relative pt-[134px] md:pt-[142px] pb-[70px] flex items-center justify-center min-h-[600px] overflow-hidden">
     <div class="absolute inset-0 z-0">
         <div class="absolute inset-0 bg-black/85 mix-blend-multiply z-10"></div>
-        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&fm=webp&w=1200&q=60" alt="Popular Restaurant Menus and Prices in Malaysia for 2026" fetchpriority="high" class="w-full h-full object-cover" />
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&fm=webp&w=1200&q=60" alt="Popular Restaurant Menus and Prices in Malaysia for 2026" fetchpriority="high" loading="eager" decoding="sync" class="w-full h-full object-cover" />
     </div>
     
     <div class="relative z-20 max-w-[950px] mx-auto px-4 text-center mt-6 md:mt-8">
@@ -111,26 +111,7 @@ const faqSchema = {
         Find accurate prices, hidden dishes, and verified halal options for over 100+ top restaurants across the country. Updated daily by our community.
       </p>
       
-      {/* Search Bar */}
-      <form action="/search/" method="get" class="max-w-[700px] mx-auto bg-white p-1 rounded-2xl shadow-[0_0_40px_rgba(251,191,36,0.3)] flex flex-col sm:flex-row items-center relative z-30 gap-2 sm:gap-0">
-        <div class="hidden sm:flex pl-4 text-slate-400">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-        </div>
-        <input type="text" name="q" required placeholder="Search for McDonald's..." class="w-full py-3 px-4 text-slate-800 focus:outline-none bg-transparent text-base md:text-lg font-medium" />
-        <button type="submit" class="w-full sm:w-auto bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-bold py-3 px-8 rounded-xl transition-all shadow-lg hover:shadow-yellow-400/50 whitespace-nowrap">
-          Find Menu
-        </button>
-      </form>
-      
-      <div class="flex flex-wrap justify-center gap-3 mt-8 font-medium">
-        <span class="text-sm text-yellow-400 font-bold">Popular Searches:</span>
-        <a href="/search/?q=Fast+Food" class="text-sm text-white hover:text-yellow-400 transition-colors">Fast Food</a>
-        <a href="/search/?q=KFC+Menu" class="text-sm text-white hover:text-yellow-400 transition-colors">KFC Menu</a>
-        <a href="/search/?q=Coffee" class="text-sm text-white hover:text-yellow-400 transition-colors">Coffee</a>
-        <a href="/search/?q=Halal" class="text-sm text-white hover:text-yellow-400 transition-colors">Halal</a>
-      </div>
+
     </div>
   </section>
 

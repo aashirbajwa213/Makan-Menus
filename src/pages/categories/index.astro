@@ -131,6 +131,9 @@ const itemListSchema = {
       <img
         src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2000&auto=format&fit=crop"
         alt="Food Categories"
+        fetchpriority="high"
+        loading="eager"
+        decoding="sync"
         class="w-full h-full object-cover"
       />
     </div>
@@ -159,7 +162,7 @@ const itemListSchema = {
         {
           categories.map((cat) => (
             <a
-              href={`/categories/${cat.slug}/`}
+              href={`/${cat.slug}/`}
               class="group bg-white rounded-2xl p-4 md:p-6 shadow-sm hover:shadow-xl hover:border-yellow-400 hover:-translate-y-1 border border-slate-100 transition-all duration-300 relative overflow-hidden flex flex-col justify-between h-full"
             >
               <div class="relative z-10 flex flex-col items-center">
