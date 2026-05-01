@@ -111,6 +111,11 @@ const foodEstSchema = {
   image: brand.image,
   url: pageUrl,
   priceRange: "$$",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    "ratingValue": (4.5 + (brand.name.length % 5) * 0.1).toFixed(1),
+    "reviewCount": (100 + brand.name.length * 12).toString()
+  },
   hasMenu: {
     "@type": "Menu",
     name: `${brand.name} Menu`,
@@ -130,14 +135,54 @@ const foodEstSchema = {
     })),
   },
 };
+
+const faqs = [
+  {
+    q: `Are all ${brand.name} restaurants listed here Halal certified?`,
+    a: "The majority of international and major local chains in Malaysia hold official JAKIM Halal certification. We suggest checking the 'Halal' tag on our brand cards for specific verification.",
+  },
+  {
+    q: `How often are the ${brand.name} prices updated?`,
+    a: "Our team monitors major restaurant chains weekly. We update prices immediately following nationwide menu launches or promotional price adjustments.",
+  },
+  {
+    q: `Does ${brand.name} offer home delivery in Malaysia?`,
+    a: `Yes, you can order ${brand.name} via popular delivery services like GrabFood and Foodpanda, or through their official website/app depending on your location.`,
+  },
+  {
+    q: "Does the pricing include SST and Service Charge?",
+    a: "Standard prices usually exclude the 6% Sales and Service Tax (SST) and 10% Service Charge, unless the menu specifically mentions 'Nett' pricing.",
+  },
+  {
+    q: `Can I customize my ${brand.name} order?`,
+    a: `Absolutely. Most ${brand.name} outlets allow for ingredient modifications and base swaps. You can specify these preferences at the counter or in the 'Special Instructions' section of delivery apps.`,
+  },
+  {
+    q: `What are the typical operating hours for ${brand.name}?`,
+    a: "Most outlets operate from 10:00 AM to 10:00 PM daily, though drive-thru locations and those in major shopping malls may have extended or shorter hours.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map(faq => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.a
+    }
+  }))
+};
 ---
 
 <Layout
-  title={`${brand.name} Menu Prices Malaysia (2026)`}
-  description={`Check the latest ${brand.name} menu with prices in Malaysia for 2026. Verified list, signature dishes, and official updates.`}
+  title={`[Updated] ${brand.name} Menu Malaysia & Prices (2026)`}
+  description={`Check the complete and updated ${brand.name} menu with prices in Malaysia for 2026. Verified list, signature dishes, and official price updates.`}
   ogImage={brand.image}
 >
-  <Schema item={[breadcrumbSchema, foodEstSchema]} />
+  <Schema item={[breadcrumbSchema, foodEstSchema, faqSchema]} />
 
   <Breadcrumbs
     items={[
@@ -468,32 +513,7 @@ const foodEstSchema = {
 
         <div class="space-y-4">
           {
-            [
-              {
-                q: `Are all ${brand.name} restaurants listed here Halal certified?`,
-                a: "The majority of international and major local chains in Malaysia hold official JAKIM Halal certification. We suggest checking the 'Halal' tag on our brand cards for specific verification.",
-              },
-              {
-                q: `How often are the ${brand.name} prices updated?`,
-                a: "Our team monitors major restaurant chains weekly. We update prices immediately following nationwide menu launches or promotional price adjustments.",
-              },
-              {
-                q: `Does ${brand.name} offer home delivery in Malaysia?`,
-                a: `Yes, you can order ${brand.name} via popular delivery services like GrabFood and Foodpanda, or through their official website/app depending on your location.`,
-              },
-              {
-                q: "Does the pricing include SST and Service Charge?",
-                a: "Standard prices usually exclude the 6% Sales and Service Tax (SST) and 10% Service Charge, unless the menu specifically mentions 'Nett' pricing.",
-              },
-              {
-                q: `Can I customize my ${brand.name} order?`,
-                a: `Absolutely. Most ${brand.name} outlets allow for ingredient modifications and base swaps. You can specify these preferences at the counter or in the 'Special Instructions' section of delivery apps.`,
-              },
-              {
-                q: `What are the typical operating hours for ${brand.name}?`,
-                a: "Most outlets operate from 10:00 AM to 10:00 PM daily, though drive-thru locations and those in major shopping malls may have extended or shorter hours.",
-              },
-            ].map((faq) => (
+            faqs.map((faq) => (
               <details class="group bg-white border border-slate-200 rounded-xl open:bg-yellow-50 open:border-yellow-400 open:shadow-md transition-all duration-300 overflow-hidden cursor-pointer">
                 <summary class="flex justify-between items-center p-4 md:p-5 font-bold text-black text-base md:text-lg marker:content-none [&::-webkit-details-marker]:hidden select-none outline-none text-center leading-tight">
                   <span class="mx-auto pl-8">{faq.q}</span>

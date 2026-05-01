@@ -111,7 +111,10 @@ export const brandMocks: Record<string, any[]> = {
 <p>This page is designed to provide a complete and updated overview of the McDonald's menu in Malaysia. It allows users to explore menu categories, pricing insights, and latest updates in a clear and structured format.</p>
 
 <p>Whether you are planning a quick meal or ordering for a group, this guide helps simplify your decision-making process.</p>
-      `,
+      
+
+<h2>Top Related Searches for McDonald's</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>mcd menu with price 2026</strong>, <strong>mcdonald delivery menu</strong>, <strong>mcdonald's menu malaysia</strong>, <strong>menu mcd</strong>, <strong>mcdonalds menu</strong>, <strong>mcdonald's menu</strong>, <strong>mcdonald malaysia menu</strong>, <strong>mcdonald's menu price list</strong>, <strong>mcdonalds meals</strong>, <strong>mcdonald's near me menu</strong>, <strong>mcd menu</strong>, <strong>mcdonald's nasi lemak price</strong>, <strong>mcdonald's breakfast prices</strong>, <strong>mcdonald nasi lemak price</strong>, and <strong>mcdonalds malaysia menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: [
         // All Time Favourites
         { name: "Big Mac", price: "RM 12.50", category: "All Time Favourites", description: "The iconic burger with two all-beef patties, special sauce, lettuce, cheese, pickles, and onions." },
@@ -234,7 +237,10 @@ export const brandMocks: Record<string, any[]> = {
 <p>This page is designed to provide a complete and updated KFC menu Malaysia guide in one place. Instead of visiting multiple sources, you can find all relevant information here including menu categories, latest updates, and general pricing insights.</p>
 
 <p>Whether you are planning a quick meal or ordering for a group, this guide helps you make better decisions easily.</p>
-      `,
+      
+
+<h2>Top Related Searches for KFC</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>马来西亚kfc最新菜单2026</strong>, <strong>loaded potato kfc malaysia nutrition</strong>, <strong>kfc malaysia</strong>, <strong>kfc malaysia menu</strong>, <strong>kfc menu malaysia</strong>, <strong>latest kfc menu</strong>, <strong>kfc calories malaysia</strong>, <strong>kfc new menu</strong>, <strong>kfc breakfast</strong>, <strong>menu kfc</strong>, <strong>kfc menu</strong>, <strong>kfc menu malaysia price</strong>, <strong>kfc menu prices near me</strong>, <strong>kfc malaysia nutrition</strong>, and <strong>kfc</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: kfcMenu
     },
     {
@@ -272,7 +278,10 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Texas Chicken Delivery & Locations</h2>
 
 <p>From Texas Chicken Kulim to Taiping and Uptown Damansara, finding an outlet near you is easy. You can also order via GrabFood or Foodpanda to see the Texas Chicken menu online with pictures. Check the Texas Chicken menu open now status on delivery apps for late-night cravings or morning breakfast menu time.</p>
-      `,
+      
+
+<h2>Top Related Searches for Texas Chicken</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>texas chicken menu</strong>, <strong>texas chicken menu malaysia 2026</strong>, <strong>menu texas chicken</strong>, <strong>menu chicken texas</strong>, <strong>menu texas</strong>, <strong>texas menu</strong>, <strong>chicken texas menu</strong>, <strong>texas menu malaysia</strong>, <strong>texas chicken 1 utama menu</strong>, <strong>texas chicken mid valley menu</strong>, <strong>menu texas chicken 2026</strong>, <strong>harga texas chicken 2026</strong>, <strong>texas @ kajang menu</strong>, <strong>texas chicken 3 piece meal calories</strong>, and <strong>texas chicken menu malaysia</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: texasChickenMenu
     },
     {
@@ -308,7 +317,10 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Why Check Our Marrybrown Menu Guide?</h2>
 
 <p>We provide a comprehensive Marrybrown menu with pictures (simulated) and broken down categories. Instead of searching for a Marrybrown menu pdf, use our site to find Marrybrown menu calories, nutrition facts, and info on the Marrybrown baru releases throughout 2026.</p>
-      `,
+      
+
+<h2>Top Related Searches for Marrybrown</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>marrybrown menu</strong>, <strong>marrybrown menu price</strong>, <strong>marrybrown tower burger price</strong>, <strong>marry brown menu</strong>, <strong>marrybrown malaysia menu</strong>, <strong>marrybrown menu 2025</strong>, <strong>tower burger marrybrown price</strong>, <strong>marrybrown price</strong>, <strong>menu marrybrown</strong>, <strong>marrybrown menu price malaysia 2026</strong>, <strong>marrybrown new menu</strong>, <strong>set marrybrown</strong>, <strong>marrybrown burger</strong>, <strong>marrybrown breakfast menu</strong>, and <strong>marrybrown menu malaysia</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: marrybrownMenu
     },
     {
@@ -341,7 +353,10 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Burger King Menu Price List Summary 2026</h2>
 <p>We update our burger king menu malaysia price list frequently to reflect the latest market changes. From burger king menu vegan-friendly sides to the newest burger king menu baru releases, check back here regularly for the most accurate information on burger king menu nutrition facts and calorie counts before you order.</p>
-      `,
+      
+
+<h2>Top Related Searches for Burger King</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>burger king menu</strong>, <strong>burger king lunch menu</strong>, <strong>burger king menu malaysia</strong>, <strong>burger king price</strong>, <strong>whopper burger king price</strong>, <strong>burger king cheeseburger price</strong>, <strong>burger king menu price</strong>, <strong>cheeseburger burger king price</strong>, <strong>menu rahmah burger king</strong>, <strong>burger king prices</strong>, <strong>burger king malaysia price</strong>, <strong>menu burger king price</strong>, <strong>burger king menu with prices</strong>, <strong>menu burger king</strong>, and <strong>burger king latest menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: burgerKingMenu
     },
     {
@@ -368,7 +383,10 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our A&W Guide?</h2>
 <p>We provide the most detailed A&W menu with prices for 2026. Stay updated on the latest A&W promotion deals and new menu additions like the A&W menu Rahmah. Whether you are looking for A&W halal information or simply want to browse the A&W menu Malaysia before you visit a A&W near me, we have all the essential details for your nostalgic dining experience.</p>
-      `,
+      
+
+<h2>Top Related Searches for A&W</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>a&w menu malaysia 2026</strong>, <strong>a&w food menu</strong>, <strong>menu a&w 2026</strong>, <strong>aw menu</strong>, <strong>menu a&w</strong>, <strong>a&w menu</strong>, <strong>aw price</strong>, <strong>harga a&w 2026</strong>, <strong>menu aw</strong>, <strong>a&w malaysia menu</strong>, <strong>menu a & w</strong>, <strong>a&w menu malaysia</strong>, <strong>a@w menu</strong>, <strong>a & w menu malaysia</strong>, and <strong>a&w restaurant menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: awMenu
     },
     {
@@ -395,7 +413,10 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Jollibee Guide?</h2>
 <p>We provide the most detailed breakdown of the Jollibee menu Malaysia price. From the latest Jollibee promotion deals to nutrition facts and calorie counts, we help you make the best choice. Is Jollibee halal in Malaysia? Yes, all Jollibee outlets in Malaysia are 100% Halal-certified by JAKIM, ensuring a worry-free experience for everyone from Sabah to Kuala Lumpur.</p>
-      `,
+      
+
+<h2>Top Related Searches for Jollibee</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>jollibee menu</strong>, <strong>jollibee • sunway pyramid menu</strong>, <strong>jollibee malaysia menu</strong>, <strong>jolibee menu</strong>, <strong>jollibee price</strong>, <strong>menu jollibee</strong>, <strong>jolibee price</strong>, <strong>jollibee malaysia price list</strong>, <strong>jollibee ala cart chicken</strong>, <strong>jollibee harga</strong>, <strong>jollibee dessert menu</strong>, <strong>jollibee malaysia price</strong>, <strong>malaysia jollibee menu</strong>, <strong>how much is jollibee chicken joy</strong>, and <strong>jollibee bucket set</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: jollibeeMenu
     },
     {
@@ -422,7 +443,10 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our 4Fingers Guide?</h2>
 <p>We provide the most comprehensive 4Fingers crispy chicken menu price guide for 2026. Stay updated on the newest 4Fingers promotion deals and limited-time offers. Is 4Fingers halal? Yes, 4Fingers Crispy Chicken in Malaysia is 100% Halal-certified by JAKIM, making it a favorite destination for everyone from Kuala Lumpur to Kuching. Check our site before you visit a 4Fingers near me for the best value meals.</p>
-      `,
+      
+
+<h2>Top Related Searches for 4Fingers Crispy Chicken</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>4 fingers menu</strong>, <strong>4fingers menu</strong>, <strong>menu 4 fingers</strong>, <strong>menu 4fingers</strong>, <strong>4finger menu</strong>, <strong>4fingers crispy chicken @ kuching international airport menu</strong>, <strong>4fingers crispy chicken menu</strong>, <strong>4 fingers crispy chicken sunway pyramid menu</strong>, <strong>4fingers menu price</strong>, <strong>menu 4 fingers malaysia</strong>, <strong>4 fingers crispy chicken putra square menu</strong>, <strong>menu 4fingers malaysia</strong>, <strong>4 fingers menu malaysia</strong>, <strong>4 fingers kl east mall menu</strong>, and <strong>4 fingers crispy chicken menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: fourFingersMenu
     }
   ],
@@ -495,7 +519,10 @@ export const brandMocks: Record<string, any[]> = {
 <p>This page is designed to provide a complete and updated overview of the Starbucks menu in Malaysia. It allows users to explore drinks, food items, pricing insights, and latest updates in a structured and easy-to-understand format.</p>
 
 <p>Whether you are looking for coffee, frappuccino, or light meals, this guide helps you find the right options easily.</p>
-      `,
+      
+
+<h2>Top Related Searches for Starbucks</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>malaysia starbucks menu</strong>, <strong>starbucks menu</strong>, <strong>starbucks near me menu</strong>, <strong>starbucks menu malaysia 2026</strong>, <strong>starbucks malaysia menu</strong>, <strong>starbucks menu malaysia</strong>, <strong>starbuck menu</strong>, <strong>menu starbucks</strong>, <strong>starbucks menu with prices</strong>, <strong>starbucks breakfast menu malaysia</strong>, <strong>starbuck malaysia menu</strong>, <strong>starbuck menu malaysia</strong>, <strong>menu starbucks malaysia</strong>, <strong>starbucks menu 2026 malaysia</strong>, and <strong>starbucks price malaysia 2026</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: [
         // Drinks Menu
         { name: "Asian Dolce Latte", price: "RM16.50", category: "Coffee & Espresso", menuType: "Drinks Menu", description: "Smooth espresso with Asian dolce sauce and steamed milk." },
@@ -615,7 +642,10 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Why Check This ZUS Coffee Menu Page?</h2>
 
 <p>We provide a complete and frequently updated ZUS Coffee menu price 2026 guide. Instead of searching for a ZUS Coffee menu pdf, you can browse our interactive list with categories, prices, and SEO-optimized insights to help you make the best choice for your next coffee run.</p>
-      `,
+      
+
+<h2>Top Related Searches for ZUS Coffee</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>zuscoffee menu</strong>, <strong>zus coffee menu</strong>, <strong>zus coffee price menu</strong>, <strong>menu zus</strong>, <strong>zus coffee menu price</strong>, <strong>menu zus coffee</strong>, <strong>zus food menu</strong>, <strong>zus coffee menu malaysia</strong>, <strong>zus menu</strong>, <strong>zus coffee</strong>, <strong>price zus coffee</strong>, <strong>zus coffee menu with price</strong>, <strong>zus coffee menu price 2026</strong>, <strong>zus coffee price</strong>, and <strong>zua coffee menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: zusCoffeeMenu
     },
     {
@@ -651,7 +681,10 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Why Our Oriental Kopi Menu Guide?</h2>
 
 <p>We offer the most detailed browseable Oriental Kopi menu price list Malaysia including real-time updates for Oriental Kopi menu 2026. Avoid the hassle of searching for an Oriental Kopi menu pdf; our mobile-optimized list includes Oriental Kopi menu calories, nutrition info, and simulated photos to make ordering a breeze.</p>
-      `,
+      
+
+<h2>Top Related Searches for Oriental Kopi</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>oriental kopi menu price 2026</strong>, <strong>oriental kopi menu</strong>, <strong>oriental kopi egg tart price 6 pcs</strong>, <strong>oriental kopi egg tart price malaysia</strong>, <strong>oriental kopitiam menu</strong>, <strong>kopitiam oriental kopi menu price</strong>, <strong>oriental kopi paradigm mall menu</strong>, <strong>oriental kopi egg tart price</strong>, and <strong>oriental coffee</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: orientalKopiMenu
     },
     {
@@ -691,7 +724,10 @@ export const brandMocks: Record<string, any[]> = {
 <p>The Coffee Bean and tea leaf catering menu is perfect for corporate events and private gatherings. With locations spanning from Coffee Bean Ipoh to Coffee Bean Kuantan and even Peshawar or Dubai, CBTL is a truly global brand. Whether you are at Coffee Bean Ioi City Mall or searching for a Coffee Bean menu Singapore price, the commitment to "Find Your Flavor" remains the same.</p>
 
 <p>Check the Coffee Bean menu open now feature on delivery apps like Grab or Foodpanda to get your favorite drinks delivered straight to your door today.</p>
-      `,
+      
+
+<h2>Top Related Searches for Coffee Bean & Tea Leaf</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>the coffee bean and tea leaf nilai menu</strong>, <strong>the coffee bean and tea leaf kuala lumpur menu</strong>, <strong>the coffee bean & tea leaf menu malaysia</strong>, <strong>coffee bean menu</strong>, <strong>the coffee bean and tea leaf menu</strong>, <strong>coffee bean menu malaysia</strong>, <strong>coffee bean malaysia menu</strong>, <strong>the coffee bean & tea leaf bukit kayu hitam menu</strong>, <strong>the coffee bean & tea leaf limbongan menu</strong>, <strong>the coffee bean and tea leaf bangi avenue dt menu</strong>, <strong>the coffee bean and tea leaf johor bahru menu</strong>, <strong>the coffee bean & tea leaf malaysia menu</strong>, <strong>the coffee bean & tea leaf menu</strong>, <strong>coffee bean menu price</strong>, and <strong>coffee bean price menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: coffeeBeanMenu
     }
   ],
@@ -773,7 +809,10 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Thong Bowl Guide?</h2>
 <p>We provide the most detailed and updated Thong Bowl menu with prices for 2026. Stay informed about the latest Thong Bowl promotions and new menu additions. Whether you are looking for Thong Bowl halal information or simply want to browse the Thong Bowl menu Malaysia before you go, we have all the details covered.</p>
-      `,
+      
+
+<h2>Top Related Searches for Thong Bowl</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>thong bowl menu</strong>, <strong>thong bowl calories</strong>, <strong>thong bowl sunway carnival menu</strong>, <strong>thong bowl new menu</strong>, <strong>menu thong bowl sunway carnival</strong>, <strong>menu thong bowl</strong>, <strong>thong bowl penang menu</strong>, <strong>thong bowl price</strong>, <strong>thong bowl menu price</strong>, <strong>menu thongbowl</strong>, <strong>thongbowl noodles</strong>, <strong>thong bowl</strong>, <strong>thong bowl price list</strong>, <strong>thong bowl price range</strong>, and <strong>menu thongbowl price</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: thongBowlMenu
     },
     {
@@ -800,7 +839,10 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Damascus Guide?</h2>
 <p>We provide the most accurate Damascus Bukit Bintang menu price updates for 2026. Instead of waiting in the long queues to see the board, plan your order with our guide. Whether you're searching for Damascus near me or checking for Damascus Bukit Bintang halal status, we provide all the essential information for a perfect Middle Eastern feast.</p>
-      `,
+      
+
+<h2>Top Related Searches for Damascus Bukit Bintang</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>damascus menu</strong>, and <strong>damascus bukit bintang</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: damascusMenu
     }
   ],
@@ -842,7 +884,10 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Why Check This Chagee Menu Malaysia Page?</h2>
 
 <p>We provide the most comprehensive Chagee menu price 2026 directory. Instead of searching for a Chagee menu pdf, you can browse our interactive site for the latest Chagee menu and price malaysia updates, including seasonal releases like the Hojicha Genmai Milk Tea and limited edition collaborations.</p>
-      `,
+      
+
+<h2>Top Related Searches for CHAGEE</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>chagee menu</strong>, <strong>chagee menu price</strong>, <strong>chagee malaysia menu</strong>, <strong>white peach oolong milk tea chagee price</strong>, <strong>chagee labuan menu</strong>, <strong>chagee grapefruit jasmine tea calories</strong>, <strong>chagee one utama menu</strong>, <strong>chagee menu malaysia 2026</strong>, <strong>watermelon jasmine tea chagee price</strong>, <strong>chagee matcha menu</strong>, <strong>chagee price list</strong>, <strong>chagee white peach oolong milk tea price</strong>, <strong>chagee price malaysia</strong>, <strong>chagee menu and price</strong>, and <strong>chagee menu malaysia</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: chageeMenu
     },
     {
@@ -990,7 +1035,10 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Bingxue Menu Directory?</h2>
 <p>We provide a comprehensive and frequently updated Bingxue menu with pictures (simulated) and broken down categories. Instead of searching for a Bingxue menu pdf, browse our interactive site to find Bingxue menu calories, nutrition info, and updates on the latest Bingxue menu waffle and bingxue menu matcha releases throughout 2026.</p>
-      `,
+      
+
+<h2>Top Related Searches for Bingxue</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>bingxue menu</strong>, <strong>bingxue menu malaysia</strong>, <strong>menu bingxue</strong>, <strong>menu bingxue malaysia</strong>, <strong>menu bingxue 2026</strong>, <strong>bing xue menu</strong>, <strong>bingxue malaysia</strong>, <strong>bingxue malaysia menu</strong>, <strong>bingxue menu malaysia price</strong>, <strong>bingxue calories</strong>, <strong>bingxue mid valley</strong>, <strong>bingxue menu price</strong>, <strong>bingxue menu waffle</strong>, <strong>bingxue menu 2026</strong>, and <strong>bingxue menu malaysia pdf</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: bingxueMenu
     },
     { name: "llaollao", slug: "llaollao", category: 'teas-desserts', image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600&h=400", tags: [{ name: "Halal", colors: "bg-green-500 text-white" }], desc: "Natural Frozen Yogurt", menu: [] },
@@ -1019,7 +1067,10 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Suka Dessert Guide?</h2>
 <p>We provide the most detailed Suka Dessert menu price updates for 2026. Stay informed about the latest Suka Dessert branches and seasonal chocolate promotions. Whether you are looking for Suka Dessert halal information or simply want to browse the Suka Dessert menu Malaysia before you visit, we have you covered.</p>
-      `,
+      
+
+<h2>Top Related Searches for Suka Dessert</h2>
+<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>suka dessert menu</strong>, <strong>suka desert menu</strong>, <strong>suka dessert price list</strong>, <strong>harga suka dessert 2026</strong>, <strong>menu suka dessert</strong>, <strong>suka dessert price</strong>, <strong>suka dessert menu 2026</strong>, <strong>suka dessert menu price</strong>, <strong>menu suka dessert selayang</strong>, <strong>suka sweet dessert</strong>, <strong>suka dessert malaysia</strong>, <strong>sukadessert menu</strong>, <strong>cake in bowl suka dessert price</strong>, <strong>suka dessert</strong>, and <strong>harga suka dessert</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
       menu: sukaDessertMenu
     },
     {
