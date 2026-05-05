@@ -73,6 +73,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>Kuala Lumpur is truly a paradise for steak enthusiasts in 2026. Whether you want the sky-high luxury of Envi or the grounded, rustic charm of TTDI, there is a perfect cut waiting for you. Don't forget to check out our full list of <a href="/categories/">restaurant menu categories</a> to find the latest prices before you book your table.</p>
+    
+
+      <h2>Top Related Searches</h2>
+      <p>Users frequently search for: <strong>best halal steakhouse in kl</strong>, <strong>best halal steak in kl</strong>.</p>
     `
   },
   {
@@ -195,6 +199,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>Dining out in KL doesn't have to be expensive to be premium. By choosing specialized buffets like Seoul Garden or value-driven spots like Rot Thai, you can enjoy an incredible feast for under RM100. Explore our <a href="/buffet-dining/">Buffet & Fine Dining category</a> for more menu prices and hidden gems across the city.</p>
+    
+
+      <h2>Top Related Searches</h2>
+      <p>Users frequently search for: <strong>buffet dinner in kl below rm100</strong>, <strong>all you can eat buffet</strong>, <strong>hotel buffet dinner in kl below rm100</strong>, <strong>buffet lunch in kl below rm100</strong>, <strong>all that you can eat buffet</strong>, <strong>all you can eat buffet near me</strong>.</p>
     `
   },
   {
@@ -328,6 +336,10 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>Pavilion Bukit Jalil is more than just a mall; it's a culinary journey. Whether you're there for the high-end sushi or the viral egg tarts, plan your visit accordingly to beat the weekend crowds. See our full <a href="/categories/">Category List</a> to explore more restaurant menus in the Bukit Jalil area.</p>
+    
+
+      <h2>Top Related Searches</h2>
+      <p>Users frequently search for: <strong>best food in pavilion bukit jalil</strong>, <strong>food at pavilion bukit jalil</strong>, <strong>pavilion bukit jalil nice food</strong>, <strong>places to eat in pavilion bukit jalil</strong>, <strong>good food pavilion bukit jalil</strong>, <strong>food to eat in pavilion bukit jalil</strong>, <strong>pavilion bukit jalil restaurant list</strong>, <strong>food in pavilion bukit jalil</strong>, <strong>restaurants in pavilion bukit jalil</strong>, <strong>what to eat in pavilion bukit jalil</strong>, <strong>what to eat pavilion bukit jalil</strong>, <strong>restaurant in pavilion bukit jalil</strong>, <strong>pavilion bukit jalil restaurant list menu</strong>, <strong>pavilion bukit jalil fast food</strong>, <strong>top rated pavilion bukit jalil food</strong>, <strong>pavilion bukit jalil best food</strong>, <strong>pavilion bukit jalil what to eat</strong>, <strong>best food pavilion bukit jalil</strong>, <strong>things to eat in pavilion bukit jalil</strong>, <strong>good food in pavilion bukit jalil</strong>, <strong>nice food in pavilion bukit jalil</strong>, <strong>food in bukit jalil pavilion</strong>, <strong>pavilion bukit jalil good food</strong>, <strong>food in pavillion bukit jalil</strong>, <strong>best restaurant in pavilion bukit jalil</strong>, <strong>what to eat in bukit jalil pavilion</strong>, <strong>top rated pavilion bukit jalil restaurant</strong>, <strong>places to eat pavilion bukit jalil</strong>, <strong>makan di pavilion bukit jalil</strong>, <strong>fast food pavilion bukit jalil</strong>, <strong>pavilion bukit jalil directory food</strong>, <strong>what to eat in pavillion bukit jalil</strong>, <strong>dinner in pavilion bukit jalil</strong>, <strong>bukit jalil pavilion food directory</strong>, <strong>fast food in pavilion bukit jalil</strong>, <strong>food court pavilion bukit jalil menu</strong>, <strong>pavilion bukit jalil food list</strong>, <strong>eateries in pavilion bukit jalil</strong>, <strong>restaurants in pavillion bukit jalil</strong>, <strong>pavilion bukit jalil restaurants list</strong>, <strong>restaurants at pavilion bukit jalil</strong>, <strong>western food pavilion bukit jalil</strong>, <strong>food at pavillion bukit jalil</strong>, <strong>pavilion bukit jalil food directory</strong>, <strong>restaurant in pavillion bukit jalil</strong>, <strong>bukit jalil pavilion food court</strong>, <strong>food near pavilion bukit jalil</strong>, <strong>food court pavilion bukit jalil</strong>.</p>
     `
   },
   {
