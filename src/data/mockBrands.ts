@@ -113,8 +113,46 @@ export const brandMocks: Record<string, any[]> = {
 <p>Whether you are planning a quick meal or ordering for a group, this guide helps simplify your decision-making process.</p>
       
 
-<h2>Top Related Searches for McDonald's</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>mcd menu with price 2026</strong>, <strong>mcdonald delivery menu</strong>, <strong>mcdonald's menu malaysia</strong>, <strong>menu mcd</strong>, <strong>mcdonalds menu</strong>, <strong>mcdonald's menu</strong>, <strong>mcdonald malaysia menu</strong>, <strong>mcdonald's menu price list</strong>, <strong>mcdonalds meals</strong>, <strong>mcdonald's near me menu</strong>, <strong>mcd menu</strong>, <strong>mcdonald's nasi lemak price</strong>, <strong>mcdonald's breakfast prices</strong>, <strong>mcdonald nasi lemak price</strong>, and <strong>mcdonalds malaysia menu</strong>, <strong>mcd menu with price 2026</strong>, <strong>mcdonald's latest menu with price</strong>, <strong>menu mcd dan harga malaysia</strong>, <strong>mcdonald</strong>, <strong>mcdonald's menu malaysia price 2026</strong>, <strong>big mac price malaysia 2026</strong>, <strong>mcdonald's current menu with prices</strong>, <strong>mcdonald menu and prices near me</strong>, <strong>price list for mcdonald's menu</strong>, <strong>mcdonald's menu and price list</strong>, <strong>mcd menu with price malaysia</strong>, <strong>mcd menu with price 2025</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Quick Information for Diners</h2>
+<p>Many diners in Malaysia look for details on the McDonald's latest menu with price updates or want to know the big mac price malaysia 2026 before ordering. If you are searching for a mcdonald delivery menu or simply trying to find a mcdonald menu and prices near me, this guide has everything you need. From checking the mcdonald's breakfast prices to verifying the mcdonald's nasi lemak price, our updated mcdonald's menu price list makes it easy to plan your favorite mcdonalds meals without any surprises.</p>`,
+      nutritionHtml: `
+            <p class="text-lg">
+              McDonald's offers clear nutritional data for those mindful of their diet. The iconic Big Mac is approximately 508 kcal, while a standard McChicken sits around 400 kcal.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Calorie Conscious:</strong> Swap fries for a corn cup to save around 200 calories on your McValue meal.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> McDonald's Malaysia is fully JAKIM Halal certified.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"For a lighter meal, grab a Grilled Chicken Burger (GCB) instead of fried options and choose water or Coke Zero instead of regular soda."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-red-600">McDelivery</div>
+                <p class="text-slate-500 text-sm font-medium">Use the official McDonald's app to earn My McD rewards on every order.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">Fastest delivery times for late-night cravings across Malaysia.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+                <p class="text-slate-500 text-sm font-medium">Check for seasonal discounts and free delivery promos.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is the McDonald's Malaysia menu Halal?", a: "Yes, 100% of McDonald's restaurants in Malaysia are Halal certified by JAKIM." },
+        { q: "What time does McDonald's breakfast end?", a: "Breakfast is usually served until 10:00 AM on weekdays and 11:00 AM on weekends." },
+        { q: "Can I get a Big Mac without pickles?", a: "Yes, you can customize your burger via the self-ordering kiosks or delivery apps." },
+        { q: "Does McDonald's Malaysia serve pork?", a: "No, McDonald's Malaysia does not serve any pork or alcohol." }
+      ],
       menu: [
         // All Time Favourites
         { name: "Big Mac", price: "RM 12.50", category: "All Time Favourites", description: "The iconic burger with two all-beef patties, special sauce, lettuce, cheese, pickles, and onions." },
@@ -239,8 +277,46 @@ export const brandMocks: Record<string, any[]> = {
 <p>Whether you are planning a quick meal or ordering for a group, this guide helps you make better decisions easily.</p>
       
 
-<h2>Top Related Searches for KFC</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>马来西亚kfc最新菜单2026</strong>, <strong>loaded potato kfc malaysia nutrition</strong>, <strong>kfc malaysia</strong>, <strong>kfc malaysia menu</strong>, <strong>kfc menu malaysia</strong>, <strong>latest kfc menu</strong>, <strong>kfc calories malaysia</strong>, <strong>kfc new menu</strong>, <strong>kfc breakfast</strong>, <strong>menu kfc</strong>, <strong>kfc menu</strong>, <strong>kfc menu malaysia price</strong>, <strong>kfc menu prices near me</strong>, <strong>kfc malaysia nutrition</strong>, and <strong>kfc</strong>, <strong>kfc menu prices near me</strong>, <strong>today kfc menu with prices</strong>, <strong>kfc pricing</strong>, <strong>kfc malaysia</strong>, <strong>kfc family bucket price malaysia</strong>, <strong>kfc 15 pieces bucket price</strong>, <strong>menu kfc dan harga terkini</strong>, <strong>kfc prices</strong>, <strong>kfc</strong>, <strong>kfc malaysia menu prices 2026</strong>, <strong>kfc malaysia 15 pcs bucket price</strong>, <strong>kfc genting grand (gh) menu</strong>, <strong>kentucky fried chicken menu with prices</strong>, <strong>kentucky fried chicken prices and menu</strong>, <strong>kfc bucket 15 pcs price</strong>, <strong>kfc zinger burger ala carte price</strong>, <strong>kfc dinner plate price 2026</strong>, <strong>kfc subang 2 dt menu</strong>, <strong>kfc 25 piece bucket price</strong>, <strong>kfc snack plate calories malaysia</strong>, <strong>kentucky fried chicken near me menu</strong>, <strong>bucket today kfc menu with prices</strong>, <strong>loaded potato bowl kfc price</strong>, <strong>snack plate kfc price malaysia</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Ordering Your Favorite KFC Meals</h2>
+<p>Diners in Malaysia frequently check our guide to discover the latest kfc menu malaysia price list and find options for their family. Whether you want to know the kfc family bucket price malaysia or are specifically searching for the kfc dinner plate price 2026, we have the most accurate details. Need to know the snack plate kfc price malaysia before hitting the drive-thru? Or perhaps you are calculating the kfc calories malaysia for your next loaded potato bowl? From checking the latest kentucky fried chicken near me menu to verifying the kfc 15 pieces bucket price, our comprehensive guide helps you plan the perfect fried chicken feast.</p>`,
+      nutritionHtml: `
+            <p class="text-lg">
+              KFC is famous for its Original Recipe and Hot & Spicy fried chicken. A single piece of Original Recipe chicken contains around 240-320 kcal depending on the cut.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Lighter Choices:</strong> The Whipped Potato and Coleslaw are popular side dishes that balance the meal.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> All KFC outlets across Malaysia adhere strictly to JAKIM's Halal standards.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"To reduce your calorie intake, you can peel off the fried skin from the chicken or choose the Colonel Rice Combo instead of fries."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-red-600">KFC App</div>
+                <p class="text-slate-500 text-sm font-medium">Order via the KFC App to earn Reward Points and access exclusive app-only buckets.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+                <p class="text-slate-500 text-sm font-medium">Great for ordering Snack Plates or Zinger burgers during lunch hours.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">Reliable delivery tracking directly to your doorstep anywhere in Malaysia.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is the KFC Malaysia menu completely Halal?", a: "Absolutely. KFC Malaysia has been Halal-certified by JAKIM for decades." },
+        { q: "Can I choose specific chicken parts in my KFC Bucket?", a: "Yes, you can request specific parts, but it is subject to availability at the outlet and may incur a surcharge for all-drumsticks." },
+        { q: "What is the difference between Snack Plate and Dinner Plate?", a: "The Snack Plate comes with 2 pieces of chicken, while the Dinner Plate gives you 3 pieces of chicken. Both include coleslaw, whipped potato, and a bun." },
+        { q: "Does KFC Malaysia still serve the Cheezy Wedges?", a: "Yes, Cheezy Wedges remain one of the most popular permanent side dishes on the KFC Malaysia menu." }
+      ],
       menu: kfcMenu
     },
     {
@@ -280,8 +356,41 @@ export const brandMocks: Record<string, any[]> = {
 <p>From Texas Chicken Kulim to Taiping and Uptown Damansara, finding an outlet near you is easy. You can also order via GrabFood or Foodpanda to see the Texas Chicken menu online with pictures. Check the Texas Chicken menu open now status on delivery apps for late-night cravings or morning breakfast menu time.</p>
       
 
-<h2>Top Related Searches for Texas Chicken</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>texas chicken menu</strong>, <strong>texas chicken menu malaysia 2026</strong>, <strong>menu texas chicken</strong>, <strong>menu chicken texas</strong>, <strong>menu texas</strong>, <strong>texas menu</strong>, <strong>chicken texas menu</strong>, <strong>texas menu malaysia</strong>, <strong>texas chicken 1 utama menu</strong>, <strong>texas chicken mid valley menu</strong>, <strong>menu texas chicken 2026</strong>, <strong>harga texas chicken 2026</strong>, <strong>texas @ kajang menu</strong>, <strong>texas chicken 3 piece meal calories</strong>, and <strong>texas chicken menu malaysia</strong>, <strong>texas chicken menu malaysia 2026</strong>, <strong>texas chicken mid valley menu</strong>, <strong>texas fried chicken</strong>, <strong>texas chicken 1 utama menu</strong>, <strong>church's texas chicken</strong>, <strong>texas chicken @ cyberjaya menu</strong>, <strong>texas chicken</strong>, <strong>texas chicken 3 piece meal calories</strong>, <strong>texas chicken near me menu</strong>, <strong>texas chicken menu price 2026</strong>, <strong>texas chicken petron bandar seri putra drive-thru kajang menu</strong>, <strong>texas chicken malaysia menu 2026</strong>, <strong>texas chicken taiping sentral mall menu</strong>, <strong>texas chicken ara damansara menu</strong>, <strong>harga menu texas chicken 2026</strong>, <strong>texas chicken menu with price</strong>, <strong>texas chicken menu price 2025</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Pricing & Menu Details</h2>
+<p>Whether you're calculating the texas chicken 3 piece meal calories for a post-workout meal or simply searching for the latest harga menu texas chicken 2026 to treat your family, our guide is built to help. Before heading out to popular outlets like the texas chicken 1 utama menu or the texas chicken @ cyberjaya menu, checking the texas chicken menu with price ensures you get the best deals. Keep an eye out for updates as the texas chicken menu price 2026 may occasionally feature exclusive drive-thru promos at locations like the texas chicken petron bandar seri putra drive-thru kajang menu.</p>`,
+      nutritionHtml: `
+            <p class="text-lg">
+              Texas Chicken uses larger chicken cuts, which means slightly higher calories per piece compared to competitors. A signature Spicy piece is roughly 280-350 kcal.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Honey Butter Biscuits:</strong> One biscuit contains around 190 calories. Enjoy them in moderation!</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> Texas Chicken Malaysia operates with strict JAKIM Halal compliance.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"Pair your fried chicken with the Texas Chicken coleslaw instead of mashed potatoes, and skip the extra honey butter drizzle if you want to cut down on sugar."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-orange-500">ShopeeFood</div>
+                <p class="text-slate-500 text-sm font-medium">Offers frequent free delivery vouchers for Texas Chicken during monthly sales.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">The best option for ordering the 8-pc or 12-pc family buckets directly to your home.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is Texas Chicken in Malaysia Halal?", a: "Yes, all Texas Chicken outlets in Malaysia are certified Halal by JAKIM." },
+        { q: "Do they still serve free drink refills?", a: "Most standalone and dine-in Texas Chicken outlets in Malaysia offer bottomless soft drink refills." },
+        { q: "Why is it called Texas Chicken and not Church's Chicken?", a: "Outside the Americas, the brand operates as Texas Chicken due to naming rights and cultural localization." }
+      ],
       menu: texasChickenMenu
     },
     {
@@ -319,8 +428,41 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide a comprehensive Marrybrown menu with pictures (simulated) and broken down categories. Instead of searching for a Marrybrown menu pdf, use our site to find Marrybrown menu calories, nutrition facts, and info on the Marrybrown baru releases throughout 2026.</p>
       
 
-<h2>Top Related Searches for Marrybrown</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>marrybrown menu</strong>, <strong>marrybrown menu price</strong>, <strong>marrybrown tower burger price</strong>, <strong>marry brown menu</strong>, <strong>marrybrown malaysia menu</strong>, <strong>marrybrown menu 2025</strong>, <strong>tower burger marrybrown price</strong>, <strong>marrybrown price</strong>, <strong>menu marrybrown</strong>, <strong>marrybrown menu price malaysia 2026</strong>, <strong>marrybrown new menu</strong>, <strong>set marrybrown</strong>, <strong>marrybrown burger</strong>, <strong>marrybrown breakfast menu</strong>, and <strong>marrybrown menu malaysia</strong>, <strong>marrybrown menu price malaysia 2026</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Finding the Best Deals</h2>
+<p>If you're tracking the marrybrown menu price malaysia 2026 to find budget-friendly meals for the family, our guide is consistently updated with the marrybrown new menu and promotions. From looking up the exact marrybrown tower burger price to finding out what's included in the marrybrown breakfast menu, we make sure you're well-informed. Instead of guessing the set marrybrown costs, use our detailed lists to verify the latest marrybrown price before you place your order.</p>`,
+      nutritionHtml: `
+            <p class="text-lg">
+              Marrybrown offers a unique mix of fast food and local cuisine. The Nasi Lemak MB is a favorite, though it sits around 650-700 kcal. Their crispy chicken provides roughly 250 kcal per piece.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Local Flavors:</strong> The Nasi Bowls provide a balanced meal of protein and carbs compared to heavy fried combos.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> As a homegrown Malaysian brand, Marrybrown is 100% Halal certified.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"For a lighter fast-food experience, opt for the Chicken Porridge (Bubur Ayam) which is much lower in calories compared to the heavy burgers and fries."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-red-600">MB App Delivery</div>
+                <p class="text-slate-500 text-sm font-medium">Download the Marrybrown app for exclusive birthday deals and delivery discounts.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+                <p class="text-slate-500 text-sm font-medium">Great for ordering the famous Nasi Lemak MB directly to your office for lunch.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is Marrybrown a Malaysian company?", a: "Yes, Marrybrown was founded in Johor Bahru in 1981 and is Malaysia's largest homegrown fast-food chain." },
+        { q: "Does Marrybrown still serve the Nasi Kandar?", a: "Yes, Nasi Kandar and Nasi Lemak are permanent signatures on the Local Delights menu." },
+        { q: "What comes in a Marrybrown Kiddy Meal?", a: "Kiddy Meals usually include a main (like nuggets or a burger), a side, a drink, and a collectible toy." }
+      ],
       menu: marrybrownMenu
     },
     {
@@ -355,8 +497,41 @@ export const brandMocks: Record<string, any[]> = {
 <p>We update our burger king menu malaysia price list frequently to reflect the latest market changes. From burger king menu vegan-friendly sides to the newest burger king menu baru releases, check back here regularly for the most accurate information on burger king menu nutrition facts and calorie counts before you order.</p>
       
 
-<h2>Top Related Searches for Burger King</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>burger king menu</strong>, <strong>burger king lunch menu</strong>, <strong>burger king menu malaysia</strong>, <strong>burger king price</strong>, <strong>whopper burger king price</strong>, <strong>burger king cheeseburger price</strong>, <strong>burger king menu price</strong>, <strong>cheeseburger burger king price</strong>, <strong>menu rahmah burger king</strong>, <strong>burger king prices</strong>, <strong>burger king malaysia price</strong>, <strong>menu burger king price</strong>, <strong>burger king menu with prices</strong>, <strong>menu burger king</strong>, and <strong>burger king latest menu</strong>, <strong>burger king menu and price</strong>, <strong>burger king menu with prices</strong>, <strong>burger king menu price malaysia</strong>, <strong>drive thru burger king menu</strong>, <strong>burger king lunch menu with prices</strong>, <strong>burger king menu with prices malaysia</strong>, <strong>burger king double cheeseburger price</strong>, <strong>burger king drive thru menu</strong>, <strong>burger king malaysia menu prices</strong>, <strong>cheese burger burger king price</strong>, <strong>burger king whopper with cheese price</strong>, <strong>burger king menu with prices malaysia 2026</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Plan Your Order</h2>
+<p>Diners searching for a drive thru burger king menu will find our comprehensive burger king menu with prices malaysia 2026 extremely useful. Whether you're comparing the burger king double cheeseburger price or just want to confirm the whopper burger king price before pulling up to the window, this guide has you covered. For budget-conscious diners, keeping an eye on the menu rahmah burger king or the daily burger king lunch menu with prices is the best way to enjoy premium flame-grilled flavor on a budget.</p>`,
+      nutritionHtml: `
+            <p class="text-lg">
+              Burger King's signature flame-grilling process drains excess fat from the beef. A standard Whopper is about 650 kcal, whereas the smaller Whopper Jr. is a much lighter 310 kcal.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Customizable:</strong> Burger King famously lets you "Have It Your Way," meaning you can easily remove mayo or cheese to cut calories.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> All ingredients and outlets in Malaysia are fully JAKIM Halal certified.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"Order a Whopper Jr. without mayonnaise and pair it with a bottled water instead of a sugary soda to save over 300 calories."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-orange-500">ShopeeFood</div>
+                <p class="text-slate-500 text-sm font-medium">Frequently offers massive discount vouchers during double-digit sales days for BK combos.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">Fast and reliable for getting that hot Whopper delivered directly to you.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is Burger King Malaysia Halal?", a: "Yes, Burger King Malaysia is 100% Halal certified by JAKIM." },
+        { q: "Can I customize my Whopper?", a: "Yes! Burger King's motto 'Have It Your Way' allows you to add extra beef patties, remove sauces, or add extra cheese." },
+        { q: "What is the difference between a Whopper and a standard hamburger?", a: "The Whopper features a wider 4-inch sesame seed bun and a larger, flame-grilled beef patty compared to the standard 3-inch hamburger." }
+      ],
       menu: burgerKingMenu
     },
     {
@@ -385,8 +560,41 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide the most detailed A&W menu with prices for 2026. Stay updated on the latest A&W promotion deals and new menu additions like the A&W menu Rahmah. Whether you are looking for A&W halal information or simply want to browse the A&W menu Malaysia before you visit a A&W near me, we have all the essential details for your nostalgic dining experience.</p>
       
 
-<h2>Top Related Searches for A&W</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>a&w menu malaysia 2026</strong>, <strong>a&w food menu</strong>, <strong>menu a&w 2026</strong>, <strong>aw menu</strong>, <strong>menu a&w</strong>, <strong>a&w menu</strong>, <strong>aw price</strong>, <strong>harga a&w 2026</strong>, <strong>menu aw</strong>, <strong>a&w malaysia menu</strong>, <strong>menu a & w</strong>, <strong>a&w menu malaysia</strong>, <strong>a@w menu</strong>, <strong>a & w menu malaysia</strong>, and <strong>a&w restaurant menu</strong>, <strong>a and w menu malaysia</strong>, <strong>a & w menu malaysia</strong>, <strong>a and w bridge ayer keroh menu</strong>, <strong>root beer float a&w price</strong>, <strong>a & w restaurant menu</strong>, <strong>a and w menu prices</strong>, <strong>a & w menu prices</strong>, <strong>a&w benoni drive thru menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Quick Pricing Reference</h2>
+<p>Diners frequently ask us about the a&w menu malaysia 2026 pricing, wanting to know exactly how much a root beer float a&w price is before they visit. Whether you're searching for the complete a and w menu prices or looking up specific drive-thru locations like the a&w benoni drive thru menu and a and w bridge ayer keroh menu, we've got you covered. From the classic a&w food menu to the newest a&w restaurant menu deals, this guide ensures you always pay the right harga a&w 2026 for your favorite Coney and Waffles.</p>`,
+      nutritionHtml: `
+            <p class="text-lg">
+              A&W offers classic comfort food. A signature Beef Coney is around 450 kcal, while the famous Root Beer Float packs about 250 kcal depending on the scoop size.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Drink Options:</strong> Opt for standard Root Beer without the ice cream float to save on sugar and calories.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> A&W was the first fast-food chain in Malaysia to receive full JAKIM Halal certification.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"If you're craving the Coney but want to reduce carbs, you can ask for the Coney sauce over a side of chicken instead of the hotdog bun."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">The most reliable way to get your Root Beer Floats delivered without spilling.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+                <p class="text-slate-500 text-sm font-medium">Excellent for finding late-night delivery deals for A&W's Golden Aroma Chicken.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is A&W Malaysia Halal?", a: "Yes, A&W Malaysia is strictly Halal certified by JAKIM." },
+        { q: "Do they still serve Root Beer in frosty glass mugs?", a: "Yes! If you dine in at any A&W outlet, your Root Beer will be served in their iconic frosty glass mugs." },
+        { q: "What does A&W stand for?", a: "A&W stands for Roy Allen and Frank Wright, the founders of the brand." }
+      ],
       menu: awMenu
     },
     {
@@ -415,8 +623,41 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide the most detailed breakdown of the Jollibee menu Malaysia price. From the latest Jollibee promotion deals to nutrition facts and calorie counts, we help you make the best choice. Is Jollibee halal in Malaysia? Yes, all Jollibee outlets in Malaysia are 100% Halal-certified by JAKIM, ensuring a worry-free experience for everyone from Sabah to Kuala Lumpur.</p>
       
 
-<h2>Top Related Searches for Jollibee</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>jollibee menu</strong>, <strong>jollibee • sunway pyramid menu</strong>, <strong>jollibee malaysia menu</strong>, <strong>jolibee menu</strong>, <strong>jollibee price</strong>, <strong>menu jollibee</strong>, <strong>jolibee price</strong>, <strong>jollibee malaysia price list</strong>, <strong>jollibee ala cart chicken</strong>, <strong>jollibee harga</strong>, <strong>jollibee dessert menu</strong>, <strong>jollibee malaysia price</strong>, <strong>malaysia jollibee menu</strong>, <strong>how much is jollibee chicken joy</strong>, and <strong>jollibee bucket set</strong>, <strong>jollibee • sunway pyramid menu</strong>, <strong>how much is jollibee chicken joy</strong>, <strong>jollibee ioi city mall menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Popular Questions & Pricing</h2>
+<p>If you're wondering how much is jollibee chicken joy, our updated malaysia jollibee menu provides all the answers. Whether you are planning a trip to the jollibee ioi city mall menu or the busy jollibee • sunway pyramid menu, checking the jollibee malaysia price list ensures you know the exact jollibee harga for a jollibee bucket set. Don't forget to explore the jollibee dessert menu to complete your meal with a Peach Mango Pie after your jollibee ala cart chicken.</p>`,
+      nutritionHtml: `
+            <p class="text-lg">
+              Jollibee's famous Chickenjoy is known for its crispy skin and juicy meat. A 1-piece Chickenjoy meal with rice is approximately 450-500 kcal.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Jolly Spaghetti:</strong> A serving of Jolly Spaghetti contains around 400 kcal and is a great alternative to fries.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> All Jollibee outlets in Malaysia adhere to JAKIM Halal guidelines.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"For a more balanced meal, order the Chickenjoy with a side of rice rather than fries, as the rice provides longer-lasting energy and fewer unhealthy fats."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">Offers the widest delivery radius for Jollibee outlets in Klang Valley and Sabah.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+                <p class="text-slate-500 text-sm font-medium">Check for exclusive Foodpanda combos that pair Chickenjoy with Peach Mango Pies.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is Jollibee Halal in Malaysia?", a: "Yes, Jollibee Malaysia is 100% Halal certified." },
+        { q: "Why is the Jollibee spaghetti sweet?", a: "Jolly Spaghetti is made Filipino-style, which uses a sweeter tomato sauce mixed with hotdog slices and cheese." },
+        { q: "Does Jollibee Malaysia serve the Palabok?", a: "Currently, the Palabok (a traditional Filipino noodle dish) is only available at selected outlets or during special promotions." }
+      ],
       menu: jollibeeMenu
     },
     {
@@ -445,8 +686,41 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide the most comprehensive 4Fingers crispy chicken menu price guide for 2026. Stay updated on the newest 4Fingers promotion deals and limited-time offers. Is 4Fingers halal? Yes, 4Fingers Crispy Chicken in Malaysia is 100% Halal-certified by JAKIM, making it a favorite destination for everyone from Kuala Lumpur to Kuching. Check our site before you visit a 4Fingers near me for the best value meals.</p>
       
 
-<h2>Top Related Searches for 4Fingers Crispy Chicken</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>4 fingers menu</strong>, <strong>4fingers menu</strong>, <strong>menu 4 fingers</strong>, <strong>menu 4fingers</strong>, <strong>4finger menu</strong>, <strong>4fingers crispy chicken @ kuching international airport menu</strong>, <strong>4fingers crispy chicken menu</strong>, <strong>4 fingers crispy chicken sunway pyramid menu</strong>, <strong>4fingers menu price</strong>, <strong>menu 4 fingers malaysia</strong>, <strong>4 fingers crispy chicken putra square menu</strong>, <strong>menu 4fingers malaysia</strong>, <strong>4 fingers menu malaysia</strong>, <strong>4 fingers kl east mall menu</strong>, and <strong>4 fingers crispy chicken menu</strong>, <strong>4 fingers menu and price</strong>, <strong>4 fingers crispy chicken putra square menu</strong>, <strong>4 fingers crispy chicken sunway pyramid menu</strong>, <strong>4fingers crispy chicken @ kuching international airport menu</strong>, <strong>4 fingers kl east mall menu</strong>, <strong>4 fingers crispy chicken menu</strong>, <strong>4fingers crispy chicken @ klia terminal 1 sepang menu</strong>, <strong>4fingers crispy chicken senawang menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Your Guide to 4Fingers</h2>
+<p>Whether you're landing at KLIA and searching for the 4fingers crispy chicken @ klia terminal 1 sepang menu or hanging out at the mall checking the 4 fingers crispy chicken sunway pyramid menu, our guide ensures you get the exact 4fingers menu price. We keep the 4 fingers menu malaysia updated for all locations, from the 4 fingers kl east mall menu to the 4fingers crispy chicken senawang menu, so you can perfectly plan your next hand-painted chicken meal without guessing the price.</p>`,
+      nutritionHtml: `
+            <p class="text-lg">
+              4Fingers signature technique relies on hand-painting rather than thick batter, meaning their chicken is generally less greasy. A 3-piece winglette set is roughly 250 kcal.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Soy Garlic Magic:</strong> The signature soy garlic sauce is a fermented recipe free from artificial MSG.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> All 4Fingers outlets in Malaysia operate with full JAKIM Halal certification.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"For a guilt-free crunch, swap the Seaweed Fries for a Chicken Katsu Salad which offers crisp greens and high protein without the heavy carbs."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">Offers premium insulated delivery to ensure your Soy Garlic wings stay crackly and hot.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-orange-500">ShopeeFood</div>
+                <p class="text-slate-500 text-sm font-medium">Frequently features massive discounts on the 4Fingers 12-piece wing combos.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is 4Fingers Crispy Chicken Halal?", a: "Yes, 4Fingers Malaysia is 100% Halal certified." },
+        { q: "What is the difference between Soy Garlic and Spicy sauce?", a: "Soy Garlic is savory and sweet, while the Spicy sauce packs a serious, fiery punch. You can also ask for 'Mixed' to get half of each!" },
+        { q: "Are the 'Look Ma, No Bones' chicken bites breast meat?", a: "Yes, they are made from premium boneless chicken breast chunks." }
+      ],
       menu: fourFingersMenu
     }
   ],
@@ -521,8 +795,30 @@ export const brandMocks: Record<string, any[]> = {
 <p>Whether you are looking for coffee, frappuccino, or light meals, this guide helps you find the right options easily.</p>
       
 
-<h2>Top Related Searches for Starbucks</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>malaysia starbucks menu</strong>, <strong>starbucks menu</strong>, <strong>starbucks near me menu</strong>, <strong>starbucks menu malaysia 2026</strong>, <strong>starbucks malaysia menu</strong>, <strong>starbucks menu malaysia</strong>, <strong>starbuck menu</strong>, <strong>menu starbucks</strong>, <strong>starbucks menu with prices</strong>, <strong>starbucks breakfast menu malaysia</strong>, <strong>starbuck malaysia menu</strong>, <strong>starbuck menu malaysia</strong>, <strong>menu starbucks malaysia</strong>, <strong>starbucks menu 2026 malaysia</strong>, and <strong>starbucks price malaysia 2026</strong>, <strong>starbucks menu malaysia price 2026</strong>, <strong>starbucks menu prices malaysia 2026</strong>, <strong>starbucks</strong>, <strong>starbucks coffee price in malaysia</strong>, <strong>how much is iced water at starbucks</strong>, <strong>starbucks malaysia menu with prices</strong>, <strong>starbucks menu food and drinks</strong>, <strong>trio cheese smoked chicken starbucks</strong>, <strong>starbucks drink menu with prices</strong>, <strong>starbucks menu malaysia price list</strong>, <strong>starbucks handcrafted beverage menu malaysia</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Your Starbucks Guide</h2>
+<p>When looking for the starbucks menu malaysia 2026 updates, our comprehensive list is the perfect starting point. Check the starbucks menu with prices before ordering your favorite frappuccino or pastry. Keep an eye out for the latest starbucks price malaysia 2026 to ensure you never miss a seasonal promotion.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Starbucks provides diverse options from high-calorie Frappuccinos to low-calorie Americanos (approx 15 kcal).</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Customization:</strong> Switch to almond or oat milk to reduce calories and dairy intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> Starbucks Malaysia is fully JAKIM Halal certified.</span></li>
+</ul>`,
+      healthyTip: `"Order a Cold Brew or Americano without added syrups for a strong caffeine kick with nearly zero calories."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Delivers your coffee in spill-proof packaging straight to your door.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Great for ordering afternoon tea sets and cakes to the office.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Starbucks Malaysia Halal?", a: "Yes, all Starbucks branches in Malaysia are Halal certified." },
+        { q: "Can I bring my own tumbler?", a: "Yes, Starbucks Malaysia encourages reusable tumblers and often provides a small discount for doing so." }
+      ],
       menu: [
         // Drinks Menu
         { name: "Asian Dolce Latte", price: "RM16.50", category: "Coffee & Espresso", menuType: "Drinks Menu", description: "Smooth espresso with Asian dolce sauce and steamed milk." },
@@ -644,8 +940,30 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide a complete and frequently updated ZUS Coffee menu price 2026 guide. Instead of searching for a ZUS Coffee menu pdf, you can browse our interactive list with categories, prices, and SEO-optimized insights to help you make the best choice for your next coffee run.</p>
       
 
-<h2>Top Related Searches for ZUS Coffee</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>zuscoffee menu</strong>, <strong>zus coffee menu</strong>, <strong>zus coffee price menu</strong>, <strong>menu zus</strong>, <strong>zus coffee menu price</strong>, <strong>menu zus coffee</strong>, <strong>zus food menu</strong>, <strong>zus coffee menu malaysia</strong>, <strong>zus menu</strong>, <strong>zus coffee</strong>, <strong>price zus coffee</strong>, <strong>zus coffee menu with price</strong>, <strong>zus coffee menu price 2026</strong>, <strong>zus coffee price</strong>, and <strong>zua coffee menu</strong>, <strong>zus coffee price menu 2026</strong>, <strong>zus handcrafted drink list pdf</strong>, <strong>zus coffee menu malaysia 2026</strong>, <strong>food zus coffee menu malaysia</strong>, <strong>zus coffee menu price 2026</strong>, <strong>zus coffee near me menu</strong>, <strong>zus coffee menu price malaysia</strong>, <strong>zus coffee menu with price</strong>, <strong>zus coffee official website menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>ZUS Coffee Pricing & Tips</h2>
+<p>Finding the exact zus coffee menu with price malaysia can help you decide between a Spanish Latte or a CEO Latte. With frequent updates to the zus coffee menu 2026, you can discover new local flavors and promotions. Use the zus coffee app menu to place orders smoothly and collect points.</p>`,
+      nutritionHtml: `
+<p class="text-lg">ZUS Coffee focuses on high-quality beans and unique local blends. A standard Spanish Latte has around 220 kcal.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Less Sweet:</strong> You can always request 'less sweet' to cut down on sugar.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> ZUS Coffee operates with strict Halal compliance.</span></li>
+</ul>`,
+      healthyTip: `"Try the CEO Latte with Oat Milk and half sugar for a creamier texture without the heavy dairy."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-blue-600">ZUS App</div>
+    <p class="text-slate-500 text-sm font-medium">The best way to order for pickup or delivery while earning reward points.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Convenient for fast delivery across major cities in Malaysia.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is ZUS Coffee a Malaysian brand?", a: "Yes, ZUS Coffee is a proudly Malaysian tech-driven coffee chain." },
+        { q: "What is their signature drink?", a: "The Spanish Latte and the CEO Latte are their most popular signature beverages." }
+      ],
       menu: zusCoffeeMenu
     },
     {
@@ -683,8 +1001,30 @@ export const brandMocks: Record<string, any[]> = {
 <p>We offer the most detailed browseable Oriental Kopi menu price list Malaysia including real-time updates for Oriental Kopi menu 2026. Avoid the hassle of searching for an Oriental Kopi menu pdf; our mobile-optimized list includes Oriental Kopi menu calories, nutrition info, and simulated photos to make ordering a breeze.</p>
       
 
-<h2>Top Related Searches for Oriental Kopi</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>oriental kopi menu price 2026</strong>, <strong>oriental kopi menu</strong>, <strong>oriental kopi egg tart price 6 pcs</strong>, <strong>oriental kopi egg tart price malaysia</strong>, <strong>oriental kopitiam menu</strong>, <strong>kopitiam oriental kopi menu price</strong>, <strong>oriental kopi paradigm mall menu</strong>, <strong>oriental kopi egg tart price</strong>, and <strong>oriental coffee</strong>, <strong>oriental kopi egg tart price 2026</strong>, <strong>oriental kopi menu price 2026</strong>, <strong>signature egg tart oriental price</strong>, <strong>oriental kopi egg tart price 6 pcs</strong>, <strong>oriental kopi mid valley menu</strong>, <strong>oriental cafe menu with prices</strong>, <strong>oriental kopi klia 1 menu</strong>, <strong>oriental kopi nasi lemak calories</strong>, <strong>oriental kopi • pavilion damansara heights menu</strong>, <strong>oriental kopi egg tart price malaysia</strong>, <strong>kopitiam oriental kopi menu price</strong>, <strong>oriental kopi paradigm mall menu</strong>, <strong>oriental kopi egg tart price</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Oriental Kopi Delights</h2>
+<p>Diners seeking the authentic oriental kopi mid valley menu or the classic oriental kopi pavillion bukit jalil menu will find our guide invaluable. We provide the latest oriental kopi menu price to help you plan your breakfast or afternoon tea. Check our oriental kopi menu malaysia 2026 for updates on their famous egg tarts.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Oriental Kopi serves traditional Nanyang dishes. Their famous Polo Bun and Egg Tarts are rich in butter and carbs (around 300 kcal each).</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Balanced Meals:</strong> Pair sweet pastries with traditional black coffee (Kopi O) to balance the flavors.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Pork-Free:</strong> The menu is entirely pork-free and muslim-friendly.</span></li>
+</ul>`,
+      healthyTip: `"If you're watching calories, share the signature Egg Tart with a friend and opt for Kopi O Kosong (no sugar) instead of regular Kopi."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Excellent for getting warm egg tarts delivered directly to your home.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-orange-500">ShopeeFood</div>
+    <p class="text-slate-500 text-sm font-medium">Offers reliable delivery with frequent free delivery vouchers.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Are Oriental Kopi's egg tarts halal?", a: "Yes, all ingredients used are halal-certified and the restaurants are pork-free." },
+        { q: "What is Oriental Kopi famous for?", a: "They are famous for their extra thick Polo Buns, giant Egg Tarts, and traditional Nanyang Kopi." }
+      ],
       menu: orientalKopiMenu
     },
     {
@@ -726,8 +1066,30 @@ export const brandMocks: Record<string, any[]> = {
 <p>Check the Coffee Bean menu open now feature on delivery apps like Grab or Foodpanda to get your favorite drinks delivered straight to your door today.</p>
       
 
-<h2>Top Related Searches for Coffee Bean & Tea Leaf</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>the coffee bean and tea leaf nilai menu</strong>, <strong>the coffee bean and tea leaf kuala lumpur menu</strong>, <strong>the coffee bean & tea leaf menu malaysia</strong>, <strong>coffee bean menu</strong>, <strong>the coffee bean and tea leaf menu</strong>, <strong>coffee bean menu malaysia</strong>, <strong>coffee bean malaysia menu</strong>, <strong>the coffee bean & tea leaf bukit kayu hitam menu</strong>, <strong>the coffee bean & tea leaf limbongan menu</strong>, <strong>the coffee bean and tea leaf bangi avenue dt menu</strong>, <strong>the coffee bean and tea leaf johor bahru menu</strong>, <strong>the coffee bean & tea leaf malaysia menu</strong>, <strong>the coffee bean & tea leaf menu</strong>, <strong>coffee bean menu price</strong>, and <strong>coffee bean price menu</strong>, <strong>the coffee bean and tea leaf nilai menu</strong>, <strong>the coffee bean & tea leaf limbongan menu</strong>, <strong>the coffee bean and tea leaf kuala lumpur menu</strong>, <strong>the coffee bean & tea leaf bukit kayu hitam menu</strong>, <strong>the coffee bean and tea leaf george town menu</strong>, <strong>the coffee bean & tea leaf menu malaysia</strong>, <strong>the coffee bean and tea leaf menu</strong>, <strong>coffee bean breakfast menu malaysia</strong>, <strong>the coffee bean and tea leaf cyber 12 menu</strong>, <strong>the coffee bean and tea leaf bandar sunway menu</strong>, <strong>the coffee bean and tea leaf setia ecohill menu</strong>, <strong>the coffee bean and tea leaf bangi avenue dt menu</strong>, <strong>the coffee bean and tea leaf johor bahru menu</strong>, <strong>the coffee bean & tea leaf malaysia menu</strong>, <strong>the coffee bean & tea leaf menu</strong>, <strong>menu coffee bean and tea leaf</strong>, <strong>the coffee bean menu malaysia</strong>, <strong>coffee bean cake menu malaysia</strong>, <strong>coffee bean and tea leaf malaysia menu</strong>, <strong>coffee bean menu malaysia price</strong>, <strong>coffee bean and tea leaf menu with prices</strong>, <strong>the coffee bean tea leaf menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Coffee Bean Menu Overview</h2>
+<p>Whether you're looking for a refreshing ice blended drink or checking the coffee bean menu price, our updated coffee bean menu malaysia is here to assist. Compare the coffee bean price 2026 with previous years and discover the newest additions to the coffee bean and tea leaf menu. Find the perfect breakfast set to kickstart your morning.</p>`,
+      nutritionHtml: `
+<p class="text-lg">CBTL offers rich Ice Blended drinks that are higher in calories, but their pure teas and cold brews are virtually calorie-free.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Healthy Sides:</strong> The salads and fresh sandwiches offer a nutritious lunch alternative.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> CBTL Malaysia strictly adheres to JAKIM Halal guidelines.</span></li>
+</ul>`,
+      healthyTip: `"Choose an Americano or a pure Tea Leaf infusion instead of the Ice Blended series to save over 300 calories."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Great for ordering bagels and hot lattes for a quick morning breakfast.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Fast delivery to ensure your Ice Blended drinks arrive perfectly chilled.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Coffee Bean & Tea Leaf Halal?", a: "Yes, all branches in Malaysia are Halal certified." },
+        { q: "Do they serve food?", a: "Yes, CBTL serves a variety of pastas, sandwiches, pizzas, and cakes alongside their beverages." }
+      ],
       menu: coffeeBeanMenu
     }
   ],
@@ -778,16 +1140,142 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check This Secret Recipe Menu Malaysia Page?</h2>
 
-<p>This page is the ultimate guide for anyone looking for the Secret Recipe near me menu open now or the complete Secret Recipe menu price list pdf alternative. We update our data frequently to ensure you get the most accurate Secret Recipe menu 2026 insights, from seasonal cakes to new meal additions.</p>
-      `,
+<p>This page is the ultimate guide for anyone looking for the Secret Recipe near me menu open now or the complete Secret Recipe menu price list pdf alternative. We update our data frequently to ensure you get the most accurate Secret Recipe menu 2026 insights, from seasonal cakes to new meal additions.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Known for decadent cakes, a slice of Chocolate Indulgence is around 400-500 kcal. Their hot meals offer generous portions.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Lighter Meals:</strong> The Vietnamese Beef Noodle Soup is a hearty yet lower-calorie option compared to creamy pastas.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> Secret Recipe is proudly Halal certified by JAKIM.</span></li>
+</ul>`,
+      healthyTip: `"Share a slice of cake with a friend after your meal to satisfy your sweet tooth without consuming all the calories yourself."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-red-600">SR GO! App</div>
+    <p class="text-slate-500 text-sm font-medium">Order directly through their app for pick-up or delivery and earn reward points.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">The most popular choice for getting whole cakes delivered for birthdays.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Secret Recipe Halal?", a: "Yes, Secret Recipe has been Halal certified by JAKIM for many years." },
+        { q: "Can I order a whole cake for delivery?", a: "Yes, you can order whole cakes via the SR GO! app or through GrabFood depending on location." }
+      ],
       menu: secretRecipeMenu
     },
-    { name: "PappaRich", slug: "papparich", category: 'local-asian', image: "https://images.unsplash.com/photo-1626804475297-41609ea0db49?auto=format&fit=crop&q=80&w=600&h=400", tags: [{ name: "Halal", colors: "bg-green-500 text-white" }], desc: "Authentic Malaysian Delights", seoArticle: `<h2>PappaRich Menu Malaysia Overview</h2>\n<p>Explore the full PappaRich menu with prices in Malaysia for 2026. This page provides all the details you need to plan your meal.</p>\n\n<h2>Top Related Searches for PappaRich</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>papparich bandar tun hussein onn corporate outlet cheras menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
-      menu: [] },
-    { name: "OldTown White Coffee", slug: "oldtown-white-coffee", category: 'local-asian', image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600&h=400", tags: [{ name: "Halal", colors: "bg-green-500 text-white" }], desc: "The True White Coffee Origination", seoArticle: `<h2>OldTown White Coffee Menu Malaysia Overview</h2>\n<p>Explore the full OldTown White Coffee menu with prices in Malaysia for 2026. This page provides all the details you need to plan your meal.</p>\n\n<h2>Top Related Searches for OldTown White Coffee</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>menu old town white coffee 2026</strong>, <strong>old town white coffee menu</strong>, <strong>old town white coffee menu price 2026</strong>, <strong>oldtown white coffee menu price</strong>, <strong>old town white coffee menu 2026</strong>, <strong>old town white coffee menu malaysia</strong>, <strong>old town white coffee malaysia menu</strong>, <strong>oldtown white coffee menu malaysia</strong>, <strong>old town white coffee menu price</strong>, <strong>old town white coffee vegetarian menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
-      menu: [] },
-    { name: "Madam Kwan's", slug: "madam-kwans", category: 'local-asian', image: "/images/madam-kwans.png", tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }], desc: "Truly Malaysian Cuisine", seoArticle: `<h2>Madam Kwan's Menu Malaysia Overview</h2>\n<p>Explore the full Madam Kwan's menu with prices in Malaysia for 2026. This page provides all the details you need to plan your meal.</p>\n\n<h2>Top Related Searches for Madam Kwan's</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>madam kwan's sunway pyramid menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
-      menu: [] },
+    {
+      name: "PappaRich",
+      slug: "papparich",
+      category: 'local-asian',
+      image: "https://images.unsplash.com/photo-1626804475297-41609ea0db49?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Authentic Malaysian Delights",
+      seoArticle: `
+<h2>PappaRich Menu Malaysia Overview</h2>
+<p>Explore the full PappaRich menu with prices in Malaysia for 2026. This page provides all the details you need to plan your meal.</p>
+
+<h2>Your PappaRich Guide</h2>
+<p>Finding the papparich bandar tun hussein onn corporate outlet cheras menu or checking the latest prices is easy with our guide. We keep our data updated to help you find the best local meals and discover new seasonal promotions.</p>`,
+      nutritionHtml: `
+<p class="text-lg">PappaRich offers traditional Malaysian comfort food. Famous dishes like Nasi Lemak and Curry Laksa are rich in flavor but can be high in calories.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Healthier Swaps:</strong> Opt for clear noodle soups (like Ipoh Kuey Teow Soup) to save on calories and saturated fats.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> PappaRich is fully Halal certified.</span></li>
+</ul>`,
+      healthyTip: `"When ordering Nasi Lemak, ask for less rice and sambal on the side to manage your caloric intake."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Enjoy warm, comforting Malaysian dishes delivered directly to your home.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A popular choice for ordering Hainan toast and coffee for breakfast.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is PappaRich Halal?", a: "Yes, PappaRich Malaysia is strictly Halal certified by JAKIM." },
+        { q: "What is the most popular dish?", a: "The Nasi Lemak with Curry Chicken and the Pappa Curry Laksa are fan favorites." }
+      ],
+      menu: []
+    },
+    {
+      name: "OldTown White Coffee",
+      slug: "oldtown-white-coffee",
+      category: 'local-asian',
+      image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "The True White Coffee Origination",
+      seoArticle: `
+<h2>OldTown White Coffee Menu Malaysia Overview</h2>
+<p>Explore the full OldTown White Coffee menu with prices in Malaysia for 2026. This page provides all the details you need to plan your meal.</p>
+
+<h2>Your OldTown Guide</h2>
+<p>Diners frequently look for the menu old town white coffee 2026 updates or check the old town white coffee menu price to plan their visits. We provide the latest oldtown white coffee menu malaysia options including details on their specialized old town white coffee vegetarian menu to ensure you have a complete picture of what's available.</p>`,
+      nutritionHtml: `
+<p class="text-lg">OldTown is famous for its rich White Coffee and classic toast sets.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Vegetarian Options:</strong> They offer a dedicated plant-based and vegetarian menu series.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> OldTown White Coffee is fully Halal certified.</span></li>
+</ul>`,
+      healthyTip: `"For a lighter coffee, choose the 'Kosong' (no sugar/milk) option to fully enjoy the roasted aroma without the added calories."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Excellent for morning breakfast deliveries, bringing warm toast to your door.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Convenient for lunch meals and ordering their signature noodles.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Are all OldTown White Coffee outlets Halal?", a: "Yes, all OldTown White Coffee outlets in Malaysia are Halal certified." },
+        { q: "What is White Coffee?", a: "White Coffee is a traditional Malaysian coffee roasting method using margarine, producing a smoother, lighter-colored brew." }
+      ],
+      menu: []
+    },
+    {
+      name: "Madam Kwan's",
+      slug: "madam-kwans",
+      category: 'local-asian',
+      image: "/images/madam-kwans.png",
+      tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
+      desc: "Truly Malaysian Cuisine",
+      seoArticle: `
+<h2>Madam Kwan's Menu Malaysia Overview</h2>
+<p>Explore the full Madam Kwan's menu with prices in Malaysia for 2026. This page provides all the details you need to plan your meal.</p>
+
+<h2>Your Madam Kwan's Guide</h2>
+<p>If you're heading to the madam kwan's sunway pyramid menu or any other premium mall location, our updated price list ensures you know exactly what to expect. Experience truly Malaysian cuisine with their signature Nasi Bojari and discover why this brand remains a local favorite.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Madam Kwan's serves premium Malaysian dishes. Signature meals like Nasi Bojari feature deep-fried chicken and aromatic rice, making them indulgent options.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Pork-Free:</strong> The menu uses no pork or lard.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Sharing Portions:</strong> Many dishes are generously sized, perfect for sharing.</span></li>
+</ul>`,
+      healthyTip: `"For a lighter meal, try the Steamed Fish or clear soups instead of the rich coconut-based curries."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Offers premium delivery for your family dinners straight from the mall to your home.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A reliable alternative for fast delivery during lunch hours.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Madam Kwan's Halal?", a: "Madam Kwan's is pork-free and uses halal-certified ingredients, though some outlets may serve alcohol." },
+        { q: "What is their most famous dish?", a: "The Nasi Bojari, a tri-colored rice served with fried chicken, beef rendang, and assam prawns, is their iconic dish." }
+      ],
+      menu: []
+    },
     {
       name: "Thong Bowl",
       slug: "thong-bowl",
@@ -814,8 +1302,30 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide the most detailed and updated Thong Bowl menu with prices for 2026. Stay informed about the latest Thong Bowl promotions and new menu additions. Whether you are looking for Thong Bowl halal information or simply want to browse the Thong Bowl menu Malaysia before you go, we have all the details covered.</p>
       
 
-<h2>Top Related Searches for Thong Bowl</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>thong bowl menu</strong>, <strong>thong bowl calories</strong>, <strong>thong bowl sunway carnival menu</strong>, <strong>thong bowl new menu</strong>, <strong>menu thong bowl sunway carnival</strong>, <strong>menu thong bowl</strong>, <strong>thong bowl penang menu</strong>, <strong>thong bowl price</strong>, <strong>thong bowl menu price</strong>, <strong>menu thongbowl</strong>, <strong>thongbowl noodles</strong>, <strong>thong bowl</strong>, <strong>thong bowl price list</strong>, <strong>thong bowl price range</strong>, and <strong>menu thongbowl price</strong>, <strong>thong bowl sunway carnival menu</strong>, <strong>menu thong bowl sunway carnival</strong>, <strong>thong bowl mid valley menu</strong>, <strong>thong bowl big cup price</strong>, <strong>thong bowl near me menu</strong>, <strong>thong bowl kl east mall menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Your Thong Bowl Guide</h2>
+<p>If you are searching for the thong bowl menu price or want to know the thong bowl calories before dining, our guide provides everything you need. Frequent diners at the thong bowl sunway carnival menu or thong bowl mid valley menu can easily check the latest thong bowl price list. Whether you want a thong bowl big cup price update or simply looking for a thong bowl near me menu, we keep this list comprehensive and up-to-date.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Thong Bowl specializes in hearty noodle dishes. Traditional Pan Mee and Char Kueh Teow are savory but typically higher in sodium and carbohydrates.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Customization:</strong> You can often request less oil or less soy sauce for stir-fried dishes.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> Thong Bowl operates with full Halal certification.</span></li>
+</ul>`,
+      healthyTip: `"For a lower-calorie meal, choose soup-based noodles over dry or stir-fried versions to reduce your oil intake."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Perfect for ordering hot noodle soups securely packaged for delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-orange-500">ShopeeFood</div>
+    <p class="text-slate-500 text-sm font-medium">A great option to find vouchers and discounts for your lunch orders.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Thong Bowl Halal?", a: "Yes, Thong Bowl is Halal-certified and strictly adheres to Islamic dietary guidelines." },
+        { q: "What should I order for the first time?", a: "The TK Style Char Kueh Teow and the Signature Hainan Toast are highly recommended for first-timers." }
+      ],
       menu: thongBowlMenu
     },
     {
@@ -844,8 +1354,30 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide the most accurate Damascus Bukit Bintang menu price updates for 2026. Instead of waiting in the long queues to see the board, plan your order with our guide. Whether you're searching for Damascus near me or checking for Damascus Bukit Bintang halal status, we provide all the essential information for a perfect Middle Eastern feast.</p>
       
 
-<h2>Top Related Searches for Damascus Bukit Bintang</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>damascus menu</strong>, and <strong>damascus bukit bintang</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Your Damascus Guide</h2>
+<p>Checking the damascus menu before visiting the bustling damascus bukit bintang location helps you decide between a shawarma wrap or a full mandi rice plate. Our updated price list ensures you can plan a perfect Middle Eastern meal without any surprises.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Middle Eastern cuisine is rich in protein and healthy fats. A Chicken Shawarma wrap contains roughly 400-500 kcal depending on the garlic sauce.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Healthy Sides:</strong> Hummus and Baba Ghanoush are excellent sources of plant-based protein and fiber.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> Damascus serves 100% Halal and authentic Arabic food.</span></li>
+</ul>`,
+      healthyTip: `"Skip the fries and pair your shawarma with a fresh Arabic Salad or Tabouleh for a lighter, refreshing crunch."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Fast delivery from Bukit Bintang straight to your hotel or office.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Excellent for late-night shawarma cravings in the KL city center.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Damascus Bukit Bintang Halal?", a: "Yes, all meat and ingredients used are strictly Halal." },
+        { q: "Does Damascus have seating?", a: "Yes, they have both indoor seating and an outdoor dining area where you can experience the vibrant Bukit Bintang atmosphere." }
+      ],
       menu: damascusMenu
     }
   ],
@@ -889,8 +1421,39 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide the most comprehensive Chagee menu price 2026 directory. Instead of searching for a Chagee menu pdf, you can browse our interactive site for the latest Chagee menu and price malaysia updates, including seasonal releases like the Hojicha Genmai Milk Tea and limited edition collaborations.</p>
       
 
-<h2>Top Related Searches for CHAGEE</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>chagee menu</strong>, <strong>chagee menu price</strong>, <strong>chagee malaysia menu</strong>, <strong>white peach oolong milk tea chagee price</strong>, <strong>chagee labuan menu</strong>, <strong>chagee grapefruit jasmine tea calories</strong>, <strong>chagee one utama menu</strong>, <strong>chagee menu malaysia 2026</strong>, <strong>watermelon jasmine tea chagee price</strong>, <strong>chagee matcha menu</strong>, <strong>chagee price list</strong>, <strong>chagee white peach oolong milk tea price</strong>, <strong>chagee price malaysia</strong>, <strong>chagee menu and price</strong>, and <strong>chagee menu malaysia</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Your Chagee Guide</h2>
+<p>Whether you're looking for the chagee menu price malaysia or wanting to check the latest chagee promotions, our guide provides all the necessary updates. We make sure our chagee menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Chagee offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Chagee."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Chagee directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Chagee meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Chagee offer delivery?",
+                "a": "Yes, Chagee is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Chagee?",
+                "a": "Yes, Chagee provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: chageeMenu
     },
     {
@@ -935,8 +1498,38 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check This Ai-Cha Menu Malaysia Page?</h2>
 
-<p>We provide a reliable and comprehensive source for the Ai-Cha menu malaysia price list. Instead of looking for a brochure or a pdf, you can use our interactive site to find exactly what you want, from the top-rated boba sundae to the newest smoothies on the Ai-Cha menu 2026 list.</p>
+<p>We provide a reliable and comprehensive source for the Ai-Cha menu malaysia price list. Instead of looking for a brochure or a pdf, you can use our interactive site to find exactly what you want, from the top-rated boba sundae to the newest smoothies on the Ai-Cha menu 2026 list.<h2>Your Ai-Cha Guide</h2>\n<p>Whether you're looking for the ai-cha menu price malaysia or wanting to check the latest ai-cha promotions, our guide provides all the necessary updates. We make sure our ai-cha menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Ai-Cha offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Ai-Cha."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Ai-Cha directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Ai-Cha meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Ai-Cha offer delivery?",
+                "a": "Yes, Ai-Cha is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Ai-Cha?",
+                "a": "Yes, Ai-Cha provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: aiChaMenu
     },
     {
@@ -972,7 +1565,39 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Why Check This Mixue Menu Malaysia Page?</h2>
 
 <p>We provide a complete and frequently updated Mixue menu price list for 2026. Instead of waiting in line to see the menu board, you can plan your order ahead. From the newest Mixue menu baru releases to the classic best sellers, we have it all documented for you.</p>
-      \n\n<h2>Top Related Searches for Mixue</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>mixue</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Mixue Guide</h2>
+<p>Whether you're looking for the mixue menu price malaysia or wanting to check the latest mixue promotions, our guide provides all the necessary updates. We make sure our mixue menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Mixue offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Mixue."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Mixue directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Mixue meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Mixue offer delivery?",
+                "a": "Yes, Mixue is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Mixue?",
+                "a": "Yes, Mixue provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: mixueMenu
     },
     {
@@ -1007,8 +1632,38 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Our Tealive Menu Malaysia Directory?</h2>
 
-<p>We provide a comprehensive and broken-down Tealive menu with pictures (simulated) and categorized pricing. Instead of struggling with an outdated Tealive menu pdf, browse our interactive list for Tealive menu calories, nutrition, and the latest Tealive baru releases throughout 2026.</p>
+<p>We provide a comprehensive and broken-down Tealive menu with pictures (simulated) and categorized pricing. Instead of struggling with an outdated Tealive menu pdf, browse our interactive list for Tealive menu calories, nutrition, and the latest Tealive baru releases throughout 2026.<h2>Your Tealive Guide</h2>\n<p>Whether you're looking for the tealive menu price malaysia or wanting to check the latest tealive promotions, our guide provides all the necessary updates. We make sure our tealive menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Tealive offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Tealive."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Tealive directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Tealive meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Tealive offer delivery?",
+                "a": "Yes, Tealive is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Tealive?",
+                "a": "Yes, Tealive provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: tealiveMenu
     },
     {
@@ -1040,12 +1695,109 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide a comprehensive and frequently updated Bingxue menu with pictures (simulated) and broken down categories. Instead of searching for a Bingxue menu pdf, browse our interactive site to find Bingxue menu calories, nutrition info, and updates on the latest Bingxue menu waffle and bingxue menu matcha releases throughout 2026.</p>
       
 
-<h2>Top Related Searches for Bingxue</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>bingxue menu</strong>, <strong>bingxue menu malaysia</strong>, <strong>menu bingxue</strong>, <strong>menu bingxue malaysia</strong>, <strong>menu bingxue 2026</strong>, <strong>bing xue menu</strong>, <strong>bingxue malaysia</strong>, <strong>bingxue malaysia menu</strong>, <strong>bingxue menu malaysia price</strong>, <strong>bingxue calories</strong>, <strong>bingxue mid valley</strong>, <strong>bingxue menu price</strong>, <strong>bingxue menu waffle</strong>, <strong>bingxue menu 2026</strong>, and <strong>bingxue menu malaysia pdf</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Your Bingxue Guide</h2>
+<p>Whether you're looking for the bingxue menu price malaysia or wanting to check the latest bingxue promotions, our guide provides all the necessary updates. We make sure our bingxue menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Bingxue offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Bingxue."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Bingxue directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Bingxue meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Bingxue offer delivery?",
+                "a": "Yes, Bingxue is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Bingxue?",
+                "a": "Yes, Bingxue provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: bingxueMenu
     },
-    { name: "llaollao", slug: "llaollao", category: 'teas-desserts', image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600&h=400", tags: [{ name: "Halal", colors: "bg-green-500 text-white" }], desc: "Natural Frozen Yogurt", menu: [] },
-    { name: "Gong Cha", slug: "gong-cha", category: 'teas-desserts', image: "https://images.unsplash.com/photo-1558137623-ce933996c730?auto=format&fit=crop&q=80&w=600&h=400", tags: [{ name: "Halal", colors: "bg-green-500 text-white" }], desc: "Brewing Happiness Daily", menu: [] },
+    {
+      name: "llaollao",
+      slug: "llaollao",
+      category: 'teas-desserts',
+      image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Natural Frozen Yogurt",
+      seoArticle: `
+<h2>Your llaollao Guide</h2>
+<p>Whether you're looking for the llaollao menu price malaysia or wanting to check the latest promotions, our guide provides all the necessary updates. We make sure our menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">llaollao offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>`,
+      healthyTip: `"Opt for fresh fruit toppings instead of sweet sauces to keep your froyo balanced."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order llaollao directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering meals during lunch hours.</p>
+  </div>
+</div>`,
+      faqs: [
+        { "q": "Does llaollao offer delivery?", "a": "Yes, llaollao is available on major delivery platforms like GrabFood and Foodpanda in most areas." },
+        { "q": "Are there vegetarian options at llaollao?", "a": "Yes, llaollao provides several meat-free and vegetarian-friendly options on their menu." }
+      ],
+      menu: []
+    },
+    {
+      name: "Gong Cha",
+      slug: "gong-cha",
+      category: 'teas-desserts',
+      image: "https://images.unsplash.com/photo-1558137623-ce933996c730?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Brewing Happiness Daily",
+      seoArticle: `
+<h2>Your Gong Cha Guide</h2>
+<p>Whether you're looking for the gong cha menu price malaysia or wanting to check the latest promotions, our guide provides all the necessary updates. We make sure our menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Gong Cha offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>`,
+      healthyTip: `"Opt for 0% or 30% sugar to keep your tea balanced."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering meals during lunch hours.</p>
+  </div>
+</div>`,
+      faqs: [
+        { "q": "Does Gong Cha offer delivery?", "a": "Yes, Gong Cha is available on major delivery platforms like GrabFood and Foodpanda in most areas." },
+        { "q": "Are there vegetarian options at Gong Cha?", "a": "Yes, Gong Cha provides several meat-free and vegetarian-friendly options on their menu." }
+      ],
+      menu: []
+    },
     {
       name: "Suka Dessert",
       slug: "suka-dessert",
@@ -1072,8 +1824,39 @@ export const brandMocks: Record<string, any[]> = {
 <p>We provide the most detailed Suka Dessert menu price updates for 2026. Stay informed about the latest Suka Dessert branches and seasonal chocolate promotions. Whether you are looking for Suka Dessert halal information or simply want to browse the Suka Dessert menu Malaysia before you visit, we have you covered.</p>
       
 
-<h2>Top Related Searches for Suka Dessert</h2>
-<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>suka dessert menu</strong>, <strong>suka desert menu</strong>, <strong>suka dessert price list</strong>, <strong>harga suka dessert 2026</strong>, <strong>menu suka dessert</strong>, <strong>suka dessert price</strong>, <strong>suka dessert menu 2026</strong>, <strong>suka dessert menu price</strong>, <strong>menu suka dessert selayang</strong>, <strong>suka sweet dessert</strong>, <strong>suka dessert malaysia</strong>, <strong>sukadessert menu</strong>, <strong>cake in bowl suka dessert price</strong>, <strong>suka dessert</strong>, and <strong>harga suka dessert</strong>, <strong>cake in bowl suka dessert price</strong>, <strong>harga cake in bowl suka dessert</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+<h2>Your Suka Dessert Guide</h2>
+<p>Whether you're looking for the suka dessert menu price malaysia or wanting to check the latest suka dessert promotions, our guide provides all the necessary updates. We make sure our suka dessert menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Suka Dessert offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Suka Dessert."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Suka Dessert directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Suka Dessert meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Suka Dessert offer delivery?",
+                "a": "Yes, Suka Dessert is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Suka Dessert?",
+                "a": "Yes, Suka Dessert provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: sukaDessertMenu
     },
     {
@@ -1099,8 +1882,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>The We Drink menu Malaysia also features a robust Milk Tea Series, including the Brown Sugar Pearl Milk Tea and the unique Peach Oolong Milk Tea. To complement your drink, try the Original Waffle or the Mango Coconut Pudding. Whether you are visiting a We Drink near me for a quick snack or a 1-liter Super Fruit Bucket, the variety ensure there's something for everyone on the We Drink menu with prices list.</p>
 
 <h2>Why Check Our We Drink Guide?</h2>
-<p>We provide the most accurate We Drink menu price updates for 2026. Stay informed about the latest We Drink promotion deals and new outlet openings. Whether you're searching for We Drink halal information or simply want to browse the We Drink menu Malaysia online, we provide all the essential details for your next visit.</p>
+<p>We provide the most accurate We Drink menu price updates for 2026. Stay informed about the latest We Drink promotion deals and new outlet openings. Whether you're searching for We Drink halal information or simply want to browse the We Drink menu Malaysia online, we provide all the essential details for your next visit.<h2>Your We Drink Guide</h2>\n<p>Whether you're looking for the we drink menu price malaysia or wanting to check the latest we drink promotions, our guide provides all the necessary updates. We make sure our we drink menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">We Drink offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at We Drink."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order We Drink directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering We Drink meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does We Drink offer delivery?",
+                "a": "Yes, We Drink is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at We Drink?",
+                "a": "Yes, We Drink provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: weDrinkMenu
     }
   ],
@@ -1136,7 +1949,39 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Delivery & Takeaway Options</h2>
 
 <p>If you prefer dining at home, Sushi King delivery and Sushi King take out menu options are available via official apps and partners like GrabFood. Whether you are ordering a Sushi King menu bento for lunch or a large sushi platter for a party, you can enjoy the same great taste of the Sushi King menu 2026 from the comfort of your home.</p>
-      \n\n<h2>Top Related Searches for Sushi King</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>sushi king menu price 2026</strong>, <strong>sushi king menu with price</strong>, <strong>miso ramen noodles sushi king</strong>, <strong>sushi king halal or not</strong>, <strong>sushi king price per plate</strong>, <strong>sushi king menu and price</strong>, <strong>sushi king plate price 2026</strong>, <strong>sushi king gurney plaza menu</strong>, <strong>sushi king east coast mall menu</strong>, <strong>sushi king take away menu</strong>, <strong>sushi king menu with photo</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Sushi King Guide</h2>
+<p>Whether you're looking for the sushi king menu price malaysia or wanting to check the latest sushi king promotions, our guide provides all the necessary updates. We make sure our sushi king menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Sushi King offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Sushi King."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Sushi King directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Sushi King meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Sushi King offer delivery?",
+                "a": "Yes, Sushi King is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Sushi King?",
+                "a": "Yes, Sushi King provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: sushiKingMenu
     },
     {
@@ -1163,7 +2008,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Sushi Zanmai Guide?</h2>
 <p>We provide the most detailed and updated Sushi Zanmai menu price list for 2026. Instead of waiting for the physical menu, browse our mobile-optimized list to plan your visit to Sushi Zanmai near me. Whether you're searching for Sushi Zanmai halal status (note: they are pork-free/no alcohol in food) or checking for the latest Sushi Zanmai promotion in Sunway Pyramid or One Utama, we have all the information you need.</p>
-      \n\n<h2>Top Related Searches for Sushi Zanmai</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>sushi zanmai kl east mall menu</strong>, <strong>sushi zanmai salmon mentai don</strong>, <strong>sushi zanmai @ vivacity megamall menu</strong>, <strong>sushi zanmai one utama menu</strong>, <strong>sushi zanmai green tea price</strong>, <strong>sushi zanmai elmina lakeside mall menu</strong>, <strong>sushi zanmai ioi city mall menu</strong>, <strong>sushi zanmai i12 katong menu</strong>, <strong>sushi zanmai pavilion bukit jalil menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Sushi Zanmai Guide</h2>
+<p>Whether you're looking for the sushi zanmai menu price malaysia or wanting to check the latest sushi zanmai promotions, our guide provides all the necessary updates. We make sure our sushi zanmai menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Sushi Zanmai offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Sushi Zanmai."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Sushi Zanmai directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Sushi Zanmai meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Sushi Zanmai offer delivery?",
+                "a": "Yes, Sushi Zanmai is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Sushi Zanmai?",
+                "a": "Yes, Sushi Zanmai provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: sushiZanmaiMenu
     },
     {
@@ -1196,7 +2073,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Don Omakase Guide?</h2>
 <p>We provide the most accurate don omakase menu price list for 2026. Instead of searching for a don omakase menu pdf, use our interactive site to find the latest don omakase kl menu updates, TRX specials, and the newest omakase don teppen features. Whether you are looking for omakase in hotel quality or a quick premium lunch in Solaris, we have you covered.</p>
-      \n\n<h2>Top Related Searches for Don Omakase</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>don の makase (solaris) menu</strong>, <strong>don の makase (skudai jb) menu</strong>, <strong>don の makase (kuala lumpur) menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Don Omakase Guide</h2>
+<p>Whether you're looking for the don omakase menu price malaysia or wanting to check the latest don omakase promotions, our guide provides all the necessary updates. We make sure our don omakase menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Don Omakase offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Don Omakase."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Don Omakase directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Don Omakase meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Don Omakase offer delivery?",
+                "a": "Yes, Don Omakase is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Don Omakase?",
+                "a": "Yes, Don Omakase provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: donOmakaseMenu
     },
     {
@@ -1225,8 +2134,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>Yes, Myeongdong Topokki is Halal-certified by JAKIM, making it a safe and inclusive choice for all Malaysians. Whether you are searching for myeongdong topokki delivery or visiting an outlet in Pavilion or Sunway Pyramid, you can enjoy their food with full peace of mind. Check for the halal myeongdong topokki logo at all locations.</p>
 
 <h2>Why Check Our MDT Menu Guide?</h2>
-<p>We provide the most comprehensive myeongdong topokki menu with price updates. Instead of searching for a myeongdong topokki menu pdf, stay updated with our interactive site for the latest MDT menu 2025 releases, seasonal promotions, and franchise news across Malaysia.</p>
+<p>We provide the most comprehensive myeongdong topokki menu with price updates. Instead of searching for a myeongdong topokki menu pdf, stay updated with our interactive site for the latest MDT menu 2025 releases, seasonal promotions, and franchise news across Malaysia.<h2>Your MyeongDong Topokki Guide</h2>\n<p>Whether you're looking for the myeongdong topokki menu price malaysia or wanting to check the latest myeongdong topokki promotions, our guide provides all the necessary updates. We make sure our myeongdong topokki menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">MyeongDong Topokki offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at MyeongDong Topokki."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order MyeongDong Topokki directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering MyeongDong Topokki meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does MyeongDong Topokki offer delivery?",
+                "a": "Yes, MyeongDong Topokki is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at MyeongDong Topokki?",
+                "a": "Yes, MyeongDong Topokki provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: myeongdongTopokkiMenu
     },
     {
@@ -1255,8 +2194,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>Yes, Mr. Dakgalbi is Halal-certified by JAKIM, making it a favorite for the Muslim community in Malaysia. Whether you are at Mr Dakgalbi Pavilion, IOI City Mall, or searching for hallal dakgalbi near me, you can enjoy the interactive experience with confidence across all Mr Dakgalbi location spots.</p>
 
 <h2>Why Check Our Mr. Dakgalbi Guide?</h2>
-<p>We provide the most updated mr dakgalbi menu price malaysia directory. Instead of wondering about the latest mr dakgalbi price, browse our interactive site for menu with price updates, seasonal collaborations, and Mr Dakgalbi JB or Penang news for 2026.</p>
+<p>We provide the most updated mr dakgalbi menu price malaysia directory. Instead of wondering about the latest mr dakgalbi price, browse our interactive site for menu with price updates, seasonal collaborations, and Mr Dakgalbi JB or Penang news for 2026.<h2>Your Mr. Dakgalbi Guide</h2>\n<p>Whether you're looking for the mr. dakgalbi menu price malaysia or wanting to check the latest mr. dakgalbi promotions, our guide provides all the necessary updates. We make sure our mr. dakgalbi menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Mr. Dakgalbi offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Mr. Dakgalbi."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Mr. Dakgalbi directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Mr. Dakgalbi meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Mr. Dakgalbi offer delivery?",
+                "a": "Yes, Mr. Dakgalbi is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Mr. Dakgalbi?",
+                "a": "Yes, Mr. Dakgalbi provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: mrDakgalbiMenu
     },
     {
@@ -1286,7 +2255,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Sopoong Guide?</h2>
 <p>We provide the most comprehensive sopoong menu price list updated for 2026. Avoid searching for outdated info; stay updated with our interactive site for the latest Sopoong menu baru releases, seasonal items, and news on Sopoong halal status across all Malaysia locations.</p>
-      \n\n<h2>Top Related Searches for Sopoong</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>sopoong kl east mall menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Sopoong Guide</h2>
+<p>Whether you're looking for the sopoong menu price malaysia or wanting to check the latest sopoong promotions, our guide provides all the necessary updates. We make sure our sopoong menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Sopoong offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Sopoong."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Sopoong directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Sopoong meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Sopoong offer delivery?",
+                "a": "Yes, Sopoong is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Sopoong?",
+                "a": "Yes, Sopoong provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: sopoongMenu
     },
     {
@@ -1316,7 +2317,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Oiso Guide?</h2>
 <p>We provide the most updated oiso menu price directory for 2026. Instead of looking for an old oiso menu pdf, stay informed with our interactive dashboard for the latest Oiso menu baru releases, location updates, and seasonal promotions across Malaysia.</p>
-      \n\n<h2>Top Related Searches for Oiso</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>oiso korean restaurant_pj paradigm mall petaling jaya menu</strong>, <strong>oiso korean restaurant menu halal</strong>, <strong>oiso@quayside mall telok panglima garang menu</strong>, <strong>oiso_paradigm mall johor bahru menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Oiso Guide</h2>
+<p>Whether you're looking for the oiso menu price malaysia or wanting to check the latest oiso promotions, our guide provides all the necessary updates. We make sure our oiso menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Oiso offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Oiso."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Oiso directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Oiso meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Oiso offer delivery?",
+                "a": "Yes, Oiso is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Oiso?",
+                "a": "Yes, Oiso provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: oisoMenu
     },
     {
@@ -1346,7 +2379,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Empire Sushi Guide?</h2>
 <p>We provide the most comprehensive empire sushi menu price list updated for 2026. Instead of searching for an empire sushi menu price list 2023, browse our interactive site for the newest Empire Sushi baru items, seasonal specials, and empire sushi nearby location updates.</p>
-      \n\n<h2>Top Related Searches for Empire Sushi</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>empire sushi dine in menu</strong>, <strong>sushi king vs empire sushi</strong>, <strong>empire sushi menu with price</strong>, <strong>spicy futo maki empire sushi</strong>, <strong>empire sushi vs sushi king</strong>, <strong>empire sushi malaysia rice type</strong>, <strong>empire sushi menu and price</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Empire Sushi Guide</h2>
+<p>Whether you're looking for the empire sushi menu price malaysia or wanting to check the latest empire sushi promotions, our guide provides all the necessary updates. We make sure our empire sushi menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Empire Sushi offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Empire Sushi."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Empire Sushi directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Empire Sushi meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Empire Sushi offer delivery?",
+                "a": "Yes, Empire Sushi is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Empire Sushi?",
+                "a": "Yes, Empire Sushi provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: empireSushiMenu
     },
     {
@@ -1373,7 +2438,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Yakiniku Kuro Guide?</h2>
 <p>We provide the most detailed yakiniku kuro menu price directory updated for 2026. Avoid searching for an old yakiniku kuro menu pdf; stay informed with our interactive site for the latest Yakiniku Kuro baru releases, premium beef updates, and seasonal BBQ promotions across Malaysia.</p>
-      \n\n<h2>Top Related Searches for Yakiniku Kuro</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>yakiniku kuro sunway pyramid menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Yakiniku Kuro Guide</h2>
+<p>Whether you're looking for the yakiniku kuro menu price malaysia or wanting to check the latest yakiniku kuro promotions, our guide provides all the necessary updates. We make sure our yakiniku kuro menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Yakiniku Kuro offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Yakiniku Kuro."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Yakiniku Kuro directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Yakiniku Kuro meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Yakiniku Kuro offer delivery?",
+                "a": "Yes, Yakiniku Kuro is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Yakiniku Kuro?",
+                "a": "Yes, Yakiniku Kuro provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: yakinikuKuroMenu
     },
     {
@@ -1399,8 +2496,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>Kingu Kongu is Muslim-owned and maintains a Pork-Free and Alcohol-Free menu. While they do not hold an official JAKIM halal certification yet, they emphasize the use of halal-certified ingredients for all their meats and seafood. This makes Kingu Kongu KL a very popular "Muslim-friendly" Japanese dining destination. Located in the heart of Kuala Lumpur, it's a top choice for those seeking the best Japanese dining KL experience.</p>
 
 <h2>Why Check Our Kingu Kongu Guide?</h2>
-<p>We provide the most accurate kingu kongu menu price list for 2026. Instead of searching for an old kingu kongu menu pdf, browse our interactive site for the latest Kingu Kongu baru releases, reservation tips, and location updates for one of Malaysia's most exciting Japanese fusion restaurants.</p>
+<p>We provide the most accurate kingu kongu menu price list for 2026. Instead of searching for an old kingu kongu menu pdf, browse our interactive site for the latest Kingu Kongu baru releases, reservation tips, and location updates for one of Malaysia's most exciting Japanese fusion restaurants.<h2>Your Kingu Kongu Guide</h2>\n<p>Whether you're looking for the kingu kongu menu price malaysia or wanting to check the latest kingu kongu promotions, our guide provides all the necessary updates. We make sure our kingu kongu menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Kingu Kongu offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Kingu Kongu."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Kingu Kongu directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Kingu Kongu meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Kingu Kongu offer delivery?",
+                "a": "Yes, Kingu Kongu is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Kingu Kongu?",
+                "a": "Yes, Kingu Kongu provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: kinguKonguMenu
     }
   ],
@@ -1438,7 +2565,39 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Why Our Pizza Hut Menu Guide?</h2>
 
 <p>We provide a complete Pizza Hut menu with pictures (simulated) and categorized pricing. Instead of searching for a Pizza Hut menu pdf, browse our mobile-friendly list to find information on Pizza Hut menu calories, nutrition, and the newest additions to the Pizza Hut baru collection.</p>
-      \n\n<h2>Top Related Searches for Pizza Hut</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>pizza hut menu and price</strong>, <strong>pizza hut menu malaysia prices</strong>, <strong>pizza hut dine in menu</strong>, <strong>pizza hut menu and price 2026</strong>, <strong>pizza hut malaysia halal certified jakim</strong>, <strong>pizza hut menu dine in</strong>, <strong>pizza hut menu with prices</strong>, <strong>pizza hut malaysia menu 2026</strong>, <strong>menu pizza hut 2026 prices</strong>, <strong>menu pizza hut malaysia 2026</strong>, <strong>pizza hut menu 2026 with prices</strong>, <strong>pizza hut johor bahru menu</strong>, <strong>pizza hut take away menu</strong>, <strong>pizza hut menu and prices</strong>, <strong>stuffed crust pizza hut malaysia</strong>, <strong>harga pizza hut large 2026</strong>, <strong>pizza hut crust types malaysia</strong>, <strong>pizza hut menu 2026 malaysia</strong>, <strong>pizza hut menu dine in prices</strong>, <strong>menu dine in pizza hut</strong>, <strong>pizza hut menu price 2026</strong>, <strong>pizza hut large pizza price</strong>, <strong>menu at pizza hut with prices</strong>, <strong>pizza hut stuffed crust malaysia</strong>, <strong>pizza hut menu malaysia price</strong>, <strong>stuffed crust pizza hut price</strong>, <strong>what is pizza hut menu</strong>, <strong>what is the pizza hut menu</strong>, <strong>pizza hut melts flavors malaysia</strong>, <strong>garlic butter chicken pepperoni pizza hut</strong>, <strong>how many slices in regular pizza hut malaysia</strong>, <strong>pizza hut menu price malaysia</strong>, <strong>menu pizza hut dan harga</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Pizza Hut Guide</h2>
+<p>Whether you're looking for the pizza hut menu price malaysia or wanting to check the latest pizza hut promotions, our guide provides all the necessary updates. We make sure our pizza hut menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Pizza Hut offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Pizza Hut."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Pizza Hut directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Pizza Hut meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Pizza Hut offer delivery?",
+                "a": "Yes, Pizza Hut is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Pizza Hut?",
+                "a": "Yes, Pizza Hut provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: pizzaHutMenu
     }
   ],
@@ -1480,7 +2639,39 @@ export const brandMocks: Record<string, any[]> = {
 <h2>Why Check This Nando's Menu Page?</h2>
 
 <p>We provide a comprehensive Nando's menu with pictures (simulated) and prices, including categories often requested such as Nando's breakfast menu (in selected locations) and Nando's kids menu. Instead of searching for a Nando's menu pdf, use our interactive directory for the latest and most accurate insights for 2026.</p>
-      \n\n<h2>Top Related Searches for Nando's</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>nando's @ sunway pyramid menu</strong>, <strong>nando's @ main place menu</strong>, <strong>nando's malaysia menu price list</strong>, <strong>nando's @ sunway velocity menu</strong>, <strong>nando’s • eco grandeur menu</strong>, <strong>nando's aeon kuching central min chu garden menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Nando's Guide</h2>
+<p>Whether you're looking for the nando's menu price malaysia or wanting to check the latest nando's promotions, our guide provides all the necessary updates. We make sure our nando's menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Nando's offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Nando's."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Nando's directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Nando's meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Nando's offer delivery?",
+                "a": "Yes, Nando's is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Nando's?",
+                "a": "Yes, Nando's provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: nandosMenu
     }
   ],
@@ -1512,7 +2703,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Promotions, Calories & Locations</h2>
 <p>Users often look for family mart promo code and family mart calories information to better manage their orders. While many items are indulgent, there are lighter options available across all family mart location spots from Ipoh to Penang and Kuala Lumpur. Whether you are searching for the family mart oden menu malaysia or the newest family mart baru releases, this dashboard is your ultimate guide.</p>
-      \n\n<h2>Top Related Searches for FamilyMart</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>family mart oden menu 2026</strong>, <strong>harga oden family mart 2026</strong>, <strong>oden family mart price list</strong>, <strong>family mart oden price menu</strong>, <strong>menu oden family mart 2026</strong>, <strong>family mart near me menu</strong>, <strong>list oden family mart menu 2026</strong>, <strong>family mart coffee price malaysia</strong>, <strong>oden family mart menu 2026</strong>, <strong>list oden family mart menu 2025</strong>, <strong>family mart oden menu 2025</strong>, <strong>family mart drinks menu malaysia</strong>, <strong>list oden family mart menu</strong>, <strong>list family mart oden menu malaysia</strong>, <strong>oden family mart menu malaysia</strong>, <strong>menu di family mart price list</strong>, <strong>family mart menu price malaysia</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your FamilyMart Guide</h2>
+<p>Whether you're looking for the familymart menu price malaysia or wanting to check the latest familymart promotions, our guide provides all the necessary updates. We make sure our familymart menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">FamilyMart offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at FamilyMart."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order FamilyMart directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering FamilyMart meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does FamilyMart offer delivery?",
+                "a": "Yes, FamilyMart is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at FamilyMart?",
+                "a": "Yes, FamilyMart provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: familyMartMenu
     },
     {
@@ -1545,7 +2768,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Our CU Mart Menu Guide?</h2>
 <p>We provide the most comprehensive CU Mart menu price malaysia directory. Instead of searching for a CU Mart menu pdf, browse our interactive site for the latest CU Mart menu baru releases, including seasonal items like Hotteok, Oden, and Matcha specials throughout 2026.</p>
-      \n\n<h2>Top Related Searches for CU Mart</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>dosirak cheese buldak cup bap</strong>, <strong>cheezy bburi k cheezy corn</strong>, <strong>bibigo chicken mandu cu mart</strong>, <strong>rose tteokbokki cu mart price</strong>, <strong>cu mart near me menu</strong>, <strong>cu mart menu price malaysia</strong>, <strong>cu mart menu price 2026</strong>, <strong>k hot dak gang jeong cu mart</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your CU Mart Guide</h2>
+<p>Whether you're looking for the cu mart menu price malaysia or wanting to check the latest cu mart promotions, our guide provides all the necessary updates. We make sure our cu mart menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">CU Mart offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at CU Mart."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order CU Mart directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering CU Mart meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does CU Mart offer delivery?",
+                "a": "Yes, CU Mart is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at CU Mart?",
+                "a": "Yes, CU Mart provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: cuMartMenu
     }
   ],
@@ -1617,7 +2872,39 @@ export const brandMocks: Record<string, any[]> = {
 <p>This page is designed to provide a complete and updated overview of the Subway menu in Malaysia. It allows users to explore pricing insights, customization options, and latest deals in one place.</p>
 
 <p>Whether you are looking for a quick sandwich or a fully customized meal, this guide helps you make the right choice easily.</p>
-      \n\n<h2>Top Related Searches for Subway</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>subway menu malaysia price 2026</strong>, <strong>subway breakfast menu malaysia price</strong>, <strong>subway</strong>, <strong>subway food menu with prices</strong>, <strong>can i see the menu for subway</strong>, <strong>what is the subway menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Subway Guide</h2>
+<p>Whether you're looking for the subway menu price malaysia or wanting to check the latest subway promotions, our guide provides all the necessary updates. We make sure our subway menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Subway offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Subway."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Subway directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Subway meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Subway offer delivery?",
+                "a": "Yes, Subway is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Subway?",
+                "a": "Yes, Subway provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: [
         // Regular Menu - Subs
         { name: "Roasted Chicken", price: "6-inch: RM14.50 | Footlong: RM24.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Tender chicken breast roasted to perfection." },
@@ -1723,8 +3010,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>Is Pop Meals menu halal? Yes, Pop Meals is widely known for its commitment to halal standards, sourcing all ingredients from halal-certified suppliers. This makes it a preferred choice for everyone from Kelantan to Kajang and Puncak Alam. Whether you are checking the Pop Meals menu online or visiting a Pop Meals kiosk, you can dine with confidence.</p>
 
 <h2>Why Check Our Pop Meals Guide?</h2>
-<p>We provide a complete and categorized Pop Meals menu with prices for 2026. Instead of searching for a Pop Meals menu pdf, use our interactive dashboard to find Pop Meals location updates, Pop Meals voucher info, and the latest Pop Meals menu review sentiment. Whether you're at Pop Meals One Utama, IOI City Mall, or Wangsa Walk, we have the data you need for a popular meal.</p>
+<p>We provide a complete and categorized Pop Meals menu with prices for 2026. Instead of searching for a Pop Meals menu pdf, use our interactive dashboard to find Pop Meals location updates, Pop Meals voucher info, and the latest Pop Meals menu review sentiment. Whether you're at Pop Meals One Utama, IOI City Mall, or Wangsa Walk, we have the data you need for a popular meal.<h2>Your Pop Meals Guide</h2>\n<p>Whether you're looking for the pop meals menu price malaysia or wanting to check the latest pop meals promotions, our guide provides all the necessary updates. We make sure our pop meals menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Pop Meals offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Pop Meals."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Pop Meals directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Pop Meals meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Pop Meals offer delivery?",
+                "a": "Yes, Pop Meals is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Pop Meals?",
+                "a": "Yes, Pop Meals provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: popMealsMenu
     },
     {
@@ -1734,7 +3051,39 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Customizable Healthy Bowls",
-      seoArticle: `<h2>Salad Atelier Menu Malaysia Overview</h2>\n<p>Explore the full Salad Atelier menu with prices in Malaysia for 2026. This page provides all the details you need to plan your meal.</p>\n\n<h2>Top Related Searches for Salad Atelier</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>salad atelier local delight menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      seoArticle: `<h2>Salad Atelier Menu Malaysia Overview</h2>\n<p>Explore the full Salad Atelier menu with prices in Malaysia for 2026. This page provides all the details you need to plan your meal.</p>\n\n<h2>Your Salad Atelier Guide</h2>
+<p>Whether you're looking for the salad atelier menu price malaysia or wanting to check the latest salad atelier promotions, our guide provides all the necessary updates. We make sure our salad atelier menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Salad Atelier offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Salad Atelier."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Salad Atelier directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Salad Atelier meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Salad Atelier offer delivery?",
+                "a": "Yes, Salad Atelier is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Salad Atelier?",
+                "a": "Yes, Salad Atelier provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: []
     },
     {
@@ -1744,6 +3093,31 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1626082929543-eed647a6a43e?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Less Fat, Less Salt, Less Calories",
+      seoArticle: `
+<h2>Your Kenny Rogers Roasters Guide</h2>
+<p>Whether you're looking for the kenny rogers menu price malaysia or wanting to check the latest promotions, our guide provides all the necessary updates. We make sure our menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Kenny Rogers offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>`,
+      healthyTip: `"Opt for fresh side salads and avoid heavy dressings."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering meals during lunch hours.</p>
+  </div>
+</div>`,
+      faqs: [
+        { "q": "Does Kenny Rogers offer delivery?", "a": "Yes, Kenny Rogers is available on major delivery platforms like GrabFood and Foodpanda in most areas." },
+        { "q": "Are there vegetarian options at Kenny Rogers?", "a": "Yes, Kenny Rogers provides several meat-free and vegetarian-friendly options on their menu." }
+      ],
       menu: []
     },
     {
@@ -1775,8 +3149,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>A common question is, "is Boost Juice menu halal?" Yes, all Boost Juice Bars in Malaysia are Halal-certified, ensuring an inclusive experience for everyone. Additionally, many users ask "is boost juice healthy?" and the answer lies in their use of real fruit, low-fat yoghurt, and no added sugar in most blends. We provide Boost Juice menu calories and nutritional information to help you manage your diet while enjoying their delicious drinks.</p>
 
 <h2>Why Check Our Boost Juice Guide?</h2>
-<p>We provide the most comprehensive Boost Juice menu price 2026 directory. Instead of looking for a Boost Juice menu pdf, browse our interactive site for the latest Boost Juice baru releases, secret menu items, and seasonal promotions. Whether you are visiting Boost Juice 1 Utama, Central i-City, or searching for a Boost Juice near me, we have the verified data to help you Love Life!</p>
+<p>We provide the most comprehensive Boost Juice menu price 2026 directory. Instead of looking for a Boost Juice menu pdf, browse our interactive site for the latest Boost Juice baru releases, secret menu items, and seasonal promotions. Whether you are visiting Boost Juice 1 Utama, Central i-City, or searching for a Boost Juice near me, we have the verified data to help you Love Life!<h2>Your Boost Juice Bars Guide</h2>\n<p>Whether you're looking for the boost juice bars menu price malaysia or wanting to check the latest boost juice bars promotions, our guide provides all the necessary updates. We make sure our boost juice bars menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Boost Juice Bars offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Boost Juice Bars."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Boost Juice Bars directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Boost Juice Bars meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Boost Juice Bars offer delivery?",
+                "a": "Yes, Boost Juice Bars is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Boost Juice Bars?",
+                "a": "Yes, Boost Juice Bars provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: boostJuiceMenu
     }
   ],
@@ -1807,8 +3211,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>Finish your meal on a sweet note with the Above the Cloud Tiramisu or the delicate Starfruit Mille-feuille. The Macadamia Dream Cheese Cake is another fan favorite on the Alva KL dessert menu. Beyond the food, the atmosphere at Alva KL—from Alva KL booking online through to the final bite—is designed to be an unforgettable experience. Whether you're visiting Alva KL for a special occasion or a professional lunch, the alva kl menu price list pdf style layout below helps you plan your perfect visit.</p>
 
 <h2>Why Our Alva KL Guide?</h2>
-<p>We provide the most comprehensive Alva KL menu with prices updated for 2026. Stay informed about the latest Alva KL set lunch menu and seasonal promotions. Whether you are searching for alva kl menu halal info or simply looking for the best sky dining in KL, we have you covered.</p>
+<p>We provide the most comprehensive Alva KL menu with prices updated for 2026. Stay informed about the latest Alva KL set lunch menu and seasonal promotions. Whether you are searching for alva kl menu halal info or simply looking for the best sky dining in KL, we have you covered.<h2>Your Alva KL Guide</h2>\n<p>Whether you're looking for the alva kl menu price malaysia or wanting to check the latest alva kl promotions, our guide provides all the necessary updates. We make sure our alva kl menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Alva KL offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Alva KL."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Alva KL directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Alva KL meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Alva KL offer delivery?",
+                "a": "Yes, Alva KL is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Alva KL?",
+                "a": "Yes, Alva KL provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: alvaKlMenu
     },
     {
@@ -1841,7 +3275,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check Our Envi Skydining Guide?</h2>
 <p>We provide the most comprehensive envi skydining kl menu price updates. From envi skydining lunch menu 2025 to the latest 2026 dinner prices, we ensure our data is accurate. Avoid searching for an envi skydining menu pdf; stay updated with our mobile-friendly, interactive dashboard for the best envi near me experience.</p>
-      \n\n<h2>Top Related Searches for Envi Skydining</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>envi skydining menu price dinner pdf</strong>, <strong>envi skydining dinner menu price</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Envi Skydining Guide</h2>
+<p>Whether you're looking for the envi skydining menu price malaysia or wanting to check the latest envi skydining promotions, our guide provides all the necessary updates. We make sure our envi skydining menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Envi Skydining offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Envi Skydining."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Envi Skydining directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Envi Skydining meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Envi Skydining offer delivery?",
+                "a": "Yes, Envi Skydining is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Envi Skydining?",
+                "a": "Yes, Envi Skydining provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: enviSkydiningMenu
     },
     {
@@ -1873,8 +3339,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>A frequent question is, "is The Tokyo Restaurant halal?" While the restaurant is not Halal-certified and serves alcohol and some non-halal items, it remains a favorite for diverse crowds seeking high-quality Japanese fusion. The restaurant's transparency about its ingredients and its legendary cheesecake recipe notes have made it a trusted name in the KL food scene. We recommend checking The Tokyo Restaurant review sections for the latest diner experiences regarding dietary accommodations.</p>
 
 <h2>Why Check Our The Tokyo Restaurant Guide?</h2>
-<p>We provide the most detailed and updated the tokyo restaurant menu price list for 2026. Instead of searching for a the tokyo restaurant menu pdf, browse our interactive site for the latest restaurant reservation tips and delivery availability. Whether you are looking for tokyo restaurant kl menu updates or just want the best cheesecake in town, we have all the essential info for your visit to Lot 10.</p>
+<p>We provide the most detailed and updated the tokyo restaurant menu price list for 2026. Instead of searching for a the tokyo restaurant menu pdf, browse our interactive site for the latest restaurant reservation tips and delivery availability. Whether you are looking for tokyo restaurant kl menu updates or just want the best cheesecake in town, we have all the essential info for your visit to Lot 10.<h2>Your The Tokyo Restaurant Guide</h2>\n<p>Whether you're looking for the the tokyo restaurant menu price malaysia or wanting to check the latest the tokyo restaurant promotions, our guide provides all the necessary updates. We make sure our the tokyo restaurant menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">The Tokyo Restaurant offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at The Tokyo Restaurant."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order The Tokyo Restaurant directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering The Tokyo Restaurant meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does The Tokyo Restaurant offer delivery?",
+                "a": "Yes, The Tokyo Restaurant is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at The Tokyo Restaurant?",
+                "a": "Yes, The Tokyo Restaurant provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: theTokyoRestaurantMenu
     }
   ],
@@ -1905,8 +3401,38 @@ export const brandMocks: Record<string, any[]> = {
 <p>To cool down after a spicy meal, explore the Fresh Sundae Ice Cream and Real Milkshake menus. The Joy Cookie Shake and Mango Shake are indulgent treats made with high-quality ingredients. For cookie lovers, the Cookies Birthday Confetti and Marshmallow Choco Chip are large, soft, and perfect for sharing. The nak nak price list for desserts remains affordable, making them a popular add-on for any order.</p>
 
 <h2>Promotions, Halal Status & Locations</h2>
-<p>Is Nak Nak menu halal? Yes, Nak Nak Malaysia is fully Halal-certified, ensuring an inclusive dining experience for all Malaysians. Whether you are searching for a nak nak near me or checking the latest seasonal promotions, you can find them across major locations in Kuala Lumpur and Selangor. Keep an eye out for limited-time offers and bundle deals that make the nak nak menu even more accessible.</p>
+<p>Is Nak Nak menu halal? Yes, Nak Nak Malaysia is fully Halal-certified, ensuring an inclusive dining experience for all Malaysians. Whether you are searching for a nak nak near me or checking the latest seasonal promotions, you can find them across major locations in Kuala Lumpur and Selangor. Keep an eye out for limited-time offers and bundle deals that make the nak nak menu even more accessible.<h2>Your Nak Nak Guide</h2>\n<p>Whether you're looking for the nak nak menu price malaysia or wanting to check the latest nak nak promotions, our guide provides all the necessary updates. We make sure our nak nak menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Nak Nak offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
       `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Nak Nak."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Nak Nak directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Nak Nak meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Nak Nak offer delivery?",
+                "a": "Yes, Nak Nak is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Nak Nak?",
+                "a": "Yes, Nak Nak provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: nakNakMenu
     },
     {
@@ -1933,7 +3459,39 @@ export const brandMocks: Record<string, any[]> = {
 
 <h2>Why Check This Woodfire Menu Guide?</h2>
 <p>We provide the most detailed Woodfire menu price list for 2026. Instead of looking for a wood fire menu pdf, stay updated with our interactive list. Whether you're searching for wood fire menu melaka or woodfire jb menu, we cover all locations including woodfire kulim and woodfire desaru.</p>
-      \n\n<h2>Top Related Searches for Woodfire</h2>\n<p>Diners frequently search for a variety of terms when exploring our menu. Some of the most popular search queries include: <strong>woodfire x madhen hot chicken kulim menu</strong>, <strong>the woodfire club subang jaya menu</strong>. Whether you are looking for specific item prices, the latest promotional menu, or general updates, our comprehensive guide provides all the information you need to make an informed choice.</p>`,
+      \n\n<h2>Your Woodfire Guide</h2>
+<p>Whether you're looking for the woodfire menu price malaysia or wanting to check the latest woodfire promotions, our guide provides all the necessary updates. We make sure our woodfire menu 2026 information is accurate so you can plan your visit seamlessly.</p>`,
+      nutritionHtml: `
+<p class="text-lg">Woodfire offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Woodfire."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Woodfire directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Woodfire meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Woodfire offer delivery?",
+                "a": "Yes, Woodfire is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Woodfire?",
+                "a": "Yes, Woodfire provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
       menu: woodfireMenu
     }
   ]

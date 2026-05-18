@@ -136,7 +136,7 @@ const foodEstSchema = {
   },
 };
 
-const faqs = [
+const defaultFaqs = [
   {
     q: `Are all ${brand.name} restaurants listed here Halal certified?`,
     a: "The majority of international and major local chains in Malaysia hold official JAKIM Halal certification. We suggest checking the 'Halal' tag on our brand cards for specific verification.",
@@ -162,6 +162,8 @@ const faqs = [
     a: "Most outlets operate from 10:00 AM to 10:00 PM daily, though drive-thru locations and those in major shopping malls may have extended or shorter hours.",
   },
 ];
+
+const faqs = brand.faqs || defaultFaqs;
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -416,34 +418,40 @@ const faqSchema = {
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div class="space-y-6 text-slate-600">
-            <p class="text-lg">
-              For health-conscious diners, understanding the nutritional value
-              of your meal is key. {brand.name} Malaysia provides general calorie
-              and allergen information for most of its signature items.
-            </p>
-            <ul class="space-y-3 list-none">
-              <li class="flex items-start gap-3">
-                <span class="text-yellow-500 font-bold">✓</span>
-                <span
-                  ><strong>Calorie Counts:</strong> Most standard meals range between
-                  450-900 kcal.</span
-                >
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="text-yellow-500 font-bold">✓</span>
-                <span
-                  ><strong>Allergen Info:</strong> Reports on gluten, dairy, and nuts
-                  are usually available at the main counter.</span
-                >
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="text-yellow-500 font-bold">✓</span>
-                <span
-                  ><strong>Quality Control:</strong> All ingredients follow strict
-                  local food safety and JAKIM guidelines where applicable.</span
-                >
-              </li>
-            </ul>
+            {brand.nutritionHtml ? (
+              <div set:html={brand.nutritionHtml} />
+            ) : (
+              <>
+                <p class="text-lg">
+                  For health-conscious diners, understanding the nutritional value
+                  of your meal is key. {brand.name} Malaysia provides general calorie
+                  and allergen information for most of its signature items.
+                </p>
+                <ul class="space-y-3 list-none">
+                  <li class="flex items-start gap-3">
+                    <span class="text-yellow-500 font-bold">✓</span>
+                    <span
+                      ><strong>Calorie Counts:</strong> Most standard meals range between
+                      450-900 kcal.</span
+                    >
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-yellow-500 font-bold">✓</span>
+                    <span
+                      ><strong>Allergen Info:</strong> Reports on gluten, dairy, and nuts
+                      are usually available at the main counter.</span
+                    >
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="text-yellow-500 font-bold">✓</span>
+                    <span
+                      ><strong>Quality Control:</strong> All ingredients follow strict
+                      local food safety and JAKIM guidelines where applicable.</span
+                    >
+                  </li>
+                </ul>
+              </>
+            )}
           </div>
           <div
             class="bg-black p-8 rounded-[2rem] text-white shadow-xl relative overflow-hidden group"
@@ -456,9 +464,9 @@ const faqSchema = {
               Healthy Ordering Tip
             </h3>
             <p class="text-slate-300 italic text-lg leading-relaxed">
-              "Try swapping fries for a side salad or opting for zero-sugar
+              {brand.healthyTip || `"Try swapping fries for a side salad or opting for zero-sugar
               beverages to reduce the overall calorie count of your combo meal
-              at {brand.name}."
+              at ${brand.name}."`}
             </p>
           </div>
         </div>
@@ -471,7 +479,9 @@ const faqSchema = {
           How to Order {brand.name} Delivery
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-          {
+          {brand.deliveryHtml ? (
+             <div class="col-span-1 sm:col-span-3 text-slate-600 text-lg" set:html={brand.deliveryHtml} />
+          ) : (
             [
               {
                 name: "GrabFood",
@@ -496,7 +506,7 @@ const faqSchema = {
                 <p class="text-slate-500 text-sm font-medium">{app.desc}</p>
               </div>
             ))
-          }
+          )}
         </div>
       </div>
 
