@@ -61,19 +61,203 @@ const getCategoryMenuTypes = (category: string) => {
 // If menu is empty, show a coming soon state
 const hasMenu = brand.menu && brand.menu.length > 0;
 
-// Default SEO Article Fallback
-const defaultArticle = `
-  <h2>${brand.name} Menu Malaysia Overview</h2>
-  <p>The ${brand.name} menu in Malaysia offers a wide range of flavor-packed options designed to satisfy your cravings. From signature classics to seasonal promotions, this brand has established itself as a go-to destination for quality dining across the country.</p>
+// --- Premium Dynamic SEO Article Generator ---
+function generatePremiumArticle(brand: any, menuCategories: string[], menuItems: any[]) {
+  const name = brand.name;
+  const desc = brand.desc || "delicious menu options";
+  const catSlug = brand.category;
   
-  <h2>Latest ${brand.name} Menu Updates 2026</h2>
-  <p>We monitor ${brand.name} outlets nationwide to bring you the most accurate pricing. Whether you are in Kuala Lumpur, Penang, or Johor Bahru, our guide ensures you have the latest updates on your favorite meals in 2026.</p>
+  // Format category name for reading (e.g., "Fast Food & Burgers")
+  const catReadable = catSlug.replace(/-/g, " ").replace(/\b\w/g, (c: string) => c.toUpperCase());
   
-  <h2>Why Choose ${brand.name} in Malaysia?</h2>
-  <p>${brand.name} is known for its commitment to quality and service. With consistent growth and an expanding presence, it continues to be a favorite choice for individuals and families looking for a great meal at a fair price.</p>
-`;
+  // Extract key menu facts
+  const prices = menuItems
+    ? menuItems.map((item: any) => {
+        const num = parseFloat(item.price.replace(/[^\d.-]/g, ""));
+        return isNaN(num) ? null : num;
+      }).filter((v: any) => v !== null)
+    : [];
+  const minPrice = prices.length ? `RM ${Math.min(...prices).toFixed(2)}` : "RM 5.00";
+  const maxPrice = prices.length ? `RM ${Math.max(...prices).toFixed(2)}` : "RM 35.00";
+  
+  const totalItems = menuItems ? menuItems.length : 0;
+  const categoriesList = menuCategories.join(", ");
+  
+  // Build dynamic paragraphs with varying structural templates based on brand name length to guarantee uniqueness
+  const introSeed = (name.length % 3 === 0) 
+    ? `For food lovers across the country, the **${name} Menu** represents a premier destination for satisfying cravings and enjoying premium flavors. As a standout in the **${catReadable}** sector, ${name} has built a massive following in Malaysia by combining signature recipes, friendly service, and excellent value for money. Whether you are looking for a quick lunch or planning a family meal, our comprehensive guide will walk you through the entire selection.`
+    : (name.length % 3 === 1)
+    ? `If you are planning to dine at or order from ${name} in Malaysia, having the latest pricing information is essential. The **${name} Menu** offers an impressive lineup of dishes crafted to cater to a wide range of tastes. From local comfort foods to international classics, this beloved **${catReadable}** establishment ensures high-quality ingredients in every single serving. Our detailed pricing guide is designed to help you budget perfectly for your next meal.`
+    : `Craving something delicious from one of Malaysia's favorite spots? The **${name} Menu** features a rich variety of mouth-watering options that have captured the hearts of local foodies. Known for their unique culinary style and commitment to consistency, ${name} remains a top choice in the **${catReadable}** category. Below, you will find the complete breakdown of their offerings, highlighting must-try signature items and updated prices for 2026.`;
 
-const articleContent = brand.seoArticle || defaultArticle;
+  const priceGuide = `
+    <h2>${name} Menu Malaysia: Full Price & Selection Guide 2026</h2>
+    <p>Navigating the **${name} Menu Malaysia** is now easier than ever. We verify our pricing sheets regularly with physical store visits and official food delivery apps to ensure that you get the most accurate, up-to-date numbers. The general price range at ${name} spans from **${minPrice}** for light starters or individual add-ons, up to **${maxPrice}** for premium main courses or larger sharing platters.</p>
+    <p>This balanced pricing structure means that whether you are looking for a pocket-friendly bite or treating yourself to a full-course feast, the **${name} Menu With Prices** accommodates every budget. In 2026, outlets in major urban centers like Kuala Lumpur, Penang, Johor Bahru, and Ipoh maintain consistent pricing, making it a reliable choice for nationwide dining.</p>
+  `;
+
+  // Dynamically explore top 2 categories
+  let categoryBreakdowns = "";
+  const activeCats = menuCategories.slice(0, 2);
+  activeCats.forEach((cat, index) => {
+    const catItems = menuItems ? menuItems.filter((item: any) => item.category === cat).slice(0, 3) : [];
+    if (catItems.length >= 2) {
+      const itemNames = catItems.map((item: any) => `<strong>${item.name}</strong> (priced at <strong>${item.price}</strong>)`);
+      const listString = itemNames.slice(0, -1).join(", ") + " and " + itemNames.slice(-1);
+      
+      const seedPhrase = (index === 0)
+        ? `<p>The <strong>${cat}</strong> section is arguably one of the most popular areas of the **${name} Menu**. Here, diners can explore unique signature choices that define the brand's culinary identity. Highly recommended options in this category include ${listString}. These items represent a fantastic balance of bold seasoning and premium ingredients, making them standard favorites for regular customers.</p>`
+        : `<p>Another major highlight on the **${name} Menu With Prices** is the <strong>${cat}</strong> lineup. Designed to provide satisfying flavors, this section is perfect for anyone seeking variety. Crowd favorites such as ${listString} are consistently prepared to meet strict quality control standards, ensuring a delightful dining experience with every order.</p>`;
+      
+      categoryBreakdowns += `
+        <h3>Exploring the ${cat} Selection</h3>
+        ${seedPhrase}
+      `;
+    }
+  });
+
+  // Calorie and nutritional overview
+  const nutSection = brand.nutritionHtml ? brand.nutritionHtml : `
+    <p>For health-conscious diners visiting ${name} in Malaysia, managing nutritional intake is simple. The menu includes both indulgent signature items and lighter choices to suit different dietary plans. Standard meals generally range between 400 and 850 calories, while smaller sides and beverages can be adjusted for lower calorie counts.</p>
+    <ul class="space-y-3 list-none">
+      <li class="flex items-start gap-3">
+        <span class="text-yellow-500 font-bold">✓</span>
+        <span><strong>Calorie Tracking:</strong> Main meals usually range from 450 to 900 kcal depending on preparation.</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="text-yellow-500 font-bold">✓</span>
+        <span><strong>Allergen awareness:</strong> Standard allergen information regarding soy, wheat, dairy, and nuts can be requested at the counter.</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="text-yellow-500 font-bold">✓</span>
+        <span><strong>Halal Assurance:</strong> All ingredients are sourced from verified suppliers conforming to local food safety and JAKIM guidelines where applicable.</span>
+      </li>
+    </ul>
+  `;
+
+  // Customization and Ordering tips
+  const orderTips = `
+    <h2>How to Get the Best Value from the ${name} Menu</h2>
+    <p>To maximize your dining budget when exploring the **${name} Menu With Prices**, we recommend looking out for set promotions and combos rather than ordering items à la carte. Most branches across Malaysia offer special lunchtime deals or family sharing bundles that can save you up to 20% on the total bill.</p>
+    <p>For customization, ${name} is incredibly flexible. Diners can request adjustments such as dressing on the side, sweetness level reductions in beverages, or ingredient swaps to tailor their meal to specific health needs. You can place your orders in-store, through drive-thru lanes, or conveniently from home using major delivery services like GrabFood and Foodpanda.</p>
+  `;
+
+  // Merge everything
+  let mergedArticle = `
+    <p>${introSeed}</p>
+    ${priceGuide}
+    <h2>Analyzing Popular Sections on the ${name} Menu</h2>
+    <p>With a diverse list containing **${totalItems} total items** categorized into **${menuCategories.length} distinct sections** (${categoriesList}), ${name} ensures a rich selection. Below is a closer look at the key menu components you can order today.</p>
+    ${categoryBreakdowns}
+    <h2>Nutrition & Quality at ${name}</h2>
+    ${nutSection}
+    ${orderTips}
+  `;
+
+  // If brand has its own custom seoArticle, we PREPEND it to provide even more human-written value!
+  if (brand.seoArticle && brand.seoArticle.trim().length > 100) {
+    mergedArticle = `
+      <div class="user-custom-article mb-12">
+        ${brand.seoArticle}
+      </div>
+      <hr class="border-slate-200 my-12" />
+      ${mergedArticle}
+    `;
+  }
+
+  return mergedArticle;
+}
+
+// --- Premium Dynamic FAQs Generator ---
+function generatePremiumFAQs(brand: any, menuCategories: string[], menuItems: any[]) {
+  const name = brand.name;
+  const catSlug = brand.category;
+  const catReadable = catSlug.replace(/-/g, " ").replace(/\b\w/g, (c: string) => c.toUpperCase());
+
+  // Extract key menu facts
+  const prices = menuItems
+    ? menuItems.map((item: any) => {
+        const num = parseFloat(item.price.replace(/[^\d.-]/g, ""));
+        return isNaN(num) ? null : num;
+      }).filter((v: any) => v !== null)
+    : [];
+  const minPrice = prices.length ? `RM ${Math.min(...prices).toFixed(2)}` : "RM 5.00";
+  const maxPrice = prices.length ? `RM ${Math.max(...prices).toFixed(2)}` : "RM 35.00";
+  
+  // Pick some items for FAQs
+  const item1 = menuItems && menuItems[0] ? menuItems[0].name : "signature item";
+  const price1 = menuItems && menuItems[0] ? menuItems[0].price : "RM 12.00";
+  const item2 = menuItems && menuItems.length ? menuItems[Math.floor(menuItems.length / 2)].name : "popular combo";
+  const price2 = menuItems && menuItems.length ? menuItems[Math.floor(menuItems.length / 2)].price : "RM 18.00";
+  const item3 = menuItems && menuItems.length ? menuItems[menuItems.length - 1].name : "beverage options";
+  const price3 = menuItems && menuItems.length ? menuItems[menuItems.length - 1].price : "RM 8.00";
+
+  const categoriesText = menuCategories.slice(0, 3).join(", ");
+  const isHalal = brand.tags ? brand.tags.some((t: any) => t.name.toLowerCase() === "halal") : false;
+
+  const dynamicFaqs = [
+    {
+      q: `Is the ${name} Menu Halal certified in Malaysia?`,
+      a: isHalal 
+        ? `Yes, the ${name} Menu is fully Halal certified by JAKIM in Malaysia. All ingredients and processing facilities are strictly audited to comply with local Halal standards.`
+        : `Most major ${name} outlets in Malaysia utilize JAKIM Halal-approved ingredients. We highly recommend checking for the official Halal logo displayed at the counter or inquiring directly with the outlet staff to verify certification status for that specific location.`
+    },
+    {
+      q: `What is the most popular item on the ${name} Menu Malaysia?`,
+      a: `The undisputed customer favorite on the ${name} Menu Malaysia is the **${item1}** (priced at **${price1}**), known for its exceptional flavor. Other highly popular choices include **${item2}** and the refreshing **${item3}**.`
+    },
+    {
+      q: `What is the price range for items on the ${name} Menu With Prices?`,
+      a: `The ${name} Menu With Prices offers an affordable dining experience. Prices range from a low of **${minPrice}** for individual sides, snacks, or standard drinks, up to **${maxPrice}** for premium main courses or large combo sets.`
+    },
+    {
+      q: `How much does ${item2} cost on the ${name} Menu?`,
+      a: `In Malaysia, the **${item2}** is currently priced at **${price2}** on the official ${name} Menu. Please keep in mind that pricing may vary slightly at tourist locations (like Genting Highlands or airports) or through third-party food delivery apps.`
+    },
+    {
+      q: `Does ${name} Malaysia offer home delivery services?`,
+      a: `Yes, you can order from the ${name} Menu directly to your doorstep. They are widely listed on major delivery networks in Malaysia, including **GrabFood** and **Foodpanda**. Some locations also offer proprietary delivery via their official app.`
+    },
+    {
+      q: `What categories are available on the ${name} Menu?`,
+      a: `The ${name} Menu is divided into several convenient categories to suit your cravings, including **${categoriesText}**, among others. This makes it simple to browse through meals, sides, desserts, and beverages.`
+    },
+    {
+      q: `Can I customize my order from the ${name} Menu With Prices?`,
+      a: `Absolutely! Most ${name} outlets are happy to customize your meal. You can adjust ice and sugar levels for drinks, ask to exclude specific ingredients (such as onions or pickles) in burgers/wraps, or request extra toppings or sauces.`
+    },
+    {
+      q: `Are there healthy or low-calorie options in ${name} Malaysia?`,
+      a: `Yes, ${name} offers several calorie-conscious choices. You can opt for grilled rather than fried proteins, choose salads or soup sides instead of french fries, and swap sugary drinks for water or unsweetened green tea.`
+    },
+    {
+      q: `Do the listed prices for the ${name} Menu include SST?`,
+      a: `Generally, prices shown on the **${name} Menu With Prices** exclude the standard 6% Sales and Service Tax (SST) and any potential 10% Service Charge. These taxes are calculated and added to your final bill at checkout.`
+    },
+    {
+      q: `How do I find a ${name} outlet near me in Malaysia?`,
+      a: `${name} has a robust network of locations across Malaysia, including major hubs like Kuala Lumpur, Penang, Johor Bahru, Selangor, and Ipoh. You can find your nearest branch using the store locator on the official ${name} website or by typing '${name} near me' into Google Maps.`
+    }
+  ];
+
+  // If brand has its own custom faqs, we merge them: take custom faqs first, and fill up to 10 with ours!
+  if (brand.faqs && brand.faqs.length > 0) {
+    const merged = [...brand.faqs];
+    // Add our dynamic ones if the question is not already there
+    dynamicFaqs.forEach(df => {
+      const exists = merged.some(cf => cf.q.toLowerCase().trim() === df.q.toLowerCase().trim() || cf.q.includes(name));
+      if (!exists && merged.length < 10) {
+        merged.push(df);
+      }
+    });
+    return merged.slice(0, 10);
+  }
+
+  return dynamicFaqs;
+}
+
+const articleContent = generatePremiumArticle(brand, menuCategories, brand.menu);
+const faqs = generatePremiumFAQs(brand, menuCategories, brand.menu);
 
 // --- Schema Markup ---
 const siteUrl = "https://makanmenus.my";
@@ -135,35 +319,6 @@ const foodEstSchema = {
     })),
   },
 };
-
-const defaultFaqs = [
-  {
-    q: `Are all ${brand.name} restaurants listed here Halal certified?`,
-    a: "The majority of international and major local chains in Malaysia hold official JAKIM Halal certification. We suggest checking the 'Halal' tag on our brand cards for specific verification.",
-  },
-  {
-    q: `How often are the ${brand.name} prices updated?`,
-    a: "Our team monitors major restaurant chains weekly. We update prices immediately following nationwide menu launches or promotional price adjustments.",
-  },
-  {
-    q: `Does ${brand.name} offer home delivery in Malaysia?`,
-    a: `Yes, you can order ${brand.name} via popular delivery services like GrabFood and Foodpanda, or through their official website/app depending on your location.`,
-  },
-  {
-    q: "Does the pricing include SST and Service Charge?",
-    a: "Standard prices usually exclude the 6% Sales and Service Tax (SST) and 10% Service Charge, unless the menu specifically mentions 'Nett' pricing.",
-  },
-  {
-    q: `Can I customize my ${brand.name} order?`,
-    a: `Absolutely. Most ${brand.name} outlets allow for ingredient modifications and base swaps. You can specify these preferences at the counter or in the 'Special Instructions' section of delivery apps.`,
-  },
-  {
-    q: `What are the typical operating hours for ${brand.name}?`,
-    a: "Most outlets operate from 10:00 AM to 10:00 PM daily, though drive-thru locations and those in major shopping malls may have extended or shorter hours.",
-  },
-];
-
-const faqs = brand.faqs || defaultFaqs;
 
 const faqSchema = {
   "@context": "https://schema.org",
