@@ -2191,7 +2191,7 @@ export const brandMocks: Record<string, any[]> = {
   </div>
   <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
     <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
-    <p class="text-slate-500 text-sm font-medium">Perfect for organizing rapid, hot lunch box deliveries for corporate events or family gatherings.</p>
+    <p class="text-slate-500 text-sm font-medium">Great for scheduling hot wok sharing dishes and lunch box packages for corporate functions or cozy family reunions.</p>
   </div>
 </div>`,
       faqs: [
@@ -2215,8 +2215,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Chagee offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Select their medium size cup and request lower sugar levels (0% to 30%) to easily moderate calories.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: If you are lactose intolerant, ask the staff for milk alternatives or choose their clear tea options.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Chagee."`,
@@ -2257,8 +2257,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Ai-Cha offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Opt for their fresh fruit teas or reduce the sweetness percentage to enjoy a lighter, healthier treat.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask the crew about sugar levels and check for milk allergens in their soft-serve ice cream mixes.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Ai-Cha."`,
@@ -2299,8 +2299,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Mixue offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Share their giant soft-serve cones or large fruit teas with a friend to manage your sugar and calorie intake.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Let the staff know if you have dairy sensitivities before ordering their rich signature sundaes.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Mixue."`,
@@ -2341,8 +2341,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Tealive offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Go for regular size bubble teas and select sugar alternatives or less ice to enjoy your favorite brew mindfully.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Soy milk alternatives are available for many beverage options to cater to lactose-free preferences.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Tealive."`,
@@ -2383,8 +2383,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Bingxue offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Reduce the sugar levels to 30% and skip additional sweet toppings to keep the beverage highly nutritious.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Feel free to inquire about dairy-free milk bases and check ingredients for specific berry or fruit allergies.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Bingxue."`,
@@ -2425,8 +2425,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">llaollao offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Choose a Sanum or medium tub and ask for pure fruit toppings instead of multiple sweet syrups.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Their premium frozen yogurt contains lactose; check their allergen card for gluten in cookie toppings.</strong></span></li>
 </ul>`,
       healthyTip: `"Opt for fresh fruit toppings instead of sweet sauces to keep your froyo balanced."`,
       deliveryHtml: `
@@ -2437,7 +2437,7 @@ export const brandMocks: Record<string, any[]> = {
   </div>
   <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
     <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
-    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering meals during lunch hours.</p>
+    <p class="text-slate-500 text-sm font-medium">Excellent way to order refreshing sweet frozen yogurt cups and customized toppings during hot afternoon breaks.</p>
   </div>
 </div>`,
       faqs: [
@@ -2458,8 +2458,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Suka Dessert offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Share their giant sweet waffle plates or crepe piles with friends to reduce individual calorie load.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Check with the bakers about specific nut or egg content in their waffles and crepe cakes.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Suka Dessert."`,
@@ -2500,8 +2500,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">We Drink offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Choose low sugar options and healthy fruit toppings to enjoy their premium milk teas lighter.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Inquire about non-dairy creamer options and fruit allergen details when ordering specialty mixes.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at We Drink."`,
@@ -2688,8 +2688,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Sushi King offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Balance your meal by mixing protein-packed sashimi plates with standard white rice sushi rolls.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Let the sushi chefs know about any shellfish, raw seafood, or gluten allergies before ordering.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Sushi King."`,
@@ -2730,8 +2730,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Sushi Zanmai offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Order a variety of small plates family-style to enjoy a balanced mix of proteins and fresh vegetables.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask the server for low-sodium soy sauce or check if specific tempura batters contain gluten.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Sushi Zanmai."`,
@@ -2772,8 +2772,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Don Omakase offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Savor each premium bite slowly and select protein-dense bowls with lighter soy dressing.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Notify the kitchen of any specific seafood, raw fish, or soy sauce sensitivities prior to your meal.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Don Omakase."`,
@@ -2814,8 +2814,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">MyeongDong Topokki offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Share large spicy street food platters and order a side of fresh kimchi for gut-healthy probiotics.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask the staff about gluten levels in their rice cakes or specific spice elements in the gochujang.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at MyeongDong Topokki."`,
@@ -2856,8 +2856,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Mr. Dakgalbi offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Share their giant chicken stir-fry hotplate with friends and opt for extra cabbage and mushrooms.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Alert the team if you are sensitive to sesame oil, gluten, or specific seafood extracts in the marinades.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Mr. Dakgalbi."`,
@@ -2898,8 +2898,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Sopoong offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Choose a balanced bento set that comes with plenty of side banchan (veggies) to control overall portions.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask about egg, sesame, or seafood ingredients in the traditional Korean side dishes and bibimbap.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Sopoong."`,
@@ -2940,8 +2940,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Oiso offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Focus on protein-dense hotpots like tofu stew and share larger rice bowls to balance carbs.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Let the team know if you require vegetarian options or have sensitivities to soy sauce and garlic.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Oiso."`,
@@ -2982,8 +2982,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Empire Sushi offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Mix high-protein sashimi or temaki with premium low-carb seaweed rolls for a lighter lunch.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Inquire about gluten-free sushi options and check for egg allergens in their sweet tamago or mayo.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Empire Sushi."`,
@@ -3024,8 +3024,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Yakiniku Kuro offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Focus on lean beef cuts and high-protein chicken, grilling them alongside plenty of fresh onions.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask the staff for gluten-free dipping sauces or clarify marinade ingredients before grilling your meats.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Yakiniku Kuro."`,
@@ -3066,8 +3066,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Kingu Kongu offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Order a healthy mix of grilled yakitori skewers and clean, fresh edamame to keep the calorie count low.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Let the kitchen know if you have shellfish allergies or are sensitive to traditional mirin and soy sauce.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Kingu Kongu."`,
@@ -3290,8 +3290,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Pizza Hut offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Share larger stuffed crust pizzas and add a fresh garden salad on the side to increase dietary fiber.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask about gluten-free crust options and verify dairy allergens in their mozzarella cheese.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Pizza Hut."`,
@@ -3442,8 +3442,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Nando's offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Choose their high-protein butterfly chicken breast paired with healthy sides like Mediterranean rice or corn.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Check their comprehensive allergen table for specific spice marinades, garlic, or gluten details.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Nando's."`,
@@ -3678,7 +3678,7 @@ export const brandMocks: Record<string, any[]> = {
   </div>
   <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
     <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
-    <p class="text-slate-500 text-sm font-medium">Perfect for organizing rapid, hot lunch box deliveries for corporate events or family gatherings.</p>
+    <p class="text-slate-500 text-sm font-medium">Excellent choice for ordering delicious premium grilled steaks and comfort food boxes directly to your workplace.</p>
   </div>
 </div>`,
       faqs: [
@@ -3702,8 +3702,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">FamilyMart offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Pair high-protein oden sticks (like tofu and fishcakes) with clear dashi broth for a warm, low-fat lunch.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Verify packaging labels for specific nut or soy allergens, and ask about oden broth ingredients.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at FamilyMart."`,
@@ -3744,8 +3744,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">CU Mart offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Stick to single-serving kimbap rolls and pair them with low-sodium seaweed soup for a balanced lunch.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Check with the cashier for specific food allergens or MSG levels in their Korean street snacks.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at CU Mart."`,
@@ -3824,8 +3824,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Subway offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Stick to a 6-inch sub loaded with plenty of fresh vegetables and choose lighter sauces like honey mustard.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask the sandwich artist for a full allergen guide covering their freshly-baked breads and sauces.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Subway."`,
@@ -3940,8 +3940,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Pop Meals offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Opt for their single-portion balanced rice bowls and select water instead of sweetened iced tea.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Check the detailed ingredient lists in the official app for specific allergens like peanuts or dairy.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Pop Meals."`,
@@ -3982,8 +3982,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Salad Atelier offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Customize your bowl with plenty of leafy greens and ask for dressings on the side to manage fat intake.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Let the salad team know about any nut, seed, seafood, or gluten allergies before customization.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Salad Atelier."`,
@@ -4024,8 +4024,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Kenny Rogers offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Stick to the quarter rotisserie chicken with steam vegetables and fresh fruit salad sides.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Check their nutrient guide for sodium levels and specify if you require gravy on the side.</strong></span></li>
 </ul>`,
       healthyTip: `"Opt for fresh side salads and avoid heavy dressings."`,
       deliveryHtml: `
@@ -4036,7 +4036,7 @@ export const brandMocks: Record<string, any[]> = {
   </div>
   <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
     <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
-    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering meals during lunch hours.</p>
+    <p class="text-slate-500 text-sm font-medium">A fast, convenient way to order healthy roasted chicken meals and fresh side dishes during busy lunch hours.</p>
   </div>
 </div>`,
       faqs: [
@@ -4057,8 +4057,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Boost Juice Bars offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Choose their 'Skinny' or 'Lite' options and go for their medium cup to keep natural sugar in check.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Inform the staff of any dairy allergies to swap for oat, soy, or coconut milk bases.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Boost Juice Bars."`,
@@ -4101,8 +4101,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Alva KL offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Savor their exquisite shared small plates to experience multiple flavors while moderating portion sizes.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Please notify your waiter of any seafood, gluten, or dairy restrictions prior to your meal.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Alva KL."`,
@@ -4143,8 +4143,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Envi Skydining offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Opt for light, elegant grilled mains and share rich chocolate desserts to balance your dining experience.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Inform the culinary staff of any specific dietary requirements, seafood, or nut allergies in advance.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Envi Skydining."`,
@@ -4185,8 +4185,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">The Tokyo Restaurant offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Savor their legendary Basque cheesecake slowly or share a slice to keep your sweet intake balanced.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Inquire about dairy and egg content in their cheesecakes or wheat flour in their savory dishes.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at The Tokyo Restaurant."`,
@@ -4373,8 +4373,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Nak Nak offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Choose single-patty burgers and swap heavy french fries for lighter, protein-packed side bites.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Let the cashier know about any wheat, dairy, or egg allergies before ordering their premium burgers.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Nak Nak."`,
@@ -4415,8 +4415,8 @@ export const brandMocks: Record<string, any[]> = {
       nutritionHtml: `
 <p class="text-lg">Woodfire offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
 <ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control:</strong> Consider sharing larger meals or desserts to manage calorie intake.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info:</strong> Always check with the staff regarding specific allergens or dietary restrictions.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Enjoy their exceptionally rich gourmet burgers by skipping extra cheese sauce or sharing premium sides.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Inquire about gluten allergens in their brioche buns and check for dairy in their special burger sauces.</strong></span></li>
 </ul>
       `,
       healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Woodfire."`,
