@@ -435,11 +435,11 @@ const faqSchema = {
             <div class="mt-4 mb-4 -mx-4 px-4">
               <div class="max-w-[1100px] mx-auto py-4">
                 <div
-                  class="flex flex-wrap justify-center gap-3 px-2"
+                  class="flex overflow-x-auto gap-3 pb-2 px-4 snap-x hide-scrollbar"
                   id="category-filter-container"
                 >
                   <button
-                    class="filter-btn w-[calc(50%-6px)] md:w-auto flex-grow-0 bg-black text-yellow-400 font-bold py-2 px-3 rounded-lg shadow-md transition-all active text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis"
+                    class="filter-btn flex-shrink-0 snap-start bg-black text-yellow-400 font-bold py-2 px-5 rounded-full shadow-md transition-all active text-sm whitespace-nowrap"
                     data-category="all"
                     data-menu-types=""
                   >
@@ -449,7 +449,7 @@ const faqSchema = {
                   {/* Integrated Categories */}
                   {menuCategories.map((cat: any) => (
                     <button
-                      class="filter-btn w-[calc(50%-6px)] md:w-auto flex-grow-0 bg-slate-50 text-slate-600 hover:bg-yellow-400 hover:text-slate-900 font-bold py-2 px-3 rounded-lg transition-all text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis"
+                      class="filter-btn flex-shrink-0 snap-start bg-slate-50 text-slate-600 hover:bg-yellow-400 hover:text-slate-900 font-bold py-2 px-5 rounded-full transition-all text-sm whitespace-nowrap"
                       data-category={cat}
                       data-menu-types={getCategoryMenuTypes(cat as string)}
                     >
