@@ -85,15 +85,15 @@ function generatePremiumArticle(brand: any, menuCategories: string[], menuItems:
   
   // Build dynamic paragraphs with varying structural templates based on brand name length to guarantee uniqueness
   const introSeed = (name.length % 3 === 0) 
-    ? `For food lovers across the country, the **${name} Menu** represents a premier destination for satisfying cravings and enjoying premium flavors. As a standout in the **${catReadable}** sector, ${name} has built a massive following in Malaysia by combining signature recipes, friendly service, and excellent value for money. Whether you are looking for a quick lunch or planning a family meal, our comprehensive guide will walk you through the entire selection.`
+    ? `For food lovers across the country, the ${name} Menu represents a premier destination for satisfying cravings and enjoying premium flavors. As a standout in the ${catReadable} sector, ${name} has built a massive following in Malaysia by combining signature recipes, friendly service, and excellent value for money. Whether you are looking for a quick lunch or planning a family meal, our comprehensive guide will walk you through the entire selection.`
     : (name.length % 3 === 1)
-    ? `If you are planning to dine at or order from ${name} in Malaysia, having the latest pricing information is essential. The **${name} Menu** offers an impressive lineup of dishes crafted to cater to a wide range of tastes. From local comfort foods to international classics, this beloved **${catReadable}** establishment ensures high-quality ingredients in every single serving. Our detailed pricing guide is designed to help you budget perfectly for your next meal.`
-    : `Craving something delicious from one of Malaysia's favorite spots? The **${name} Menu** features a rich variety of mouth-watering options that have captured the hearts of local foodies. Known for their unique culinary style and commitment to consistency, ${name} remains a top choice in the **${catReadable}** category. Below, you will find the complete breakdown of their offerings, highlighting must-try signature items and updated prices for 2026.`;
+    ? `If you are planning to dine at or order from ${name} in Malaysia, having the latest pricing information is essential. The ${name} Menu offers an impressive lineup of dishes crafted to cater to a wide range of tastes. From local comfort foods to international classics, this beloved ${catReadable} establishment ensures high-quality ingredients in every single serving. Our detailed pricing guide is designed to help you budget perfectly for your next meal.`
+    : `Craving something delicious from one of Malaysia's favorite spots? The ${name} Menu features a rich variety of mouth-watering options that have captured the hearts of local foodies. Known for their unique culinary style and commitment to consistency, ${name} remains a top choice in the ${catReadable} category. Below, you will find the complete breakdown of their offerings, highlighting must-try signature items and updated prices for 2026.`;
 
   const priceGuide = `
     <h2>${name} Menu Malaysia: Full Price & Selection Guide 2026</h2>
-    <p>Navigating the **${name} Menu Malaysia** is now easier than ever. We verify our pricing sheets regularly with physical store visits and official food delivery apps to ensure that you get the most accurate, up-to-date numbers. The general price range at ${name} spans from **${minPrice}** for light starters or individual add-ons, up to **${maxPrice}** for premium main courses or larger sharing platters.</p>
-    <p>This balanced pricing structure means that whether you are looking for a pocket-friendly bite or treating yourself to a full-course feast, the **${name} Menu With Prices** accommodates every budget. In 2026, outlets in major urban centers like Kuala Lumpur, Penang, Johor Bahru, and Ipoh maintain consistent pricing, making it a reliable choice for nationwide dining.</p>
+    <p>Navigating the ${name} Menu Malaysia is now easier than ever. We verify our pricing sheets regularly with physical store visits and official food delivery apps to ensure that you get the most accurate, up-to-date numbers. The general price range at ${name} spans from ${minPrice} for light starters or individual add-ons, up to ${maxPrice} for premium main courses or larger sharing platters.</p>
+    <p>This balanced pricing structure means that whether you are looking for a pocket-friendly bite or treating yourself to a full-course feast, the ${name} Menu With Prices accommodates every budget. In 2026, outlets in major urban centers like Kuala Lumpur, Penang, Johor Bahru, and Ipoh maintain consistent pricing, making it a reliable choice for nationwide dining.</p>
   `;
 
   // Dynamically explore top 2 categories
@@ -106,8 +106,8 @@ function generatePremiumArticle(brand: any, menuCategories: string[], menuItems:
       const listString = itemNames.slice(0, -1).join(", ") + " and " + itemNames.slice(-1);
       
       const seedPhrase = (index === 0)
-        ? `<p>The <strong>${cat}</strong> section is arguably one of the most popular areas of the **${name} Menu**. Here, diners can explore unique signature choices that define the brand's culinary identity. Highly recommended options in this category include ${listString}. These items represent a fantastic balance of bold seasoning and premium ingredients, making them standard favorites for regular customers.</p>`
-        : `<p>Another major highlight on the **${name} Menu With Prices** is the <strong>${cat}</strong> lineup. Designed to provide satisfying flavors, this section is perfect for anyone seeking variety. Crowd favorites such as ${listString} are consistently prepared to meet strict quality control standards, ensuring a delightful dining experience with every order.</p>`;
+        ? `<p>The <strong>${cat}</strong> section is arguably one of the most popular areas of the ${name} Menu. Here, diners can explore unique signature choices that define the brand's culinary identity. Highly recommended options in this category include ${listString}. These items represent a fantastic balance of bold seasoning and premium ingredients, making them standard favorites for regular customers.</p>`
+        : `<p>Another major highlight on the ${name} Menu With Prices is the <strong>${cat}</strong> lineup. Designed to provide satisfying flavors, this section is perfect for anyone seeking variety. Crowd favorites such as ${listString} are consistently prepared to meet strict quality control standards, ensuring a delightful dining experience with every order.</p>`;
       
       categoryBreakdowns += `
         <h3>Exploring the ${cat} Selection</h3>
@@ -138,7 +138,7 @@ function generatePremiumArticle(brand: any, menuCategories: string[], menuItems:
   // Customization and Ordering tips
   const orderTips = `
     <h2>How to Get the Best Value from the ${name} Menu</h2>
-    <p>To maximize your dining budget when exploring the **${name} Menu With Prices**, we recommend looking out for set promotions and combos rather than ordering items à la carte. Most branches across Malaysia offer special lunchtime deals or family sharing bundles that can save you up to 20% on the total bill.</p>
+    <p>To maximize your dining budget when exploring the ${name} Menu With Prices, we recommend looking out for set promotions and combos rather than ordering items à la carte. Most branches across Malaysia offer special lunchtime deals or family sharing bundles that can save you up to 20% on the total bill.</p>
     <p>For customization, ${name} is incredibly flexible. Diners can request adjustments such as dressing on the side, sweetness level reductions in beverages, or ingredient swaps to tailor their meal to specific health needs. You can place your orders in-store, through drive-thru lanes, or conveniently from home using major delivery services like GrabFood and Foodpanda.</p>
   `;
 
@@ -147,7 +147,7 @@ function generatePremiumArticle(brand: any, menuCategories: string[], menuItems:
     <p>${introSeed}</p>
     ${priceGuide}
     <h2>Analyzing Popular Sections on the ${name} Menu</h2>
-    <p>With a diverse list containing **${totalItems} total items** categorized into **${menuCategories.length} distinct sections** (${categoriesList}), ${name} ensures a rich selection. Below is a closer look at the key menu components you can order today.</p>
+    <p>With a diverse list containing ${totalItems} total items categorized into ${menuCategories.length} distinct sections (${categoriesList}), ${name} ensures a rich selection. Below is a closer look at the key menu components you can order today.</p>
     ${categoryBreakdowns}
     <h2>Nutrition & Quality at ${name}</h2>
     ${nutSection}
@@ -157,10 +157,10 @@ function generatePremiumArticle(brand: any, menuCategories: string[], menuItems:
   // If brand has its own custom seoArticle, we PREPEND it to provide even more human-written value!
   if (brand.seoArticle && brand.seoArticle.trim().length > 100) {
     mergedArticle = `
-      <div class="user-custom-article mb-12">
+      <div class="user-custom-article mb-4">
         ${brand.seoArticle}
       </div>
-      <hr class="border-slate-200 my-12" />
+      <hr class="border-slate-200 my-4" />
       ${mergedArticle}
     `;
   }
@@ -204,23 +204,23 @@ function generatePremiumFAQs(brand: any, menuCategories: string[], menuItems: an
     },
     {
       q: `What is the most popular item on the ${name} Menu Malaysia?`,
-      a: `The undisputed customer favorite on the ${name} Menu Malaysia is the **${item1}** (priced at **${price1}**), known for its exceptional flavor. Other highly popular choices include **${item2}** and the refreshing **${item3}**.`
+      a: `The undisputed customer favorite on the ${name} Menu Malaysia is the ${item1} (priced at ${price1}), known for its exceptional flavor. Other highly popular choices include ${item2} and the refreshing ${item3}.`
     },
     {
       q: `What is the price range for items on the ${name} Menu With Prices?`,
-      a: `The ${name} Menu With Prices offers an affordable dining experience. Prices range from a low of **${minPrice}** for individual sides, snacks, or standard drinks, up to **${maxPrice}** for premium main courses or large combo sets.`
+      a: `The ${name} Menu With Prices offers an affordable dining experience. Prices range from a low of ${minPrice} for individual sides, snacks, or standard drinks, up to ${maxPrice} for premium main courses or large combo sets.`
     },
     {
       q: `How much does ${item2} cost on the ${name} Menu?`,
-      a: `In Malaysia, the **${item2}** is currently priced at **${price2}** on the official ${name} Menu. Please keep in mind that pricing may vary slightly at tourist locations (like Genting Highlands or airports) or through third-party food delivery apps.`
+      a: `In Malaysia, the ${item2} is currently priced at ${price2} on the official ${name} Menu. Please keep in mind that pricing may vary slightly at tourist locations (like Genting Highlands or airports) or through third-party food delivery apps.`
     },
     {
       q: `Does ${name} Malaysia offer home delivery services?`,
-      a: `Yes, you can order from the ${name} Menu directly to your doorstep. They are widely listed on major delivery networks in Malaysia, including **GrabFood** and **Foodpanda**. Some locations also offer proprietary delivery via their official app.`
+      a: `Yes, you can order from the ${name} Menu directly to your doorstep. They are widely listed on major delivery networks in Malaysia, including GrabFood and Foodpanda. Some locations also offer proprietary delivery via their official app.`
     },
     {
       q: `What categories are available on the ${name} Menu?`,
-      a: `The ${name} Menu is divided into several convenient categories to suit your cravings, including **${categoriesText}**, among others. This makes it simple to browse through meals, sides, desserts, and beverages.`
+      a: `The ${name} Menu is divided into several convenient categories to suit your cravings, including ${categoriesText}, among others. This makes it simple to browse through meals, sides, desserts, and beverages.`
     },
     {
       q: `Can I customize my order from the ${name} Menu With Prices?`,
@@ -232,7 +232,7 @@ function generatePremiumFAQs(brand: any, menuCategories: string[], menuItems: an
     },
     {
       q: `Do the listed prices for the ${name} Menu include SST?`,
-      a: `Generally, prices shown on the **${name} Menu With Prices** exclude the standard 6% Sales and Service Tax (SST) and any potential 10% Service Charge. These taxes are calculated and added to your final bill at checkout.`
+      a: `Generally, prices shown on the ${name} Menu With Prices exclude the standard 6% Sales and Service Tax (SST) and any potential 10% Service Charge. These taxes are calculated and added to your final bill at checkout.`
     },
     {
       q: `How do I find a ${name} outlet near me in Malaysia?`,
@@ -351,7 +351,7 @@ const faqSchema = {
 
   {/* Brand Hero */}
   <section
-    class="relative pt-32 pb-24 md:pt-48 md:pb-40 overflow-hidden bg-black"
+    class="relative pt-16 pb-8 md:pt-24 md:pb-16 overflow-hidden bg-black"
   >
     <div class="absolute inset-0 z-0">
       <div
@@ -369,7 +369,7 @@ const faqSchema = {
       class="relative z-20 max-w-[1000px] mx-auto px-4 flex flex-col items-center text-center"
     >
       <div
-        class="inline-flex items-center gap-3 mb-8 bg-yellow-400 text-black border border-yellow-500 px-5 py-2.5 rounded-full shadow-[0_0_30px_rgba(234,179,8,0.3)] transform -rotate-1"
+        class="inline-flex items-center gap-3 mb-3 bg-yellow-400 text-black border border-yellow-500 px-5 py-2.5 rounded-full shadow-[0_0_30px_rgba(234,179,8,0.3)] transform -rotate-1"
       >
         <span class="w-2 h-2 rounded-full bg-black animate-pulse"></span>
         <span
@@ -379,7 +379,7 @@ const faqSchema = {
       </div>
 
       <h1
-        class="text-4xl md:text-6xl lg:text-[72px] font-black text-white mb-8 uppercase tracking-tight leading-[1.1] drop-shadow-2xl"
+        class="text-4xl md:text-6xl lg:text-[72px] font-black text-white mb-3 uppercase tracking-tight leading-[1.1] drop-shadow-2xl"
       >
         {brand.name}
         <br /><span class="text-yellow-400">Menu with Prices</span>
@@ -394,8 +394,8 @@ const faqSchema = {
     </div>
   </section>
 
-  {/* Sticky Filter & Menu Section */}
-  <section class="py-[70px] bg-white" id="menu-section">
+  {/* Filter & Menu Section */}
+  <section class="pt-0 pb-8 bg-white" id="menu-section">
     <div class="max-w-[1100px] mx-auto px-4">
       {
         hasMenu && (
@@ -416,78 +416,31 @@ const faqSchema = {
               </div>
             )}
 
-            {/* Unified Filter Bar with Arrows (Categories) */}
-            <div class="sticky top-16 md:top-[72px] z-40 bg-white/90 backdrop-blur-md border-b border-slate-100 mb-12 -mx-4 px-4 group/filters">
-              <div class="relative max-w-[1100px] mx-auto">
-                <button
-                  id="scroll-left"
-                  class="absolute left-0 top-1/2 -translate-y-1/2 z-50 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.15)] rounded-full p-2.5 text-slate-900 border-2 border-slate-100 opacity-0 invisible transition-all hover:scale-110 active:scale-95 hover:border-yellow-400"
-                  aria-label="Scroll Left"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="3"
-                      d="M15 19l-7-7 7-7"
-                    />
-                  </svg>
-                </button>
-
-                <button
-                  id="scroll-right"
-                  class="absolute right-0 top-1/2 -translate-y-1/2 z-50 bg-white shadow-[0_4px_20px_rgba(0,0,0,0.15)] rounded-full p-2.5 text-slate-900 border-2 border-slate-100 opacity-0 invisible transition-all hover:scale-110 active:scale-95 hover:border-yellow-400"
-                  aria-label="Scroll Right"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="3"
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </button>
-
+            {/* Unified Filter Bar (Categories) */}
+            <div class="mb-4 -mx-4 px-4">
+              <div class="max-w-[1100px] mx-auto py-4">
                 <div
-                  class="overflow-x-auto no-scrollbar py-4"
-                  id="category-scroll-container"
+                  class="flex flex-wrap justify-center gap-3 px-2"
+                  id="category-filter-container"
                 >
-                  <div
-                    class="flex items-center gap-3 min-w-max px-2"
-                    id="category-filter-container"
+                  <button
+                    class="filter-btn w-[calc(50%-6px)] md:w-auto flex-grow-0 bg-black text-yellow-400 font-bold py-2 px-3 rounded-lg shadow-md transition-all active text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis"
+                    data-category="all"
+                    data-menu-types=""
                   >
-                    <button
-                      class="filter-btn bg-black text-yellow-400 font-bold py-2 px-5 rounded-lg shadow-md transition-all active text-sm"
-                      data-category="all"
-                      data-menu-types=""
-                    >
-                      All Items
-                    </button>
+                    All Items
+                  </button>
 
-                    {/* Integrated Categories */}
-                    {menuCategories.map((cat: any) => (
-                      <button
-                        class="filter-btn bg-slate-50 text-slate-600 hover:bg-yellow-400 hover:text-slate-900 font-bold py-2 px-5 rounded-lg transition-all text-sm"
-                        data-category={cat}
-                        data-menu-types={getCategoryMenuTypes(cat as string)}
-                      >
-                        {cat}
-                      </button>
-                    ))}
-                  </div>
+                  {/* Integrated Categories */}
+                  {menuCategories.map((cat: any) => (
+                    <button
+                      class="filter-btn w-[calc(50%-6px)] md:w-auto flex-grow-0 bg-slate-50 text-slate-600 hover:bg-yellow-400 hover:text-slate-900 font-bold py-2 px-3 rounded-lg transition-all text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis"
+                      data-category={cat}
+                      data-menu-types={getCategoryMenuTypes(cat as string)}
+                    >
+                      {cat}
+                    </button>
+                  ))}
                 </div>
               </div>
             </div>
@@ -532,9 +485,9 @@ const faqSchema = {
   </section>
 
   {/* Standardized Information Sections */}
-  <section class="border-t border-slate-100 py-[70px]">
+  <section class="border-t border-slate-100 pt-8 pb-8">
     <div class="max-w-[1000px] mx-auto px-4">
-      <div class="text-center mb-[70px]">
+      <div class="text-center mb-8">
         <h2
           class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight"
         >
@@ -565,9 +518,9 @@ const faqSchema = {
         </div>
       </div>
 
-      <div class="mt-20 border-t border-slate-100 pt-[70px]">
+      <div class="mt-8 border-t border-slate-100 pt-8">
         <h2
-          class="text-2xl md:text-4xl font-black text-black mb-12 text-center uppercase tracking-tight"
+          class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight"
         >
           Nutrition & Quality at {brand.name}
         </h2>
@@ -627,9 +580,9 @@ const faqSchema = {
         </div>
       </div>
 
-      <div class="mt-20 border-t border-slate-100 pt-[70px]">
+      <div class="mt-8 border-t border-slate-100 pt-8">
         <h2
-          class="text-2xl md:text-4xl font-black text-black mb-12 text-center uppercase tracking-tight"
+          class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight"
         >
           How to Order {brand.name} Delivery
         </h2>
@@ -666,9 +619,9 @@ const faqSchema = {
       </div>
 
       <div
-        class="max-w-[850px] mx-auto mt-20 border-t border-slate-100 pt-[70px]"
+        class="max-w-[850px] mx-auto mt-8 border-t border-slate-100 pt-8"
       >
-        <div class="text-center mb-12">
+        <div class="text-center mb-4">
           <h2
             class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight"
           >
@@ -707,7 +660,7 @@ const faqSchema = {
       </div>
 
       {/* Related Content & Internal Linking */}
-      <div class="mt-20 border-t border-slate-100 pt-[70px]">
+      <div class="mt-8 border-t border-slate-100 pt-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Related Brands Column */}
           {
@@ -777,7 +730,7 @@ const faqSchema = {
 
       {/* Site-Wide Value Links */}
       <div
-        class="mt-[70px] bg-black rounded-[3rem] p-12 text-center relative overflow-hidden"
+        class="mt-8 bg-black rounded-[3rem] p-12 text-center relative overflow-hidden"
       >
         <div
           class="absolute inset-0 z-0 opacity-10 bg-[radial-gradient(circle_at_center,rgba(234,179,8,1),transparent_70%)]"
@@ -823,12 +776,6 @@ const faqSchema = {
       const filterBtns = document.querySelectorAll(".filter-btn");
       const menuItems = document.querySelectorAll(".menu-item");
 
-      const scrollContainer = document.getElementById(
-        "category-scroll-container",
-      );
-      const leftArrow = document.getElementById("scroll-left");
-      const rightArrow = document.getElementById("scroll-right");
-
       // --- Filter Initialization Logic ---
       // User requested: Default filter should be the first one AFTER "All Items"
       let currentMenuType = "";
@@ -853,46 +800,6 @@ const faqSchema = {
         currentCategory = filterBtns[1].getAttribute("data-category");
       }
 
-      // Handle Arrow Visibility
-      const updateArrows = () => {
-        if (!scrollContainer || !leftArrow || !rightArrow) return;
-
-        const scrollLeft = scrollContainer.scrollLeft;
-        const maxScroll =
-          scrollContainer.scrollWidth - scrollContainer.clientWidth;
-
-        // Show left arrow if scrolled
-        if (scrollLeft > 2) {
-          leftArrow.classList.remove("opacity-0", "invisible");
-          leftArrow.classList.add("opacity-100", "visible");
-        } else {
-          leftArrow.classList.add("opacity-0", "invisible");
-          leftArrow.classList.remove("opacity-100", "visible");
-        }
-
-        // Show right arrow if more to scroll
-        if (scrollLeft < maxScroll - 2) {
-          rightArrow.classList.remove("opacity-0", "invisible");
-          rightArrow.classList.add("opacity-100", "visible");
-        } else {
-          rightArrow.classList.add("opacity-0", "invisible");
-          rightArrow.classList.remove("opacity-100", "visible");
-        }
-      };
-
-      // Click to scroll (Smooth & responsive)
-      leftArrow?.addEventListener("click", () => {
-        scrollContainer.scrollBy({ left: -250, behavior: "smooth" });
-      });
-
-      rightArrow?.addEventListener("click", () => {
-        scrollContainer.scrollBy({ left: 250, behavior: "smooth" });
-      });
-
-      scrollContainer?.addEventListener("scroll", updateArrows);
-
-      // Force initial arrow check after a short delay for layout calculation
-      setTimeout(updateArrows, 200);
       // Primary function to evaluate and render DOM visibility based on twin-states
       const renderFiltering = () => {
         let firstVisibleCategory = null;
@@ -913,8 +820,6 @@ const faqSchema = {
           }
         });
 
-        // Update arrows after potentially hiding/showing categories
-        setTimeout(updateArrows, 50);
 
         // Styling Update: Handle visual state for both tiers independently
 
@@ -1057,8 +962,7 @@ const faqSchema = {
       // Initial Render Paint
       renderFiltering();
 
-      // Monitor window size for arrow visibility
-      window.addEventListener("resize", updateArrows);
+
     });
   </script>
 
@@ -1077,8 +981,8 @@ const faqSchema = {
       line-height: 2rem;
       font-weight: 900;
       color: #000000;
-      margin-top: 5rem;
-      margin-bottom: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
       text-align: center;
     }
     @media (min-width: 768px) {
@@ -1091,8 +995,8 @@ const faqSchema = {
       font-size: 1.25rem; /* text-xl */
       font-weight: 900;
       color: #000000;
-      margin-top: 3.5rem;
-      margin-bottom: 1.25rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
     }
     .seo-article-content p {
       font-size: 1rem; /* text-base */
@@ -1112,7 +1016,7 @@ const faqSchema = {
     }
   </style>
 
-  <div class="bg-white pb-[70px]">
+  <div class="bg-white pb-8">
     <div class="max-w-[1000px] mx-auto px-4"></div>
   </div>
 
