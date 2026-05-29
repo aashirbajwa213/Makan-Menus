@@ -424,7 +424,7 @@ const faqSchema = {
                   id="category-filter-container"
                 >
                   <button
-                    class="filter-btn w-[calc(50%-6px)] md:w-auto flex-grow-0 bg-black text-yellow-400 font-bold py-2 px-3 rounded-lg shadow-md transition-all active text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis"
+                    class="filter-btn w-[calc(50%-6px)] md:w-auto flex-grow-0 bg-black text-yellow-400 font-bold py-1.5 px-3 rounded-lg shadow-md transition-all active text-xs text-center whitespace-nowrap overflow-hidden text-ellipsis"
                     data-category="all"
                     data-menu-types=""
                   >
@@ -434,7 +434,7 @@ const faqSchema = {
                   {/* Integrated Categories */}
                   {menuCategories.map((cat: any) => (
                     <button
-                      class="filter-btn w-[calc(50%-6px)] md:w-auto flex-grow-0 bg-slate-50 text-slate-600 hover:bg-yellow-400 hover:text-slate-900 font-bold py-2 px-3 rounded-lg transition-all text-sm text-center whitespace-nowrap overflow-hidden text-ellipsis"
+                      class="filter-btn w-[calc(50%-6px)] md:w-auto flex-grow-0 bg-slate-50 text-slate-600 hover:bg-yellow-400 hover:text-slate-900 font-bold py-1.5 px-3 rounded-lg transition-all text-xs text-center whitespace-nowrap overflow-hidden text-ellipsis"
                       data-category={cat}
                       data-menu-types={getCategoryMenuTypes(cat as string)}
                     >
@@ -485,16 +485,16 @@ const faqSchema = {
   </section>
 
   {/* Standardized Information Sections */}
-  <section class="border-t border-slate-100 pt-8 pb-8">
+  <section class="border-t border-slate-100 pt-10 pb-8">
     <div class="max-w-[1000px] mx-auto px-4">
-      <div class="text-center mb-8">
+      <div class="text-center mb-12">
         <h2
-          class="text-2xl md:text-4xl font-black text-black mb-4 text-center uppercase tracking-tight"
+          class="text-2xl md:text-4xl font-black text-black mb-10 text-center uppercase tracking-tight"
         >
           Detailed {brand.name} Menu Guide
         </h2>
         <div
-          class="space-y-6 text-base text-slate-600 leading-relaxed max-w-2xl mx-auto opacity-80"
+          class="space-y-10 text-base text-slate-600 leading-relaxed max-w-2xl mx-auto opacity-80"
         >
           <p>
             Welcome to the most comprehensive guide for {brand.name} Menu Prices in
@@ -1002,7 +1002,7 @@ const faqSchema = {
       font-size: 1rem; /* text-base */
       line-height: 1.625; /* leading-relaxed */
       color: #475569; /* text-slate-600 */
-      margin-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
     }
     .seo-article-content ul {
       margin-bottom: 2rem;
