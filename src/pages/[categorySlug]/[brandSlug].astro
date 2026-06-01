@@ -165,28 +165,7 @@ function generatePremiumArticle(brand: any, menuCategories: string[], menuItems:
     `;
   }
 
-  // Inject AdSense Horizontal Ad after every 3 headings (h2 or h3) to maximize revenue safely (70-30 ratio)
-  let headingCount = 0;
-  mergedArticle = mergedArticle.replace(/<h[2-3][^>]*>.*?<\/h[2-3]>/gi, (match) => {
-    headingCount++;
-    if (headingCount % 3 === 0) {
-      return match + `
-        <div class="w-full max-w-[800px] mx-auto my-10 min-h-[90px] bg-slate-50 border border-slate-100 rounded-xl overflow-hidden flex items-center justify-center">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3349831862364909" crossorigin="anonymous"></script>
-          <ins class="adsbygoogle"
-               style="display:block; width:100%;"
-               data-ad-client="ca-pub-3349831862364909"
-               data-ad-slot="4721590623"
-               data-ad-format="horizontal"
-               data-full-width-responsive="false"></ins>
-          <script>
-               (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-        </div>
-      `;
-    }
-    return match;
-  });
+
 
   return mergedArticle;
 }
@@ -420,20 +399,7 @@ const faqSchema = {
   {/* Filter & Menu Section */}
   <section class="pt-0 pb-8 bg-white" id="menu-section">
     <div class="max-w-[1100px] mx-auto px-4">
-      {/* Menu - Above Category Ad */}
-      <div class="w-full max-w-[800px] mx-auto mt-6 mb-2 min-h-[90px] bg-slate-50 border border-slate-100 rounded-xl overflow-hidden flex items-center justify-center">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3349831862364909"
-             crossorigin="anonymous"></script>
-        <ins class="adsbygoogle"
-             style="display:block; width:100%;"
-             data-ad-client="ca-pub-3349831862364909"
-             data-ad-slot="4721590623"
-             data-ad-format="horizontal"
-             data-full-width-responsive="false"></ins>
-        <script is:inline>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
+
 
       {
         hasMenu && (
@@ -517,20 +483,7 @@ const faqSchema = {
               ))}
             </div>
             
-            {/* Menu - Middle Horizontal Ad */}
-            <div class="w-full max-w-[800px] mx-auto mt-10 mb-4 min-h-[90px] bg-slate-50 border border-slate-100 rounded-xl overflow-hidden flex items-center justify-center">
-              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3349831862364909"
-                   crossorigin="anonymous"></script>
-              <ins class="adsbygoogle"
-                   style="display:block; width:100%;"
-                   data-ad-client="ca-pub-3349831862364909"
-                   data-ad-slot="4721590623"
-                   data-ad-format="horizontal"
-                   data-full-width-responsive="false"></ins>
-              <script is:inline>
-                   (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
-            </div>
+
           </>
         )
       }
@@ -571,20 +524,7 @@ const faqSchema = {
         </div>
       </div>
 
-      {/* Menu - In Article Ad */}
-      <div class="w-full max-w-[600px] mx-auto my-12 bg-slate-50 border border-slate-100 rounded-xl overflow-hidden flex items-center justify-center min-h-[250px]">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3349831862364909"
-             crossorigin="anonymous"></script>
-        <ins class="adsbygoogle"
-             style="display:block; width:100%;"
-             data-ad-client="ca-pub-3349831862364909"
-             data-ad-slot="9909807891"
-             data-ad-format="square"
-             data-full-width-responsive="false"></ins>
-        <script is:inline>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
+
 
       <div class="mt-8 border-t border-slate-100 pt-8">
         <h2
@@ -686,20 +626,7 @@ const faqSchema = {
         </div>
       </div>
 
-      {/* Menu - Before FAQs Ad */}
-      <div class="w-full max-w-[800px] mx-auto mt-12 mb-4 bg-slate-50 border border-slate-100 rounded-xl overflow-hidden flex items-center justify-center min-h-[90px]">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3349831862364909"
-             crossorigin="anonymous"></script>
-        <ins class="adsbygoogle"
-             style="display:block; width:100%;"
-             data-ad-client="ca-pub-3349831862364909"
-             data-ad-slot="6573198111"
-             data-ad-format="horizontal"
-             data-full-width-responsive="false"></ins>
-        <script is:inline>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
+
 
       <div
         class="max-w-[850px] mx-auto mt-8 border-t border-slate-100 pt-8"
