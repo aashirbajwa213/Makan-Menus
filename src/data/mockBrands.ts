@@ -109,7 +109,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "McDonald's",
       slug: "mcdonalds",
       category: 'fast-food',
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/512px-McDonald%27s_Golden_Arches.svg.png",
+      image: "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://mcdonalds.com.my&size=256",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Burgers, Fries & Fried Chicken",
       seoArticle: `\n<h2>McDonald's: A Malaysian Morning Tradition</h2>
@@ -223,7 +223,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "KFC",
       slug: "kfc",
       category: 'fast-food',
-      image: "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/KFC_logo.svg/512px-KFC_logo.svg.png",
+      image: "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://kfc.com.my&size=256",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Finger Lickin' Good Fried Chicken",
       seoArticle: `\n<h2>KFC: The Undisputed King of Fried Chicken</h2>
@@ -683,7 +683,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Starbucks",
       slug: "starbucks",
       category: 'coffee-bakeries',
-      image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/512px-Starbucks_Corporation_Logo_2011.svg.png",
+      image: "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://starbucks.com.my&size=256",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Premium Coffee & Beverages",
       seoArticle: `\n<h2>Starbucks: The Ultimate 'Third Place'</h2>
@@ -790,7 +790,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "ZUS Coffee",
       slug: "zus-coffee",
       category: 'coffee-bakeries',
-      image: "https://zuscoffee.com/wp-content/uploads/2023/07/ZUS-Logo-1.png",
+      image: "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://zuscoffee.com&size=256",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "A Necessity, Not a Luxury",
       seoArticle: `\n<h2>ZUS Coffee: Premium Brews for Everyone</h2>
@@ -1320,7 +1320,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "PappaRich",
       slug: "papparich",
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1626804475297-41609ea0db49?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1555126634-ae47061d3106?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Authentic Malaysian Delights",
       seoArticle: `\n<h2>PappaRich: Authentic Malaysian Kopitiam Fare</h2>
@@ -1386,7 +1386,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Madam Kwan's",
       slug: "madam-kwans",
       category: 'local-asian',
-      image: "/images/madam-kwans.png",
+      image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Truly Malaysian Cuisine",
       seoArticle: `\n<h2>Madam Kwan's: Truly Malaysian Comfort Food</h2>
@@ -1485,7 +1485,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "The Chicken Rice Shop",
       slug: "the-chicken-rice-shop",
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1598515214211-89d3e73ae83b?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Malaysia's Favorite Chicken Rice Chain",
       seoArticle: `\n<h2>The Chicken Rice Shop: A Household Name in Malaysia</h2>
@@ -1737,7 +1737,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Bungkus Kaw Kaw",
       slug: "bungkus-kaw-kaw",
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1579888944880-d983411bf957?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Traditional Kopitiam Drinks & Quick Bites",
       seoArticle: `\n<h2>Bungkus Kaw Kaw: Strong Brews and Nostalgic Flavors</h2>
@@ -1881,7 +1881,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Suki-Ya",
       slug: "suki-ya",
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1547496502-affa230ba425?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Unlimited Japanese Hotpot, Sukiyaki & Shabu-Shabu Buffet",
       seoArticle: `\n<h2>Suki-Ya: The Ultimate Comfort of Hotpot Buffet</h2>
@@ -2097,7 +2097,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Ole-Ole Bali",
       slug: "ole-ole-bali",
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1537216696835-41915a1af316?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1598514982205-f36b96d1e8d4?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Premium Balinese Culinary Feast & Fragrant Lemongrass Grills",
       seoArticle: `\n<h2>Ole-Ole Bali: An Immersive Balinese Dining Experience</h2>
@@ -4016,7 +4016,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Kenny Rogers Roasters",
       slug: "kenny-rogers-roasters",
       category: 'sandwiches-health',
-      image: "https://images.unsplash.com/photo-1626082929543-eed647a6a43e?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Less Fat, Less Salt, Less Calories",
       seoArticle: `\n<h2>Kenny Rogers Roasters: Guilt-Free Rotisserie</h2>
