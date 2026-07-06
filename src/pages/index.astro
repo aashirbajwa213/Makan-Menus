@@ -96,7 +96,7 @@ const faqSchema = {
   <Schema item={[organizationSchema, websiteSchema, faqSchema]} />
   
   {/* Hero Section */}
-  <section class="relative py-8 md:py-16 flex items-center justify-center min-h-[400px] md:min-h-[500px] overflow-hidden">
+  <section class="relative pt-16 pb-4 md:pt-[142px] md:pb-[70px] flex items-center justify-center md:min-h-[600px] overflow-hidden">
     <div class="absolute inset-0 z-0">
         <div class="absolute inset-0 bg-black/85 mix-blend-multiply z-10"></div>
         <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&fm=webp&w=1200&q=60" alt="Popular Restaurant Menus and Prices in Malaysia for 2026" fetchpriority="high" loading="eager" decoding="sync" class="w-full h-full object-cover" />
@@ -125,21 +125,17 @@ const faqSchema = {
         </p>
       </div>
       
-      <ul class="flex flex-wrap justify-center gap-3 md:gap-6 list-none m-0 p-0">
+      <div class="flex flex-wrap justify-center gap-3 md:gap-6">
         {categories.map(cat => (
-          <li class="w-[calc(50%-0.75rem)] md:w-[calc(25%-1.5rem)] flex">
-            <a href={`/${cat.slug}/`} aria-label={`View ${cat.name} menu category`} class="w-full group relative bg-white border border-slate-100 p-6 rounded-3xl hover:border-yellow-400 transition-all duration-300 transform hover:-translate-y-1.5 shadow-sm hover:shadow-xl overflow-hidden flex flex-col justify-between">
-              <div>
-                <div class={cat.color + " w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-5 mx-auto group-hover:scale-110 transition-transform shadow-sm border border-transparent"}>
-                  {cat.icon}
-                </div>
-                <h3 class="font-black text-black group-hover:text-yellow-500 transition-colors text-center text-sm md:text-base leading-tight mb-2">{cat.name}</h3>
-              </div>
-              <p class="text-[8px] md:text-[10px] text-slate-500 font-bold uppercase tracking-wider text-center mt-auto pt-2">View Menu &rarr;</p>
-            </a>
-          </li>
+          <a href={`/${cat.slug}/`} aria-label={`View ${cat.name} menu category`} class="w-[calc(50%-0.75rem)] md:w-[calc(25%-1.5rem)] group relative bg-white border border-slate-100 p-6 rounded-3xl hover:border-yellow-400 transition-all duration-300 transform hover:-translate-y-1.5 shadow-sm hover:shadow-xl overflow-hidden">
+            <div class={cat.color + " w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-5 mx-auto group-hover:scale-110 transition-transform shadow-sm border border-transparent"}>
+              {cat.icon}
+            </div>
+            <h3 class="font-black text-black group-hover:text-yellow-500 transition-colors text-center text-sm md:text-base leading-tight mb-2">{cat.name}</h3>
+            <p class="text-[8px] md:text-[10px] text-slate-500 font-bold uppercase tracking-wider text-center">View Menu &rarr;</p>
+          </a>
         ))}
-      </ul>
+      </div>
     </div>
   </section>
 
