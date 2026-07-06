@@ -535,6 +535,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Carl's Jr. Malaysia",
       slug: "carls-jr",
+    searchVolume: 480,
       category: 'fast-food',
       image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Beef & Angus", colors: "bg-blue-600 text-white" }],
@@ -571,6 +572,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Richeese Factory",
       slug: "richeese-factory",
+    searchVolume: 3600,
       category: 'fast-food',
       image: "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Spicy", colors: "bg-red-600 text-white" }],
@@ -607,6 +609,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "SugarBun",
       slug: "sugarbun",
+    searchVolume: 3600,
       category: 'fast-food',
       image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Sarawakian", colors: "bg-amber-600 text-white" }],
@@ -643,6 +646,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Taco Bell",
       slug: "taco-bell",
+    searchVolume: 2900,
       category: 'fast-food',
       image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Tex-Mex", colors: "bg-purple-600 text-white" }],
@@ -888,6 +892,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Kenangan Coffee",
       slug: "kenangan-coffee",
+    searchVolume: 5400,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Gula Aren", colors: "bg-amber-600 text-white" }],
@@ -924,6 +929,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Gigi Coffee",
       slug: "gigi-coffee",
+    searchVolume: 4400,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Buttercream", colors: "bg-blue-500 text-white" }],
@@ -960,6 +966,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Hock Kee Kopitiam",
       slug: "hock-kee-kopitiam",
+    searchVolume: 1300,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Traditional", colors: "bg-red-600 text-white" }],
@@ -996,6 +1003,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "OldTown White Coffee",
       slug: "oldtown-white-coffee",
+    searchVolume: 4400,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Ipoh White Coffee", colors: "bg-yellow-600 text-white" }],
@@ -1032,6 +1040,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Kenny Hills Bakers",
       slug: "kenny-hills-bakers",
+    searchVolume: 4400,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Premium Bakery", colors: "bg-purple-600 text-white" }],
@@ -1068,6 +1077,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Dunkin' Malaysia",
       slug: "dunkin",
+    searchVolume: 210,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Donuts", colors: "bg-pink-500 text-white" }],
@@ -1104,6 +1114,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Krispy Kreme Malaysia",
       slug: "krispy-kreme",
+    searchVolume: 1600,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Status: JAKIM Certified", colors: "bg-green-500 text-white" }, { name: "Donuts", colors: "bg-pink-500 text-white" }],
@@ -1140,6 +1151,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Big Apple Donuts & Coffee",
       slug: "big-apple-donuts",
+    searchVolume: 70,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1612240498936-65f5101365d2?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Local Brand", colors: "bg-blue-500 text-white" }],
@@ -1176,6 +1188,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Grumpy Bagel",
       slug: "grumpy-bagel",
+    searchVolume: 4400,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1541271696563-3be2f555fc4e?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Artisanal", colors: "bg-indigo-500 text-white" }],
@@ -1212,6 +1225,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Luckin Coffee",
       slug: "luckin-coffee",
+    searchVolume: 3600,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Status: Muslim-Friendly", colors: "bg-green-500 text-white" }, { name: "Tech-Driven", colors: "bg-blue-500 text-white" }],
@@ -1248,6 +1262,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Bakery Cottage",
       slug: "bakery-cottage",
+    searchVolume: 2400,
       category: 'coffee-bakeries',
       image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Status: Muslim-Owned", colors: "bg-green-500 text-white" }],
@@ -1319,6 +1334,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "PappaRich",
       slug: "papparich",
+    searchVolume: 880,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1626804475297-41609ea0db49?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
@@ -1385,6 +1401,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Madam Kwan's",
       slug: "madam-kwans",
+    searchVolume: 6600,
       category: 'local-asian',
       image: "/images/madam-kwans.png",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -1484,6 +1501,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "The Chicken Rice Shop",
       slug: "the-chicken-rice-shop",
+    searchVolume: 1000,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1598515214211-89d3e73ae83b?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
@@ -1520,6 +1538,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "BananaBro",
       slug: "bananabro",
+    searchVolume: 3600,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
@@ -1556,6 +1575,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Cili Kampung",
       slug: "cili-kampung",
+    searchVolume: 3600,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Muslim-Owned", colors: "bg-green-600 text-white" }],
@@ -1592,6 +1612,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Murni Discovery",
       slug: "murni-discovery",
+    searchVolume: 3600,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
@@ -1628,6 +1649,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Serai",
       slug: "serai",
+    searchVolume: 5400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -1664,6 +1686,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Mohd Chan",
       slug: "mohd-chan",
+    searchVolume: 3600,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
@@ -1700,6 +1723,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Dolly Dim Sum",
       slug: "dolly-dim-sum",
+    searchVolume: 4400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
@@ -1736,6 +1760,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Bungkus Kaw Kaw",
       slug: "bungkus-kaw-kaw",
+    searchVolume: 4400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1579888944880-d983411bf957?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
@@ -1772,6 +1797,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Village Park Restaurant",
       slug: "village-park",
+    searchVolume: 4400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -1808,6 +1834,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Absolute Thai",
       slug: "absolute-thai",
+    searchVolume: 2900,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
@@ -1844,6 +1871,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Para Thai",
       slug: "para-thai",
+    searchVolume: 2400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -1880,6 +1908,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Suki-Ya",
       slug: "suki-ya",
+    searchVolume: 4400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1547496502-affa230ba425?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -1916,6 +1945,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Souper Tang",
       slug: "souper-tang",
+    searchVolume: 880,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Non-Halal", colors: "bg-red-500 text-white" }],
@@ -1952,6 +1982,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Bumbu Babah",
       slug: "bumbu-babah",
+    searchVolume: 4400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -1988,6 +2019,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Ayam Gepuk Pak Gembus",
       slug: "ayam-gepuk-pak-gembus",
+    searchVolume: 6600,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
@@ -2024,6 +2056,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Empat Sekawan",
       slug: "empat-sekawan",
+    searchVolume: 1600,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -2060,6 +2093,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Black Canyon",
       slug: "black-canyon",
+    searchVolume: 4400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
@@ -2096,6 +2130,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Ole-Ole Bali",
       slug: "ole-ole-bali",
+    searchVolume: 4400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1537216696835-41915a1af316?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -2132,6 +2167,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Jibby & Co",
       slug: "jibby-co",
+    searchVolume: 2400,
       category: 'local-asian',
       image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
@@ -2533,6 +2569,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Heytea Malaysia",
       slug: "heytea",
+    searchVolume: 3600,
       category: 'teas-desserts',
       image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Cheese Tea", colors: "bg-yellow-500 text-white" }],
@@ -2569,6 +2606,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Beau Tea",
       slug: "beau-tea",
+    searchVolume: 3600,
       category: 'teas-desserts',
       image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Status: Muslim-Friendly", colors: "bg-green-500 text-white" }],
@@ -2605,6 +2643,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Gong Cha",
       slug: "gong-cha",
+    searchVolume: 2400,
       category: 'teas-desserts',
       image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
@@ -2641,6 +2680,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "ChaTraMue",
       slug: "chatramue",
+    searchVolume: 2400,
       category: 'teas-desserts',
       image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Status: Muslim-Friendly", colors: "bg-green-500 text-white" }, { name: "Thai Tea", colors: "bg-orange-500 text-white" }],
@@ -3099,6 +3139,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Sushi Mentai",
       slug: "sushi-mentai",
+    searchVolume: 5400,
       category: 'japanese-korean',
       image: "https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -3135,6 +3176,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Ichiban Ramen",
       slug: "ichiban-ramen",
+    searchVolume: 2400,
       category: 'japanese-korean',
       image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -3323,6 +3365,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Domino's Pizza Malaysia",
       slug: "dominos-pizza",
+    searchVolume: 5400,
       category: 'pizza-italian',
       image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Delivery King", colors: "bg-blue-600 text-white" }],
@@ -3359,6 +3402,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "US Pizza Malaysia",
       slug: "us-pizza",
+    searchVolume: 3600,
       category: 'pizza-italian',
       image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Cheese Pull", colors: "bg-yellow-500 text-dark" }],
@@ -3395,6 +3439,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Mokky's Pizza",
       slug: "mokkys-pizza",
+    searchVolume: 210,
       category: 'pizza-italian',
       image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Muslim-Owned", colors: "bg-emerald-600 text-white" }, { name: "Artisanal", colors: "bg-amber-600 text-white" }],
@@ -3547,6 +3592,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Tony Roma's",
       slug: "tony-romas",
+    searchVolume: 2400,
       category: 'western-grilled',
       image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
@@ -3583,6 +3629,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Beard Brothers BBQ",
       slug: "beard-brothers-bbq",
+    searchVolume: 2400,
       category: 'western-grilled',
       image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
@@ -3619,6 +3666,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Beard Brothers",
       slug: "beard-brothers",
+    searchVolume: 210,
       category: 'western-grilled',
       image: "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
@@ -3777,6 +3825,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Emart24",
       slug: "emart24",
+    searchVolume: 1000,
       category: 'convenience-stores',
       image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
@@ -4015,6 +4064,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Kenny Rogers Roasters",
       slug: "kenny-rogers-roasters",
+    searchVolume: 1000,
       category: 'sandwiches-health',
       image: "https://images.unsplash.com/photo-1626082929543-eed647a6a43e?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
@@ -4254,6 +4304,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Thirty8",
       slug: "thirty8",
+    searchVolume: 480,
       category: 'buffet-dining',
       image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
@@ -4326,6 +4377,7 @@ export const brandMocks: Record<string, any[]> = {
     {
       name: "Taproom",
       slug: "taproom",
+    searchVolume: 70,
       category: 'buffet-dining',
       image: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free Meats", colors: "bg-orange-500 text-white" }],
