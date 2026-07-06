@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Schema from '../components/Schema.astro';
+import AdBanner from '../components/AdBanner.astro';
 import { blogPosts } from '../data/blogs';
 
 const categories = [
@@ -115,6 +116,8 @@ const faqSchema = {
     </div>
   </section>
 
+  <AdBanner />
+
   {/* Categories Section */}
   <section class="py-[35px] md:py-[70px] bg-slate-50">
     <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -138,6 +141,8 @@ const faqSchema = {
       </div>
     </div>
   </section>
+
+  <AdBanner />
 
   {/* Trending Now */}
   <section id="trending" class="py-[35px] md:py-[70px] bg-white">
@@ -175,6 +180,8 @@ const faqSchema = {
     </div>
   </section>
 
+  <AdBanner />
+
   {/* Why Choose Us */}
   <section class="py-[35px] md:py-[70px] bg-black text-white">
     <div class="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -210,6 +217,8 @@ const faqSchema = {
       </div>
     </div>
   </section>
+
+  <AdBanner />
 
   {/* Blogs Section */}
   <section class="py-[35px] md:py-[70px] bg-slate-50">
@@ -259,6 +268,8 @@ const faqSchema = {
      </div>
   </section>
 
+  <AdBanner />
+
   {/* FAQs */}
   <section class="py-[35px] md:py-[70px] bg-slate-50 border-t border-slate-100">
      <div class="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -296,4 +307,6 @@ const faqSchema = {
         </div>
      </div>
   </section>
+
+  <AdBanner />
 </Layout>
