@@ -109,7 +109,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "McDonald's",
       slug: "mcdonalds",
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/512px-McDonald%27s_Golden_Arches.svg.png",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Burgers, Fries & Fried Chicken",
       seoArticle: `\n<h2>McDonald's: A Malaysian Morning Tradition</h2>
@@ -223,7 +223,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "KFC",
       slug: "kfc",
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/KFC_logo.svg/512px-KFC_logo.svg.png",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Finger Lickin' Good Fried Chicken",
       seoArticle: `\n<h2>KFC: The Undisputed King of Fried Chicken</h2>
@@ -683,7 +683,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Starbucks",
       slug: "starbucks",
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/512px-Starbucks_Corporation_Logo_2011.svg.png",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Premium Coffee & Beverages",
       seoArticle: `\n<h2>Starbucks: The Ultimate 'Third Place'</h2>
@@ -790,7 +790,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "ZUS Coffee",
       slug: "zus-coffee",
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://zuscoffee.com/wp-content/uploads/2023/07/ZUS-Logo-1.png",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "A Necessity, Not a Luxury",
       seoArticle: `\n<h2>ZUS Coffee: Premium Brews for Everyone</h2>
