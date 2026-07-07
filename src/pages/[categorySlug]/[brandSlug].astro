@@ -479,7 +479,7 @@ const faqSchema = {
                     <div class="grid grid-cols-2 lg:grid-cols-3 gap-2.5 md:gap-6">
                       {items.map((item: any) => (
                         <div
-                          class="menu-item group bg-white rounded-[12px] md:rounded-[14px] p-2.5 md:p-4 shadow-[0_4px_20px_rgba(0,0,0,0.06)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.12)] ring-2 ring-transparent hover:ring-yellow-400 transition-all duration-300 flex flex-col h-[120px] sm:h-[130px] md:h-[150px] cursor-pointer"
+                          class="menu-item group bg-white rounded-[12px] md:rounded-[14px] p-2.5 md:p-4 shadow-[0_4px_20px_rgba(0,0,0,0.06)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.12)] ring-2 ring-transparent hover:ring-yellow-400 transition-all duration-300 flex flex-col h-full min-h-[140px] md:min-h-[160px] cursor-pointer overflow-hidden"
                           data-category={item.category}
                           data-menu-type={item.menuType || ""}
                         >
