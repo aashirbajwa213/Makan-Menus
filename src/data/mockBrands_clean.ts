@@ -379,6 +379,23 @@ export const brandMocks: Record<string, any[]> = {
       menu: allAceMenu
     },
     {
+      name: "McDonald's",
+      slug: "mcdonalds",
+      category: 'fast-food',
+      image: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Burgers & Fries", colors: "bg-red-600 text-white" }],
+      desc: "The world's leading fast-food chain offering iconic burgers, crispy fries, and local favorites like Ayam Goreng McD.",
+      seoArticle: `\n<h2>McDonald's Malaysia</h2>\n<p>McDonald's is a ubiquitous household name in Malaysia, holding a massive market share in the fast-food industry. Known affectionately as "McD," the chain offers a brilliant mix of its global classics—like the Big Mac, Filet-O-Fish, and world-famous French Fries—alongside highly successful localized menu items tailored to Malaysian tastes. Standouts include the spicy and crunchy Ayam Goreng McD, Nasi Lemak McD, and seasonal favorites like the Prosperity Burger. With extensive drive-thrus, 24-hour operations, and McDelivery services, McDonald's provides unparalleled convenience and value.</p>\n`,
+      faqs: [
+        { q: "What is the most popular item at McDonald's Malaysia?", a: "While global classics like the Big Mac and McNuggets are popular, the localized 'Ayam Goreng McD' (Spicy Fried Chicken) is a massive favorite among Malaysians for its exceptional crunch and heat." },
+        { q: "Is McDonald's Malaysia halal?", a: "Yes, McDonald's Malaysia was the first quick-service restaurant in the country to receive the Halal certification from JAKIM, ensuring all products and processes are strictly halal." },
+        { q: "What is included in a McDonald's McValue Meal?", a: "A standard McValue Meal includes your chosen main item (like a burger or fried chicken), a side of French Fries (or corn), and a soft drink. Sizes can be upgraded for a small fee." },
+        { q: "What time does McDonald's start serving lunch in Malaysia?", a: "McDonald's transitions from their breakfast menu to their regular lunch/dinner menu at 11:00 AM daily (or 10:00 AM in some specific locations)." },
+        { q: "Does McDonald's Malaysia have delivery?", a: "Yes, McDonald's operates its own extensive McDelivery service and is also widely available on third-party delivery platforms like Foodpanda and GrabFood." }
+      ],
+      menu: mcdonaldsMenu
+    },
+    {
       name: "O'Briens Irish Sandwich Cafe",
       slug: "obriens",
       category: 'fast-food',
@@ -530,6 +547,120 @@ export const brandMocks: Record<string, any[]> = {
         { q: "What is the most popular combo meal at Wallace?", a: "Their Signature Burger Combos and Crispy Fried Chicken sets are among the bestsellers, typically served with sides like cheesy wedges, fries, or chicken popcorn, along with a beverage." }
       ],
       menu: wallaceMenu
+    },
+    {
+      name: "McDonald's",
+      slug: "mcdonalds",
+      category: 'fast-food',
+      image: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Burgers, Fries & Fried Chicken",
+      seoArticle: `\n<h2>McDonald's: A Malaysian Morning Tradition</h2>
+<p>There is a reason why almost every neighborhood in Malaysia has a McDonald's. Whether it's picking up a quick Sausage McMuffin before hitting the morning traffic, or grabbing a Nasi Lemak McD when you're craving something local, their consistency is unmatched. Our guide provides the most accurate pricing to help you decide between a classic Big Mac or the spicy Ayam Goreng McD for your next drive-thru run.</p>\n`,
+      nutritionHtml: `
+            <p class="text-lg">
+              McDonald's offers clear nutritional data for those mindful of their diet. The iconic Big Mac is approximately 508 kcal, while a standard McChicken sits around 400 kcal.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Calorie Conscious:</strong> Swap fries for a corn cup to save around 200 calories on your McValue meal.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> McDonald's Malaysia is fully JAKIM Halal certified.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"For a lighter meal, grab a Grilled Chicken Burger (GCB) instead of fried options and choose water or Coke Zero instead of regular soda."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-red-600">McDelivery</div>
+                <p class="text-slate-500 text-sm font-medium">Use the official McDonald's app to earn My McD rewards on every order.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">Fastest delivery times for late-night cravings across Malaysia.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+                <p class="text-slate-500 text-sm font-medium">Check for seasonal discounts and free delivery promos.</p>
+              </div>
+            </div>
+      `,
+      faqs: [
+        { q: "Is the McDonald's Malaysia menu Halal?", a: "Yes, 100% of McDonald's restaurants in Malaysia are Halal certified by JAKIM." },
+        { q: "What time does McDonald's breakfast end?", a: "Breakfast is usually served until 10:00 AM on weekdays and 11:00 AM on weekends." },
+        { q: "Can I get a Big Mac without pickles?", a: "Yes, you can customize your burger via the self-ordering kiosks or delivery apps." },
+        { q: "Does McDonald's Malaysia serve pork?", a: "No, McDonald's Malaysia does not serve any pork or alcohol." }
+      ],
+      menu: [
+        // All Time Favourites
+        { name: "Big Mac", price: "RM 12.50", category: "All Time Favourites", description: "The iconic burger with two all-beef patties, special sauce, lettuce, cheese, pickles, and onions." },
+        { name: "Beefburger", price: "RM 5.95", category: "All Time Favourites", description: "100% pure beef patty with pickles, onions, mustard, and ketchup." },
+        { name: "Cheeseburger", price: "RM 7.50", category: "All Time Favourites", description: "The classic cheeseburger with a 100% pure beef patty." },
+        { name: "Double Cheeseburger", price: "RM 10.95", category: "All Time Favourites", description: "Double the beef and double the cheese for double the satisfaction." },
+        { name: "Filet-O-Fish", price: "RM 10.50", category: "All Time Favourites", description: "Sustainable wild-caught fish with tartare sauce and cheese." },
+        { name: "GCB - Grilled Chicken Burger", price: "RM 13.95", category: "All Time Favourites", description: "Grilled chicken thigh topped with charcoal bun and chargrilled sauce." },
+        { name: "McChicken", price: "RM 9.50", category: "All Time Favourites", description: "Crispy chicken patty with lettuce and mayonnaise." },
+        { name: "Spicy Chicken McDeluxe", price: "RM 14.50", category: "All Time Favourites", description: "Spicy whole-muscle chicken thigh with lettuce and special sauce." },
+        { name: "Chicken McNuggets (6pcs)", price: "RM 10.50", category: "All Time Favourites", description: "6 pieces of tender, juicy Chicken McNuggets." },
+        { name: "Ayam Goreng McD (2pcs)", price: "RM 13.95", category: "All Time Favourites", description: "Two pieces of our signature spicy and crispy fried chicken." },
+        { name: "Bubur Ayam McD (M)", price: "RM 7.50", category: "All Time Favourites", description: "Hearty chicken porridge topped with spring onions and ginger." },
+        { name: "Nasi Lemak McD", price: "RM 7.50", category: "All Time Favourites", description: "Authentic Malaysian favorite served with coconut rice and sambal." },
+
+        // Breakfast
+        { name: "Sausage McMuffin", price: "RM 7.64", category: "Breakfast", description: "Sausage patty and cheese on a toasted English muffin." },
+        { name: "Sausage McMuffin with Egg", price: "RM 8.58", category: "Breakfast", description: "Sausage patty, egg, and cheese at the start of your day." },
+        { name: "Hotcakes (2pcs)", price: "RM 11.46", category: "Breakfast", description: "Golden brown pancakes served with butter and maple syrup." },
+        { name: "Big Breakfast", price: "RM 12.83", category: "Breakfast", description: "A complete breakfast set with sausage, egg, hash brown, and muffin." },
+        { name: "Crispy Chicken Muffin", price: "RM 8.87", category: "Breakfast", description: "Crispy chicken patty on a toasted English muffin." },
+        { name: "Crispy Chicken Muffin with Egg", price: "RM 9.81", category: "Breakfast", description: "Crispy chicken patty and egg breakfast classic." },
+        { name: "Hash Browns", price: "RM 4.95", category: "Breakfast", description: "Golden, crispy potato patties." },
+
+        // Happy Meals
+        { name: "Happy Meal: Chicken Burger", price: "RM 11.95", category: "Happy Meals", description: "Includes a chicken burger, side, drink, and a toy!" },
+        { name: "Happy Meal: Chicken McNuggets (4pcs)", price: "RM 11.95", category: "Happy Meals", description: "4 pieces of McNuggets with a toy and meal set." },
+        { name: "Happy Meal: Cheeseburger", price: "RM 11.95", category: "Happy Meals", description: "Classic cheeseburger Happy Meal for the kids." },
+        { name: "Happy Meal: Ayam Goreng McD (1pc)", price: "RM 12.50", category: "Happy Meals", description: "One piece of crispy fried chicken for smaller appetites." },
+        { name: "Happy Meal: Sausage McMuffin", price: "RM 12.05", category: "Happy Meals", description: "Breakfast Happy Meal with Sausage McMuffin." },
+        { name: "Happy Meal: 2pc Hotcakes", price: "RM 12.10", category: "Happy Meals", description: "A sweet breakfast treat for kids." },
+
+        // Deserts & Sides
+        { name: "French Fries (M)", price: "RM 5.50", category: "Deserts & Sides", description: "The world's favorite crispy golden potato fries." },
+        { name: "Corn Cup (M)", price: "RM 5.20", category: "Deserts & Sides", description: "Warm, sweet steamed corn kernels." },
+        { name: "Apple Pie", price: "RM 4.50", category: "Deserts & Sides", description: "Warm, crispy pastry filled with spiced apple chunks." },
+        { name: "Sundae (Chocolate / Strawberry)", price: "RM 5.95", category: "Deserts & Sides", description: "Creamy vanilla soft serve with your choice of topping." },
+        { name: "Oreo McFlurry", price: "RM 8.50", category: "Deserts & Sides", description: "Vanilla soft serve mixed with crunchy Oreo bits." },
+        { name: "Sundae Cone", price: "RM 1.90", category: "Deserts & Sides", description: "Classic vanilla soft serve on a crisp cone." },
+        { name: "ChocoTop", price: "RM 2.90", category: "Deserts & Sides", description: "Vanilla cone dipped in rich chocolate coating." },
+
+        // Drinks
+        { name: "Minute Maid Orange Juice", price: "RM 7.83", category: "Drinks", description: "Refreshing 100% orange juice." },
+        { name: "Hot Milo", price: "RM 5.66", category: "Drinks", description: "Malaysian favorite hot chocolate malt drink." },
+        { name: "Iced Milo (M)", price: "RM 8.02", category: "Drinks", description: "Chilled chocolate malt goodness." },
+        { name: "Drinking Water", price: "RM 4.72", category: "Drinks", description: "Bottled mineral water." },
+        { name: "100Plus (M)", price: "RM 5.47", category: "Drinks", description: "Isotonic drink for active hydration." },
+        { name: "Carbonated Soft Drink (Coca-Cola / Sprite) (M)", price: "RM 5.47", category: "Drinks", description: "Your choice of chilled carbonated beverage." },
+        { name: "Iced Lemon Tea (M)", price: "RM 6.89", category: "Drinks", description: "Cool and zesty iced tea." },
+
+        // McCafé
+        { name: "Americano Espresso", price: "RM 6.50", category: "McCafé", description: "Rich, bold espresso-based Americano." },
+        { name: "Small Espresso", price: "RM 5.50", category: "McCafé", description: "Single shot of premium McCafé espresso." },
+        { name: "Americano", price: "RM 6.51", category: "McCafé", description: "Classical hot black coffee." },
+        { name: "Hot Chocolate", price: "RM 10.85", category: "McCafé", description: "Rich and creamy hot cocoa." },
+        { name: "Mocha", price: "RM 10.50", category: "McCafé", description: "Perfect blend of espresso and chocolate." },
+        { name: "Cappuccino", price: "RM 7.45", category: "McCafé", description: "Frothy coffee made with high-quality beans." },
+        { name: "Latte", price: "RM 7.45", category: "McCafé", description: "Smooth espresso with steamed milk." },
+        { name: "Iced Latte", price: "RM 8.40", category: "McCafé", description: "Chilled smooth espresso and milk." },
+        { name: "Iced Americano", price: "RM 7.45", category: "McCafé", description: "Cooling black coffee fix." },
+        { name: "Iced Chocolate", price: "RM 10.85", category: "McCafé", description: "Ice-cold premium chocolate drink." },
+        { name: "Ice Blended Mocha", price: "RM 13.68", category: "McCafé", description: "Refreshing blended coffee and chocolate treat." },
+        { name: "Belgium Chocolate Cake - Sliced", price: "RM 13.11", category: "McCafé", description: "Decadent and rich chocolate layer cake." },
+        { name: "Classic Cheesecake - Sliced", price: "RM 13.11", category: "McCafé", description: "Creamy baked cheesecake on a crust." },
+        { name: "Red Velvet Cake - Sliced", price: "RM 13.11", category: "McCafé", description: "Distinctive velvet cake with cream cheese frosting." }
+      ]
     },
     {
       name: "KFC",
@@ -1727,6 +1858,40 @@ export const brandMocks: Record<string, any[]> = {
       menu: chefKecikMenu
     },
     {
+      name: "Sogno Coffee",
+      slug: "sogno-coffee",
+      category: 'coffee-bakeries',
+      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Aesthetic Cafe", colors: "bg-blue-500 text-white" }],
+      desc: "Aesthetic cafe concept with an inviting atmosphere.",
+      seoArticle: `\n<h2>Sogno Coffee</h2>\n<p>Sogno Coffee is a popular cafe chain in Malaysia known for its aesthetic cafe concept and inviting atmosphere. The menu features an extensive selection of creative pastries like the signature 'Crofa', mille crepes, and danishes. They also serve a wide variety of espresso-based and signature beverages, perfect for coffee and dessert lovers alike.</p>\n`,
+      faqs: [
+        { q: "What is the signature item on the Sogno Coffee Malaysia menu?", a: "One of the standout signature items is the 'Crofa,' a unique croissant-waffle hybrid topped with delicious additions like chocolate and strawberry." },
+        { q: "Does Sogno Coffee serve hot and iced coffee?", a: "Yes, they offer a wide variety of both hot and iced espresso-based beverages, including classic, caramel, and roasted hazelnut lattes." },
+        { q: "Are there options for non-coffee drinkers at Sogno Coffee?", a: "Absolutely. The menu features various frappes, rich chocolate drinks, and signature non-coffee beverages like the Sea Salt Choco Melaka." },
+        { q: "Can I order Sogno Coffee for delivery in Malaysia?", a: "Yes, Sogno Coffee is available for delivery via major food delivery platforms like Foodpanda across multiple locations in Malaysia." },
+        { q: "What kind of pastries can I find at Sogno Coffee?", a: "You can enjoy a vast selection of creative pastries including colorful mille crepes, diverse flavored croissants, danishes, and sweet cookies." }
+      ],
+      menu: sognoCoffeeMenu
+    },
+    {
+      name: "Red Brick Kitchen",
+      slug: "red-brick-kitchen",
+      category: 'coffee-bakeries',
+      image: "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Muslim-Friendly", colors: "bg-green-500 text-white" }],
+      desc: "Scenic glasshouse café located in Ipoh.",
+      seoArticle: `\n<h2>Red Brick Kitchen</h2>\n<p>Red Brick Kitchen is a scenic glasshouse café located in Ipoh, Malaysia, set against the stunning backdrop of the Gunung Rapat limestone hills. Known for being Muslim-friendly, the restaurant offers a unique fusion of Western and Asian-inspired cuisine ranging from hearty brunch plates to handcrafted desserts. Given its popularity and beautiful ambiance, making a reservation in advance is highly recommended.</p>\n`,
+      faqs: [
+        { q: "What is the price range at Red Brick Kitchen Malaysia?", a: "Red Brick Kitchen offers reasonable cafe-style pricing, with signature main dishes like Creamy Mushroom with Truffle at RM 29.00 and Creamy Lemon with Salmon Risotto at RM 32.00." },
+        { q: "Are there Halal or Muslim-friendly options available on the Red Brick Kitchen menu?", a: "Yes, Red Brick Kitchen is widely known as a Muslim-friendly cafe, making it an excellent dining choice for visitors seeking Halal-friendly Western and fusion options in Ipoh." },
+        { q: "What are the most popular items on the Red Brick Kitchen Malaysia menu?", a: "Popular highlights include the Smashed Avocado Toast, Seafood Tomyam Risotto, Alaska Pollock Fish and Chips, and delicious desserts like Burnt Cheesecake." },
+        { q: "Do I need to make a reservation before visiting Red Brick Kitchen in Ipoh?", a: "Yes, due to its popularity and picturesque glasshouse setting, it is highly recommended to book a table in advance, especially during weekends and holidays." },
+        { q: "Where is Red Brick Kitchen located in Malaysia?", a: "Red Brick Kitchen is located at 1A, Laluan Panorama 4/4, Taman Panorama Rapat Indah, 31350 Ipoh, Perak, Malaysia, situated at the foothills of the beautiful Gunung Rapat limestone hills." }
+      ],
+      menu: redBrickKitchenMenu
+    },
+    {
       name: "Daily Coffee",
       slug: "daily-coffee",
       category: 'coffee-bakeries',
@@ -1742,6 +1907,23 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Are there any vegetarian-friendly options on the Daily Coffee menu?", a: "Yes, Daily Coffee offers several meat-free choices, including their classic Butter Kaya Toast, Omega 3 Half-Boiled Eggs, select salads, and a variety of fresh pastries." }
       ],
       menu: dailyCoffeeMenu
+    },
+    {
+      name: "Ekues Cabin Cafe",
+      slug: "ekues-cabin-cafe",
+      category: 'coffee-bakeries',
+      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Unique open-air cafe at Putrajaya Equestrian Park.",
+      seoArticle: `\n<h2>Ekues Cabin Cafe</h2>\n<p>Ekues Cabin Cafe is a unique, open-air cafe located at the Putrajaya Equestrian Park in Malaysia, known for its relaxing atmosphere and scenic views of horse riding activities. The cafe features a distinctive "ride-thru" concept where horse riders can order without dismounting, making it a perfect spot for nature lovers and families. It offers a cozy cabin setting with a variety of coffee, beverages, and light bites to enjoy.</p>\n`,
+      faqs: [
+        { q: "What are the must-try items on the Ekues Cabin Cafe menu?", a: "Visitors highly recommend trying the Nasi Lemak Bungkus for a classic Malaysian meal, or the Shortbread Cookies Latte and Smoked BBQ Wings for a satisfying snack while enjoying the equestrian views." },
+        { q: "Does the Ekues Cabin Cafe menu have affordable options?", a: "Yes, the menu offers highly affordable options such as the traditional Nasi Lemak Bungkus starting at RM 4.00 and various pastries like Butter Croissants from RM 4.00, making it an excellent budget-friendly cafe." },
+        { q: "What types of coffee can I find at Ekues Cabin Cafe in Putrajaya?", a: "The cafe offers a robust selection of coffees ranging from classic Americanos and Lattes to flavored options like Hazelnut, Caramel, and their unique Shortbread Cookies Latte." },
+        { q: "Are there heavy meals available on the Ekues Cabin Cafe menu?", a: "Ekues Cabin Cafe primarily focuses on light bites, pastries, and snacks such as Chicken Puffs, Donuts, and Nasi Lemak Bungkus, rather than heavy main courses." },
+        { q: "Are the prices at Ekues Cabin Cafe inclusive of any entrance fees to the Putrajaya Equestrian Park?", a: "No, the cafe menu prices only cover your food and beverages. However, enjoying the cafe does not require a park entrance fee, though nearby horse riding activities do incur a separate charge." }
+      ],
+      menu: ekuesCabinCafeMenu
     },
     {
       name: "HWC Coffee",
@@ -3553,6 +3735,43 @@ export const brandMocks: Record<string, any[]> = {
       menu: absoluteThaiMenu
     },
     {
+      name: "Para Thai",
+      slug: "para-thai",
+    searchVolume: 2400,
+      category: 'local-asian',
+      image: "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
+      desc: "Authentic and Vibrant Thai Cuisine",
+      seoArticle: `\n<h2>Para Thai: A Grand Culinary Voyage to Siam</h2>
+<p>Para Thai is celebrated across Malaysia for its stylish and contemporary setting, paired with incredibly authentic, high-quality Thai recipes. Prepared under the supervision of expert Thai chefs, the menu captures the complete flavor spectrum—spicy, sweet, sour, and salty—using direct imports of key ingredients from Thailand.</p>
+<h3>Steaming Seafood Claypots and Classic Wok Curries</h3>
+<p>Diners flock to Para Thai for their signature Tom Yum Goong (spicy prawn soup), steamed sea bass with lime and garlic, and classic green curries. Each dish is cooked to order, assuring maximum freshness and dynamic flavor. Browse our extensive pricing list for the latest menu updates in 2026.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Para Thai features clean, aromatic herbs like lemongrass, galangal, and kaffir lime leaves, which boast outstanding antioxidant properties.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Pork-Free:</strong> The kitchen does not use pork or lard, sourcing all meats and ingredients from Halal suppliers.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Low-Fat Options:</strong> Clear soups and steamed seafood dishes are superb choices for high-protein, low-calorie dining.</span></li>
+</ul>`,
+      healthyTip: `"Request for steamed jasmine rice instead of fried rice, and focus on the steamed sea bass or clear tom yum soup for a low-calorie, nutrient-rich meal."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Fast delivery options ensuring hot tom yum and fresh steamed fish arrive perfectly sealed.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Perfect for ordering premium office lunch boxes and refreshing Thai iced teas.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Para Thai Halal?", a: "Para Thai is pork-free and alcohol-free, sourcing all poultry and meats from Halal-certified suppliers." },
+        { q: "What are the must-order dishes?", a: "The Tom Yum Soup, Pandan Chicken, and Steamed Sea Bass with Chili & Lime are highly recommended." },
+        { q: "Are reservations recommended?", a: "Yes, particularly during weekend dinner hours, reservations are advised due to high mall traffic." }
+      ],
+      menu: paraThaiMenu
+    },
+    {
       name: "Suki-Ya",
       slug: "suki-ya",
     searchVolume: 4400,
@@ -3995,6 +4214,48 @@ export const brandMocks: Record<string, any[]> = {
       ],
       
       menu: chageeMenu
+    },
+    {
+      name: "Ai-Cha",
+      slug: "ai-cha",
+      category: 'teas-desserts',
+      image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Ice Cream & Specialty Tea",
+      seoArticle: `\n<h2>Ai-Cha: Sweet Treats That Don't Break the Bank</h2>
+<p>Taking the dessert scene by storm, Ai-Cha offers incredibly affordable ice cream and refreshing teas. Their signature Ai-Scream cones and fruit smoothies are perfect for beating the Malaysian heat. Check our guide to see how far a RM10 note can go at this popular dessert spot.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Ai-Cha offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Opt for their fresh fruit teas or reduce the sweetness percentage to enjoy a lighter, healthier treat.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask the crew about sugar levels and check for milk allergens in their soft-serve ice cream mixes.</strong></span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Ai-Cha."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Ai-Cha directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Ai-Cha meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Ai-Cha offer delivery?",
+                "a": "Yes, Ai-Cha is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Ai-Cha?",
+                "a": "Yes, Ai-Cha provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
+      menu: aiChaMenu
     },
     {
       name: "Mixue",
@@ -4611,6 +4872,23 @@ export const brandMocks: Record<string, any[]> = {
       menu: nobuMenu
     },
     {
+      name: "Kyomo",
+      slug: "kyomo",
+      category: 'japanese-korean',
+      image: "https://images.unsplash.com/photo-1544903256-4dc810ebec7b?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Premium Yakiniku", colors: "bg-red-500 text-white" }],
+      desc: "Premium Japanese yakiniku restaurant with imported Wagyu.",
+      seoArticle: `\n<h2>Kyomo</h2>\n<p>Kyomo (formerly known as Shin Nihon) is a premium Japanese yakiniku restaurant located in Desa Sri Hartamas, Kuala Lumpur. Specializing in high-quality Wagyu beef imported directly from Japan, it offers a sophisticated charcoal-grilled barbecue experience. The restaurant is renowned for its extensive menu of specialized beef cuts and offers numerous private rooms for an intimate dining atmosphere.</p>\n`,
+      faqs: [
+        { q: "What is the specialty of the Kyomo Malaysia Menu?", a: "The Kyomo Malaysia menu specializes in premium Japanese Yakiniku, featuring high-quality, charcoal-grilled Wagyu beef cuts imported directly from Japan." },
+        { q: "What are the most popular items on the Kyomo Malaysia Menu?", a: "Signature popular items include the massive 1,000g Wagyu Boat Sampler, the Kyomo Tongue, and their premium Wagyu Omakase platters." },
+        { q: "How much does a meal cost from the Kyomo Malaysia Menu?", a: "Dining at Kyomo is a premium experience. Individual Wagyu steaks start around RM 125, while sharing platters range from RM 564 to RM 950. The average spend is about RM 150 to RM 400+ per person." },
+        { q: "Does the Kyomo Malaysia Menu offer non-beef options?", a: "Yes, alongside their famous Wagyu, the menu includes appetizers like Wagyu Tongue Cream Croquettes, Kale Salad, seafood options, and rice dishes like Hot Stone Garlic Rice." },
+        { q: "Is the meat on the Kyomo Malaysia Menu Halal?", a: "While Kyomo sources premium meats, it is a Japanese-owned restaurant that also serves alcohol. Diners seeking Halal-certified meals should contact the restaurant directly to verify their current sourcing and preparation status." }
+      ],
+      menu: kyomoMenu
+    },
+    {
       name: "Kyochon",
       slug: "kyochon",
       category: 'japanese-korean',
@@ -4626,6 +4904,23 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Does KyoChon Malaysia have meals for one person?", a: "Absolutely! KyoChon offers various individual meals, including personal Combos that come with chicken, rice, soup, and a drink. They also serve personal portions like the Boneless Chicken Bibimbap and Cup-bap." }
       ],
       menu: kyochonMenu
+    },
+    {
+      name: "Sushi Ya",
+      slug: "sushi-ya",
+      category: 'japanese-korean',
+      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Japanese", colors: "bg-red-500 text-white" }],
+      desc: "Affordable contemporary Japanese restaurant chain.",
+      seoArticle: `\n<h2>Sushi Ya</h2>\n<p>Sushi Ya is a popular and affordable contemporary Japanese restaurant chain in Malaysia, frequently utilizing a kaiten (conveyor belt) system. Known for its extensive and budget-friendly menu, the restaurant offers everything from individual sushi plates and hearty bento sets to large party platters, catering to casual diners and families alike.</p>\n`,
+      faqs: [
+        { q: "What are the most popular items on the Sushi Ya Malaysia menu?", a: "Popular items include their diverse selection of affordable sushi rolls, hearty Bento Value Sets like the Teriyaki Chicken Bento, and value-for-money Party Sets that are perfect for group sharing." },
+        { q: "Is Sushi Ya considered an affordable Japanese restaurant in Malaysia?", a: "Yes, Sushi Ya is well-known for its budget-friendly pricing, allowing diners to enjoy high-quality Japanese dishes—from sashimi to donburi—without breaking the bank." },
+        { q: "Does Sushi Ya offer food delivery in Malaysia?", a: "Yes, Sushi Ya is available on major delivery platforms like Foodpanda, making it easy to order your favorite sushi platters, noodles, and bento sets straight to your door." },
+        { q: "Does the Sushi Ya menu cater to large groups?", a: "Absolutely! Sushi Ya offers an excellent selection of Party Sets, such as the Tohoku Party Set and the Salmon Daisuki Party Set, specifically designed with assorted sushi for gatherings and family meals." },
+        { q: "What kind of dishes can I expect to find at Sushi Ya?", a: "The menu features a wide range of Japanese cuisine categories, including Sushi, Sashimi, Bento Value Sets, Donburi (rice bowls), Agemono (deep-fried dishes), and Yakimono (grilled dishes)." }
+      ],
+      menu: sushiYaMenu
     },
     {
       name: "Donkai",
@@ -5137,6 +5432,42 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Do they offer rice options?", a: "Yes, they have a massive range of Donburi (rice bowls), Japanese Curry Rice, Fried Rice, and comprehensive Bento sets." }
       ],
       menu: ichibanRamenMenu
+    },
+    {
+      name: "Kyochon 1991",
+      slug: "kyochon",
+      category: 'japanese-korean',
+      image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
+      desc: "South Korea's Finest Premium Double-Fried Chicken",
+      seoArticle: `\n<h2>Kyochon 1991: Authentic Korean Double-Fried Perfection</h2>
+<p>Kyochon 1991 is globally renowned as the ultimate pioneer of high-quality, authentic Korean fried chicken. In Malaysia, Kyochon stands out by committing to fresh, never-frozen chicken and using 100% natural canola oil. Their legendary double-frying technique locks in the natural juices while creating an exceptionally thin, crunchy skin that remains crispy long after it is served.</p>
+<h3>Soy Garlic, Fiery Red Pepper, Sweet Honey, and Savory Galbi Series</h3>
+<p>Diners can choose between their classic Soy Garlic series, the fiery Red Pepper series glazed in spicy Korean red pepper paste, and the absolute crowd-favorite Honey series. Every single piece is carefully hand-brushed with their secret signature sauces for uniform, mouthwatering flavor. Check our comprehensive Kyochon menu pricing below to map out your next K-fried feast.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Kyochon 1991 is fully JAKIM Halal-certified, ensuring the highest standards of food safety, hygiene, and strict cleanliness.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Canola Oil:</strong> Double-fried in canola oil, which is low in saturated fat and high in beneficial monounsaturated fatty acids.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Fresh Chicken:</strong> Free from MSG and chemical preservatives, prioritizing wholesome ingredients.</span></li>
+</ul>`,
+      healthyTip: `"For a lower-carb option, pair their legendary hand-brushed wings with a side of steamed rice or fresh salad instead of heavily loaded fries."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Brings hot, crispy, and hand-brushed fried chicken wings and drumsticks straight to your table.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Perfect for ordering premium Kyochon family sets and spicy K-bites for gatherings.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Kyochon Malaysia Halal certified?", a: "Yes, Kyochon 1991 Malaysia is fully certified Halal by JAKIM, making it a trusted option for all dining groups." },
+        { q: "What is their most popular chicken flavor?", a: "The Honey Series (coated in natural sweet honey glaze) and the classic Soy Garlic Series are the all-time best-sellers." },
+        { q: "Do they use MSG?", a: "Kyochon takes pride in serving wholesome food and does not add MSG to their chicken or major sauces." }
+      ],
+      menu: kyochonMenu
     },
     {
       name: "K-Fry Urban Korean",
@@ -5705,6 +6036,23 @@ export const brandMocks: Record<string, any[]> = {
       menu: cowboysBarbecueAndGrillMenu
     },
     {
+      name: "TGI Fridays",
+      slug: "tgi-fridays",
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "American Casual", colors: "bg-red-700 text-white" }],
+      desc: "Lively American casual dining chain famous for handcrafted burgers, signature glazed ribs, and hearty appetizers.",
+      seoArticle: `\n<h2>TGI Fridays Malaysia</h2>\n<p>TGI Fridays in Malaysia is an American casual dining restaurant chain that operates independently of the US entity, known for its lively, energetic atmosphere. It offers a wide range of authentic, hearty American dishes, making it a favorite spot for celebrations and gatherings. Diners flock here for their massive handcrafted burgers, signature glazed ribs (like the Fridays Signature Glaze Ribs), and decadent appetizers. The menu is expansive, catering to everyone from meat lovers to those seeking a classic American diner experience.</p>\n`,
+      faqs: [
+        { q: "What are the most popular items on the TGI Fridays Malaysia Menu?", a: "Some of the best-selling items include the Fridays Signature Glaze Ribs, Triple Cheeseburger, Ultimate Mac & Cheese Burger, and Caesar Chicken Salad." },
+        { q: "Are the TGI Fridays menu prices the same for dine-in and delivery?", a: "No, prices on third-party delivery apps like Foodpanda usually include a slight markup compared to the in-store dine-in prices." },
+        { q: "Does TGI Fridays Malaysia offer any ongoing promotions?", a: "Yes, TGI Fridays frequently runs limited-time promotions, and Bites members can enjoy ongoing discounts such as 15% off à la carte food items." },
+        { q: "What categories of food can I find at TGI Fridays Malaysia?", a: "The menu features categories like Appetizers, Salads, Handcrafted Burgers, Ultimate Burgers, Fridays Signature Glaze, Lamb Ribs, Sandwiches, and Kids' Meals." },
+        { q: "Is the TGI Fridays Malaysia menu halal-certified?", a: "While TGI Fridays Malaysia sources ingredients from halal-certified suppliers, they serve alcoholic beverages at their premises, meaning the restaurant itself is not entirely halal-certified." }
+      ],
+      menu: tgiFridaysMenu
+    },
+    {
       name: "Tony Roma's",
       slug: "tony-romas",
       category: 'western-grilled',
@@ -5820,6 +6168,40 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Do I need to make a reservation for KBB TTDI?", a: "It is highly recommended to make a reservation, especially for dinner on weekends, as the restaurant frequently gets fully booked." }
       ],
       menu: kbbArtisanSteakhouseMenu
+    },
+    {
+      name: "Tony Roma's",
+      slug: "tony-romas",
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Famous Ribs", colors: "bg-red-900 text-white" }],
+      desc: "World-famous American casual dining chain celebrated for its legendary, fall-off-the-bone BBQ ribs and signature Onion Loaf.",
+      seoArticle: `\n<h2>Tony Roma's Malaysia</h2>\n<p>Tony Roma's is a globally renowned American casual dining chain that has established a strong presence in Malaysia. It is universally recognized as the home of "World Famous Ribs," specifically their incredibly tender beef and lamb ribs basted in their signature original BBQ sauce. Beyond ribs, Tony Roma's offers a hearty menu of classic American comfort food, including perfectly grilled steaks, the iconic Onion Loaf appetizer, and refreshing mocktails. It remains a top choice for family gatherings, celebrations, and anyone craving authentic American BBQ flavors.</p>\n`,
+      faqs: [
+        { q: "What is the best dish to order at Tony Roma's?", a: "You cannot visit Tony Roma's without trying their signature Beef Ribs or Lamb Ribs, famously slow-cooked to fall off the bone. The Onion Loaf and Kickin' Shrimp are also highly recommended appetizers." },
+        { q: "Is Tony Roma's Malaysia halal?", a: "Yes, Tony Roma's Malaysia is certified halal by JAKIM, ensuring all their meats, sauces, and preparation methods comply with strict halal standards." },
+        { q: "How much do the ribs cost at Tony Roma's Malaysia?", a: "A full rack of their Signature Beef Ribs typically costs around RM 128.50, while the Bountiful Beef Ribs or Lamb Ribs are priced around RM 73 to RM 75." },
+        { q: "Does Tony Roma's serve pork in Malaysia?", a: "No, as a halal-certified establishment, Tony Roma's Malaysia does not serve pork or alcohol. Their famous ribs are made from premium beef and lamb." },
+        { q: "Does Tony Roma's Malaysia offer delivery?", a: "Yes, you can order Tony Roma's through major food delivery apps like GrabFood and foodpanda, or directly through their own delivery platform." }
+      ],
+      menu: tonyRomasMenu
+    },
+    {
+      name: "TGI Fridays",
+      slug: "tgi-fridays",
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "American Bar & Grill", colors: "bg-red-700 text-white" }],
+      desc: "Iconic American casual dining restaurant famous for its signature glazed ribs, massive loaded burgers, and vibrant bar atmosphere.",
+      seoArticle: `\n<h2>TGI Fridays Malaysia</h2>\n<p>TGI Fridays is a globally recognized American casual dining chain that brings a vibrant, fun, and energetic atmosphere to Malaysia. Famous for the promise that "In here, it's always Friday," the restaurant is a go-to spot for celebrations and hearty meals. The menu features classic American comfort food, heavily focused on premium meats. Standout items include their fall-off-the-bone Fridays™ Signature Glazed Ribs, massive gourmet burgers, sizzling fajitas, and a wide array of appetizers perfect for sharing, such as their iconic Loaded Potato Skins.</p>\n`,
+      faqs: [
+        { q: "What is the best dish to order at TGI Fridays Malaysia?", a: "The most iconic and highly recommended dish is the Fridays™ Signature Glazed Ribs (beef or lamb), slowly cooked and basted in their proprietary sweet and smoky glaze." },
+        { q: "How much do the ribs cost at TGI Fridays?", a: "A full portion of their signature glazed ribs (beef or lamb) is typically priced around RM 97.90, though prices can vary slightly by location." },
+        { q: "Does TGI Fridays Malaysia serve alcohol?", a: "Yes, TGI Fridays operates a full bar serving a wide variety of cocktails, mocktails, beers, and spirits, making it a popular spot for after-work drinks." },
+        { q: "Is TGI Fridays Malaysia halal?", a: "TGI Fridays Malaysia is pork-free and sources its meats from halal-certified suppliers, but it is not halal-certified as a whole because they serve alcohol on the premises." },
+        { q: "Are there any promotions at TGI Fridays?", a: "Yes! TGI Fridays frequently runs promotions such as lunch sets, happy hour deals for drinks and appetizers, and special festive menus." }
+      ],
+      menu: tgiFridaysMenu
     },
     {
       name: "Burger & Lobster KLCC",
@@ -6230,6 +6612,74 @@ export const brandMocks: Record<string, any[]> = {
       menu: firewoodMenu
     },
     {
+      name: "Oceano Symphony",
+      slug: "oceano-symphony",
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Seaside", colors: "bg-blue-500 text-white" }],
+      desc: "Beautiful beachside cafe and restaurant located in Tanjung Tokong, Penang.",
+      seoArticle: `\n<h2>Oceano Symphony</h2>\n<p>Oceano Symphony is a beautiful beachside cafe and restaurant located in Tanjung Tokong, Penang, offering a 'mini Bali' aesthetic with stunning sunset views. The restaurant is renowned for its diverse fusion menu that perfectly blends Asian and Western culinary traditions. Diners can enjoy everything from specialty sourdough toasts and hearty pasta dishes to refreshing tropical drinks and artisanal cakes.</p>\n`,
+      faqs: [
+        { q: "What are the signature dishes on the Oceano Symphony Malaysia menu?", a: "Some of the most popular signature dishes include the Tomyam Carbonara with scallops and prawns, baked red snapper fillet, and their assorted artisanal sourdough toasts like avocado or blueberry pesto." },
+        { q: "Are there vegetarian options available at Oceano Symphony?", a: "Yes, Oceano Symphony offers several vegetarian-friendly options, including their Pesto Pasta, various sourdough toasts, and a refreshing Yuzu salad." },
+        { q: "How much does a meal typically cost at Oceano Symphony Penang?", a: "Prices at Oceano Symphony generally range from RM 15 to RM 40 for main dishes, while drinks and specialty coffees typically cost between RM 10 and RM 20." },
+        { q: "Does the Oceano Symphony menu include desserts?", a: "Absolutely! Their dessert menu features crowd favorites like the Earl Grey burnt cheesecake, classic tiramisu, and an assortment of fresh daily pastries." },
+        { q: "Is Oceano Symphony Halal-certified?", a: "Oceano Symphony is a pork-free establishment that sources ingredients from Halal suppliers, though it's recommended to confirm their official certification status directly with the restaurant." }
+      ],
+      menu: oceanoSymphonyMenu
+    },
+    {
+      name: "Alwis Food",
+      slug: "alwis-food",
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1551782450-17144efb9c50?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Premium Steaks", colors: "bg-red-500 text-white" }],
+      desc: "Five-star hotel-standard Western cuisine and premium steak cuts.",
+      seoArticle: `\n<h2>Alwis Food</h2>\n<p>Alwi's Food is a popular restaurant located in Shah Alam, Malaysia, founded by experienced Chef Alwi Mahfodz. It is highly regarded for bringing five-star hotel-standard Western cuisine and premium steak cuts to a casual, accessible dining environment. The menu features a variety of high-quality dishes, ranging from Black Angus Rib Eye and Tomahawk steaks to signature grilled chicken and freshly prepared pastas.</p>\n`,
+      faqs: [
+        { q: "What type of food is on the Alwis Food Malaysia menu?", a: "The Alwis Food menu specializes in premium Western cuisine and Asian fusion dishes. Their most popular offerings include high-quality steak cuts, lamb shoulder, grilled chicken, and various pasta dishes." },
+        { q: "What are the signature steak dishes at Alwis Food?", a: "Signature steaks include the 150 Days Grain Fed Sirloin Steak, Black Angus Rib Eye, and the large bone-in Tomahawk Black Angus, which is perfect for sharing." },
+        { q: "How much do items on the Alwis Food menu cost in RM?", a: "Prices range from RM 34.70 for a classic Chicken Chop to over RM 140 for premium Black Angus steaks. Sides and beverages generally range between RM 4 to RM 20." },
+        { q: "Does Alwis Food offer lighter meals or sides?", a: "Yes, their menu includes a 'Lite Food' section featuring items like creamy mashed potatoes, french fries, and classic Malaysian egg preparations like Telur Dadar." },
+        { q: "Where can I order from the Alwis Food menu online?", a: "You can view their updated menu and order delivery through platforms like Foodpanda, or check their official website and social media pages for the latest menu updates and dine-in reservations." }
+      ],
+      menu: alwisFoodMenu
+    },
+    {
+      name: "TGI Fridays",
+      slug: "tgi-fridays",
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1551782450-17144efb9c50?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Pork-Free", colors: "bg-green-500 text-white" }],
+      desc: "International casual dining known for an American-style vibe.",
+      seoArticle: `\n<h2>TGI Fridays</h2>\n<p>TGI Fridays in Malaysia is a popular international casual dining restaurant chain known for its vibrant, American-style 'party vibe' and friendly service. The restaurant specializes in American classics like their Fridays™ Signature Glazed items, hearty gourmet burgers, and signature cocktails. It is an ideal destination for both mid-week meals and weekend celebrations with friends and family.</p>\n`,
+      faqs: [
+        { q: "What type of food does TGI Fridays Malaysia serve?", a: "TGI Fridays Malaysia specializes in American-style casual dining, featuring classics like loaded potato skins, signature glazed ribs and steaks, gourmet burgers, pastas, and refreshing salads." },
+        { q: "Are there any signature items on the TGI Fridays menu?", a: "Yes, their most famous dishes include the Fridays Signature Glazed items (like ribs, chicken, and steaks), Loaded Potato Skins, and the Ultimate Burger range." },
+        { q: "Is TGI Fridays Malaysia Halal-certified?", a: "No, TGI Fridays Malaysia is not officially Halal-certified by JAKIM because they serve alcoholic beverages on their premises. However, they are a pork-free restaurant." },
+        { q: "How much does a typical meal cost at TGI Fridays Malaysia?", a: "The cost varies, but generally you can expect to pay around RM 40 to RM 60 for burgers and sandwiches, while premium entrées like steaks and ribs range from RM 90 to RM 140." },
+        { q: "Does TGI Fridays Malaysia offer food delivery?", a: "Yes, they offer delivery services through major third-party platforms like Foodpanda, as well as their official online ordering portal. Delivery prices may vary slightly from dine-in menus." }
+      ],
+      menu: tgiFridaysMenu
+    },
+    {
+      name: "Cleaver Shed",
+      slug: "cleaver-shed",
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1544025162-811114215b1a?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Steakhouse", colors: "bg-red-500 text-white" }],
+      desc: "No-frills neighborhood steakhouse located in Plaza TTDI.",
+      seoArticle: `\n<h2>Cleaver Shed</h2>\n<p>Cleaver Shed is a popular, no-frills neighborhood steakhouse located in Plaza TTDI, Kuala Lumpur, founded by Le Cordon Bleu-trained chef Amelia Ng. This Muslim-friendly restaurant is known for offering premium, high-quality steaks like Argentinian Angus rib-eye and Sanchoku Wagyu at highly accessible prices. Alongside its top-notch meat cuts, the menu also features a selection of delicious appetizers, pastas, and modern Western classics.</p>\n`,
+      faqs: [
+        { q: "What are the most popular steaks on the Cleaver Shed Malaysia Menu?", a: "The signature steaks include the Argentinian Angus Rib-eye, Sanchoku Wagyu (MB 8-9), and Argentinian Striploin, often paired with house-made sauces like chimichurri or béarnaise." },
+        { q: "Is the Cleaver Shed Malaysia Menu Muslim-friendly?", a: "Yes, Cleaver Shed is a Muslim-friendly establishment that serves a pork-free menu, focusing on premium imported beef and lamb." },
+        { q: "How much do steaks cost at Cleaver Shed TTDI?", a: "Cleaver Shed is known for its competitive pricing; options like the Argentinian Striploin are around RM 69, the Angus Rib-eye is roughly RM 78, while premium 350g Sanchoku Wagyu is typically priced between RM 270 and RM 320." },
+        { q: "What else does the Cleaver Shed menu offer besides steak?", a: "Beyond premium cuts of meat, the menu features delicious appetizers like Baked Camembert, Surf and Turf combos, New Zealand Lamb, quality pastas, and classic chicken chop dishes." },
+        { q: "Does Cleaver Shed Malaysia serve alcohol or allow BYOB?", a: "While they do not have a formal wine list, Cleaver Shed is known to allow guests to bring their own bottles (BYOB) for a reasonable corkage fee of approximately RM 30." }
+      ],
+      menu: cleaverShedMenu
+    },
+    {
       name: "Nando's",
       slug: "nandos",
       category: 'western-grilled',
@@ -6342,6 +6792,43 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Do they serve non-beef options?", a: "Yes, they offer a wide variety of grilled lamb, chicken chops, Norwegian salmon, and gourmet pastas." }
       ],
       menu: menateMenu
+    },
+    {
+      name: "Tony Roma's",
+      slug: "tony-romas",
+    searchVolume: 2400,
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
+      desc: "World Famous BBQ Ribs & Classic Flame-Grills",
+      seoArticle: `\n<h2>Tony Roma's Malaysia: Legendary Ribs and Grill Heritage</h2>
+<p>Tony Roma's is globally renowned as the pioneer of spectacular, fall-off-the-bone baby back ribs. In Malaysia, it has been a favorite for premium Western-style family dinners, offering a diverse menu that centers on rich smokiness, flame-grill mastery, and authentic Americana flavors.</p>
+<h3>Signature Bountiful Beef Ribs, Juicy Steaks, and Crispy Loaf Appetizers</h3>
+<p>While the pork ribs are famous globally, Tony Roma's Malaysia has built an incredible following for its massive, tender Bountiful Beef Ribs glazed in sweet honey-BBQ sauce. Paired with fresh seafood plates, steakhouse ribeyes, and their iconic giant onion loaf, it remains a premier feast. Check below for our pricing table.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Tony Roma's features charcoal flame-grilled cooking, which drains excess fat while retaining natural juices and protein.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Ingredients:</strong> All meats, poultry, and ingredients are sourced from Halal-certified suppliers, and the kitchen is pork-free.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>High Protein:</strong> Massive slabs of beef ribs and premium strip loins supply robust muscle-building protein.</span></li>
+</ul>`,
+      healthyTip: `"Go for their flame-grilled salmon or chicken breast with steamed fresh vegetables, and ask for BBQ glaze to be served on the side so you can manage your sugar intake."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Brings iconic family-sized beef ribs, grilled salmon, and hot onion rings safely packaged to your dining room.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Perfect for ordering premium office lunch combos and refreshing fruit mocktails directly to your desk.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Tony Roma's Halal in Malaysia?", a: "Tony Roma's Malaysia is pork-free and lard-free, using strictly Halal-certified ingredients and meats. However, note that some outlets may serve alcoholic beverages." },
+        { q: "What is their signature dish?", a: "The Bountiful Beef Ribs and the legendary giant hand-cut Onion Loaf are their absolute signature favorites." },
+        { q: "Are their portions suitable for sharing?", a: "Yes, their ribs platters and starters are exceptionally large and perfect for sharing among family and friends." }
+      ],
+      menu: tonyRomasMenu
     },
     {
       name: "Beard Brothers BBQ",
@@ -6636,6 +7123,48 @@ export const brandMocks: Record<string, any[]> = {
       ],
       
       menu: popMealsMenu
+    },
+    {
+      name: "Salad Atelier",
+      slug: "salad-atelier",
+      category: 'sandwiches-health',
+      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Customizable Healthy Bowls",
+      seoArticle: `\n<h2>Salad Atelier: Healthy Made Delicious</h2>
+<p>Healthy eating doesn't have to be boring, and Salad Atelier proves it. With highly customizable salad bowls, poke bowls, and wraps, you can pack in the nutrients without sacrificing flavor. Our guide helps you build the perfect macro-friendly meal.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Salad Atelier offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Customize your bowl with plenty of leafy greens and ask for dressings on the side to manage fat intake.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Let the salad team know about any nut, seed, seafood, or gluten allergies before customization.</strong></span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Salad Atelier."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Salad Atelier directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Salad Atelier meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Salad Atelier offer delivery?",
+                "a": "Yes, Salad Atelier is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Salad Atelier?",
+                "a": "Yes, Salad Atelier provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
+      menu: []
     },
     {
       name: "Kenny Rogers Roasters",
