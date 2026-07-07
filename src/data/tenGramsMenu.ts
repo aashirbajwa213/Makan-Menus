@@ -57,6 +57,6 @@ export const tenGramsMenu = [
     name: "Big Breakfast",
     price: "RM 21.90",
     category: "Breakfast",
-    description": "A hearty breakfast platter featuring eggs, sausages, toast, baked beans, and other breakfast staples."
+    description: "A hearty breakfast platter featuring eggs, sausages, toast, baked beans, and other breakfast staples."
   }
 ];

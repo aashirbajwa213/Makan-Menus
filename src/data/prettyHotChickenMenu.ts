@@ -27,13 +27,13 @@ export const prettyHotChickenMenu = [
     name: "Chicken Tender",
     price: "RM 6.50",
     category: "Ala Carte",
-    description": "A single piece of spicy, crispy chicken tender."
+    description: "A single piece of spicy, crispy chicken tender."
   },
   {
     name: "Nuggets",
     price: "RM 7.80",
     category: "Ala Carte",
-    description": "Crispy bite-sized chicken nuggets."
+    description: "Crispy bite-sized chicken nuggets."
   },
   {
     name: "Nasi Lemak (Fried Chicken)",
@@ -45,6 +45,6 @@ export const prettyHotChickenMenu = [
     name: "Cajun Fries",
     price: "RM 5.50",
     category: "Sides",
-    description": "Crispy french fries tossed in Cajun seasoning."
+    description: "Crispy french fries tossed in Cajun seasoning."
   }
 ];

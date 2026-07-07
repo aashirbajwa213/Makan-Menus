@@ -33,7 +33,7 @@ export const qBistroMenu = [
     name: "Puttu Mayam",
     price: "RM 7.24",
     category: "Popular Items",
-    description": "South Indian string hoppers typically served with palm sugar and grated coconut."
+    description: "South Indian string hoppers typically served with palm sugar and grated coconut."
   },
   {
     name: "Roti Kosong",
@@ -63,60 +63,60 @@ export const qBistroMenu = [
     name: "Murtabak Ayam/Daging",
     price: "RM 14.86",
     category: "Roti & Bread",
-    description": "Pan-fried folded flatbread stuffed with a hearty mix of minced chicken or beef, onions, and egg."
+    description: "Pan-fried folded flatbread stuffed with a hearty mix of minced chicken or beef, onions, and egg."
   },
   {
     name: "Nasi Lemak (Plain)",
     price: "RM 5.88",
     category: "Nasi Lemak & Rice Dishes",
-    description": "Fragrant coconut rice served with spicy sambal, crispy anchovies, roasted peanuts, and boiled egg."
+    description: "Fragrant coconut rice served with spicy sambal, crispy anchovies, roasted peanuts, and boiled egg."
   },
   {
     name: "Nasi Lemak Ayam Goreng",
     price: "RM 13.50",
     category: "Nasi Lemak & Rice Dishes",
-    description": "Signature Nasi Lemak served with a flavorful piece of deep-fried spiced chicken."
+    description: "Signature Nasi Lemak served with a flavorful piece of deep-fried spiced chicken."
   },
   {
     name: "Nasi Goreng Ayam",
     price: "RM 17.58",
     category: "Nasi Lemak & Rice Dishes",
-    description": "Wok-fried rice accompanied by a piece of crispy fried chicken."
+    description: "Wok-fried rice accompanied by a piece of crispy fried chicken."
   },
   {
     name: "Nasi Goreng Cina",
     price: "RM 14.09",
     category: "Nasi Lemak & Rice Dishes",
-    description": "Chinese-style non-spicy fried rice cooked with mixed vegetables and egg."
+    description: "Chinese-style non-spicy fried rice cooked with mixed vegetables and egg."
   },
   {
     name: "Sup Ayam / Daging",
     price: "RM 12.28",
     category: "Soups",
-    description": "Hearty and aromatic chicken or beef soup spiced with traditional local herbs."
+    description: "Hearty and aromatic chicken or beef soup spiced with traditional local herbs."
   },
   {
     name: "Sup Kambing",
     price: "RM 14.86",
     category: "Soups",
-    description": "Flavorful, rich, and heavily spiced traditional mutton soup."
+    description: "Flavorful, rich, and heavily spiced traditional mutton soup."
   },
   {
     name: "Sup Ekor",
     price: "RM 22.62",
     category: "Soups",
-    description": "Traditional Malaysian oxtail soup slow-cooked to perfection with rich spices."
+    description: "Traditional Malaysian oxtail soup slow-cooked to perfection with rich spices."
   },
   {
     name: "Ayam Goreng / Kari Ayam / Ayam Rendang",
     price: "RM 9.05",
     category: "Ayam (Chicken Dishes)",
-    description": "A la carte portion of chicken prepared as either fried, curried, or slow-cooked in rendang spices."
+    description: "A la carte portion of chicken prepared as either fried, curried, or slow-cooked in rendang spices."
   },
   {
     name: "Teh Halia",
     price: "RM 6.20",
     category: "Drinks",
-    description": "Sweet, pulled milk tea brewed with warming fresh ginger extract."
+    description: "Sweet, pulled milk tea brewed with warming fresh ginger extract."
   }
 ];

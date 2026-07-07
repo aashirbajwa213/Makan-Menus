@@ -45,18 +45,18 @@ export const mesaOn51Menu = [
     name: "Sushi & Sashimi Boat",
     price: "RM 350",
     category: "Nikkei Lounge",
-    description": "A premium chef's selection of the day's freshest sashimi, nigiri, and maki rolls."
+    description: "A premium chef's selection of the day's freshest sashimi, nigiri, and maki rolls."
   },
   {
     name: "Ceviche Clásico",
     price: "RM 60",
     category: "Nikkei Lounge",
-    description": "Fresh raw fish cured in citrus juices, seasoned with authentic Peruvian spices."
+    description: "Fresh raw fish cured in citrus juices, seasoned with authentic Peruvian spices."
   },
   {
     name: "Signature Crafted Cocktails",
     price: "RM 57",
     category: "Beverages",
-    description": "Bespoke alcoholic concoctions available at the Terrace Bar overlooking the KL skyline."
+    description: "Bespoke alcoholic concoctions available at the Terrace Bar overlooking the KL skyline."
   }
 ];

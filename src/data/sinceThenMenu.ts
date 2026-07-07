@@ -39,12 +39,12 @@ export const sinceThenMenu = [
     name: "Sour Plum Tie Guan Yin Shaken Tea",
     price: "RM 15.00",
     category: "Beverages",
-    description": "A unique specialty tea combining traditional Tie Guan Yin with a tangy sour plum twist."
+    description: "A unique specialty tea combining traditional Tie Guan Yin with a tangy sour plum twist."
   },
   {
     name: "Specialty Coffee (Latte/Cappuccino)",
     price: "RM 13.00",
     category: "Beverages",
-    description": "High-quality espresso-based beverages perfect for a cafe setting."
+    description: "High-quality espresso-based beverages perfect for a cafe setting."
   }
 ];

@@ -21,30 +21,30 @@ export const stefaniaRestaurantMenu = [
     category: "Primi Piatti (Pasta)",
     name: "Spaghetti Cacio e Pepe",
     price: "RM 58",
-    description": "A Roman classic featuring al dente spaghetti tossed with Pecorino Romano and cracked black pepper."
+    description: "A Roman classic featuring al dente spaghetti tossed with Pecorino Romano and cracked black pepper."
   },
   {
     category: "Primi Piatti (Pasta)",
     name: "Rigatoni alla Carbonara",
     price: "RM 65",
-    description": "Traditional carbonara made the authentic way with guanciale, egg yolks, and Pecorino cheese (no cream)."
+    description: "Traditional carbonara made the authentic way with guanciale, egg yolks, and Pecorino cheese (no cream)."
   },
   {
     category: "Primi Piatti (Pasta)",
     name: "Gnocchi al Tartufo",
     price: "RM 85",
-    description": "Pillow-soft potato gnocchi served in a luxurious, aromatic black truffle sauce."
+    description: "Pillow-soft potato gnocchi served in a luxurious, aromatic black truffle sauce."
   },
   {
     category: "Pizze (Wood-Fired Pizza)",
     name: "Pizza Margherita",
     price: "RM 45",
-    description": "Classic pizza with San Marzano tomato sauce, fresh mozzarella, and basil."
+    description: "Classic pizza with San Marzano tomato sauce, fresh mozzarella, and basil."
   },
   {
     category: "Dolci (Desserts)",
     name: "Classic Tiramisu",
     price: "RM 38",
-    description": "Traditional Italian dessert made with espresso-soaked ladyfingers and rich mascarpone cream."
+    description: "Traditional Italian dessert made with espresso-soaked ladyfingers and rich mascarpone cream."
   }
 ];

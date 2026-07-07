@@ -51,6 +51,6 @@ export const kuromaBuffetMenu = [
     name: "Dessert Selection",
     price: "Included",
     category: "Desserts",
-    description": "Unlimited Baskin Robbins ice cream, red velvet cake, macarons, osmanthus jelly, and panna cotta."
+    description: "Unlimited Baskin Robbins ice cream, red velvet cake, macarons, osmanthus jelly, and panna cotta."
   }
 ];

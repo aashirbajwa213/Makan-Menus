@@ -57,19 +57,19 @@ export const positanoRistoMenu = [
     name: "Lamb Ragu’ Rigatoni",
     price: "RM 42.95",
     category: "Pasta",
-    description": "Rigatoni pasta served with a hearty, slow-cooked lamb ragu."
+    description: "Rigatoni pasta served with a hearty, slow-cooked lamb ragu."
   },
   {
     name: "Salmon Ravioli",
     price: "RM 54.95",
     category: "Pasta",
-    description": "Delicate handmade ravioli parcels stuffed with premium salmon."
+    description: "Delicate handmade ravioli parcels stuffed with premium salmon."
   },
   {
     name: "Beef Cheeks Tortelli",
     price: "RM 52.95",
     category: "Pasta",
-    description": "Savory tortelli pasta filled with tender, melt-in-your-mouth braised beef cheeks."
+    description: "Savory tortelli pasta filled with tender, melt-in-your-mouth braised beef cheeks."
   },
   {
     name: "Margherita",
@@ -81,54 +81,54 @@ export const positanoRistoMenu = [
     name: "Spicy Pepperoni",
     price: "RM 42.95",
     category: "Pizza",
-    description": "Delicious hand-tossed pizza topped generously with spicy pepperoni slices."
+    description: "Delicious hand-tossed pizza topped generously with spicy pepperoni slices."
   },
   {
     name: "Capricciosa Pizza",
     price: "RM 44.95",
     category: "Pizza",
-    description": "Traditional Italian pizza loaded with artichokes, mushrooms, and savory toppings."
+    description: "Traditional Italian pizza loaded with artichokes, mushrooms, and savory toppings."
   },
   {
     name: "4 Cheese Pizza",
     price: "RM 44.95",
     category: "Pizza",
-    description": "A rich, gooey, and cheesy pizza featuring a perfect blend of four classic cheeses."
+    description: "A rich, gooey, and cheesy pizza featuring a perfect blend of four classic cheeses."
   },
   {
     name: "Star Pizza",
     price: "RM 68.95",
     category: "Pizza",
-    description": "The restaurant's signature star-shaped pizza with a delightful stuffed crust and premium toppings."
+    description: "The restaurant's signature star-shaped pizza with a delightful stuffed crust and premium toppings."
   },
   {
     name: "Tiramisu",
     price: "RM 32.95",
     category: "Desserts",
-    description": "Classic Italian dessert made with coffee-soaked ladyfingers and rich mascarpone cream."
+    description: "Classic Italian dessert made with coffee-soaked ladyfingers and rich mascarpone cream."
   },
   {
     name: "Vulcano",
     price: "RM 26.95",
     category: "Desserts",
-    description": "A warm, decadent chocolate lava cake featuring a rich, molten chocolate center."
+    description: "A warm, decadent chocolate lava cake featuring a rich, molten chocolate center."
   },
   {
     name: "Cannoli",
     price: "RM 24.95",
     category: "Desserts",
-    description": "Crispy pastry tubes filled with a sweet, creamy, and traditional ricotta filling."
+    description: "Crispy pastry tubes filled with a sweet, creamy, and traditional ricotta filling."
   },
   {
     name: "Panna Cotta",
     price: "RM 22.95",
     category: "Desserts",
-    description": "Silky and smooth classic Italian chilled cream dessert."
+    description: "Silky and smooth classic Italian chilled cream dessert."
   },
   {
     name: "Torta della Nonna",
     price: "RM 18.95",
     category: "Desserts",
-    description": "Traditional Italian grandmother's tart filled with custard and topped with pine nuts."
+    description: "Traditional Italian grandmother's tart filled with custard and topped with pine nuts."
   }
 ];

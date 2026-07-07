@@ -51,12 +51,12 @@ export const peninsulaHouseMenu = [
     name: "House White Wine (glass)",
     price: "RM 45.90",
     category: "Beverages",
-    description": "A glass of house white wine."
+    description: "A glass of house white wine."
   },
   {
     name: "Peninsula Martini",
     price: "RM 55.90",
     category: "Beverages",
-    description": "Signature Peninsula Martini cocktail."
+    description: "Signature Peninsula Martini cocktail."
   }
 ];

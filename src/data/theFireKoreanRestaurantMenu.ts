@@ -33,19 +33,19 @@ export const theFireKoreanRestaurantMenu = [
     name: "Bibimbap Bingsu",
     price: "RM 35.00",
     category: "Bingsu",
-    description": "A unique shaved ice dessert styled like a bibimbap bowl (Bowl)."
+    description: "A unique shaved ice dessert styled like a bibimbap bowl (Bowl)."
   },
   {
     name: "Mango Honey Comb Bingsu",
     price: "RM 32.00",
     category: "Bingsu",
-    description": "Mango and honeycomb topped shaved ice (Bowl)."
+    description: "Mango and honeycomb topped shaved ice (Bowl)."
   },
   {
     name: "Oreo Bingsu",
     price: "RM 25.00",
     category: "Bingsu",
-    description": "Oreo flavored shaved ice dessert (Bowl)."
+    description: "Oreo flavored shaved ice dessert (Bowl)."
   },
   {
     name: "Flower Pot Ice Cream",

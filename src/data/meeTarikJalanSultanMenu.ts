@@ -39,36 +39,36 @@ export const meeTarikJalanSultanMenu = [
     name: "Golden Curry Noodle",
     price: "RM 24.00",
     category: "Mee Tarik Soup",
-    description": "A rich and aromatic curry broth paired perfectly with signature hand-pulled noodles."
+    description: "A rich and aromatic curry broth paired perfectly with signature hand-pulled noodles."
   },
   {
     name: "Minced Beef Noodle (Zha Jiang Mian)",
     price: "RM 23.00",
     category: "Fried Mee Tarik",
-    description": "Hand-pulled noodles topped with a rich and savory minced beef sauce."
+    description: "Hand-pulled noodles topped with a rich and savory minced beef sauce."
   },
   {
     name: "Chicken Fried Noodle",
     price: "RM 28.00",
     category: "Fried Mee Tarik",
-    description": "Wok-fried hand-pulled noodles tossed with chicken and mixed vegetables."
+    description: "Wok-fried hand-pulled noodles tossed with chicken and mixed vegetables."
   },
   {
     name: "Beef Fried Noodle",
     price: "RM 29.00",
     category: "Fried Mee Tarik",
-    description": "Stir-fried hand-pulled noodles with tender beef slices and a savory soy-based sauce."
+    description: "Stir-fried hand-pulled noodles with tender beef slices and a savory soy-based sauce."
   },
   {
     name: "Fried Cumin Lamb Noodle",
     price: "RM 30.00",
     category: "Fried Mee Tarik",
-    description": "Distinctively spiced wok-fried noodles featuring flavorful, cumin-marinated lamb."
+    description: "Distinctively spiced wok-fried noodles featuring flavorful, cumin-marinated lamb."
   },
   {
     name: "Kam Heong Noodle",
     price: "RM 34.00",
     category: "Fried Mee Tarik",
-    description": "A Malaysian-Chinese fusion style fried noodle made with fragrant and spicy Kam Heong sauce."
+    description: "A Malaysian-Chinese fusion style fried noodle made with fragrant and spicy Kam Heong sauce."
   }
 ];

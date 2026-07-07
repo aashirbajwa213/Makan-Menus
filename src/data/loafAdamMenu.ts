@@ -33,48 +33,48 @@ export const loafAdamMenu = [
     name: "Super Awesome Big Breakfast",
     price: "RM 47.50",
     category: "Breakfast & Mains",
-    description": "A hearty, all-day breakfast platter featuring classic breakfast staples."
+    description: "A hearty, all-day breakfast platter featuring classic breakfast staples."
   },
   {
     name: "Banger and Mash",
     price: "RM 33.20",
     category: "Breakfast & Mains",
-    description": "Comforting sausages served over creamy mashed potatoes."
+    description: "Comforting sausages served over creamy mashed potatoes."
   },
   {
     name: "The OG Mac and Cheese",
     price: "RM 23.50",
     category: "Breakfast & Mains",
-    description": "Classic, creamy baked macaroni and cheese."
+    description: "Classic, creamy baked macaroni and cheese."
   },
   {
     name: "Wild Mushroom Soup",
     price: "RM 29.80",
     category: "Breakfast & Mains",
-    description": "Rich and earthy wild mushroom soup served in a warm bread bowl."
+    description: "Rich and earthy wild mushroom soup served in a warm bread bowl."
   },
   {
     name: "Espresso",
     price: "RM 9.00",
     category: "Coffee & Beverages",
-    description": "Strong and bold classic espresso shot."
+    description: "Strong and bold classic espresso shot."
   },
   {
     name: "Americano",
     price: "RM 11.70",
     category: "Coffee & Beverages",
-    description": "Rich espresso topped with hot water."
+    description: "Rich espresso topped with hot water."
   },
   {
     name: "Creamy Caffe Latte",
     price: "RM 15.60",
     category: "Coffee & Beverages",
-    description": "Smooth espresso mixed with steamed milk and a light layer of foam."
+    description: "Smooth espresso mixed with steamed milk and a light layer of foam."
   },
   {
     name: "Classic Vanilla Latte",
     price: "RM 16.20",
     category: "Coffee & Beverages",
-    description": "Sweet and aromatic latte flavored with vanilla syrup."
+    description: "Sweet and aromatic latte flavored with vanilla syrup."
   }
 ];

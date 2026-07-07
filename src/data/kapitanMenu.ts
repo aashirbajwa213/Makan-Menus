@@ -45,18 +45,18 @@ export const kapitanMenu = [
     name: "Tandoori Chicken (Piece)",
     price: "RM 9.00",
     category: "Main Dishes",
-    description": "Classic red-spiced chicken, marinated in yogurt and spices, then slow-cooked in a traditional tandoor oven."
+    description: "Classic red-spiced chicken, marinated in yogurt and spices, then slow-cooked in a traditional tandoor oven."
   },
   {
     name: "Nasi Kandar with Ayam Kari",
     price: "RM 11.00",
     category: "Nasi Kandar",
-    description": "Steamed white rice flooded with mixed curries and served with a piece of savory chicken curry."
+    description: "Steamed white rice flooded with mixed curries and served with a piece of savory chicken curry."
   },
   {
     name: "Nasi Kandar with Daging Masak Kicap",
     price: "RM 12.00",
     category: "Nasi Kandar",
-    description": "Steamed white rice mixed with rich curries and accompanied by sweet and savory soy sauce beef."
+    description: "Steamed white rice mixed with rich curries and accompanied by sweet and savory soy sauce beef."
   }
 ];

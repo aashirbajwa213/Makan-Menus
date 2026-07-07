@@ -63,6 +63,6 @@ export const nasiLemakShopMenu = [
     name: "Kopi",
     price: "RM 4.50",
     category: "Drinks",
-    description": "Traditional Malaysian local coffee."
+    description: "Traditional Malaysian local coffee."
   }
 ];

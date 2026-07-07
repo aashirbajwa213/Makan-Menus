@@ -63,7 +63,7 @@ export const sdsMenu = [
     name: "Herbal Chicken Whole Leg with Rice",
     price: "RM 18.90",
     category: "Main Courses",
-    description": "Nourishing herbal soup with a whole chicken leg, served with rice."
+    description: "Nourishing herbal soup with a whole chicken leg, served with rice."
   },
   {
     name: "Traditional Banana Cake",

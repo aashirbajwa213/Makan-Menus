@@ -33,42 +33,42 @@ export const saladAtelierMenu = [
     name: "Spicy Korean Pasta",
     price: "RM 20.20",
     category: "Popular Menu Items",
-    description": "Flavorful and spicy Korean-style pasta."
+    description: "Flavorful and spicy Korean-style pasta."
   },
   {
     name: "Sawadee Thai Salad",
     price: "RM 27.41",
-    category": "Popular Menu Items",
-    description": "Refreshing Thai-inspired salad bowl."
+    category: "Popular Menu Items",
+    description: "Refreshing Thai-inspired salad bowl."
   },
   {
     name: "Chicken Teriyaki Poke",
     price: "RM 25.15",
     category: "Popular Menu Items",
-    description": "Delicious poke bowl featuring savory teriyaki chicken."
+    description: "Delicious poke bowl featuring savory teriyaki chicken."
   },
   {
     name: "Eggcellent Protein Bowl",
     price: "RM 23.77",
     category: "Keto Fuel",
-    description": "Keto-friendly bowl packed with eggs and protein."
+    description: "Keto-friendly bowl packed with eggs and protein."
   },
   {
     name: "Creamy Broccoli Chicken Bowl",
     price: "RM 28.75",
     category: "Keto Fuel",
-    description": "Low-carb bowl with creamy broccoli and chicken."
+    description: "Low-carb bowl with creamy broccoli and chicken."
   },
   {
     name: "Avocado Shrimp Bowl",
     price: "RM 28.96",
     category: "Keto Fuel",
-    description": "Keto-friendly meal featuring fresh avocado and shrimp."
+    description: "Keto-friendly meal featuring fresh avocado and shrimp."
   },
   {
     name: "Grilled Salmon Salsa Bowl",
     price: "RM 32.08",
     category: "Keto Fuel",
-    description": "Grilled salmon topped with fresh salsa on a keto-friendly base."
+    description: "Grilled salmon topped with fresh salsa on a keto-friendly base."
   }
 ];

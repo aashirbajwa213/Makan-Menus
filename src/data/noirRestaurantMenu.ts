@@ -45,6 +45,6 @@ export const noirRestaurantMenu = [
     name: "Pinoir Colada",
     price: "RM 19",
     category: "Beverages",
-    description": "A refreshing mocktail twist on the classic Piña Colada."
+    description: "A refreshing mocktail twist on the classic Piña Colada."
   }
 ];

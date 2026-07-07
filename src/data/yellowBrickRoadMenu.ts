@@ -45,7 +45,7 @@ export const yellowBrickRoadMenu = [
     name: "Chocoholics Anonymous",
     price: "RM 26.00",
     category: "Pancakes",
-    description": "Decadent chocolate pancakes served with fresh berries, chocolate shavings, and a scoop of chocolate ice cream."
+    description: "Decadent chocolate pancakes served with fresh berries, chocolate shavings, and a scoop of chocolate ice cream."
   },
   {
     name: "Specialty Flat White",
@@ -63,6 +63,6 @@ export const yellowBrickRoadMenu = [
     name: "Refreshing Lemonade",
     price: "RM 11.00",
     category: "Beverages",
-    description": "House-made fizzy lemonade, perfect for cooling down on a hot day."
+    description: "House-made fizzy lemonade, perfect for cooling down on a hot day."
   }
 ];

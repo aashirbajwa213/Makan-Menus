@@ -45,18 +45,18 @@ export const potatoStoryMenu = [
     name: "Party Box Set",
     price: "RM 52.00",
     category: "Sets",
-    description": "A large sharing platter containing 6 different snack portions and 4 dipping sauces, perfect for groups."
+    description: "A large sharing platter containing 6 different snack portions and 4 dipping sauces, perfect for groups."
   },
   {
     name: "Classic Milk Tea",
     price: "RM 9.00",
     category: "Beverages",
-    description": "A refreshing classic milk tea brewed to perfection."
+    description: "A refreshing classic milk tea brewed to perfection."
   },
   {
     name: "Black Pearl Milk Tea",
     price: "RM 10.00",
     category: "Beverages",
-    description": "Classic sweet milk tea served with chewy black tapioca pearls."
+    description: "Classic sweet milk tea served with chewy black tapioca pearls."
   }
 ];

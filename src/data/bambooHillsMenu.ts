@@ -33,54 +33,54 @@ export const bambooHillsMenu = [
     name: "Kale & Romaine Caesar Salad",
     price: "RM 31",
     category: "Soups & Salads",
-    description": "A healthy twist on the classic Caesar salad featuring fresh kale and romaine."
+    description: "A healthy twist on the classic Caesar salad featuring fresh kale and romaine."
   },
   {
     name: "Panzanella Salad",
     price: "RM 40",
     category: "Soups & Salads",
-    description": "A traditional Italian bread and tomato salad with a refreshing vinaigrette."
+    description: "A traditional Italian bread and tomato salad with a refreshing vinaigrette."
   },
   {
     name: "Roasted Cauliflower",
     price: "RM 48",
     category: "Main Plates & Charcoal Grill",
-    description": "Perfectly charred and seasoned whole roasted cauliflower."
+    description: "Perfectly charred and seasoned whole roasted cauliflower."
   },
   {
     name: "Pineapple-Fed Chicken",
     price: "RM 68",
     category: "Main Plates & Charcoal Grill",
-    description": "Tender and juicy pineapple-fed chicken, grilled over charcoal."
+    description: "Tender and juicy pineapple-fed chicken, grilled over charcoal."
   },
   {
     name: "Butterflied Barramundi",
     price: "RM 108",
     category: "Main Plates & Charcoal Grill",
-    description": "Fresh barramundi fish, butterflied and grilled to perfection."
+    description: "Fresh barramundi fish, butterflied and grilled to perfection."
   },
   {
     name: "Angus Sirloin (350g)",
     price: "RM 158",
     category: "Main Plates & Charcoal Grill",
-    description": "Premium 350g Angus sirloin steak, charcoal-grilled to your liking."
+    description: "Premium 350g Angus sirloin steak, charcoal-grilled to your liking."
   },
   {
     name: "8-Layer Chocolate Cake",
     price: "RM 23",
     category: "Desserts",
-    description": "A decadent, rich, and highly indulgent multi-layered chocolate cake."
+    description: "A decadent, rich, and highly indulgent multi-layered chocolate cake."
   },
   {
     name: "Salted Caramel Tart",
     price: "RM 25",
     category: "Desserts",
-    description": "A sweet and savory tart filled with smooth salted caramel."
+    description: "A sweet and savory tart filled with smooth salted caramel."
   },
   {
     name: "Panna Cotta",
     price: "RM 28",
     category: "Desserts",
-    description": "Classic creamy Italian dessert served chilled."
+    description: "Classic creamy Italian dessert served chilled."
   }
 ];

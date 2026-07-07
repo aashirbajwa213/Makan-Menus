@@ -33,30 +33,30 @@ export const qHouseMenu = [
     name: "Shredded Cabbage With Pork Belly",
     price: "RM 23.90",
     category: "Popular Items",
-    description": "Stir-fried shredded cabbage paired with savory pork belly slices for a crunchy and rich dish."
+    description: "Stir-fried shredded cabbage paired with savory pork belly slices for a crunchy and rich dish."
   },
   {
     name: "Spicy Fermented Vegetables With Dolly Fish",
     price: "RM 28.90",
     category: "Set Meals",
-    description": "A hearty set meal featuring smooth Dolly fish cooked in a tangy and spicy fermented vegetable broth."
+    description: "A hearty set meal featuring smooth Dolly fish cooked in a tangy and spicy fermented vegetable broth."
   },
   {
     name: "Braised Chicken With Fermented Vegetables",
     price: "RM 27.90",
     category: "Set Meals",
-    description": "Tender braised chicken slow-cooked with flavorful fermented vegetables."
+    description: "Tender braised chicken slow-cooked with flavorful fermented vegetables."
   },
   {
     name: "Signature Stewed Pork Tripe & Chicken",
     price: "RM 26.90",
     category: "Set Meals",
-    description": "The restaurant's renowned comforting stew containing soft pork tripe and chicken chunks."
+    description: "The restaurant's renowned comforting stew containing soft pork tripe and chicken chunks."
   },
   {
     name: "Steamed Sliced Fish With Chopped Chili",
     price: "RM 24.90",
     category: "Set Meals",
-    description": "Freshly steamed fish slices generously topped with a vibrant and spicy chopped chili sauce."
+    description: "Freshly steamed fish slices generously topped with a vibrant and spicy chopped chili sauce."
   }
 ];

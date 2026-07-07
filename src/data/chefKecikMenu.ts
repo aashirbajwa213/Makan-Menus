@@ -69,13 +69,13 @@ export const chefKecikMenu = [
     name: "Tiramisu Delight",
     price: "RM 29.00",
     category: "Cakes & Desserts",
-    description": "A decadent, rich tiramisu dessert portion."
+    description: "A decadent, rich tiramisu dessert portion."
   },
   {
     name: "Choco Butter Pudding",
     price: "RM 18.50",
     category: "Cakes & Desserts",
-    description": "Warm, comforting chocolate butter bread pudding."
+    description: "Warm, comforting chocolate butter bread pudding."
   },
   {
     name: "Crownies",
@@ -87,6 +87,6 @@ export const chefKecikMenu = [
     name: "Laksa Johor",
     price: "RM 25.00",
     category: "Main Dishes",
-    description": "A traditional Malaysian noodle dish with a rich, spiced fish gravy."
+    description: "A traditional Malaysian noodle dish with a rich, spiced fish gravy."
   }
 ];

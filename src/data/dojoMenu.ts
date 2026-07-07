@@ -20,7 +20,7 @@ export const dojoMenu = [
   {
     name: "Salmon Teriyaki Bento",
     price: "RM 33.80",
-    category": "Dozo Sushi & Bento (A La Carte)",
+    category: "Dozo Sushi & Bento (A La Carte)",
     description: "Grilled salmon glazed with sweet teriyaki sauce, served with steamed rice, salad, and miso soup."
   },
   {
@@ -45,6 +45,6 @@ export const dojoMenu = [
     name: "Agedashi Tofu",
     price: "RM 14.80",
     category: "Appetizers & Salads",
-    description": "Deep-fried silken tofu served in a hot, savory dashi-based broth with grated radish and scallions."
+    description: "Deep-fried silken tofu served in a hot, savory dashi-based broth with grated radish and scallions."
   }
 ];

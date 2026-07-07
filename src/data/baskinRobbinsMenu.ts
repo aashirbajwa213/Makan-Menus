@@ -99,7 +99,7 @@ export const baskinRobbinsMenu = [
     name: "Happy Song",
     price: "RM 129.00",
     category: "Ice Cream Cakes",
-    description": "A celebratory 6-inch ice cream cake."
+    description: "A celebratory 6-inch ice cream cake."
   },
   {
     name: "Peek-a-boo Bunny",

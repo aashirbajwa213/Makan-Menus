@@ -39,7 +39,7 @@ export const soruStationMenu = [
     name: "Spaghetti Aglio Olio",
     price: "RM 18.00",
     category: "Pasta",
-    description": "Spicy and garlicky pasta tossed with olive oil and chili flakes."
+    description: "Spicy and garlicky pasta tossed with olive oil and chili flakes."
   },
   {
     name: "Spaghetti Meatball Bolognese",
@@ -51,42 +51,42 @@ export const soruStationMenu = [
     name: "Chicken Burger",
     price: "RM 14.00",
     category: "Burgers",
-    description": "Juicy chicken patty in a toasted bun with fresh veggies and sauce."
+    description: "Juicy chicken patty in a toasted bun with fresh veggies and sauce."
   },
   {
     name: "Beef Burger",
     price: "RM 15.00",
     category: "Burgers",
-    description": "Classic beef burger with savory patty, lettuce, and special dressing."
+    description: "Classic beef burger with savory patty, lettuce, and special dressing."
   },
   {
     name: "Crispy Chicken Burger",
     price: "RM 10.90",
     category: "Burgers",
-    description": "Deep-fried crispy chicken patty served with mayo and lettuce."
+    description: "Deep-fried crispy chicken patty served with mayo and lettuce."
   },
   {
     name: "Mixed Grill Platter",
     price: "RM 37.00",
     category: "Platters",
-    description": "A generous sharing platter featuring a mix of chicken, lamb, and sides."
+    description: "A generous sharing platter featuring a mix of chicken, lamb, and sides."
   },
   {
     name: "Supreme Platter",
     price: "RM 63.00",
     category: "Platters",
-    description": "The ultimate sharing platter with huge portions of meats, pasta, and fries for groups."
+    description: "The ultimate sharing platter with huge portions of meats, pasta, and fries for groups."
   },
   {
     name: "Mushroom Soup",
     price: "RM 5.90",
     category: "Sides & Soups",
-    description": "Warm and creamy mushroom soup, a perfect starter."
+    description: "Warm and creamy mushroom soup, a perfect starter."
   },
   {
     name: "Teh Tarik",
     price: "RM 2.80",
     category: "Beverages",
-    description": "Classic Malaysian pulled milk tea."
+    description: "Classic Malaysian pulled milk tea."
   }
 ];

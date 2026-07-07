@@ -27,13 +27,13 @@ export const bocadoMenu = [
     name: "Calamares Fritos",
     price: "RM 42",
     category: "Tapas",
-    description": "Crispy fried calamari rings, a classic Spanish appetizer perfect for sharing."
+    description: "Crispy fried calamari rings, a classic Spanish appetizer perfect for sharing."
   },
   {
     name: "Briox Meloso",
     price: "RM 39",
     category: "Mains",
-    description": "A deliciously rich, slow-cooked beef bun bursting with flavor."
+    description: "A deliciously rich, slow-cooked beef bun bursting with flavor."
   },
   {
     name: "Paletilla de Cabrito",

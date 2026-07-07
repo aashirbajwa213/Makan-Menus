@@ -39,48 +39,48 @@ export const jibrilMenu = [
     category: "Appetizers & Sides",
     name: "Wild Mushroom Soup",
     price: "RM 16.90",
-    description": "A warm and comforting creamy wild mushroom soup."
+    description: "A warm and comforting creamy wild mushroom soup."
   },
   {
     category: "Appetizers & Sides",
     name: "French Fries",
     price: "RM 11.90",
-    description": "Classic crispy potato fries."
+    description: "Classic crispy potato fries."
   },
   {
     category: "Appetizers & Sides",
     name: "Sweet Potato Fries",
     price: "RM 13.90",
-    description": "Crispy and sweet potato fries."
+    description: "Crispy and sweet potato fries."
   },
   {
     category: "Appetizers & Sides",
     name: "JIBRIL Chicken Skin",
     price: "RM 11.90",
-    description": "Crispy fried chicken skin, perfect for snacking."
+    description: "Crispy fried chicken skin, perfect for snacking."
   },
   {
     category: "Appetizers & Sides",
-    name": "Chili Con Carne",
+    name: "Chili Con Carne",
     price: "RM 17.90",
-    description": "Rich and hearty chili con carne."
+    description: "Rich and hearty chili con carne."
   },
   {
     category: "Appetizers & Sides",
-    name": "Chicken Wings",
+    name: "Chicken Wings",
     price: "RM 21.90",
-    description": "Delicious chicken wings available in BBQ, Salted Egg, or Honey flavors."
+    description: "Delicious chicken wings available in BBQ, Salted Egg, or Honey flavors."
   },
   {
     category: "Promotional Bundles",
     name: "3 Salted Egg Butter Chicken",
     price: "RM 55.90",
-    description": "Bundle of 3 portions of the signature Salted Egg Butter Chicken."
+    description: "Bundle of 3 portions of the signature Salted Egg Butter Chicken."
   },
   {
     category: "Promotional Bundles",
     name: "5 Salted Egg Butter Chicken",
     price: "RM 95.90",
-    description": "Bundle of 5 portions of the signature Salted Egg Butter Chicken."
+    description: "Bundle of 5 portions of the signature Salted Egg Butter Chicken."
   }
 ];

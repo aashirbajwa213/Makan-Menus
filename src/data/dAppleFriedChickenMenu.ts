@@ -39,42 +39,42 @@ export const dAppleFriedChickenMenu = [
     name: "3 pcs Fried Chicken",
     price: "RM 26.00",
     category: "Chicken & Tenders",
-    description": "3 pieces of crispy fried chicken."
+    description: "3 pieces of crispy fried chicken."
   },
   {
     name: "5 pcs Fried Chicken",
     price: "RM 41.90",
     category: "Chicken & Tenders",
-    description": "5 pieces of crispy fried chicken."
+    description: "5 pieces of crispy fried chicken."
   },
   {
     name: "Chicken Tenders (4 pcs)",
     price: "RM 27.90",
     category: "Chicken & Tenders",
-    description": "4 pieces of chicken tenders."
+    description: "4 pieces of chicken tenders."
   },
   {
     name: "Thunder Burger Combo",
     price: "RM 20.90",
     category: "Burgers & Specials",
-    description": "Thunder Burger with a side and a drink."
+    description: "Thunder Burger with a side and a drink."
   },
   {
     name: "Zinger Burger Combo",
     price: "RM 25.10",
     category: "Burgers & Specials",
-    description": "Zinger Burger with a side and a drink."
+    description: "Zinger Burger with a side and a drink."
   },
   {
     name: "Ayam Geprek DAFC Set",
     price: "RM 22.10",
     category: "Burgers & Specials",
-    description": "Ayam Geprek set meal."
+    description: "Ayam Geprek set meal."
   },
   {
     name: "Cheezy Royale Cut / Boomster",
     price: "RM 8.90",
     category: "Burgers & Specials",
-    description": "Cheezy special cut."
+    description: "Cheezy special cut."
   }
 ];

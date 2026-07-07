@@ -33,48 +33,48 @@ export const shabuyakiByNipponSushiMenu = [
     name: "Angus Beef Slices",
     price: "Included",
     category: "Meat Selection (Unlimited)",
-    description": "Premium freshly sliced Angus beef for grill and hotpot."
+    description: "Premium freshly sliced Angus beef for grill and hotpot."
   },
   {
     name: "Australian Lamb",
     price: "Included",
     category: "Meat Selection (Unlimited)",
-    description": "Tender slices of Australian lamb."
+    description: "Tender slices of Australian lamb."
   },
   {
     name: "Seaweed Chicken",
     price: "Included",
     category: "Meat Selection (Unlimited)",
-    description": "Marinated seaweed chicken perfect for yakiniku."
+    description: "Marinated seaweed chicken perfect for yakiniku."
   },
   {
     name: "Barramundi Fish",
     price: "Included",
     category: "Meat Selection (Unlimited)",
-    description": "Fresh barramundi fish slices."
+    description: "Fresh barramundi fish slices."
   },
   {
     name: "Spicy Miso Broth",
     price: "Included",
     category: "Soup Bases",
-    description": "A rich and spicy miso-based soup for shabu-shabu."
+    description: "A rich and spicy miso-based soup for shabu-shabu."
   },
   {
     name: "Sukiyaki Broth",
     price: "Included",
     category: "Soup Bases",
-    description": "Sweet and savory traditional Japanese sukiyaki soup."
+    description: "Sweet and savory traditional Japanese sukiyaki soup."
   },
   {
     name: "Assorted Sushi & Sides",
     price: "Included",
     category: "Buffet Bar",
-    description": "Free-flow assorted sushi (Inari, Kani, Chuka Idako), gyoza, fresh vegetables, fish balls, tofu, and mushrooms."
+    description: "Free-flow assorted sushi (Inari, Kani, Chuka Idako), gyoza, fresh vegetables, fish balls, tofu, and mushrooms."
   },
   {
     name: "Bingsu & Drinks",
     price: "Included",
     category: "Desserts & Beverages",
-    description": "Refreshing shaved ice dessert and various beverage options to complete the meal."
+    description: "Refreshing shaved ice dessert and various beverage options to complete the meal."
   }
 ];

@@ -21,18 +21,18 @@ export const wanomiyaMenu = [
     name: "Kids Buffet Set (90cm - 110cm)",
     price: "RM 98.00",
     category: "All-You-Can-Eat Buffet",
-    description": "Special priced 120-minute all-you-can-eat buffet portion tailored for children between 90cm and 110cm in height."
+    description: "Special priced 120-minute all-you-can-eat buffet portion tailored for children between 90cm and 110cm in height."
   },
   {
     name: "Wagyu Don Set (Teishoku)",
     price: "RM 48.00",
     category: "Lunch Sets & A La Carte",
-    description": "A comforting lunch set consisting of premium Wagyu beef served over a bowl of rice, accompanied by standard Japanese side dishes."
+    description: "A comforting lunch set consisting of premium Wagyu beef served over a bowl of rice, accompanied by standard Japanese side dishes."
   },
   {
     name: "Unlimited Free-Flow Beer",
     price: "RM 28.00",
     category: "Add-ons",
-    description": "Add-on an unlimited free-flow beer package to accompany your 120-minute yakiniku buffet session."
+    description: "Add-on an unlimited free-flow beer package to accompany your 120-minute yakiniku buffet session."
   }
 ];

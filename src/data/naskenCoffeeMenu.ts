@@ -51,24 +51,24 @@ export const naskenCoffeeMenu = [
     name: "Grilled Lamb Chop",
     price: "RM 30.00",
     category: "Western Cuisine",
-    description": "Succulent grilled lamb shoulder served with sides and signature sauce."
+    description: "Succulent grilled lamb shoulder served with sides and signature sauce."
   },
   {
     name: "Nasi Lemak",
     price: "RM 6.90",
     category: "Malay Cuisine",
-    description": "Traditional Malaysian coconut milk rice served with spicy sambal, egg, and peanuts."
+    description: "Traditional Malaysian coconut milk rice served with spicy sambal, egg, and peanuts."
   },
   {
     name: "Nasi Ayam Goreng Kunyit",
     price: "RM 8.00",
     category: "Malay Cuisine",
-    description": "Fragrant white rice served with turmeric fried chicken and soy sauce."
+    description: "Fragrant white rice served with turmeric fried chicken and soy sauce."
   },
   {
     name: "Cheesy Meatballs",
     price: "RM 7.00",
     category: "Snacks",
-    description": "Juicy meatballs generously topped with creamy cheese sauce."
+    description: "Juicy meatballs generously topped with creamy cheese sauce."
   }
 ];

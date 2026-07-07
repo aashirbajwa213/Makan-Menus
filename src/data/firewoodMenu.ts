@@ -33,18 +33,18 @@ export const firewoodMenu = [
     name: "Certified Australia Angus Ribeye (per 100g)",
     price: "RM 65.00",
     category: "Steaks & Meats",
-    description": "Premium 200-day grain-fed Angus ribeye cooked over open coals"
+    description: "Premium 200-day grain-fed Angus ribeye cooked over open coals"
   },
   {
     name: "Firewood Duck Royale (per 100g)",
     price: "RM 80.00",
     category: "Specialties",
-    description": "Aged duck breast and slow-braised duck leg paired with charred grapes and pear"
+    description: "Aged duck breast and slow-braised duck leg paired with charred grapes and pear"
   },
   {
     name: "Japan A5 Miyazaki Wagyu Ribeye (per 100g)",
     price: "RM 185.00",
     category: "Steaks & Meats",
-    description": "Exquisite Japanese A5 Wagyu with rich marbling, grilled to perfection"
+    description: "Exquisite Japanese A5 Wagyu with rich marbling, grilled to perfection"
   }
 ];

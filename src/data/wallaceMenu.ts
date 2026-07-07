@@ -75,7 +75,7 @@ export const wallaceMenu = [
     name: "Hash Brown",
     price: "RM 5.90",
     category: "Snacks & Sides",
-    description": "Crispy, golden-fried potato hash brown."
+    description: "Crispy, golden-fried potato hash brown."
   },
   {
     name: "Onion Rings",
@@ -99,6 +99,6 @@ export const wallaceMenu = [
     name: "Leisure Meal (2-Piece Fried Chicken)",
     price: "RM 18.90",
     category: "Combos & Sets",
-    description": "Two pieces of signature crispy fried chicken served with a side and a drink."
+    description: "Two pieces of signature crispy fried chicken served with a side and a drink."
   }
 ];

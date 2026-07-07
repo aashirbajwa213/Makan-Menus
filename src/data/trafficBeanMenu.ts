@@ -33,13 +33,13 @@ export const trafficBeanMenu = [
     name: "Classic Hot Chocolate",
     price: "RM 14.00",
     category: "Non-Caffeinated",
-    description": "Rich and comforting hot chocolate."
+    description: "Rich and comforting hot chocolate."
   },
   {
     name: "Lavender Oat Matcha",
     price: "RM 16.00",
     category: "Specialty Drinks",
-    description": "A soothing mix of premium matcha, oat milk, and delicate floral lavender notes."
+    description: "A soothing mix of premium matcha, oat milk, and delicate floral lavender notes."
   },
   {
     name: "Creamy Tomyam Chicken Popcorn Spaghetti",
@@ -57,6 +57,6 @@ export const trafficBeanMenu = [
     name: "Chicken Caesar Salad",
     price: "RM 22.00",
     category: "Salads",
-    description": "Fresh greens topped with grilled chicken, croutons, and rich Caesar dressing."
+    description: "Fresh greens topped with grilled chicken, croutons, and rich Caesar dressing."
   }
 ];

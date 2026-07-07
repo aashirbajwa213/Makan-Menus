@@ -63,42 +63,42 @@ export const meokjaCafeMenu = [
     name: "Mixed Platter Kimbap",
     price: "RM 39.90",
     category: "Sides & Snacks",
-    description": "A premium combination platter of various kimbap flavors."
+    description: "A premium combination platter of various kimbap flavors."
   },
   {
     name: "Pajeon",
     price: "RM 18.00",
     category: "Sides & Snacks",
-    description": "Traditional Korean savory pancake."
+    description: "Traditional Korean savory pancake."
   },
   {
     name: "Sotteok Sotteok",
     price: "RM 15.00",
     category: "Sides & Snacks",
-    description": "Popular Korean street food skewer with alternating sausages and rice cakes."
+    description: "Popular Korean street food skewer with alternating sausages and rice cakes."
   },
   {
     name: "Gimmari",
     price: "RM 12.00",
     category: "Sides & Snacks",
-    description": "8 pieces of deep-fried seaweed rolls stuffed with seasoned glass noodles."
+    description: "8 pieces of deep-fried seaweed rolls stuffed with seasoned glass noodles."
   },
   {
     name: "Lemon / Peach Tea",
     price: "RM 7.50",
     category: "Beverages",
-    description": "Refreshing iced fruit tea."
+    description: "Refreshing iced fruit tea."
   },
   {
     name: "Passion Fruit Ade",
     price: "RM 12.00",
     category: "Beverages",
-    description": "Sparkling Korean-style passion fruit drink."
+    description: "Sparkling Korean-style passion fruit drink."
   },
   {
     name: "Specialty Latte",
     price: "RM 13.00",
     category: "Beverages",
-    description": "Premium Korean-inspired iced latte."
+    description: "Premium Korean-inspired iced latte."
   }
 ];

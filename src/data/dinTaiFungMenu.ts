@@ -33,13 +33,13 @@ export const dinTaiFungMenu = [
     name: "Truffle & Chicken Xiao Long Bao",
     price: "RM 62.00",
     category: "Steamed Dumplings",
-    description": "An indulgent take on the classic dumpling, infused with the earthy aroma of black truffle."
+    description: "An indulgent take on the classic dumpling, infused with the earthy aroma of black truffle."
   },
   {
     name: "Chocolate Xiao Long Bao",
     price: "RM 10.00",
     category: "Steamed Dumplings",
-    description": "A sweet dessert dumpling filled with rich, molten chocolate."
+    description: "A sweet dessert dumpling filled with rich, molten chocolate."
   },
   {
     name: "Mini Lava Custard Bun",
@@ -51,24 +51,24 @@ export const dinTaiFungMenu = [
     name: "Crispy Prawn Cake",
     price: "RM 22.00",
     category: "Buns & Snacks",
-    description": "Golden, deep-fried prawn cakes with a crispy exterior and a juicy seafood center."
+    description: "Golden, deep-fried prawn cakes with a crispy exterior and a juicy seafood center."
   },
   {
     name: "Hot & Sour Soup",
     price: "RM 16.00",
     category: "Noodle & Soup",
-    description": "A traditional, thick soup balancing spicy and tangy flavors, loaded with tofu, wood ear mushrooms, and bamboo shoots."
+    description: "A traditional, thick soup balancing spicy and tangy flavors, loaded with tofu, wood ear mushrooms, and bamboo shoots."
   },
   {
     name: "Braised Beef Noodle Soup",
     price: "RM 32.00",
     category: "Noodle & Soup",
-    description": "Tender chunks of braised beef served with springy noodles in a deeply flavorful, aromatic dark broth."
+    description: "Tender chunks of braised beef served with springy noodles in a deeply flavorful, aromatic dark broth."
   },
   {
     name: "Shrimp & Chicken Wonton Noodle Soup",
     price: "RM 27.00",
     category: "Noodle & Soup",
-    description": "Delicate wontons stuffed with shrimp and chicken, served over noodles in a clear, comforting broth."
+    description: "Delicate wontons stuffed with shrimp and chicken, served over noodles in a clear, comforting broth."
   }
 ];

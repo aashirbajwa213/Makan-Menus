@@ -51,7 +51,7 @@ export const hotzillaSs15Menu = [
     name: "The Gulung",
     price: "RM 11.90",
     category: "Side Dishes",
-    description": "Savory enoki mushrooms wrapped in tender beef slices."
+    description: "Savory enoki mushrooms wrapped in tender beef slices."
   },
   {
     name: "Cheese Corn",
@@ -69,6 +69,6 @@ export const hotzillaSs15Menu = [
     name: "The Fungus",
     price: "RM 12.00",
     category: "Side Dishes",
-    description": "Deep-fried, crispy shiitake mushrooms."
+    description: "Deep-fried, crispy shiitake mushrooms."
   }
 ];

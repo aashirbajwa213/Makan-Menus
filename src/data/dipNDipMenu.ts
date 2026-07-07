@@ -45,19 +45,19 @@ export const dipNDipMenu = [
     name: "Extra Large Dip N Share Box",
     price: "RM 165.00",
     category: "Sharing Boxes",
-    description": "A massive platter of assorted sweet treats and dips meant for large groups."
+    description: "A massive platter of assorted sweet treats and dips meant for large groups."
   },
   {
     name: "Dip N Dip Mini Gathering Box",
     price: "RM 135.00",
     category: "Sharing Boxes",
-    description": "A smaller, but plentiful collection of assorted treats and dips."
+    description: "A smaller, but plentiful collection of assorted treats and dips."
   },
   {
     name: "Dipndip Family Gathering Box",
     price: "RM 235.00",
     category: "Sharing Boxes",
-    description": "The ultimate dessert platter built to satisfy an entire family's sweet cravings."
+    description: "The ultimate dessert platter built to satisfy an entire family's sweet cravings."
   },
   {
     name: "Waffle Quesadillas – Beef",
@@ -81,12 +81,12 @@ export const dipNDipMenu = [
     name: "Dipndip Mojito",
     price: "RM 26.00",
     category: "Beverages",
-    description": "A refreshing, non-alcoholic mojito mocktail."
+    description: "A refreshing, non-alcoholic mojito mocktail."
   },
   {
     name: "S'mores Milkshake",
     price: "RM 22.90",
     category: "Beverages",
-    description": "Creamy milkshake blended with toasted marshmallow and chocolate flavors."
+    description: "Creamy milkshake blended with toasted marshmallow and chocolate flavors."
   }
 ];

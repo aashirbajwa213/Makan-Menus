@@ -39,7 +39,7 @@ export const brewHouseMenu = [
     name: "Pigs In A Blanket",
     price: "RM 21.80",
     category: "Appetizers & Snacks",
-    description": "Delicious sausages wrapped in crispy bacon."
+    description: "Delicious sausages wrapped in crispy bacon."
   },
   {
     name: "Grilled Chicken Chop",
@@ -57,48 +57,48 @@ export const brewHouseMenu = [
     name: "Brew House Signature Pork Chop",
     price: "RM 25.80",
     category: "Mains",
-    description": "The signature juicy pork chop grilled to perfection."
+    description: "The signature juicy pork chop grilled to perfection."
   },
   {
     name: "Brew House Pork Burger",
     price: "RM 24.80",
     category: "Mains",
-    description": "A hearty burger featuring a flavorful pork patty and fresh vegetables."
+    description: "A hearty burger featuring a flavorful pork patty and fresh vegetables."
   },
   {
     name: "Mac & Chick Burger",
     price: "RM 27.80",
     category: "Mains",
-    description": "A unique burger combination of creamy mac and cheese with a chicken patty."
+    description: "A unique burger combination of creamy mac and cheese with a chicken patty."
   },
   {
     name: "Bacon Steak",
     price: "RM 29.80",
     category: "Mains",
-    description": "A thick, juicy cut of bacon steak grilled and served with savory sides."
+    description: "A thick, juicy cut of bacon steak grilled and served with savory sides."
   },
   {
     name: "Grilled Lamb Chop",
     price: "RM 44.80",
     category: "Mains",
-    description": "Premium lamb chops grilled and seasoned with aromatic herbs."
+    description: "Premium lamb chops grilled and seasoned with aromatic herbs."
   },
   {
     name: "Grilled Grain-Fed Beef (200gm)",
     price: "RM 49.80",
     category: "Mains",
-    description": "A tender 200g cut of grain-fed beef steak grilled to your preference."
+    description: "A tender 200g cut of grain-fed beef steak grilled to your preference."
   },
   {
     name: "Sausage & Luncheon Meat Fried Rice",
     price: "RM 17.80",
     category: "Asian Specialties",
-    description": "Wok-fried rice mixed with flavorful sausage and luncheon meat slices."
+    description: "Wok-fried rice mixed with flavorful sausage and luncheon meat slices."
   },
   {
     name: "Nyonya Laksa with Roasted Pork",
     price: "RM 20.80",
     category: "Asian Specialties",
-    description": "A rich, spicy coconut milk-based noodle soup topped with crispy roasted pork."
+    description: "A rich, spicy coconut milk-based noodle soup topped with crispy roasted pork."
   }
 ];
