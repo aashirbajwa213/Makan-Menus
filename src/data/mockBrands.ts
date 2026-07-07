@@ -328,40 +328,6 @@ export const brandMocks: Record<string, any[]> = {
       menu: mcdonaldsMenu
     },
     {
-      name: "Domino's Pizza",
-      slug: "dominos-pizza",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pizza Delivery", colors: "bg-blue-600 text-white" }],
-      desc: "Leading pizza delivery chain known for its wide variety of delicious, freshly baked pizzas and fast service.",
-      seoArticle: `\n<h2>Domino's Pizza Malaysia</h2>\n<p>Domino's Pizza Malaysia is a leading pizza delivery chain known for its wide variety of delicious, freshly baked pizzas with local and international flavors. They offer a diverse menu including signature pizzas, hearty pasta, savory sides, and sweet desserts like the popular Banana Kaya. With a strong commitment to fast service and Halal-certified ingredients, Domino's remains a top choice for convenient and satisfying meals across the country.</p>\n`,
-      faqs: [
-        { q: "Does Domino's Pizza Malaysia offer delivery services?", a: "Yes, Domino's provides extensive and fast delivery services across Malaysia. You can easily order via their official website or mobile app." },
-        { q: "Are there any vegetarian options available on the Domino's Malaysia menu?", a: "Absolutely. Domino's offers vegetarian-friendly choices such as the Vegie Galore pizza, which is topped with fresh mushrooms, green peppers, onions, and ripe olives." },
-        { q: "Is Domino's Pizza Malaysia Halal-certified?", a: "Yes, all Domino's Pizza outlets in Malaysia are strictly Halal-certified by JAKIM, ensuring that all ingredients and preparation methods meet Islamic dietary guidelines." },
-        { q: "What are the pizza sizes available at Domino's Malaysia?", a: "Customers can choose from four main pizza sizes to suit their appetite: Personal (6-inch), Regular (9-inch), Large (12-inch), and Xtra Large (15-inch)." },
-        { q: "How can I find the latest promotions and deals for Domino's Malaysia?", a: "The best way to find current promotions, such as 'Super Tuesday', everyday value bundles, and app-exclusive offers, is by checking the 'Hot Deals' section on the official Domino's Malaysia website or app." }
-      ],
-      menu: dominosPizzaMenu
-    },
-    {
-      name: "Stuff'd",
-      slug: "stuffd",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Healthy Mexican", colors: "bg-green-600 text-white" }, { name: "Kebabs", colors: "bg-orange-600 text-white" }],
-      desc: "Popular quick-service chain specializing in fresh, customizable kebabs, burritos, and daily bowls.",
-      seoArticle: `\n<h2>Stuff'd Malaysia</h2>\n<p>Stuff'd is a popular quick-service restaurant chain in Malaysia specializing in fresh, Mexican and Turkish-inspired casual meals. They are well-known for their customizable kebabs, burritos, quesadillas, and daily bowls that feature high-quality ingredients like grilled chicken, beef, and fresh vegetables. Emphasizing health and generous portions, Stuff'd allows customers to build their own nutritious meals on the go.</p>\n`,
-      faqs: [
-        { q: "What is the most popular item on the Stuff'd Malaysia menu?", a: "The Chicken Kebab and Chicken Burrito are among the most popular choices, loved for their generous portions, fresh ingredients, and flavorful signature sauces." },
-        { q: "Are there vegetarian options available at Stuff'd Malaysia?", a: "Yes, Stuff'd offers delicious vegetarian options. You can customize any Kebab, Burrito, Quesadilla, or Daily Bowl by choosing guacamole or hummus instead of meat." },
-        { q: "Is Stuff'd in Malaysia Halal-certified?", a: "Yes, Stuff'd Malaysia is officially Halal-certified by JAKIM, making it a reliable and popular choice for Muslim diners." },
-        { q: "How much does a Stuff'd Daily Bowl cost in Malaysia?", a: "The price for a Stuff'd Daily Bowl typically ranges from RM 16.90 for the vegetarian option to RM 18.50 for chicken or beef, though delivery app prices may vary." },
-        { q: "Can I customize my meal at Stuff'd?", a: "Absolutely! Stuff'd operates on a build-your-own model, allowing you to select your preferred base, proteins, fresh vegetables, and a variety of signature sauces." }
-      ],
-      menu: stuffdMenu
-    },
-    {
       name: "AllAce (formerly Wallace)",
       slug: "allace",
       category: 'fast-food',
@@ -377,40 +343,6 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Can I order AllAce for delivery?", a: "Yes, AllAce is widely available for delivery on platforms like GrabFood and Foodpanda." }
       ],
       menu: allAceMenu
-    },
-    {
-      name: "O'Briens Irish Sandwich Cafe",
-      slug: "obriens",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1481070414801-51fd732d7184?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Sandwiches & Cafe", colors: "bg-green-700 text-white" }],
-      desc: "Healthy lifestyle sandwich cafe known for its made-to-order hand-cut sandwiches, wraps, salads, and freshly brewed coffees.",
-      seoArticle: `\n<h2>O'Briens Irish Sandwich Cafe Malaysia</h2>\n<p>O'Briens Irish Sandwich Cafe is a highly recognizable healthy lifestyle brand in Malaysia, renowned for its hearty, hand-cut, made-to-order sandwiches, salads, and wraps. Originating from Ireland, O'Briens focuses on fresh, premium ingredients, avoiding deep-fried foods and heavy preservatives. With numerous outlets across major malls and office buildings in Malaysia, it serves as a popular quick-service option for health-conscious professionals seeking wholesome meals, artisanal coffees, and fresh juices.</p>\n`,
-      faqs: [
-        { q: "What is O'Briens Irish Sandwich Cafe known for?", a: "O'Briens is famous for its healthy, made-to-order sandwiches using premium breads (like Shambo, wraps, and ciabatta), fresh salads, and signature Irish-inspired fillings." },
-        { q: "Is O'Briens Malaysia halal?", a: "Yes, O'Briens Irish Sandwich Cafe in Malaysia is certified halal by JAKIM, ensuring all ingredients and food preparations meet strict halal standards." },
-        { q: "How much is a sandwich at O'Briens?", a: "Prices typically range from RM 15 to RM 23 for signature sandwiches, such as the Chicken Tripledecker Toastie or Smoked Salmon wrap." },
-        { q: "Do they serve vegetarian options?", a: "Absolutely. O'Briens offers several vegetarian choices, including the Houmous Sundried Tomato Wrap and various customizable fresh salads." },
-        { q: "Does O'Briens offer delivery?", a: "Yes, O'Briens is widely available on major delivery platforms like GrabFood and foodpanda across Malaysia." }
-      ],
-      menu: oBriensMenu
-    },
-    {
-      name: "Subway",
-      slug: "subway",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Subs", colors: "bg-green-600 text-white" }],
-      desc: "Global sandwich chain offering customizable submarine sandwiches, wraps, and salads with fresh ingredients.",
-      seoArticle: `\n<h2>Subway Malaysia</h2>\n<p>Subway is one of the most ubiquitous and beloved fast-food chains in Malaysia, championing the "Eat Fresh" motto. Famous for its customizable 6-inch and Footlong submarine sandwiches, Subway allows customers to tailor their meals exactly to their preferences—from the choice of freshly baked bread to proteins, a wide array of crisp vegetables, and signature sauces. Beyond subs, Subway Malaysia also offers wraps, salads, and their highly addictive, freshly baked cookies, making it a versatile choice for quick, relatively healthy dining.</p>\n`,
-      faqs: [
-        { q: "What are the most popular subs at Subway Malaysia?", a: "Popular choices include the Italian B.M.T.™, Roasted Chicken, Subway Melt™, and the classic Tuna sub." },
-        { q: "How much does a Subway 6-inch sandwich cost in Malaysia?", a: "As of 2024, a standard 6-inch sub typically ranges from RM 8.90 (like the Veggie Delite) up to RM 16.85 or more for premium options, though prices vary by location." },
-        { q: "Is Subway Malaysia halal certified?", a: "Yes, all Subway restaurants in Malaysia are fully certified halal by JAKIM." },
-        { q: "Does Subway sell their cookies separately?", a: "Yes, Subway's famous cookies (such as Chocolate Chip and Double Chocolate) can be purchased individually or in boxes of 3, 6, or 12." },
-        { q: "What is the 'Sub of the Day' promotion?", a: "Subway Malaysia historically runs promotions like the 'Everyday Value' or 'Sub of the Day', offering specific 6-inch subs at a discounted price on certain days of the week." }
-      ],
-      menu: subwayMenu
     },
     {
       name: "Potato Story",
@@ -5226,6 +5158,23 @@ export const brandMocks: Record<string, any[]> = {
         { q: "How much does a meal typically cost at Marini's On 57?", a: "As a premium fine-dining establishment, individual main courses and pastas typically range from RM 128 to RM 458, while full degustation menus and a full dining experience can range from RM 500 to over RM 700 per person." },
         { q: "Is there a minimum spend requirement at Marini's On 57?", a: "Yes, prime window seating with direct views of the Petronas Twin Towers often requires a minimum spend of around RM 300++ per person, subject to availability." },
         { q: "Do I need to make a reservation before visiting?", a: "Advanced reservations are highly recommended due to the restaurant's popularity and exclusivity, especially if you wish to secure a window table." }
+    {
+      name: "Domino's Pizza",
+      slug: "dominos-pizza",
+      category: 'fast-food',
+      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Pizza Delivery", colors: "bg-blue-600 text-white" }],
+      desc: "Leading pizza delivery chain known for its wide variety of delicious, freshly baked pizzas and fast service.",
+      seoArticle: `\n<h2>Domino's Pizza Malaysia</h2>\n<p>Domino's Pizza Malaysia is a leading pizza delivery chain known for its wide variety of delicious, freshly baked pizzas with local and international flavors. They offer a diverse menu including signature pizzas, hearty pasta, savory sides, and sweet desserts like the popular Banana Kaya. With a strong commitment to fast service and Halal-certified ingredients, Domino's remains a top choice for convenient and satisfying meals across the country.</p>\n`,
+      faqs: [
+        { q: "Does Domino's Pizza Malaysia offer delivery services?", a: "Yes, Domino's provides extensive and fast delivery services across Malaysia. You can easily order via their official website or mobile app." },
+        { q: "Are there any vegetarian options available on the Domino's Malaysia menu?", a: "Absolutely. Domino's offers vegetarian-friendly choices such as the Vegie Galore pizza, which is topped with fresh mushrooms, green peppers, onions, and ripe olives." },
+        { q: "Is Domino's Pizza Malaysia Halal-certified?", a: "Yes, all Domino's Pizza outlets in Malaysia are strictly Halal-certified by JAKIM, ensuring that all ingredients and preparation methods meet Islamic dietary guidelines." },
+        { q: "What are the pizza sizes available at Domino's Malaysia?", a: "Customers can choose from four main pizza sizes to suit their appetite: Personal (6-inch), Regular (9-inch), Large (12-inch), and Xtra Large (15-inch)." },
+        { q: "How can I find the latest promotions and deals for Domino's Malaysia?", a: "The best way to find current promotions, such as 'Super Tuesday', everyday value bundles, and app-exclusive offers, is by checking the 'Hot Deals' section on the official Domino's Malaysia website or app." }
+      ],
+      menu: dominosPizzaMenu
+    },
       ],
       menu: marinisOn57Menu
     },
@@ -6592,6 +6541,57 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Does the Salad Atelier menu have keto-friendly options?", a: "Absolutely. The menu features a dedicated 'Keto Fuel' section with low-carb, high-protein options like the Creamy Broccoli Chicken Bowl and the Grilled Salmon Salsa Bowl." },
         { q: "Are there hot meals available on the Salad Atelier menu?", a: "Yes, in addition to fresh salads and cold poke bowls, Salad Atelier serves a variety of hot dishes such as the SA Chicken Rice, Spicy Korean Pasta, and Chicken Aglio Olio." },
         { q: "Does Salad Atelier Malaysia offer promotions or combo meals?", a: "Yes, Salad Atelier frequently runs 'Buy 1 Free 1' promotions and combo deals, especially on delivery platforms like Foodpanda, where you can pair meals with beverages for added value." }
+    {
+      name: "Subway",
+      slug: "subway",
+      category: 'fast-food',
+      image: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Subs", colors: "bg-green-600 text-white" }],
+      desc: "Global sandwich chain offering customizable submarine sandwiches, wraps, and salads with fresh ingredients.",
+      seoArticle: `\n<h2>Subway Malaysia</h2>\n<p>Subway is one of the most ubiquitous and beloved fast-food chains in Malaysia, championing the "Eat Fresh" motto. Famous for its customizable 6-inch and Footlong submarine sandwiches, Subway allows customers to tailor their meals exactly to their preferences—from the choice of freshly baked bread to proteins, a wide array of crisp vegetables, and signature sauces. Beyond subs, Subway Malaysia also offers wraps, salads, and their highly addictive, freshly baked cookies, making it a versatile choice for quick, relatively healthy dining.</p>\n`,
+      faqs: [
+        { q: "What are the most popular subs at Subway Malaysia?", a: "Popular choices include the Italian B.M.T.™, Roasted Chicken, Subway Melt™, and the classic Tuna sub." },
+        { q: "How much does a Subway 6-inch sandwich cost in Malaysia?", a: "As of 2024, a standard 6-inch sub typically ranges from RM 8.90 (like the Veggie Delite) up to RM 16.85 or more for premium options, though prices vary by location." },
+        { q: "Is Subway Malaysia halal certified?", a: "Yes, all Subway restaurants in Malaysia are fully certified halal by JAKIM." },
+        { q: "Does Subway sell their cookies separately?", a: "Yes, Subway's famous cookies (such as Chocolate Chip and Double Chocolate) can be purchased individually or in boxes of 3, 6, or 12." },
+        { q: "What is the 'Sub of the Day' promotion?", a: "Subway Malaysia historically runs promotions like the 'Everyday Value' or 'Sub of the Day', offering specific 6-inch subs at a discounted price on certain days of the week." }
+    {
+      name: "Stuff'd",
+      slug: "stuffd",
+      category: 'fast-food',
+      image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Healthy Mexican", colors: "bg-green-600 text-white" }, { name: "Kebabs", colors: "bg-orange-600 text-white" }],
+      desc: "Popular quick-service chain specializing in fresh, customizable kebabs, burritos, and daily bowls.",
+      seoArticle: `\n<h2>Stuff'd Malaysia</h2>\n<p>Stuff'd is a popular quick-service restaurant chain in Malaysia specializing in fresh, Mexican and Turkish-inspired casual meals. They are well-known for their customizable kebabs, burritos, quesadillas, and daily bowls that feature high-quality ingredients like grilled chicken, beef, and fresh vegetables. Emphasizing health and generous portions, Stuff'd allows customers to build their own nutritious meals on the go.</p>\n`,
+      faqs: [
+        { q: "What is the most popular item on the Stuff'd Malaysia menu?", a: "The Chicken Kebab and Chicken Burrito are among the most popular choices, loved for their generous portions, fresh ingredients, and flavorful signature sauces." },
+        { q: "Are there vegetarian options available at Stuff'd Malaysia?", a: "Yes, Stuff'd offers delicious vegetarian options. You can customize any Kebab, Burrito, Quesadilla, or Daily Bowl by choosing guacamole or hummus instead of meat." },
+        { q: "Is Stuff'd in Malaysia Halal-certified?", a: "Yes, Stuff'd Malaysia is officially Halal-certified by JAKIM, making it a reliable and popular choice for Muslim diners." },
+        { q: "How much does a Stuff'd Daily Bowl cost in Malaysia?", a: "The price for a Stuff'd Daily Bowl typically ranges from RM 16.90 for the vegetarian option to RM 18.50 for chicken or beef, though delivery app prices may vary." },
+        { q: "Can I customize my meal at Stuff'd?", a: "Absolutely! Stuff'd operates on a build-your-own model, allowing you to select your preferred base, proteins, fresh vegetables, and a variety of signature sauces." }
+    {
+      name: "O'Briens Irish Sandwich Cafe",
+      slug: "obriens",
+      category: 'fast-food',
+      image: "https://images.unsplash.com/photo-1481070414801-51fd732d7184?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Sandwiches & Cafe", colors: "bg-green-700 text-white" }],
+      desc: "Healthy lifestyle sandwich cafe known for its made-to-order hand-cut sandwiches, wraps, salads, and freshly brewed coffees.",
+      seoArticle: `\n<h2>O'Briens Irish Sandwich Cafe Malaysia</h2>\n<p>O'Briens Irish Sandwich Cafe is a highly recognizable healthy lifestyle brand in Malaysia, renowned for its hearty, hand-cut, made-to-order sandwiches, salads, and wraps. Originating from Ireland, O'Briens focuses on fresh, premium ingredients, avoiding deep-fried foods and heavy preservatives. With numerous outlets across major malls and office buildings in Malaysia, it serves as a popular quick-service option for health-conscious professionals seeking wholesome meals, artisanal coffees, and fresh juices.</p>\n`,
+      faqs: [
+        { q: "What is O'Briens Irish Sandwich Cafe known for?", a: "O'Briens is famous for its healthy, made-to-order sandwiches using premium breads (like Shambo, wraps, and ciabatta), fresh salads, and signature Irish-inspired fillings." },
+        { q: "Is O'Briens Malaysia halal?", a: "Yes, O'Briens Irish Sandwich Cafe in Malaysia is certified halal by JAKIM, ensuring all ingredients and food preparations meet strict halal standards." },
+        { q: "How much is a sandwich at O'Briens?", a: "Prices typically range from RM 15 to RM 23 for signature sandwiches, such as the Chicken Tripledecker Toastie or Smoked Salmon wrap." },
+        { q: "Do they serve vegetarian options?", a: "Absolutely. O'Briens offers several vegetarian choices, including the Houmous Sundried Tomato Wrap and various customizable fresh salads." },
+        { q: "Does O'Briens offer delivery?", a: "Yes, O'Briens is widely available on major delivery platforms like GrabFood and foodpanda across Malaysia." }
+      ],
+      menu: oBriensMenu
+    },
+      ],
+      menu: stuffdMenu
+    },
+      ],
+      menu: subwayMenu
+    },
       ],
       menu: saladAtelierMenu
     },
