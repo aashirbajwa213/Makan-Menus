@@ -1,33 +1,75 @@
 export const krispyKremeMenu = [
-  { name: "Original Glazed® Doughnut (Individual)", price: "RM 4.24", category: "Original Glazed Doughnuts", description: "Krispy Kreme's world-famous signature doughnut — a light, airy yeast-raised ring glazed with a warm, sweet, melt-in-your-mouth original glaze. Best enjoyed fresh and warm." },
-  { name: "Box of 3 – Original Glazed®", price: "RM 15.94", category: "Original Glazed Doughnuts", description: "A box of 3 classic Original Glazed® doughnuts — perfect for a personal treat or sharing with a friend." },
-  { name: "Box of 6 – Original Glazed®", price: "RM 29.15", category: "Original Glazed Doughnuts", description: "Half a dozen of the iconic Original Glazed® doughnuts. A crowd-pleasing classic box great for the office or family." },
-  { name: "Box of 12 – Original Glazed®", price: "RM 50.84", category: "Original Glazed Doughnuts", description: "A full dozen of Original Glazed® doughnuts. The best value for sharing at gatherings, celebrations, or the office." },
-  { name: "Chocolate Iced Doughnut", price: "RM 4.90", category: "Assorted Doughnuts", description: "A classic ring doughnut topped with rich chocolate icing for a simple yet indulgent chocolatey bite." },
-  { name: "Chocolate Sprinkles Doughnut", price: "RM 4.90", category: "Assorted Doughnuts", description: "A chocolate-iced doughnut topped with colorful rainbow sprinkles — fun, festive, and a perennial fan favorite." },
-  { name: "Strawberry Iced Doughnut", price: "RM 4.90", category: "Assorted Doughnuts", description: "A ring doughnut adorned with sweet pink strawberry-flavored icing, offering a fruity and delightful flavor." },
-  { name: "Chocolate Kreme™ Doughnut", price: "RM 5.20", category: "Assorted Doughnuts", description: "A doughnut filled with creamy chocolate Kreme™ filling and topped with chocolate icing — doubly decadent." },
-  { name: "Original Kreme™ Doughnut", price: "RM 5.20", category: "Assorted Doughnuts", description: "A doughnut filled with Krispy Kreme's signature vanilla Kreme™ filling and drizzled with glaze for a sweet creamy center." },
-  { name: "Box of 3 – Assorted Doughnuts", price: "RM 16.89", category: "Assorted Doughnuts", description: "A pick of 3 assorted doughnuts from the standard variety range — great for trying multiple flavors." },
-  { name: "Box of 6 – Assorted Doughnuts", price: "RM 31.04", category: "Assorted Doughnuts", description: "Half a dozen assorted doughnuts chosen from the core flavor range — ideal for sharing." },
-  { name: "Box of 12 – Assorted Doughnuts", price: "RM 55.57", category: "Assorted Doughnuts", description: "A full dozen assorted doughnuts — perfect for larger groups, parties, and celebrations." },
-  { name: "Oreo® Doughnut", price: "RM 5.50", category: "Premium Doughnuts", description: "A premium doughnut topped with cookies-and-cream icing and Oreo® cookie crumble pieces — a beloved collaboration." },
-  { name: "Lotus Biscoff® Doughnut", price: "RM 5.50", category: "Premium Doughnuts", description: "A premium doughnut topped with Lotus Biscoff® spread and crunchy cookie crumble, delivering a distinctive caramelized spice flavor." },
-  { name: "Kit Kat® Doughnut", price: "RM 5.50", category: "Premium Doughnuts", description: "A premium doughnut topped with chocolate icing and Kit Kat® wafer pieces, combining two irresistible treats into one." },
-  { name: "Chocolate Hazelnut Doughnut", price: "RM 5.50", category: "Premium Doughnuts", description: "A decadent doughnut filled and topped with chocolate-hazelnut spread — rich, nutty, and indulgent." },
-  { name: "Box of 3 – Premium Doughnuts", price: "RM 17.83", category: "Premium Doughnuts", description: "A box of 3 premium specialty doughnuts for those who want to try the more elevated, topped varieties." },
-  { name: "Box of 6 – Premium Doughnuts", price: "RM 32.92", category: "Premium Doughnuts", description: "Half a dozen premium doughnuts — great value for experiencing Krispy Kreme's most special and indulgent creations." },
-  { name: "Mini's Box of 16", price: "RM 36.70", category: "Minis", description: "Sixteen bite-sized mini Original Glazed® doughnuts — adorably small, perfectly snackable, and great for sharing at events." },
-  { name: "Americano (Hot/Iced)", price: "RM 11.79", category: "Coffee & Beverages", description: "A classic espresso-based black coffee, available hot or over ice — bold, clean, and the perfect pairing for a fresh doughnut." },
-  { name: "Latte (Hot/Iced)", price: "RM 14.62", category: "Coffee & Beverages", description: "Smooth espresso blended with steamed milk, available hot or iced. Rich and creamy with a balanced coffee flavour." },
-  { name: "Cappuccino (Hot/Iced)", price: "RM 14.62", category: "Coffee & Beverages", description: "A classic espresso topped with equal parts steamed and frothed milk — bold, frothy, and satisfying." },
-  { name: "Caramel Latte (Hot/Iced)", price: "RM 15.09", category: "Coffee & Beverages", description: "A flavoured latte enriched with sweet caramel syrup and steamed milk — a smooth and indulgently sweet coffee treat." },
-  { name: "Mocha (Hot/Iced)", price: "RM 16.03", category: "Coffee & Beverages", description: "Espresso blended with rich chocolate syrup and steamed milk for a coffee and chocolate lover's dream beverage." },
-  { name: "Caramel Macchiato", price: "RM 17.83", category: "Coffee & Beverages", description: "Layers of vanilla syrup, steamed milk, bold espresso, and a caramel drizzle — a beautifully presented, sweet-meets-strong coffee." },
-  { name: "Hot Chocolate", price: "RM 13.00", category: "Coffee & Beverages", description: "A warm and velvety hot chocolate made with rich cocoa — comforting and perfect for pairing with your favourite doughnut." },
-  { name: "Vanilla Chiller", price: "RM 16.03", category: "Chillers", description: "A blended frozen vanilla beverage — cool, creamy, and smooth. Krispy Kreme's answer to a milkshake-style indulgence." },
-  { name: "Chocolate Chiller", price: "RM 16.03", category: "Chillers", description: "A rich blended frozen chocolate drink — thick, creamy, and deeply chocolatey for the ultimate dessert-drink experience." },
-  { name: "Caramel Chiller", price: "RM 16.03", category: "Chillers", description: "A smooth blended frozen drink swirled with sweet caramel flavor — dessert in a cup, perfect for the Malaysian heat." },
-  { name: "Mocha Chiller", price: "RM 16.89", category: "Chillers", description: "A blended frozen mocha drink combining coffee and chocolate for an icy, caffeinated, and indulgent treat." },
-  { name: "Kookies & Kream Chiller", price: "RM 17.83", category: "Chillers", description: "Krispy Kreme's signature blended chiller loaded with cookies-and-cream flavor — creamy, thick, and irresistibly decadent." }
+  // Signature Glazed
+  {
+    name: "Original Glazed Donut",
+    price: "RM4.20",
+    category: "Signature Donuts",
+    description: "Our world-famous, signature yeast donut coated in our warm, secret-recipe translucent glaze."
+  },
+
+  // Assorted Donuts
+  {
+    name: "Chocolate Iced Glazed Donut",
+    price: "RM4.50",
+    category: "Signature Donuts",
+    description: "Our classic Original Glazed donut capped with a smooth, premium dark chocolate icing."
+  },
+  {
+    name: "New York Cheesecake Donut",
+    price: "RM4.90",
+    category: "Assorted Donuts",
+    description: "Yeast donut stuffed with rich cream cheese filling, topped with white chocolate icing and graham cracker crumbs."
+  },
+  {
+    name: "Peanut Butter & Jelly Donut",
+    price: "RM4.90",
+    category: "Assorted Donuts",
+    description: "A decadent yeast donut loaded with rich peanut butter cream and topped with sweet strawberry jam glaze."
+  },
+  {
+    name: "Oreo Cookies & Kreme Donut",
+    price: "RM4.90",
+    category: "Assorted Donuts",
+    description: "Filled with our signature fluffy Oreo Kreme, topped with dark chocolate icing and crushed Oreo cookie chunks."
+  },
+  {
+    name: "Powdered Strawberry Filled Donut",
+    price: "RM4.50",
+    category: "Assorted Donuts",
+    description: "Yeast-raised donut filled with sweet, tart strawberry jam and dusted generously with powdered sugar."
+  },
+
+  // Value Packs
+  {
+    name: "Krispy Kreme Half Dozen (6 pcs)",
+    price: "RM25.00",
+    category: "Value Packs",
+    description: "Mix and match any 6 of your favorite assorted or Original Glazed donuts in our classic green box."
+  },
+  {
+    name: "Krispy Kreme Double Dozen (12 pcs)",
+    price: "RM46.00",
+    category: "Value Packs",
+    description: "Our iconic box filled with 12 delicious donuts of your choice, ideal for sharing."
+  },
+
+  // Specialty Coffee
+  {
+    name: "Classic Brewed Coffee (Hot)",
+    price: "RM7.90",
+    category: "Coffee & Drinks",
+    description: "Rich, smooth, medium-bodied drip coffee brewed from high-quality Arabica beans."
+  },
+  {
+    name: "Original Glazed Latte (Iced)",
+    price: "RM14.90",
+    category: "Coffee & Drinks",
+    description: "Our signature espresso latte infused with the sweet, iconic flavor of our Original Glazed donut."
+  },
+  {
+    name: "Caramel Macchiato (Hot / Iced)",
+    price: "RM13.90",
+    category: "Coffee & Drinks",
+    description: "Rich espresso marked with milk and finished with a sweet caramel drizzle."
+  }
 ];

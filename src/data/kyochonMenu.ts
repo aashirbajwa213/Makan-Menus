@@ -1,74 +1,62 @@
 export const kyochonMenu = [
   {
-    name: "KyoChon Dosirak",
-    price: "RM 22.95",
-    category: "Dosirak & Combos",
-    description: "Choice of boneless chicken, short-grain rice, Japchae, and mini salad."
+    name: "Soy Garlic Wingette & Drumette (8 pcs)",
+    price: "RM22.90",
+    category: "Korean Fried Chicken",
+    description: "Kyochon's legendary signature chicken, double-fried crispy and hand-brushed with savory soy garlic glaze."
   },
   {
-    name: "KyoChon Dosirak Combo",
-    price: "RM 24.95",
-    category: "Dosirak & Combos",
-    description: "Dosirak lunchbox served with mineral water."
+    name: "Red Pepper Wingette & Drumette (8 pcs)",
+    price: "RM23.90",
+    category: "Korean Fried Chicken",
+    description: "Crispy chicken double-fried and hand-brushed with Kyochon's famous spicy glaze made from real Korean red peppers."
   },
   {
-    name: "Combo A (1 Pax)",
-    price: "RM 19.90",
-    category: "Dosirak & Combos",
-    description: "Personal combo including chicken, steamed rice, seaweed soup, and a drink."
+    name: "Honey Series Wingette & Drumette (8 pcs)",
+    price: "RM24.90",
+    category: "Korean Fried Chicken",
+    description: "Crispy chicken double-fried and glazed in Kyochon's sweet, aromatic honey-mustard reduction."
   },
   {
-    name: "Boneless Chicken - 6 pcs",
-    price: "RM 21.95",
-    category: "Boneless Chicken",
-    description: "Juicy fried chicken thighs in Soy, Red, or Mixed flavors."
+    name: "Kyochon SoSal Chicken (Steak)",
+    price: "RM28.90",
+    category: "Korean Fried Chicken",
+    description: "Crispy, boneless fried chicken steak coated in crunch rice puff crust, served with sweet-sour SoSal sauce."
   },
   {
-    name: "Boneless Chicken - 10 pcs",
-    price: "RM 31.95",
-    category: "Boneless Chicken",
-    description: "Juicy fried chicken thighs in Soy, Red, or Mixed flavors."
+    name: "Galbi Chicken Rice Bowl",
+    price: "RM19.90",
+    category: "Rice & Noodles",
+    description: "Tender chicken slices sautéed in sweet Korean Galbi BBQ sauce, served over fluffy rice, fried egg, and kimchi."
   },
   {
-    name: "Soy Garlic Drumstick - 2 pcs",
-    price: "RM 15.30",
-    category: "Signature Chicken",
-    description: "Signature double-fried drumsticks coated in Soy Garlic glaze."
+    name: "Spicy Tteokbokki Cup",
+    price: "RM16.90",
+    category: "Korean Sides",
+    description: "Chewy Korean rice cakes simmered in sweet and spicy gochujang chili broth with fish cakes."
   },
   {
-    name: "Soy Garlic Drumstick - 4 pcs",
-    price: "RM 28.50",
-    category: "Signature Chicken",
-    description: "Signature double-fried drumsticks coated in Soy Garlic glaze."
+    name: "Kyochon Egg Salada",
+    price: "RM14.90",
+    category: "Korean Sides",
+    description: "Boiled egg chunks, sweet corn, cabbage, carrots tossed in creamy, sweet house dressing."
   },
   {
-    name: "Soy Garlic Wing - 8 pcs",
-    price: "RM 26.95",
-    category: "Signature Chicken",
-    description: "Crispy wings coated in signature Soy Garlic glaze."
+    name: "Steamed White Rice",
+    price: "RM3.00",
+    category: "Korean Sides",
+    description: "Premium, sticky and fluffy short-grain Korean white rice."
   },
   {
-    name: "Soy Garlic Wing - 12 pcs",
-    price: "RM 40.60",
-    category: "Signature Chicken",
-    description: "Crispy wings coated in signature Soy Garlic glaze."
+    name: "Kyochon Special Plum Drink",
+    price: "RM8.90",
+    category: "Beverages",
+    description: "Sweet, cooling Korean fermented green plum extract served ice-cold."
   },
   {
-    name: "Boneless Chicken Bibimbap",
-    price: "RM 25.95",
-    category: "Rice & Bowls",
-    description: "Korean mixed rice bowl topped with boneless chicken and assorted vegetables."
-  },
-  {
-    name: "Boneless Chicken Cup-bap",
-    price: "RM 13.95",
-    category: "Rice & Bowls",
-    description: "Convenient cup of rice topped with boneless chicken."
-  },
-  {
-    name: "Boneless Chicken Salad Cup",
-    price: "RM 14.95",
-    category: "Rice & Bowls",
-    description: "Boneless chicken served with a fresh salad without rice."
+    name: "Iced Green Tea",
+    price: "RM4.90",
+    category: "Beverages",
+    description: "Refreshing, chilled brewed Japanese green tea."
   }
 ];

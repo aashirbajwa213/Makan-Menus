@@ -4,15 +4,10 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 import sitemap from '@astrojs/sitemap';
-import partytown from '@astrojs/partytown';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://makanmenus.my',
-  prefetch: {
-    prefetchAll: true,
-    defaultStrategy: 'viewport',
-  },
   devToolbar: {
     enabled: false
   },
@@ -59,12 +54,5 @@ export default defineConfig({
     ]
   },
 
-  integrations: [
-    sitemap(),
-    partytown({
-      config: {
-        forward: ['dataLayer.push', 'gtag']
-      }
-    })
-  ]
+  integrations: [sitemap()]
 });

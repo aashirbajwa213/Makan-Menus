@@ -1,184 +1,7 @@
 import { kfcMenu } from './kfcMenu';
-import { dailyCoffeeMenu } from './dailyCoffeeMenu';
-import { wallaceMenu } from './wallaceMenu';
-import { donkaiMenu } from './donkaiMenu';
-import { ahmadFriedChickenMenu } from './ahmadFriedChickenMenu';
-import { hoKowHainamKopitiamMenu } from './hoKowHainamKopitiamMenu';
-import { makiMakiMenu } from './makiMakiMenu';
-import { kompassionThaiMenu } from './kompassionThaiMenu';
-import { theRoomahRestaurantMenu } from './theRoomahRestaurantMenu';
-import { luckBrosKopiMenu } from './luckBrosKopiMenu';
-import { uoShinMenu } from './uoShinMenu';
-import { lepauRestaurantKuchingMenu } from './lepauRestaurantKuchingMenu';
-import { ccByMelMenu } from './ccByMelMenu';
-import { gigglesAndGeeksMenu } from './gigglesAndGeeksMenu';
-import { tgiFridaysMenu } from './tgiFridaysMenu';
-import { mikeysNewYorkPizzaMenu } from './mikeysNewYorkPizzaMenu';
-import { restoranSiangMalamMenu } from './restoranSiangMalamMenu';
-import { dragoniRestaurantMenu } from './dragoniRestaurantMenu';
-import { amiciRistoranteItalianoMenu } from './amiciRistoranteItalianoMenu';
-import { uncleJackFriedChickenMenu } from './uncleJackFriedChickenMenu';
-import { douDouBakeMenu } from './douDouBakeMenu';
-import { kbbBurgerSteakMenu } from './kbbBurgerSteakMenu';
-import { tenGramsCafeMenu } from './tenGramsCafeMenu';
-import { ifOnlyRestaurantMenu } from './ifOnlyRestaurantMenu';
-import { pizzaMansionMenu } from './pizzaMansionMenu';
-import { aliMuthuAhHockMenu } from './aliMuthuAhHockMenu';
-import { jamanToryResepiMenu } from './jamanToryResepiMenu';
-import { onoSpecialtyCoffeeMenu } from './onoSpecialtyCoffeeMenu';
-import { gulaCakeryMenu } from './gulaCakeryMenu';
-import { rembayungKualaLumpurMenu } from './rembayungKualaLumpurMenu';
-import { theManhattanFishMarketMenu } from './theManhattanFishMarketMenu';
-import { coolblogMenu } from './coolblogMenu';
-import { oomphPetalingJayaMenu } from './oomphPetalingJayaMenu';
-import { mcdonaldsMenu } from './mcdonaldsMenu';
-import { pokokLalaportMenu } from './pokokLalaportMenu';
-import { twoSonsBistroMenu } from './twoSonsBistroMenu';
-import { kulaCakesMenu } from './kulaCakesMenu';
-import { yutKeeRestaurantMenu } from './yutKeeRestaurantMenu';
-import { babaPhangMenu } from './babaPhangMenu';
-import { ikeaMenu } from './ikeaMenu';
-import { richiamoCoffeeMenu } from './richiamoCoffeeMenu';
-import { atskyBukitBintangMenu } from './atskyBukitBintangMenu';
-import { fattyCrabRestaurantMenu } from './fattyCrabRestaurantMenu';
-import { cowboysBarbecueAndGrillMenu } from './cowboysBarbecueAndGrillMenu';
-import { salamNoodlesMenu } from './salamNoodlesMenu';
-import { baanSuwarinMenu } from './baanSuwarinMenu';
-import { iLoveYooMenu } from './iLoveYooMenu';
-import { marinisOn57Menu } from './marinisOn57Menu';
-import { lesongByJoharaMenu } from './lesongByJoharaMenu';
-import { busanzipMenu } from './busanzipMenu';
-import { jojaBagelsMenu } from './jojaBagelsMenu';
-import { bellaPastaAndWineMenu } from './bellaPastaAndWineMenu';
-import { frenchiesBrunchAndDatesMenu } from './frenchiesBrunchAndDatesMenu';
-import { nipporiBistroMenu } from './nipporiBistroMenu';
-import { flourFireAndStoneMenu } from './flourFireAndStoneMenu';
-import { kbbBurgerAndSteakMenu } from './kbbBurgerAndSteakMenu';
-import { tonyRomasMenu } from './tonyRomasMenu';
-import { burgerAndLobsterKlccMenu } from './burgerAndLobsterKlccMenu';
-import { oBriensMenu } from './oBriensMenu';
-import { dominosPizzaMenu } from './dominosPizzaMenu';
-import { donaBakehouseMenu } from './donaBakehouseMenu';
-import { stuffdMenu } from './stuffdMenu';
-import { bienzMenu } from './bienzMenu';
-import { alwisFoodMenu } from './alwisFoodMenu';
-import { kyomoMenu } from './kyomoMenu';
-import { sognoCoffeeMenu } from './sognoCoffeeMenu';
-import { oceanoSymphonyMenu } from './oceanoSymphonyMenu';
-import { bbqTownMenu } from './bbqTownMenu';
-import { ekuesCabinCafeMenu } from './ekuesCabinCafeMenu';
-import { sushiYaMenu } from './sushiYaMenu';
-import { redBrickKitchenMenu } from './redBrickKitchenMenu';
-import { allAceMenu } from './allAceMenu';
-import { donOmakaseTtdiMenu } from './donOmakaseTtdiMenu';
-import { paraThaiMenu } from './paraThaiMenu';
-import { zukkiniMenu } from './zukkiniMenu';
-import { cleaverShedMenu } from './cleaverShedMenu';
-import { aiChaMenu } from './aiChaMenu';
-import { flourFireStoneMenu } from './flourFireStoneMenu';
-import { kbbArtisanSteakhouseMenu } from './kbbArtisanSteakhouseMenu';
-import { nasiLemakLobsterJbMenu } from './nasiLemakLobsterJbMenu';
-import { subwayMenu } from './subwayMenu';
-import { burgerLobsterMenu } from './burgerLobsterMenu';
-import { labuLabuMenu } from './labuLabuMenu';
-import { betawiTtdiMenu } from './betawiTtdiMenu';
-import { sky51Menu } from './sky51Menu';
-import { mollagaaMenu } from './mollagaaMenu';
-import { chinaHouseMenu } from './chinaHouseMenu';
-import { fuelShackMenu } from './fuelShackMenu';
-import { manhattanFishMarketMenu } from './manhattanFishMarketMenu';
-import { bakersCottageMenu } from './bakersCottageMenu';
-import { cafeBistrotDavidMenu } from './cafeBistrotDavidMenu';
-import { fairymilkSs15Menu } from './fairymilkSs15Menu';
-import { shabuyakiMenu } from './shabuyakiMenu';
-import { superSaigonMenu } from './superSaigonMenu';
-import { krispyKremeMenu } from './krispyKremeMenu';
-import { experimentKitchenMenu } from './experimentKitchenMenu';
-import { kennyHillsBakersMenu } from './kennyHillsBakersMenu';
-import { loafAdamMenu } from './loafAdamMenu';
-import { positanoRistoMenu } from './positanoRistoMenu';
-import { alRawshaMenu } from './alRawshaMenu';
-import { meokjaCafeMenu } from './meokjaCafeMenu';
-import { theSavorKlMenu } from './theSavorKlMenu';
-import { bocadoMenu } from './bocadoMenu';
-import { potatoStoryMenu } from './potatoStoryMenu';
-import { heliLoungeBarMenu } from './heliLoungeBarMenu';
-import { bidadariTurunMalamCafeMenu } from './bidadariTurunMalamCafeMenu';
-import { kuromaBuffetMenu } from './kuromaBuffetMenu';
-import { kantanKotaDamansaraMenu } from './kantanKotaDamansaraMenu';
-import { tenGramsCyberjayaMenu } from './tenGramsCyberjayaMenu';
-import { homstMenu } from './homstMenu';
-import { theHungryBeastSunwayVelocity2Menu } from './theHungryBeastSunwayVelocity2Menu';
-import { redKettleTheGardensMallMenu } from './redKettleTheGardensMallMenu';
-import { bambooHillsMenu } from './bambooHillsMenu';
-import { dancingFishMenu } from './dancingFishMenu';
-import { hotbirdMenu } from './hotbirdMenu';
-import { jpCoMenu } from './jpCoMenu';
-import { mesaOn51Menu } from './mesaOn51Menu';
-import { gloriaJeansMenu } from './gloriaJeansMenu';
-import { theFireKoreanRestaurantMenu } from './theFireKoreanRestaurantMenu';
-import { allAboutChewMenu } from './allAboutChewMenu';
-import { baskinRobbinsMenu } from './baskinRobbinsMenu';
-import { hotzillaSs15Menu } from './hotzillaSs15Menu';
-import { trafficBeanMenu } from './trafficBeanMenu';
-import { strangersAt47Menu } from './strangersAt47Menu';
-import { fiftyTalesMenu } from './fiftyTalesMenu';
-import { asadorVMenu } from './asadorVMenu';
-import { uncleDonsMenu } from './uncleDonsMenu';
-import { happyPotatoMenu } from './happyPotatoMenu';
-import { sdsMenu } from './sdsMenu';
-import { wetDeckWKualaLumpurMenu } from './wetDeckWKualaLumpurMenu';
-import { fuegoMenu } from './fuegoMenu';
-import { smithAndWollenskyKualaLumpurMenu } from './smithAndWollenskyKualaLumpurMenu';
-import { jibrilMenu } from './jibrilMenu';
-import { wanomiyaMenu } from './wanomiyaMenu';
-import { sambaBrazilianSteakhouseMenu } from './sambaBrazilianSteakhouseMenu';
-import { shabuyakiByNipponSushiMenu } from './shabuyakiByNipponSushiMenu';
-import { soruStationMenu } from './soruStationMenu';
-import { potluckMenu } from './potluckMenu';
-import { biruBiruOnTheIslandMenu } from './biruBiruOnTheIslandMenu';
-import { noirRestaurantMenu } from './noirRestaurantMenu';
-import { kookyPlateMenu } from './kookyPlateMenu';
-import { kopiPingMenu } from './kopiPingMenu';
-import { stefaniaRestaurantMenu } from './stefaniaRestaurantMenu';
-import { dojoMenu } from './dojoMenu';
-import { sweetreeRestaurantMenu } from './sweetreeRestaurantMenu';
-import { qBistroMenu } from './qBistroMenu';
-import { nasiLemakBurungHantuMenu } from './nasiLemakBurungHantuMenu';
-import { bhcChickenMenu } from './bhcChickenMenu';
-import { laSpigaDoroMenu } from './laSpigaDoroMenu';
-import { kapitanMenu } from './kapitanMenu';
-import { supamalaHotpotMenu } from './supamalaHotpotMenu';
-import { nimmiesPastryCafeMenu } from './nimmiesPastryCafeMenu';
-import { potatoCornerMenu } from './potatoCornerMenu';
-import { naskenCoffeeMenu } from './naskenCoffeeMenu';
-import { peninsulaHouseMenu } from './peninsulaHouseMenu';
-import { theFarmRestaurantMenu } from './theFarmRestaurantMenu';
-import { jibbyByTheParkMenu } from './jibbyByTheParkMenu';
-import { tenGramsMenu } from './tenGramsMenu';
-import { meeTarikJalanSultanMenu } from './meeTarikJalanSultanMenu';
-import { dinTaiFungMenu } from './dinTaiFungMenu';
-import { bacioItalianKitchenMenu } from './bacioItalianKitchenMenu';
-import { fatBurgerMenu } from './fatBurgerMenu';
-import { glasshopperMenu } from './glasshopperMenu';
-import { kopiHutMenu } from './kopiHutMenu';
-import { nobuMenu } from './nobuMenu';
-import { brewHouseMenu } from './brewHouseMenu';
-import { yellowBrickRoadMenu } from './yellowBrickRoadMenu';
-import { dAppleFriedChickenMenu } from './dAppleFriedChickenMenu';
-import { sinceThenMenu } from './sinceThenMenu';
-import { nasiLemakShopMenu } from './nasiLemakShopMenu';
-import { fizzyCafeMenu } from './fizzyCafeMenu';
-import { firewoodMenu } from './firewoodMenu';
-import { dipNDipMenu } from './dipNDipMenu';
-import { chefKecikMenu } from './chefKecikMenu';
-import { saladAtelierMenu } from './saladAtelierMenu';
-import { qHouseMenu } from './qHouseMenu';
-import { prettyHotChickenMenu } from './prettyHotChickenMenu';
-import { kyochonMenu } from './kyochonMenu';
-import { hwcCoffeeMenu } from './hwcCoffeeMenu';
 import { secretRecipeMenu } from './secretRecipeMenu';
 import { zusCoffeeMenu } from './zusCoffeeMenu';
+import { aiChaMenu } from './aiChaMenu';
 import { texasChickenMenu } from './texasChickenMenu';
 import { mixueMenu } from './mixueMenu';
 import { chageeMenu } from './chageeMenu';
@@ -220,13 +43,16 @@ import { carlsJrMenu } from './carlsJrMenu';
 import { richeeseFactoryMenu } from './richeeseFactoryMenu';
 import { sugarBunMenu } from './sugarBunMenu';
 import { tacoBellMenu } from './tacoBellMenu';
+import { dominosPizzaMenu } from './dominosPizzaMenu';
 import { usPizzaMenu } from './usPizzaMenu';
 import { mokkysPizzaMenu } from './mokkysPizzaMenu';
 import { kenanganCoffeeMenu } from './kenanganCoffeeMenu';
 import { gigiCoffeeMenu } from './gigiCoffeeMenu';
 import { hockKeeKopitiamMenu } from './hockKeeKopitiamMenu';
 import { oldtownWhiteCoffeeMenu } from './oldtownWhiteCoffeeMenu';
+import { kennyHillsBakersMenu } from './kennyHillsBakersMenu';
 import { dunkinMenu } from './dunkinMenu';
+import { krispyKremeMenu } from './krispyKremeMenu';
 import { bigAppleDonutsMenu } from './bigAppleDonutsMenu';
 import { grumpyBagelMenu } from './grumpyBagelMenu';
 import { luckinCoffeeMenu } from './luckinCoffeeMenu';
@@ -247,6 +73,7 @@ import { bungkusKawKawMenu } from './bungkusKawKawMenu';
 import { villageParkMenu } from './villageParkMenu';
 import { pappaRichMenu } from './pappaRichMenu';
 import { absoluteThaiMenu } from './absoluteThaiMenu';
+import { paraThaiMenu } from './paraThaiMenu';
 import { sukiyaMenu } from './sukiyaMenu';
 import { souperTangMenu } from './souperTangMenu';
 import { bumbuBabahMenu } from './bumbuBabahMenu';
@@ -258,12 +85,14 @@ import { jibbyCoMenu } from './jibbyCoMenu';
 import { chefJMenu } from './chefJMenu';
 import { chilisMenu } from './chilisMenu';
 import { menateMenu } from './menateMenu';
+import { tonyRomasMenu } from './tonyRomasMenu';
 import { beardBrothersBbqMenu } from './beardBrothersBbqMenu';
 import { beardBrothersMenu } from './beardBrothersMenu';
 import { kennyRogersRoastersMenu } from './kennyRogersRoastersMenu';
 import { grubByAhongMenu } from './grubByAhongMenu';
 import { sushiMentaiMenu } from './sushiMentaiMenu';
 import { ichibanRamenMenu } from './ichibanRamenMenu';
+import { kyochonMenu } from './kyochonMenu';
 import { kFryMenu } from './kFryMenu';
 import { mitasuMenu } from './mitasuMenu';
 import { emart24Menu } from './emart24Menu';
@@ -277,191 +106,118 @@ import { taproomMenu } from './taproomMenu';
 export const brandMocks: Record<string, any[]> = {
   'fast-food': [
     {
-      name: "Ahmad Fried Chicken",
-      slug: "ahmad-fried-chicken",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fried Chicken", colors: "bg-red-800 text-white" }, { name: "Burgers", colors: "bg-yellow-800 text-white" }],
-      desc: "Popular local fast-food spot known for its crispy fried chicken, flavorful burgers like Mad's Beef Burger, and cheesy wedges.",
-      seoArticle: `\n<h2>Ahmad Fried Chicken Malaysia Menu</h2>\n<p>Ahmad Fried Chicken (AFC) is a popular local fast-food spot in Malaysia known for its crispy fried chicken, flavorful burgers, and satisfying side dishes. Available across multiple locations and major delivery platforms like Foodpanda and GrabFood, it offers convenient and affordable meals for individuals and families. Their menu highlights include the signature Mad's Beef Burger, generous family buckets, and crowd-favorite cheesy wedges.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items at Ahmad Fried Chicken?", a: "The most popular items include their Crispy Fried Chicken sets, Mad's Beef Burger, and Cheesy Wedges. Customers also frequently order the Family Buckets and Signature Big Bite-Boxes for sharing." },
-        { q: "Does Ahmad Fried Chicken offer delivery in Malaysia?", a: "Yes, Ahmad Fried Chicken is widely available for delivery through major platforms like Foodpanda and GrabFood, making it easy to enjoy their delicious meals right at home." },
-        { q: "What are the prices for the fried chicken sets?", a: "A 2-piece Crispy Fried Chicken set is typically priced around RM 13.52 to RM 15.47, while a 3-piece Hungry Set is about RM 19.13 to RM 21.97. The 10-piece Family Bucket costs approximately RM 62.05." },
-        { q: "Are there burger options available on the Ahmad Fried Chicken menu?", a: "Absolutely! The menu features a variety of burgers, such as the signature Mad's Beef Burger and Mad's Double Cheeseburger. These are available à la carte or as part of a combo meal." },
-        { q: "Are the prices the same across all delivery platforms and locations?", a: "Prices can vary slightly depending on the specific branch (such as Setiawangsa, Desa Pandan, or Shah Alam) and the delivery platform used. It's best to check your local delivery app for the most accurate current pricing." }
-      ],
-      menu: ahmadFriedChickenMenu
-    },
-    {
-      name: "Uncle Jack Fried Chicken",
-      slug: "uncle-jack",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fried Chicken", colors: "bg-red-800 text-white" }, { name: "Fast Food", colors: "bg-amber-600 text-white" }],
-      desc: "Popular and budget-friendly fast-food outlet located within Giant supermarkets, offering crispy fried chicken and burgers.",
-      seoArticle: `\n<h2>Uncle Jack Fried Chicken Malaysia Menu</h2>\n<p>Uncle Jack Fried Chicken is a popular fast-food outlet conveniently located within many Giant Hypermarkets and Supermarkets across Malaysia. Known for its affordability and delicious flavor, it offers a variety of fried chicken sets, burgers, and snacks. It provides a perfect, budget-friendly dining or takeaway option for grocery shoppers.</p>\n`,
-      faqs: [
-        { q: "Where can I find Uncle Jack Fried Chicken in Malaysia?", a: "Uncle Jack Fried Chicken outlets are located exclusively inside many Giant Hypermarkets and Supermarkets nationwide." },
-        { q: "Is Uncle Jack Fried Chicken Malaysia Halal certified?", a: "Yes, Uncle Jack Fried Chicken is Halal certified, ensuring all ingredients and preparation methods meet strict Halal standards for Muslim customers." },
-        { q: "What are the most popular items on the Uncle Jack menu?", a: "Customer favorites include the 2 Pcs Fried Chicken Delight Set, the Uncle Jack Signature Burger, and their value-for-money Fried Chicken Rice Sets." },
-        { q: "Does Uncle Jack Fried Chicken offer delivery?", a: "Yes, you can order Uncle Jack Fried Chicken for delivery through popular food delivery platforms like Foodpanda in Malaysia." },
-        { q: "Are the prices at Uncle Jack Fried Chicken affordable?", a: "Absolutely! Uncle Jack is known for its budget-friendly pricing, with a piece of fried chicken starting at RM 4.99 and full meal sets starting from around RM 13.99." }
-      ],
-      menu: uncleJackFriedChickenMenu
-    },
-    {
       name: "McDonald's",
       slug: "mcdonalds",
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fast Food", colors: "bg-red-600 text-white" }, { name: "Burgers", colors: "bg-yellow-600 text-white" }],
-      desc: "Globally popular fast-food chain offering iconic burgers, crispy fries, and unique localized Malaysian favorites like Nasi Lemak McD.",
-      seoArticle: `\n<h2>McDonald's Malaysia Menu</h2>\n<p>McDonald's Malaysia is a widely popular fast-food chain offering a unique blend of globally recognized favorites and localized menu items. Alongside international classics like the Big Mac and McNuggets, they serve beloved local specialties such as Nasi Lemak McD, Ayam Goreng McD, and Bubur Ayam. With hundreds of Halal-certified outlets nationwide, McDonald's Malaysia provides convenient and affordable dining through dine-in, drive-thru, and McDelivery services.</p>\n`,
+      image: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Burgers, Fries & Fried Chicken",
+      seoArticle: `\n<h2>McDonald's: A Malaysian Morning Tradition</h2>
+<p>There is a reason why almost every neighborhood in Malaysia has a McDonald's. Whether it's picking up a quick Sausage McMuffin before hitting the morning traffic, or grabbing a Nasi Lemak McD when you're craving something local, their consistency is unmatched. Our guide provides the most accurate pricing to help you decide between a classic Big Mac or the spicy Ayam Goreng McD for your next drive-thru run.</p>\n`,
+      nutritionHtml: `
+            <p class="text-lg">
+              McDonald's offers clear nutritional data for those mindful of their diet. The iconic Big Mac is approximately 508 kcal, while a standard McChicken sits around 400 kcal.
+            </p>
+            <ul class="space-y-3 list-none">
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Calorie Conscious:</strong> Swap fries for a corn cup to save around 200 calories on your McValue meal.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-yellow-500 font-bold">✓</span>
+                <span><strong>Halal Certified:</strong> McDonald's Malaysia is fully JAKIM Halal certified.</span>
+              </li>
+            </ul>
+      `,
+      healthyTip: `"For a lighter meal, grab a Grilled Chicken Burger (GCB) instead of fried options and choose water or Coke Zero instead of regular soda."`,
+      deliveryHtml: `
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-red-600">McDelivery</div>
+                <p class="text-slate-500 text-sm font-medium">Use the official McDonald's app to earn My McD rewards on every order.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+                <p class="text-slate-500 text-sm font-medium">Fastest delivery times for late-night cravings across Malaysia.</p>
+              </div>
+              <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+                <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+                <p class="text-slate-500 text-sm font-medium">Check for seasonal discounts and free delivery promos.</p>
+              </div>
+            </div>
+      `,
       faqs: [
-        { q: "What are the most popular local items on the McDonald's Malaysia Menu?", a: "Some of the most sought-after localized items include the Nasi Lemak McD, the crispy and spicy Ayam Goreng McD, and the comforting Bubur Ayam McD (chicken porridge)." },
-        { q: "Are all items on the McDonald's Malaysia menu Halal-certified?", a: "Yes, McDonald's Malaysia is fully Halal-certified by the Department of Islamic Development Malaysia (JAKIM), ensuring that all food, ingredients, and preparation methods meet strict Halal requirements." },
-        { q: "Does the McDonald's Malaysia menu have breakfast options?", a: "Yes, McDonald's Malaysia serves a dedicated breakfast menu typically from 6:30 AM to 10:00 AM, featuring items like the Sausage McMuffin with Egg, crispy Hash Browns, and breakfast Nasi Lemak." },
-        { q: "How much does a typical meal cost at McDonald's Malaysia?", a: "Prices can vary slightly by location and delivery platform, but McValue Meals generally start from around RM 8.95 and go up to RM 20.00+, depending on your choice of burger or chicken and the size of the meal." },
-        { q: "Can I order from the McDonald's Malaysia menu online for delivery?", a: "Absolutely. Customers can easily order online through the official McDelivery app and website, or via popular food delivery partners like GrabFood and foodpanda." }
+        { q: "Is the McDonald's Malaysia menu Halal?", a: "Yes, 100% of McDonald's restaurants in Malaysia are Halal certified by JAKIM." },
+        { q: "What time does McDonald's breakfast end?", a: "Breakfast is usually served until 10:00 AM on weekdays and 11:00 AM on weekends." },
+        { q: "Can I get a Big Mac without pickles?", a: "Yes, you can customize your burger via the self-ordering kiosks or delivery apps." },
+        { q: "Does McDonald's Malaysia serve pork?", a: "No, McDonald's Malaysia does not serve any pork or alcohol." }
       ],
-      menu: mcdonaldsMenu
-    },
-    {
-      name: "AllAce (formerly Wallace)",
-      slug: "allace",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fried Chicken", colors: "bg-red-600 text-white" }],
-      desc: "Budget-friendly fast food chain known for its crispy fried chicken, burgers, and value combo meals.",
-      seoArticle: `\n<h2>AllAce Malaysia (Formerly Wallace)</h2>\n<p>Previously operating under the name 'Wallace', the fast-food chain has rebranded in Malaysia to 'AllAce Burger & Chicken'. Despite the name change, AllAce continues to deliver what made it popular: highly affordable, crispy fried chicken and satisfying burger combo meals. Positioned as a budget-friendly alternative to major global fast-food giants, AllAce offers excellent value, particularly with their 'Rahmah' rice sets and signature chicken wraps. With a growing number of outlets and a Halal-certified menu, it's a solid choice for a quick, wallet-friendly meal.</p>\n`,
-      faqs: [
-        { q: "Is AllAce the same as Wallace fast food?", a: "Yes, the fast-food chain previously known as Wallace in Malaysia has rebranded to AllAce Burger & Chicken." },
-        { q: "What is the best thing to eat at AllAce?", a: "Their signature Crispy Fried Chicken and the Crispy Chicken Burger Combos are the most popular items on the menu." },
-        { q: "Is AllAce Malaysia Halal?", a: "Yes, AllAce outlets in Malaysia are Halal-certified by JAKIM." },
-        { q: "Are AllAce prices cheaper than other fast food chains?", a: "Generally, yes. AllAce positions itself as a budget-friendly option, offering combo meals and rice sets (like the Rahmah Rice Set) at very competitive prices." },
-        { q: "Can I order AllAce for delivery?", a: "Yes, AllAce is widely available for delivery on platforms like GrabFood and Foodpanda." }
-      ],
-      menu: allAceMenu
-    },
-    {
-      name: "Potato Story",
-      slug: "potato-story",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Snacks & Fries", colors: "bg-red-700 text-white" }],
-      desc: "Popular food and beverage brand specializing in customizable potato-based snacks and French fries.",
-      seoArticle: `\n<h2>Potato Story</h2>\n<p>Potato Story is a popular Malaysia-based food and beverage brand established in 2011, specializing in customizable potato-based snacks and French fries. They are well known for offering a wide variety of flavored fries seasoned with different powders and homemade sauces, alongside a diverse menu of chicken snacks and specialty beverages.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items on the Potato Story Malaysia menu?", a: "The most popular items include their Flavoured Fries, Chicken Tempura Nuggets, and signature milk teas. Customers especially love the ability to customize their fries with different seasoning powders and homemade sauces." },
-        { q: "How much do Potato Story fries cost in Malaysia?", a: "Prices for Potato Story's Flavoured Fries typically start at around RM 5.40 for a Regular size, RM 9.80 for a Large, and RM 14.20 for an X-Large size. Prices may vary slightly depending on the outlet and delivery platform." },
-        { q: "Does Potato Story Malaysia offer delivery?", a: "Yes, Potato Story is widely available for delivery across Malaysia through major food delivery platforms like Foodpanda and GrabFood." },
-        { q: "Are there combo meals available at Potato Story?", a: "Absolutely! Potato Story offers various Value Sets (typically ranging from RM 16.00 to RM 17.50) that include a base of fries paired with a side snack or drink. They also offer Party Box Sets for larger groups." },
-        { q: "Where did the Potato Story restaurant originate?", a: "The Potato Story brand originated in December 2011 at the Giant Hypermarket in Kota Padawan, Kuching, Sarawak, and has since expanded to numerous branches across Malaysia." }
-      ],
-      menu: potatoStoryMenu
-    },
-    {
-      name: "Hot Bird",
-      slug: "hot-bird",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fried Chicken", colors: "bg-red-600 text-white" }],
-      desc: "Popular Halal-certified restaurant chain specializing in Nashville-style spicy fried chicken.",
-      seoArticle: `\n<h2>Hot Bird</h2>\n<p>Hot Bird is a popular restaurant chain in Malaysia specializing in Nashville-style spicy fried chicken and is certified Halal by JAKIM. They offer a unique dining experience where customers can choose from six distinct heat levels, ranging from 'No Heat' up to the extreme 'Reaper'. With multiple outlets across the Klang Valley, Hot Bird has become a go-to spot for fried chicken enthusiasts looking for authentic, bold flavors.</p>\n`,
-      faqs: [
-        { q: "What is the price of a Hot Bird set meal in Malaysia?", a: "A standard 2-piece fried chicken meal at Hot Bird typically costs around RM 24.90, which includes the chicken, Cajun fries, coleslaw, and a drink. The 3-piece meal is priced around RM 33.90." },
-        { q: "Are there different spice levels available at Hot Bird Malaysia?", a: "Yes, Hot Bird offers six different heat levels for their Nashville-style fried chicken. You can choose from No Heat, Mild, Hot, Super Hot, Burn Baby Burn, and Reaper." },
-        { q: "Is Hot Bird Malaysia Halal-certified?", a: "Yes, Hot Bird Malaysia is officially Halal-certified by JAKIM, making it a Muslim-friendly dining option." },
-        { q: "What are the popular items on the Hot Bird Malaysia menu?", a: "The most popular items include the classic 2-Piece Fried Chicken Meal, the Hot Bird Burger combo, and signature sides like their Mac & Cheese and Cajun Fries." },
-        { q: "Where are the Hot Bird outlets located in Malaysia?", a: "Hot Bird has several branches across the Klang Valley, including popular locations such as Damansara Uptown, SS15 Subang Jaya, The Exchange TRX, Puchong, and IOI City Mall Putrajaya." }
-      ],
-      menu: hotbirdMenu
-    },
-    {
-      name: "Happy Potato",
-      slug: "happy-potato",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Snacks & Fries", colors: "bg-yellow-500 text-white" }],
-      desc: "Popular and fast-growing snack brand famous for freshly prepared shaker fries in various seasonings.",
-      seoArticle: `\n<h2>Happy Potato</h2>\n<p>Happy Potato is a popular and fast-growing snack brand in Malaysia, famous for its freshly prepared shaker fries tossed in a variety of delicious seasonings like Cheese, Sour Cream, and Tom Yam. In addition to their signature potato treats, they offer 'Happy Combos' featuring crispy chicken snacks such as Chicken Popcorn and Tenders, making it a favorite go-to spot for comfort food.</p>\n`,
-      faqs: [
-        { q: "What are the best flavors for Happy Potato shaker fries?", a: "Some of the most popular flavors include Cheese, Sour Cream, Hot & Spicy, Seaweed, and Tom Yam." },
-        { q: "Does Happy Potato offer chicken with their fries?", a: "Yes, Happy Potato offers 'Happy Combos' which pair their signature shaker fries with chicken snacks like Chicken Popcorn, Jumbo Nuggets, or Chicken Tenders." },
-        { q: "Are the prices the same on delivery platforms as in-store?", a: "Prices on delivery apps like Foodpanda or GrabFood are generally slightly higher than in-store prices due to delivery markups and service fees." },
-        { q: "What are the portion sizes available for shaker fries?", a: "Happy Potato shaker fries are available in four sizes: Regular (R), Large (L), Mega (M), and Giga (G)." },
-        { q: "Is Happy Potato available nationwide in Malaysia?", a: "Yes, Happy Potato has expanded significantly and currently operates numerous kiosks and outlets across various malls and locations in Malaysia." }
-      ],
-      menu: happyPotatoMenu
-    },
-    {
-      name: "Potato Corner",
-      slug: "potato-corner",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fries & Snacks", colors: "bg-green-700 text-white" }],
-      desc: "Popular snack franchise famous for delicious, freshly cooked flavored french fries.",
-      seoArticle: `\n<h2>Potato Corner</h2>\n<p>Potato Corner is a popular snack franchise in Malaysia famous for its delicious, freshly cooked flavored french fries. Known globally as the 'World's Best Flavored Fries,' the brand offers a variety of signature seasonings including Cheese, BBQ, Chili BBQ, and Sour Cream. In addition to their classic fries, their menu features crowd-pleasing snacks like Super Chicken Pop, mozzarella cheese sticks, and value combo sets.</p>\n`,
-      faqs: [
-        { q: "What are the most popular flavors at Potato Corner Malaysia?", a: "The most beloved signature flavors at Potato Corner Malaysia are Cheese, BBQ, Chili BBQ, and Sour Cream. They also offer specialty and premium flavors like Truffle at selected outlets." },
-        { q: "What sizes are available for Potato Corner fries?", a: "Potato Corner offers multiple sizes to satisfy your cravings: Jumbo, Mega, Giga, and the massive Tera size. Larger sizes like Giga and Tera allow you to mix and match different flavors in a single serving." },
-        { q: "How much do Potato Corner fries cost in Malaysia?", a: "Prices start at around RM 8.80 for the Jumbo size. The Mega size is approximately RM 11.98, the Giga is RM 17.91, and the largest Tera size costs about RM 24.27. Note that prices might vary slightly on delivery apps." },
-        { q: "Does Potato Corner Malaysia sell chicken snacks?", a: "Yes! Potato Corner serves a popular snack called Super Chicken Pop. It consists of bite-sized, crispy chicken pieces that are tossed in the same signature flavor powders as their fries." },
-        { q: "Are there combo meals or value sets available?", a: "Yes, Potato Corner offers great combo options. For example, Delivery Value Set B includes Jumbo Fries, a Jumbo Super Chicken Pop, and a drink for around RM 25.97." }
-      ],
-      menu: potatoCornerMenu
-    },
-    {
-      name: "D'Apple Fried Chicken",
-      slug: "dapple-fried-chicken",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fried Chicken", colors: "bg-red-500 text-white" }],
-      desc: "Malaysian-style fast food offering crispy fried chicken and burgers.",
-      seoArticle: `\n<h2>D'Apple Fried Chicken</h2>\n<p>D'Apple Fried Chicken (DAFC) is a fast-food restaurant chain originating from Kelantan, Malaysia. Initially known for Malaysian-style Western food, it has evolved into a popular fast-food concept offering fried chicken, burgers, chicken tenders, rice sets, and spaghetti. The chain has expanded across multiple locations in Malaysia and is widely available on food delivery platforms like Foodpanda and GrabFood.</p>\n`,
-      faqs: [
-        { q: "What are the signature items on the D'Apple Fried Chicken Malaysia menu?", a: "D'Apple Fried Chicken is known for its crispy fried chicken, which comes in various combo sets including options with fries, coleslaw, and mashed potatoes. They also serve popular items like the Thunder Burger, Zinger Burger, Ayam Geprek, and Korean Wings." },
-        { q: "Are there combo meals available at D'Apple Fried Chicken?", a: "Yes, DAFC offers several combo meals ranging from Combo A (2 pieces of chicken with fries and a drink) to Combo D (3 pieces of chicken with sides and a drink). They also feature Chicken Rice combos for those who prefer rice." },
-        { q: "Does D'Apple Fried Chicken offer food delivery in Malaysia?", a: "Absolutely. D'Apple Fried Chicken is available for delivery through major platforms like Foodpanda and GrabFood, as well as through their official website for certain areas. Prices may vary slightly depending on the delivery platform." },
-        { q: "What is the price range for the D'Apple Fried Chicken menu?", a: "Prices are quite affordable, with Ala Carte chicken starting around RM 5.88. Combo sets typically range from RM 17.90 to RM 34.50 depending on the number of chicken pieces and included sides." },
-        { q: "Are there branches of D'Apple Fried Chicken outside of Kelantan?", a: "Yes, while DAFC originated in Kelantan, they have expanded and now have multiple outlets across Malaysia, including in Pahang, Selangor, and Johor (such as Kota Damansara, Pekan, and Mersing)." }
-      ],
-      menu: dAppleFriedChickenMenu
-    },
-    {
-      name: "Pretty Hot Chicken",
-      slug: "pretty-hot-chicken",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Nashville Hot", colors: "bg-red-500 text-white" }],
-      desc: "Muslim-friendly restaurant specializing in Nashville-style hot chicken.",
-      seoArticle: `\n<h2>Pretty Hot Chicken</h2>\n<p>Pretty's Hot Chicken is a popular, Muslim-friendly restaurant in Malaysia that specializes in American-inspired, Nashville-style hot chicken. Their menu features a variety of spicy fried chicken meals, tender burgers, and unique local twists like Nasi Lemak with fried chicken. Diners can enjoy their crispy chicken with signature dipping sauces like Pretty Sauce and Cream Onion.</p>\n`,
-      faqs: [
-        { q: "What kind of food does Pretty Hot Chicken Malaysia serve?", a: "They specialize in Nashville-style hot chicken, offering spicy fried chicken, chicken tenders, burgers, and localized dishes like Nasi Lemak with fried chicken." },
-        { q: "Is Pretty Hot Chicken Malaysia Halal or Muslim-friendly?", a: "Yes, Pretty Hot Chicken is recognized as a Muslim-friendly establishment, making it a great dining option for Muslim customers." },
-        { q: "How much does a meal cost at Pretty Hot Chicken?", a: "A typical combo meal, such as a Fried Chicken Meal or Chicken Tender Meal, starts from approximately RM 24.90, while ala carte items like burgers start from RM 7.90." },
-        { q: "What are the popular sauces available at Pretty Hot Chicken?", a: "Popular dipping sauces include their signature Pretty Sauce and Cream Onion sauce, which pair perfectly with their hot chicken." },
-        { q: "Does Pretty Hot Chicken offer delivery in Malaysia?", a: "Yes, you can order Pretty Hot Chicken for delivery through popular platforms like Foodpanda and GrabFood, depending on your location in Malaysia." }
-      ],
-      menu: prettyHotChickenMenu
-    },
-    {
-      name: "Wallace",
-      slug: "wallace",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Budget", colors: "bg-blue-500 text-white" }],
-      desc: "Affordable Chinese fast-food chain.",
-      seoArticle: `\n<h2>Wallace (AllAce)</h2>\n<p>Wallace (now largely rebranded as AllAce in Malaysia) is a popular Chinese fast-food chain known for its budget-friendly fried chicken and burger meals. Often considered an affordable alternative to major global fast-food brands, it offers a variety of hearty combo sets, signature crispy chicken, and localized favorites like rice dishes. The restaurant has built a loyal following for delivering satisfying, quick-service meals without breaking the bank.</p>\n`,
-      faqs: [
-        { q: "What kind of food does Wallace Malaysia serve?", a: "Wallace specializes in fast-food favorites, notably crispy fried chicken, XXL grilled drumsticks, chicken and beef burgers, wraps, and local rice meals." },
-        { q: "Has Wallace rebranded in Malaysia?", a: "Yes, many Wallace outlets in Malaysia have recently rebranded to 'AllAce', though they continue to offer the same popular and affordable fried chicken menu." },
-        { q: "Are the prices affordable at Wallace?", a: "Absolutely. Wallace is known for its value-for-money pricing, with a la carte fried chicken starting around RM 7.90 and generous combo meals ranging from RM 16.90 to RM 23.90." },
-        { q: "Can I order Wallace Malaysia menu items online?", a: "Yes, you can easily order Wallace (or AllAce) meals online for delivery through platforms like GrabFood and Foodpanda in Malaysia." },
-        { q: "What is the most popular combo meal at Wallace?", a: "Their Signature Burger Combos and Crispy Fried Chicken sets are among the bestsellers, typically served with sides like cheesy wedges, fries, or chicken popcorn, along with a beverage." }
-      ],
-      menu: wallaceMenu
+      menu: [
+        // All Time Favourites
+        { name: "Big Mac", price: "RM 12.50", category: "All Time Favourites", description: "The iconic burger with two all-beef patties, special sauce, lettuce, cheese, pickles, and onions." },
+        { name: "Beefburger", price: "RM 5.95", category: "All Time Favourites", description: "100% pure beef patty with pickles, onions, mustard, and ketchup." },
+        { name: "Cheeseburger", price: "RM 7.50", category: "All Time Favourites", description: "The classic cheeseburger with a 100% pure beef patty." },
+        { name: "Double Cheeseburger", price: "RM 10.95", category: "All Time Favourites", description: "Double the beef and double the cheese for double the satisfaction." },
+        { name: "Filet-O-Fish", price: "RM 10.50", category: "All Time Favourites", description: "Sustainable wild-caught fish with tartare sauce and cheese." },
+        { name: "GCB - Grilled Chicken Burger", price: "RM 13.95", category: "All Time Favourites", description: "Grilled chicken thigh topped with charcoal bun and chargrilled sauce." },
+        { name: "McChicken", price: "RM 9.50", category: "All Time Favourites", description: "Crispy chicken patty with lettuce and mayonnaise." },
+        { name: "Spicy Chicken McDeluxe", price: "RM 14.50", category: "All Time Favourites", description: "Spicy whole-muscle chicken thigh with lettuce and special sauce." },
+        { name: "Chicken McNuggets (6pcs)", price: "RM 10.50", category: "All Time Favourites", description: "6 pieces of tender, juicy Chicken McNuggets." },
+        { name: "Ayam Goreng McD (2pcs)", price: "RM 13.95", category: "All Time Favourites", description: "Two pieces of our signature spicy and crispy fried chicken." },
+        { name: "Bubur Ayam McD (M)", price: "RM 7.50", category: "All Time Favourites", description: "Hearty chicken porridge topped with spring onions and ginger." },
+        { name: "Nasi Lemak McD", price: "RM 7.50", category: "All Time Favourites", description: "Authentic Malaysian favorite served with coconut rice and sambal." },
+
+        // Breakfast
+        { name: "Sausage McMuffin", price: "RM 7.64", category: "Breakfast", description: "Sausage patty and cheese on a toasted English muffin." },
+        { name: "Sausage McMuffin with Egg", price: "RM 8.58", category: "Breakfast", description: "Sausage patty, egg, and cheese at the start of your day." },
+        { name: "Hotcakes (2pcs)", price: "RM 11.46", category: "Breakfast", description: "Golden brown pancakes served with butter and maple syrup." },
+        { name: "Big Breakfast", price: "RM 12.83", category: "Breakfast", description: "A complete breakfast set with sausage, egg, hash brown, and muffin." },
+        { name: "Crispy Chicken Muffin", price: "RM 8.87", category: "Breakfast", description: "Crispy chicken patty on a toasted English muffin." },
+        { name: "Crispy Chicken Muffin with Egg", price: "RM 9.81", category: "Breakfast", description: "Crispy chicken patty and egg breakfast classic." },
+        { name: "Hash Browns", price: "RM 4.95", category: "Breakfast", description: "Golden, crispy potato patties." },
+
+        // Happy Meals
+        { name: "Happy Meal: Chicken Burger", price: "RM 11.95", category: "Happy Meals", description: "Includes a chicken burger, side, drink, and a toy!" },
+        { name: "Happy Meal: Chicken McNuggets (4pcs)", price: "RM 11.95", category: "Happy Meals", description: "4 pieces of McNuggets with a toy and meal set." },
+        { name: "Happy Meal: Cheeseburger", price: "RM 11.95", category: "Happy Meals", description: "Classic cheeseburger Happy Meal for the kids." },
+        { name: "Happy Meal: Ayam Goreng McD (1pc)", price: "RM 12.50", category: "Happy Meals", description: "One piece of crispy fried chicken for smaller appetites." },
+        { name: "Happy Meal: Sausage McMuffin", price: "RM 12.05", category: "Happy Meals", description: "Breakfast Happy Meal with Sausage McMuffin." },
+        { name: "Happy Meal: 2pc Hotcakes", price: "RM 12.10", category: "Happy Meals", description: "A sweet breakfast treat for kids." },
+
+        // Deserts & Sides
+        { name: "French Fries (M)", price: "RM 5.50", category: "Deserts & Sides", description: "The world's favorite crispy golden potato fries." },
+        { name: "Corn Cup (M)", price: "RM 5.20", category: "Deserts & Sides", description: "Warm, sweet steamed corn kernels." },
+        { name: "Apple Pie", price: "RM 4.50", category: "Deserts & Sides", description: "Warm, crispy pastry filled with spiced apple chunks." },
+        { name: "Sundae (Chocolate / Strawberry)", price: "RM 5.95", category: "Deserts & Sides", description: "Creamy vanilla soft serve with your choice of topping." },
+        { name: "Oreo McFlurry", price: "RM 8.50", category: "Deserts & Sides", description: "Vanilla soft serve mixed with crunchy Oreo bits." },
+        { name: "Sundae Cone", price: "RM 1.90", category: "Deserts & Sides", description: "Classic vanilla soft serve on a crisp cone." },
+        { name: "ChocoTop", price: "RM 2.90", category: "Deserts & Sides", description: "Vanilla cone dipped in rich chocolate coating." },
+
+        // Drinks
+        { name: "Minute Maid Orange Juice", price: "RM 7.83", category: "Drinks", description: "Refreshing 100% orange juice." },
+        { name: "Hot Milo", price: "RM 5.66", category: "Drinks", description: "Malaysian favorite hot chocolate malt drink." },
+        { name: "Iced Milo (M)", price: "RM 8.02", category: "Drinks", description: "Chilled chocolate malt goodness." },
+        { name: "Drinking Water", price: "RM 4.72", category: "Drinks", description: "Bottled mineral water." },
+        { name: "100Plus (M)", price: "RM 5.47", category: "Drinks", description: "Isotonic drink for active hydration." },
+        { name: "Carbonated Soft Drink (Coca-Cola / Sprite) (M)", price: "RM 5.47", category: "Drinks", description: "Your choice of chilled carbonated beverage." },
+        { name: "Iced Lemon Tea (M)", price: "RM 6.89", category: "Drinks", description: "Cool and zesty iced tea." },
+
+        // McCafé
+        { name: "Americano Espresso", price: "RM 6.50", category: "McCafé", description: "Rich, bold espresso-based Americano." },
+        { name: "Small Espresso", price: "RM 5.50", category: "McCafé", description: "Single shot of premium McCafé espresso." },
+        { name: "Americano", price: "RM 6.51", category: "McCafé", description: "Classical hot black coffee." },
+        { name: "Hot Chocolate", price: "RM 10.85", category: "McCafé", description: "Rich and creamy hot cocoa." },
+        { name: "Mocha", price: "RM 10.50", category: "McCafé", description: "Perfect blend of espresso and chocolate." },
+        { name: "Cappuccino", price: "RM 7.45", category: "McCafé", description: "Frothy coffee made with high-quality beans." },
+        { name: "Latte", price: "RM 7.45", category: "McCafé", description: "Smooth espresso with steamed milk." },
+        { name: "Iced Latte", price: "RM 8.40", category: "McCafé", description: "Chilled smooth espresso and milk." },
+        { name: "Iced Americano", price: "RM 7.45", category: "McCafé", description: "Cooling black coffee fix." },
+        { name: "Iced Chocolate", price: "RM 10.85", category: "McCafé", description: "Ice-cold premium chocolate drink." },
+        { name: "Ice Blended Mocha", price: "RM 13.68", category: "McCafé", description: "Refreshing blended coffee and chocolate treat." },
+        { name: "Belgium Chocolate Cake - Sliced", price: "RM 13.11", category: "McCafé", description: "Decadent and rich chocolate layer cake." },
+        { name: "Classic Cheesecake - Sliced", price: "RM 13.11", category: "McCafé", description: "Creamy baked cheesecake on a crust." },
+        { name: "Red Velvet Cake - Sliced", price: "RM 13.11", category: "McCafé", description: "Distinctive velvet cake with cream cheese frosting." }
+      ]
     },
     {
       name: "KFC",
@@ -928,771 +684,6 @@ export const brandMocks: Record<string, any[]> = {
 
   'coffee-bakeries': [
     {
-      name: "Ho Kow Hainam Kopitiam",
-      slug: "ho-kow-hainam-kopitiam",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Kopitiam", colors: "bg-brown-800 text-white" }, { name: "Hainanese", colors: "bg-stone-800 text-white" }],
-      desc: "Legendary 1956 kopitiam in KL Chinatown famous for its traditional Hainan Cham, Kaya Toast, and nostalgic old-school ambiance.",
-      seoArticle: `\n<h2>Ho Kow Hainam Kopitiam Malaysia Menu</h2>\n<p>Ho Kow Hainam Kopitiam is a legendary, long-standing breakfast establishment located in the heart of Kuala Lumpur's Chinatown, established in 1956. This culturally significant kopitiam serves classic Hainanese breakfast staples like Kaya Butter Toast, soft-boiled eggs, and their signature Hainam Cham within a nostalgic, old-school atmosphere. Currently operated by the fourth generation of the founding family, it continues to preserve the morning rituals and culinary heritage of Kuala Lumpur.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items on the Ho Kow Hainam Kopitiam Malaysia menu?", a: "The most popular items include their signature Hainan Cham (a blend of coffee and tea), classic Kaya & Butter Toast, Nasi Lemak Ayam Goreng, and their famous Dry Curry Chicken Noodle." },
-        { q: "What are the prices like at Ho Kow Hainam Kopitiam?", a: "Prices are generally affordable, with drinks like the Hainan Cham costing around RM 2.90 to RM 3.80, traditional toasts between RM 4.10 and RM 6.80, and hearty main dishes ranging from RM 6.20 to RM 17.30." },
-        { q: "Does the Ho Kow Hainam Kopitiam menu have vegetarian or halal options?", a: "Ho Kow Hainam Kopitiam is a traditional Chinese establishment and is not halal-certified. While they offer meatless options like toasts, soft-boiled eggs, and various beverages, they are not strictly vegetarian due to potential cross-contamination." },
-        { q: "When is the best time to visit Ho Kow Hainam Kopitiam to avoid long queues?", a: "It is highly recommended to arrive early, ideally before the opening time of 7:30 AM, especially on weekends, to secure a table and avoid waiting times that can last from 30 to 90 minutes." },
-        { q: "Does Ho Kow Hainam Kopitiam serve breakfast all day?", a: "Yes, they serve their traditional Hainanese breakfast items, such as toasts, soft-boiled eggs, and dim sum, throughout their operating hours, which are typically from 7:30 AM to 3:00 PM (closed on Mondays)." }
-      ],
-      menu: hoKowHainamKopitiamMenu
-    },
-    {
-      name: "Luck Bros Kopi",
-      slug: "luck-bros-kopi",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Kopitiam", colors: "bg-brown-800 text-white" }, { name: "Malaysian", colors: "bg-yellow-800 text-white" }],
-      desc: "Popular modern Malaysian kopitiam offering traditional breakfast classics, hearty Nasi Lemak, and their famous 5 States Kopi.",
-      seoArticle: `\n<h2>Luck Bros Kopi Malaysia Menu</h2>\n<p>Luck Bros Kopi (formerly Luckin Kopi) is a popular Malaysian kopitiam that offers modern interpretations of traditional local breakfast classics and street food. Renowned for its unique '5 States Kopi' and vibrant atmosphere, the cafe serves a wide variety of meals ranging from hearty Nasi Lemak to classic kaya toast. With multiple outlets including Petaling Street and Nu Sentral, it provides a nostalgic yet contemporary dining experience for coffee enthusiasts and food lovers alike.</p>\n`,
-      faqs: [
-        { q: "What are the must-try items on the Luck Bros Kopi Malaysia menu?", a: "The signature Nasi Lemak Ayam Panggong, Salted Egg Chicken Rice, and the famous 5 States Kopi (a sampler of coffee from Melaka, Ipoh, KL, Johor, and Penang) are highly recommended favorites." },
-        { q: "Does Luck Bros Kopi serve traditional Malaysian breakfast sets?", a: "Yes, their Malaya Peninsula Breakfast set is a crowd-pleaser, typically featuring Classic Kaya Butter Toast, half-boiled kampung eggs, and a hot cup of Kopi O." },
-        { q: "Are there vegetarian options available at Luck Bros Kopi?", a: "Yes, the menu includes various vegetarian-friendly options such as classic toasts, meat-free snacks, and traditional local desserts like Cendol." },
-        { q: "What is the average price range for a meal at Luck Bros Kopi?", a: "Main dishes usually range from RM 20 to RM 30, while bundled set meals and hot deals cost around RM 22 to RM 30, making it an affordable cafe dining experience." },
-        { q: "Can I order from the Luck Bros Kopi menu for delivery?", a: "Absolutely, Luck Bros Kopi is available on major delivery platforms like Foodpanda and Beep, though delivery prices might be slightly higher than dining in-store." }
-      ],
-      menu: luckBrosKopiMenu
-    },
-    {
-      name: "CC by Mel",
-      slug: "cc-by-mel",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Japanese Fusion", colors: "bg-pink-800 text-white" }, { name: "Cafe", colors: "bg-stone-800 text-white" }],
-      desc: "Aesthetic Japanese fusion cafe in Bukit Jalil known for floral-garnished donburi, nori tacos, and beautiful minimalist decor.",
-      seoArticle: `\n<h2>CC by Mel Malaysia Menu</h2>\n<p>CC by Mel is a popular Japanese fusion restaurant located in Bukit Jalil, Kuala Lumpur, founded by a former florist. The restaurant is well-known for its cozy, minimalist atmosphere and highly Instagrammable dishes that often feature edible flower garnishes. It offers a diverse menu ranging from signature nori tacos and cold pastas to premium donburi bowls and creative desserts.</p>\n`,
-      faqs: [
-        { q: "What is CC by Mel known for?", a: "CC by Mel is renowned for its aesthetic Japanese fusion cuisine, especially dishes like the Trio Taco Box, Ocean Capellini, and beautifully plated donburi bowls garnished with edible flowers." },
-        { q: "Where is CC by Mel located in Malaysia?", a: "The restaurant is located at Residensi Park in Bukit Jalil, Kuala Lumpur, offering a cozy and bright dining atmosphere filled with natural sunlight." },
-        { q: "Is CC by Mel halal-certified?", a: "CC by Mel is a pork-free establishment. However, diners looking for strict halal certification should verify with the restaurant directly regarding their current status and ingredients." },
-        { q: "Do I need to make a reservation before visiting CC by Mel?", a: "Yes, it is highly recommended to book a table in advance, especially during lunch, dinner, and weekends, as the restaurant is very popular and gets crowded quickly." },
-        { q: "What are the popular items on the CC by Mel Malaysia menu?", a: "Some highly recommended dishes include the Trio Taco Box, Ocean Capellini, Shake Salmon Don, and their Truffle Puddle pasta, alongside unique beverages like the Dirty Matcha Latte." }
-      ],
-      menu: ccByMelMenu
-    },
-    {
-      name: "Dou Dou Bake",
-      slug: "dou-dou-bake",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Bakery", colors: "bg-stone-800 text-white" }, { name: "Sourdough", colors: "bg-amber-800 text-white" }],
-      desc: "Highly popular artisanal bakery in Petaling Jaya celebrated for its minimalist aesthetic and slow-fermented sourdough pastries.",
-      seoArticle: `\n<h2>Dou Dou Bake Malaysia Menu</h2>\n<p>Dou Dou Bake is a highly popular artisanal bakery and cafe located in Petaling Jaya, Malaysia, celebrated for its minimalist and aesthetic interior. The establishment specializes in slow-fermented sourdough breads, delicate pastries, and specialty coffees, making it a favorite spot for brunch and pastry lovers.</p>\n`,
-      faqs: [
-        { q: "What is the general price range for items on the Dou Dou Bake Malaysia menu?", a: "Pastries generally range from RM 11 to RM 15, while specialty coffees cost between RM 10 and RM 16. Savory brunch items are priced around RM 20, and whole cakes start from RM 160." },
-        { q: "Where is Dou Dou Bake located?", a: "Dou Dou Bake is located at 38, Jalan SS 4c/5, Taman Rasa Sayang, 47301 Petaling Jaya, Selangor, Malaysia." },
-        { q: "Do I need to pre-order whole cakes and breads from Dou Dou Bake?", a: "Yes, whole cakes typically require at least 2 days of advance notice. Bread and pastry pre-orders should be placed at least 24 hours in advance via their web store." },
-        { q: "What are the signature items at Dou Dou Bake?", a: "Some of their highly recommended signature items include the Sourdough Croissant, Country Sourdough, Dou Dou Bun, and specialty coffees like the Long Black." },
-        { q: "Is Dou Dou Bake usually crowded?", a: "Yes, Dou Dou Bake is extremely popular and often experiences long queues, particularly on weekends. It is highly recommended to arrive early to secure a seat and ensure you get the best selection of freshly baked goods before they sell out." }
-      ],
-      menu: douDouBakeMenu
-    },
-    {
-      name: "10 Grams Cafe",
-      slug: "10-grams-cafe",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe", colors: "bg-stone-600 text-white" }, { name: "Fusion", colors: "bg-red-900 text-white" }],
-      desc: "Popular cafe specializing in fusion cuisine, perfectly blending Western dishes with distinctive local Malaysian touches.",
-      seoArticle: `\n<h2>10 Grams Cafe Malaysia Menu</h2>\n<p>10 Gram (also known as 10 Gram Gourmet) is a popular cafe and restaurant chain in Malaysia, with a prominent outlet in Tamarind Square, Cyberjaya. The restaurant specializes in fusion cuisine, perfectly blending Western and Eastern flavors with distinctive local Malaysian touches. The name \"10 Gram\" symbolizes perfection (\"10\") and honors the initials of its four founders (\"Gram\").</p>\n`,
-      faqs: [
-        { q: "What type of food does 10 Gram Cafe in Malaysia serve?", a: "10 Gram Cafe serves a diverse fusion menu that perfectly blends Western dishes, pasta, and Asian favorites with unique local Malaysian twists." },
-        { q: "What are the popular items on the 10 Gram Malaysia Menu?", a: "Popular items include the Nasi Lemak Classic, Nasi Buttermilk Lala, Mac & Cheese with Hot & Spicy Fried Chicken, and Ground Beef Cheese Fries." },
-        { q: "How much does food cost at 10 Gram Cyberjaya?", a: "Prices are quite reasonable, with Asian dishes like Nasi Lemak Classic starting from RM 8.40 and heartier Western meals like Fish & Chips with Fried Rice around RM 25.35." },
-        { q: "Does 10 Gram Cafe offer food delivery in Malaysia?", a: "Yes, 10 Gram partners with delivery platforms like Foodpanda so you can enjoy their meals delivered right to your doorstep." },
-        { q: "Where are the 10 Gram branches located in Malaysia?", a: "While famous for its Cyberjaya outlet in Tamarind Square, 10 Gram also has branches in Putrajaya (IOI City Mall), Kuantan, Kemaman, Shah Alam, and Nilai." }
-      ],
-      menu: tenGramsCafeMenu
-    },
-    {
-      name: "Ono Specialty Coffee & Matcha",
-      slug: "ono-specialty-coffee",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Specialty Coffee", colors: "bg-stone-800 text-white" }, { name: "Matcha", colors: "bg-green-800 text-white" }],
-      desc: "Minimalist, Japanese-inspired café uniting premium ceremonial matcha with craft specialty coffee.",
-      seoArticle: `\n<h2>Ono Specialty Coffee Malaysia Menu</h2>\n<p>Ono Specialty Coffee & Matcha (also known as ONO Coffee) is a minimalist, Japanese-inspired café located in SS2, Petaling Jaya, Malaysia. The café is renowned for uniting premium matcha sourced from Niko Neko Matcha with specialty coffee from Curate Coffee Roasters. Alongside their signature craft beverages, ONO serves a popular selection of Japanese-style sandos and artisanal pastries.</p>\n`,
-      faqs: [
-        { q: "What is the most popular drink on the Ono Specialty Coffee Malaysia Menu?", a: "Their standout signature drink is 'When Two Worlds Collide,' a unique fusion that combines Niko Neko ceremonial matcha cream with carbonated Ethiopia Yirgacheffe cold brew coffee." },
-        { q: "What food items are available at ONO Coffee in Malaysia?", a: "The food menu primarily focuses on premium Japanese-inspired 'sandos' (thick sandwiches), featuring popular options like the Crispy Ebi Katsu Taru Taru Sando, Dashi Tamago Sando, and various dessert sandos." },
-        { q: "What is the average price range for the Ono Specialty Coffee Malaysia Menu?", a: "Specialty matcha and coffee beverages typically range from RM15 to RM20. Their signature heartier items, like the Japanese sandos, are priced between RM18 and RM28." },
-        { q: "Are there non-coffee options on the ONO Malaysia menu?", a: "Absolutely! Besides specialty coffee, ONO specializes in high-grade ceremonial matcha and hojicha beverages, such as the popular REN Matcha Latte and Tsubaki Hojicha Latte." },
-        { q: "Can I order from the Ono Specialty Coffee menu for delivery?", a: "Yes, ONO Specialty Coffee offers online ordering for delivery and takeaway through local platforms like Beep, where you can view their real-time menu and pricing." }
-      ],
-      menu: onoSpecialtyCoffeeMenu
-    },
-    {
-      name: "Gula Cakery",
-      slug: "gula-cakery",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cakes", colors: "bg-orange-800 text-white" }, { name: "Comfort Food", colors: "bg-red-800 text-white" }],
-      desc: "Highly popular family-friendly bakery and café chain celebrated for baking over 200 varieties of premium cakes and hearty meals.",
-      seoArticle: `\n<h2>Gula Cakery Malaysia Menu</h2>\n<p>Gula Cakery is a highly popular, family-friendly bakery and café chain in Malaysia, celebrated for baking over 200 varieties of premium, handcrafted cakes. Beyond its signature desserts like the Berry Pavlova and Matilda Chocolate Cake, the café also serves a diverse menu of comforting hot meals, including hearty pastas and local Asian-fusion favorites. With multiple locations across the Klang Valley, it provides a welcoming atmosphere perfect for casual dining, celebrations, and delightful afternoon tea sessions.</p>\n`,
-      faqs: [
-        { q: "What are the best-selling cakes on the Gula Cakery Malaysia menu?", a: "Some of the most popular and highly recommended cakes include the GC Matilda Chocolate Cake, Chef's Signature Tiramisu, Berry Pavlova, and their diverse range of creamy cheesecakes." },
-        { q: "Does Gula Cakery serve hot meals and savory food, or only desserts?", a: "Yes, Gula Cakery offers an extensive comfort food menu. You can enjoy savory dishes like Spaghetti Buttermilk, Hainanese Chicken Chop, Aglio Olio, and local favorites like Kampung Fried Rice." },
-        { q: "Can I order whole cakes for birthdays and events from Gula Cakery?", a: "Absolutely! Gula Cakery provides a wide selection of whole cakes perfect for celebrations, starting from approximately RM 130 depending on the size and flavor, available for both pickup and delivery." },
-        { q: "Does Gula Cakery offer any tea-time sets or dessert bundles?", a: "Yes, they offer popular signature bundles such as 'Gula's Mix & Match' (4 cake slices) and 'Gula's Tea Time' sets (2 slices and 2 drinks) which are perfect for sharing or afternoon treats." },
-        { q: "Where can I find the latest Gula Cakery menu prices and order online?", a: "The most accurate, up-to-date pricing and menu options can be found on their official website (gulacakery.com) or through their Oddle delivery platform, where you can select your nearest outlet." }
-      ],
-      menu: gulaCakeryMenu
-    },
-    {
-      name: "Coolblog",
-      slug: "coolblog",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Beverages", colors: "bg-blue-600 text-white" }, { name: "Desserts", colors: "bg-pink-600 text-white" }],
-      desc: "Prominent homegrown Malaysian kiosk brand specializing in affordable ice-blended drinks, smoothies, and milk teas.",
-      seoArticle: `\n<h2>Coolblog Malaysia Menu</h2>\n<p>Coolblog is a prominent, homegrown Malaysian kiosk-based dessert and beverage brand founded in 2005. Recognized as one of the country's pioneering Halal-certified beverage franchises, it specializes in affordable, high-quality ice-blended drinks, smoothies, milk teas, and waffles. With over 300 outlets nationwide, Coolblog focuses on providing a convenient, value-for-money, and vibrant takeaway experience for consumers.</p>\n`,
-      faqs: [
-        { q: "Is the Coolblog Malaysia menu Halal-certified?", a: "Yes, Coolblog is one of the pioneering Halal-certified beverage franchise brands in Malaysia, making all their drinks and desserts Muslim-friendly and safe to consume." },
-        { q: "What are the most popular items on the Coolblog menu?", a: "Some of the best-sellers include the 'Viral' Chocolate Cheese, Harimau Brown Sugar Milk Tea, and the Magical Unicool smoothies, along with their freshly baked Classic Waffles." },
-        { q: "Can I customize the sugar level and toppings for my Coolblog drinks?", a: "Absolutely! Coolblog allows customers to customize their sugar levels and add a variety of toppings, such as pearls, to suit their personal taste preferences." },
-        { q: "How much do drinks generally cost at Coolblog Malaysia?", a: "Coolblog offers very affordable options, with most drinks ranging from RM 7.50 to RM 18.90, depending on the size, category, and any extra toppings you add." },
-        { q: "Does Coolblog offer any food items besides beverages?", a: "Yes, in addition to their extensive beverage lineup, Coolblog serves delicious snacks like waffles with various spreads (such as chocolate hazelnut and pistachio) and toasties." }
-      ],
-      menu: coolblogMenu
-    },
-    {
-      name: "Oomph Petaling Jaya",
-      slug: "oomph-pj",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe", colors: "bg-stone-600 text-white" }, { name: "Wine Bar", colors: "bg-red-900 text-white" }],
-      desc: "Vibrant day-time cafe and modern night-time wine bar in Megah Rise Mall offering a diverse Western-inspired menu.",
-      seoArticle: `\n<h2>Oomph Petaling Jaya Malaysia Menu</h2>\n<p>Oomph Petaling Jaya, located in Megah Rise Mall, is a vibrant cafe by day and a modern wine bar by night that offers a diverse Western-inspired menu. Known for its aesthetic and pet-friendly environment, it serves everything from hearty brunches and specialty coffees to rich pastas and evening drinks. While the food is pork-free, the establishment is not Halal-certified as it serves alcohol.</p>\n`,
-      faqs: [
-        { q: "Where is Oomph located in Petaling Jaya?", a: "Oomph Petaling Jaya is located at Megah Rise Mall, offering a cozy and aesthetic dining environment." },
-        { q: "Is the Oomph Petaling Jaya Malaysia menu Halal certified?", a: "No, Oomph is not Halal certified as it serves alcohol, though its food menu is completely pork-free." },
-        { q: "What type of food does Oomph Cafe & Restaurant serve?", a: "They serve a Western-focused menu featuring hearty breakfasts, pastas, burgers, pastries, and specialty coffees, with distinct Day and Night menus." },
-        { q: "Is Oomph Petaling Jaya pet-friendly?", a: "Yes, Oomph at Megah Rise is well-known for being a pet-friendly cafe, making it a great spot for pet owners to dine." },
-        { q: "What are some popular items on the Oomph menu?", a: "Popular items include their Big Breakfast, Truffle Carbonara with Bacon Brisket, Tuna Melt Croissant, and signature specialty coffees like the Golden Stain." }
-      ],
-      menu: oomphPetalingJayaMenu
-    },
-    {
-      name: "Kula Cakes",
-      slug: "kula-cakes",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Desserts", colors: "bg-yellow-800 text-white" }, { name: "Cakes", colors: "bg-orange-800 text-white" }],
-      desc: "Highly popular dessert destination in Kuantan beloved for its signature Mango Cheesecake and cozy garden ambiance.",
-      seoArticle: `\n<h2>Kula Cakes Malaysia</h2>\n<p>Kula Cakes is a highly popular dessert destination in Kuantan, Pahang, beloved for its signature Mango Cheesecake and cozy garden-style ambiance. Operating from Tuesday to Sunday, it offers a delightful variety of cakes, pavlovas, and pies that draw both locals and tourists.</p>\n`,
-      faqs: [
-        { q: "What is the most famous cake at Kula Cakes Kuantan?", a: "Their signature Mango Cheesecake, known for its digestive biscuit crust and fresh mango topping, is their most iconic and popular dessert." },
-        { q: "How much does a whole Mango Cheesecake cost?", a: "A 7-inch whole Mango Cheesecake is priced at RM 79.00, while the 9-inch version costs RM 109.00." },
-        { q: "Where is Kula Cakes located?", a: "Kula Cakes is located at 96, Jalan Besar, 25000 Kuantan, Pahang, Malaysia." },
-        { q: "What are the operating hours for Kula Cakes?", a: "They typically open from Tuesday to Sunday, generally from 11:00 AM to 6:00 PM, and are closed on Mondays." },
-        { q: "What other desserts do they offer besides Mango Cheesecake?", a: "Besides their famous Mango Cheesecake, they offer a variety of treats including Pavlova, Burnt Cheesecakes, Peanut Butter Pie, Banoffee Pie, and Chocolate Moist Cake." }
-      ],
-      menu: kulaCakesMenu
-    },
-    {
-      name: "Yut Kee Restaurant",
-      slug: "yut-kee",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Hainanese", colors: "bg-red-800 text-white" }, { name: "Kopitiam", colors: "bg-emerald-800 text-white" }],
-      desc: "Historic Hainanese coffee shop in Kuala Lumpur renowned for its classic chicken chop, Roti Babi, and weekend roast pork.",
-      seoArticle: `\n<h2>Yut Kee Restaurant Malaysia</h2>\n<p>Yut Kee Restaurant is a historic Hainanese coffee shop in Kuala Lumpur, established in 1928, renowned for its affordable and classic Malaysian-Hainanese fare. Operating out of Jalan Kamunting, the beloved kopitiam is famous for signature dishes like its traditional Hainanese Chicken Chop, Roti Babi, and weekend-special Roast Pork.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes at Yut Kee Restaurant?", a: "The most popular signature dishes at Yut Kee Restaurant include the Hainanese Chicken Chop, Roti Babi (pork-stuffed bread), and their famous weekend Roast Pork." },
-        { q: "Is Yut Kee Restaurant Halal?", a: "No, Yut Kee Restaurant is not Halal-certified as it serves pork dishes, including their famous Roti Babi and Roast Pork." },
-        { q: "What are the operating hours for Yut Kee Restaurant in Kuala Lumpur?", a: "Yut Kee Restaurant is open from Tuesday to Sunday, typically from 7:30 AM to 3:00 PM. They are closed on Mondays." },
-        { q: "Do I need to make a reservation for Yut Kee Restaurant?", a: "Yut Kee Restaurant generally does not accept reservations. It operates on a walk-in basis, and due to its popularity, you may need to queue and register your name at the counter upon arrival." },
-        { q: "What are the menu prices like at Yut Kee Restaurant?", a: "Meals at Yut Kee Restaurant are quite affordable. Signature dishes like the Hainanese Chicken Chop cost around RM 17.00, Roti Babi is RM 14.00, and noodle dishes generally range between RM 9.50 and RM 12.50." }
-      ],
-      menu: yutKeeRestaurantMenu
-    },
-    {
-      name: "Richiamo Coffee",
-      slug: "richiamo-coffee",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Coffee", colors: "bg-stone-800 text-white" }, { name: "Local Meals", colors: "bg-emerald-800 text-white" }],
-      desc: "Premium Malaysian café chain offering 100% Arabica coffee alongside authentic local meals and pastries.",
-      seoArticle: `\n<h2>Richiamo Coffee Malaysia</h2>\n<p>Richiamo Coffee is a prominent Malaysian premium café chain founded in 2015, known for offering high-quality 100% Arabica coffee in a chic and cozy environment. Unlike many international coffee chains, Richiamo Coffee distinguishes itself by serving a diverse menu that includes both Western-style pastries and authentic hot Malaysian cuisine like Nasi Lemak and Nasi Ayam Masak Lemak. The brand is Halal-certified by JAKIM and has expanded to over 120 locations across Malaysia, making premium coffee and food accessible to students and the general public.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items on the Richiamo Coffee Malaysia Menu?", a: "Some of the most popular items include authentic Malaysian dishes like Nasi Lemak Ayam Rendang and Nasi Ayam Masak Lemak Cili Padi, as well as Western favorites such as Beef Lasagna and Salted Egg Yolk Croissants. Their signature ice-blended caramel cappuccino is also a fan favorite." },
-        { q: "Is Richiamo Coffee in Malaysia Halal-certified?", a: "Yes, Richiamo Coffee is fully Halal-certified by JAKIM. Muslim customers can enjoy their wide range of coffee, pastries, and hot meals with complete peace of mind regarding dietary requirements and cleanliness standards." },
-        { q: "How much does a coffee cost at Richiamo Coffee?", a: "A standard hot espresso typically costs around RM 7.00 to RM 8.00, while a hot Cappuccino or Latte ranges from RM 9.00 to RM 12.00. Ice-blended drinks are priced slightly higher, usually between RM 9.00 and RM 15.00 depending on the size and flavor." },
-        { q: "Does Richiamo Coffee serve heavy meals or only snacks?", a: "Richiamo Coffee serves a variety of heavy meals alongside their snacks and pastries. Their menu features hot local rice sets (Nasi) and Western dishes like Spaghetti Carbonara and Chicken Chop, making it a great spot for lunch or dinner." },
-        { q: "Are the menu prices the same at all Richiamo Coffee outlets?", a: "Prices can vary slightly depending on the outlet location and whether you are ordering dine-in or through a delivery platform like Foodpanda or GrabFood. Outlets in major cities or delivery app menus might have slightly higher prices than local neighborhood or university branches." }
-      ],
-      menu: richiamoCoffeeMenu
-    },
-    {
-      name: "I Love Yoo!",
-      slug: "i-love-yoo",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Chinese Snacks", colors: "bg-red-700 text-white" }],
-      desc: "Popular chain serving classic Chinese street snacks like Yoo Tiao and hearty porridges.",
-      seoArticle: `\n<h2>I Love Yoo! Malaysia</h2>\n<p>I Love Yoo! is a popular Malaysian food and beverage chain known for bringing traditional Chinese street food into modern, comfortable settings. They specialize in freshly made traditional snacks such as Yoo Tiao (Chinese crullers), soya bean milk, and savory porridge, offering a nostalgic taste to their customers. With numerous outlets across Malaysia, I Love Yoo! provides a convenient spot for quick, affordable, and comforting meals.</p>\n`,
-      faqs: [
-        { q: "Is I Love Yoo! halal-certified in Malaysia?", a: "Yes, I Love Yoo! is Halal-certified by JAKIM, making it a popular choice for Muslim diners seeking authentic Chinese street snacks." },
-        { q: "What are the signature dishes at I Love Yoo!?", a: "The signature items include the classic Yoo Tiao (Chinese crullers), freshly brewed Soya Bean Milk, and comforting bowls of Dried Scallop or Minced Chicken Porridge." },
-        { q: "Does I Love Yoo! offer delivery services?", a: "Yes, I Love Yoo! is available for delivery across Malaysia through major food delivery platforms like GrabFood and Foodpanda." },
-        { q: "Are there vegetarian options available on the I Love Yoo! menu?", a: "Yes, several items are vegetarian-friendly, including their plain Yoo Tiao, Sweet Potato Balls, Soya Bean Milk, and Tau Foo Fa (soybean pudding)." },
-        { q: "Does I Love Yoo! serve main meals or just snacks?", a: "While famous for snacks like Yoo Tiao and Sesame Buns, they also serve hearty main meals including Porridge, Dry Wonton Mee, and Fragrant Herbal Salted Chicken sets." }
-      ],
-      menu: iLoveYooMenu
-    },
-    {
-      name: "Joja Bagels",
-      slug: "joja-bagels",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Bagels", colors: "bg-amber-700 text-white" }],
-      desc: "NYC-inspired bagel cafe known for hand-rolled bagels and creative sandwich combinations.",
-      seoArticle: `\n<h2>Joja Bagels Malaysia</h2>\n<p>Joja Bagels is a popular, NYC-inspired bagel cafe located in George Town, Penang, Malaysia. Known for its hand-rolled bagels and creative sandwich combinations, the cafe offers both savory options like the 'Smokin' Beast' and sweet cream cheese varieties.</p>\n`,
-      faqs: [
-        { q: "Where is Joja Bagels located in Malaysia?", a: "Joja Bagels is located at 55, Lebuh Bishop, in the heart of George Town, Penang, Malaysia." },
-        { q: "What is the price range for the Joja Bagels menu?", a: "The bagelwiches at Joja Bagels typically range from RM 20 to RM 35, with savory sandwiches like the Philly Cheesesteak priced around RM 35 and sweet cream cheese bagels at RM 20." },
-        { q: "Is Joja Bagels in Penang halal or pork-free?", a: "Yes, Joja Bagels is a pork-free establishment, making it a popular dining option for a diverse range of customers." },
-        { q: "What are the most popular items on the Joja Bagels menu?", a: "Some of the highly recommended menu items include the Smokin' Beast (a beef patty bagel), Lox In A Bagel, Mr. Junagi (featuring grilled eel), and their sweet Matcha Yuzu bagels." },
-        { q: "What are the operating hours for Joja Bagels in George Town?", a: "Joja Bagels is typically open from 8:00 AM to 3:00 PM and is closed on Mondays. Arriving early is recommended as it frequently draws long queues." }
-      ],
-      menu: jojaBagelsMenu
-    },
-    {
-      name: "Frenchie's Brunch & Dates",
-      slug: "frenchies-brunch-and-dates",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "French Cafe", colors: "bg-rose-800 text-white" }],
-      desc: "Charming French-inspired cafe offering customizable brunch platters and savory galettes.",
-      seoArticle: `\n<h2>Frenchie's Brunch & Dates Malaysia</h2>\n<p>Frenchie's Brunch & Dates is a charming, French-inspired café located at The Hub SS2 in Petaling Jaya, Malaysia. Known for its cozy, romantic Parisian ambiance, it is a popular destination for both casual brunch outings and intimate dates. The menu features a delightful mix of customizable brunch platters, savory galettes, comforting pastas, and sweet desserts.</p>\n`,
-      faqs: [
-        { q: "Where is Frenchie's Brunch & Dates located in Malaysia?", a: "Frenchie's Brunch & Dates is located at Lot A-G-05, The Hub SS2, 19 Sentral, Jalan Harapan, Seksyen 19, 46300 Petaling Jaya, Selangor." },
-        { q: "What are the signature dishes on the Frenchie's Brunch & Dates menu?", a: "Highly recommended signature dishes include the Duck Confit Galette, the unique Egg & Nest (featuring a crispy noodle nest), their authentic Creamy Carbonara, and the customizable 'Brunch Your Way' platters." },
-        { q: "Is Frenchie's Brunch & Dates a halal restaurant?", a: "No, Frenchie's Brunch & Dates is a non-halal establishment, as their menu includes dishes containing pork, such as roasted pork belly and bacon." },
-        { q: "What is the average price range per person at Frenchie's Brunch & Dates?", a: "Diners can expect to spend between RM 40 to RM 60 per person for a complete meal including a main dish and a beverage." },
-        { q: "Does Frenchie's Brunch & Dates serve desserts?", a: "Yes, they offer a variety of delicious desserts, with crowd favorites being the Biscoff Roll served with ice cream and their freshly made Nutella Waffles." }
-      ],
-      menu: frenchiesBrunchAndDatesMenu
-    },
-    {
-      name: "Doña Bakehouse",
-      slug: "dona-bakehouse",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Artisanal Bakery", colors: "bg-amber-800 text-white" }, { name: "Brunch", colors: "bg-orange-700 text-white" }],
-      desc: "Artisanal cafe and bakery known for its aesthetic ambiance, premium fresh pastries, and all-day brunch.",
-      seoArticle: `\n<h2>Doña Bakehouse Malaysia</h2>\n<p>Doña Bakehouse is an artisanal cafe and bakery with prominent locations in Malaysia, including a highly popular spot at TSLAW Tower in Kuala Lumpur. The cafe is celebrated for its highly aesthetic, minimalist ambiance that perfectly complements its menu of high-quality baked goods. Pastry enthusiasts flock here for their freshly baked signature croissants (like the Pistachio Rose), Pain au Chocolat, and artisanal sourdough loaves. Beyond pastries, Doña Bakehouse offers a fantastic all-day brunch menu featuring hearty options like Eggs Benedict, Açai bowls, and gourmet bagels, making it a perfect weekend brunch destination.</p>\n`,
-      faqs: [
-        { q: "What are the signature pastries on the Doña Bakehouse Malaysia Menu?", a: "Signature pastries include the Pistachio Rose Croissant, Pain au Chocolat, and classic Butter Croissant, all baked fresh daily with premium ingredients." },
-        { q: "Does the Doña Bakehouse Menu offer full meals or just pastries?", a: "In addition to artisan pastries, the menu features an extensive all-day brunch selection, including classics like Eggs Benedict, HEC & Mashed Avo Bagels, and hearty Doña Breakfast platters." },
-        { q: "What are the typical prices at Doña Bakehouse Kuala Lumpur?", a: "Prices generally range from RM 9.50 to RM 17.50 for pastries and baked goods. Main brunch dishes and all-day breakfast items usually range between RM 22 and RM 38." },
-        { q: "Are there vegetarian options available on the Doña Bakehouse Menu?", a: "Yes, the menu includes several vegetarian-friendly options such as the Healthy Green Benedict, Açai Bowls, overnight oats, and various freshly baked sourdough breads." },
-        { q: "Can I order delivery from Doña Bakehouse in Malaysia?", a: "Yes, you can order items from the Doña Bakehouse menu for delivery through platforms like GrabFood or directly from their official online store." }
-      ],
-      menu: donaBakehouseMenu
-    },
-    {
-      name: "Sogno Coffee",
-      slug: "sogno-coffee",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Artisanal Coffee & Pastries", colors: "bg-amber-800 text-white" }],
-      desc: "Fast-growing artisanal coffee chain famous for its unique lattes, colorful mille crepes, and flaky pastries.",
-      seoArticle: `\n<h2>Sogno Coffee Malaysia</h2>\n<p>Sogno Coffee is an increasingly popular coffee and pastry chain rapidly expanding across Malaysia, with highly frequented outlets in areas like Kota Bharu, Bangi, and Putrajaya. They have carved a niche for themselves by offering a wide array of creative, high-quality beverages—such as their indulgent Buttercream Latte and Seasalt Choco Melaka—paired with visually stunning and delicious pastries. Dessert lovers flock to Sogno for their extensive selection of sweet treats, including their signature multi-layered Mille Crepes, visually striking Black Croissants, and Middle Eastern-inspired Kunafa. It's an excellent spot for a casual meetup, a quick caffeine fix, or a sweet indulgence.</p>\n`,
-      faqs: [
-        { q: "What should I order at Sogno Coffee?", a: "Their Buttercream Latte and Seasalt Choco Melaka are fan favorites for drinks. For food, you can't go wrong with their Pistachio or Rainbow Mille Crepes, and their flaky Almond Nutella Croissants." },
-        { q: "Is Sogno Coffee Halal?", a: "Yes, Sogno Coffee is a Muslim-owned establishment that uses halal-certified ingredients across all their food and beverages." },
-        { q: "What are the prices like at Sogno Coffee?", a: "Drinks generally range between RM 14 and RM 20. Pastries and cakes are typically priced from RM 14 to RM 22." },
-        { q: "Does Sogno Coffee offer delivery?", a: "Yes, they are widely available on major food delivery platforms like Foodpanda and GrabFood in the areas where their branches operate." },
-        { q: "Where can I find Sogno Coffee?", a: "They have multiple branches across Malaysia, including prominent locations in Kota Bharu, Bangi, Taman Melawati, and Putrajaya." }
-      ],
-      menu: sognoCoffeeMenu
-    },
-    {
-      name: "Red Brick Kitchen by The Owls Cafe",
-      slug: "red-brick-kitchen",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe & Desserts", colors: "bg-red-800 text-white" }],
-      desc: "Cozy, brick-walled cafe offering a mix of Western mains, local fusion, and specialty cheese-topped beverages.",
-      seoArticle: `\n<h2>Red Brick Kitchen Malaysia</h2>\n<p>Red Brick Kitchen (often associated with the popular The Owls Cafe group) is a charming and cozy dining spot, well known for its inviting brick-walled interior and relaxed atmosphere. The menu is diverse, offering a crowd-pleasing selection of Western favorites like pizzas and pastas, alongside local fusion items. However, they truly shine in their beverage and dessert offerings. Diners frequently rave about their unique 'Cheesy' beverage series—where local staples like Milo and Thai Tea are topped with a thick, savory cheese foam—as well as their handmade classic Tiramisu.</p>\n`,
-      faqs: [
-        { q: "What should I order at Red Brick Kitchen?", a: "Their Four Cheese Pizza and Chicken Popcorn are popular mains/snacks, but you must try their handmade Tiramisu and one of their signature 'Cheesy' drinks." },
-        { q: "Is Red Brick Kitchen the same as The Owls Cafe?", a: "They are related concepts often sharing menu inspirations (like great coffee and desserts), but Red Brick Kitchen has its own distinct menu focusing more on savory mains and unique drinks." },
-        { q: "What are the prices like at Red Brick Kitchen?", a: "Prices are typical for a mid-range cafe. Pizzas are around RM 26.90, while signature drinks and desserts range from RM 14 to RM 25." },
-        { q: "Is Red Brick Kitchen Halal?", a: "They are a pork-free establishment and source ingredients from halal-certified suppliers." },
-        { q: "Do they serve coffee?", a: "Yes, they serve both classic espresso-based coffees and unique creations like their 3 Layer Kopi and Cheesy Coffee." }
-      ],
-      menu: redBrickKitchenMenu
-    },
-    {
-      name: "Ekues Cabin Cafe",
-      slug: "ekues-cabin-cafe",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Coffee & Brunch", colors: "bg-stone-700 text-white" }],
-      desc: "Charming cabin-style cafe located in Taman Ekuestrian Putrajaya, serving coffee, pastries, and fusion meals.",
-      seoArticle: `\n<h2>Ekues Cabin Cafe Malaysia</h2>\n<p>Nestled within the lush greenery of Taman Ekuestrian Putrajaya, Ekues Cabin Cafe offers a unique, tranquil dining experience away from the bustling city. The cafe's rustic, cabin-like aesthetic makes it a highly popular spot for aesthetic photos and relaxing weekend brunches. Their menu features a comforting blend of Western and local fare, including hearty pastas, classic Nasi Lemak, and an array of freshly baked pastries. Paired with their excellent specialty coffees and signature ice-blended drinks, it's a perfect pitstop for families and café hoppers alike.</p>\n`,
-      faqs: [
-        { q: "Where is Ekues Cabin Cafe located?", a: "It is located at Taman Ekuestrian, Jalan Kandang Kuda, Presint 5, 62000 Putrajaya." },
-        { q: "What is the price range at Ekues Cabin Cafe?", a: "Prices are generally mid-range, with coffees between RM 7 to RM 15, and main dishes typically ranging from RM 15 to RM 25." },
-        { q: "Is Ekues Cabin Cafe Halal?", a: "Yes, the cafe is Muslim-owned and uses Halal-certified ingredients." },
-        { q: "What are the opening hours for Ekues Cabin Cafe?", a: "They are generally open from Tuesday to Sunday and closed on Mondays. Note that they often have split shifts on Fridays to accommodate Friday prayers." },
-        { q: "Is there parking available at Ekues Cabin Cafe?", a: "Yes, being located within the equestrian park, there is ample parking available for visitors." }
-      ],
-      menu: ekuesCabinCafeMenu
-    },
-    {
-      name: "Zukkini Cafe",
-      slug: "zukkini",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Brunch & Coffee", colors: "bg-emerald-700 text-white" }],
-      desc: "Trendy, plant-filled cafe offering a fusion of Australian-style brunch classics and vibrant Asian flavors.",
-      seoArticle: `\n<h2>Zukkini Cafe Malaysia</h2>\n<p>Zukkini is a highly aesthetic and trendy cafe located in Oasis Ara Damansara, quickly becoming a favorite spot for brunch enthusiasts and café hoppers. The menu is a creative fusion of modern Australian-style cafe fare and robust Asian flavors. Diners can expect beautifully plated dishes ranging from classic Avocado Toast and Truffle Scrambled Eggs to their unique take on local favorites, like the 'Zukkini Nasi Kerabu 2.0'. Paired with excellent artisan coffee and decadent house-baked cakes, Zukkini offers a vibrant, relaxing atmosphere perfect for weekend catch-ups or casual weekday lunches.</p>\n`,
-      faqs: [
-        { q: "What kind of food does Zukkini serve?", a: "Zukkini serves a fusion menu focusing on modern brunch fare, including items like Truffle Scramble, Harissa Sirloin Steak, and their signature Zukkini Nasi Kerabu." },
-        { q: "Where is Zukkini Cafe located?", a: "Zukkini is located in Oasis Ara Damansara, Petaling Jaya, Selangor." },
-        { q: "Is Zukkini Cafe halal?", a: "Zukkini is a pork-free and alcohol-free establishment, sourcing their ingredients from halal-certified suppliers." },
-        { q: "Do I need to make a reservation for Zukkini?", a: "While walk-ins are welcome, it is highly recommended to make a reservation, especially on weekends, as the cafe is very popular and fills up quickly." },
-        { q: "Does Zukkini serve coffee and desserts?", a: "Yes, they serve high-quality artisan coffee (espresso-based and matcha lattes) and a selection of in-house baked cakes, including a popular Burnt Cheesecake." }
-      ],
-      menu: zukkiniMenu
-    },
-    {
-      name: "Flour, Fire & Stone",
-      slug: "flour-fire-stone",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Sourdough & Coffee", colors: "bg-amber-800 text-white" }],
-      desc: "Artisan bakery and cafe focusing on organic sourdough, wood-fired pizzas, and specialty coffee roasted in-house.",
-      seoArticle: `\n<h2>Flour, Fire & Stone Malaysia</h2>\n<p>Flour, Fire & Stone, part of the Kenny Hills Hospitality Group, is an artisanal bakery and cafe in Petaling Jaya that celebrates traditional baking methods. As the name suggests, the menu revolves around high-quality flour, open fire cooking, and stone-baked goods. They are renowned for their organic sourdough breads, wood-fired pizzas, and hearty breakfast platters. Paired with their premium, house-roasted siphon coffee, the rustic and cozy ambiance makes it an ideal spot for weekend brunches and relaxed dinners.</p>\n`,
-      faqs: [
-        { q: "What is Flour, Fire & Stone famous for?", a: "They are famous for their organic sourdough breads, wood-fired sourdough pizzas, and premium artisanal coffee (including siphon coffee)." },
-        { q: "Where is Flour, Fire & Stone located?", a: "It is located at 17, Jalan Professor Khoo Kay Kim, Pjs 13, in Petaling Jaya, Selangor (next to Pickle Park)." },
-        { q: "What group owns Flour, Fire & Stone?", a: "Flour, Fire & Stone is part of the Kenny Hills Hospitality Group, known for their high-quality bakeries and eateries across Malaysia." },
-        { q: "Is Flour, Fire & Stone halal?", a: "They are a pork-free establishment and source their ingredients from halal-certified suppliers, adhering to the general practices of the Kenny Hills group." },
-        { q: "Do they serve dinner at Flour, Fire & Stone?", a: "Yes, they are open until 10:00 PM daily and serve hearty mains like wood-fired pizzas, duck confit, and squid ink risotto for dinner." }
-      ],
-      menu: flourFireAndStoneMenu
-    },
-    {
-      name: "China House Penang",
-      slug: "china-house-penang",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1559553156-2e97137af16f?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe & Cakes", colors: "bg-amber-600 text-white" }],
-      desc: "Iconic multi-venue establishment in Penang stretching across heritage buildings, famous for its extensive selection of over 50 types of cakes and vibrant artsy vibe.",
-      seoArticle: `\n<h2>China House Penang</h2>\n<p>China House in Penang is a well-known, multi-venue establishment stretching between Beach Street and Victoria Street. Because it houses multiple dining areas (including cafés, restaurants, and art spaces), its menu is extensive, featuring a wide range of Western and fusion dishes, as well as a famous selection of over 50 types of cakes baked fresh daily. With its rich heritage architecture, live music on weekends, and unparalleled dessert spread, China House is a must-visit cultural and culinary landmark in George Town.</p>\n`,
-      faqs: [
-        { q: "What is China House Penang famous for?", a: "China House Penang is most famous for its incredible dessert counter featuring over 50 different types of freshly baked cakes daily, including their legendary Tiramisu. It is also known for its unique layout stretching across three heritage buildings, housing cafes, a restaurant, a library, and art spaces." },
-        { q: "How much do cakes cost at China House Penang?", a: "Most cake slices at China House are priced between RM 15 and RM 27, depending on the flavor and ingredients. The portions are notably generous." },
-        { q: "What are the operating hours for China House Penang?", a: "It typically operates daily from 9:30 AM until late (often around 1:00 AM), making it a popular spot for both daytime coffee and late-night desserts and drinks." },
-        { q: "Is China House Penang halal?", a: "China House is a 'pork-free' establishment, but it is not halal-certified as it serves alcohol in its premises." },
-        { q: "Do I need to make a reservation for China House Penang?", a: "Reservations are generally not required for the cafe section, though it can get very crowded on weekends and public holidays. You may need to queue during peak hours." }
-      ],
-      menu: chinaHouseMenu
-    },
-    {
-      name: "Labu + Labu (Bakery)",
-      slug: "labu-labu",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Bakery", colors: "bg-orange-600 text-white" }],
-      desc: "Popular local bakery and cafe known for their signature 'Flossie Balls' and freshly baked sponge cakes.",
-      seoArticle: `\n<h2>Labu + Labu Bakery</h2>\n<p>Labu + Labu is a popular bakery and cafe in Malaysia, widely celebrated for its freshly baked goods and signature "Flossie Balls" — soft, pillowy bread balls generously coated with savory chicken floss. The bakery also offers a delightful variety of cakes, including the classic Boston Cream Pie and traditional Pandan Gula Melaka Sponge Cake. Known for quality ingredients and satisfying textures, it has become a favorite spot for sweet treats and savory bakery snacks.</p>\n`,
-      faqs: [
-        { q: "What is the signature item at Labu + Labu bakery?", a: "The signature and most famous items at Labu + Labu are their 'Flossie Balls' — soft bread balls coated in creamy mayo and fluffy chicken floss, available in Original, Spicy Seaweed, and Vegetarian options." },
-        { q: "How much are the Flossie Balls at Labu + Labu?", a: "A pack of 4 Original Flossie Balls is typically priced around RM 10.00, though prices may vary slightly." },
-        { q: "Does Labu + Labu sell cakes?", a: "Yes, Labu + Labu offers a variety of cakes including Boston Cream Pies, Dark Chocolate Sponge Cakes, Pandan Gula Melaka Sponge Cakes, and Matcha Roll Cakes." },
-        { q: "Can I pre-order from Labu + Labu?", a: "Yes, because their signature items often sell out quickly, it is highly recommended to pre-order through their official social media channels or links." },
-        { q: "Is Labu + Labu halal?", a: "Labu + Labu typically uses Muslim-friendly ingredients, but it is recommended to verify their current official halal certification status directly with the store." }
-      ],
-      menu: labuLabuMenu
-    },
-    {
-      name: "Kenny Hills Bakers IOI City Mall",
-      slug: "kenny-hills-bakers-ioi-city-mall",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Artisan Bakery", colors: "bg-amber-700 text-white" }],
-      desc: "Spacious artisan café-bakery at IOI City Mall celebrated for handcrafted sourdough breads, wood-fired pizzas, and hearty all-day brunch.",
-      seoArticle: `\n<h2>Kenny Hills Bakers IOI City Mall</h2>\n<p>Kenny Hills Bakers at IOI City Mall (Lot GE217 & GE218, New Wing, Putrajaya) is one of the brand's largest and most popular outlets, offering a spacious rustic-chic dining experience with both indoor and alfresco seating for over 200 guests. The café-bakery is celebrated for its handcrafted artisanal sourdough breads, wood-fired sourdough pizzas, hearty all-day brunch mains, and an impressive display counter of freshly baked pastries and cakes. Open daily from 10:00 AM to 10:00 PM, it is a go-to destination for families and food lovers seeking quality European-inspired fare in a warm, neighbourhood bakery atmosphere.</p>\n`,
-      faqs: [
-        { q: "What is on the Kenny Hills Bakers IOI City Mall Malaysia menu?", a: "The Kenny Hills Bakers IOI City Mall menu features Artisan Organic Breads, Pastries & Bakery, All-Day Breakfast & Brunch, Sandwiches & Burgers, Pasta, Wood-Fired Sourdough Pizzas, Desserts & Cakes, and Beverages." },
-        { q: "How much does a meal at Kenny Hills Bakers IOI City Mall cost?", a: "Prices typically range from RM 7–RM 18 for pastries, RM 25–RM 45 for brunch mains, RM 39–RM 48 for pasta, and RM 38–RM 50 for wood-fired sourdough pizzas. Average spend per person is approximately RM 50–RM 65." },
-        { q: "Is Kenny Hills Bakers IOI City Mall halal?", a: "Kenny Hills Bakers does not hold a halal certification, but they operate a pork-free kitchen. All meats used are sourced from halal-certified suppliers." },
-        { q: "What are the must-try dishes at Kenny Hills Bakers IOI City Mall?", a: "Highly recommended items include the signature Wood-Fired Sourdough Pizzas, the Peach Strudel, Basmati Nasi Lemak, Truffle Mac & Cheese, Soft Shell Crab & Ulam Butter Pasta, and the Big Breakfast platter." },
-        { q: "What are the opening hours of Kenny Hills Bakers IOI City Mall?", a: "Kenny Hills Bakers IOI City Mall is located at Lot GE217 & GE218, New Wing, IOI City Mall, Putrajaya. The outlet is open daily from 10:00 AM to 10:00 PM." }
-      ],
-      menu: kennyHillsBakersMenu
-    },
-    {
-      name: "Fairymilk SS15",
-      slug: "fairymilk-ss15",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Dessert Cafe", colors: "bg-pink-500 text-white" }],
-      desc: "Trendy dessert café in SS15 Subang Jaya celebrated for its viral Korean-style Crème Brûlée Bingsu and whimsical Instagrammable sweet creations.",
-      seoArticle: `\n<h2>Fairymilk SS15</h2>\n<p>Fairymilk is a trendy dessert café nestled in the bustling food street of SS15, Subang Jaya, Selangor, celebrated for its viral Korean-style bingsu and whimsical, Instagrammable sweet creations. The café is best known for its signature Crème Brûlée Bingsu — a generous bowl of 'fairy snow' ice crowned with silky vanilla custard cream and a theatrically torched caramelised sugar crust. With its cosy pastel-toned interiors and a menu spanning creative bingsu flavours, indulgent toasts, and mini croffles, Fairymilk has become a beloved late-night dessert haunt for students and food lovers alike.</p>\n`,
-      faqs: [
-        { q: "What is on the Fairymilk SS15 Malaysia menu?", a: "The Fairymilk SS15 menu features Korean-style bingsu (shaved ice desserts) as its centrepiece, with flavours including the signature Crème Brûlée Bingsu, Mango Sticky Rice Bingsu, Tiramisu Bingsu, Matcha Bingsu, and Gula Melaka Cendol Bingsu. The menu also includes Caramel Banana Toast, Mini Croffles, and the signature Fairy Lemon drink." },
-        { q: "How much does Fairymilk SS15 cost? What is the price range?", a: "Most items at Fairymilk SS15 are priced between RM 12 and RM 35. Their signature Crème Brûlée Bingsu is approximately RM 28–RM 30 and serves 2–4 people. Bingsu flavours like Mango Sticky Rice are around RM 25.90, while drinks start from approximately RM 11.90." },
-        { q: "What is the most popular item at Fairymilk SS15?", a: "The most popular and viral item at Fairymilk SS15 is the Crème Brûlée Bingsu — a large bowl of finely shaved 'fairy snow' ice topped with rich vanilla custard cream, finished with a layer of caramelised sugar that is torched tableside." },
-        { q: "Where is Fairymilk SS15 located and what are its opening hours?", a: "Fairymilk SS15 is located at 5, Jalan SS15/7, SS15, 47500 Subang Jaya, Selangor, near INTI College. The café is open Sunday to Wednesday from 2:00 PM to 12:00 AM, and Friday to Saturday from 2:00 PM to 12:30 AM. Closed on Thursdays." },
-        { q: "Is Fairymilk SS15 worth visiting? Is it halal?", a: "Fairymilk SS15 is widely regarded as worth visiting for dessert lovers, particularly for its unique Crème Brûlée Bingsu experience and cosy ambience. As a dessert café serving milk-based and fruit desserts, it is generally considered Muslim-friendly — verify the latest halal status directly with the café before visiting." }
-      ],
-      menu: fairymilkSs15Menu
-    },
-    {
-      name: "Baker's Cottage Malaysia",
-      slug: "bakers-cottage-malaysia",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal Bakery", colors: "bg-yellow-600 text-white" }],
-      desc: "Well-established Malaysian bakery chain with 160+ outlets, known for signature Macau Egg Tarts, BBQ Roasted Chicken combos, and celebration cakes.",
-      seoArticle: `\n<h2>Baker's Cottage Malaysia</h2>\n<p>Baker's Cottage is a well-established Malaysian quick-service restaurant and bakery chain founded in the early 1990s, now operating over 160 outlets across Malaysia under its parent company, Leong Hup International Berhad. Known for its tagline 'Traditional Goodness You Can Taste,' it blends its heritage as a premium bakery with a modern farm-to-plate QSR concept, offering signature roast chicken, freshly baked goods, and festive treats. From its iconic Macau Egg Tarts and whole BBQ Roasted Chicken to celebration cakes and mooncakes, Baker's Cottage is a go-to destination for value-for-money, quality food loved by Malaysians of all ages.</p>\n`,
-      faqs: [
-        { q: "What is on the Bakers Cottage Malaysia menu?", a: "The Bakers Cottage Malaysia menu features their signature whole BBQ Roasted Chicken, Roasted Chicken Combo Sets, Macau Egg Tarts, Doughnuts, Crispy Chicken Fingers, Roasted Chicken Rice, Chicken Burgers, celebration cakes (AMC Cake, Black Forest, Red Velvet, Baked Cheesecake), buns and pastries (sausage buns, croissants, Mexico buns), as well as seasonal mooncakes." },
-        { q: "How much does a whole roasted chicken cost at Bakers Cottage Malaysia?", a: "Roasted Chicken Combo 1 (whole chicken + 4 Macau Egg Tarts) is approximately RM 41.99, Combo 2 (whole chicken + 4 Cheese Jumbo Chicken Frankfurters) is also RM 41.99, and Combo 3 (whole chicken + 2 Sliced Cakes) is around RM 42.99." },
-        { q: "Does Bakers Cottage Malaysia offer cake delivery?", a: "Yes, Bakers Cottage Malaysia offers cake delivery through popular food delivery platforms such as Foodpanda and GrabFood. You can order their 7-inch signature cakes like the AMC Cake (RM 69.99), Black Forest Cake (RM 67.99), Red Velvet Cake (RM 79.99), and Baked Cheesecake (RM 36.99) directly to your doorstep." },
-        { q: "Is Bakers Cottage Malaysia halal-certified?", a: "Baker's Cottage Malaysia is a halal-certified bakery and restaurant chain. All menu items, including their signature roasted chicken, baked goods, cakes, and snacks, are prepared in compliance with halal standards, making it a family-friendly dining option for all Malaysians." },
-        { q: "Where can I find the latest Bakers Cottage Malaysia menu with prices?", a: "The latest Bakers Cottage Malaysia menu and prices can be found on the official website at thebakerscottage.com, or through food delivery apps like Foodpanda and GrabFood." }
-      ],
-      menu: bakersCottageMenu
-    },
-    {
-      name: "Krispy Kreme Malaysia",
-      slug: "krispy-kreme-malaysia",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Donuts & Coffee", colors: "bg-red-600 text-white" }],
-      desc: "Iconic American doughnut chain in Malaysia since 2009, famous for melt-in-your-mouth Hot Original Glazed® doughnuts and specialty chillers.",
-      seoArticle: `\n<h2>Krispy Kreme Malaysia</h2>\n<p>Krispy Kreme Malaysia is the Malaysian outpost of the iconic American doughnut and coffeehouse chain, founded in 1937. It entered the Malaysian market in 2009, operated by its franchisee Berjaya Krispy Kreme Doughnuts Sdn Bhd, and has since grown to multiple outlets in major shopping malls across Kuala Lumpur and beyond. Famous for its melt-in-your-mouth Hot Original Glazed® doughnuts, Krispy Kreme Malaysia also offers a wide range of premium and seasonal doughnuts, signature chillers, and espresso-based coffee beverages.</p>\n`,
-      faqs: [
-        { q: "What is on the Krispy Kreme Malaysia menu?", a: "The Krispy Kreme Malaysia menu features a wide variety of doughnuts including the iconic Original Glazed®, Assorted flavors (Chocolate Sprinkles, Strawberry Iced), and Premium selections (Lotus Biscoff, Kit Kat). The menu also includes Chillers, espresso-based coffees (Latte, Cappuccino, Americano), and hot chocolate." },
-        { q: "How much does Krispy Kreme Malaysia cost?", a: "Individual Original Glazed® doughnuts are approximately RM 4.24 each, while Premium doughnuts range from RM 4.50 to RM 5.50+. A Box of 6 Original Glazed® is around RM 29.15. Beverages range from RM 11.00 for a basic Americano to RM 19.00 for Signature Chillers." },
-        { q: "Is Krispy Kreme Malaysia halal?", a: "Yes, Krispy Kreme Malaysia outlets are widely considered halal-friendly. The doughnuts and beverages served do not contain pork or alcohol-based ingredients, making it a popular treat for all Malaysians." },
-        { q: "Where can I find Krispy Kreme outlets in Malaysia?", a: "Krispy Kreme Malaysia has outlets in multiple major shopping malls in the Klang Valley area, including Mid Valley Megamall and Sunway Putra Mall. Find the current list on the official Krispy Kreme Malaysia website." },
-        { q: "Can I order Krispy Kreme Malaysia online or for delivery?", a: "Yes! Krispy Kreme Malaysia is available for delivery through Foodpanda and GrabFood. You can order doughnuts by the piece or in boxes of 3, 6, or 12." }
-      ],
-      menu: krispyKremeMenu
-    },
-    {
-      name: "Loaf Adam",
-      slug: "loaf-adam",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal Bakery", colors: "bg-yellow-700 text-white" }],
-      desc: "Muslim-owned halal cafe and bakery serving artisanal French-inspired pastries and comfort food.",
-      seoArticle: `\n<h2>Loaf Adam</h2>\n<p>Loaf Adam Patisserie is a popular, Muslim-owned halal café and bakery located in Larkin Jaya, Johor Bahru, Malaysia. Transitioning from a famous home-based business to a beautiful brick-and-mortar cafe, it is celebrated for its cozy atmosphere and high-quality artisanal French-inspired pastries. Beyond their famous buttery croissants and pistachio treats, the cafe also serves a hearty menu of local and Western comfort foods.</p>\n`,
-      faqs: [
-        { q: "Is Loaf Adam Patisserie in Malaysia halal-certified?", a: "Yes, Loaf Adam is a popular Muslim-owned and halal-certified bakery and café located in Johor Bahru, making it a wonderful dining destination for all." },
-        { q: "Where is Loaf Adam located in Johor Bahru?", a: "Loaf Adam is located at 30, Jalan Geroda 2/2, Larkin Jaya, 80350 Johor Bahru, Johor, Malaysia." },
-        { q: "What are the most popular items on the Loaf Adam menu?", a: "Customers highly recommend their artisanal French pastries, especially the Pistachio Croissant and Pain au Chocolat, alongside savory brunch options like the Nasi Lemak Bunga Telang." },
-        { q: "Does Loaf Adam Malaysia offer food delivery?", a: "Yes, you can conveniently order your favorite pastries, coffees, and hot meals from Loaf Adam through major food delivery platforms like GrabFood and foodpanda." },
-        { q: "What is the average price range at Loaf Adam?", a: "Pastries generally range from RM 11 to RM 23, hearty breakfast mains are priced between RM 20 and RM 48, and specialty coffees range from RM 7 to RM 17." }
-      ],
-      menu: loafAdamMenu
-    },
-    {
-      name: "Red Kettle The Gardens Mall",
-      slug: "red-kettle-the-gardens-mall",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Artisan Bakery", colors: "bg-yellow-700 text-white" }],
-      desc: "Casual dining restaurant and artisan bakery renowned for its Western-Asian fusion comfort food and Portuguese egg tarts.",
-      seoArticle: `\n<h2>Red Kettle The Gardens Mall</h2>\n<p>Red Kettle at The Gardens Mall in Kuala Lumpur is a popular casual dining restaurant and artisan bakery renowned for its Western-Asian fusion comfort food. Known for a cozy and relaxing ambiance, the non-halal establishment prides itself on hearty meals, including their signature pork burgers, big breakfasts, and freshly baked goods.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Red Kettle The Gardens Mall Malaysia menu?", a: "Signature dishes include the Really Big Breakfast, Cajun Prawn Pork Burger, freshly baked Portuguese egg tarts, and their unique Vietnamese Drip Coffee with egg." },
-        { q: "Is Red Kettle at The Gardens Mall a halal-certified restaurant?", a: "No, Red Kettle is a non-halal establishment as its menu prominently features pork-based dishes, including pork bacon, sausages, and their famous pork burgers." },
-        { q: "How much does a meal typically cost at Red Kettle The Gardens Mall?", a: "You can expect to spend approximately RM40 to RM60 per person for a main course and a beverage, with large sharing platters like the Really Big Breakfast priced around RM56.90." },
-        { q: "Do they offer bakery items and desserts on their menu?", a: "Yes, Red Kettle operates as an artisan bakery offering fresh sourdough breads, whole cakes like the rustic cheesecake, and their highly praised hot Portuguese egg tarts." },
-        { q: "Can I order Red Kettle The Gardens Mall menu items online for delivery?", a: "Yes, their menu is available for online ordering and delivery through platforms like Beepit, where you can find current pricing for delivery or self-pickup." }
-      ],
-      menu: redKettleTheGardensMallMenu
-    },
-    {
-      name: "JP & Co",
-      slug: "jp-co",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe Fusion", colors: "bg-yellow-700 text-white" }],
-      desc: "All-day dining cafe chain offering creative fusion cuisine, Australian brunch, and freshly baked cakes.",
-      seoArticle: `\n<h2>JP & Co</h2>\n<p>JP & Co (often styled as JP&Co) is a popular, all-day dining café chain in Malaysia recognized for its creative fusion cuisine. Their menu masterfully blends Australian-style brunch favorites, Japanese-inspired rice bowls, and comforting local Malaysian dishes in a cozy atmosphere. Known for affordable pricing, they also feature an appealing selection of freshly baked cakes and specialty coffee at locations like Pavilion Bukit Jalil and Sunway Square.</p>\n`,
-      faqs: [
-        { q: "What type of food does JP & Co Malaysia serve?", a: "JP & Co serves a diverse fusion menu that includes Australian-style brunch plates, Japanese-inspired rice bowls, and classic Malaysian local favorites, along with freshly baked cakes and specialty coffee." },
-        { q: "What are the signature dishes at JP & Co?", a: "Some of the highly recommended signature dishes include the 'Big Boss Breakfast', the 'Dirty Volcano Don' (a Japanese fusion rice bowl with torched salmon and onsen egg), and their selection of Premium Cake Sets." },
-        { q: "Where are the JP & Co cafe branches located in Malaysia?", a: "JP & Co has several outlets situated in major Malaysian shopping hubs, including Pavilion Bukit Jalil, Sunway Square, Sunway Pyramid, and IOI City Mall Putrajaya." },
-        { q: "Are the prices at JP & Co Malaysia affordable?", a: "Yes, JP & Co is widely reviewed by customers as offering affordable and reasonable prices for cafe-style dining, with most main courses generally ranging from RM 25 to RM 35." },
-        { q: "Is JP & Co Malaysia suitable for families and kids?", a: "Yes, JP & Co is a family-friendly cafe that offers an all-day dining concept with a versatile menu designed to cater to a wide range of ages, making it suitable for children and seniors alike." }
-      ],
-      menu: jpCoMenu
-    },
-    {
-      name: "Gloria Jean's Coffees",
-      slug: "gloria-jeans-coffees",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Coffeehouse", colors: "bg-yellow-700 text-white" }],
-      desc: "Popular global coffeehouse chain offering gourmet espresso beverages, chillers, and local pastries.",
-      seoArticle: `\n<h2>Gloria Jean's Coffees</h2>\n<p>Gloria Jean's Coffees is a popular global coffeehouse chain with a strong presence in Malaysia, offering a wide array of gourmet espresso-based beverages, signature chillers, and teas. Alongside their premium drinks, the Malaysian menu features a comforting selection of hot meals, sweet pastries, and local favorites like curry puffs, making it a versatile spot for both a quick caffeine fix and a relaxing meal.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items on the Gloria Jean's Malaysia menu?", a: "The most popular items include classic espresso drinks like Lattes and Americanos, along with their signature icy beverages known as Chillers (e.g., Very Vanilla Chiller). They also serve localized hot pastries such as Curry Puffs and substantial meals like Spaghetti Chicken Bolognese." },
-        { q: "Does Gloria Jean's Malaysia offer food or just coffee?", a: "Yes, Gloria Jean's Coffees offers a variety of food items in Malaysia! Their menu includes hot meals such as pies, pastas, and chicken chops, as well as an assortment of sweet treats like cheesecakes, croissants, and danishes." },
-        { q: "Are Gloria Jean's Coffees prices in Malaysia standard across all outlets?", a: "Prices can vary slightly depending on the outlet location (e.g., airports, universities, or city malls) and whether you are dining in or ordering via delivery platforms like GrabFood or Foodpanda, which may include service fees." },
-        { q: "Does Gloria Jean's Malaysia have delivery options?", a: "Yes, you can order Gloria Jean's Coffees for delivery in Malaysia through popular food delivery apps such as Foodpanda and GrabFood, allowing you to enjoy your favorite chillers and snacks at home." },
-        { q: "Are there non-coffee options available at Gloria Jean's Malaysia?", a: "Absolutely. Gloria Jean's provides numerous non-coffee alternatives, including Fruit Chillers, premium hot and iced teas, hot chocolate, and various smoothies perfect for non-coffee drinkers." }
-      ],
-      menu: gloriaJeansMenu
-    },
-    {
-      name: "Traffic Bean",
-      slug: "traffic-bean",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe", colors: "bg-yellow-700 text-white" }],
-      desc: "Modern, aesthetic café originating from Penang known for relaxing ambiance and creative beverages.",
-      seoArticle: `\n<h2>Traffic Bean</h2>\n<p>Traffic Bean is a modern, aesthetic café in Malaysia, originating from Penang and expanding to the Klang Valley. Known for its relaxing ambiance, it offers a creative menu featuring unique coffee beverages like the Calamansi Americano alongside hearty Western dishes. It is a popular destination for students and professionals looking to enjoy quality food and flamboyant drinks in a comfortable setting.</p>\n`,
-      faqs: [
-        { q: "What type of food does Traffic Bean Malaysia serve?", a: "Traffic Bean serves a variety of Western-style dishes, including pastas like Creamy Tomyam Chicken Popcorn Spaghetti, aglio olio, burgers, salads, and light bites such as croffles." },
-        { q: "Where are Traffic Bean cafes located in Malaysia?", a: "Traffic Bean originally started in George Town, Penang, and has expanded with prominent outlets in the Klang Valley, particularly in Bandar Sunway, Petaling Jaya." },
-        { q: "What are the signature drinks at Traffic Bean?", a: "Some of the highly recommended signature drinks include the Calamansi Americano, Peach Blossom Cold Brew, and Iced Coconut Milk Latte." },
-        { q: "Are the menu prices at Traffic Bean affordable?", a: "Yes, standard coffees range from RM 11.00 to RM 16.00, signature drinks around RM 17.00 to RM 18.00, and main courses typically between RM 25.00 and RM 35.00, offering good value for a specialty cafe." },
-        { q: "Is Traffic Bean a good place for working or studying?", a: "Absolutely! Traffic Bean is well-known for its comfortable, stylish environment, making it a favorite spot for both students and professionals to work or relax." }
-      ],
-      menu: trafficBeanMenu
-    },
-    {
-      name: "Strangers At 47",
-      slug: "strangers-at-47",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Crepes & Cafe", colors: "bg-yellow-700 text-white" }],
-      desc: "Popular café in Section 17, Petaling Jaya celebrated for its creative savory and sweet crepes.",
-      seoArticle: `\n<h2>Strangers At 47</h2>\n<p>Strangers at 47 is a popular café in Section 17, Petaling Jaya, Malaysia, celebrated for its creative savory and sweet crepes. The pork-free eatery also offers a robust menu of hearty mains, including burgers, pastas, and rice bowls, alongside barista-crafted specialty beverages. With a cozy and welcoming ambiance, it is a highly-rated spot for brunch and casual dining.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Strangers at 47 Malaysia menu?", a: "The cafe is most famous for its specialty crepes. Highlights include the savory 'Lethal Shrooms' and 'Nasi Lemak Crepe', as well as sweet options like 'Adam's Sin' and the 'Dark Side' crepe." },
-        { q: "Does Strangers at 47 only serve crepes?", a: "No, alongside their renowned sweet and savory crepes, the menu features a variety of substantial main courses such as the SAT47 Beef Burger, rice bowls, and assorted pasta dishes." },
-        { q: "Is the menu at Strangers at 47 halal or pork-free?", a: "Yes, Strangers at 47 operates as a pork-free establishment, using no pork or lard in their cooking, making its menu items suitable for a wider audience of diners in Malaysia." },
-        { q: "What is the average price range for dining at Strangers at 47?", a: "You can expect to spend an average of RM 30 to RM 50 per person. Crepes typically range from RM 10 to RM 25, while hearty main courses like burgers and pastas sit around the RM 30 to RM 40 range." },
-        { q: "Are there vegetarian options available on the Strangers at 47 menu?", a: "Yes, there are several vegetarian-friendly options, such as the famous 'Lethal Shrooms' crepe, which is packed with a mix of portobello, shimeji, and baby king oyster mushrooms, spinach, and caramelized onions." }
-      ],
-      menu: strangersAt47Menu
-    },
-    {
-      name: "SDS",
-      slug: "sds",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Bakery & Cafe", colors: "bg-yellow-700 text-white" }],
-      desc: "Prominent home-grown bakery and café chain originating in Johor, offering fresh pastries and Western dishes.",
-      seoArticle: `\n<h2>SDS</h2>\n<p>SDS Bakery & Cafe is a prominent home-grown bakery and café chain that originated in Johor, Malaysia in 1987. True to its motto 'Share, Dine, Smile', it offers a diverse menu featuring freshly baked pastries, celebration cakes, Western dishes, and local Malaysian favorites. The brand is well-regarded for its commitment to quality, casual dining atmosphere, and continuous innovation in its culinary offerings.</p>\n`,
-      faqs: [
-        { q: "What types of food are available on the SDS Bakery & Cafe Malaysia menu?", a: "The SDS menu features a wide variety of items including freshly baked bread, premium whole cakes, pastries, Western main courses like chicken chop and pasta, as well as local Malaysian favorites." },
-        { q: "Does SDS Bakery & Cafe offer delivery in Malaysia?", a: "Yes, SDS Bakery & Cafe offers delivery services across Malaysia through their official SDS mobile app, as well as popular delivery platforms like GrabFood and Foodpanda." },
-        { q: "What are the popular cake options and prices at SDS Bakery?", a: "Popular cake options include the Mixed Fruit Cake and New York Cheese Cake starting around RM 42.00, and Blackforest cakes ranging from RM 40.00 to RM 73.00, depending on the size and design." },
-        { q: "Are the prices on delivery apps the same as dining in at SDS Bakery & Cafe?", a: "Prices listed on third-party delivery platforms like Foodpanda and GrabFood may be slightly higher than in-store dining prices due to delivery markups and service fees." },
-        { q: "Where can I find the latest promotions and menu updates for SDS?", a: "You can find the latest menu, prices, and promotions on the official SDS website (sdsgroups.com) or by downloading the official SDS mobile app." }
-      ],
-      menu: sdsMenu
-    },
-    {
-      name: "Kooky Plate",
-      slug: "kooky-plate",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe & Desserts", colors: "bg-yellow-700 text-white" }],
-      desc: "Aesthetic cafe and restaurant located in Chow Kit, Kuala Lumpur offering Western and Asian fusion.",
-      seoArticle: `\n<h2>Kooky Plate</h2>\n<p>Kooky Plate is an aesthetic cafe and restaurant located in Chow Kit, Kuala Lumpur. It offers a diverse menu of Western and Asian fusion dishes, alongside a delightful selection of specialty desserts and drinks. Although priced slightly on the higher end, patrons appreciate its generous portions and inviting ambiance.</p>\n`,
-      faqs: [
-        { q: "What type of food is on the Kooky Plate Malaysia Menu?", a: "The Kooky Plate menu features a mix of Western and Asian fusion dishes, including pasta, roasted chicken, sharing appetizers, and specialty desserts like cakes and matcha lattes." },
-        { q: "How much does a meal cost at Kooky Plate Kuala Lumpur?", a: "Main dishes generally range from RM34 to RM35, while appetizers and desserts fall between RM16 and RM30. An average meal might cost around RM40-RM60 per person depending on your order." },
-        { q: "Are there vegetarian options available on the Kooky Plate menu?", a: "Yes, the menu includes vegetarian-friendly options such as the Truffle Shrooms Pasta and the Golden Eggplant appetizer." },
-        { q: "Does Kooky Plate offer desserts and specialty drinks?", a: "Absolutely! Kooky Plate is known for its delicious desserts, including Tiramisu and Burnt Cheesecake, as well as specialty drinks like their popular Matcha Latte." },
-        { q: "Are there any additional charges on the Kooky Plate menu prices?", a: "Yes, a standard service charge and SST (often totaling around 16%) may be added to your final bill, so keep that in mind when estimating your dining costs." }
-      ],
-      menu: kookyPlateMenu
-    },
-    {
-      name: "Nimmies Pastry Cafe",
-      slug: "nimmies-pastry-cafe",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pastry & Brunch", colors: "bg-pink-700 text-white" }],
-      desc: "Visually striking, mid-range cafe in Johor Bahru known for elegant ambiance and artisanal pastries.",
-      seoArticle: `\n<h2>Nimmies Pastry Cafe</h2>\n<p>Nimmies Pastry Cafe is a visually striking, mid-range cafe located in Johor Bahru, Malaysia, known for its elegant ambiance and extensive artisanal pastry selection. Housed in a beautifully converted standalone mansion, it offers a diverse menu featuring viral treats like crombolonis, specialty savory croissants, and hearty cafe mains. It has become a highly popular lifestyle destination for both locals and tourists seeking a premium dining experience.</p>\n`,
-      faqs: [
-        { q: "What are the must-try items on the Nimmies Pastry Cafe Malaysia menu?", a: "Popular choices include their signature Hoe Lemak (Nasi Lemak) Croissant, visually stunning Crombolonis in flavors like Taro and Nutella, and hearty brunch mains like the Big Boy Breakfast or Mr Krab Pasta." },
-        { q: "What is the average price range at Nimmies Pastry Cafe?", a: "Nimmies offers a premium cafe experience, with most guests spending between RM 20 and RM 67 per person. Pastries typically range from RM 9 to RM 32, while brunch and mains cost between RM 22 and RM 49." },
-        { q: "Is Nimmies Pastry Cafe in Malaysia halal-certified?", a: "While it may not hold an official Halal certification, Nimmies Pastry Cafe operates as a Muslim-friendly establishment that serves no pork and no lard, utilizing ingredients sourced from halal-certified suppliers." },
-        { q: "Does Nimmies Pastry Cafe serve full meals, or only pastries?", a: "Although they are famous for their artisanal pastries and viral crombolonis, Nimmies offers a comprehensive menu that includes hearty brunch plates, pastas, salads, and specialty drinks." },
-        { q: "Where is Nimmies Pastry Cafe located?", a: "Nimmies Pastry Cafe is prominently located in the heart of Johor Bahru (JB), Malaysia, making it an easily accessible hotspot for both local residents and international visitors crossing the border." }
-      ],
-      menu: nimmiesPastryCafeMenu
-    },
-    {
-      name: "Nasken Coffee",
-      slug: "nasken-coffee",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Local Cafe", colors: "bg-amber-700 text-white" }],
-      desc: "Fast-growing Malaysian cafe chain renowned for modern aesthetic and premium coffee.",
-      seoArticle: `\n<h2>Nasken Coffee</h2>\n<p>Nasken Coffee is a fast-growing, homegrown Malaysian cafe chain founded in Kelantan in 2019, renowned for its modern hipster aesthetic and cozy ambiance. It offers a diverse menu that blends premium specialty coffee with popular Western cuisine and local Malay favorites like Nasi Lemak. With over 45 branches across Peninsular Malaysia, it has quickly become a beloved destination for families, students, and coffee enthusiasts alike.</p>\n`,
-      faqs: [
-        { q: "What is the most popular coffee on the Nasken Coffee Malaysia menu?", a: "The Spanish Latte and classic Americano are among the most popular and highly recommended coffee choices, offering a premium cafe experience at affordable prices." },
-        { q: "Does Nasken Coffee serve food or just beverages?", a: "Nasken Coffee serves a wide variety of food, including hearty Western dishes like Chicken Chop and Spaghetti, as well as local Malaysian favorites like Nasi Lemak." },
-        { q: "What are the prices like on the Nasken Coffee menu?", a: "Prices are quite reasonable, with basic coffees starting around RM 6.80, local meals like Nasi Lemak at RM 6.90, and Western mains ranging from RM 16.00 to RM 30.00." },
-        { q: "Are there vegetarian or kid-friendly options at Nasken Coffee?", a: "Yes, Nasken Coffee offers kid-friendly snacks like Cheesy Meatballs and fries, as well as non-meat pasta options and pastries that can accommodate various dietary preferences." },
-        { q: "Can I order Nasken Coffee for delivery in Malaysia?", a: "Absolutely! The Nasken Coffee menu is available for delivery across Malaysia through major food delivery platforms such as Foodpanda and Beep." }
-      ],
-      menu: naskenCoffeeMenu
-    },
-    {
-      name: "Jibby By The Park",
-      slug: "jibby-by-the-park",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe & Fusion", colors: "bg-green-600 text-white" }],
-      desc: "Beautifully designed greenhouse-inspired cafe offering Asian fusion and Western dishes.",
-      seoArticle: `\n<h2>Jibby By The Park</h2>\n<p>Jibby By The Park is a beautifully designed, greenhouse-inspired cafe located in Desa ParkCity, Kuala Lumpur. It offers a diverse menu blending Asian fusion and hearty Western dishes, including all-day breakfasts, pastas, and main courses.</p>\n`,
-      faqs: [
-        { q: "What type of food does Jibby By The Park serve?", a: "Jibby By The Park serves a fusion of Asian and Western cuisines, featuring a wide selection of all-day breakfasts, pastas, pizzas, and hearty main courses like burgers and lamb shanks." },
-        { q: "What are the operating hours for Jibby By The Park in Desa ParkCity?", a: "The restaurant is open from 10:00 AM to 10:00 PM on weekdays, and from 9:00 AM to 10:00 PM on weekends, with ala carte service typically starting from 12:00 PM daily." },
-        { q: "Does Jibby By The Park serve breakfast all day?", a: "Their breakfast and brunch menu, which includes popular items like the Jibby Big Breakfast and Fluffy Bobsy pancakes, is served from opening until 4:00 PM daily." },
-        { q: "Is Jibby By The Park halal-certified?", a: "Yes, Jibby By The Park is owned by the Serai Group, which operates halal-certified restaurants, making their food suitable for Muslim diners." },
-        { q: "What are some of the popular signature dishes at Jibby By The Park?", a: "Some highly recommended dishes include the Champion Brekkie, Soft Shell Crab Burger, Seafood Marinara, and their classic Jibby Big Breakfast." }
-      ],
-      menu: jibbyByTheParkMenu
-    },
-    {
-      name: "10 Grams",
-      slug: "10-grams",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fusion Cafe", colors: "bg-stone-500 text-white" }],
-      desc: "Popular cafe serving a delightful fusion of Western and Eastern cuisines.",
-      seoArticle: `\n<h2>10 Grams</h2>\n<p>10 Gram (also known as 10 Gram Gourmet) is a popular restaurant and café chain in Malaysia that serves a delightful fusion of Western and Eastern cuisines with a touch of local Malaysian flavors. The name embodies their concept: "10" symbolizes perfection, while "Gram" represents the first letters of the four founders' names. With multiple aesthetically pleasing outlets in locations like Cyberjaya and Putrajaya, it offers a diverse menu ranging from hearty breakfast sets to pastas, pizzas, and Asian-fusion dishes.</p>\n`,
-      faqs: [
-        { q: "What type of food does 10 Gram Malaysia serve?", a: "10 Gram serves a fusion of Western and Eastern cuisines. Their menu features a wide variety of items including pastas, pizzas, big breakfasts, local Malaysian favorites like Nasi Lemak, and unique Asian-fusion dishes." },
-        { q: "Where are the 10 Gram restaurant branches located in Malaysia?", a: "10 Gram has several branches across Malaysia. Notable locations include Tamarind Square in Cyberjaya, IOI City Mall in Putrajaya, as well as outlets in Johor Bahru, Kuantan, Kemaman, and Nilai." },
-        { q: "Is 10 Gram Gourmet available for food delivery?", a: "Yes, you can conveniently order from 10 Gram via major food delivery platforms in Malaysia, such as Foodpanda, allowing you to enjoy their meals and snacks from the comfort of your home." },
-        { q: "What is the meaning behind the name '10 Gram'?", a: "The name is derived from the founders' vision: '10' symbolizes perfection, while 'Gram' represents the first letters of the four original founders' names." },
-        { q: "What are some popular menu items at 10 Gram cafe?", a: "Popular menu items include the Nasi Lemak Classic, Mac & Cheese with Hot & Spicy Fried Chicken, Fish & Chip with Fried Rice, and their hearty signature plates like the Big Breakfast." }
-      ],
-      menu: tenGramsMenu
-    },
-    {
-      name: "The Glasshopper",
-      slug: "the-glasshopper",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Aesthetic Cafe", colors: "bg-green-500 text-white" }],
-      desc: "Visually stunning glasshouse-style café within Putrajaya Botanical Garden.",
-      seoArticle: `\n<h2>The Glasshopper</h2>\n<p>The Glasshopper is a visually stunning, glasshouse-style café located within the Putrajaya Botanical Garden (Taman Botani) in Malaysia. Surrounded by lush greenery, it offers a relaxing, aesthetic atmosphere perfect for photography and casual gatherings. The café serves a variety of Western fusion dishes, hearty brunch options, freshly baked pastries, and artisan coffee.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items on The Glasshopper Malaysia menu?", a: "Some of the most highly recommended items include the Big Breakfast, Cheesy Egg Croissant, Salmon Aglio Olio, and their assortment of freshly baked pastries and cakes paired with a Hot Black Coffee or Matcha Latte." },
-        { q: "Are the prices at The Glasshopper Putrajaya affordable?", a: "The Glasshopper offers a café-style dining experience with most food and drink items ranging between RM10 and RM40. While considered slightly premium, visitors find the pricing reasonable given the generous portions and the beautiful glasshouse ambiance." },
-        { q: "Does The Glasshopper menu have options for heavy meals, or is it just desserts?", a: "Yes, alongside their wide selection of desserts and pastries, The Glasshopper menu features filling main courses. You can enjoy hearty dishes like Fish & Chips, various pasta options like beef or salmon aglio olio, and even local fusion meals like Nasi Ayam Goreng." },
-        { q: "Is the food at The Glasshopper café Muslim-friendly?", a: "Yes, The Glasshopper menu is generally considered Muslim-friendly, featuring ingredients from halal-certified suppliers and offering a variety of pork-free and alcohol-free dishes." },
-        { q: "What drinks are available on The Glasshopper menu?", a: "The beverage menu includes a wide variety of artisanal options such as hot and iced specialty coffees (like caramel lattes), refreshing iced peach tea, and matcha lattes, perfect for enjoying in the botanical setting." }
-      ],
-      menu: glasshopperMenu
-    },
-    {
-      name: "Yellow Brick Road",
-      slug: "yellow-brick-road",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe Fusion", colors: "bg-yellow-500 text-white" }],
-      desc: "Modern cafe renowned for Asian-Western fusion brunch and specialty coffee.",
-      seoArticle: `\n<h2>Yellow Brick Road</h2>\n<p>Yellow Brick Road is a popular, modern cafe located in Kuala Lumpur, Malaysia, renowned for its creative Asian-Western fusion brunch menu and specialty coffee. Known for its welcoming aesthetic and inventive dishes, it also features signature sweet and savory pancakes from its sister brand, Wicked Pancake Parlour. It has become a favorite spot for locals seeking comforting, high-quality cafe fare in a stylish environment.</p>\n`,
-      faqs: [
-        { q: "What type of food does Yellow Brick Road Malaysia serve?", a: "Yellow Brick Road serves an Asian-Western fusion menu featuring all-day brunch items, creative pastas, specialty coffee, and unique sweet and savory pancakes." },
-        { q: "Where is Yellow Brick Road located in Kuala Lumpur?", a: "The cafe has multiple locations, with its most well-known spots being at The Five in Bukit Damansara and another branch in Chinatown, Kuala Lumpur." },
-        { q: "Are the prices at Yellow Brick Road affordable?", a: "The prices are standard for premium specialty cafes in Kuala Lumpur, with most mains, pastas, and signature pancake dishes ranging between RM 25 and RM 35." },
-        { q: "Does Yellow Brick Road serve halal food?", a: "Yellow Brick Road uses Muslim-friendly and pork-free ingredients. However, it is always recommended to check their current official halal certification status directly with the restaurant." },
-        { q: "Can I order pancakes at Yellow Brick Road?", a: "Yes, Yellow Brick Road shares its menu with Wicked Pancake Parlour, allowing customers to order their famous sweet and savory pancakes alongside standard cafe fare." }
-      ],
-      menu: yellowBrickRoadMenu
-    },
-    {
-      name: "Since Then",
-      slug: "since-then",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Aesthetic Cafe", colors: "bg-gray-500 text-white" }],
-      desc: "Industrial-chic fusion cafe in Bangsar.",
-      seoArticle: `\n<h2>Since Then</h2>\n<p>Since Then is a popular fusion café in Bangsar, Kuala Lumpur, known for its industrial-chic warehouse setting and minimalist aesthetics. The café offers an innovative Asian-Western fusion menu featuring standout dishes like the Tomyum Mentaiko Squid Ink Pasta and Japanese Curry Omurice. With a curated garden and a specialty tea series, it provides a unique and relaxing dining experience.</p>\n`,
-      faqs: [
-        { q: "What is the address of Since Then in Malaysia?", a: "Since Then is located at 6, Jalan Liku, Bangsar, Kuala Lumpur, Malaysia. It is housed in a beautifully renovated warehouse space." },
-        { q: "What are the signature dishes at Since Then?", a: "Some of their most popular and highly acclaimed dishes include the Tomyum Mentaiko Squid Ink Pasta, Japanese Curry Omurice with Chicken Katsu, and their creative Nori Tacos." },
-        { q: "Does Since Then offer vegetarian options?", a: "Yes, while they are known for dishes like beef curry and seafood pasta, they offer various meat-free starters and sourdough options. It is recommended to check with the staff for specific dietary accommodations." },
-        { q: "Is Since Then a good place for tea and dessert?", a: "Absolutely. Since Then is highly praised for its specialty tea series, such as the sour plum Tie Guan Yin, as well as desserts like Tiramisu and Earl Grey Yuzu Waffles." },
-        { q: "What is the average price per person at Since Then Bangsar?", a: "The average dining cost per person is typically estimated to be around RM40 to RM60, depending on your choice of mains, sides, and beverages." }
-      ],
-      menu: sinceThenMenu
-    },
-    {
-      name: "Chef Kecik",
-      slug: "chef-kecik",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1559598467-f8b76c8155d0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Bakery", colors: "bg-orange-500 text-white" }],
-      desc: "Artisanal pastries, breads, and cakes in a cozy cafe setting.",
-      seoArticle: `\n<h2>Chef Kecik Boulangerie</h2>\n<p>Chef Kecik Boulangerie is a popular Muslim-owned café and bakery in Malaysia, renowned for its artisanal pastries, breads, and cakes. With cozy locations in areas like Semenyih and Bukit Bintang, it offers a delightful coffee and dessert experience. Patrons can enjoy everything from classic buttery croissants and signature cake slices to traditional hot dishes like Laksa Johor.</p>\n`,
-      faqs: [
-        { q: "What are the signature items on the Chef Kecik Malaysia menu?", a: "Chef Kecik is famous for its artisanal baked goods, especially their Twice Baked Almond Croissants, Cinnamon Rolls with Cream Cheese, and signature cakes like the Pandan Gula Melaka Cake." },
-        { q: "Is Chef Kecik in Malaysia Halal-certified or Muslim-owned?", a: "Yes, Chef Kecik is a Muslim-owned establishment, and all their pastries, cakes, and main dishes are prepared using Halal-friendly ingredients." },
-        { q: "Does Chef Kecik serve hot meals or just pastries and cakes?", a: "While primarily a boulangerie focused on breads, pastries, and cakes, they also offer select hot main dishes like the traditional Laksa Johor." },
-        { q: "What is the average price range for dining at Chef Kecik?", a: "The price range is moderate, typically falling between RM 20 and RM 40 per person. Pastries start around RM 12, while specialty dessert sets can go up to RM 48." },
-        { q: "Can I order Chef Kecik menu items for delivery?", a: "Yes, you can order their pastries, cakes, and drinks for delivery via major platforms like Foodpanda and GrabFood, though specific item availability may vary by branch." }
-      ],
-      menu: chefKecikMenu
-    },
-    {
-      name: "Daily Coffee",
-      slug: "daily-coffee",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
-      desc: "French-inspired coffee and local Malaysian dishes.",
-      seoArticle: `\n<h2>Daily Coffee</h2>\n<p>Daily Coffee is a popular café chain in Malaysia that offers a unique blend of French-inspired coffee, fresh pastries, and authentic local Malaysian dishes. With a welcoming atmosphere and a diverse menu spanning from artisanal lattes to hearty Nasi Lemak, it caters to a wide range of tastes. Whether you're looking for a quick breakfast like traditional kaya toast or a full Western dinner, Daily Coffee provides a satisfying dining experience.</p>\n`,
-      faqs: [
-        { q: "What is the signature dish at Daily Coffee Malaysia?", a: "Daily Coffee Malaysia is well-known for its local Asian classics like Nasi Lemak and Curry Chicken with Toast, alongside satisfying Western delights such as the Chicken Slice Carbonara and Crispy Chicken Chop." },
-        { q: "How much does coffee cost at Daily Coffee Malaysia?", a: "A classic Latte is typically priced around RM 11.90 to RM 12.90, while specialty beverages like the Crème Brulee Latte or Caramel Coffee Frappe range from RM 14.90 to RM 16.90." },
-        { q: "Does Daily Coffee Malaysia offer food delivery?", a: "Yes, Daily Coffee Malaysia partners with major food delivery platforms like foodpanda. You can also order directly through the official Daily Coffee Malaysia app for exclusive promotions." },
-        { q: "What are the typical operating hours for Daily Coffee Malaysia?", a: "While operating hours vary by outlet, most Daily Coffee locations open early in the morning for traditional breakfast service and remain open until late evening to serve dinner." },
-        { q: "Are there any vegetarian-friendly options on the Daily Coffee menu?", a: "Yes, Daily Coffee offers several meat-free choices, including their classic Butter Kaya Toast, Omega 3 Half-Boiled Eggs, select salads, and a variety of fresh pastries." }
-      ],
-      menu: dailyCoffeeMenu
-    },
-    {
-      name: "HWC Coffee",
-      slug: "hwc-coffee",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
-      desc: "Premium specialty coffee from Taiwan.",
-      seoArticle: `\n<h2>HWC Coffee</h2>\n<p>HWC Coffee is a Halal-certified specialty coffee chain that originated in Taiwan and expanded to Malaysia in 2022. Named after the 'black soil' (Hei Wo) ideal for coffee cultivation, the brand emphasizes 'coffeeconomics' and stringent quality control from bean to cup. HWC offers a wide array of premium beverages under its motto 'Happy With Coffee', including its highly-rated 'Classic No 9' and 'Red Geisha' blends, alongside teas and pastries.</p>\n`,
-      faqs: [
-        { q: "Is HWC Coffee Malaysia Halal-certified?", a: "Yes, HWC Coffee in Malaysia is officially Halal-certified by JAKIM, ensuring that all their specialty coffees, teas, and pastries meet strict Halal standards for everyone to enjoy." },
-        { q: "What is the signature coffee at HWC Coffee?", a: "HWC Coffee is famous for its 'Classic No 9' signature blend, which has earned high scores from Coffee Review. They also offer the premium, fruit-forward Red Geisha series." },
-        { q: "What are the coffee prices at HWC Coffee Malaysia?", a: "Prices for specialty coffee typically range from RM 12 to RM 20. For example, a classic Americano starts around RM 12.19, while lattes and macchiatos range from RM 15 to RM 19, varying slightly by delivery platform and outlet." },
-        { q: "Does HWC Coffee serve food?", a: "Yes, in addition to their extensive beverage menu, HWC Coffee offers a variety of pastries such as Sausage Puffs and Salted Egg Yolk Croissants to complement your drink." },
-        { q: "What does the name 'HWC' mean?", a: "'HWC' stands for 'Hei Wo' Coffee, which translates to 'black soil' in Mandarin. This name honors the nutrient-rich chernozem soil that is perfect for cultivating high-quality coffee beans." }
-      ],
-      menu: hwcCoffeeMenu
-    },
-    {
       name: "Starbucks",
       slug: "starbucks",
       category: 'coffee-bakeries',
@@ -2047,6 +1038,43 @@ export const brandMocks: Record<string, any[]> = {
       menu: oldtownWhiteCoffeeMenu
     },
     {
+      name: "Kenny Hills Bakers",
+      slug: "kenny-hills-bakers",
+    searchVolume: 4400,
+      category: 'coffee-bakeries',
+      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Premium Bakery", colors: "bg-purple-600 text-white" }],
+      desc: "Organic Sourdough, Peach Strudels & Specialty Coffee",
+      seoArticle: `\n<h2>Kenny Hills Bakers Malaysia: Premium Artisanal Bakes & Peach Strudels</h2>
+<p>Established as a cozy neighborhood bakery in Bukit Tunku, Kenny Hills Bakers has evolved into KL's premier destination for high-end artisanal pastries, organic sourdough breads, and gourmet brunch dishes. Renowned for their viral, freshly made Peach Strudel slice featuring crisp puff pastry layers, thick vanilla custard, and juicy peaches, they prioritize premium, imported ingredients. Explore our up-to-date price guide for their entire selection of pastries, wagyu burgers, sourdough pizzas, and specialty coffee.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Kenny Hills Bakers is highly celebrated for its premium butter-rich pastries. Make an informed choice:</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Organic Sourdough Benefits:</strong> Sourdough is made via natural fermentation, making it easier to digest and having a lower glycemic index than commercial white breads.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Indulgent Custards:</strong> The signature Peach Strudel is rich in fresh dairy cream and custard. Share a slice to keep your sugar intake balanced.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for the Poached Egg and Avocado Toast on house sourdough bread for a nutritious, protein-packed breakfast full of healthy fats."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-purple-600">Kenny Hills Web</div>
+    <p class="text-slate-500 text-sm font-medium">Order directly from their official online shop for guaranteed delivery of whole artisanal cakes and freshly baked loaves.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood Signature</div>
+    <p class="text-slate-500 text-sm font-medium">Enjoy premium on-demand delivery of croissants and hot specialty coffee straight to your home.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        { q: "Is Kenny Hills Bakers Halal?", a: "All Kenny Hills Bakers outlets operate on a strict pork-free and alcohol-free policy, using only Halal-certified ingredients and suppliers. They do not hold JAKIM Halal certification due to their premium imported ingredient sourcing." },
+        { q: "What is their most famous pastry?", a: "Their legendary Peach Strudel is widely considered the best in Kuala Lumpur." },
+        { q: "Can I buy whole loaves of bread?", a: "Yes! They bake fresh organic sourdough, brioche, and country loaves daily, available for retail purchase." }
+      ],
+      menu: kennyHillsBakersMenu
+    },
+    {
       name: "Dunkin' Malaysia",
       slug: "dunkin",
     searchVolume: 210,
@@ -2082,6 +1110,43 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Do they serve savory breakfast items?", a: "Yes, they offer egg, cheese, chicken bacon, and tuna mayo croissant sandwiches all day." }
       ],
       menu: dunkinMenu
+    },
+    {
+      name: "Krispy Kreme Malaysia",
+      slug: "krispy-kreme",
+    searchVolume: 1600,
+      category: 'coffee-bakeries',
+      image: "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal Status: JAKIM Certified", colors: "bg-green-500 text-white" }, { name: "Donuts", colors: "bg-pink-500 text-white" }],
+      desc: "Mouthwatering Glazed Donuts & Specialty Brews",
+      seoArticle: `\n<h2>Krispy Kreme Malaysia Menu 2026: Melt-in-Your-Mouth Glazed Donuts</h2>
+<p>Few things in life compare to the warm, pillowy softness of a freshly made Krispy Kreme Original Glazed donut. Since arriving in Malaysia, Krispy Kreme has captured the hearts of local dessert lovers with their signature theatrical 'Hot Light' theater experience. Our updated guide tracks the latest pricing for all their classic, premium, and value pack selections so you can plan the perfect sweet treat.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Original Glazed is about 190 kcal. Premium varieties (stuffed with custard/nutella) range from 300 to 380 kcal.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Original is Lighter:</strong> Stick to the classic Original Glazed which has fewer calories than cream-filled options.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Sugar Control:</strong> Balance your sweet treat by pairing it with a sugar-free hot drink.</span></li>
+</ul>
+      `,
+      healthyTip: `"If you're watching your sugar or calorie intake, stick to the classic Original Glazed which has fewer calories than cream-filled options, and pair it with a sugar-free black coffee."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Get signature green boxes of hot original glazed donuts delivered fast.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Great discounts on half-dozen and double-dozen sharing packs.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        { q: "Is Krispy Kreme Halal certified in Malaysia?", a: "Yes, Krispy Kreme Malaysia is fully Halal certified by JAKIM." },
+        { q: "What does the Hot Light mean?", a: "When the neon 'Hot Light' is lit at theater outlets, it means original glazed donuts are coming fresh off the line!" },
+        { q: "How long do Krispy Kreme donuts stay fresh?", a: "They are best enjoyed on the day of purchase, but you can microwave them for 8 seconds to revive that melt-in-your-mouth texture." }
+      ],
+      menu: krispyKremeMenu
     },
     {
       name: "Big Apple Donuts & Coffee",
@@ -2234,720 +1299,6 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'local-asian': [
     {
-      name: "Maki Maki",
-      slug: "maki-maki",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Sushi", colors: "bg-red-800 text-white" }, { name: "Japanese", colors: "bg-blue-800 text-white" }],
-      desc: "Popular fast-food sushi chain known for freshly made-to-order maki rolls featuring innovative globally-inspired flavors.",
-      seoArticle: `\n<h2>Maki Maki Malaysia Menu</h2>\n<p>Makii Makii (often referred to as Maki Maki) is a popular fast-food sushi chain in Malaysia known for its freshly made-to-order maki rolls. They offer a diverse menu featuring globally inspired sushi rolls, ranging from local Malaysian flavors to international favorites like Wagyu beef, spicy tuna, and salmon mentaiko.</p>\n`,
-      faqs: [
-        { q: "What is Maki Maki Malaysia known for?", a: "Makii Makii is famous for its freshly rolled, made-to-order sushi maki rolls featuring a variety of innovative, globally-inspired flavors." },
-        { q: "Where are Maki Maki branches located in Malaysia?", a: "Makii Makii has outlets in major shopping malls across Malaysia, including 1 Utama, The Exchange TRX, and IOI City Mall." },
-        { q: "Does Maki Maki offer delivery in Malaysia?", a: "Yes, Makii Makii is available for delivery through major platforms like Foodpanda and GrabFood in Malaysia." },
-        { q: "What are some popular items on the Maki Maki menu?", a: "Popular items include the Tokyo Salmon Mentaiko, Yokohama Wagyu Beef, and the Singapore Chilli Crab maki rolls." },
-        { q: "Are there set meals available at Maki Maki?", a: "Yes, customers can often upgrade their rolls to set meals that typically include a beverage and a side dish like coleslaw." }
-      ],
-      menu: makiMakiMenu
-    },
-    {
-      name: "Kompassion Thai",
-      slug: "kompassion-thai",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Thai Fusion", colors: "bg-green-800 text-white" }, { name: "Non-Halal", colors: "bg-red-800 text-white" }],
-      desc: "Renowned non-halal Thai fusion restaurant in Damansara Kim elevating traditional flavors with premium ingredients and inventive pork-centric dishes.",
-      seoArticle: `\n<h2>Kompassion Thai Malaysia Menu</h2>\n<p>Kompassion Thai, located in Damansara Kim, Petaling Jaya, is a renowned non-halal restaurant specializing in contemporary Thai fusion cuisine by Chef Nikom "Kom" Uatthong. The eatery elevates traditional Northern Thai flavors by incorporating premium ingredients and international culinary techniques, particularly known for its inventive pork-centric dishes. With its gourmet offerings and sophisticated ambiance, it provides an upscale dining experience highly sought after for celebrations and gatherings.</p>\n`,
-      faqs: [
-        { q: "Is Kompassion Thai Malaysia a halal restaurant?", a: "No, Kompassion Thai located in Damansara Kim is a non-halal establishment. It is particularly well-known for its creative, pork-centric Thai fusion dishes." },
-        { q: "What is the average price range at Kompassion Thai?", a: "Dining at Kompassion Thai is considered a premium experience, with a typical meal ranging between RM 70 and RM 150 per person depending on your choice of gourmet dishes and drinks." },
-        { q: "Do I need to make a reservation before visiting Kompassion Thai?", a: "Yes, reservations are highly recommended. Due to its popularity for large groups and celebrations, securing a table in advance ensures you won't have to wait." },
-        { q: "Does Kompassion Thai serve authentic traditional Thai food?", a: "While the dishes are deeply rooted in traditional Northern Thai flavors, the restaurant focuses on modern fusion, blending Thai cuisine with Japanese, Western, and other Asian culinary techniques." },
-        { q: "What are some signature dishes at Kompassion Thai?", a: "Signature items include the Gaeng Juud Moo Hor Lapa (peppery pork soup), the Twice-Cooked Chunky Pork Belly Curry, and their refreshing Pomelo Salad." }
-      ],
-      menu: kompassionThaiMenu
-    },
-    {
-      name: "The Roomah Restaurant",
-      slug: "the-roomah-restaurant",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Malay", colors: "bg-yellow-800 text-white" }, { name: "Fine Dining", colors: "bg-stone-800 text-white" }],
-      desc: "Elegant modern Malay dining establishment in Publika specializing in elevated traditional kampung cuisine.",
-      seoArticle: `\n<h2>The Roomah Restaurant Malaysia Menu</h2>\n<p>The Roomah Restaurant is an elegant modern Malay dining establishment located in the Publika Shopping Gallery, Kuala Lumpur. It specializes in elevated traditional kampung cuisine, offering a sophisticated yet cozy ambiance perfect for gatherings. Renowned for its authentic flavors, signature dishes include Daging Salai Masak Lemak Cili Api and Asam Pedas Oxtail.</p>\n`,
-      faqs: [
-        { q: "What type of cuisine does The Roomah Restaurant Malaysia Menu offer?", a: "The Roomah Restaurant specializes in modern and elevated traditional Malay kampung cuisine, featuring authentic and rich flavors." },
-        { q: "Where is The Roomah Restaurant located in Malaysia?", a: "The restaurant is located at A5-G2, 01, Jalan Dutamas 1, Solaris Dutamas, within the Publika Shopping Gallery in Kuala Lumpur." },
-        { q: "What are the signature dishes on The Roomah Malaysia menu?", a: "Highly recommended signature dishes include the Asam Pedas Oxtail, Daging Salai Masak Lemak Cili Api, and Kerabu Mayura Wagyu." },
-        { q: "What are the operating hours for The Roomah Restaurant?", a: "The Roomah Restaurant is open from Tuesday to Sunday, 11:00 AM to 10:00 PM, and is closed on Mondays." },
-        { q: "What is the average dining cost at The Roomah Restaurant?", a: "The average dining cost is approximately RM 120 per person, reflecting its premium menu and sophisticated dining experience." }
-      ],
-      menu: theRoomahRestaurantMenu
-    },
-    {
-      name: "Uo Shin",
-      slug: "uo-shin",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Japanese", colors: "bg-red-800 text-white" }, { name: "Sushi", colors: "bg-blue-800 text-white" }],
-      desc: "Highly-rated Japanese restaurant specializing in high-quality, authentic Edomae-style hand-pressed sushi and sashimi at accessible prices.",
-      seoArticle: `\n<h2>Uo Shin Malaysia Menu</h2>\n<p>Uo Shin is a highly-rated Japanese restaurant chain in Malaysia, an upscale offshoot of the Shin Zushi brand. It specializes in offering high-quality, authentic Edomae-style hand-pressed sushi, sashimi, and other traditional Japanese cuisine at accessible, mid-range prices.</p>\n`,
-      faqs: [
-        { q: "What type of cuisine does Uo Shin Malaysia serve?", a: "Uo Shin specializes in authentic Japanese cuisine, focusing on Edomae-style hand-pressed sushi, fresh sashimi, rice bowls (donburi), and traditional hot dishes like ramen and tempura." },
-        { q: "Are the prices at Uo Shin Malaysia expensive?", a: "Despite offering high-quality sushi, Uo Shin is known for its affordable, mid-range pricing. Prices for nigiri and sushi sets typically range from RM8.50 to RM20, making it an accessible option for Japanese food lovers." },
-        { q: "Do I need to make a reservation for Uo Shin?", a: "Yes, it is highly recommended to make a reservation. Uo Shin is very popular in the Klang Valley, and wait times can exceed 90 minutes during peak hours and weekends." },
-        { q: "Where are the Uo Shin branches located in Malaysia?", a: "Uo Shin operates several branches across the Klang Valley, with popular locations including Millerz Square at Old Klang Road, Desa Sri Hartamas, Setapak, Kota Kemuning, and Kepong." },
-        { q: "How does the ordering system work at Uo Shin?", a: "Uo Shin offers a modern dining experience where guests use a tablet-based ordering system at their table. This allows diners to easily browse the menu, view item prices, and track their bill in real time." }
-      ],
-      menu: uoShinMenu
-    },
-    {
-      name: "Lepau Restaurant Kuching",
-      slug: "lepau-restaurant-kuching",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Sarawakian", colors: "bg-green-800 text-white" }, { name: "Dayak", colors: "bg-yellow-800 text-white" }],
-      desc: "Cozy dining establishment in Kuching known for authentic traditional Sarawakian Dayak and Orang Ulu cuisine like Ayam Pansuh.",
-      seoArticle: `\n<h2>Lepau Restaurant Kuching Malaysia Menu</h2>\n<p>Lepau Restaurant is a cozy, highly-regarded dining establishment in Kuching, Sarawak, known for its authentic traditional Sarawakian Dayak and Orang Ulu cuisine. Featuring a rustic 'farm hut' interior, the restaurant specializes in tribal fusion dishes like the famous Ayam Pansuh (bamboo chicken) and Umai (raw fish salad). It is a popular, pork-free destination that immerses guests in the rich cultural and culinary heritage of Borneo.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Lepau Restaurant Kuching Malaysia Menu?", a: "The standout signature dishes include Ayam Pansuh (chicken cooked in bamboo over an open fire), Umai (a traditional Melanau raw fish salad), and jungle vegetable specialties like Kerabu Midin (wild ferns)." },
-        { q: "Is the food at Lepau Restaurant Kuching halal or pork-free?", a: "Yes, Lepau Restaurant is a pork-free and lard-free establishment, making its traditional Sarawakian menu suitable for a wide variety of diners with specific dietary preferences." },
-        { q: "How much do items on the Lepau Restaurant Kuching menu cost?", a: "Menu prices typically range from RM 12.90 for vegetable sides up to RM 80.90 for extra-large sharing portions of beef and poultry, offering an affordable way to experience authentic ethnic cuisine." },
-        { q: "Does the Lepau Restaurant menu offer vegetarian-friendly options?", a: "Absolutely! The menu features delicious vegetarian-friendly dishes emphasizing jungle-sourced ingredients, including Stir Fried Petai, Kantan, and the widely loved Kerabu Midin." },
-        { q: "Do I need a reservation to dine at Lepau Restaurant in Kuching?", a: "Because of its popularity among locals and tourists eager to try authentic Sarawakian food, it is highly recommended to make a reservation in advance, especially for dinner." }
-      ],
-      menu: lepauRestaurantKuchingMenu
-    },
-    {
-      name: "Restoran Siang Malam",
-      slug: "restoran-siang-malam",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1596450514735-111a2fe02935?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Malay Cuisine", colors: "bg-emerald-800 text-white" }, { name: "Kampung Style", colors: "bg-amber-800 text-white" }],
-      desc: "Prominent restaurant in Kuala Lumpur celebrated for serving authentic and flavorful Malay cuisine with a modern twist.",
-      seoArticle: `\n<h2>Restoran Siang Malam Malaysia Menu</h2>\n<p>Siang Malam by Sheila Rusly is a prominent restaurant located in G Village, Desa Pandan, Kuala Lumpur. It is celebrated for serving authentic and flavorful Malay cuisine with a modern twist. The establishment is especially popular for its signature kampung-style dishes and inviting atmosphere.</p>\n`,
-      faqs: [
-        { q: "Where is Restoran Siang Malam by Sheila Rusly located?", a: "The restaurant is conveniently located at G-11, G Village, Desa Pandan, Kuala Lumpur, Malaysia." },
-        { q: "What are the must-try signature dishes at Restoran Siang Malam?", a: "Highly recommended signature items include the Ayam Bakar Om, Gulai Tempoyak Udang Petai, and Ikan Siakap Terbang Daun." },
-        { q: "Are the prices at Restoran Siang Malam affordable?", a: "Yes, customer reviews frequently highlight that the prices are reasonable and offer great value for the quality and portion of the authentic Malay dishes served." },
-        { q: "What dessert options are available on the menu?", a: "A crowd-favorite dessert at the restaurant is the Pisang Bali, which features perfectly grilled bananas served with grated coconut and rich brown sugar." },
-        { q: "Can I order Restoran Siang Malam via food delivery apps like GrabFood or Foodpanda?", a: "While the restaurant is highly popular for dine-in experiences, availability on delivery platforms may vary, so it is best to check the apps directly if you are within the Kuala Lumpur area." }
-      ],
-      menu: restoranSiangMalamMenu
-    },
-    {
-      name: "Dragon-i Restaurant",
-      slug: "dragon-i",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Shanghainese", colors: "bg-red-800 text-white" }, { name: "Dim Sum", colors: "bg-orange-800 text-white" }],
-      desc: "Premier restaurant chain celebrated for authentic Shanghainese cuisine, hand-pulled La Mian, and signature Xiao Long Bao.",
-      seoArticle: `\n<h2>Dragon-i Malaysia Menu</h2>\n<p>Dragon-i is a premier restaurant chain in Malaysia celebrated for offering authentic Shanghainese cuisine in a culturally rich dining environment. The establishment is particularly renowned for its traditional hand-pulled Lanzhou La Mian and signature Xiao Long Bao (steamed meat dumplings). Operating across multiple outlets, Dragon-i provides a true taste of Shanghai through premium ingredients and masterful culinary techniques.</p>\n`,
-      faqs: [
-        { q: "Is the Dragon-i Malaysia menu Halal-certified?", a: "No, Dragon-i Malaysia is not Halal-certified as their menu features authentic Shanghainese dishes that contain pork and other non-halal ingredients." },
-        { q: "What are the must-try signature dishes at Dragon-i?", a: "The absolute must-try dishes include their famous Shanghainese Steamed Meat Dumplings (Xiao Long Bao), Lanzhou hand-pulled La Mian, and their premium Peking Duck." },
-        { q: "Are there vegetarian options available on the Dragon-i menu?", a: "Yes, Dragon-i offers a selection of vegetarian-friendly items, such as the Deep-Fried Vegetarian Beancurd Skin Roll and various chilled vegetable appetizers." },
-        { q: "Does Dragon-i Malaysia offer food delivery services?", a: "Yes, you can easily order your favorite Dragon-i meals for delivery through major platforms like GrabFood and Foodpanda in Malaysia." },
-        { q: "Are Dragon-i menu prices consistent across all outlets in Malaysia?", a: "While core menu prices are generally consistent, there may be slight variations depending on the specific location and the restaurant concept (such as Dragon-i Peking Duck vs. standard Dragon-i outlets)." }
-      ],
-      menu: dragoniRestaurantMenu
-    },
-    {
-      name: "Ali, Muthu & Ah Hock",
-      slug: "ali-muthu-ah-hock",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Kopitiam", colors: "bg-emerald-800 text-white" }, { name: "Malaysian", colors: "bg-amber-800 text-white" }],
-      desc: "Popular modern kopitiam chain serving authentic Malaysian comfort food in a nostalgic setting.",
-      seoArticle: `\n<h2>Ali, Muthu & Ah Hock Malaysia Menu</h2>\n<p>Ali, Muthu & Ah Hock is a popular Malaysian kopitiam chain known for serving local comfort food in a contemporary, nostalgic setting. The brand embodies the 'muhibbah' (unity) spirit by featuring classic Malaysian dishes that represent the three distinct cultures in its name. It is particularly famous for its signature Nasi Lemak Ayam Goreng Berempah and traditional kopitiam beverages.</p>\n`,
-      faqs: [
-        { q: "What is the signature dish at Ali, Muthu & Ah Hock?", a: "Their signature and most popular dish is the Nasi Lemak Ayam Goreng Berempah, featuring fragrant coconut rice served with a whole spiced fried chicken leg." },
-        { q: "Does the Ali, Muthu & Ah Hock menu have vegetarian options?", a: "Yes, they offer plant-based options such as Kari Cendawan (mushroom curry) along with meatless sides." },
-        { q: "How much does Nasi Lemak cost at Ali, Muthu & Ah Hock?", a: "A basic Nasi Lemak starts around RM 8.90, while premium variations like Nasi Lemak Ayam Goreng Berempah cost approximately RM 18.90." },
-        { q: "Can I order Ali, Muthu & Ah Hock for delivery?", a: "Yes, you can order from their menu via delivery platforms like Foodpanda and Beep across various locations in Malaysia." },
-        { q: "Are the prices at Ali, Muthu & Ah Hock the same at all outlets?", a: "Prices may vary slightly depending on the branch location and whether you are dining in or ordering through a delivery app." }
-      ],
-      menu: aliMuthuAhHockMenu
-    },
-    {
-      name: "Jaman Tory Resepi",
-      slug: "jaman-tory-resepi",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pahang Cuisine", colors: "bg-blue-800 text-white" }, { name: "Traditional", colors: "bg-red-800 text-white" }],
-      desc: "Highly popular traditional Pahang restaurant in Kuantan known for its Patin Bakar Tempoyak and vintage kampung setting.",
-      seoArticle: `\n<h2>Jaman Tory Resepi Malaysia Menu</h2>\n<p>Jaman Tory Resepi is a popular restaurant located in Kuantan, Pahang, celebrated for its authentic traditional Pahang cuisine and heritage recipes. Set in a vintage, kampung-style atmosphere, it specializes in signature river fish dishes like Patin Bakar Tempoyak and other delicacies such as Daging Salai Masak Lemak Cili Api.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes at Jaman Tory Resepi?", a: "Some of their famous signature dishes include Patin Bakar Tempoyak, Daging Salai Masak Lemak Cili Api, and various Ayam Kampung preparations." },
-        { q: "Where is Jaman Tory Resepi located in Malaysia?", a: "The headquarters is located in Indera Mahkota 2, Kuantan, Pahang. There are also other branches such as the one in Semambu." },
-        { q: "What is the average price of food at Jaman Tory Resepi?", a: "Prices are considered mid-range. Simple side dishes start from RM 2.00, set meals range from RM 23.00 to RM 33.00, and premium whole-fish dishes can go up to RM 93.00. The average menu item costs around RM 14.11." },
-        { q: "Do I need to make a reservation before visiting?", a: "Yes, reservations are highly recommended, especially on weekends and for large groups, as the restaurant is very popular and can experience wait times during peak hours." },
-        { q: "What are the operating hours for Jaman Tory Resepi?", a: "The restaurant typically operates from 12:00 PM to 11:00 PM, though it is usually closed on Tuesdays." }
-      ],
-      menu: jamanToryResepiMenu
-    },
-    {
-      name: "Rembayung Kuala Lumpur",
-      slug: "rembayung",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Malay Cuisine", colors: "bg-green-800 text-white" }, { name: "Home-style", colors: "bg-amber-800 text-white" }],
-      desc: "Owned by Khairul Aming, this modern 'semi-glasshouse' restaurant specializes in authentic Malay home-style cooking.",
-      seoArticle: `\n<h2>Rembayung Kuala Lumpur Malaysia Menu</h2>\n<p>Rembayung is the first physical restaurant established by renowned Malaysian content creator Khairul Aming, located in Kampung Baru, Kuala Lumpur. The restaurant features a 'semi-glasshouse' concept blending modern facilities with a traditional kampung atmosphere, and specializes in authentic Malay home-style cooking.</p>\n`,
-      faqs: [
-        { q: "Where is Rembayung located in Malaysia?", a: "Rembayung is situated in Kampung Baru, Kuala Lumpur, offering a spacious 8,000 sq ft setting that blends modern dining with a traditional kampung atmosphere." },
-        { q: "What type of food does the Rembayung menu feature?", a: "The menu specializes in authentic Malay home-style cooking, featuring traditional dishes like Masak Lemak Cili Api, Ikan Siakap Sambal Berlado, and various local desserts." },
-        { q: "What are the average menu prices at Rembayung?", a: "Rembayung is positioned in the mid-to-premium range. Main dishes typically cost between RM15 to RM70, and a full meal averages around RM90 per person." },
-        { q: "Can I walk in to dine at Rembayung?", a: "Rembayung operates primarily on a reservation-only basis due to high demand. It is highly recommended to book a table online in advance." },
-        { q: "Who is the owner of the Rembayung restaurant?", a: "The restaurant was founded and is owned by the popular Malaysian digital content creator and entrepreneur, Khairul Aming." }
-      ],
-      menu: rembayungKualaLumpurMenu
-    },
-    {
-      name: "Baba Phang",
-      slug: "baba-phang",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Nyonya", colors: "bg-red-900 text-white" }, { name: "Peranakan", colors: "bg-orange-800 text-white" }],
-      desc: "Renowned Nyonya (Peranakan) restaurant in Penang, widely celebrated for its authentic heritage flavors.",
-      seoArticle: `\n<h2>Baba Phang Malaysia</h2>\n<p>Baba Phang is a renowned Nyonya (Peranakan) restaurant situated in George Town, Penang, Malaysia, widely celebrated for its authentic flavors and welcoming atmosphere. The restaurant offers a diverse array of traditional Peranakan dishes, meticulously prepared to preserve classic Nyonya heritage. Note that despite common search confusion with Melaka, Baba Phang operates in Penang, making it a must-visit for food enthusiasts seeking genuine Malaysian culinary traditions.</p>\n`,
-      faqs: [
-        { q: "What are the must-try dishes on the Baba Phang Malaysia menu?", a: "Some of the highly recommended dishes include Tau Ewe Bak (Braised Pork Belly), Inchi Kabin (Nyonya Fried Chicken), and Kapitan Chicken, which are famous for their rich and authentic Peranakan flavors." },
-        { q: "Does the Baba Phang menu offer any vegetarian options?", a: "Yes, Baba Phang provides several vegetable-based dishes like Kerabu Kacang Botol, Sambal Okra, and Acar Rampai, though some may contain shrimp paste or seafood derivatives, so it's best to check with the staff." },
-        { q: "What is the average price range for a meal at Baba Phang Malaysia?", a: "Main meat and seafood dishes generally range from RM 18 to RM 45, while sides and desserts cost between RM 5 and RM 28. A typical meal for two would average around RM 50 to RM 80 depending on the orders." },
-        { q: "Are there traditional Nyonya desserts available on the menu?", a: "Absolutely! Baba Phang serves classic Nyonya desserts such as Sago Gula Melaka, Pengat, and Pulut Hitam, usually priced around RM 5 to RM 6 per bowl." },
-        { q: "Is Baba Phang located in Melaka?", a: "While Baba Phang serves fantastic Nyonya cuisine, the restaurant itself is actually located at Jalan Perak in George Town, Penang, not in Melaka." }
-      ],
-      menu: babaPhangMenu
-    },
-    {
-      name: "Fatty Crab Restaurant",
-      slug: "fatty-crab",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Seafood", colors: "bg-blue-800 text-white" }, { name: "Pork-Free", colors: "bg-green-700 text-white" }],
-      desc: "Legendary seafood institution famous for its signature sweet and sour spicy crab and crispy chicken wings.",
-      seoArticle: `\n<h2>Fatty Crab Restaurant Malaysia</h2>\n<p>Fatty Crab Restaurant is a legendary, long-standing seafood institution located in Taman Megah, Petaling Jaya, Malaysia. Famous for its energetic, no-frills dining atmosphere, it has been a local landmark for decades. The restaurant is particularly renowned for its signature Sweet and Sour Spicy Crab paired with toasted bread, as well as its crispy fried chicken wings and signature fried rice.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Fatty Crab Restaurant Malaysia menu?", a: "The most famous dish is their signature Sweet and Sour Spicy Crab. Other highly recommended menu items include their crispy fried chicken wings, signature fried rice, steamed crab, and toasted bread for dipping in the crab sauce." },
-        { q: "How much does the crab cost at Fatty Crab Restaurant in Taman Megah?", a: "Crab is priced by weight and fluctuates based on seasonal market rates. Recently, it has been estimated to cost around RM 120 per kilogram, though prices are subject to change." },
-        { q: "Is Fatty Crab Restaurant Malaysia Halal-certified?", a: "Fatty Crab is not officially Halal-certified. However, the restaurant is widely known to be a pork-free and alcohol-free establishment, making it a popular dining spot for a diverse crowd of Malaysians." },
-        { q: "Do they serve side dishes to go with the crab?", a: "Yes, a staple way to enjoy the crab is by ordering their Toast (toasted bread) to dip into the delicious, rich sweet and sour crab sauce. Their signature fried rice is also a must-order side." },
-        { q: "Does Fatty Crab Restaurant offer a large variety of food on their menu?", a: "No, Fatty Crab is famous for having a very simple, limited, and focused menu. They specialize in doing a few things exceptionally well, primarily crabs, chicken wings, fried rice, and steamed fish." }
-      ],
-      menu: fattyCrabRestaurantMenu
-    },
-    {
-      name: "Salam Noodles",
-      slug: "salam-noodles",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Chinese Muslim", colors: "bg-red-800 text-white" }, { name: "Hand-pulled Noodles", colors: "bg-orange-700 text-white" }],
-      desc: "Budget-friendly chain specializing in authentic Chinese-Muslim hand-pulled noodles and Xinjiang skewers.",
-      seoArticle: `\n<h2>Salam Noodles Malaysia</h2>\n<p>Salam Noodles is a popular, budget-friendly restaurant chain in Malaysia specializing in authentic Chinese-Muslim cuisine. They are widely recognized for their signature hand-pulled noodles (mee tarik), rich broths, and flavorful Xinjiang-style dishes such as roasted mutton skewers and handmade dumplings.</p>\n`,
-      faqs: [
-        { q: "Is Salam Noodles Malaysia Halal-certified?", a: "Yes, Salam Noodles is a Chinese-Muslim restaurant chain, making it a highly popular and trusted choice for halal authentic Chinese cuisine in Malaysia." },
-        { q: "What are the most popular items on the Salam Noodles menu?", a: "The most highly recommended dishes include their signature Beef Soup Noodles, Xinjiang Mutton Roast Sticks, and their handmade steamed or claypot Dumplings." },
-        { q: "What is the average price range for a meal at Salam Noodles?", a: "Salam Noodles is very affordable. Main dishes like noodles and rice generally cost between RM 13.00 and RM 21.00, while side skewers and snacks range from RM 4.50 to RM 9.00." },
-        { q: "Does Salam Noodles offer food delivery?", a: "Yes, you can order from Salam Noodles Malaysia through popular delivery platforms like Foodpanda and GrabFood, though prices on these apps may be slightly higher due to service fees." },
-        { q: "What kind of noodles does Salam Noodles serve?", a: "They specialize in traditional 'mee tarik' or hand-pulled noodles, renowned for their chewy texture. They are served either in flavorful hot soups or tossed in rich gravies." }
-      ],
-      menu: salamNoodlesMenu
-    },
-    {
-      name: "Baan Suwarin",
-      slug: "baan-suwarin",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Thai", colors: "bg-emerald-800 text-white" }, { name: "Kelantanese", colors: "bg-green-700 text-white" }],
-      desc: "Highly popular destination in Kota Bharu celebrated for its authentic Thai and Kelantanese cuisine.",
-      seoArticle: `\n<h2>Baan Suwarin Malaysia</h2>\n<p>Baan Suwarin (also known as Suwarin Jinda Cafe) is a highly popular restaurant located in Kota Bharu, Kelantan, celebrated for its authentic Thai and Kelantanese cuisine. The establishment is famous for its vibrant dining atmosphere and signature dishes like Daging Harimau Menangis and Miang King Siakap, making it a must-visit destination for both locals and tourists.</p>\n`,
-      faqs: [
-        { q: "What type of food does Baan Suwarin serve?", a: "Baan Suwarin specializes in authentic Thai and Kelantanese cuisine, featuring popular dishes like Tomyam, Somtam, Pad Thai, and their signature grilled meats." },
-        { q: "Where is Baan Suwarin located in Malaysia?", a: "The restaurant is located in Kota Bharu, Kelantan, with its main premises situated at Lot 553, Jalan Kuala Besar, Kg Buluh." },
-        { q: "What is the most famous dish at Baan Suwarin?", a: "The restaurant is highly renowned for its Miang King Siakap (a special signature sea bass dish) and Daging Harimau Menangis (Crying Tiger Beef)." },
-        { q: "Are the menu prices affordable at Baan Suwarin?", a: "Yes, Baan Suwarin offers reasonable prices. General dishes range from RM 15 to RM 40, while premium seafood items like the Miang King Siakap are priced around RM 85." },
-        { q: "Is Baan Suwarin available for food delivery on GrabFood or Foodpanda?", a: "Currently, Baan Suwarin is primarily a dine-in destination known for its bustling atmosphere, and it is generally not available on major food delivery platforms." }
-      ],
-      menu: baanSuwarinMenu
-    },
-    {
-      name: "Lesong by Johara",
-      slug: "lesong-by-johara",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Traditional Malay", colors: "bg-amber-800 text-white" }],
-      desc: "Authentic and traditional Malay cuisine offering classic sharing dishes in a modern retro kampung ambiance.",
-      seoArticle: `\n<h2>Lesong by Johara Malaysia</h2>\n<p>Lesong by Johara is a popular dining establishment located in the Zenith Lifestyle Centre in Johor Bahru, specializing in authentic and traditional Malay cuisine. The restaurant offers a modern yet cozy 'retro kampung' ambiance, making it a perfect spot for family gatherings and group meals. Its menu features sharing portions of classic dishes like Asam Pedas, Masak Lemak, and rich curries, providing a premium yet approachable dining experience.</p>\n`,
-      faqs: [
-        { q: "What type of food is served at Lesong by Johara in Malaysia?", a: "Lesong by Johara specializes in authentic traditional Malay cuisine, offering popular signature dishes like Asam Pedas Ekor Lembu, Ayam Masak Lemak, and various sambal and curry dishes." },
-        { q: "Where is Lesong by Johara located in Malaysia?", a: "The restaurant is centrally located at the Zenith Lifestyle Centre in Johor Bahru (01-03A, Zenith Lifestyle Center, Jalan Trus)." },
-        { q: "What is the average price range for the Lesong by Johara menu?", a: "While it offers a slightly premium dining experience, prices are considered reasonable given the quality. Signature sharing dishes typically range from RM14 to RM48, making it ideal for groups." },
-        { q: "Is the food at Lesong by Johara suitable for sharing?", a: "Yes, many of the signature dishes, including their famous Ekor Goreng and Sambal Cili Podeh Siakap, are served in generous portions designed to be shared among 3 to 4 people." },
-        { q: "Does Lesong by Johara offer delivery via GrabFood or Foodpanda?", a: "Lesong by Johara primarily focuses on providing an exceptional dine-in experience. It is recommended to check local delivery apps directly in Johor Bahru or contact the restaurant for the latest takeout availability." }
-      ],
-      menu: lesongByJoharaMenu
-    },
-    {
-      name: "Busanzip",
-      slug: "busanzip",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1580651315530-69c8e0026377?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Korean", colors: "bg-red-800 text-white" }],
-      desc: "Highly popular Korean restaurant specializing in authentic Busan-style spicy webfoot octopus (Jjukkumi).",
-      seoArticle: `\n<h2>Busanzip Malaysia</h2>\n<p>Busanzip is a highly popular Korean restaurant located in Desa Sri Hartamas, Kuala Lumpur, specializing in authentic Busan-style cuisine. The viral dining spot is particularly famous for its signature hotplate dish, Jjukkumi (spicy webfoot octopus), which is typically paired with beef belly or intestines. Due to its direct and concise menu focusing on quality ingredients, the restaurant frequently draws long queues of eager diners.</p>\n`,
-      faqs: [
-        { q: "Is Busanzip Malaysia Halal-certified?", a: "No, Busanzip is not Halal-certified. While they do not use pork or lard in their main dishes, they are a non-halal establishment and serve alcohol." },
-        { q: "What is the signature dish at Busanzip Desa Sri Hartamas?", a: "The must-try signature dish is the Woosamgyeup Jjukkumi, a spicy and flavorful hotplate featuring stir-fried webfoot octopus and beef belly." },
-        { q: "Does Busanzip accept reservations?", a: "Busanzip typically operates on a walk-in, queue-based system. It is highly recommended to arrive early, especially for weekend dinners, to avoid long waiting times." },
-        { q: "Where is Busanzip located in Kuala Lumpur?", a: "The restaurant is located at 23-G, Jalan 26/70a, Desa Sri Hartamas, 50480 Kuala Lumpur." },
-        { q: "What are the operating hours for Busanzip Malaysia?", a: "Busanzip is generally open from 11:00 am to 3:00 pm and 5:00 pm to 11:00 pm, and is closed on Tuesdays." }
-      ],
-      menu: busanzipMenu
-    },
-    {
-      name: "Nippori Bistro",
-      slug: "nippori-bistro",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Japanese Fusion", colors: "bg-rose-900 text-white" }],
-      desc: "Chic fusion restaurant blending Japanese, French, and Western culinary influences.",
-      seoArticle: `\n<h2>Nippori Bistro Malaysia</h2>\n<p>Nippori Bistro is a chic fusion restaurant located in Petaling Jaya, Malaysia, renowned for blending Japanese, French, and Western culinary influences. Set in an artistic, eco-chic atmosphere, this all-day dining destination offers a diverse selection of creative pastas, hearty rice bowls, and house-made pastries. It is a highly popular spot for food lovers seeking unique flavors like the signature Deep Sea Kombu and visually stunning interiors.</p>\n`,
-      faqs: [
-        { q: "What kind of food does Nippori Bistro Malaysia Menu offer?", a: "The menu features a creative fusion of Japanese, French, and Western cuisines. Diners can expect a variety of dishes including fusion pastas, Japanese donburi (rice bowls), wagyu hamburg steaks, traditional Japanese breakfasts, and fresh in-house pastries." },
-        { q: "Where is Nippori Bistro located?", a: "Nippori Bistro is located at B Land, Lot 2 & 3, Jalan 51A/225, Seksyen 51A, 46100 Petaling Jaya, Selangor, Malaysia." },
-        { q: "Do I need to make a reservation for Nippori Bistro?", a: "Yes, making a reservation is highly recommended. Because of its stylish ambiance and popular menu, the bistro is frequently fully booked, especially during peak hours and weekends." },
-        { q: "What are some highly recommended signature dishes?", a: "Crowd favorites include the 'Deep Sea Kombu' (a creamy seaweed and seafood pasta), 'Unstoppable Avo' (avocado and crab meat), Wagyu Hamburg Steak, and their freshly baked Earl Grey Tea Cake." },
-        { q: "What is the average price range at Nippori Bistro?", a: "Dining at Nippori Bistro is considered mid-to-high range. You can expect an average spend of about RM 80 to RM 150 per person depending on your choice of mains, drinks, and desserts." }
-      ],
-      menu: nipporiBistroMenu
-    },
-    {
-      name: "Para Thai",
-      slug: "para-thai",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Authentic Thai", colors: "bg-orange-700 text-white" }],
-      desc: "Vibrant restaurant serving authentic, intense Thai flavors, from fiery Tom Yum to classic Pad Thai.",
-      seoArticle: `\n<h2>Para Thai Malaysia</h2>\n<p>Para Thai brings the vibrant, intense, and authentic flavors of Thailand to Malaysia. Part of a larger dining group known for quality Asian cuisine, the restaurant focuses on delivering dishes that perfectly balance the sweet, sour, salty, and spicy notes characteristic of traditional Thai cooking. The menu features all the beloved classics, including aromatic Tom Yum Goong, perfectly wok-hei infused Phad Thai, rich Green Curry, and refreshing Mango Sticky Rice. With its lively atmosphere and commitment to authentic recipes, Para Thai is a top choice for a satisfying and flavorful meal.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes at Para Thai?", a: "Their Tom Yum Goong (spicy prawn soup), Phad Thai Goong Sod, and Steamed Sea Bass with Lime and Garlic are highly recommended signature items." },
-        { q: "Is Para Thai Malaysia halal?", a: "Para Thai operates as a pork-free establishment and sources ingredients from halal-certified suppliers, making it muslim-friendly." },
-        { q: "How much does a meal cost at Para Thai?", a: "Main dishes and curries typically range from RM 22 to RM 35, while premium seafood items like the whole steamed fish are priced around RM 68.90." },
-        { q: "Where can I find Para Thai outlets?", a: "Para Thai has several outlets in major shopping malls across Malaysia, including locations like Citta Mall, Glo Damansara, and others." },
-        { q: "Do they serve vegetarian options at Para Thai?", a: "Yes, they have a selection of vegetable dishes, tofu options, and meat-free salads, though it's best to specify dietary requirements when ordering." }
-      ],
-      menu: paraThaiMenu
-    },
-    {
-      name: "Nasi Lemak Lobster JB",
-      slug: "nasi-lemak-lobster-jb",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Seafood", colors: "bg-red-800 text-white" }],
-      desc: "Famous Johor Bahru establishment elevating the humble nasi lemak with premium, giant seafood like lobsters and Alaskan king crabs.",
-      seoArticle: `\n<h2>Nasi Lemak Lobster JB</h2>\n<p>Nasi Lemak Lobster JB, located in Taman Setia Tropika, Johor Bahru, has gained immense popularity for taking Malaysia's beloved national dish to luxurious new heights. Moving far beyond the traditional anchovies and egg, this establishment pairs fragrant coconut rice and fiery sambal with massive, premium seafood. Diners can indulge in fresh, meaty lobsters coated in cheese or spicy sauces, giant river prawns (Udang Galah), whole crispy squids, and even decadent Alaskan King Crab legs. Despite the premium ingredients, the restaurant maintains a bustling, casual dining atmosphere that draws crowds from across Malaysia and Singapore.</p>\n`,
-      faqs: [
-        { q: "What is Nasi Lemak Lobster JB famous for?", a: "As the name implies, they are famous for serving traditional nasi lemak paired with giant, premium seafood—most notably fresh lobsters, giant river prawns, and even Alaskan King Crab." },
-        { q: "How much is a Nasi Lemak Lobster in JB?", a: "A standard Nasi Lemak Lobster generally starts around RM 35.00, while the 'Jumbo' sized lobsters can range from RM 80 to RM 120, depending on the size and market price." },
-        { q: "Where is Nasi Lemak Lobster JB located?", a: "It is located at 88, Jalan Setia Tropika 1/7, Taman Setia Tropika in Johor Bahru, Johor." },
-        { q: "What other seafood do they serve besides lobster?", a: "They offer a wide variety of premium seafood pairings, including Nasi Lemak Sotong King (giant squid), Udang Galah (giant river prawn), and Crispy Siakap (sea bass)." },
-        { q: "Is Nasi Lemak Lobster JB halal?", a: "Yes, Nasi Lemak Lobster JB is a Muslim-owned establishment and serves 100% halal food." }
-      ],
-      menu: nasiLemakLobsterJbMenu
-    },
-    {
-      name: "Mollagaa Restaurant",
-      slug: "mollagaa-restaurant",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "South Indian", colors: "bg-red-700 text-white" }],
-      desc: "Authentic South Indian restaurant in Kuala Lumpur famous for its signature Meen Polichadhu and spicy Kerala-style curries.",
-      seoArticle: `\n<h2>Mollagaa Restaurant</h2>\n<p>Mollagaa Restaurant, located at Lebuh Ampang in Kuala Lumpur, is well-known for its authentic South Indian cuisine. Serving a diverse menu that ranges from fiery Chettinad-style curries to Kerala seafood specialties, it has become a favorite among locals and tourists craving bold, unadulterated Indian flavors. The restaurant is particularly famous for its lunchtime Banana Leaf rice spreads and signature dishes like the "Meen Polichadhu" (grilled fish in banana leaf) and Mutton Chukka, all served in a casual, fast-paced dining environment.</p>\n`,
-      faqs: [
-        { q: "What is the signature dish at Mollagaa Restaurant Malaysia?", a: "Mollagaa is famous for its Meen Polichadhu — a traditional Kerala-style dish where fresh fish is marinated in a rich, spicy masala and roasted inside a banana leaf to lock in the flavors." },
-        { q: "Does Mollagaa Restaurant serve Banana Leaf rice?", a: "Yes, Banana Leaf rice is a very popular offering at Mollagaa Restaurant. However, it is typically only served during lunch hours and may not be available for dinner." },
-        { q: "What is the price range at Mollagaa Restaurant Malaysia?", a: "Mollagaa is a mid-range restaurant. Main courses like Chicken Tikka Masala or Mutton Chukka generally range between RM 25 and RM 35. Starters like Chicken 65 or samosas are typically RM 10 to RM 20." },
-        { q: "Where is Mollagaa Restaurant located?", a: "Mollagaa Restaurant is located at 50A, Lebuh Ampang, in the heart of Kuala Lumpur, Malaysia, an area known for its vibrant Indian dining scene." },
-        { q: "Is Mollagaa Restaurant halal?", a: "Mollagaa serves halal-sourced meats and does not serve pork, making it a popular choice for Muslim diners seeking authentic South Indian cuisine." }
-      ],
-      menu: mollagaaMenu
-    },
-    {
-      name: "Betawi Indonesian Cuisine TTDI",
-      slug: "betawi-indonesian-cuisine-ttdi",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Indonesian", colors: "bg-red-600 text-white" }],
-      desc: "Premium Indonesian restaurant in TTDI celebrated for its authentic Jakarta-style Soto Betawi and signature grilled short ribs (Iga Bakar).",
-      seoArticle: `\n<h2>Betawi Indonesian Cuisine TTDI</h2>\n<p>Betawi Indonesian Cuisine, located in the bustling neighborhood of Taman Tun Dr Ismail (TTDI), Kuala Lumpur, brings the authentic, rich flavors of Jakarta and greater Indonesia to Malaysia. Named after the Betawi people native to Jakarta, the restaurant specializes in traditional slow-cooked meats, robust soups, and fiery sambals. Standout signature dishes include their melt-in-your-mouth Iga Bakar (grilled beef short ribs), Buntut Bakar (grilled oxtail), and the creamy, spiced Soto Betawi, offering a premium and comforting Indonesian dining experience.</p>\n`,
-      faqs: [
-        { q: "What are the must-try dishes on the Betawi TTDI Malaysia menu?", a: "The absolute must-try signature dishes are the Iga Bakar (grilled beef short ribs) served with a basket of rice, the Buntut Bakar (grilled oxtail), Soto Betawi (Jakarta-style beef soup), and Ayam Taliwang." },
-        { q: "How much does a meal cost at Betawi Indonesian Cuisine TTDI?", a: "Prices reflect the premium quality and portion sizes. Signature dishes like Iga Bakar are priced around RM 85.00, while soups like Soto Betawi and Sop Buntut are approximately RM 35.90. Chicken mains start from RM 28.90." },
-        { q: "Where is Betawi Indonesian Cuisine located in Malaysia?", a: "The restaurant is located at 31, Jalan Tun Mohd Fuad 3, Taman Tun Dr Ismail (TTDI), 60000 Kuala Lumpur." },
-        { q: "What are the operating hours for Betawi TTDI?", a: "Betawi TTDI is open Tuesday to Sunday for lunch (11:30 AM – 3:00 PM) and dinner (6:30 PM – 10:30 PM). The restaurant is closed on Mondays." },
-        { q: "Is Betawi TTDI halal?", a: "Yes, Betawi Indonesian Cuisine is a Muslim-owned, halal establishment serving authentic Indonesian food." }
-      ],
-      menu: betawiTtdiMenu
-    },
-    {
-      name: "Super Saigon",
-      slug: "super-saigon",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Vietnamese Halal", colors: "bg-yellow-600 text-white" }],
-      desc: "JAKIM Halal-certified Vietnamese restaurant chain celebrated for its 8-hour slow-cooked Phở, authentic Bánh Mì, and fresh rice paper rolls.",
-      seoArticle: `\n<h2>Super Saigon</h2>\n<p>Super Saigon is a JAKIM Halal-certified Vietnamese restaurant chain in Malaysia, established in 2017 by the team behind La Juiceria Superfoods, inspired by the vibrant Vietnamese dining scenes of Ho Chi Minh City and Melbourne. The restaurant is celebrated for its signature Melbourne-style Phở, made with 100% premium imported Australian beef slow-cooked for 8 hours, alongside authentic staples like Bánh Mì, crispy spring rolls, and traditional Vietnamese coffee. With its modern, Instagram-worthy interior, Super Saigon offers a fresh, healthy, and inclusive dining experience across multiple outlets in Malaysia.</p>\n`,
-      faqs: [
-        { q: "Is Super Saigon Malaysia Halal-certified?", a: "Yes, Super Saigon Malaysia is fully Halal-certified by JAKIM for its central kitchen and all its outlets. The restaurant uses only Halal-certified ingredients and suppliers, making it a safe and trusted dining choice for Muslim customers." },
-        { q: "What are the must-try items on the Super Saigon Malaysia menu?", a: "The must-try items include the Pho Special Beef Combination (8-hour slow-cooked broth), the Marinated BBQ Pulled Beef Bánh Mì, the Dry Wok Aussie Beef Kuey Teow, and the signature Đen Đậm Vietnamese Milk Coffee." },
-        { q: "How much does Super Saigon Malaysia menu cost on average?", a: "Main dishes range from approximately RM 14.50 to RM 28.90. Appetizers start from around RM 12.90, beverages range from RM 8.90 to RM 11.90, and desserts start from RM 6.90." },
-        { q: "Does Super Saigon Malaysia offer vegetarian options?", a: "Yes, Super Saigon Malaysia offers several vegetarian options including Vegetarian Pho, Vegetarian Bánh Mì, Vegetarian Fresh Rice Paper Rolls, and Vegetarian Crispy Spring Rolls." },
-        { q: "Can I order Super Saigon Malaysia menu online for delivery?", a: "Yes, Super Saigon Malaysia is available for online ordering and delivery through platforms like GrabFood and their official ordering platform at supersaigon.oddle.me." }
-      ],
-      menu: superSaigonMenu
-    },
-    {
-      name: "Experiment Kitchen Merab",
-      slug: "experiment-kitchen-merab",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Western Fusion", colors: "bg-orange-600 text-white" }],
-      desc: "Popular Malaysian restaurant in Kajang known as 'Your Talam Expert' for signature communal sharing platters and creative Western-fusion dishes.",
-      seoArticle: `\n<h2>Experiment Kitchen Merab</h2>\n<p>Experiment Kitchen (Sungai Merab) is a popular Malaysian restaurant located in Kampung Sungai Merab Luar, Kajang, Selangor, widely known as 'Your Talam Expert' for its signature communal sharing platters served on large trays. The restaurant offers a creative fusion menu blending Western and local Malaysian flavours — including chicken chops, lamb chops, spaghetti, burgers, and waffles — in a cosy, artsy ambiance perfect for family and group dining.</p>\n`,
-      faqs: [
-        { q: "What is the Experiment Kitchen Merab Malaysia menu known for?", a: "Experiment Kitchen Merab is best known for its signature 'Talam' sharing platters — large trays of food designed for 2 to 4 people — alongside a wide à la carte menu featuring Western-fusion dishes like buttermilk chicken chop, salted egg squid, lamb chop, Mac & Cheese, burgers, and waffles." },
-        { q: "Where is Experiment Kitchen Merab located and what are its operating hours?", a: "Experiment Kitchen Merab is located at Lot 3351, Desa Villa Merab, Kampung Sungai Merab Luar, 43000 Kajang, Selangor. It is open daily from 12:00 PM to 12:00 AM, and is typically closed on Tuesdays." },
-        { q: "Is Experiment Kitchen Merab halal?", a: "Yes, Experiment Kitchen Merab is a Muslim-friendly, halal restaurant. It is widely featured in local halal food guides and caters to Muslim diners with a menu that excludes pork and alcohol." },
-        { q: "How much does the Experiment Kitchen Merab menu cost?", a: "Individual Western plates range from RM 20.90 to RM 26.90, while the signature Talam sharing platters range from RM 69.90 (for 2 pax) to RM 129.90 (for 3–4 pax)." },
-        { q: "Does Experiment Kitchen Merab offer delivery or takeaway?", a: "Yes, Experiment Kitchen Merab offers both delivery and pickup services. You can place orders through their official online store or by contacting them directly at 010-443 6692." }
-      ],
-      menu: experimentKitchenMenu
-    },
-    {
-      name: "Al Rawsha Restaurant",
-      slug: "al-rawsha",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Middle Eastern", colors: "bg-red-700 text-white" }],
-      desc: "Prominent Middle Eastern restaurant celebrated for authentic Arabian cuisine and generous portions.",
-      seoArticle: `\n<h2>Al Rawsha Restaurant</h2>\n<p>Al Rawsha Restaurant is a prominent chain of Middle Eastern restaurants in Malaysia, celebrated for its authentic Arabian cuisine and generous portions. Designed with stunning, palace-like architecture, the restaurant offers an immersive and inviting dining atmosphere perfect for families and large gatherings. Since 2001, it has delighted patrons with signature dishes like Lamb Mandy, shawarma, and a variety of traditional appetizers.</p>\n`,
-      faqs: [
-        { q: "What type of cuisine does Al Rawsha Restaurant in Malaysia serve?", a: "Al Rawsha specializes in authentic Middle Eastern and Arabic cuisine, offering popular dishes such as Lamb Mandy, kebabs, shawarma, and traditional appetizers like hummus and baba ghanoush." },
-        { q: "Is Al Rawsha Malaysia Halal-certified?", a: "Yes, Al Rawsha is a recognized Halal establishment, making it a popular choice for Muslim diners seeking authentic Middle Eastern food." },
-        { q: "Where are the branches of Al Rawsha located in Malaysia?", a: "Al Rawsha operates multiple locations in Malaysia. The most prominent branches are located in Kuala Lumpur (Jalan Kampung Pandan) and Shah Alam (Seksyen 7), with another presence in Penang." },
-        { q: "What are the signature dishes on the Al Rawsha Malaysia menu?", a: "Some of the highly recommended signature dishes include the Lamb Mandy, Lamb Kabsa, Mixed Grill platters, and freshly made shawarma, all known for their generous, shareable portions." },
-        { q: "What is the average price of food at Al Rawsha Malaysia?", a: "Prices at Al Rawsha offer great value for the generous portions. Main courses typically range between RM 35.00 to RM 55.00, while appetizers and sandwiches cost around RM 14.00 to RM 20.00." }
-      ],
-      menu: alRawshaMenu
-    },
-    {
-      name: "Bidadari Turun Malam Cafe & Ruang Seni",
-      slug: "bidadari-turun-malam-cafe",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe & Fusion", colors: "bg-red-700 text-white" }],
-      desc: "Hidden gem cafe in Kajang renowned for its garden-like aesthetic and diverse fusion menu.",
-      seoArticle: `\n<h2>Bidadari Turun Malam Cafe & Ruang Seni</h2>\n<p>Bidadari Turun Malam Cafe & Ruang Seni is a popular \"hidden gem\" café in Kajang, Selangor, renowned for its garden-like aesthetic and unique artistic ambiance. The café serves a diverse fusion menu that perfectly blends traditional Malay breakfast specialties with classic Western dinner dishes, catering to patrons from morning till night.</p>\n`,
-      faqs: [
-        { q: "What are the popular breakfast items on the Bidadari Turun Malam Cafe Malaysia Menu?", a: "Popular breakfast items include traditional Malay favorites like Nasi Lemak with Ayam Berempah or Daging Dendeng, Lontong Special, and Mee Kari." },
-        { q: "Does Bidadari Turun Malam Cafe serve Western food?", a: "Yes, their menu features a variety of Western dishes, such as Smoked Duck Alfredo, Mac N Cheese, Lamb Grill, and Smash Burgers, making it a great spot for dinner." },
-        { q: "What is the price range at Bidadari Turun Malam Cafe?", a: "The prices are quite reasonable, with breakfast items generally costing between RM 12 and RM 15, while hearty main courses and Western dishes typically range from RM 17 to RM 40." },
-        { q: "Where is Bidadari Turun Malam Cafe located?", a: "The cafe is located at Lot 9396, Batu 18, Jalan Reko, Kampung Sungai Tangkas, 43000 Kajang, Selangor." },
-        { q: "Is Bidadari Turun Malam Cafe available for delivery?", a: "Yes, you can conveniently order from their menu online via food delivery platforms like foodpanda and GrabFood." }
-      ],
-      menu: bidadariTurunMalamCafeMenu
-    },
-    {
-      name: "Homst",
-      slug: "homst",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Chinese Muslim", colors: "bg-red-700 text-white" }],
-      desc: "Popular Halal-certified Chinese Muslim restaurant chain offering home-style dining and dim sum.",
-      seoArticle: `\n<h2>Homst</h2>\n<p>Homst is a popular Halal-certified Chinese Muslim restaurant chain in Malaysia, established in 2002 by Chef Yusoff Lau Bin Abdullah. Known for its family-friendly, home-style dining experience, it offers an extensive menu of authentic Chinese dishes perfectly adapted for a Muslim-friendly diet.</p>\n`,
-      faqs: [
-        { q: "Is the Homst Malaysia menu Halal-certified?", a: "Yes, Homst is a 100% Halal-certified Chinese Muslim restaurant, making it a popular choice for Muslim diners seeking authentic Chinese cuisine in Malaysia." },
-        { q: "What are the signature dishes at Homst?", a: "Some of the highly recommended signature dishes include the Butter Prawns topped with crispy egg floss, Smoked Duck, and the Asam Steamed Fish." },
-        { q: "Does Homst serve Dim Sum?", a: "Yes, Homst offers a wide selection of over 30 varieties of Halal dim sum, including favorites like Chicken Siew Mai, Steamed Crystal Prawn Dumplings (Hargao), and BBQ Buns." },
-        { q: "Can I order from the Homst menu for delivery?", a: "Absolutely. Homst partners with major food delivery platforms like Foodpanda and GrabFood, allowing you to enjoy their dishes from the comfort of your home." },
-        { q: "Are there vegetarian-friendly options available at Homst?", a: "Yes, Homst offers a variety of plant-based and vegetable-centric dishes, such as Sizzling Tofu, Stir-fried Kailan, and Kangkong with belacan." }
-      ],
-      menu: homstMenu
-    },
-    {
-      name: "Kantan Kota Damansara",
-      slug: "kantan-kota-damansara",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Kelantanese", colors: "bg-red-700 text-white" }],
-      desc: "Highly-rated restaurant specializing in authentic Kelantanese cuisine and premium Malay comfort food.",
-      seoArticle: `\n<h2>Kantan Kota Damansara</h2>\n<p>Kantan @ Kota Damansara is a highly-rated restaurant located at Sunway Nexis that specializes in authentic Kelantanese cuisine and premium Malay comfort food. Founded by Chef Datin Isma, the restaurant honors generations of traditional family recipes, serving signature dishes like Nasi Kerabu Ayam Percik and Laksam in an elegant yet cozy setting.</p>\n`,
-      faqs: [
-        { q: "Where is Kantan Kota Damansara located?", a: "Kantan is located at B-GF-07, Sunway Nexis, Jalan PJU 5/1, Kota Damansara, Petaling Jaya, Malaysia." },
-        { q: "What are the signature dishes on the Kantan Kota Damansara Malaysia menu?", a: "Highly recommended dishes include the Nasi Kerabu Ayam Percik, Nasi Daging Bakar Harimau Menangis, and their traditional Laksam Kelantan." },
-        { q: "What is the price range for meals at Kantan Kota Damansara?", a: "Prices are reasonable for premium comfort food, with starters like Popia Goreng at RM 9.50 and hearty mains like Nasi Kerabu Kambing Bakar around RM 25.90." },
-        { q: "Does Kantan Kota Damansara serve authentic Kelantanese food?", a: "Yes, the restaurant prides itself on authentic Kelantanese cuisine using traditional family recipes passed down from Chef Datin Isma." },
-        { q: "What are the operating hours for Kantan Kota Damansara?", a: "Kantan Kota Damansara is generally open from Tuesday to Sunday, 11:00 AM to 10:00 PM, and is closed on Mondays." }
-      ],
-      menu: kantanKotaDamansaraMenu
-    },
-    {
-      name: "Dancing Fish",
-      slug: "dancing-fish",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Indonesian", colors: "bg-red-700 text-white" }],
-      desc: "MICHELIN Guide recognized restaurant in BSC offering authentic Malay-Indonesian cuisine.",
-      seoArticle: `\n<h2>Dancing Fish</h2>\n<p>Dancing Fish is an award-winning restaurant located in Bangsar Shopping Centre (BSC), Kuala Lumpur, renowned for its authentic Malay-Indonesian cuisine. Recognized by the MICHELIN Guide with a Bib Gourmand, the establishment focuses on Sundanese and Balinese flavors. It is particularly celebrated for its namesake dish, the 'Dancing Fish' (Ikan Nila Goreng Menari), a crispy deep-fried tilapia shaped in a dynamic posture.</p>\n`,
-      faqs: [
-        { q: "Where is Dancing Fish located in Malaysia?", a: "Dancing Fish is located at Lot T120 & 121 on the 3rd Floor of Bangsar Shopping Centre (BSC), Jalan Maarof, 59000 Kuala Lumpur." },
-        { q: "What is the signature dish at Dancing Fish?", a: "Their signature dish is the 'Dancing Fish' (Ikan Nila Goreng Menari), a whole deep-fried tilapia presented in a unique 'dancing' pose, served with various sambals and sauces." },
-        { q: "Is Dancing Fish recognized by the MICHELIN Guide?", a: "Yes, Dancing Fish has been recognized by the MICHELIN Guide Malaysia, earning a Bib Gourmand in 2023 and 2024 for offering excellent food at reasonable prices." },
-        { q: "How much does it cost to eat at Dancing Fish Bangsar?", a: "Diners typically spend an average of RM 80 to RM 90 per person. Please note that menu prices are subject to a 10% service charge and 6% SST." },
-        { q: "Does Dancing Fish offer delivery options?", a: "Yes, Dancing Fish is available for delivery via major platforms like Foodpanda and GrabFood, offering their à la carte items and set meals." }
-      ],
-      menu: dancingFishMenu
-    },
-    {
-      name: "Fifty Tales",
-      slug: "fifty-tales",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Noodle Bar", colors: "bg-red-600 text-white" }],
-      desc: "Celebrated dining spot in Seapark known for artisan egg noodles by day and 'Cincai' sharing dinner.",
-      seoArticle: `\n<h2>Fifty Tales</h2>\n<p>Fifty Tales is a celebrated dining spot located in Seapark, Petaling Jaya, Malaysia, known for its dynamic day-to-night dining experience. During the day, it operates as an artisan noodle bar specializing in handmade, springy egg noodles, while in the evening, it transitions into a 'Cincai' dinner service featuring elevated Malaysian Chinese comfort food designed for sharing. The restaurant also boasts a creative beverage program with house-made sodas and locally-inspired cocktails.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Fifty Tales Malaysia menu?", a: "The daytime menu focuses on handmade artisan egg noodles like the 'OG Style Noodles' with beer-braised pork belly and the 'Minegar Noodles' with Penang vinegar. For dinner, they serve shared plates like roasted corn-fed chicken and elevated Malaysian Chinese comfort food." },
-        { q: "How much do noodles cost at Fifty Tales?", a: "Noodle bowls at Fifty Tales typically range from RM 20.00 to RM 28.00 depending on the choice of protein, such as poached chicken or beer-braised pork. Vegetarian options are also available." },
-        { q: "Does Fifty Tales have a different menu for lunch and dinner?", a: "Yes, Fifty Tales operates a Noodle Bar concept for lunch focusing on handmade noodles and rice bowls. In the evening, the menu switches to an à la carte 'Cincai' style intended for sharing, with higher-end specialty dishes." },
-        { q: "Are there vegetarian options available on the Fifty Tales menu?", a: "Yes, Fifty Tales offers vegetarian variations for several of their lunch items, such as the Nyonya Laksa and Minegar Noodles, with prices starting around RM 20.00." },
-        { q: "Does Fifty Tales serve alcohol and what are the corkage fees?", a: "Fifty Tales offers a curated selection of house-made sodas, locally-inspired cocktails, wines, and sake. If you wish to bring your own wine, a corkage fee of RM 50.00 per bottle typically applies." }
-      ],
-      menu: fiftyTalesMenu
-    },
-    {
-      name: "Jibril",
-      slug: "jibril",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Speakeasy & Fusion", colors: "bg-red-900 text-white" }],
-      desc: "Popular, hidden speakeasy-themed restaurant in Subang Jaya known for Salted Egg Butter Chicken.",
-      seoArticle: `\n<h2>Jibril</h2>\n<p>Jibril SS15 is a popular, hidden speakeasy-themed restaurant in Subang Jaya, Malaysia, known for its secret entrance behind a brick wall. The Muslim-friendly establishment features a dimly lit, retro interior and specializes in fusion cuisine, most notably its iconic Salted Egg Butter Chicken.</p>\n`,
-      faqs: [
-        { q: "What is Jibril SS15 famous for?", a: "Jibril SS15 is most famous for its signature Salted Egg Butter Chicken and its unique hidden speakeasy concept." },
-        { q: "Is Jibril Malaysia a halal-certified restaurant?", a: "Yes, Jibril is a Muslim-friendly, 100% halal establishment that uses halal-certified ingredients and does not serve alcohol." },
-        { q: "Where is Jibril located and how do I find the entrance?", a: "Jibril is located at 25, Jalan SS 15/4b, SS 15, Subang Jaya. The entrance is famously hidden and designed like a secret door in a brick wall." },
-        { q: "Is Jibril SS15 kids-friendly and suitable for families?", a: "Yes, despite its speakeasy aesthetic and vibe, Jibril is a family-friendly restaurant that welcomes children." },
-        { q: "What are the price ranges for the menu items at Jibril?", a: "Prices generally range from RM 11.90 for appetizers and sides to around RM 19.90 - RM 35.90 for their popular main courses." }
-      ],
-      menu: jibrilMenu
-    },
-    {
-      name: "Potluck",
-      slug: "potluck",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Catering", colors: "bg-green-600 text-white" }],
-      desc: "Local Malaysian business specializing in catering and artisan confections tailored for group gatherings.",
-      seoArticle: `\n<h2>Potluck</h2>\n<p>Potluck Malaysia (Potluck.MY) is a local Malaysian business specializing in catering and artisan confections tailored for group gatherings. They are widely recognized for their beautifully crafted Roti Jala and Mantau buns, which are served alongside rich, freshly made chicken curry. With an emphasis on visually appealing sharing platters and gift boxes, Potluck.MY offers the perfect ready-to-eat sets for social events, celebrations, and traditional potluck parties.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Potluck Malaysia Menu?", a: "Potluck Malaysia is famous for its beautifully crafted Roti Jala and Mantau buns, which are paired perfectly with their rich and flavorful fresh chicken curry." },
-        { q: "Does the Potluck Malaysia Menu offer catering sizes for large gatherings?", a: "Yes, they offer various set sizes tailored for gatherings, ranging from small sets with around 40 pieces to large sets featuring over 100 pieces to feed a crowd." },
-        { q: "Are there visually appealing gift options available on the Potluck Malaysia Menu?", a: "Absolutely! Potluck Malaysia features specialized Gift Sets packaged in clear or gold boxes, as well as aesthetically pleasing 'Flower Sets' and 'Love/Cute' arrangements." },
-        { q: "How much do the typical sets on the Potluck Malaysia Menu cost?", a: "The prices are very reasonable, typically ranging from RM60.00 for a Small Flower Set up to RM110.00 for a Big Classic Set, making it ideal for affordable group dining." },
-        { q: "Is Potluck Malaysia a traditional sit-down restaurant?", a: "No, Potluck.MY operates primarily as a catering and artisan confection business that focuses on delivery and pickup of party platters and pastry sets rather than a traditional dine-in restaurant." }
-      ],
-      menu: potluckMenu
-    },
-    {
-      name: "Kopi Ping",
-      slug: "kopi-ping",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Borneo Cuisine", colors: "bg-red-800 text-white" }],
-      desc: "Highly popular restaurant chain originating from Sabah, celebrated for its signature Borneo-style coffee.",
-      seoArticle: `\n<h2>Kopi Ping</h2>\n<p>Kopi Ping Cafe is a highly popular restaurant chain originating from Sabah, Malaysia, celebrated for its signature Borneo-style coffee and diverse selection of local Malaysian delights. The cafe offers a welcoming ambiance where patrons can enjoy a mix of traditional comfort foods alongside contemporary Western-style snacks.</p>\n`,
-      faqs: [
-        { q: "What are the must-try signature dishes on the Kopi Ping Malaysia menu?", a: "Some of the highly recommended signature dishes include the Fish Sauce Mee Hoon, Wattan Ho, and the Creamy Butter Sauce Rice, all of which capture authentic local flavors." },
-        { q: "Does Kopi Ping Cafe serve traditional Malaysian coffee?", a: "Yes, Kopi Ping Cafe is famous for its Borneo-style iced coffee, specifically their signature 'Kp Kopi Kaw Kaw,' 'KP White Coffee Ping,' and 'KP Green Tea Ping.'" },
-        { q: "What are the average prices for main courses at Kopi Ping Cafe?", a: "The main courses at Kopi Ping Cafe are affordable, with popular items like Nasi Goreng Kampung and Fried Kuey Teow generally ranging from RM 16.90 to RM 20.90." },
-        { q: "Are there light snacks available on the Kopi Ping menu?", a: "Absolutely! The menu features a variety of quick bites such as Siew Mai, Cheese Tuna Toast, and Curry Chicken Toast Bread, perfect for a light meal or afternoon tea." },
-        { q: "Does Kopi Ping Cafe offer food delivery in Malaysia?", a: "Yes, Kopi Ping Cafe's menu is available for delivery through major delivery platforms, making it easy to enjoy their delicious meals and signature coffee from home." }
-      ],
-      menu: kopiPingMenu
-    },
-    {
-      name: "Nasi Lemak Burung Hantu",
-      slug: "nasi-lemak-burung-hantu",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Nasi Lemak", colors: "bg-red-600 text-white" }],
-      desc: "Popular late-night eatery in Malaysia known for serving fragrant nasi lemak with basmati rice.",
-      seoArticle: `\n<h2>Nasi Lemak Burung Hantu</h2>\n<p>Nasi Lemak Burung Hantu is a popular late-night eatery in Malaysia known for serving fragrant nasi lemak until the early hours of the morning. They distinguish themselves by using basmati rice, which has a lower glycemic index, paired with a signature spicy-sweet sambal. The restaurant has expanded rapidly across the Klang Valley and beyond, becoming a go-to spot for night owls craving comforting Malaysian cuisine.</p>\n`,
-      faqs: [
-        { q: "What makes Nasi Lemak Burung Hantu different from other nasi lemak?", a: "They use high-quality basmati rice instead of regular white rice, offering a lighter texture and lower glycemic index, along with a signature spicy-sweet sambal." },
-        { q: "What are the best-selling items on the Nasi Lemak Burung Hantu menu?", a: "The most popular items include the Nasi Lemak Basmathi Ayam Berempah (spiced fried chicken) and Nasi Lemak Basmathi Sambal Sotong (spicy squid)." },
-        { q: "What are the operating hours for Nasi Lemak Burung Hantu?", a: "True to its name 'Burung Hantu' (owl in Malay), it is a late-night eatery often staying open until 3:00 AM or later." },
-        { q: "How much does a meal cost at Nasi Lemak Burung Hantu?", a: "Prices start around RM 10.40 for a classic egg set and go up to RM 18.90 for premium sets like Rendang Daging or Sambal Udang Petai." },
-        { q: "Does Nasi Lemak Burung Hantu offer food delivery?", a: "Yes, they are available on major food delivery platforms like GrabFood and Foodpanda in Malaysia." }
-      ],
-      menu: nasiLemakBurungHantuMenu
-    },
-    {
-      name: "Q Bistro",
-      slug: "q-bistro",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Mamak & Fusion", colors: "bg-orange-600 text-white" }],
-      desc: "Highly popular restaurant chain in Malaysia known for its extensive, halal-certified menu.",
-      seoArticle: `\n<h2>Q Bistro</h2>\n<p>Q Bistro is a highly popular restaurant chain in Malaysia known for its extensive, halal-certified menu that blends Malaysian, South Indian Mamak, Thai, and Western cuisines. Operating in a comfortable and modern dining environment, it serves as a favorite local gathering spot for everyday meals. Patrons flock to Q Bistro to enjoy diverse signature dishes ranging from Nasi Lemak and Roti Canai to Tom Yam and various fusion delights.</p>\n`,
-      faqs: [
-        { q: "What type of cuisine is available on the Q Bistro Malaysia menu?", a: "The Q Bistro Malaysia menu offers a diverse mix of cuisines, primarily specializing in Malaysian local favorites, South Indian Mamak dishes, Thai food, and Western cuisine." },
-        { q: "How much does a Nasi Lemak cost at Q Bistro?", a: "A basic plain Nasi Lemak at Q Bistro is priced at around RM 5.88, while the popular Nasi Lemak Ayam Goreng (with fried chicken) generally ranges from RM 12.00 to RM 14.86." },
-        { q: "Is Q Bistro Malaysia halal-certified?", a: "Yes, Q Bistro is fully halal-certified, ensuring all food, meats, and beverages served on their menu strictly follow Islamic dietary guidelines." },
-        { q: "What are the most popular items on the Q Bistro menu?", a: "Some of the most popular and highly recommended dishes include Mee Goreng, Cheese Naan, Nasi Goreng Kampung, and their rich Sup Kambing (Mutton Soup)." },
-        { q: "Are there vegetarian options available at Q Bistro?", a: "Yes, Q Bistro provides several vegetarian-friendly options such as Roti Kosong, Puttu Mayam, and various vegetable-based stir-fries and salads." }
-      ],
-      menu: qBistroMenu
-    },
-    {
-      name: "Restoran Kapitan",
-      slug: "kapitan",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Mamak & North Indian", colors: "bg-red-800 text-white" }],
-      desc: "Highly renowned 24-hour eatery in Malaysia, best known for its legendary Chulia Street branch in Penang.",
-      seoArticle: `\n<h2>Restoran Kapitan</h2>\n<p>Restoran Kapitan is a highly renowned 24-hour eatery in Malaysia, best known for its legendary Chulia Street branch in Penang. It serves a vibrant mix of authentic Mamak and North Indian cuisine, drawing crowds for its flavorful Nasi Kandar, signature Claypot Biryani, and sizzling Tandoori chicken. Operating across multiple locations, it remains a favorite dining destination for both locals and tourists alike.</p>\n`,
-      faqs: [
-        { q: "What are the must-try items on the Restoran Kapitan Malaysia menu?", a: "The highly recommended dishes at Restoran Kapitan include their signature Claypot Chicken Biryani, Boneless Butter Chicken, Cheese Naan, and their perfectly spiced Tandoori Chicken." },
-        { q: "Is the Kapitan menu Halal certified?", a: "Yes, Restoran Kapitan is a Halal-certified restaurant, serving authentic Indian-Muslim (Mamak) cuisine prepared according to Islamic dietary guidelines." },
-        { q: "How much does a Biryani or Tandoori set cost at Kapitan?", a: "A standard Biryani or Tandoori set at Restoran Kapitan typically ranges from RM 15.00 to RM 23.00, depending on the specific location and whether you order via delivery." },
-        { q: "Does Restoran Kapitan offer vegetarian options on their menu?", a: "Yes, their menu features excellent vegetarian-friendly dishes such as Plain Naan, Garlic Naan, Palak Paneer, dal, and various vegetable curries." },
-        { q: "Are the Restoran Kapitan menu prices different on food delivery platforms?", a: "Yes, prices listed on delivery apps like GrabFood or Foodpanda are usually slightly higher than dine-in prices due to standard platform markups." }
-      ],
-      menu: kapitanMenu
-    },
-    {
-      name: "Supamala Hotpot",
-      slug: "supamala-hotpot",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1555126634-323283e090fa?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Sichuan Hotpot", colors: "bg-red-600 text-white" }],
-      desc: "Malaysia's first halal-certified Sichuan-style hotpot restaurant.",
-      seoArticle: `\n<h2>Supamala Hotpot</h2>\n<p>Supamala Hotpot, located in Sunway Pyramid, is celebrated as Malaysia's first halal-certified Sichuan-style hotpot restaurant. They offer both unlimited buffet experiences and an extensive à la carte menu featuring premium meats and signature broths like the Szechuan Butter Mala Soup. With options ranging from affordable lunch sets to premium Wagyu, it provides an authentic and inclusive dining experience for everyone.</p>\n`,
-      faqs: [
-        { q: "Is Supamala Hotpot in Malaysia Halal certified?", a: "Yes, Supamala Hotpot is officially recognized as Malaysia's first halal-certified Sichuan hotpot restaurant, offering a fully pork-free and Muslim-friendly menu." },
-        { q: "What are the prices for the buffet at Supamala Hotpot Sunway Pyramid?", a: "The unlimited hotpot buffet typically starts from RM49.90+ for adults during lunch. Standard tiers like the Basic Buffet are around RM59.90+, and the Meaty Buffet is RM79.90+. Kids (under 120cm) and senior citizens often get 50% off." },
-        { q: "Does Supamala Hotpot offer an à la carte menu in addition to the buffet?", a: "Yes, they provide a comprehensive à la carte menu. Diners can order individual premium items such as Japanese A5 Wagyu Beef, Signature Seafood Platters, and unique snacks like Pandan Rice Cake." },
-        { q: "What are the signature soup bases available at Supamala Hotpot?", a: "Their most popular and highly recommended signature soup bases include the authentic Szechuan Butter Mala Soup for spice lovers, and the rich, comforting Collagen Chicken Soup." },
-        { q: "Are there any additional charges like service tax at Supamala Hotpot?", a: "Yes, all dining prices are subject to a 10% service charge and 6% SST. Additionally, selecting certain premium signature soup bases may incur a small additional surcharge." }
-      ],
-      menu: supamalaHotpotMenu
-    },
-    {
-      name: "Din Tai Fung",
-      slug: "din-tai-fung",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Dim Sum", colors: "bg-red-700 text-white" }],
-      desc: "Globally renowned Taiwanese restaurant chain celebrated for exceptional xiao long bao.",
-      seoArticle: `\n<h2>Din Tai Fung</h2>\n<p>Din Tai Fung is a globally renowned Taiwanese restaurant chain celebrated for its exceptional xiao long bao (steamed soup dumplings) and delicate culinary craftsmanship. In Malaysia, the brand maintains a strong presence across major shopping malls, upholding the same high standards and open-kitchen concepts found worldwide. To cater to the local demographic, it has also introduced 'DIN by Din Tai Fung,' a concept featuring a non-pork menu that adheres to Muslim-friendly requirements.</p>\n`,
-      faqs: [
-        { q: "What is the signature dish on the Din Tai Fung Malaysia menu?", a: "The signature dish is the Xiao Long Bao (steamed soup dumpling), famously known for its delicate skin and savory, soupy filling. The classic Chicken Xiao Long Bao is a crowd favorite." },
-        { q: "Is the Din Tai Fung Malaysia menu Halal-certified?", a: "While the standard Din Tai Fung restaurants serve pork, the brand has introduced 'DIN by Din Tai Fung' locations in Malaysia which offer a strictly no-pork, no-lard, Muslim-friendly menu." },
-        { q: "How much does a meal at Din Tai Fung Malaysia typically cost?", a: "A typical meal costs between RM 40 to RM 80 per person, depending on what you order. Appetizers and soups generally range from RM 16 to RM 32, while specialty dumplings can go higher." },
-        { q: "Are the prices on delivery apps the same as the dine-in menu?", a: "No, prices on third-party delivery platforms like GrabFood and Foodpanda typically include a markup compared to the in-store dine-in menu." },
-        { q: "Are there vegetarian options available on the menu?", a: "Yes, the menu features several vegetarian-friendly items, including the Oriental Salad, various vegetable and mushroom dumplings, and stir-fried greens." }
-      ],
-      menu: dinTaiFungMenu
-    },
-    {
-      name: "Mee Tarik Jalan Sultan",
-      slug: "mee-tarik-jalan-sultan",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Chinese Muslim", colors: "bg-yellow-600 text-white" }],
-      desc: "Specializing in authentic Chinese Muslim cuisine and hand-pulled Lanzhou noodles.",
-      seoArticle: `\n<h2>Mee Tarik Jalan Sultan</h2>\n<p>Mee Tarik Jalan Sultan (often known as Mee Tarik Warisan Asli) is a popular restaurant in Kuala Lumpur specializing in authentic Chinese Muslim cuisine. The establishment is famous for its signature hand-pulled Lanzhou noodles served in rich broths, alongside side dishes like dumplings and BBQ skewers. It provides a highly sought-after halal dining experience that blends traditional Chinese culinary techniques with Malaysian tastes.</p>\n`,
-      faqs: [
-        { q: "What are the must-try items on the Mee Tarik Jalan Sultan menu?", a: "The signature Beef Ramen (Mee Tarik Daging) is a crowd favorite, featuring fresh hand-pulled noodles in a flavorful beef broth. Other top choices include the Chicken Fried Noodles and their pan-fried dumplings." },
-        { q: "Is the Mee Tarik Jalan Sultan menu halal?", a: "Yes, the restaurant specializes in authentic Chinese Muslim cuisine and serves 100% halal-friendly dishes, making it a popular choice for diners in Malaysia." },
-        { q: "What is the price range for the noodles at Mee Tarik Jalan Sultan?", a: "Most main noodle dishes on the menu are quite affordable, typically ranging from RM 13 to RM 34. Soup noodles tend to be on the lower end (RM 13 - RM 24), while fried noodles are slightly higher (RM 23 - RM 34)." },
-        { q: "Does the Mee Tarik Jalan Sultan menu offer vegetarian noodle options?", a: "While they specialize in beef and chicken, they do offer options like the Soup Onion Noodle and stir-fried vegetable sides. However, vegetarians should confirm if the broths used are meat-free." },
-        { q: "Can I order Mee Tarik Jalan Sultan for delivery?", a: "Yes, you can order their famous hand-pulled noodles and sides for delivery through popular Malaysian platforms like GrabFood and Foodpanda, though menu prices may vary slightly from in-store dining." }
-      ],
-      menu: meeTarikJalanSultanMenu
-    },
-    {
-      name: "Kopi Hut",
-      slug: "kopi-hut",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Local Kopitiam", colors: "bg-orange-600 text-white" }],
-      desc: "Modern halal-certified kopitiam serving traditional local comfort food.",
-      seoArticle: `\n<h2>Kopi Hut</h2>\n<p>KopiHut is a modern, halal-certified Malaysian kopitiam chain founded in 2024 that serves traditional local comfort food and beverages. The restaurant blends authentic kopitiam culture with contemporary aesthetics, offering an affordable mid-range dining experience. Signature offerings include classic staples like Nasi Lemak, Curry Mee, Hainanese Chicken Chop, and their iconic iced coffee.</p>\n`,
-      faqs: [
-        { q: "What type of food does KopiHut Malaysia serve?", a: "KopiHut serves traditional Malaysian kopitiam comfort food, including signature dishes like Nasi Lemak, Curry Mee, Hainanese Chicken Chop, and classic toasts paired with local coffee and tea." },
-        { q: "Is KopiHut Malaysia halal-certified?", a: "Yes, KopiHut is a halal-certified modern kopitiam chain, making it an excellent dining option for Muslim patrons seeking authentic local Malaysian dishes." },
-        { q: "What are the average prices on the KopiHut menu?", a: "KopiHut offers affordable mid-range pricing. Most main dishes range from RM 10 to RM 19, while signature beverages and classic toasts are typically priced under RM 10." },
-        { q: "Does KopiHut offer food delivery in Malaysia?", a: "Yes, you can order from the KopiHut menu through popular delivery platforms like GrabFood and foodpanda. Note that delivery prices may be slightly higher than standard dine-in rates." },
-        { q: "What is the most recommended drink at KopiHut?", a: "The Signature KopiHut Kopi, often served with their iconic 'ice bear', and the classic Teh Tarik are among the highest-rated and most recommended beverages on the menu." }
-      ],
-      menu: kopiHutMenu
-    },
-    {
-      name: "Nasi Lemak Shop",
-      slug: "nasi-lemak-shop",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Local Classic", colors: "bg-green-600 text-white" }],
-      desc: "Contemporary restaurant famous for Nasi Lemak Ayam Goreng Berempah.",
-      seoArticle: `\n<h2>Nasi Lemak Shop</h2>\n<p>Nasi Lemak Shop is a popular contemporary restaurant in Malaysia, particularly famous for its Nasi Lemak Ayam Goreng Berempah. With locations in the Klang Valley like Bandar Utama and SS15, the eatery offers a modern dining experience while maintaining the authentic, rich flavors of classic Malaysian cuisine.</p>\n`,
-      faqs: [
-        { q: "What is the signature dish on the Nasi Lemak Shop Malaysia menu?", a: "The signature dish is the Nasi Lemak Ayam Goreng Berempah, which features fragrant coconut rice served with crispy, juicy spiced fried chicken, sambal, peanuts, and anchovies." },
-        { q: "How much does a meal cost at Nasi Lemak Shop?", a: "A standard Nasi Lemak dish ranges from RM6.90 for the basic version to about RM15.90 for the signature Ayam Goreng Berempah set. Add-ons like Beef Rendang or Sambal Sotong will increase the total price." },
-        { q: "Does Nasi Lemak Shop offer dishes other than Nasi Lemak?", a: "Yes, their menu includes other Malaysian local classics such as Asam Laksa, Hor Fun Soup, and Mee Siam, catering to diners looking for noodle options." },
-        { q: "Are there any recommended side dishes to add to my Nasi Lemak?", a: "Absolutely! Customers highly recommend adding the tender Beef Rendang or the spicy Sambal Sotong to complement the classic Nasi Lemak." },
-        { q: "Where can I find Nasi Lemak Shop outlets in Malaysia?", a: "Nasi Lemak Shop has several popular branches across the Klang Valley, including prominent locations in Bandar Utama (BU4) and SS15 Courtyard in Subang Jaya." }
-      ],
-      menu: nasiLemakShopMenu
-    },
-    {
-      name: "Fizzy Cafe",
-      slug: "fizzy-cafe",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Kopitiam", colors: "bg-yellow-500 text-white" }],
-      desc: "Wallet-friendly classic Malaysian breakfast and comfort food.",
-      seoArticle: `\n<h2>Fizzy Cafe</h2>\n<p>Makan Pagi By Fizzy Cafe is a popular Halal-certified dining spot in Penang, Malaysia, famous for blending traditional kopitiam nostalgia with modern cafe vibes. Known for its wallet-friendly prices and well-organized ordering system, the cafe serves a variety of classic Malaysian breakfast and comfort food.</p>\n`,
-      faqs: [
-        { q: "What is the signature dish at Makan Pagi By Fizzy Cafe Malaysia?", a: "Their signature and most popular dishes include Nasi Lemak with Ayam Goreng (crispy fried chicken), Char Kuey Teow, and their Satay sets served with Nasi Impit and peanut sauce." },
-        { q: "Is Fizzy Cafe Malaysia Halal certified?", a: "Yes, Makan Pagi By Fizzy Cafe is a Halal-certified dining establishment, making it a popular choice among Muslim diners in Penang." },
-        { q: "What are the operating hours for Makan Pagi By Fizzy Cafe?", a: "While hours can vary by specific branch, they typically operate in two shifts to accommodate breakfast, brunch, and supper crowds: from 7:00 AM to 2:00 PM and again from 6:00 PM to 2:00 AM." },
-        { q: "How much does a meal cost at Fizzy Cafe Malaysia?", a: "Fizzy Cafe is known for being wallet-friendly. Most individual main dishes range from RM 8 to RM 15, with an average overall spend of RM 15 to RM 30 per person." },
-        { q: "Does Makan Pagi By Fizzy Cafe offer delivery?", a: "Yes, Makan Pagi By Fizzy Cafe is available on food delivery platforms like Foodpanda in Malaysia, making it convenient to order their famous breakfast items online." }
-      ],
-      menu: fizzyCafeMenu
-    },
-    {
-      name: "Q House",
-      slug: "q-house",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fusion", colors: "bg-red-500 text-white" }],
-      desc: "Vibrant blend of Sichuan-inspired spicy dishes and Hong Kong staples.",
-      seoArticle: `\n<h2>Q House</h2>\n<p>Q House (QHouse 港湾茶餐厅) is a popular restaurant chain in Malaysia serving a vibrant blend of Sichuan-inspired spicy dishes, Hong Kong-style café staples, and Western-influenced comfort food. Known for its extensive and diverse offerings, the restaurant features everything from hearty claypot stews and cheese-baked rice to crispy snacks and sweet beverages.</p>\n`,
-      faqs: [
-        { q: "Is the Q House Malaysia Menu halal?", a: "No, Q House outlets typically serve non-halal cuisine, as their menu features a variety of pork dishes such as the Signature Stewed Pork Tripe & Chicken and Stir Fry Pork Belly." },
-        { q: "What are the signature dishes on the Q House menu?", a: "Some of the must-try signature dishes include the Signature Stewed Pork Tripe & Chicken, Cheese Baked Rice With Chicken Chop, Spicy Mala With Pork Meat, and the Crispy Salted Egg Nestum Chicken." },
-        { q: "Does Q House offer delivery in Malaysia?", a: "Yes, Q House provides food delivery through major platforms like Foodpanda. You can easily view the latest menu, check prices, and place your order from a branch near you." },
-        { q: "Are there kid-friendly meals available at Q House?", a: "Absolutely! Q House offers specially portioned kids' sets and non-spicy comfort foods like Western-style chicken chops and fried rice, making it a great dining spot for families." },
-        { q: "What is the average price range for a meal at Q House Malaysia?", a: "The average price for a main course or a set meal at Q House ranges between RM 22 to RM 30, providing affordable and generous portions of Asian and fusion cuisine." }
-      ],
-      menu: qHouseMenu
-    },
-    {
       name: "Secret Recipe",
       slug: "secret-recipe",
       category: 'local-asian',
@@ -2985,7 +1336,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "papparich",
     searchVolume: 880,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1626804475297-41609ea0db49?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Authentic Malaysian Delights",
       seoArticle: `\n<h2>PappaRich: Authentic Malaysian Kopitiam Fare</h2>
@@ -3015,11 +1366,44 @@ export const brandMocks: Record<string, any[]> = {
       menu: pappaRichMenu
     },
     {
+      name: "OldTown White Coffee",
+      slug: "oldtown-white-coffee",
+      category: 'local-asian',
+      image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "The True White Coffee Origination",
+      seoArticle: `\n<h2>OldTown White Coffee: The Taste of Ipoh</h2>
+<p>Famous for their aromatic, smooth white coffee originating from Ipoh, OldTown is a breakfast staple. Pair their signature brew with a classic serving of Kaya Butter Toast or a hearty bowl of Ipoh Chicken Hor Fun. Our guide covers all their comforting local classics and current pricing.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">OldTown is famous for its rich White Coffee and classic toast sets.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Vegetarian Options:</strong> They offer a dedicated plant-based and vegetarian menu series.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> OldTown White Coffee is fully Halal certified.</span></li>
+</ul>`,
+      healthyTip: `"For a lighter coffee, choose the 'Kosong' (no sugar/milk) option to fully enjoy the roasted aroma without the added calories."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Excellent for morning breakfast deliveries, bringing warm toast to your door.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Convenient for lunch meals and ordering their signature noodles.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Are all OldTown White Coffee outlets Halal?", a: "Yes, all OldTown White Coffee outlets in Malaysia are Halal certified." },
+        { q: "What is White Coffee?", a: "White Coffee is a traditional Malaysian coffee roasting method using margarine, producing a smoother, lighter-colored brew." }
+      ],
+      menu: oldtownWhiteCoffeeMenu
+    },
+    {
       name: "Madam Kwan's",
       slug: "madam-kwans",
     searchVolume: 6600,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "/images/madam-kwans.png",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Truly Malaysian Cuisine",
       seoArticle: `\n<h2>Madam Kwan's: Truly Malaysian Comfort Food</h2>
@@ -3119,7 +1503,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "the-chicken-rice-shop",
     searchVolume: 1000,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1598515214211-89d3e73ae83b?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Malaysia's Favorite Chicken Rice Chain",
       seoArticle: `\n<h2>The Chicken Rice Shop: A Household Name in Malaysia</h2>
@@ -3378,7 +1762,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "bungkus-kaw-kaw",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1579888944880-d983411bf957?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Traditional Kopitiam Drinks & Quick Bites",
       seoArticle: `\n<h2>Bungkus Kaw Kaw: Strong Brews and Nostalgic Flavors</h2>
@@ -3485,11 +1869,48 @@ export const brandMocks: Record<string, any[]> = {
       menu: absoluteThaiMenu
     },
     {
+      name: "Para Thai",
+      slug: "para-thai",
+    searchVolume: 2400,
+      category: 'local-asian',
+      image: "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
+      desc: "Authentic and Vibrant Thai Cuisine",
+      seoArticle: `\n<h2>Para Thai: A Grand Culinary Voyage to Siam</h2>
+<p>Para Thai is celebrated across Malaysia for its stylish and contemporary setting, paired with incredibly authentic, high-quality Thai recipes. Prepared under the supervision of expert Thai chefs, the menu captures the complete flavor spectrum—spicy, sweet, sour, and salty—using direct imports of key ingredients from Thailand.</p>
+<h3>Steaming Seafood Claypots and Classic Wok Curries</h3>
+<p>Diners flock to Para Thai for their signature Tom Yum Goong (spicy prawn soup), steamed sea bass with lime and garlic, and classic green curries. Each dish is cooked to order, assuring maximum freshness and dynamic flavor. Browse our extensive pricing list for the latest menu updates in 2026.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Para Thai features clean, aromatic herbs like lemongrass, galangal, and kaffir lime leaves, which boast outstanding antioxidant properties.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Pork-Free:</strong> The kitchen does not use pork or lard, sourcing all meats and ingredients from Halal suppliers.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Low-Fat Options:</strong> Clear soups and steamed seafood dishes are superb choices for high-protein, low-calorie dining.</span></li>
+</ul>`,
+      healthyTip: `"Request for steamed jasmine rice instead of fried rice, and focus on the steamed sea bass or clear tom yum soup for a low-calorie, nutrient-rich meal."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Fast delivery options ensuring hot tom yum and fresh steamed fish arrive perfectly sealed.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Perfect for ordering premium office lunch boxes and refreshing Thai iced teas.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Para Thai Halal?", a: "Para Thai is pork-free and alcohol-free, sourcing all poultry and meats from Halal-certified suppliers." },
+        { q: "What are the must-order dishes?", a: "The Tom Yum Soup, Pandan Chicken, and Steamed Sea Bass with Chili & Lime are highly recommended." },
+        { q: "Are reservations recommended?", a: "Yes, particularly during weekend dinner hours, reservations are advised due to high mall traffic." }
+      ],
+      menu: paraThaiMenu
+    },
+    {
       name: "Suki-Ya",
       slug: "suki-ya",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1547496502-affa230ba425?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Unlimited Japanese Hotpot, Sukiyaki & Shabu-Shabu Buffet",
       seoArticle: `\n<h2>Suki-Ya: The Ultimate Comfort of Hotpot Buffet</h2>
@@ -3711,7 +2132,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "ole-ole-bali",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1537216696835-41915a1af316?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Premium Balinese Culinary Feast & Fragrant Lemongrass Grills",
       seoArticle: `\n<h2>Ole-Ole Bali: An Immersive Balinese Dining Experience</h2>
@@ -3819,74 +2240,6 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'teas-desserts': [
     {
-      name: "Ai Cha",
-      slug: "ai-cha",
-      category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Bubble Tea & Ice Cream", colors: "bg-red-500 text-white" }],
-      desc: "Fast-growing beverage chain offering highly affordable, refreshing fruit teas, milk teas, and soft-serve ice cream.",
-      seoArticle: `\n<h2>Ai Cha Malaysia</h2>\n<p>Ai-CHA is rapidly expanding across Malaysia, winning over crowds with its highly affordable menu of refreshing beverages and sweet treats. Positioned as a budget-friendly yet high-quality option in the competitive bubble tea market, Ai-CHA excels in offering simple, thirst-quenching drinks like their signature Real Fruit Teas and classic Milk Teas. Beyond beverages, their Sund-Ai soft serve series is a massive hit, providing creamy, sweet relief on a hot day. With prices generally hovering under RM 8, it's an incredibly accessible brand for students and anyone looking for a quick, sweet pick-me-up.</p>\n`,
-      faqs: [
-        { q: "What is Ai-CHA famous for?", a: "They are famous for their highly affordable menu, specifically their fruit teas (like the Ai-Squash Lemonade) and their soft-serve ice cream (Sund-Ai series)." },
-        { q: "How much do drinks cost at Ai-CHA Malaysia?", a: "Prices are very budget-friendly, typically ranging from RM 3.99 for basic teas and lemonades, up to RM 8.00 for premium milk teas or coffee blends." },
-        { q: "Is Ai-CHA Halal?", a: "Yes, Ai-CHA uses ingredients from halal-certified suppliers and is widely considered muslim-friendly." },
-        { q: "Does Ai-CHA serve coffee?", a: "Yes, alongside their teas, they have a small coffee menu including Americanos and Lattes." },
-        { q: "Can I order Ai-CHA for delivery?", a: "Yes, Ai-CHA is available on most major food delivery platforms in Malaysia, such as Foodpanda and GrabFood." }
-      ],
-      menu: aiChaMenu
-    },
-    {
-      name: "Baskin Robbins",
-      slug: "baskin-robbins",
-      category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Ice Cream", colors: "bg-pink-500 text-white" }],
-      desc: "Beloved ice cream parlor chain known for its iconic 31 flavors and premium ice cream cakes.",
-      seoArticle: `\n<h2>Baskin Robbins</h2>\n<p>Baskin-Robbins Malaysia is a beloved ice cream parlor chain known for its iconic '31 flavors' concept, offering a premium ice cream flavor for every day of the month. The menu features a wide variety of treats including handpacked ice cream, custom ice cream cakes, and refreshing beverages like milkshakes and blasts. With numerous locations across the country, it remains a popular destination for families and dessert lovers celebrating special occasions or simply craving a sweet treat.</p>\n`,
-      faqs: [
-        { q: "What are the most popular ice cream flavors at Baskin Robbins Malaysia?", a: "Some of the most popular and classic flavors at Baskin Robbins Malaysia include Mint Chocolate Chip, Pralines 'N Cream, Jamoca Almond Fudge, and Very Berry Strawberry. They also frequently introduce seasonal and limited-edition flavors." },
-        { q: "How much does a scoop of ice cream cost at Baskin Robbins Malaysia?", a: "A Junior Scoop typically starts around RM6.00, especially when purchased in bulk packs like the BR-Sama Pack. A standard Kids Scoop is approximately RM9.50, and prices vary slightly depending on the size and whether it's a single or multiple scoop serving." },
-        { q: "Does Baskin Robbins Malaysia offer delivery services?", a: "Yes, you can easily order Baskin Robbins ice cream and cakes for delivery through major food delivery platforms in Malaysia, such as foodpanda and GrabFood, as well as via their official mobile app." },
-        { q: "What types of ice cream cakes are available on the Baskin Robbins Malaysia menu?", a: "The menu features a wide array of ice cream cakes suitable for various celebrations, ranging from standard 6-inch designs like the Happy Pinwheel and Strawberry Cheesecake to intricate, premium designs like the Rainbow Tuxedo. Prices for cakes generally range from RM98 to RM269." },
-        { q: "Are there any dairy-free or vegan options on the Baskin Robbins menu?", a: "Baskin Robbins occasionally offers dairy-free fruit sorbets and ices, such as Lemon Sorbet or Raspberry Sorbet, which provide a refreshing, vegan-friendly alternative to their traditional dairy ice creams. Availability may vary by outlet." }
-      ],
-      menu: baskinRobbinsMenu
-    },
-    {
-      name: "All About Chew",
-      slug: "all-about-chew",
-      category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Artisanal Desserts", colors: "bg-pink-700 text-white" }],
-      desc: "Popular artisanal dessert destination known for signature thick, chunky, soft-baked cookies.",
-      seoArticle: `\n<h2>All About Chew</h2>\n<p>All About Chew is a popular artisanal dessert destination in Malaysia, originally founded by home baker Yasmin Johan Soh in 2019. Known for their thick, chunky, and signature soft-baked cookies like the 'Chewibacca' and the 'Big Ass Softy' series, the brand has expanded across the Klang Valley. They have recently elevated their menu at premium locations to feature artisanal gelato blizzards paired with their specialty baked treats.</p>\n`,
-      faqs: [
-        { q: "What are the best-selling cookies on the All About Chew menu?", a: "The best-sellers include their signature 'Chewibacca,' which is a chewy chocolate chip cookie sprinkled with sea salt, and the 'Big Ass Softy' (BAS) series which features popular flavors like Dark Chocolate Walnut, Matcha, and Red Velvet." },
-        { q: "How much do cookies cost at All About Chew Malaysia?", a: "Individual large soft-baked cookies (Softies) typically range between RM 15.50 and RM 18.00. Packs of 12 bite-sized signature cookies, like the Chewibaccas or Blackouts, generally cost around RM 28.00." },
-        { q: "Does All About Chew serve anything other than cookies?", a: "Yes! Alongside their famous chunky cookies and 'Brunette' brownies, newer All About Chew locations like the one in The Exchange TRX also serve specialty coffee and artisanal gelato ice cream blizzards." },
-        { q: "Is All About Chew in Malaysia halal?", a: "All About Chew is a Muslim-owned brand that uses Muslim-friendly, halal ingredients for all of their cookies and desserts." },
-        { q: "Where can I find All About Chew outlets or order their menu?", a: "You can visit their physical stores located in The Exchange TRX, Sunway 163 Mall, and The Five @ KPD in Damansara Heights. For delivery, their menu is available on GrabFood and GrabMart." }
-      ],
-      menu: allAboutChewMenu
-    },
-    {
-      name: "Dip N Dip",
-      slug: "dip-n-dip",
-      category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Chocolate", colors: "bg-orange-800 text-white" }],
-      desc: "Decadent, premium Belgian chocolate creations and sweet treats.",
-      seoArticle: `\n<h2>Dip N Dip</h2>\n<p>Dipndip is a globally recognized chocolate café and dessert parlor renowned for its decadent, premium Belgian chocolate creations. The restaurant offers a wide array of sweet treats, from intricately designed crepes and towering pancakes to rich waffles and signature milkshakes, catering to true chocolate enthusiasts. With an inviting and vibrant atmosphere, it has become a popular destination in Malaysia for family gatherings, celebrations, and casual dessert outings.</p>\n`,
-      faqs: [
-        { q: "What is Dipndip famous for?", a: "Dipndip is famous for its extensive dessert menu made with high-quality Belgian chocolate, featuring signature items like the Fettuccine Crepe, Triple Chocolate Waffle, and chocolate-drizzled pancakes." },
-        { q: "Does Dipndip Malaysia offer savory menu items?", a: "Yes, in addition to its renowned chocolate desserts, Dipndip Malaysia offers a savory menu that includes items like Waffle Quesadillas with beef, chicken, smoked turkey, or pizza flavors." },
-        { q: "Are there sharing platters available at Dipndip?", a: "Absolutely. Dipndip offers various sharing boxes, such as the Dip N Share Box and the Family Gathering Box, which include an assortment of waffles, pancakes, brownies, cream puffs, and various chocolate dips perfect for groups." },
-        { q: "Are the menu items at Dipndip Malaysia Halal?", a: "Dipndip is a Muslim-friendly brand that uses ingredients sourced from Halal-certified suppliers, though you should check the JAKIM portal to see if a specific outlet has official premises certification." },
-        { q: "What beverage options are available to pair with desserts?", a: "Dipndip offers a wide selection of beverages to complement their sweet treats, including rich hot chocolates, specialty coffees, refreshing mojitos, fresh juices, and their signature Mighty Milkshakes." }
-      ],
-      menu: dipNDipMenu
-    },
-    {
       name: "Chagee",
       slug: "chagee",
       category: 'teas-desserts',
@@ -3927,6 +2280,48 @@ export const brandMocks: Record<string, any[]> = {
       ],
       
       menu: chageeMenu
+    },
+    {
+      name: "Ai-Cha",
+      slug: "ai-cha",
+      category: 'teas-desserts',
+      image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Ice Cream & Specialty Tea",
+      seoArticle: `\n<h2>Ai-Cha: Sweet Treats That Don't Break the Bank</h2>
+<p>Taking the dessert scene by storm, Ai-Cha offers incredibly affordable ice cream and refreshing teas. Their signature Ai-Scream cones and fruit smoothies are perfect for beating the Malaysian heat. Check our guide to see how far a RM10 note can go at this popular dessert spot.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Ai-Cha offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Opt for their fresh fruit teas or reduce the sweetness percentage to enjoy a lighter, healthier treat.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask the crew about sugar levels and check for milk allergens in their soft-serve ice cream mixes.</strong></span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Ai-Cha."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Ai-Cha directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Ai-Cha meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Ai-Cha offer delivery?",
+                "a": "Yes, Ai-Cha is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Ai-Cha?",
+                "a": "Yes, Ai-Cha provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
+      menu: aiChaMenu
     },
     {
       name: "Mixue",
@@ -4321,261 +2716,6 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'japanese-korean': [
-    {
-      name: "Kyomo Wagyu Yakiniku",
-      slug: "kyomo",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Wagyu", colors: "bg-red-900 text-white" }, { name: "Yakiniku", colors: "bg-black text-white" }],
-      desc: "Premium Japanese restaurant specializing in authentic charcoal-grilled A5 Wagyu beef and high-end dining experiences.",
-      seoArticle: `\n<h2>Kyomo Malaysia</h2>\n<p>Situated in the upscale neighborhood of Desa Sri Hartamas, Kyomo is highly regarded as one of the finest destinations for Japanese Wagyu Yakiniku in Kuala Lumpur. Dining here is a luxurious, investable experience, with a menu centered around premium, heavily marbled A5 Wagyu cuts grilled over charcoal. Beyond the beef—which includes highly sought-after cuts like sirloin and thickly sliced tongue—they serve excellent sides, such as their rich Wagyu Garlic Fried Rice and a highly-praised creamy Japanese pudding. Due to its popularity and premium status, making a reservation well in advance is strongly recommended.</p>\n`,
-      faqs: [
-        { q: "Is Kyomo expensive?", a: "Yes, Kyomo offers a premium dining experience. Expect to spend at least RM 150 to RM 300+ per person depending on the Wagyu cuts you select." },
-        { q: "What should I order at Kyomo?", a: "Their Premium Wagyu Assortment is highly recommended for first-timers to sample various cuts. Do not miss their Wagyu Garlic Fried Rice and the Kyomo Creamy Pudding for dessert." },
-        { q: "Do I need a reservation for Kyomo?", a: "Yes, due to its popularity and limited seating, booking a table in advance is highly recommended, especially for weekends." },
-        { q: "Is Kyomo Halal?", a: "Kyomo is a pork-free establishment, but they do serve alcohol on the premises, so they are not fully Halal-certified." },
-        { q: "Where is Kyomo located?", a: "They are located at No 26, Jalan 24/70a, Desa Sri Hartamas, 50480 Kuala Lumpur." }
-      ],
-      menu: kyomoMenu
-    },
-    {
-      name: "Sushi Ya",
-      slug: "sushi-ya",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Value Sushi", colors: "bg-red-600 text-white" }],
-      desc: "Fast-growing, highly affordable Japanese restaurant chain featuring conveyor belt sushi and value bento sets.",
-      seoArticle: `\n<h2>Sushi Ya Malaysia</h2>\n<p>Not to be confused with the more upscale 'Sushiya', **Sushi YA** is a rapidly expanding, budget-friendly Japanese restaurant chain with a strong presence in states like Penang, Kedah, and Perak. Built around the popular <i>kaiten-zushi</i> (conveyor belt sushi) concept, Sushi Ya focuses on delivering "value for money." Diners can grab plates of fresh sushi directly from the belt starting at very accessible prices, or order from a comprehensive menu of hearty Bento sets, Donburi (rice bowls), and side dishes. It's a fantastic, family-friendly option for satisfying Japanese food cravings without breaking the bank.</p>\n`,
-      faqs: [
-        { q: "Is Sushi Ya different from Sushiya?", a: "Yes. 'Sushi YA' is a budget-friendly chain with many outlets primarily in Northern/Central Malaysia, whereas 'Sushiya' is an upscale restaurant in Kuala Lumpur." },
-        { q: "What are the prices like at Sushi Ya?", a: "Sushi Ya is known for being highly affordable. Individual sushi plates generally start around RM 6.00 to RM 8.00, and full Bento sets typically range between RM 20.00 and RM 30.00." },
-        { q: "Is Sushi Ya Halal?", a: "Sushi Ya is a pork-free establishment and uses ingredients from halal-certified suppliers, making it a popular choice for Muslim diners." },
-        { q: "What should I order at Sushi Ya?", a: "Their Salmon Teriyaki Bento and Chicken Katsu Curry Rice are very popular, filling options. From the belt, their spicy salmon rolls are a hit." },
-        { q: "Does Sushi Ya offer delivery?", a: "Yes, you can order delivery from most Sushi Ya branches via platforms like Foodpanda, though prices may be slightly higher than dining in." }
-      ],
-      menu: sushiYaMenu
-    },
-    {
-      name: "BBQ Town",
-      slug: "bbq-town",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Buffet", colors: "bg-red-800 text-white" }],
-      desc: "All-you-can-eat buffet concept featuring a 2-in-1 Japanese shabu-shabu and Thai-style BBQ.",
-      seoArticle: `\n<h2>BBQ Town Malaysia</h2>\n<p>BBQ Town is a massive hit among buffet lovers in Malaysia, offering a highly satisfying 2-in-1 dining experience that combines Thai-style BBQ grilling with Japanese shabu-shabu hot pot. Diners are treated to an all-you-can-eat feast featuring unlimited slices of premium Australian beef, lamb, and chicken, alongside a fresh seafood bar. The expansive buffet line also includes a variety of sushi, maki rolls, and countless vegetables and noodles for the hot pot. With affordable prices for both lunch and dinner, it's a go-to destination for family gatherings and heavy eaters.</p>\n`,
-      faqs: [
-        { q: "What is the price for the BBQ Town buffet in Malaysia?", a: "Lunch buffet typically starts around RM32.80++, while the dinner buffet is priced around RM39.80++, subject to taxes and weekend surcharges." },
-        { q: "Is BBQ Town Halal?", a: "BBQ Town operates as a pork-free establishment, though official Halal certification status may vary by outlet." },
-        { q: "What is included in the BBQ Town buffet?", a: "The price includes unlimited beef, lamb, and chicken slices, free-flow seafood, a sushi bar, fresh vegetables, ice cream, and drinks." },
-        { q: "Is there a time limit for eating at BBQ Town?", a: "Yes, like most buffets, BBQ Town typically enforces a 2-hour dining limit during peak periods." },
-        { q: "Do they serve both hotpot and BBQ?", a: "Yes, every table is equipped with a unique dual-purpose cooker that allows you to boil a shabu-shabu soup base in the center while grilling meats around the edges." }
-      ],
-      menu: bbqTownMenu
-    },
-    {
-      name: "Don Omakase TTDI",
-      slug: "don-omakase-ttdi",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Donburi", colors: "bg-blue-800 text-white" }],
-      desc: "Specialty Japanese restaurant in TTDI offering highly customizable and premium sashimi donburi (rice bowls).",
-      seoArticle: `\n<h2>Don Omakase TTDI</h2>\n<p>Don Omakase, located in the TTDI neighborhood of Kuala Lumpur, specializes in elevating the traditional Japanese donburi (rice bowl). The restaurant is famous for its "omakase" style approach to these bowls, allowing diners to experience premium, fresh ingredients air-flown from Japan. Their signature bowls include luxurious toppings like Uni (sea urchin), Foie Gras, melt-in-your-mouth Salmon Engawa, and rich Wagyu beef. Offering both regular and mini-sized bowls, Don Omakase provides a relatively accessible way to enjoy high-end Japanese delicacies in a casual, minimalist setting.</p>\n`,
-      faqs: [
-        { q: "What should I order at Don Omakase TTDI?", a: "The '4 Empires Don' (featuring Uni, Negitoro, Ikura, and Wagyu) and the '10 Ocean Don' (a generous 10-type sashimi bowl) are among their most highly recommended signature items." },
-        { q: "How much does a meal cost at Don Omakase TTDI?", a: "Prices range widely based on ingredients. A mini Salmon Engawa Don starts at RM 27, while the luxurious Uni Foie Gras Don can cost up to RM 288." },
-        { q: "Does Don Omakase TTDI serve actual omakase meals?", a: "Despite the name, they primarily focus on premium, pre-set or customizable Donburi (rice bowls) rather than a traditional multi-course chef's tasting menu." },
-        { q: "Is Don Omakase TTDI halal?", a: "Don Omakase serves pork-free food and does not use mirin or cooking sake in their rice, but it's best to verify their current halal certification status directly." },
-        { q: "Where is Don Omakase located?", a: "They are located in Taman Tun Dr Ismail (TTDI), Kuala Lumpur. Due to its popularity, making a reservation is advised." }
-      ],
-      menu: donOmakaseTtdiMenu
-    },
-    {
-      name: "Shabuyaki by Nippon Sushi Toppen Shopping Centre",
-      slug: "shabuyaki-nippon-sushi-toppen",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Japanese Buffet", colors: "bg-red-700 text-white" }],
-      desc: "Popular all-you-can-eat Japanese buffet in Johor Bahru combining Shabu-Shabu hotpot and Yakiniku grill with free-flow sushi and premium token items.",
-      seoArticle: `\n<h2>Shabuyaki by Nippon Sushi Toppen Shopping Centre</h2>\n<p>Shabuyaki by Nippon Sushi at Toppen Shopping Centre is a popular all-you-can-eat Japanese buffet restaurant in Johor Bahru, Malaysia, that uniquely combines Shabu-Shabu (hotpot) and Yakiniku (grill) dining concepts under one roof. Guests enjoy unlimited servings of premium meats, a free-flow sushi bar, fresh vegetables, and customisable dipping sauces within a 110-minute dining session. A unique token system allows diners to redeem premium items such as salmon head, unagi sushi, oysters, and specialty mochi and gyoza for an elevated experience.</p>\n`,
-      faqs: [
-        { q: "What is the price of the buffet at Shabuyaki by Nippon Sushi Toppen Shopping Centre Malaysia?", a: "Lunch (11:30 AM – 5:00 PM) is priced at RM 37.80++ on weekdays and RM 40.80++ on weekends. Dinner (5:00 PM – 11:00 PM) is RM 45.40++ on weekdays and RM 49.40++ on weekends and public holidays. All prices are subject to a 10% service charge and 6% SST." },
-        { q: "What type of food does Shabuyaki by Nippon Sushi Toppen Shopping Centre serve?", a: "Shabuyaki by Nippon Sushi Toppen serves a dual-concept Japanese buffet featuring unlimited Shabu-Shabu (hotpot) and Yakiniku (grill). The menu includes premium meats like Angus beef and Australian lamb, a free-flow sushi bar, fresh vegetables, assorted dipping sauces, and desserts like bingsu and mochi." },
-        { q: "How long do you get to eat at Shabuyaki by Nippon Sushi Toppen Shopping Centre Malaysia?", a: "The standard dining time is 110 minutes per session. Additional time can be purchased at RM 5.00 per person for every 15-minute extension block." },
-        { q: "Is Shabuyaki by Nippon Sushi Toppen Shopping Centre suitable for children?", a: "Yes, it is family-friendly. Children below 110 cm in height eat for free. Children under 12 years old (above 110 cm) receive a 50% discount. A food wastage fee of RM 20 per 100g applies." },
-        { q: "Does Shabuyaki by Nippon Sushi Toppen Shopping Centre have a queue system?", a: "Yes, due to its high popularity, it uses an app-based QR code queue system. Diners can register upon arrival and monitor their queue position via WhatsApp notifications." }
-      ],
-      menu: shabuyakiMenu
-    },
-    {
-      name: "Meokja Cafe",
-      slug: "meokja-cafe",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1580651315530-69c8e0026377?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Korean Cafe", colors: "bg-blue-700 text-white" }],
-      desc: "Popular halal-certified Korean restaurant chain known for authentic Korean street food and comfort dishes.",
-      seoArticle: `\n<h2>Meokja Cafe</h2>\n<p>Meokja Cafe is a popular halal-certified and Muslim-owned Korean restaurant chain in Malaysia, known for serving authentic Korean street food and comfort dishes with a local twist. Operating in locations like Penang and Selangor, it offers a casual, cafe-style dining experience. The menu features highly-rated favorites such as Sundubu Jjigae, customizable Kimbap, Tteokbokki, and various flavors of Seoul Fried Chicken.</p>\n`,
-      faqs: [
-        { q: "Is Meokja Cafe in Malaysia halal-certified?", a: "Yes, Meokja Cafe is a 100% Muslim-owned and halal-certified restaurant, ensuring all ingredients and preparation methods meet halal standards." },
-        { q: "What are the most popular items on the Meokja Cafe menu?", a: "Customer favorites include the Beef Sundubu Jjigae (spicy soft tofu stew), Seoul Fried Chicken (available in Honey Butter, Soy Garlic, and Yangnyeom), and their signature Kimbap." },
-        { q: "Where are the Meokja Cafe branches located in Malaysia?", a: "Meokja Cafe has popular outlets located in Bandar Seberang Jaya (Penang) and Puncak Alam (Selangor)." },
-        { q: "Does Meokja Cafe Malaysia offer food delivery?", a: "Yes, you can order Meokja Cafe's Korean street food for delivery through major platforms like Foodpanda." },
-        { q: "What kind of dining experience does Meokja Cafe offer?", a: "Unlike traditional Korean BBQ restaurants that focus on table-top grilling, Meokja Cafe offers a casual, cafe-style environment focused on affordable, ready-to-eat Korean comfort food." }
-      ],
-      menu: meokjaCafeMenu
-    },
-    {
-      name: "The Fire Korean Restaurant",
-      slug: "the-fire-korean-restaurant",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1580651315530-69c8e0026377?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Korean BBQ", colors: "bg-red-600 text-white" }],
-      desc: "Muslim-friendly dining spot known for authentic Korean cuisine, vibrant K-pop atmosphere, and generous side dishes.",
-      seoArticle: `\n<h2>The Fire Korean Restaurant</h2>\n<p>The Fire Korean Restaurant is a popular, Muslim-friendly dining spot in Malaysia known for its authentic Korean cuisine, vibrant K-pop atmosphere, and generous free-flow side dishes. It serves a variety of signature dishes like Cheese Dakgalbi, UFO Fried Rice, and unique Bingsu desserts, strictly using no pork, alcohol, or lard.</p>\n`,
-      faqs: [
-        { q: "Is The Fire Korean Restaurant in Malaysia halal-certified?", a: "While they may not have official halal certification, they are a Muslim-friendly establishment that uses no pork, alcohol, or lard, and sources ingredients from halal-certified suppliers." },
-        { q: "What are the signature dishes at The Fire Korean Restaurant?", a: "Their signature dishes include Cheese Dakgalbi, UFO Fried Rice, Spicy BBQ Tong Dak, and a wide variety of Korean Fried Chicken." },
-        { q: "How much does a meal cost at The Fire Korean Restaurant Malaysia?", a: "Prices vary, but popular main dishes like Chibab cost around RM 28.50, and shared sets like the Roasted Chicken Set cost RM 53.80. Desserts like Bingsu range from RM 15.00 to RM 35.00." },
-        { q: "Where is The Fire Korean Restaurant located in Malaysia?", a: "One of their most prominent locations is at Tropicana Gardens Mall in Petaling Jaya, with other branches in the Klang Valley." },
-        { q: "Does The Fire Korean Restaurant offer desserts?", a: "Yes, they offer a vast selection of Bingsu (Korean Shaved Ice), including Jeju Island Bingsu, Mango Honey Comb, and Oreo Bingsu." }
-      ],
-      menu: theFireKoreanRestaurantMenu
-    },
-    {
-      name: "Wanomiya",
-      slug: "wanomiya",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal Wagyu Buffet", colors: "bg-red-800 text-white" }],
-      desc: "Premium, JAKIM halal-certified Japanese restaurant in KL specializing in all-you-can-eat A5 Miyazaki Wagyu.",
-      seoArticle: `\n<h2>Wanomiya</h2>\n<p>Wanomiya is a premium, JAKIM halal-certified Japanese restaurant situated on Level 28 of G-Tower in Kuala Lumpur, Malaysia. They specialize in a luxurious all-you-can-eat Japanese Yakiniku buffet featuring high-grade A5 Miyazaki Wagyu beef. In addition to their premium meat cuts, the 120-minute dining experience includes unlimited sashimi, seafood, shabu-shabu, and classic Japanese appetizers.</p>\n`,
-      faqs: [
-        { q: "Is Wanomiya Malaysia halal-certified?", a: "Yes, Wanomiya is officially halal-certified by JAKIM, making it a highly sought-after destination for Muslim diners seeking authentic, premium Wagyu beef in Kuala Lumpur." },
-        { q: "How much does the Wanomiya Wagyu buffet cost?", a: "The all-you-can-eat Wagyu buffet at Wanomiya starts at RM 248 for the Basic Set, RM 298 for the Signature Set, and RM 398 for the Premium Set per adult." },
-        { q: "Where is Wanomiya located in Malaysia?", a: "Wanomiya's primary branch is located on Level 28 of G-Tower, 199 Jalan Tun Razak, 50400 Kuala Lumpur, offering an upscale dining environment with beautiful city skyline views." },
-        { q: "Does Wanomiya offer an a la carte menu or lunch sets?", a: "Yes, while famous for its buffet, Wanomiya also serves Japanese Teishoku lunch sets such as Wagyu Don starting from RM 48, as well as a la carte Wagyu platters featuring premium cuts like Chateaubriand." },
-        { q: "How long is the dining session at Wanomiya?", a: "Diners can enjoy the all-you-can-eat A5 Miyazaki Wagyu buffet for a time-limited 120-minute session per person." }
-      ],
-      menu: wanomiyaMenu
-    },
-    {
-      name: "Shabuyaki By Nippon Sushi",
-      slug: "shabuyaki-by-nippon-sushi",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Shabu-Shabu & Grill", colors: "bg-red-700 text-white" }],
-      desc: "Popular all-you-can-eat Japanese buffet featuring a 2-in-1 shabu-shabu and yakiniku dining concept.",
-      seoArticle: `\n<h2>Shabuyaki By Nippon Sushi</h2>\n<p>Shabuyaki by Nippon Sushi is a popular all-you-can-eat Japanese buffet in Malaysia that features a '2-in-1' dining concept. Diners can enjoy both shabu-shabu (hotpot) and yakiniku (grill) simultaneously, with unlimited premium meats, sushi, and a variety of flavorful soup bases.</p>\n`,
-      faqs: [
-        { q: "What are the prices for the Shabuyaki By Nippon Sushi Malaysia Menu?", a: "Prices vary slightly by location and time, but they generally start around RM37.80++ for weekday lunches and RM40.80++ for weekends and public holidays." },
-        { q: "Is Shabuyaki By Nippon Sushi a halal-certified restaurant?", a: "Yes, as a brand under Nippon Sushi, it offers Muslim-friendly ingredients and adheres to halal standards." },
-        { q: "What is included in the Shabuyaki By Nippon Sushi buffet menu?", a: "The buffet includes unlimited premium meats like Angus beef, Australian lamb, seafood, unlimited sushi, various hotpot soup bases, fresh vegetables, desserts, and drinks." },
-        { q: "Is there a time limit for dining at Shabuyaki By Nippon Sushi?", a: "Yes, diners are typically given a 110-minute time limit to enjoy their all-you-can-eat meal, with an optional RM5 charge for every additional 15 minutes." },
-        { q: "Do children get a discount on the Shabuyaki By Nippon Sushi menu?", a: "Children under 12 years old who are taller than 110cm get a 50% discount on the adult price, while children below 110cm generally eat for free." }
-      ],
-      menu: shabuyakiByNipponSushiMenu
-    },
-    {
-      name: "Sweetree Restaurant",
-      slug: "sweetree-restaurant",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1580651315530-69c8e0026377?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Korean Halal", colors: "bg-red-500 text-white" }],
-      desc: "Popular, halal-certified Korean dining spot located in Ampang, Selangor.",
-      seoArticle: `\n<h2>Sweetree Restaurant</h2>\n<p>Sweetree Restaurant is a popular, halal-certified Korean dining spot located in Ampang, Selangor, Malaysia. It offers a cozy atmosphere and authentic Korean cuisine, specializing in traditional stews (jjigae), Korean BBQ, and fried chicken. The venue is highly regarded for its inviting ambiance and accommodating amenities, including a dedicated BBQ section and a prayer room (surau).</p>\n`,
-      faqs: [
-        { q: "Is Sweetree Restaurant halal-certified?", a: "Yes, Sweetree Restaurant is fully halal-certified, making it a reliable and popular choice for Muslim diners seeking authentic Korean cuisine in Malaysia." },
-        { q: "Where is Sweetree Restaurant located?", a: "Sweetree Restaurant is located at Jalan Ampang Putra, Taman Putra Sulaiman, Ampang Jaya, Selangor, Malaysia." },
-        { q: "What are the signature dishes on the Sweetree Restaurant menu?", a: "Signature items on their menu include traditional Korean stews like Kimchi Jjigae and Sun Dubu Jjigae, Dolsot Bibimbab, and their crowd-favorite Honey Butter Korean Fried Chicken." },
-        { q: "What are the operating hours of Sweetree Restaurant?", a: "Sweetree Restaurant is generally open daily from 11:30 AM to 10:00 PM, with the last order typically taken at 9:00 PM." },
-        { q: "Does Sweetree Restaurant offer dessert options?", a: "Yes, the menu features a variety of authentic Korean desserts, notably their refreshing Bingsu (Korean shaved ice) available in flavors like Mango, Strawberry, Matcha, and Injeolmi, as well as Hotteok (sweet pancakes)." }
-      ],
-      menu: sweetreeRestaurantMenu
-    },
-    {
-      name: "Dojo",
-      slug: "dojo",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1580651315530-69c8e0026377?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Japanese Omakase", colors: "bg-black text-white" }],
-      desc: "Highly exclusive, reservation-only Japanese dining hub in Kuala Lumpur renowned for its premium A5 Miyazaki Wagyu.",
-      seoArticle: `\n<h2>Dojo</h2>\n<p>Wagyu Dojo KL is a highly exclusive, reservation-only Japanese dining hub in Kuala Lumpur renowned for its premium A5 Miyazaki Wagyu omakase and yakiniku experiences. Frequently, diners searching for 'Dojo Japanese Restaurant' are also referring to 'Dozo', a popular casual Japanese chain in Malaysia offering sushi and bento boxes. Both establishments provide exceptional Japanese culinary experiences ranging from accessible a la carte meals to luxurious guided beef tastings.</p>\n`,
-      faqs: [
-        { q: "What are the prices for the Wagyu Dojo KL menu?", a: "The Yakiniku experiences at Wagyu Dojo range from RM 388 to RM 468 per person, while the premium weekend Wagyu Omakase is priced around RM 628." },
-        { q: "Does Dojo Japanese Restaurant offer an a la carte menu?", a: "Wagyu Dojo KL focuses exclusively on set omakase courses, but the similarly named Dozo Japanese Restaurant offers a comprehensive a la carte menu including sushi, sashimi, and bento boxes." },
-        { q: "Are reservations required for Dojo KL?", a: "Yes, Wagyu Dojo is highly exclusive and seats only a few guests per session, so advance reservations via WhatsApp are mandatory." },
-        { q: "Is Dojo Malaysia halal-certified?", a: "Wagyu Dojo focuses heavily on beef and does not serve pork, though alcohol is available, meaning it is not halal-certified. Similarly, Dozo Japanese Restaurant is pork-free but not strictly halal-certified." },
-        { q: "Is delivery available for Dojo Japanese Restaurant?", a: "Wagyu Dojo does not offer delivery due to the curated nature of their omakase experience. However, Dozo Japanese Restaurant offers delivery through major apps like GrabFood and Foodpanda." }
-      ],
-      menu: dojoMenu
-    },
-    {
-      name: "BHC Chicken",
-      slug: "bhc-chicken",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Korean Fried Chicken", colors: "bg-red-500 text-white" }],
-      desc: "Renowned Korean fried chicken chain operating multiple outlets in Malaysia.",
-      seoArticle: `\n<h2>BHC Chicken</h2>\n<p>BHC Chicken is a renowned Korean fried chicken chain operating multiple outlets in Malaysia, particularly in major shopping malls. Known for signature flavors like Bburinkle and Matcho-King, the restaurant offers an authentic taste of Korea alongside localized dishes like 'chibap'. All outlets provide a vibrant, casual dining experience that is pork-free and alcohol-free.</p>\n`,
-      faqs: [
-        { q: "Is BHC Chicken Malaysia halal?", a: "BHC Chicken Malaysia is pork-free and alcohol-free, and it sources its chicken from halal-certified suppliers, though official JAKIM certification may vary by outlet." },
-        { q: "What are the signature flavors at BHC Chicken?", a: "Their most famous flavor is Bburinkle, which features a unique sweet cheese and vegetable seasoning. Other popular choices include Matcho-King and Gold King." },
-        { q: "What are the opening hours for BHC Chicken outlets in Malaysia?", a: "Most branches located in major malls like 1 Utama and Pavilion Bukit Jalil operate daily from 10:00 AM to 10:00 PM." },
-        { q: "Does BHC Chicken Malaysia accept table reservations?", a: "They primarily serve walk-in customers and do not have a centralized online reservation system, so arriving early during peak dining hours is recommended." },
-        { q: "Is BHC Chicken available for delivery in Malaysia?", a: "Yes, you can order BHC Chicken for delivery through popular platforms like GrabFood to enjoy their meals at home." }
-      ],
-      menu: bhcChickenMenu
-    },
-    {
-      name: "Nobu",
-      slug: "nobu",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fine Dining", colors: "bg-red-800 text-white" }],
-      desc: "World-renowned fine-dining restaurant blending traditional Japanese artistry with Peruvian flavors.",
-      seoArticle: `\n<h2>Nobu</h2>\n<p>Nobu Kuala Lumpur is a world-renowned fine-dining restaurant located at The Shoppes at Four Seasons Place, blending traditional Japanese artistry with vibrant Peruvian flavors. Founded by Chef Nobu Matsuhisa, the restaurant offers an upscale ambiance and iconic dishes such as Black Cod Miso and Yellowtail Jalapeño.</p>\n`,
-      faqs: [
-        { q: "What is the style of cuisine at Nobu Kuala Lumpur?", a: "Nobu Kuala Lumpur is famous for its unique Japanese-Peruvian fusion cuisine, featuring signature dishes like Black Cod Miso and Yellowtail Jalapeño." },
-        { q: "How much does the Omakase menu cost at Nobu Malaysia?", a: "The Omakase menu at Nobu Kuala Lumpur varies by selection, with prices generally ranging from RM 198++ for seasonal menus up to RM 458++ for the Special Omakase experience." },
-        { q: "Where is Nobu Kuala Lumpur located?", a: "Nobu Kuala Lumpur is located at Level 4A in The Shoppes at Four Seasons Place, 145 Jalan Ampang, Kuala Lumpur." },
-        { q: "Are there lunch sets available at Nobu Malaysia?", a: "Yes, Nobu Kuala Lumpur offers prix-fixe lunch sets and bento boxes, typically ranging from RM 168 to RM 250++." },
-        { q: "How much is the signature Black Cod Miso at Nobu KL?", a: "The iconic Black Cod Miso is typically priced between RM 150 and RM 260++, depending on the specific menu and dining time." }
-      ],
-      menu: nobuMenu
-    },
-    {
-      name: "Kyochon",
-      slug: "kyochon",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Korean Fried Chicken", colors: "bg-red-500 text-white" }],
-      desc: "Popular restaurant chain specializing in authentic Korean fried chicken.",
-      seoArticle: `\n<h2>Kyochon</h2>\n<p>KyoChon Malaysia is a popular restaurant chain specializing in authentic Korean fried chicken known for its double-fried, crispy texture and signature sauces like Soy Garlic, Red Pepper, and Honey. Committed to quality, they use chilled, antibiotic-free chicken and fresh ingredients to provide a healthier take on Korean comfort food. The menu also features delicious side dishes, rice bowls, and combo meals that are perfect for individual dining or sharing.</p>\n`,
-      faqs: [
-        { q: "What are the best-selling flavors at KyoChon Malaysia?", a: "The most popular flavors at KyoChon Malaysia are the classic Soy Garlic series, the spicy Red Pepper series, and the sweet Honey series. The Soy Garlic is highly recommended for first-timers!" },
-        { q: "Does KyoChon Malaysia offer boneless chicken options?", a: "Yes, KyoChon Malaysia offers tender Boneless Chicken in portions of 6 or 10 pieces. These juicy chicken thighs are available in their signature Soy, Red, or Mixed flavors." },
-        { q: "Is KyoChon Malaysia Halal-certified?", a: "Yes, KyoChon Malaysia is officially Halal-certified by JAKIM, making it a trusted and Muslim-friendly dining destination for authentic Korean fried chicken." },
-        { q: "What is included in the KyoChon Dosirak lunchbox?", a: "The KyoChon Dosirak includes your choice of boneless chicken (Soy, Red, Mixed, or Shinhwa), Korean short-grain rice, Japchae (Korean glass noodles), and an organic mini salad." },
-        { q: "Does KyoChon Malaysia have meals for one person?", a: "Absolutely! KyoChon offers various individual meals, including personal Combos that come with chicken, rice, soup, and a drink. They also serve personal portions like the Boneless Chicken Bibimbap and Cup-bap." }
-      ],
-      menu: kyochonMenu
-    },
-    {
-      name: "Donkai",
-      slug: "donkai",
-      category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Japanese", colors: "bg-red-500 text-white" }],
-      desc: "Handmade Japanese hamburg steak rice bowls.",
-      seoArticle: `\n<h2>Donkai</h2>\n<p>Donkai is a popular Japanese restaurant in Malaysia, renowned for its locations in Bukit Bintang and The Exchange TRX. The restaurant specializes in serving high-quality, handmade hamburg steak rice bowls made with chicken, Angus beef, or Japanese Wagyu. A key highlight of the dining experience at Donkai is the unlimited free refills of Japanese rice, vegetables, and miso soup that accompany their signature meals.</p>\n`,
-      faqs: [
-        { q: "What is Donkai Malaysia famous for?", a: "Donkai Malaysia is famous for its authentic, handmade Japanese hamburg steak rice bowls, specifically their signature Chicken, Angus Beef, and Japanese Wagyu options." },
-        { q: "Does Donkai offer free refills?", a: "Yes, one of the main highlights of dining at Donkai is the unlimited free refills of Japanese rice, vegetables, and miso soup included with their hamburg rice bowl sets." },
-        { q: "How much does a meal cost at Donkai Malaysia?", a: "Their signature hamburg rice bowls range from around RM 28.90 for chicken up to RM 43.00 for Japanese Wagyu. Other donburi and omurice dishes are generally priced between RM 15.00 and RM 34.00." },
-        { q: "Where is Donkai located in Malaysia?", a: "Donkai has prominent branches located in prime shopping and dining areas of Kuala Lumpur, such as Bukit Bintang and The Exchange TRX." },
-        { q: "Does Donkai serve other dishes besides Hamburg steaks?", a: "Yes, apart from their signature hamburg steaks, Donkai's menu includes a variety of Donburi (rice bowls) like Chicken Teriyaki Don, Omurice dishes, and popular Japanese sides such as Chicken Karaage and Tempura." }
-      ],
-      menu: donkaiMenu
-    },
     {
       name: "Sushi King",
       slug: "sushi-king",
@@ -5071,6 +3211,42 @@ export const brandMocks: Record<string, any[]> = {
       menu: ichibanRamenMenu
     },
     {
+      name: "Kyochon 1991",
+      slug: "kyochon",
+      category: 'japanese-korean',
+      image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
+      desc: "South Korea's Finest Premium Double-Fried Chicken",
+      seoArticle: `\n<h2>Kyochon 1991: Authentic Korean Double-Fried Perfection</h2>
+<p>Kyochon 1991 is globally renowned as the ultimate pioneer of high-quality, authentic Korean fried chicken. In Malaysia, Kyochon stands out by committing to fresh, never-frozen chicken and using 100% natural canola oil. Their legendary double-frying technique locks in the natural juices while creating an exceptionally thin, crunchy skin that remains crispy long after it is served.</p>
+<h3>Soy Garlic, Fiery Red Pepper, Sweet Honey, and Savory Galbi Series</h3>
+<p>Diners can choose between their classic Soy Garlic series, the fiery Red Pepper series glazed in spicy Korean red pepper paste, and the absolute crowd-favorite Honey series. Every single piece is carefully hand-brushed with their secret signature sauces for uniform, mouthwatering flavor. Check our comprehensive Kyochon menu pricing below to map out your next K-fried feast.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Kyochon 1991 is fully JAKIM Halal-certified, ensuring the highest standards of food safety, hygiene, and strict cleanliness.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Canola Oil:</strong> Double-fried in canola oil, which is low in saturated fat and high in beneficial monounsaturated fatty acids.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Fresh Chicken:</strong> Free from MSG and chemical preservatives, prioritizing wholesome ingredients.</span></li>
+</ul>`,
+      healthyTip: `"For a lower-carb option, pair their legendary hand-brushed wings with a side of steamed rice or fresh salad instead of heavily loaded fries."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Brings hot, crispy, and hand-brushed fried chicken wings and drumsticks straight to your table.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Perfect for ordering premium Kyochon family sets and spicy K-bites for gatherings.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Kyochon Malaysia Halal certified?", a: "Yes, Kyochon 1991 Malaysia is fully certified Halal by JAKIM, making it a trusted option for all dining groups." },
+        { q: "What is their most popular chicken flavor?", a: "The Honey Series (coated in natural sweet honey glaze) and the classic Soy Garlic Series are the all-time best-sellers." },
+        { q: "Do they use MSG?", a: "Kyochon takes pride in serving wholesome food and does not add MSG to their chicken or major sauces." }
+      ],
+      menu: kyochonMenu
+    },
+    {
       name: "K-Fry Urban Korean",
       slug: "k-fry",
       category: 'japanese-korean',
@@ -5145,176 +3321,6 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'pizza-italian': [
     {
-      name: "Marini's On 57",
-      slug: "marinis-on-57",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fine Dining", colors: "bg-neutral-900 text-white" }, { name: "Rooftop Views", colors: "bg-sky-900 text-white" }],
-      desc: "Iconic fine-dining Italian restaurant and rooftop bar offering exquisite cuisine and breathtaking views of the Petronas Twin Towers.",
-      seoArticle: `\n<h2>Marini's On 57 Malaysia</h2>\n<p>Marini's On 57 is an iconic rooftop destination and fine-dining Italian restaurant located on the 57th floor of Menara 3 Petronas in Kuala Lumpur. It features a luxurious restaurant, a chic bar, and an elegant cigar lounge, all offering breathtaking up-close views of the Petronas Twin Towers. Renowned for its sophisticated ambiance and exquisite culinary offerings, it is a premier choice for high-end dining and exclusive events in Malaysia.</p>\n`,
-      faqs: [
-        { q: "What type of cuisine is served at Marini's On 57 in Malaysia?", a: "Marini's On 57 serves contemporary fine-dining Italian cuisine, featuring exquisite handmade pastas, premium imported meats like Wagyu beef, and fresh seafood." },
-        { q: "Does Marini's On 57 have a strict dress code?", a: "Yes, the restaurant strictly enforces a smart elegant dress code. Guests are not permitted to wear shorts, flip-flops, sandals, hats, or ripped jeans." },
-        { q: "How much does a meal typically cost at Marini's On 57?", a: "As a premium fine-dining establishment, individual main courses and pastas typically range from RM 128 to RM 458, while full degustation menus and a full dining experience can range from RM 500 to over RM 700 per person." },
-        { q: "Is there a minimum spend requirement at Marini's On 57?", a: "Yes, prime window seating with direct views of the Petronas Twin Towers often requires a minimum spend of around RM 300++ per person, subject to availability." },
-        { q: "Do I need to make a reservation before visiting?", a: "Advanced reservations are highly recommended due to the restaurant's popularity and exclusivity, especially if you wish to secure a window table." }
-    {
-      name: "Domino's Pizza",
-      slug: "dominos-pizza",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pizza Delivery", colors: "bg-blue-600 text-white" }],
-      desc: "Leading pizza delivery chain known for its wide variety of delicious, freshly baked pizzas and fast service.",
-      seoArticle: `\n<h2>Domino's Pizza Malaysia</h2>\n<p>Domino's Pizza Malaysia is a leading pizza delivery chain known for its wide variety of delicious, freshly baked pizzas with local and international flavors. They offer a diverse menu including signature pizzas, hearty pasta, savory sides, and sweet desserts like the popular Banana Kaya. With a strong commitment to fast service and Halal-certified ingredients, Domino's remains a top choice for convenient and satisfying meals across the country.</p>\n`,
-      faqs: [
-        { q: "Does Domino's Pizza Malaysia offer delivery services?", a: "Yes, Domino's provides extensive and fast delivery services across Malaysia. You can easily order via their official website or mobile app." },
-        { q: "Are there any vegetarian options available on the Domino's Malaysia menu?", a: "Absolutely. Domino's offers vegetarian-friendly choices such as the Vegie Galore pizza, which is topped with fresh mushrooms, green peppers, onions, and ripe olives." },
-        { q: "Is Domino's Pizza Malaysia Halal-certified?", a: "Yes, all Domino's Pizza outlets in Malaysia are strictly Halal-certified by JAKIM, ensuring that all ingredients and preparation methods meet Islamic dietary guidelines." },
-        { q: "What are the pizza sizes available at Domino's Malaysia?", a: "Customers can choose from four main pizza sizes to suit their appetite: Personal (6-inch), Regular (9-inch), Large (12-inch), and Xtra Large (15-inch)." },
-        { q: "How can I find the latest promotions and deals for Domino's Malaysia?", a: "The best way to find current promotions, such as 'Super Tuesday', everyday value bundles, and app-exclusive offers, is by checking the 'Hot Deals' section on the official Domino's Malaysia website or app." }
-      ],
-      menu: dominosPizzaMenu
-    },
-      ],
-      menu: marinisOn57Menu
-    },
-    {
-      name: "Bella Pasta & Wine",
-      slug: "bella-pasta-and-wine",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Italian Handmade", colors: "bg-red-800 text-white" }],
-      desc: "Intimate Italian restaurant in TTDI specializing in authentic handmade pasta and curated wines.",
-      seoArticle: `\n<h2>Bella Pasta & Wine Malaysia</h2>\n<p>Bella Pasta & Wine is an intimate Italian restaurant located in Taman Tun Dr Ismail (TTDI), Kuala Lumpur. They specialize in authentic, handmade pasta dishes that rotate based on seasonal availability. The restaurant also features a curated wine and cocktail list, making it a popular spot for both casual dining and special occasions.</p>\n`,
-      faqs: [
-        { q: "Where is Bella Pasta and Wine located?", a: "Bella Pasta & Wine is located at 20A, Lorong Rahim Kajai 14, Taman Tun Dr Ismail (TTDI), 60000 Kuala Lumpur." },
-        { q: "What type of food does Bella Pasta and Wine serve?", a: "They specialize in authentic, handmade Italian pasta dishes and offer a variety of sides, mains like Angus Ribeye, and a curated selection of wines and cocktails." },
-        { q: "Do they have any drink promotions?", a: "Yes, they offer various weekly promotions such as 4 Highballs or Gin & Tonics for RM99 on Tuesdays and Thursdays, Buy-1-Free-1 cocktails on Wednesdays, and free-flow wine for RM80 on Sundays." },
-        { q: "Is it necessary to make a reservation?", a: "Due to the restaurant's popularity and intimate size, it is highly recommended to make a reservation before visiting." },
-        { q: "What are some popular items on the Bella Pasta and Wine menu?", a: "Popular handmade pasta dishes include the Duck Carbonara, Smoked Veal Bacon Cream, and Beef Cheek Ragu." }
-      ],
-      menu: bellaPastaAndWineMenu
-    },
-    {
-      name: "Positano Risto Publika",
-      slug: "positano-risto-publika",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal Italian", colors: "bg-orange-700 text-white" }],
-      desc: "100% Muslim-owned, alcohol-free Halal Italian restaurant in Publika offering premium hand-tossed pizzas and fresh pastas.",
-      seoArticle: `\n<h2>Positano Risto Publika</h2>\n<p>Positano Risto is a 100% Muslim-owned, alcohol-free Halal Italian restaurant located in Publika Shopping Gallery, Kuala Lumpur. Inspired by the Amalfi Coast, it offers a premium dining experience with a menu featuring authentic hand-tossed pizzas, fresh pastas, steaks, and classic Italian desserts. Since expanding to Malaysia in 2018, it has become a top destination for those seeking high-quality, Halal-certified Italian cuisine.</p>\n`,
-      faqs: [
-        { q: "Is Positano Risto Publika Halal-certified?", a: "Yes, Positano Risto is a 100% Muslim-owned and alcohol-free establishment, making its entire menu Halal-friendly and suitable for Muslim diners." },
-        { q: "Where is Positano Risto located in Malaysia?", a: "Positano Risto is located at Block C1, Lot 2, Level G3 in the Publika Shopping Gallery (Solaris Dutamas), Kuala Lumpur." },
-        { q: "What are the best signature dishes to try at Positano Risto Publika?", a: "Highly recommended signature dishes include their famous Star Pizza, the Squid Ink Seafood Spaghetti, and the decadent Vulcano Chocolate Lava Cake." },
-        { q: "Does Positano Risto Publika offer food delivery services?", a: "Yes, you can enjoy Positano Risto's menu from home by ordering delivery or takeout through platforms like GrabFood, Foodpanda, and their official online portal on Oddle." },
-        { q: "Are there vegetarian options available on the Positano Risto menu?", a: "Absolutely! They offer excellent vegetarian-friendly dishes such as the Margherita Pizza, 4 Cheese Pizza, Mushroom and Truffle Soup, and Penne al Pesto." }
-      ],
-      menu: positanoRistoMenu
-    },
-    {
-      name: "Bocado",
-      slug: "bocado",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Spanish Mediterranean", colors: "bg-orange-700 text-white" }],
-      desc: "Upscale, refined Spanish restaurant in Bukit Damansara specializing in authentic Mediterranean cuisine and tapas.",
-      seoArticle: `\n<h2>Bocado</h2>\n<p>Bocado is an upscale, refined Spanish restaurant located in Bukit Damansara, Kuala Lumpur, specializing in authentic Mediterranean cuisine and tapas. Helmed by Chef Víctor Santos, the restaurant is celebrated for its Josper charcoal-grilled premium meats and seafood, all sourced from Halal-certified suppliers. With a completely pork-free menu and an elegant Mediterranean-inspired interior, Bocado offers an immersive culinary experience that transports diners straight to Spain.</p>\n`,
-      faqs: [
-        { q: "Is the Bocado Malaysia menu pork-free?", a: "Yes, the Bocado Malaysia menu is completely pork-free, and all the meat served is sourced from Halal-certified suppliers, making it a great option for Muslim diners." },
-        { q: "What are the signature dishes on the Bocado Malaysia menu?", a: "Signature dishes include traditional Spanish tapas like Gambas al Ajillo (garlic prawns), grilled Atlantic octopus, Croquetas de Setas, and Josper charcoal-grilled specialties such as the Paletilla de Cabrito (Spanish suckling lamb shoulder)." },
-        { q: "What are the typical prices on the Bocado KL menu?", a: "As a premium dining establishment, tapas on the Bocado menu typically range from RM32 to RM56, while premium sharing mains like the Spanish suckling lamb shoulder are priced around RM220. Prices are subject to prevailing taxes." },
-        { q: "Does Bocado in Bukit Damansara offer vegetarian options?", a: "Yes, the menu features several vegetarian-friendly tapas such as the mushroom bechamel croquetas (Croquetas de Setas) alongside various other authentic Spanish Mediterranean vegetable dishes." },
-        { q: "Where can I find the latest Bocado Malaysia Menu?", a: "The most up-to-date menu, seasonal offerings, and current pricing can be found on their official website at bocadokl.com or by contacting the restaurant directly to inquire about their latest selections." }
-      ],
-      menu: bocadoMenu
-    },
-    {
-      name: "Mesa On 51",
-      slug: "mesa-on-51",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fine Dining", colors: "bg-indigo-600 text-white" }],
-      desc: "Premium rooftop dining destination offering luxurious Spanish tapas and Japanese-Peruvian Nikkei dishes.",
-      seoArticle: `\n<h2>Mesa On 51</h2>\n<p>Mesa on 51 is a premium rooftop dining and entertainment destination located on the 51st floor of the Permata Sapura Tower in Kuala Lumpur. Operated by The Marini's Group, it offers a luxurious blend of authentic Spanish cuisine and Japanese-Peruvian Nikkei dishes across its restaurant, lounge, and terrace bar. Guests can enjoy panoramic views of the KL skyline alongside high-end tapas, paellas, and craft cocktails.</p>\n`,
-      faqs: [
-        { q: "What type of food is served on the Mesa On 51 Malaysia menu?", a: "The Mesa On 51 menu features a unique dual-concept offering authentic Spanish cuisine, including tapas and charcoal-grilled paellas, alongside Japanese-Peruvian Nikkei dishes such as fresh sushi, sashimi, and ceviche." },
-        { q: "How much does it cost to dine at Mesa On 51?", a: "Mesa On 51 is a premium fine-dining destination. À la carte items range from RM 35 for simple tapas to over RM 300 for premium mains, while exclusive set dinner menus are priced at approximately RM 410++ per person." },
-        { q: "What are the signature dishes I must try at Mesa On 51?", a: "Highly recommended signature dishes include the Gambas al Ajillo (garlic prawns), Paella Negra (squid ink paella), and the premium Torched A5 Miyazaki Wagyu nigiri from the Nikkei Lounge." },
-        { q: "Are there vegetarian options available on the Mesa On 51 menu?", a: "Yes, Mesa On 51 offers several vegetarian-friendly options such as Patatas Bravas, Escalivada (roasted vegetables), and customized vegetarian paellas upon request." },
-        { q: "Is it required to make a reservation for Mesa On 51?", a: "Yes, due to its popularity and prime skyline view in Kuala Lumpur, reservations are highly recommended, especially for weekend dinners and windowside tables." }
-      ],
-      menu: mesaOn51Menu
-    },
-    {
-      name: "Stefania Restaurant",
-      slug: "stefania-restaurant",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Italian Fine Dining", colors: "bg-red-700 text-white" }],
-      desc: "Prominent Italian dining brand in Kuala Lumpur offering authentic Roman cuisine.",
-      seoArticle: `\n<h2>Stefania Restaurant</h2>\n<p>Stefania Restaurant is a prominent Italian dining brand in Kuala Lumpur led by Executive Chef Diego Reali, offering authentic Roman cuisine inspired by his family's culinary heritage. The brand features two distinct locations: the refined Stefania Ristorante Italiano at Naza Tower for elegant fine dining, and the casual Stefania Osteria at Republik Damansara Heights for rustic, family-style sharing plates. Known for its traditional handmade pastas and premium ingredients, Stefania provides a genuine taste of Italy in the heart of Malaysia.</p>\n`,
-      faqs: [
-        { q: "What is the difference between Stefania Ristorante and Stefania Osteria?", a: "Stefania Ristorante Italiano at Naza Tower offers an upscale, elegant fine-dining experience. In contrast, Stefania Osteria in Damansara Heights provides a more casual, family-friendly neighborhood atmosphere with smaller sharing plates and approachable prices." },
-        { q: "Where is Stefania Restaurant located in Malaysia?", a: "The flagship Stefania Ristorante Italiano is located at Ground Floor, Naza Tower, Platinum Park in KLCC. The sister restaurant, Stefania Osteria, is situated at G.03A, Republik, Jalan Medan Setia 1, Bukit Damansara." },
-        { q: "What are the signature dishes on the Stefania Restaurant menu?", a: "Signature dishes reflect Chef Diego Reali's Roman roots and include authentic handmade pastas like Rigatoni alla Carbonara, Spaghetti Cacio e Pepe, and Gnocchi al Tartufo, as well as fresh seafood starters like Alici Marinate." },
-        { q: "Is Stefania Restaurant Halal-certified?", a: "Stefania Restaurant is not Halal-certified as they serve alcohol (including at their speakeasy, Stefania Lounge) and some authentic dishes may contain non-halal ingredients like guanciale. However, they offer a wide variety of seafood and vegetarian options." },
-        { q: "How much does it cost to dine at Stefania Restaurant?", a: "Dining at the flagship Stefania Ristorante Italiano averages around RM200 nett per person for a three-course meal. The casual Stefania Osteria features a more affordable menu designed for everyday dining." }
-      ],
-      menu: stefaniaRestaurantMenu
-    },
-    {
-      name: "La Spiga D'Oro",
-      slug: "la-spiga-doro",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Italian Deli", colors: "bg-green-600 text-white" }],
-      desc: "Popular Italian micro-deli and cafe in Kuala Lumpur renowned for authentic Roman-style schiacciata.",
-      seoArticle: `\n<h2>La Spiga D'Oro</h2>\n<p>La Spiga D'Oro is a popular Italian micro-deli and cafe in Kuala Lumpur, Malaysia, renowned for its authentic Roman-style schiacciata flatbread sandwiches. Relocated to Taman Desa, the eatery prides itself on using premium imported Italian ingredients like mortadella, fresh burrata, and truffles. Because they have limited daily stock and prioritize quality, it's a highly sought-after dining spot that frequently closes early once they sell out for the day.</p>\n`,
-      faqs: [
-        { q: "What is the most popular item on the La Spiga D'Oro Malaysia Menu?", a: "The most famous item is the 'Il Re' schiacciata sandwich, which features mortadella di Bologna, toasted crushed pistachios, and fresh burrata stuffed inside their signature crispy Roman flatbread." },
-        { q: "How much do sandwiches cost on the La Spiga D'Oro menu?", a: "Prices for the signature schiacciata sandwiches typically range from RM 36.00 to RM 54.00, depending on the premium imported Italian meats and cheeses included." },
-        { q: "Does the La Spiga D'Oro menu include vegetarian options?", a: "Yes, they offer vegetarian choices, such as the Vegetariano schiacciata, which utilizes fresh cheeses, vegetables, and authentic Italian spreads." },
-        { q: "Where is La Spiga D'Oro located in Malaysia?", a: "La Spiga D'Oro recently relocated to Unit M-01, Mezzanine Floor, Wisma JAG, Jalan Desa Utama in Taman Desa, Kuala Lumpur. They previously operated out of Bangsar South." },
-        { q: "How can I order from the La Spiga D'Oro Malaysia menu for delivery?", a: "You can view their most up-to-date digital menu and place orders for pickup or delivery through the Beep platform or by visiting the link on their official Instagram page (@laspigamy)." }
-      ],
-      menu: laSpigaDoroMenu
-    },
-    {
-      name: "Bacio Italian Kitchen",
-      slug: "bacio-italian-kitchen",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Italian Dining", colors: "bg-red-600 text-white" }],
-      desc: "Stylish contemporary Italian restaurant in Mont Kiara specializing in handmade pastas.",
-      seoArticle: `\n<h2>Bacio Italian Kitchen</h2>\n<p>Bacio Italian Kitchen is a stylish, contemporary Italian restaurant located in Mont Kiara, Kuala Lumpur. Part of the renowned Portofino F&B Group, it specializes in authentic handmade pastas, wood-fired pizzas, and classic Italian comfort food served within a beautiful Mediterranean-inspired setting.</p>\n`,
-      faqs: [
-        { q: "Where is Bacio Italian Kitchen located in Malaysia?", a: "Bacio Italian Kitchen is located in the B.LOT development at Mont Kiara, Kuala Lumpur (Lot 1908, Jalan Kiara 5)." },
-        { q: "Is Bacio Italian Kitchen pork-free or halal?", a: "Bacio Italian Kitchen is a pork-free establishment, making it a friendly dining option for many, though they do serve alcoholic beverages to guests." },
-        { q: "What are the signature dishes at Bacio Italian Kitchen?", a: "Diners highly recommend their fresh handmade pastas like the Tagliatelle al Ragu di Agnello, their authentic wood-fired pizzas, and premium starters such as Vitello Tonnato and Burrata." },
-        { q: "Who owns Bacio Italian Kitchen?", a: "The restaurant is a concept by the well-known Portofino F&B Group, which manages several highly-rated Italian dining spots across Malaysia." },
-        { q: "How much does it cost to dine at Bacio Italian Kitchen?", a: "The average cost per person ranges from RM 50 to RM 100, with typical main courses, pastas, and pizzas priced between RM 30 and RM 50." }
-      ],
-      menu: bacioItalianKitchenMenu
-    },
-    {
-      name: "Bienz",
-      slug: "bienz",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Sourdough Pizza", colors: "bg-red-500 text-white" }],
-      desc: "Western fusion restaurant famous for its Golden Wagyu Sourdough Pizza.",
-      seoArticle: `\n<h2>Bienz</h2>\n<p>Bienz is a popular Western fusion restaurant chain in Malaysia, celebrated for its viral Golden Wagyu Sourdough Pizza. With multiple locations across the Klang Valley including Wangsa Maju and Putrajaya, it offers a premium dining experience centered around high-quality ingredients. Beyond its artisan pizzas, the menu features hearty pastas and a trendy selection of specialty beverages like the Tiramisu Latte and Strawberry Matcha.</p>\n`,
-      faqs: [
-        { q: "What is the most famous dish at Bienz Malaysia?", a: "The standout signature item at Bienz is the Golden Wagyu Sourdough Pizza, which features approximately 140g of premium Wagyu beef slices on a crispy, handcrafted sourdough crust." },
-        { q: "Where are the Bienz restaurant branches located in Malaysia?", a: "Bienz has been expanding across the Klang Valley with popular locations including the original flagship in Wangsa Maju, Sunway Avila Avenue in Kuala Lumpur, and IOI Conezion in Putrajaya." },
-        { q: "Does Bienz offer food delivery services?", a: "Yes, you can conveniently order from the Bienz Malaysia Menu through major food delivery platforms like Foodpanda and Lalamove." },
-        { q: "What types of food are on the Bienz Malaysia Menu?", a: "The Bienz menu focuses on premium Western fusion cuisine, featuring artisan sourdough pizzas, classic and contemporary pasta dishes, smoked meats, and an array of specialty coffees and desserts." },
-        { q: "Are there any signature drinks to try at Bienz?", a: "Customer favorites include their specialty Tiramisu Latte, the refreshing Strawberry Matcha, and the sweet, creamy Spanish Latte." }
-      ],
-      menu: bienzMenu
-    },
-    {
       name: "Pizza Hut",
       slug: "pizza-hut",
       category: 'pizza-italian',
@@ -5355,6 +3361,43 @@ export const brandMocks: Record<string, any[]> = {
       ],
       
       menu: pizzaHutMenu
+    },
+    {
+      name: "Domino's Pizza Malaysia",
+      slug: "dominos-pizza",
+    searchVolume: 5400,
+      category: 'pizza-italian',
+      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Delivery King", colors: "bg-blue-600 text-white" }],
+      desc: "It's All About The Dough",
+      seoArticle: `\n<h2>Domino's Pizza Malaysia: Delivery Specials & Hand-Tossed Classics</h2>
+<p>Domino's Pizza has secured its place as Malaysia's favorite pizza delivery service, famous for their "30-minute delivery guarantee" and highly addictive Garlic Twisty Bread. Their secret lies in the fresh, never-frozen hand-tossed dough and their signature rich tomato sauce. Whether you want to feed a large gathering with their Buy 1 Free 2 deals or enjoy a personal Classified Chicken pizza, our up-to-date price list contains all their pizzas, chicken sides, pastas, and desserts to help you maximize your savings.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Domino's offers various crust types and toppings. Here's a breakdown for healthier dining:</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Thin & Crispy:</strong> Choose the Thin & Crispy crust option instead of Classic Hand-Tossed or Pan crusts to save up to 100 calories per slice.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Sauce & Toppings:</strong> Opt for lean toppings like chicken and mushrooms rather than double pepperoni and extra cheese layers.</span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for a Thin & Crispy crust Classified Chicken or Veggie Galore pizza, and pair it with a garden salad or roasted chicken bites instead of loaded breadsticks."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-blue-600">Domino's Delivery</div>
+    <p class="text-slate-500 text-sm font-medium">Use the official Domino's Malaysia website or app for direct, guaranteed 30-minute delivery and exclusive web-only coupons.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Also available on major food delivery services with frequent seasonal merchant discounts.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        { q: "Is Domino's Pizza Halal certified in Malaysia?", a: "Yes, Domino's Pizza Malaysia is 100% Halal certified by JAKIM." },
+        { q: "What is the best-selling pizza at Domino's Malaysia?", a: "The Classified Chicken (featuring their signature rich, creamy white sauce) and the Beef or Chicken Pepperoni are the all-time favorites." },
+        { q: "Does Domino's charge for delivery?", a: "Domino's offers free delivery when ordering directly through their website or app, subject to a minimum order value." }
+      ],
+      menu: dominosPizzaMenu
     },
     {
       name: "US Pizza Malaysia",
@@ -5432,752 +3475,6 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'western-grilled': [
-    {
-      name: "Giggles & Geeks",
-      slug: "giggles-and-geeks",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Western", colors: "bg-orange-800 text-white" }, { name: "Fusion", colors: "bg-blue-800 text-white" }],
-      desc: "Cozy, family-friendly Halal restaurant in Cyberjaya offering a flavorful fusion of Western favorites like premium steaks and local cuisine.",
-      seoArticle: `\n<h2>Giggles & Geeks Malaysia Menu</h2>\n<p>Giggles & Geeks is a cozy, Halal-certified restaurant located in the Bio-X Centre, Cyberjaya, Malaysia. It is renowned for serving a generous and flavorful fusion of Western favorites and local cuisine. The family-friendly establishment is especially popular for its juicy homemade beef burgers, premium steaks, and warm ambiance perfect for casual dining and celebrations.</p>\n`,
-      faqs: [
-        { q: "Is Giggles & Geeks Malaysia Halal-certified?", a: "Yes, Giggles & Geeks is a Muslim-friendly and Halal-certified restaurant, making it suitable for all diners." },
-        { q: "Where is Giggles & Geeks located?", a: "The restaurant is located at the Ground Floor, Bio-X Centre, Persiaran Cyber Point Selatan, Cyber 8, Cyberjaya, Selangor, Malaysia." },
-        { q: "What type of food does Giggles & Geeks serve?", a: "They serve a mix of Western and local fusion cuisine, including premium steaks, pastas, homemade burgers, and local dishes like Nasi Lemak." },
-        { q: "What are the signature dishes at Giggles & Geeks?", a: "Some of their highly recommended signature dishes include the Homemade Beef Burger, Black Angus Rib Eye, NZ Lamb Rack, and their signature Crispy Squid." },
-        { q: "What is the average price range per person at Giggles & Geeks?", a: "The average dining cost is approximately RM 50 to RM 70 per person, depending on your choice of mains and drinks." }
-      ],
-      menu: gigglesAndGeeksMenu
-    },
-    {
-      name: "TGI Fridays",
-      slug: "tgi-fridays",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "American", colors: "bg-red-800 text-white" }, { name: "Burgers & Steaks", colors: "bg-amber-800 text-white" }],
-      desc: "Popular casual dining American restaurant chain known for its vibrant atmosphere, premium handcrafted burgers, and signature glazed steaks.",
-      seoArticle: `\n<h2>TGI Fridays Malaysia Menu</h2>\n<p>TGI Fridays Malaysia is a popular casual dining American restaurant chain known for its vibrant atmosphere and authentic American comfort food. The menu features a wide array of mouth-watering dishes including premium handcrafted burgers, signature glazed steaks, and hearty lamb ribs, making it a favorite spot for family gatherings and celebrations.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items on the TGI Fridays Malaysia menu?", a: "Some of the most popular items include the Fridays Signature Glazed Striploin Steak, Ultimate Loaded Cheese Fry Burger, Handcrafted Burgers, and classic appetizers like Fried Mozzarella and Loaded Potato Skins." },
-        { q: "Does TGI Fridays Malaysia offer lunch set promotions?", a: "Yes, TGI Fridays Malaysia offers value-for-money promotions such as 'The Affordable$' lunch specials, typically available from Monday to Friday between 11 am and 3 pm, providing a selection of main courses at discounted rates." },
-        { q: "Are there vegetarian options available on the TGI Fridays Malaysia menu?", a: "Yes, the menu includes vegetarian-friendly options like various fresh salads, meat-free appetizers such as Fried Mozzarella and Garlic Bread, and plant-based burger alternatives at select locations." },
-        { q: "What are the price ranges for burgers and steaks at TGI Fridays Malaysia?", a: "Handcrafted Burgers typically range from RM 44.75 to RM 48.20, while premium ultimate burgers are priced around RM 67.90. Steaks and combos, like the Signature Glazed Striploin, are generally priced between RM 91.90 and RM 106.85." },
-        { q: "Does TGI Fridays Malaysia offer delivery services?", a: "Yes, you can order from TGI Fridays Malaysia via major delivery platforms like Foodpanda. However, please note that menu prices on these apps may be slightly higher than dine-in prices due to platform service fees." }
-      ],
-      menu: tgiFridaysMenu
-    },
-    {
-      name: "Mikey's New York Pizza",
-      slug: "mikeys-new-york-pizza",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pizza", colors: "bg-orange-800 text-white" }, { name: "American", colors: "bg-blue-800 text-white" }],
-      desc: "Authentic New York-style pizza joint specializing in massive 18-inch pies, by-the-slice options, and hearty American sides.",
-      seoArticle: `\n<h2>Mikey's New York Pizza Malaysia Menu</h2>\n<p>Mikey's Original New York Pizza brings the authentic taste of the Big Apple to Malaysia, specializing in massive 18-inch pies and classic by-the-slice options. Known for its crispy yet foldable crusts, the restaurant offers a variety of signature flavors alongside hearty American comfort food like waffle fries and boneless buffalo wings. While its operational status and locations have evolved over the years, it remains a highly searched brand for those craving a true New York-style pizza experience.</p>\n`,
-      faqs: [
-        { q: "What is Mikey's New York Pizza known for in Malaysia?", a: "Mikey's New York Pizza is famous for serving authentic, massive 18-inch New York-style pizzas with foldable crusts, available as whole pies or by the slice." },
-        { q: "Where can I find Mikey's New York Pizza locations?", a: "Historically, they have operated in popular areas like Bangsar and Mid Valley. However, due to management changes over time, it is highly recommended to check delivery apps like GrabFood or Foodpanda for currently active branches." },
-        { q: "Are there spicy options on the Mikey's New York Pizza menu?", a: "Yes! They are renowned for 'The 9-1-1 Pizza', an extremely spicy option topped with a fiery tomato base, chili, and cheese, designed for heat lovers." },
-        { q: "What kind of side dishes does Mikey's New York Pizza offer?", a: "Popular sides include their signature Waffle Fries—available in styles like 'Brooklyn' (with cheddar and beef gravy) or 'The Bronx' (with meatballs and marinara)—and boneless Buffalo Wings." },
-        { q: "Does the menu have vegetarian pizza options?", a: "Yes, vegetarian-friendly choices include the 'Pizza Bianco', a white pizza featuring a blend of four cheeses, and 'Mama's Wild Mushroom Pizza'." }
-      ],
-      menu: mikeysNewYorkPizzaMenu
-    },
-    {
-      name: "Amici Ristorante Italiano",
-      slug: "amici-ristorante-italiano",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1579684947550-22e945225d9a?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Italian", colors: "bg-red-800 text-white" }, { name: "Pasta", colors: "bg-green-800 text-white" }],
-      desc: "Authentic Southern Italian dining destination in Subang Jaya offering traditional recipes, handmade pastas, and wood-fired pizzas.",
-      seoArticle: `\n<h2>Amici Ristorante Italiano Malaysia Menu</h2>\n<p>Amici Ristorante Italiano is an authentic Southern Italian dining destination located in SS15, Subang Jaya, Malaysia. Helmed by Chef Antonio, the restaurant is celebrated for its traditional Calabrian-inspired recipes, handmade pastas, and wood-fired pizzas. It offers a warm, inviting atmosphere with pocket-friendly prices for high-quality Italian cuisine.</p>\n`,
-      faqs: [
-        { q: "Where is Amici Ristorante Italiano located in Malaysia?", a: "Amici Ristorante Italiano is located at 79, Jalan SS 15/5A, SS 15, 47500 Subang Jaya, Selangor, Malaysia." },
-        { q: "What are the most popular menu items at Amici Ristorante Italiano?", a: "Popular menu items include their wood-fired pizzas (like the Pizza Li Stagioni), handmade pastas such as Beef Cannelloni, Misto Fritto di Pesce, and classic Italian desserts like Tiramisu." },
-        { q: "Is Amici Ristorante Italiano in Subang Jaya halal?", a: "While Amici Ristorante Italiano states that liquor is not used in their cooking, they do serve alcohol on the premises, so they do not have a halal certification." },
-        { q: "Does Amici Ristorante Italiano offer food delivery?", a: "Yes, you can order delivery from Amici Ristorante Italiano via platforms like Foodpanda, subject to your location in the Subang Jaya area." },
-        { q: "What are the opening hours for Amici Ristorante Italiano?", a: "The restaurant is typically open daily from 12:00 PM to 12:00 AM." }
-      ],
-      menu: amiciRistoranteItalianoMenu
-    },
-    {
-      name: "KBB Burger & Steak",
-      slug: "kbb-burger-steak",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Steakhouse", colors: "bg-red-800 text-white" }, { name: "Burgers", colors: "bg-orange-800 text-white" }],
-      desc: "Premier dining destination celebrated for its high-quality Josper-grilled steaks, gourmet burgers, and Western cuisine.",
-      seoArticle: `\n<h2>KBB Burger & Steak Malaysia Menu</h2>\n<p>KBB Burger & Steak is a premier dining destination in Malaysia, celebrated for its high-quality charcoal-grilled steaks, gourmet burgers, and Western cuisine. With locations in Kuala Lumpur (TTDI), Kota Bharu, and Kuala Terengganu, the restaurant specializes in expertly prepared Josper-grilled cuts, including Aussie Wagyu, Tomahawk, and butter dry-aged steaks.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes at KBB Burger & Steak Malaysia?", a: "KBB Burger & Steak is famous for its Josper-grilled premium steaks, including Aussie Wagyu and Tomahawk cuts. They are also highly rated for their gourmet burgers like the Double Beef Extreme and Smokey Beef." },
-        { q: "Where is KBB Burger & Steak located in Malaysia?", a: "The restaurant operates multiple branches across Malaysia. The most prominent locations are in TTDI (Kuala Lumpur), Kota Bharu (Kelantan), and Kuala Terengganu." },
-        { q: "Does KBB Burger & Steak offer food delivery services?", a: "Yes, you can order from KBB Burger & Steak for delivery through major food delivery platforms like Foodpanda. Availability and delivery radius depend on the specific outlet." },
-        { q: "Are there non-beef options available on the menu?", a: "Yes, the menu includes a diverse selection of non-beef items such as Josper Grilled Barramundi, Smoked Duck Breast, Brined 1/2 Chicken, Aged Salmon Trout, and a variety of pastas." },
-        { q: "What is the price range at KBB Burger & Steak?", a: "Prices are reasonable for the quality, with appetizers and burgers ranging from RM 10.60 to RM 47.00. Premium mains and steaks generally start around RM 50.00 and can go up to RM 178.00 or more for specialty cuts." }
-      ],
-      menu: kbbBurgerSteakMenu
-    },
-    {
-      name: "If Only Restaurant",
-      slug: "if-only-restaurant",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Modern Australian", colors: "bg-green-800 text-white" }, { name: "Brunch", colors: "bg-yellow-700 text-white" }],
-      desc: "Produce-driven restaurant blending modern Australian brunch staples with Asian-fusion influences in a Balinese-inspired setting.",
-      seoArticle: `\n<h2>If Only Restaurant Malaysia Menu</h2>\n<p>If Only Restaurant in Kuala Lumpur is a popular culinary destination known for its aesthetic, Balinese-inspired interior and welcoming atmosphere. The produce-driven, pork-free menu blends modern Australian brunch staples with Asian-fusion influences, offering a diverse array of hearty meals, small plates, and specialty coffee. Located on the ground floor of Regal House in Taman U Thant, it serves as a serene oasis perfect for both casual brunch dates and intimate dinners.</p>\n`,
-      faqs: [
-        { q: "Is If Only Restaurant Malaysia Menu halal-certified?", a: "While the If Only Restaurant Malaysia Menu is not officially halal-certified, it is completely pork-free and emphasizes carefully sourced, fresh ingredients." },
-        { q: "What are the operating hours for If Only Restaurant in Kuala Lumpur?", a: "If Only Restaurant is open Tuesday through Saturday from 7:00 AM to 11:00 PM, and on Sundays from 7:00 AM to 6:00 PM. The restaurant is closed on Mondays." },
-        { q: "Do I need to make a reservation before visiting If Only Restaurant?", a: "Yes, making a reservation is highly recommended. The restaurant is extremely popular for both brunch and dinner, and weekend spots on the If Only Restaurant Malaysia Menu fill up quickly." },
-        { q: "What kind of food does the If Only Restaurant Malaysia Menu serve?", a: "The If Only Restaurant Malaysia Menu features modern Australian-Japanese fusion, offering popular items like the If Only Big Breakfast, Crispy Big-Eye Fish Don, diverse small plates, and freshly baked pastries." },
-        { q: "Where is If Only Restaurant located and is there parking available?", a: "The restaurant is located on the Ground Floor of Regal House, Taman U Thant, Kuala Lumpur. Parking is available but can be limited during peak hours, so arriving early is advised." }
-      ],
-      menu: ifOnlyRestaurantMenu
-    },
-    {
-      name: "Pizza Mansion",
-      slug: "pizza-mansion",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pizza", colors: "bg-red-800 text-white" }, { name: "Italian", colors: "bg-green-800 text-white" }],
-      desc: "Artisanal pizza chain celebrated for its wood-fired pizzas and cozy, vintage-inspired ambiance.",
-      seoArticle: `\n<h2>Pizza Mansion Malaysia Menu</h2>\n<p>Pizza Mansion is a well-known artisanal pizza chain in Malaysia, celebrated for its wood-fired pizzas and cozy, vintage-inspired ambiance. With popular locations in Petaling Jaya, Kuala Lumpur, and Damansara, they offer creative spins on classic pizza flavors alongside beloved sides.</p>\n`,
-      faqs: [
-        { q: "What is the average price of a pizza on the Pizza Mansion Malaysia menu?", a: "Pizzas at Pizza Mansion Malaysia typically range from RM 30 to RM 40, depending on the flavor and toppings." },
-        { q: "What are the most popular pizzas to order at Pizza Mansion?", a: "Fan favorites include the Holy Pepperoni, the Pineapple Express (featuring smoked duck and jalapeños), and the Big Brunch (which comes with a runny egg on top)." },
-        { q: "What are the best side dishes at Pizza Mansion?", a: "The Truffle Mac & Cheese (priced around RM 20) is a highly recommended staple, along with their affordable Baby Garlic Bread." },
-        { q: "Does Pizza Mansion Malaysia offer delivery?", a: "Yes, Pizza Mansion offers delivery via their Beep ordering platform, as well as on GrabFood and Foodpanda, depending on your proximity to their branches." },
-        { q: "Is the Pizza Mansion Malaysia menu halal-friendly?", a: "Pizza Mansion is a pork-free establishment and sources its ingredients from halal-certified suppliers, making it a very popular dining spot for Muslim patrons. It's always best to check with the specific branch regarding official certification." }
-      ],
-      menu: pizzaMansionMenu
-    },
-    {
-      name: "The Manhattan FISH MARKET",
-      slug: "manhattan-fish-market",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Seafood", colors: "bg-blue-800 text-white" }, { name: "American", colors: "bg-red-800 text-white" }],
-      desc: "Popular Halal-certified casual dining chain offering American-style seafood with an experiential flaming dining concept.",
-      seoArticle: `\n<h2>The Manhattan FISH MARKET Malaysia Menu</h2>\n<p>Founded in 2002 and inspired by New York's Fulton Fish Market, The Manhattan FISH MARKET is a popular Halal-certified casual dining chain in Malaysia specializing in American-style seafood. The restaurant is celebrated for its experiential dining, offering dishes prepared through five distinct cooking methods: grilled, fried, baked, poached, and their signature on-the-spot flaming.</p>\n`,
-      faqs: [
-        { q: "Is The Manhattan FISH MARKET Malaysia Halal-certified?", a: "Yes, The Manhattan FISH MARKET in Malaysia is fully Halal-certified, ensuring that all ingredients, sourcing, and food preparation processes meet strict Islamic dietary guidelines." },
-        { q: "What is the most popular item on The Manhattan FISH MARKET menu?", a: "The most famous items are the classic Manhattan Fish 'N Chips and the legendary Manhattan Flaming Seafood Platter, which features a spectacular table-side flambé experience." },
-        { q: "How much does the Manhattan Fish 'N Chips cost in Malaysia?", a: "Prices for the Manhattan Fish 'N Chips generally range from RM 23.00 for the Dory fish option to around RM 44.00 for premium cuts like Salmon. Note that delivery app prices may be slightly higher." },
-        { q: "Does The Manhattan FISH MARKET serve non-seafood dishes?", a: "Yes! For those who prefer alternatives to seafood, the menu includes hearty options like the Nasi Chicken Chop, grilled chicken, and various pastas such as Creamy Mushroom Carbonara." },
-        { q: "Is delivery available for The Manhattan FISH MARKET in Malaysia?", a: "Absolutely. You can easily order your favorite meals for delivery through their official website as well as major delivery platforms like GrabFood and Foodpanda." }
-      ],
-      menu: theManhattanFishMarketMenu
-    },
-    {
-      name: "Pokok Lalaport",
-      slug: "pokok-lalaport",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Glasshouse Cafe", colors: "bg-green-800 text-white" }, { name: "Brunch", colors: "bg-yellow-700 text-white" }],
-      desc: "Stunning glasshouse-inspired cafe offering a perfect blend of hearty Western brunch classics and local Malaysian favorites.",
-      seoArticle: `\n<h2>Pokok Lalaport Malaysia</h2>\n<p>Pokok Lalaport, an extension of the popular Pokok KL cafe, is located at LaLaport Bukit Bintang City Centre and boasts a stunning glasshouse-inspired aesthetic with lush greenery. It offers a diverse menu that perfectly blends Western cafe staples like big breakfasts and steaks with beloved Malaysian favorites such as Nasi Lemak. It is a highly sought-after dining destination in Kuala Lumpur for both casual meals and scenic gatherings.</p>\n`,
-      faqs: [
-        { q: "What kind of food does Pokok Lalaport serve?", a: "Pokok Lalaport serves a delicious mix of Western brunch classics, hearty mains, and authentic Malaysian comfort food. Popular dishes include their Big Breakfast, Nasi Lemak Surf & Turf, and Signature Truffle Fries." },
-        { q: "Is Pokok Lalaport halal-certified?", a: "Yes, Pokok Lalaport sources its ingredients from halal-certified suppliers and is known as a popular Muslim-friendly cafe in Kuala Lumpur." },
-        { q: "Does Pokok Lalaport offer vegetarian options?", a: "Yes, the menu features several vegetarian-friendly options such as the Truffled Mushroom Royale, Avo Stack, and various meat-free pasta dishes." },
-        { q: "What is the average price range for a meal at Pokok Lalaport?", a: "You can expect to spend around RM 30 to RM 50 per person. Brunch items range from RM 28 to RM 49, while local specialties and pastas typically cost between RM 20 and RM 35." },
-        { q: "Can I make a reservation at Pokok Lalaport?", a: "Yes, reservations are highly recommended, especially during weekends and peak brunch hours, as the cafe is a popular spot for both food and its Instagram-worthy glasshouse ambiance." }
-      ],
-      menu: pokokLalaportMenu
-    },
-    {
-      name: "Two Sons Bistro",
-      slug: "two-sons-bistro",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Clams & Mussels", colors: "bg-blue-900 text-white" }, { name: "Western Fusion", colors: "bg-stone-800 text-white" }],
-      desc: "Popular dining spot offering a diverse fusion of Western and Malaysian cuisine, famous for its 16 variations of fresh clams and mussels.",
-      seoArticle: `\n<h2>Two Sons Bistro Malaysia</h2>\n<p>Two Sons Bistro in Malaysia is a popular dining establishment offering a diverse fusion of Western and traditional Malaysian cuisine. They are best known for their signature clams and mussels, which can be prepared in 16 unique flavor variations. Operating as a 'no pork, no lard, no alcohol' restaurant, it provides a welcoming atmosphere across several prime locations in the Klang Valley.</p>\n`,
-      faqs: [
-        { q: "What is the signature dish at Two Sons Bistro Malaysia?", a: "The signature dishes at Two Sons Bistro are their clams and mussels, which can be customized in 16 different flavor variations, such as Buttercream Chilli. They are typically served with your choice of fries, garlic bread, or mini mantou buns." },
-        { q: "Is Two Sons Bistro Malaysia halal-certified?", a: "While it may not hold an official halal certification, Two Sons Bistro is a Muslim-friendly restaurant that operates strictly as a 'no pork, no lard, and no alcohol' establishment." },
-        { q: "What type of food does Two Sons Bistro serve?", a: "The bistro serves a mix of Western and Malaysian cuisine. You can find everything from steaks, pastas, and pizzas to local favorites like Nasi Kerabu Ayam Percik and Laksa Johor." },
-        { q: "Where are Two Sons Bistro outlets located in Malaysia?", a: "Two Sons Bistro has multiple branches across the Klang Valley, with popular outlets located in Publika, Suria KLCC, Pavilion KL, and The Exchange TRX." },
-        { q: "Are the menu prices at Two Sons Bistro inclusive of taxes?", a: "No, the prices listed on the menu are generally exclusive of a 10% service charge and a 6% government tax, which will be added to your final bill." }
-      ],
-      menu: twoSonsBistroMenu
-    },
-    {
-      name: "IKEA Restaurant",
-      slug: "ikea",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1572656306390-40a9fc3899f7?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Swedish", colors: "bg-blue-700 text-white" }, { name: "Family Friendly", colors: "bg-yellow-500 text-black" }],
-      desc: "Family-friendly dining offering affordable authentic Swedish delicacies, notably the iconic meatballs, alongside local favorites.",
-      seoArticle: `\n<h2>IKEA Restaurant Malaysia</h2>\n<p>IKEA Malaysia Restaurant offers a family-friendly dining experience featuring a mix of authentic Swedish delicacies and beloved local Malaysian flavors. Known for its affordable, hearty meals and casual cafeteria-style setting, it serves iconic dishes like Swedish meatballs alongside localized snacks. All food served at the Swedish Restaurant and Bistro is Halal-certified by JAKIM, ensuring a welcoming environment for all diners.</p>\n`,
-      faqs: [
-        { q: "Is the food at the IKEA Malaysia Restaurant Halal?", a: "Yes, all food served across the IKEA Swedish Restaurant, Swedish Bistro, and Swedish Café in Malaysia is Halal-certified by JAKIM." },
-        { q: "What are the best items to eat on the IKEA Malaysia menu?", a: "The most popular items include the iconic Swedish Beef Meatballs, the affordable Chicken Sausage Bun, and the famous, crispy Curry Puffs from the Swedish Bistro." },
-        { q: "Does IKEA Malaysia offer vegetarian or plant-based meals?", a: "Yes, IKEA offers excellent plant-based alternatives, most notably their popular Plant Balls, which look and taste like meat but are made entirely from plant-based ingredients." },
-        { q: "Do IKEA Family members get discounts on food?", a: "Absolutely! IKEA Family members enjoy exclusive meal promotions, discounted prices on select menu items like the Foot-long Chicken Sausage, and often receive perks like free hot drinks on weekdays." },
-        { q: "Can I grab a quick snack without sitting in the main restaurant?", a: "Yes, you can visit the Swedish Bistro located just past the checkout counters for quick bites like curry puffs, hotdogs, and the famous Oat Vanilla Ice Cream for just RM 1.20." }
-      ],
-      menu: ikeaMenu
-    },
-    {
-      name: "Atsky Bukit Bintang",
-      slug: "atsky-bukit-bintang",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Rooftop Dining", colors: "bg-indigo-900 text-white" }, { name: "Steakhouse", colors: "bg-red-800 text-white" }],
-      desc: "Popular Halal rooftop restaurant offering affordable 'sky dining' with a diverse Western and Asian fusion menu.",
-      seoArticle: `\n<h2>Atsky Bukit Bintang Malaysia</h2>\n<p>Atsky Bukit Bintang is a popular Halal-certified rooftop restaurant located at Menara Worldwide in Kuala Lumpur, offering an affordable 'sky dining' experience with scenic city views. The menu features a diverse blend of Western, Asian fusion, and local cuisines, and is particularly renowned for its signature 'Youyu' beef steak. It is an ideal spot for romantic dates, birthdays, and casual dinners under the stars.</p>\n`,
-      faqs: [
-        { q: "What type of food is on the Atsky Bukit Bintang Malaysia menu?", a: "The Atsky Bukit Bintang menu offers a diverse range of Halal-certified dishes, including Western steaks, pastas, Asian fusion rice dishes, light bites, and desserts." },
-        { q: "How much does the signature steak cost at Atsky Bukit Bintang?", a: "Atsky's famous signature 'Youyu' Beef Steak is very affordable, typically priced at RM 49.00 for 150g, RM 65.00 for 200g, and RM 79.00 for 250g." },
-        { q: "Is the Atsky Bukit Bintang Malaysia menu Halal-certified?", a: "Yes, all items on the Atsky Bukit Bintang menu are 100% Halal-certified, making it a highly recommended dining spot for Muslim patrons in Kuala Lumpur." },
-        { q: "What are the operating hours for Atsky Bukit Bintang?", a: "Atsky Bukit Bintang is open daily from 5:00 PM to 1:00 AM, making it the perfect destination for enjoying dinner or late-night snacks with a beautiful rooftop view." },
-        { q: "Are there vegetarian options available on the Atsky menu?", a: "Yes, the menu features vegetarian-friendly options such as the Veggie Lover Pizza and select pasta dishes like Aglio Olio and Pesto." }
-      ],
-      menu: atskyBukitBintangMenu
-    },
-    {
-      name: "Cowboys Barbecue & Grill",
-      slug: "cowboys-barbecue",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Texas BBQ", colors: "bg-amber-800 text-white" }, { name: "Smoked Meats", colors: "bg-orange-900 text-white" }],
-      desc: "Muslim-owned eatery specializing in authentic Texas-style smoked meats and generous barbecue platters.",
-      seoArticle: `\n<h2>Cowboys Barbecue & Grill Malaysia</h2>\n<p>Cowboys Barbecue & Grill (originally famous as Cowboys Food Truck) is a popular Muslim-owned eatery in Malaysia specializing in authentic Texas-style smoked meats. They are renowned for their slow-smoked beef brisket, tender ribs, and generous platters that perfectly blend Southern American BBQ techniques with local flair.</p>\n`,
-      faqs: [
-        { q: "Is Cowboys Barbecue & Grill in Malaysia Halal?", a: "Yes, Cowboys Barbecue & Grill is a Muslim-owned establishment, serving 100% pork-free and halal-friendly authentic American barbecue." },
-        { q: "What are the most popular items on the Cowboys Food Truck menu?", a: "Fan favorites include their signature slow-smoked Beef Brisket, the Chuck Norris Platter, Beefy Boss Tacos, and their 'Just Wing It' flavored chicken wings." },
-        { q: "Does Cowboys Barbecue & Grill offer delivery services?", a: "Yes, you can easily order their smoked BBQ platters and meals online for delivery or self-pickup via platforms like Oddle and Beepit." },
-        { q: "Where is Cowboys Barbecue & Grill located?", a: "Originally a roaming food truck famously operating in Subang Jaya and TTDI, Cowboys Barbecue & Grill now operates with a more permanent base in Ara Damansara, Petaling Jaya." },
-        { q: "Are there sharing platters available on the menu?", a: "Absolutely! They offer massive sharing platters like the Roundhouse Platter (ideal for 3-5 people) and the Yellowstone Platter, which feature a combination of brisket, ribs, chicken, and sides." }
-      ],
-      menu: cowboysBarbecueAndGrillMenu
-    },
-    {
-      name: "Tony Roma's",
-      slug: "tony-romas",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Signature Ribs", colors: "bg-orange-800 text-white" }, { name: "Steakhouse", colors: "bg-stone-800 text-white" }],
-      desc: "World-famous casual dining chain celebrated as 'the place for ribs', alongside premium steaks and iconic appetizers.",
-      seoArticle: `\n<h2>Tony Roma's Malaysia</h2>\n<p>Tony Roma's Malaysia is a popular casual dining restaurant chain that first opened its doors in Sunway Pyramid in 2006. Famous globally as "the place for ribs", it has built a strong reputation for serving some of the best ribs in town. It is 100% Halal-certified by JAKIM, making it a favorite for all Malaysians. The menu is diverse, featuring their signature Bountiful Beef and Lamb Ribs, premium steaks (like the Ribeye and NY Striploin), fresh seafood, and iconic appetizers such as the Onion Loaf and Kickin' Shrimp.</p>\n`,
-      faqs: [
-        { q: "Is Tony Roma's Malaysia Halal-certified?", a: "Yes, all Tony Roma's outlets across Malaysia are 100% Halal certified by JAKIM." },
-        { q: "What is Tony Roma's famous for?", a: "Tony Roma's is legendary for its world-famous ribs, particularly their signature beef and lamb ribs, as well as the original Onion Loaf and Kickin' Shrimp." },
-        { q: "Does Tony Roma's Malaysia offer delivery?", a: "Yes, you can order from Tony Roma's via their official delivery platforms and third-party apps like Foodpanda, though prices may include additional service charges." },
-        { q: "What are the prices of ribs at Tony Roma's Malaysia?", a: "Prices may vary by location and platform, but typically Bountiful Beef Ribs cost around RM 73.10 and Lamb Ribs around RM 74.95." },
-        { q: "Where was the first Tony Roma's opened in Malaysia?", a: "The first Tony Roma's in Malaysia opened its doors at Sunway Pyramid in 2006." }
-      ],
-      menu: tonyRomasMenu
-    },
-    {
-      name: "KBB Burger & Steak",
-      slug: "kbb-burger-and-steak",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Steaks", colors: "bg-red-900 text-white" }, { name: "Josper Grill", colors: "bg-neutral-800 text-white" }],
-      desc: "Premier dining destination specializing in high-quality dry-aged steaks, artisanal burgers, and Josper charcoal-grilled meats.",
-      seoArticle: `\n<h2>KBB Burger & Steak Malaysia</h2>\n<p>KBB Burger & Steak is a premier dining destination in Malaysia specializing in high-quality Western cuisine. They are particularly renowned for their premium dry-aged steaks, artisanal smashed burgers, and the use of a signature Josper charcoal oven. This oven delivers authentic, intense smoky flavors across their menu, elevating dishes like the Josper Roasted Bone Marrow and Braised Angus Beef Backribs. With multiple locations, including TTDI and Kota Bharu, it offers a sophisticated yet accessible experience for serious meat lovers.</p>\n`,
-      faqs: [
-        { q: "What kind of food does KBB Burger & Steak Malaysia serve?", a: "KBB Burger & Steak specializes in premium Western cuisine, offering high-quality dry-aged steaks, Josper-grilled meats, artisanal smashed burgers, and a variety of pastas and appetizers." },
-        { q: "Are the ingredients at KBB Burger & Steak Halal?", a: "Yes, KBB Burger & Steak sources its premium meats, including Angus and Wagyu beef, from certified Halal suppliers, making it a Muslim-friendly dining destination in Malaysia." },
-        { q: "What are the signature dishes at KBB Burger & Steak?", a: "Signature items include the Braised Angus Beef Backribs, Triple Smashed Burger, Josper Roasted Bone Marrow, and premium steaks like Tomahawk and Wagyu prepared in their signature Josper oven." },
-        { q: "How much does a meal cost at KBB Burger & Steak?", a: "Prices generally range from RM 10.60 for basic sides to RM 178.08 for premium mains like Angus Beef Backribs. Specialized cuts of Wagyu and dry-aged steaks are often priced by weight and may cost more." },
-        { q: "Does KBB Burger & Steak offer food delivery services in Malaysia?", a: "Yes, you can conveniently order from KBB Burger & Steak through popular food delivery platforms like GrabFood and Foodpanda across their various outlet locations such as TTDI and Kota Bharu." }
-      ],
-      menu: kbbBurgerAndSteakMenu
-    },
-    {
-      name: "Burger & Lobster KLCC",
-      slug: "burger-and-lobster-klcc",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1559742811-822873691df8?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Seafood", colors: "bg-red-700 text-white" }, { name: "Burgers", colors: "bg-orange-800 text-white" }],
-      desc: "Premium dining destination at Suria KLCC offering wild-caught Atlantic lobsters and prime-cut burgers.",
-      seoArticle: `\n<h2>Burger & Lobster KLCC Malaysia</h2>\n<p>Burger & Lobster at Suria KLCC is a premium dining destination in Kuala Lumpur renowned for its singular focus on two core ingredients: wild-caught Atlantic lobsters and prime-cut beef burgers. The stylish 4,500 square foot restaurant features live lobster tanks and offers picturesque views of KLCC Park and Symphony Lake. While the brand is globally famous for its classic Lobster Rolls and whole steamed or grilled lobsters, this specific location uniquely serves an exclusive Lobster Laksa. Dining here is a luxurious affair, perfectly suited for celebrations and indulgent dining.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Burger & Lobster KLCC menu?", a: "The menu's signature dishes include the Original Lobster (grilled or steamed), the classic Original Lobster Roll, and the Mayfair Burger. An exclusive dish to this location is the unique Lobster Laksa, featuring Canadian lobster in a rich aromatic coconut broth." },
-        { q: "How much does a meal cost at Burger & Lobster KLCC Malaysia?", a: "Prices vary depending on your order, but standard prime-cut burgers generally range from RM 55 to RM 95, while signature lobster dishes, rolls, and combination meals usually range between RM 130 and RM 270." },
-        { q: "Does Burger & Lobster KLCC accept table reservations?", a: "Following the brand's global policy, the Suria KLCC outlet operates strictly on a walk-in basis and typically does not accept reservations. Guests should plan ahead for potential queues during peak dining hours." },
-        { q: "Where exactly is Burger & Lobster located within Suria KLCC?", a: "The restaurant is situated on the ground floor of Suria KLCC in Kuala Lumpur. It offers a luxurious indoor dining area as well as an expansive outdoor terrace with stunning views of KLCC Park and Symphony Lake." },
-        { q: "Are the lobsters served at Burger & Lobster KLCC fresh?", a: "Yes, the restaurant prides itself on serving fresh, premium wild-caught Atlantic lobsters. They are flown in directly from Nova Scotia, Canada, and kept in live lobster tanks located within the restaurant." }
-      ],
-      menu: burgerAndLobsterKlccMenu
-    },
-    {
-      name: "Oceano Symphony",
-      slug: "oceano-symphony",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Seafood & Grill", colors: "bg-blue-600 text-white" }, { name: "Permanently Closed", colors: "bg-red-600 text-white" }],
-      desc: "Previously a popular beachside cafe and restaurant in Penang known for its seafood and Western grill.",
-      seoArticle: `\n<h2>Oceano Symphony Malaysia (Permanently Closed)</h2>\n<p>Oceano Symphony was a well-known beachside dining destination located in Tanjung Bungah, Penang. It offered patrons a fantastic combination of scenic ocean views and a hearty menu focused on Western grills, pastas, and fresh seafood. While prices were considered slightly premium, diners often felt the generous portions and the unbeatable ambiance justified the cost. Please note that recent reports indicate this establishment is permanently closed.</p>\n`,
-      faqs: [
-        { q: "Is Oceano Symphony still open?", a: "Unfortunately, recent reports indicate that Oceano Symphony in Tanjung Bungah, Penang, is permanently closed." },
-        { q: "What type of food did Oceano Symphony serve?", a: "They specialized in Western cuisine, particularly grilled seafood, steaks, pastas, and beachside beverages." },
-        { q: "Where was Oceano Symphony located?", a: "It was situated along the beach in Tanjung Bungah, Penang, Malaysia." }
-      ],
-      menu: oceanoSymphonyMenu
-    },
-    {
-      name: "Alwi's Food (Alwis Food)",
-      slug: "alwis-food",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Western & Steaks", colors: "bg-orange-700 text-white" }],
-      desc: "Cozy Western restaurant in Sungai Buloh / Shah Alam famous for quality steaks and hearty pastas.",
-      seoArticle: `\n<h2>Alwi's Food Malaysia</h2>\n<p>Located in Pusat Komersial TSB, Shah Alam, Alwi's Food has built a strong reputation as a hidden gem for high-quality Western cuisine in the Sungai Buloh area. The restaurant prides itself on serving premium meat cuts, including Black Angus Ribeye and Tomahawk steaks, alongside comforting classics like grilled chicken chops and creamy pastas. While some premium items command higher prices, many diners praise the generous portions, excellent taste, and the overall value provided in a comfortable dining setting.</p>\n`,
-      faqs: [
-        { q: "Where is Alwi's Food located?", a: "Alwi's Food is located at 87, Jalan Nautika B U20/B, Pusat Komersial TSB, 40160 Shah Alam, Selangor." },
-        { q: "What is the price range at Alwi's Food?", a: "Prices range from affordable pasta and chicken dishes (RM 20 - RM 40) to premium steaks that can exceed RM 100+." },
-        { q: "What are the most popular items at Alwi's Food?", a: "Diners frequently recommend their Black Angus steaks, Grilled Chicken with Wild Mushroom Sauce, and Seafood Marinara Pasta." },
-        { q: "What are the opening hours for Alwi's Food?", a: "They are generally open from Tuesday to Sunday, 11:30 AM to 10:30 PM, and are closed on Mondays." },
-        { q: "Do they serve local food as well?", a: "The menu is heavily focused on Western dishes, though they occasionally feature localized variations or fusion items." }
-      ],
-      menu: alwisFoodMenu
-    },
-    {
-      name: "Cleaver Shed",
-      slug: "cleaver-shed",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Steaks", colors: "bg-red-900 text-white" }],
-      desc: "Cozy, meat-centric restaurant offering high-quality, competitively priced premium steaks like Wagyu and Angus.",
-      seoArticle: `\n<h2>Cleaver Shed Malaysia</h2>\n<p>Cleaver Shed is a hidden gem located in Plaza TTDI, Kuala Lumpur, highly praised for serving exceptional, premium cuts of meat at competitive prices. As the name suggests, the restaurant takes its meats seriously, focusing primarily on high-quality steaks like Sanchoku Wagyu and Argentinian Ribeye. The ambiance is cozy and intimate, making it a fantastic spot for a carnivorous feast or a date night. Rather than an overwhelming menu, they concentrate on doing a few things exceptionally well: perfectly grilled steaks paired with house-made sauces (like their vibrant chimichurri), alongside a small selection of pastas and burgers.</p>\n`,
-      faqs: [
-        { q: "What is the best thing to eat at Cleaver Shed?", a: "Their steaks are the main attraction. The Sanchoku Wagyu and Argentinian Ribeye, served medium-rare with a side of chimichurri sauce, are highly recommended." },
-        { q: "How much does a steak cost at Cleaver Shed?", a: "While premium, the prices are considered very reasonable for the quality. An Angus Striploin is around RM 95, while higher-end cuts like Sanchoku Wagyu (350g) can be around RM 270." },
-        { q: "Where is Cleaver Shed located?", a: "Cleaver Shed is located at B-01-05, Plaza TTDI, Jalan Wan Kadir 3, Taman Tun Dr Ismail (TTDI), Kuala Lumpur." },
-        { q: "Is Cleaver Shed halal?", a: "Cleaver Shed is a pork-free establishment and sources its meats from halal-certified suppliers." },
-        { q: "Do I need a reservation for Cleaver Shed?", a: "Yes, because the space is relatively intimate and highly popular, it is strongly recommended to book a table in advance, especially for dinner." }
-      ],
-      menu: cleaverShedMenu
-    },
-    {
-      name: "KBB Artisan Steakhouse TTDI",
-      slug: "kbb-artisan-steakhouse-ttdi",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal Steakhouse", colors: "bg-stone-800 text-white" }],
-      desc: "Premium halal-certified steakhouse specializing in Josper charcoal-grilled steaks, smoked meats, and artisan burgers.",
-      seoArticle: `\n<h2>KBB Artisan Steakhouse TTDI</h2>\n<p>KBB Artisan Steakhouse, located in the vibrant TTDI neighborhood of Kuala Lumpur, is a premier destination for meat lovers seeking a high-quality, halal-certified dining experience. They are renowned for utilizing a Josper charcoal oven, which imparts a distinctive, smoky flavor and perfect crust to their premium cuts of meat. The menu boasts an impressive array of dishes, from their towering Triple Smashed Burgers and Josper Grilled Wagyu to extravagant Braised Angus Beef Backribs. With a focus on artisanal cooking techniques, KBB offers a sophisticated yet approachable western dining experience.</p>\n`,
-      faqs: [
-        { q: "What is KBB Artisan Steakhouse known for?", a: "KBB is famous for their high-quality meats cooked in a Josper charcoal oven, particularly their Angus Beef Backribs, Aussie Rack of Lamb, and artisanal smashed burgers." },
-        { q: "Is KBB Artisan Steakhouse halal?", a: "Yes, KBB Artisan Steakhouse TTDI is a fully halal-certified establishment, making it a highly popular premium steakhouse option for Muslim diners." },
-        { q: "How much does a steak cost at KBB TTDI?", a: "Prices vary based on the cut. Premium mains like the Braised Angus Beef Backribs or Josper Aussie Rack of Lamb are priced around RM 167 to RM 178, while gourmet burgers range from RM 30 to RM 70." },
-        { q: "Where is KBB Artisan Steakhouse located?", a: "They are located at 26, Jalan Tun Mohd Fuad 1, Taman Tun Dr Ismail (TTDI), Kuala Lumpur." },
-        { q: "Do I need to make a reservation for KBB TTDI?", a: "It is highly recommended to make a reservation, especially for dinner on weekends, as the restaurant frequently gets fully booked." }
-      ],
-      menu: kbbArtisanSteakhouseMenu
-    },
-    {
-      name: "Burger & Lobster KLCC",
-      slug: "burger-lobster-klcc",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1553659971-f01207815844?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Seafood & Burgers", colors: "bg-red-800 text-white" }],
-      desc: "Premium dining import from London specializing in just two things done exceptionally well: prime Nebraskan beef burgers and wild Atlantic lobsters.",
-      seoArticle: `\n<h2>Burger & Lobster KLCC</h2>\n<p>Originating from London, Burger & Lobster has made a significant mark in Malaysia with its flagship outlet in Suria KLCC. True to its name, the restaurant focuses on perfecting a streamlined menu consisting of premium Nebraskan beef burgers and fresh, wild-caught Atlantic lobsters. Whether you prefer your lobster steamed, grilled, baked in a rich mac & cheese, or served chilled in their signature toasted brioche roll, the quality is consistently exceptional. With its chic interior and prime location, it offers a luxurious yet unpretentious dining experience.</p>\n`,
-      faqs: [
-        { q: "What should I order at Burger & Lobster KLCC?", a: "The Original Lobster Roll is a fan favorite, featuring fresh lobster meat in a toasted brioche bun. If you have a larger appetite, the B&L Beast Burger (which combines a beef patty and lobster meat) or a whole grilled lobster are excellent choices." },
-        { q: "How much does a meal cost at Burger & Lobster Malaysia?", a: "It is a premium dining experience. Burgers typically start around RM 69, the Original Lobster Roll is about RM 130, and a whole lobster is upwards of RM 220." },
-        { q: "Where is Burger & Lobster located in Kuala Lumpur?", a: "The main Kuala Lumpur outlet is located on the Ground Floor of Suria KLCC (facing the KLCC park/fountains). They also have an outlet in Resorts World Genting." },
-        { q: "Is Burger & Lobster Malaysia halal?", a: "Burger & Lobster is pork-free and uses ingredients from halal-certified suppliers. However, they serve alcohol at their bar, so the restaurant itself does not hold a halal certification." },
-        { q: "Do I need to make a reservation for Burger & Lobster KLCC?", a: "While walk-ins are welcome, it is highly recommended to make a reservation, especially for dinner or on weekends, as it is a very popular dining spot." }
-      ],
-      menu: burgerLobsterMenu
-    },
-    {
-      name: "Sky51 EQ Kuala Lumpur",
-      slug: "sky51-eq-kuala-lumpur",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fine Dining", colors: "bg-slate-800 text-white" }],
-      desc: "Luxurious rooftop destination at EQ Kuala Lumpur housing the fine-dining Sabayon restaurant and the chic Blue lounge with panoramic city views.",
-      seoArticle: `\n<h2>Sky51 EQ Kuala Lumpur</h2>\n<p>Sky51 at EQ Kuala Lumpur is a premier rooftop destination that houses both the Blue lounge/bar and the award-winning fine-dining restaurant Sabayon. Located on the 51st floor, it offers breathtaking, panoramic views of the Kuala Lumpur skyline, including the iconic Petronas Twin Towers. Known for its sophisticated ambiance, Sky51 provides an elevated culinary experience featuring contemporary European cuisine, an exquisite Sunday Sky Brunch, and bespoke artisanal cocktails, making it a highly sought-after venue for celebrations and romantic dinners.</p>\n`,
-      faqs: [
-        { q: "What restaurants are located at Sky51 EQ Kuala Lumpur?", a: "Sky51 houses two main venues: Sabayon, a premium fine-dining restaurant offering contemporary European cuisine, and Blue, an upscale open-air lounge and bespoke speakeasy bar." },
-        { q: "How much does the Sunday Sky Brunch at Sabayon (Sky51) cost?", a: "The popular four-course Sunday Sky Brunch at Sabayon is priced at approximately RM 198+ per adult and RM 68+ per child (ages 6–12). An optional free-flow beverage package can be added for around RM 228+." },
-        { q: "Is there a dress code for Sky51 EQ Kuala Lumpur?", a: "Yes, a strict smart casual dress code applies. For gentlemen, shorts, sleeveless shirts, and open-toed shoes (sandals/slippers) are not permitted." },
-        { q: "Are children allowed at Sky51?", a: "Entry to the Blue lounge and general access to Sky51 in the evening is restricted to guests aged 21 and above. However, Sabayon does allow children for specific events like the Sunday Sky Brunch." },
-        { q: "Do I need to make a reservation for Sky51?", a: "Advance reservations are highly recommended for both Sabayon and Blue, particularly if you want to secure window seating with views of the Twin Towers." }
-      ],
-      menu: sky51Menu
-    },
-    {
-      name: "Fuel Shack",
-      slug: "fuel-shack",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Gourmet Burgers", colors: "bg-orange-700 text-white" }],
-      desc: "Homegrown Malaysian fast-casual restaurant chain specializing in premium burgers made with 100% grass-fed Australian beef and lamb.",
-      seoArticle: `\n<h2>Fuel Shack</h2>\n<p>Fuel Shack is a homegrown Malaysian fast-casual restaurant chain specializing in premium Western-style comfort food, most notably burgers made with 100% grass-fed Australian beef and lamb. Founded with the mission to bridge the gap between mass-market fast food and upscale gourmet burgers, Fuel Shack offers quality ingredients at accessible prices in casual settings such as shopping malls and petrol stations. The chain is Halal-friendly and has multiple outlets across Malaysia, including locations in Kuala Lumpur, Selangor, Putrajaya, and Sarawak.</p>\n`,
-      faqs: [
-        { q: "What is on the Fuel Shack Malaysia menu?", a: "The Fuel Shack Malaysia menu features premium Australian beef and lamb burgers (such as the Original Shack and Lamb Supreme), hot dogs (known as 'Dawgs'), chicken dishes like Chicken Chop and Aloha Chicken, sandwiches and wraps, finger food sides (Cheese Fries, Chicken Nuggets), soups, salads, and beverages." },
-        { q: "Is Fuel Shack Malaysia Halal?", a: "Yes, Fuel Shack Malaysia sources its meat and ingredients from Halal-certified suppliers, making it a popular Halal-friendly dining option." },
-        { q: "How much does a burger cost at Fuel Shack Malaysia?", a: "Burger prices at Fuel Shack Malaysia typically range from around RM 18.30 for a Cheeseburger up to RM 32.90 for the hearty Mini Tower. Popular options like the Original Shack start from RM 22.00, while the Lamb Supreme is approximately RM 25.40." },
-        { q: "Where are the Fuel Shack Malaysia outlet locations?", a: "Fuel Shack has multiple outlets across Malaysia, including locations at Suria KLCC, NU Sentral, Plaza Low Yat, IOI City Mall (Putrajaya), AEON Mall Shah Alam, and various Shell petrol station kiosks. There are also outlets in Sarawak (Sibu and Miri)." },
-        { q: "Can I order Fuel Shack Malaysia online for delivery?", a: "Yes, Fuel Shack Malaysia is available for online food delivery through platforms like Foodpanda and GrabFood. Simply search for 'Fuel Shack' on your preferred delivery app and select your nearest outlet." }
-      ],
-      menu: fuelShackMenu
-    },
-    {
-      name: "The Manhattan FISH MARKET",
-      slug: "the-manhattan-fish-market",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal Seafood", colors: "bg-blue-700 text-white" }],
-      desc: "Malaysian-born JAKIM Halal-certified seafood restaurant chain since 2002, famous for the dramatic tableside flaming seafood platters and signature Fish 'N Chips.",
-      seoArticle: `\n<h2>The Manhattan FISH MARKET</h2>\n<p>The Manhattan FISH MARKET is a Malaysian-born casual dining restaurant chain founded in 2002 by George Ang, Dickson Low, and Dr. Jeffrey Goh, with its first outlet at Mid Valley Megamall, Kuala Lumpur. Despite its American-inspired name, the brand is proudly homegrown and has since expanded across Malaysia and into international markets including Singapore, Indonesia, and the Middle East. The restaurant specialises in American-Mediterranean style seafood, serving up signature dishes like the Manhattan Fish 'N Chips, Garlic Herb Mussels, and the theatrical Manhattan Flaming Seafood Platter.</p>\n`,
-      faqs: [
-        { q: "What is The Manhattan FISH MARKET Malaysia menu known for?", a: "The Manhattan FISH MARKET Malaysia menu is best known for its signature Fish 'N Chips (available in Dory, Pollock, and Salmon varieties), the iconic Manhattan Flaming Seafood Platter — which is dramatically flamed tableside — and the beloved Garlic Herb Mussels starter." },
-        { q: "Is The Manhattan FISH MARKET Malaysia Halal-certified?", a: "Yes, The Manhattan FISH MARKET in Malaysia is JAKIM-certified Halal. All ingredients, preparation methods, and kitchen processes comply with strict Halal standards, making it a popular choice for Muslim diners across Malaysia." },
-        { q: "How much does a meal at The Manhattan FISH MARKET Malaysia cost?", a: "Starters range from approximately RM 10.00 to RM 30.90, Fish 'N Chips mains start from around RM 22.90, grilled mains from RM 27.90, single platters around RM 40.90–RM 45.90, and sharing platters for 2–3 people range from approximately RM 78.90 to RM 102.50." },
-        { q: "Can I order The Manhattan FISH MARKET Malaysia menu online for delivery?", a: "Yes, The Manhattan FISH MARKET Malaysia is available on major food delivery platforms including Foodpanda and GrabFood. You can also order directly through their official website at manhattanfishmarket.com." },
-        { q: "Where are The Manhattan FISH MARKET outlets located in Malaysia?", a: "The Manhattan FISH MARKET has multiple outlets across Malaysia, predominantly located in major shopping malls throughout the Klang Valley. The very first outlet opened at Mid Valley Megamall in November 2002." }
-      ],
-      menu: manhattanFishMarketMenu
-    },
-    {
-      name: "Cafe Bistrot David",
-      slug: "cafe-bistrot-david",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Bistro", colors: "bg-slate-700 text-white" }],
-      desc: "Beloved pork-free bistro in TTDI KL helmed by veteran chef David Chin, offering European dishes cooked 'Without Boundaries' including gourmet pies, handmade pasta, and charcoal-grilled meats.",
-      seoArticle: `\n<h2>Cafe Bistrot David</h2>\n<p>Cafe Bistrot David is a beloved pork-free bistro located at 135, Jalan Aminuddin Baki, Taman Tun Dr Ismail (TTDI), Kuala Lumpur, helmed by veteran chef-owner David Chin, formerly of Dave's Deli fame. The restaurant follows a 'Cooking Without Boundaries' philosophy, blending European bistro techniques with global and local Malaysian influences through a seasonally curated, ever-evolving menu. Spread across two floors — a relaxed Cafe on the ground floor and an intimate Grill Room upstairs featuring a Mibrasa charcoal oven — it is celebrated for its warm, rustic ambiance, premium ingredients, and signature dishes like gourmet pies, handmade pasta, and seafood paella.</p>\n`,
-      faqs: [
-        { q: "Where is Cafe Bistrot David located in Malaysia?", a: "Cafe Bistrot David is located at 135, Jalan Aminuddin Baki, Taman Tun Dr Ismail (TTDI), 60000 Kuala Lumpur." },
-        { q: "Is Cafe Bistrot David halal or pork-free?", a: "Cafe Bistrot David is a pork-free restaurant and sources its ingredients from halal-friendly suppliers. While it may not hold an official halal certification, it is widely considered suitable for Muslim diners and does not serve pork or lard in any of its dishes." },
-        { q: "What are the opening hours of Cafe Bistrot David Malaysia?", a: "Cafe Bistrot David is open Wednesday to Monday (closed on Tuesdays). Lunch is served from 12:00 PM to 4:00 PM. Dinner is served in two sessions: Session 1 from 6:00 PM to 8:00 PM, and Session 2 from 8:15 PM to 10:30 PM. Reservations are strongly recommended." },
-        { q: "What are the must-try dishes on the Cafe Bistrot David Malaysia menu?", a: "Some of the most celebrated dishes include the signature Gourmet Pies (Pulled Lamb and Smoked Salmon), the CBD Original Burrata, Linguine with Garlic Kombu Butter, the CBD Wagyu Burger, Mixed Seafood Paella, Truffle Fries, and the Sticky Date Pudding for dessert." },
-        { q: "How much does it cost to dine at Cafe Bistrot David in KL?", a: "Cafe Bistrot David is in the mid-to-premium price range (approximately RM 60–RM 160+ per person). The average spend per diner is around RM 100. Signature pies are priced around RM 40–RM 45, and the Mixed Seafood Paella is approximately RM 125." }
-      ],
-      menu: cafeBistrotDavidMenu
-    },
-    {
-      name: "The Savor KL",
-      slug: "the-savor-kl",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Western Fusion", colors: "bg-green-700 text-white" }],
-      desc: "Contemporary restaurant in Segambut with a unique 'desert cave' design and a diverse Western-fusion menu.",
-      seoArticle: `\n<h2>The Savor KL</h2>\n<p>The Savor KL is a contemporary restaurant located at Rain Tree Rain in Segambut, Kuala Lumpur, celebrated for its unique 'desert cave' inspired interior design. The eatery offers a diverse Western-fusion menu that beautifully marries classic Western main courses with Asian flavors, functioning as a versatile daytime cafe and evening dining space.</p>\n`,
-      faqs: [
-        { q: "What type of food does The Savor KL serve?", a: "The Savor KL serves a diverse Western-fusion menu, featuring popular dishes like Hainanese Chicken Chop, Spicy Mala Squid Pasta, and Char Grilled Lamb Shoulder." },
-        { q: "Where is The Savor KL located in Malaysia?", a: "The restaurant is located at Rain Tree Rain @ The Era Duta North, Jalan Segambut, Kuala Lumpur, Malaysia." },
-        { q: "What are the operating hours of The Savor KL?", a: "The Savor KL is typically open daily from 12:00 PM to 11:00 PM, with the kitchen taking its last orders around 10:00 PM." },
-        { q: "Does The Savor KL menu offer vegetarian options?", a: "While the primary menu focuses on Western and Asian-fusion meat dishes like chicken chops and seafood pasta, they do offer some meat-free and snack options. (Note: Do not confuse it with 'Savor', a fully plant-based restaurant in Desa Sri Hartamas)." },
-        { q: "What is the average price range for a meal at The Savor KL?", a: "The menu prices at The Savor KL generally range from RM 20 to RM 50 per person, with signature main courses starting around RM 25.90." }
-      ],
-      menu: theSavorKlMenu
-    },
-    {
-      name: "Heli Lounge Bar",
-      slug: "heli-lounge-bar",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Lounge Bar", colors: "bg-green-700 text-white" }],
-      desc: "Unique rooftop venue on a working helipad offering spectacular 360-degree city views and signature cocktails.",
-      seoArticle: `\n<h2>Heli Lounge Bar</h2>\n<p>Heli Lounge Bar is a unique rooftop venue located on the 34th floor of Menara KH in Kuala Lumpur. By day, it functions as a working helipad, but by night it transforms into a popular open-air bar offering spectacular 360-degree views of the city skyline, including the Petronas Twin Towers and KL Tower.</p>\n`,
-      faqs: [
-        { q: "Does the Heli Lounge Bar Malaysia menu have food options?", a: "Yes, while Heli Lounge Bar is primarily known for its drinks, they offer a selection of bar snacks and finger foods such as their signature 'Heli Wings', crispy fried calamari, chips, and minced beef croquettes." },
-        { q: "What is the average price of drinks on the Heli Lounge Bar menu?", a: "Signature cocktails at Heli Lounge Bar generally range between RM 35 and RM 60. There is often a minimum spend or entry fee around RM 50 to RM 100 during peak hours, which typically includes one or two drinks." },
-        { q: "What are the signature cocktails available at Heli Lounge Bar?", a: "Some of the highly recommended signature cocktails include the 'Hellusion' (vodka, coconut rum, triple sec, pineapple, and lemon), the 'Fizzy 747', 'The Chopper', and the dramatic 'Flaming Lamborghini'." },
-        { q: "Do I need to book in advance to enjoy the Heli Lounge Bar menu?", a: "While walk-ins are generally accepted, making a reservation is highly recommended. Arriving around 6:00 PM is best to secure a prime spot on the helipad to enjoy the sunset with your drinks." },
-        { q: "Is there a dress code to enter Heli Lounge Bar Malaysia?", a: "Yes, a smart-casual dress code is strictly enforced, particularly after 9:00 PM. Guests, especially men, are prohibited from wearing shorts, slippers, and sleeveless tops." }
-      ],
-      menu: heliLoungeBarMenu
-    },
-    {
-      name: "The Hungry Beast Sunway Velocity 2",
-      slug: "the-hungry-beast-sunway-velocity-2",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Western Fusion", colors: "bg-green-700 text-white" }],
-      desc: "Western-fusion grill house specializing in deli-style fresh cuts of meat and tableside preparations.",
-      seoArticle: `\n<h2>The Hungry Beast Sunway Velocity 2</h2>\n<p>The Hungry Beast Grill House at Sunway Velocity 2 is a popular Western-fusion restaurant in Malaysia specializing in deli-style fresh cuts of meat. Known for its visually engaging tableside preparations, the restaurant offers a cozy dining experience with both indoor and outdoor seating. Signature dishes include premium Iberico pork cuts, gourmet sausages, and their famous Le Beast Tiramisu.</p>\n`,
-      faqs: [
-        { q: "Where is The Hungry Beast located in Sunway Velocity?", a: "The restaurant is located at unit VS2-01-08 in Sunway Velocity Two (Plot B), Jalan Peel, Maluri, Kuala Lumpur, which is a short walk from the main Sunway Velocity Mall." },
-        { q: "What are the signature dishes on The Hungry Beast Malaysia menu?", a: "Their signature items include the Cheese Wheel Spaghetti prepared fresh at your table, House Special Iberico Abanico, Black Truffle Iberico Carbonara, and the highly-rated Le Beast Tiramisu." },
-        { q: "How much does it cost to eat at The Hungry Beast Sunway Velocity 2?", a: "Diners typically spend an average of RM20 to RM60 per person depending on their order. Premium meat cuts like Iberico pork or Wagyu beef are sold by weight/cut and can increase the final bill." },
-        { q: "Is The Hungry Beast Sunway Velocity 2 a halal restaurant?", a: "No, The Hungry Beast is a non-halal grill house. Its menu prominently features a variety of pork dishes, including their famous Iberico pork cuts and gourmet pork sausages." },
-        { q: "Do I need to make a reservation for The Hungry Beast in Kuala Lumpur?", a: "Yes, it is highly recommended to make a reservation in advance, especially for weekends or indoor seating, as the restaurant is very popular and can get quite busy during peak dining hours." }
-      ],
-      menu: theHungryBeastSunwayVelocity2Menu
-    },
-    {
-      name: "10 Grams Cyberjaya",
-      slug: "10-grams-cyberjaya",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Cafe & Grill", colors: "bg-green-700 text-white" }],
-      desc: "Inviting dining destination at Tamarind Square offering local flavors, Western classics, and creative Asian-fusion.",
-      seoArticle: `\n<h2>10 Grams Cyberjaya</h2>\n<p>10 Grams in Cyberjaya, located within the picturesque Tamarind Square, is a popular dining destination known for its inviting atmosphere and aesthetic decor. The restaurant offers a diverse menu that seamlessly blends local Malaysian favorites, hearty Western classics, and creative Asian-fusion dishes. Whether you are looking for a comforting plate of Nasi Lemak, a satisfying pasta, or artisanal coffee, 10 Grams provides an excellent spot for casual dining with family and friends.</p>\n`,
-      faqs: [
-        { q: "Where is 10 Grams located in Cyberjaya?", a: "10 Grams is located in Tamarind Square, Block A (A-03-05/A-03-09), Cyberjaya, Selangor. Note that there are distinct outlets like 10 Gram and 10 Gram Bakers & Steak in the same area." },
-        { q: "What kind of food does 10 Grams Cyberjaya Malaysia Menu offer?", a: "The menu offers a wide variety of dishes including local Asian flavors (like Nasi Lemak and Nasi Buttermilk Lala), Western cuisine (such as Fish & Chips and steaks), pastas, and small bites." },
-        { q: "Does 10 Grams Cyberjaya have food delivery services?", a: "Yes, you can order from the 10 Grams Cyberjaya menu through food delivery platforms like Foodpanda and Oddle." },
-        { q: "What are the opening hours for 10 Grams in Cyberjaya?", a: "The restaurant is generally open daily from 10:00 AM to 11:00 PM, making it a great spot for brunch, lunch, and dinner." },
-        { q: "What are some popular items on the 10 Grams menu?", a: "Highly recommended items include the Mac & Cheese with Hot & Spicy Korean Fried Chicken, Nasi Buttermilk Lala, and their loaded ground beef cheese fries." }
-      ],
-      menu: tenGramsCyberjayaMenu
-    },
-    {
-      name: "Botanica+Co Bamboo Hills",
-      slug: "bamboo-hills",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Charcoal Grill", colors: "bg-green-700 text-white" }],
-      desc: "Serene, greenhouse-inspired dining experience specializing in charcoal-grilled dishes and fresh salads.",
-      seoArticle: `\n<h2>Botanica+Co Bamboo Hills</h2>\n<p>Botanica+Co at Bamboo Hills offers a serene, greenhouse-inspired dining experience set amidst lush greenery in Kuala Lumpur. The restaurant specializes in charcoal-grilled dishes, hearty salads, and fresh wood-fired specialties, making it an ideal destination for both casual meals and special gatherings.</p>\n`,
-      faqs: [
-        { q: "What type of food is served on the Botanica+Co Bamboo Hills menu?", a: "The menu features a blend of hearty international and Asian-inspired cuisine, known for its charcoal-grilled meats, fresh salads, sharing plates, and artisanal desserts." },
-        { q: "What are the prices like at Botanica+Co Bamboo Hills?", a: "Prices generally range from RM 19 to RM 40 for starters and salads, while main courses and charcoal-grilled items range from RM 48 to RM 158. Premium sharing cuts like the Tomahawk steak are priced higher." },
-        { q: "Is Botanica+Co at Bamboo Hills suitable for vegetarians?", a: "Yes, the Botanica+Co menu includes several vegetarian-friendly options such as the Rosemary Focaccia, Panzanella Salad, Mushroom Medley Soup, and Roasted Cauliflower." },
-        { q: "Do they offer any lunch promotions at Botanica+Co Bamboo Hills?", a: "Yes, they frequently offer a 3-Course Lunch set for approximately RM 58 per person, which typically includes an appetizer, main course, and drink/dessert options." },
-        { q: "How much should I expect to spend per person at Botanica+Co Bamboo Hills?", a: "The estimated average cost per person is around RM 80, though it can vary based on whether you order premium items like steaks or seafood." }
-      ],
-      menu: bambooHillsMenu
-    },
-    {
-      name: "Hotzilla SS15",
-      slug: "hotzilla-ss15",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "School Themed", colors: "bg-orange-600 text-white" }],
-      desc: "School-themed restaurant in Subang Jaya known for sizzling hotplate meals and crispy chicken tender sets.",
-      seoArticle: `\n<h2>Hotzilla SS15</h2>\n<p>Hotzilla in SS15, Subang Jaya, is a popular school-themed restaurant where the menus look like exercise books and the waitstaff wear uniforms. The eatery is widely recognized for its sizzling hotplate meals and a variety of crispy, flavorful chicken tender sets.</p>\n`,
-      faqs: [
-        { q: "What is the theme of Hotzilla in SS15 Malaysia?", a: "Hotzilla SS15 features a unique school theme, complete with menus designed to look like old exercise books and servers dressed in school uniforms." },
-        { q: "What are the signature dishes on the Hotzilla SS15 Malaysia Menu?", a: "The signature items at Hotzilla include their hotplate specials, Cheese Baked Macaroni (C.B.M), and various flavored chicken tenders such as Spicy Honey, Lemon Glaze, and Soy Garlic." },
-        { q: "How much does a meal cost at Hotzilla SS15?", a: "Generally, the price range at Hotzilla SS15 is quite affordable. Most chicken tender and rice sets cost between RM 19.90 and RM 22.90, with customers typically spending around RM 20 to RM 40 per person." },
-        { q: "Where is Hotzilla located in Malaysia?", a: "Hotzilla is located at 32, Jalan SS 15/4c, SS 15, 47500 Subang Jaya, Selangor, Malaysia, which is a bustling food hub in the Klang Valley." },
-        { q: "Is the Hotzilla SS15 menu available for delivery?", a: "Yes, Hotzilla SS15 menu items are available for delivery and can be easily ordered through popular food delivery platforms like foodpanda in the Subang Jaya area." }
-      ],
-      menu: hotzillaSs15Menu
-    },
-    {
-      name: "Asador V",
-      slug: "asador-v",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Steaks", colors: "bg-red-800 text-white" }],
-      desc: "High-end, fire-inspired restaurant in Kuala Lumpur specializing in dry-aged steaks and asado-grilled meats.",
-      seoArticle: `\n<h2>Asador V</h2>\n<p>Asador V is a high-end, fire-inspired restaurant located in Menara Hap Seng 3, Kuala Lumpur, specializing in dry-aged steaks, asado-grilled meats, and premium seafood. The dining experience is centered around open-flame cooking fueled by acacia wood and charcoal, complemented by a unique steampunk aesthetic.</p>\n`,
-      faqs: [
-        { q: "What type of food is on the Asador V Malaysia menu?", a: "The Asador V Malaysia menu specializes in premium fire-grilled cuisine, featuring dry-aged beef, Wagyu steaks, fresh seafood like Alaskan king crab and charred octopus, as well as poultry and plant-based dishes cooked over an open flame." },
-        { q: "Does Asador V offer a set lunch menu?", a: "Yes, Asador V offers a 3-course Elite Power Lunch menu available Monday through Saturday from 12:00 PM to 3:00 PM. It features a selection of starters, mains like Chicken Roulade or Fish of the Day, and artisanal desserts." },
-        { q: "How much does a meal cost at Asador V?", a: "Dining at Asador V is a premium experience, with an estimated average spend of RM 400 per person for the à la carte menu. The Elite Power Lunch set menu is more accessible, starting from RM 118++ depending on your main course." },
-        { q: "What are the signature dishes on the Asador V menu?", a: "Signature dishes include their premium dry-aged Porterhouse and Tomahawk steaks, Charred Spanish Octopus, Josper-grilled poultry, and the famous Dry Aged Burnt Cheesecake." },
-        { q: "Are there vegetarian options available on the Asador V menu?", a: "Yes, the menu includes plant-based and vegetarian-friendly options, such as the Burnt Romaine & Charred Mushroom Caesar and various wood-fired vegetable side dishes." }
-      ],
-      menu: asadorVMenu
-    },
-    {
-      name: "Uncle Don's",
-      slug: "uncle-dons",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Grill & Bar", colors: "bg-blue-800 text-white" }],
-      desc: "Popular Malaysian neighborhood restaurant and bar chain known for affordable Western and Asian fusion.",
-      seoArticle: `\n<h2>Uncle Don's</h2>\n<p>Uncle Don's is a popular Malaysian neighborhood restaurant and bar chain founded in 2015, renowned for its tagline 'Dine Like A Don Everyday.' It specializes in affordable, high-quality Western and Asian fusion cuisine, paired famously with signature frozen mug beers. With over 40 locations across the country, it offers a lively, casual atmosphere perfect for families, friends, and colleagues.</p>\n`,
-      faqs: [
-        { q: "What type of food is on the Uncle Don's Malaysia menu?", a: "The menu features a diverse mix of Western comfort food like grilled chicken chops, burgers, and pizzas, alongside Asian fusion and local specialties such as Nasi Lemak Wild Boar Varuval." },
-        { q: "Is Uncle Don's Malaysia halal-certified?", a: "No, Uncle Don's is a non-halal establishment. Their menu includes various pork dishes and a wide selection of alcoholic beverages, including draft beers." },
-        { q: "What are the signature menu items at Uncle Don's?", a: "Signature favorites include the Grilled Chicken Chop, Pork Burger, Chili Cheese Fries, and the spicy Nasi Lemak with Wild Boar Varuval." },
-        { q: "What are the average menu prices at Uncle Don's Malaysia?", a: "Prices are generally very affordable. Main courses like the Grilled Chicken Chop cost around RM 24.10 - RM 25.00, local dishes like Nasi Lemak start around RM 14.95, and premium items like Salmon Steak are priced around RM 50.70." },
-        { q: "Can I order Uncle Don's menu items for delivery?", a: "Yes, you can easily order Uncle Don's food for delivery through major platforms like Foodpanda and GrabFood. Note that delivery menu prices might vary slightly from dine-in prices." }
-      ],
-      menu: uncleDonsMenu
-    },
-    {
-      name: "Wet Deck W Kuala Lumpur",
-      slug: "wet-deck-w-kuala-lumpur",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Rooftop Bar", colors: "bg-blue-600 text-white" }],
-      desc: "Vibrant and upscale rooftop bar located at the W Kuala Lumpur, offering spectacular views of Petronas Twin Towers.",
-      seoArticle: `\n<h2>Wet Deck W Kuala Lumpur</h2>\n<p>Wet Deck is a vibrant and upscale rooftop bar located at the W Kuala Lumpur, offering spectacular, unobstructed views of the iconic Petronas Twin Towers. The venue features a chic lounge setting with a poolside club vibe by day, transitioning into a glamorous nightlife destination in the evening with live DJ sets. Guests can enjoy a curated menu of South American-inspired bites and expertly crafted signature cocktails.</p>\n`,
-      faqs: [
-        { q: "What is the dress code for Wet Deck W Kuala Lumpur?", a: "The dress code is typically smart casual. While pool attire is acceptable during the day for those with a day pass, guests are expected to dress up in the evening. Flip-flops, sleeveless shirts for men, and athletic wear are generally not permitted at night." },
-        { q: "Do I need to make a reservation for Wet Deck?", a: "Yes, reservations are highly recommended. Because the terrace seating with direct views of the Petronas Twin Towers is extremely popular, booking ahead ensures you get a table, especially on weekends and during sunset hours." },
-        { q: "How much is a day pass at Wet Deck?", a: "A day pass is generally available for RM 50 nett per adult and RM 25 nett per child. This pass provides access to the pool facilities from morning until late afternoon and typically includes a complimentary signature W Kuala Lumpur coconut." },
-        { q: "What type of food does Wet Deck menu offer?", a: "The Wet Deck menu primarily features South American-inspired tapas and sharing plates. This includes fresh salads, Nikkei-style maki rolls, sliders, anticuchos (grilled skewers), and classic bar snacks designed to pair well with their cocktails." },
-        { q: "Are there any happy hour promotions at Wet Deck?", a: "Yes, Wet Deck often features a 'Sunset Chasers' happy hour from 5:00 PM to 7:00 PM. During this time, guests can enjoy special pricing on select signature cocktails and bundled food deals, making it a great time to visit for sundowners." }
-      ],
-      menu: wetDeckWKualaLumpurMenu
-    },
-    {
-      name: "Fuego At Troika Sky Dining",
-      slug: "fuego-at-troika-sky-dining",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "South American", colors: "bg-orange-600 text-white" }],
-      desc: "Vibrant South American-inspired restaurant located in the heart of Kuala Lumpur known for its panoramic views.",
-      seoArticle: `\n<h2>Fuego At Troika Sky Dining</h2>\n<p>Fuego at Troika Sky Dining is a vibrant South American-inspired restaurant located in the heart of Kuala Lumpur. Known for its stunning panoramic views of the city skyline, including the Petronas Twin Towers, it offers an unforgettable dining experience. The menu focuses on elevated street food, featuring inventive tapas, freshly made guacamoles, and expertly grilled meats.</p>\n`,
-      faqs: [
-        { q: "What type of cuisine does Fuego at Troika Sky Dining offer?", a: "Fuego specializes in South American-inspired cuisine, featuring a diverse menu of grilled meats, inventive tapas, fresh guacamoles, and vibrant cocktails." },
-        { q: "How much does a meal cost at Fuego at Troika Sky Dining?", a: "Prices typically range from RM 28 to RM 65 for small plates and starters, while large grilled meats and mains are priced between RM 85 and RM 190, excluding taxes and service charges." },
-        { q: "Are there vegetarian options available on the Fuego menu?", a: "Yes, the menu includes vegetarian-friendly options such as their famous Fuego Guacamole, 'Elote' grilled corn, and grilled cauliflower." },
-        { q: "What are the must-try items on the Fuego menu?", a: "Highly recommended dishes include the signature Fuego Guacamole, Chermoula Chicken, Angus Beef Back Ribs, and the traditional Churros for dessert." },
-        { q: "Does Fuego at Troika Sky Dining serve alcohol?", a: "Yes, Fuego boasts a comprehensive beverage menu featuring signature South American-inspired cocktails, wines, and spirits, with cocktails typically ranging from RM 40 to RM 55." }
-      ],
-      menu: fuegoMenu
-    },
-    {
-      name: "Smith And Wollensky Kuala Lumpur",
-      slug: "smith-and-wollensky-kuala-lumpur",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premier Steakhouse", colors: "bg-red-800 text-white" }],
-      desc: "Premier American steakhouse located in Suria KLCC offering in-house dry-aged steaks and upscale dining.",
-      seoArticle: `\n<h2>Smith And Wollensky Kuala Lumpur</h2>\n<p>Smith & Wollensky Kuala Lumpur is a premier American steakhouse located in Suria KLCC, offering an upscale dining experience with stunning city views. The restaurant is renowned for its signature in-house dry-aged steaks, fresh seafood towers, and an extensive wine list featuring nearly 2,000 labels. Notably, this location uses Halal-certified meat to cater to the diverse local dining community.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Smith & Wollensky Kuala Lumpur menu?", a: "Signature items include their 28-day dry-aged USDA Prime steaks, particularly the 44-ounce swinging Tomahawk, as well as extravagant seafood towers and the famous 10-layer Gigantic Chocolate Cake." },
-        { q: "Are the steaks at Smith & Wollensky Kuala Lumpur Halal?", a: "Yes, the Smith & Wollensky location in Kuala Lumpur uses Halal-certified meat across its menu to accommodate Muslim diners." },
-        { q: "What is the average price of a main course at Smith & Wollensky KL?", a: "Prices vary widely based on the selection. A standard Tenderloin is priced around RM 299, while specialty items like the Truffle Burger cost RM 108 and vegetarian options like the Cauliflower Steak are RM 59." },
-        { q: "Does Smith & Wollensky Kuala Lumpur offer a vegetarian menu?", a: "While it is a traditional steakhouse, they do offer vegetarian-friendly mains, such as the hearty Cauliflower Steak, alongside a variety of fresh salads and classic steakhouse side dishes." },
-        { q: "Where can I view the full Smith & Wollensky KL menu with prices?", a: "As seasonal offerings and market prices for premium cuts fluctuate, it's best to check the official Smith & Wollensky Malaysia website or their reservation portal on UMAI for the most up-to-date menus." }
-      ],
-      menu: smithAndWollenskyKualaLumpurMenu
-    },
-    {
-      name: "Samba Brazilian Steakhouse",
-      slug: "samba-brazilian-steakhouse",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Brazilian Churrascaria", colors: "bg-green-700 text-white" }],
-      desc: "Authentic Rodizio-style dining experience offering all-you-can-eat grilled meats carved tableside.",
-      seoArticle: `\n<h2>Samba Brazilian Steakhouse</h2>\n<p>Samba Brazilian Steakhouse, located at Avenue K Mall in Kuala Lumpur, offers an authentic Rodizio-style dining experience. Diners can enjoy all-you-can-eat skewers of premium meats carved tableside by passadores, perfectly complemented by a lavish 360-degree buffet spread of hot and cold dishes, fresh seafood, and desserts.</p>\n`,
-      faqs: [
-        { q: "What is the main dining style at Samba Brazilian Steakhouse Malaysia?", a: "The restaurant is famous for its traditional Rodizio-style service, where meat carvers (passadores) continuously rotate tableside to serve various cuts of freshly grilled meats." },
-        { q: "How much does the Samba Brazilian Steakhouse buffet cost?", a: "Buffet prices typically start around RM 139 for a weekend lunch, though rates may vary based on the session (lunch vs. dinner) and ongoing promotions." },
-        { q: "Does the Samba Brazilian Steakhouse menu include à la carte options?", a: "Yes, in addition to the buffet, the menu offers à la carte options such as the Tenderloin Steak, Grilled Prime Rib Eye, and various pasta dishes ranging from RM 27 to RM 72." },
-        { q: "What is included in the buffet besides grilled meats?", a: "The buffet features a 360-degree counter offering over 25 hot and cold dishes, seafood on ice, sushi, traditional Brazilian sides, and an array of desserts." },
-        { q: "Are there vegetarian options available on the menu?", a: "Yes, while known for meats, the restaurant offers vegetarian options like Vegetarian Penne and an extensive salad and side dish selection at the buffet counter." }
-      ],
-      menu: sambaBrazilianSteakhouseMenu
-    },
-    {
-      name: "Soru Station",
-      slug: "soru-station",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Budget Western Fusion", colors: "bg-yellow-600 text-white" }],
-      desc: "Popular Western fusion restaurant chain known for its 'Eat Big, Eat Cheap' concept and hearty platters.",
-      seoArticle: `\n<h2>Soru Station</h2>\n<p>Soru Station is a popular Western fusion restaurant chain in Malaysia renowned for its "Eat Big, Eat Cheap" concept. Originating as a humble food truck, it has expanded to multiple branches across the Klang Valley, offering hearty and budget-friendly dishes. The menu features an array of localized Western staples like generous mixed grill platters, pastas, and burgers, served in a casual dining environment.</p>\n`,
-      faqs: [
-        { q: "What type of food does Soru Station Malaysia serve?", a: "Soru Station serves a variety of affordable Western fusion cuisine tailored to Malaysian tastes, including grilled chicken, lamb chops, pastas, burgers, and their famous hearty meat platters." },
-        { q: "Are the prices at Soru Station affordable?", a: "Yes, Soru Station is widely known for its 'Eat Big, Eat Cheap' motto, with average menu items ranging from RM 9.00 to RM 20.00, making it extremely budget-friendly." },
-        { q: "Does Soru Station offer delivery services?", a: "Yes, Soru Station is available on major food delivery platforms in Malaysia like GrabFood and foodpanda, though online prices might vary slightly compared to dine-in rates." },
-        { q: "Where are the Soru Station branches located in Malaysia?", a: "Soru Station has multiple branches across the Klang Valley and surrounding areas, including popular spots like Kota Damansara, Shah Alam, Wangsa Maju, Sungai Besi, Puchong, and Bangi." },
-        { q: "What are the most popular items on the Soru Station menu?", a: "Some of the most popular items include the Charcoal Chicken Grill, Spaghetti Creamy Mushroom, Chicken Parmigiana, and their large sharing platters that mix various meats and side dishes." }
-      ],
-      menu: soruStationMenu
-    },
-    {
-      name: "Biru Biru On The Island",
-      slug: "biru-biru-on-the-island",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Seaside Cafe", colors: "bg-blue-500 text-white" }],
-      desc: "Picturesque seaside café located within The Lost Paradise Resort in Tanjung Bungah, Penang.",
-      seoArticle: `\n<h2>Biru Biru On The Island</h2>\n<p>Biru Biru On The Island is a picturesque seaside café located within The Lost Paradise Resort in Tanjung Bungah, Penang, Malaysia. Known for its aesthetic blue-and-white decor and unobstructed Andaman Sea views, it offers a tropical "Bali-like" atmosphere perfect for photography and sunsets. The menu features a mix of local favorites, Western-fusion dishes, and colorful signature beverages.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on the Biru Biru On The Island Malaysia menu?", a: "Popular signature dishes include the traditional Nasi Lemak Ayam Berempah and creative Western-fusion pastas like the Squid in Tomyam Pasta." },
-        { q: "Are there breakfast options available at Biru Biru On The Island?", a: "Yes, the cafe serves a popular 'Biru Big Breakfast' platter as well as sweet options like Fruity Pancakes, perfect for a relaxing seaside morning." },
-        { q: "What is the price range for food at Biru Biru On The Island?", a: "Main courses typically range between RM20 and RM40+. For example, the Nasi Lemak Ayam Berempah is around RM25, while the Big Breakfast is priced at RM23." },
-        { q: "Does the Biru Biru On The Island menu offer aesthetic Instagrammable drinks?", a: "Absolutely! The cafe is famous for its vibrant, colorful drinks like the Blue Lagoon soda, Berry-Licious Yakult, and Yuzu Fizz, which range around RM15-RM16." },
-        { q: "Is the food at Biru Biru On The Island pork-free and lard-free?", a: "Yes, the menu at Biru Biru On The Island is entirely pork-free and lard-free, making it a welcoming dining spot for a wide variety of visitors." }
-      ],
-      menu: biruBiruOnTheIslandMenu
-    },
-    {
-      name: "Noir Restaurant",
-      slug: "noir-restaurant",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fine Dining", colors: "bg-gray-900 text-white" }],
-      desc: "Intimate, halal fine-dining establishment located at Tamarind Square, Cyberjaya.",
-      seoArticle: `\n<h2>Noir Restaurant</h2>\n<p>Noir Restaurant is an intimate, halal fine-dining establishment located at Tamarind Square, Cyberjaya, featuring a cozy atmosphere and an engaging open kitchen concept. Operating strictly on a reservation-only basis, it offers a seasonal menu that refreshes every 5 to 6 months to feature new culinary creations. It is widely considered a highly sought-after destination for romantic dates, anniversaries, and birthday celebrations in Malaysia.</p>\n`,
-      faqs: [
-        { q: "Where is Noir Restaurant located in Malaysia?", a: "Noir Restaurant is located at D3-05-02 in Tamarind Square, Cyberjaya, Selangor." },
-        { q: "Is the Noir Restaurant Malaysia menu halal?", a: "Yes, Noir Restaurant is a halal fine-dining establishment, catering to Muslim diners with a premium and elegant culinary experience." },
-        { q: "Do I need to make a reservation to dine at Noir Restaurant?", a: "Yes, the restaurant operates exclusively on a reservation-only basis. It is highly recommended to book 1 to 2 weeks in advance to secure a table." },
-        { q: "How much does a meal cost at Noir Restaurant Cyberjaya?", a: "For a complete dining experience consisting of a starter, main course, dessert, and beverage, diners typically spend between RM250 and RM400 per couple." },
-        { q: "How often does the Noir Restaurant Malaysia menu change?", a: "The culinary team refreshes the Noir Restaurant menu every 5 to 6 months, ensuring a dynamic and seasonal dining experience for returning guests." }
-      ],
-      menu: noirRestaurantMenu
-    },
-    {
-      name: "The Farm Restaurant",
-      slug: "the-farm-restaurant",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Garden-to-Plate", colors: "bg-green-800 text-white" }],
-      desc: "Vibrant garden-to-plate dining destination featuring an on-site urban hydroponic farm.",
-      seoArticle: `\n<h2>The Farm Restaurant</h2>\n<p>The Farm Restaurant (also known as The Farm Foodcraft) is a vibrant garden-to-plate dining destination located at The Sphere in Bangsar South, Kuala Lumpur. Known for its lush, nature-inspired interior, the restaurant features an on-site urban hydroponic farm that supplies fresh herbs and vegetables directly to its kitchen. Its diverse menu offers a delightful mix of Western and Asian-inspired cuisine, featuring everything from hearty brunches and specialty burgers to healthy salads and artisanal beverages.</p>\n`,
-      faqs: [
-        { q: "What are the signature dishes on The Farm Restaurant Malaysia Menu?", a: "Popular signature items include the Farmer's Breakfast, the Shake Me Up Shakshuka, The Farm's Caesar Salad, and creative mains like the Cluckin' Good Chicken Burger." },
-        { q: "Does The Farm Restaurant at The Sphere serve halal food?", a: "The Farm Restaurant is a pork-free establishment. However, if strict halal certification is a requirement, it is recommended to verify their latest official status directly with the restaurant." },
-        { q: "What are the average menu prices at The Farm Foodcraft?", a: "Appetizers and salads typically range from RM 20 to RM 30, while main courses and burgers usually cost between RM 30 and RM 50. Prices are subject to a 10% service charge and 6% SST." },
-        { q: "Are there vegetarian or healthy options available on The Farm Restaurant menu?", a: "Yes, they offer numerous healthy and vegetarian choices, including the Lovely Harvest Salad and the vegetarian Holy Pad Kra Pao Burger, incorporating fresh ingredients from their on-site hydroponic farm." },
-        { q: "Does The Farm Restaurant offer a brunch menu?", a: "Yes, they serve a dedicated brunch menu available daily until 3 PM, featuring favorites like the Farmer's Breakfast, Avo' Two Ways, and Classic Eggs Benedict." }
-      ],
-      menu: theFarmRestaurantMenu
-    },
-    {
-      name: "Peninsula House",
-      slug: "peninsula-house",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fine-Casual", colors: "bg-blue-800 text-white" }],
-      desc: "Fine-casual, modern Australian-inspired restaurant located in historic George Town.",
-      seoArticle: `\n<h2>Peninsula House</h2>\n<p>Peninsula House is a fine-casual, modern Australian-inspired restaurant located in the historic 1937 Art Deco India House building in George Town, Penang. The restaurant offers a refined dining experience with a menu that emphasizes fresh, produce-driven dishes, highlighting seafood specialties and organic greens. Recognized by the Michelin Guide, it features an innovative Australian-Asian fusion approach paired with curated organic wines.</p>\n`,
-      faqs: [
-        { q: "What type of cuisine does Peninsula House Malaysia serve?", a: "Peninsula House offers modern Australian-inspired cuisine with an emphasis on fresh, produce-driven dishes, seafood specialties, and Asian fusion elements." },
-        { q: "Where is Peninsula House located?", a: "The restaurant is located on the first floor of the historic India House building on Beach Street in George Town, Penang, Malaysia." },
-        { q: "What are the signature dishes on the Peninsula House Malaysia Menu?", a: "Highly recommended signature dishes include the crayfish and prawn étouffée tagliatelle, charred octopus risotto, duck cannelloni, and house-made bread with unique accompaniments." },
-        { q: "What is the average price range at Peninsula House?", a: "The average cost per person is around RM 118, with individual main dishes typically ranging from RM 40 to RM 80, making it an affordable fine-casual dining experience." },
-        { q: "Do I need to make a reservation before visiting Peninsula House?", a: "Yes, reservations are highly recommended due to the restaurant's popularity, Michelin Guide recognition, and limited seating capacity." }
-      ],
-      menu: peninsulaHouseMenu
-    },
-    {
-      name: "The Brew House",
-      slug: "the-brew-house",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pub Fusion", colors: "bg-gray-800 text-white" }],
-      desc: "Casual neighborhood restaurant and bar blending Pan-Asian and modern Western cuisine.",
-      seoArticle: `\n<h2>The Brew House</h2>\n<p>The Brew House is a popular neighborhood restaurant and bar chain in Malaysia known for its casual, lively atmosphere and fusion dining concept. The menu seamlessly blends Pan-Asian and modern Western cuisine, offering everything from hearty Western classics to Asian-inspired dishes. True to its name, it places a strong emphasis on its drink selection, serving a variety of craft beverages, draft beers, and creative cocktails.</p>\n`,
-      faqs: [
-        { q: "What type of cuisine does The Brew House Malaysia offer?", a: "The Brew House offers a diverse fusion menu that blends Pan-Asian and modern Western cuisine, featuring dishes ranging from pork chops and burgers to pastas and local Asian specialties." },
-        { q: "Is The Brew House Malaysia Halal-certified?", a: "No, The Brew House is not Halal-certified as it serves pork-based dishes and has an extensive menu of alcoholic beverages." },
-        { q: "Does The Brew House offer food delivery?", a: "Yes, you can order food delivery from The Brew House through major platforms like Foodpanda, though prices on delivery apps may vary slightly from dine-in rates." },
-        { q: "What are the signature dishes at The Brew House?", a: "Some of their highly recommended signature dishes include the Brew House Signature Pork Chop, Hainanese Chicken Chop, and the Salted Egg Fish Skin with Pork Floss." },
-        { q: "Does The Brew House serve alcoholic drinks?", a: "Yes, true to its name, The Brew House features an extensive beverage menu that includes ice-cold draft beers, craft beverages, and creative cocktails." }
-      ],
-      menu: brewHouseMenu
-    },
-    {
-      name: "Firewood",
-      slug: "firewood",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Wood-Fired", colors: "bg-red-600 text-white" }],
-      desc: "Upscale restaurant celebrating mastery of open-flame cuisine and premium meats.",
-      seoArticle: `\n<h2>Firewood</h2>\n<p>Firewood Penang is a Michelin-selected, upscale restaurant in George Town celebrated for its mastery of open-flame cuisine. Founded by Chef Ker Yang Hao, it features a central open-fire kitchen where premium imported meats, fresh seafood, and elevated vegetables are prepared over traditional charcoal and Binchotan. The establishment successfully balances fine-dining culinary quality with a relaxed, approachable dining atmosphere.</p>\n`,
-      faqs: [
-        { q: "Is the Firewood Malaysia menu pork-free?", a: "Yes, Firewood Penang operates as a pork-free restaurant, making it an inclusive dining option for various dietary preferences while specializing in premium wood-fired meats and seafood." },
-        { q: "What are the signature dishes on the Firewood menu?", a: "Standout signature dishes include the Charcoal Burnt Caesar salad, the Firewood Duck Royale, and premium steak cuts like the Certified Australia Angus Ribeye and Japan A5 Miyazaki Wagyu." },
-        { q: "How much does a steak cost on the Firewood Penang menu?", a: "Because Firewood is a premium steakhouse, high-end meats are generally priced by weight. For example, Japan A5 Miyazaki Wagyu can cost around RM 185 to RM 208 per 100g, while standard premium cuts may start closer to RM 65 per 100g." },
-        { q: "Does the Firewood menu have vegetarian or plant-forward options?", a: "Absolutely. While famous for its steaks, Firewood is highly praised for its flame-kissed vegetables. Popular items include the Hay Smoked Seasonal Mushroom and the Charred White Sweet Corn." },
-        { q: "Do the prices on the Firewood menu include taxes and fees?", a: "No, all menu prices at Firewood Penang are subject to an additional 10% service charge and prevailing government taxes." }
-      ],
-      menu: firewoodMenu
-    },
     {
       name: "Nando's",
       slug: "nandos",
@@ -6291,6 +3588,43 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Do they serve non-beef options?", a: "Yes, they offer a wide variety of grilled lamb, chicken chops, Norwegian salmon, and gourmet pastas." }
       ],
       menu: menateMenu
+    },
+    {
+      name: "Tony Roma's",
+      slug: "tony-romas",
+    searchVolume: 2400,
+      category: 'western-grilled',
+      image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
+      desc: "World Famous BBQ Ribs & Classic Flame-Grills",
+      seoArticle: `\n<h2>Tony Roma's Malaysia: Legendary Ribs and Grill Heritage</h2>
+<p>Tony Roma's is globally renowned as the pioneer of spectacular, fall-off-the-bone baby back ribs. In Malaysia, it has been a favorite for premium Western-style family dinners, offering a diverse menu that centers on rich smokiness, flame-grill mastery, and authentic Americana flavors.</p>
+<h3>Signature Bountiful Beef Ribs, Juicy Steaks, and Crispy Loaf Appetizers</h3>
+<p>While the pork ribs are famous globally, Tony Roma's Malaysia has built an incredible following for its massive, tender Bountiful Beef Ribs glazed in sweet honey-BBQ sauce. Paired with fresh seafood plates, steakhouse ribeyes, and their iconic giant onion loaf, it remains a premier feast. Check below for our pricing table.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Tony Roma's features charcoal flame-grilled cooking, which drains excess fat while retaining natural juices and protein.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Ingredients:</strong> All meats, poultry, and ingredients are sourced from Halal-certified suppliers, and the kitchen is pork-free.</span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>High Protein:</strong> Massive slabs of beef ribs and premium strip loins supply robust muscle-building protein.</span></li>
+</ul>`,
+      healthyTip: `"Go for their flame-grilled salmon or chicken breast with steamed fresh vegetables, and ask for BBQ glaze to be served on the side so you can manage your sugar intake."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Brings iconic family-sized beef ribs, grilled salmon, and hot onion rings safely packaged to your dining room.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">Perfect for ordering premium office lunch combos and refreshing fruit mocktails directly to your desk.</p>
+  </div>
+</div>`,
+      faqs: [
+        { q: "Is Tony Roma's Halal in Malaysia?", a: "Tony Roma's Malaysia is pork-free and lard-free, using strictly Halal-certified ingredients and meats. However, note that some outlets may serve alcoholic beverages." },
+        { q: "What is their signature dish?", a: "The Bountiful Beef Ribs and the legendary giant hand-cut Onion Loaf are their absolute signature favorites." },
+        { q: "Are their portions suitable for sharing?", a: "Yes, their ribs platters and starters are exceptionally large and perfect for sharing among family and friends." }
+      ],
+      menu: tonyRomasMenu
     },
     {
       name: "Beard Brothers BBQ",
@@ -6528,72 +3862,120 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'sandwiches-health': [
     {
-      name: "Salad Atelier",
-      slug: "salad-atelier",
-      category: 'sandwiches-health',
-      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Healthy", colors: "bg-green-500 text-white" }],
-      desc: "Healthy food restaurant chain specializing in customizable salads and poke bowls.",
-      seoArticle: `\n<h2>Salad Atelier</h2>\n<p>Salad Atelier is a popular healthy food restaurant chain in Malaysia that specializes in customizable salads, poke bowls, and hearty hot meals. With a strong emphasis on fresh ingredients and balanced nutrition, they cater to various dietary preferences, including keto-friendly, vegetarian, and high-protein options.</p>\n`,
-      faqs: [
-        { q: "How much does a meal cost on the Salad Atelier Malaysia Menu?", a: "Meals at Salad Atelier typically range from RM 18 to RM 35, depending on the bowl size, custom ingredients, and whether you order a signature dish or build your own bowl." },
-        { q: "Can I customize my own salad at Salad Atelier?", a: "Yes! Salad Atelier offers a popular 'DIY Bowls & Salads' menu where you can build your own meal by selecting your preferred base, mains, supplements, prime proteins, and dressings." },
-        { q: "Does the Salad Atelier menu have keto-friendly options?", a: "Absolutely. The menu features a dedicated 'Keto Fuel' section with low-carb, high-protein options like the Creamy Broccoli Chicken Bowl and the Grilled Salmon Salsa Bowl." },
-        { q: "Are there hot meals available on the Salad Atelier menu?", a: "Yes, in addition to fresh salads and cold poke bowls, Salad Atelier serves a variety of hot dishes such as the SA Chicken Rice, Spicy Korean Pasta, and Chicken Aglio Olio." },
-        { q: "Does Salad Atelier Malaysia offer promotions or combo meals?", a: "Yes, Salad Atelier frequently runs 'Buy 1 Free 1' promotions and combo deals, especially on delivery platforms like Foodpanda, where you can pair meals with beverages for added value." }
-    {
       name: "Subway",
       slug: "subway",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Subs", colors: "bg-green-600 text-white" }],
-      desc: "Global sandwich chain offering customizable submarine sandwiches, wraps, and salads with fresh ingredients.",
-      seoArticle: `\n<h2>Subway Malaysia</h2>\n<p>Subway is one of the most ubiquitous and beloved fast-food chains in Malaysia, championing the "Eat Fresh" motto. Famous for its customizable 6-inch and Footlong submarine sandwiches, Subway allows customers to tailor their meals exactly to their preferences—from the choice of freshly baked bread to proteins, a wide array of crisp vegetables, and signature sauces. Beyond subs, Subway Malaysia also offers wraps, salads, and their highly addictive, freshly baked cookies, making it a versatile choice for quick, relatively healthy dining.</p>\n`,
+      category: 'sandwiches-health',
+      image: "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Eat Fresh",
+      seoArticle: `\n<h2>Subway: Eat Fresh, Your Way</h2>
+<p>When you need a quick, customizable, and relatively healthy meal, Subway is always reliable. From the hearty Italian B.M.T to the classic Roasted Chicken Wrap, you control exactly what goes into your sandwich. Our guide covers their latest daily promotions and cookie options.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Subway offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Stick to a 6-inch sub loaded with plenty of fresh vegetables and choose lighter sauces like honey mustard.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Ask the sandwich artist for a full allergen guide covering their freshly-baked breads and sauces.</strong></span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Subway."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Subway directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Subway meals during lunch hours.</p>
+  </div>
+</div>
+      `,
       faqs: [
-        { q: "What are the most popular subs at Subway Malaysia?", a: "Popular choices include the Italian B.M.T.™, Roasted Chicken, Subway Melt™, and the classic Tuna sub." },
-        { q: "How much does a Subway 6-inch sandwich cost in Malaysia?", a: "As of 2024, a standard 6-inch sub typically ranges from RM 8.90 (like the Veggie Delite) up to RM 16.85 or more for premium options, though prices vary by location." },
-        { q: "Is Subway Malaysia halal certified?", a: "Yes, all Subway restaurants in Malaysia are fully certified halal by JAKIM." },
-        { q: "Does Subway sell their cookies separately?", a: "Yes, Subway's famous cookies (such as Chocolate Chip and Double Chocolate) can be purchased individually or in boxes of 3, 6, or 12." },
-        { q: "What is the 'Sub of the Day' promotion?", a: "Subway Malaysia historically runs promotions like the 'Everyday Value' or 'Sub of the Day', offering specific 6-inch subs at a discounted price on certain days of the week." }
-    {
-      name: "Stuff'd",
-      slug: "stuffd",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Healthy Mexican", colors: "bg-green-600 text-white" }, { name: "Kebabs", colors: "bg-orange-600 text-white" }],
-      desc: "Popular quick-service chain specializing in fresh, customizable kebabs, burritos, and daily bowls.",
-      seoArticle: `\n<h2>Stuff'd Malaysia</h2>\n<p>Stuff'd is a popular quick-service restaurant chain in Malaysia specializing in fresh, Mexican and Turkish-inspired casual meals. They are well-known for their customizable kebabs, burritos, quesadillas, and daily bowls that feature high-quality ingredients like grilled chicken, beef, and fresh vegetables. Emphasizing health and generous portions, Stuff'd allows customers to build their own nutritious meals on the go.</p>\n`,
-      faqs: [
-        { q: "What is the most popular item on the Stuff'd Malaysia menu?", a: "The Chicken Kebab and Chicken Burrito are among the most popular choices, loved for their generous portions, fresh ingredients, and flavorful signature sauces." },
-        { q: "Are there vegetarian options available at Stuff'd Malaysia?", a: "Yes, Stuff'd offers delicious vegetarian options. You can customize any Kebab, Burrito, Quesadilla, or Daily Bowl by choosing guacamole or hummus instead of meat." },
-        { q: "Is Stuff'd in Malaysia Halal-certified?", a: "Yes, Stuff'd Malaysia is officially Halal-certified by JAKIM, making it a reliable and popular choice for Muslim diners." },
-        { q: "How much does a Stuff'd Daily Bowl cost in Malaysia?", a: "The price for a Stuff'd Daily Bowl typically ranges from RM 16.90 for the vegetarian option to RM 18.50 for chicken or beef, though delivery app prices may vary." },
-        { q: "Can I customize my meal at Stuff'd?", a: "Absolutely! Stuff'd operates on a build-your-own model, allowing you to select your preferred base, proteins, fresh vegetables, and a variety of signature sauces." }
-    {
-      name: "O'Briens Irish Sandwich Cafe",
-      slug: "obriens",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1481070414801-51fd732d7184?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Sandwiches & Cafe", colors: "bg-green-700 text-white" }],
-      desc: "Healthy lifestyle sandwich cafe known for its made-to-order hand-cut sandwiches, wraps, salads, and freshly brewed coffees.",
-      seoArticle: `\n<h2>O'Briens Irish Sandwich Cafe Malaysia</h2>\n<p>O'Briens Irish Sandwich Cafe is a highly recognizable healthy lifestyle brand in Malaysia, renowned for its hearty, hand-cut, made-to-order sandwiches, salads, and wraps. Originating from Ireland, O'Briens focuses on fresh, premium ingredients, avoiding deep-fried foods and heavy preservatives. With numerous outlets across major malls and office buildings in Malaysia, it serves as a popular quick-service option for health-conscious professionals seeking wholesome meals, artisanal coffees, and fresh juices.</p>\n`,
-      faqs: [
-        { q: "What is O'Briens Irish Sandwich Cafe known for?", a: "O'Briens is famous for its healthy, made-to-order sandwiches using premium breads (like Shambo, wraps, and ciabatta), fresh salads, and signature Irish-inspired fillings." },
-        { q: "Is O'Briens Malaysia halal?", a: "Yes, O'Briens Irish Sandwich Cafe in Malaysia is certified halal by JAKIM, ensuring all ingredients and food preparations meet strict halal standards." },
-        { q: "How much is a sandwich at O'Briens?", a: "Prices typically range from RM 15 to RM 23 for signature sandwiches, such as the Chicken Tripledecker Toastie or Smoked Salmon wrap." },
-        { q: "Do they serve vegetarian options?", a: "Absolutely. O'Briens offers several vegetarian choices, including the Houmous Sundried Tomato Wrap and various customizable fresh salads." },
-        { q: "Does O'Briens offer delivery?", a: "Yes, O'Briens is widely available on major delivery platforms like GrabFood and foodpanda across Malaysia." }
+        {
+                "q": "Does Subway offer delivery?",
+                "a": "Yes, Subway is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Subway?",
+                "a": "Yes, Subway provides several meat-free and vegetarian-friendly options on their menu."
+        }
       ],
-      menu: oBriensMenu
-    },
-      ],
-      menu: stuffdMenu
-    },
-      ],
-      menu: subwayMenu
-    },
-      ],
-      menu: saladAtelierMenu
+      
+      menu: [
+        // Regular Menu - Subs
+        { name: "Roasted Chicken", price: "6-inch: RM14.50 | Footlong: RM24.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Tender chicken breast roasted to perfection." },
+        { name: "BBQ Chicken", price: "6-inch: RM14.50 | Footlong: RM24.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Succulent chicken strips glazed with sweet and smoky BBQ sauce." },
+        { name: "Bulgogi Chicken", price: "6-inch: RM15.50 | Footlong: RM26.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Korean-style savory and sweet Bulgogi chicken." },
+        { name: "Chicken Teriyaki", price: "6-inch: RM15.50 | Footlong: RM26.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Tender chicken strips glazed with sweet teriyaki sauce." },
+        { name: "Spicy Mayo Chicken", price: "6-inch: RM14.50 | Footlong: RM24.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Zesty chicken mixed with creamy spicy mayo." },
+        { name: "Chicken Slice", price: "6-inch: RM13.50 | Footlong: RM22.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Classic lean chicken slices." },
+        { name: "Italian B.M.T.", price: "6-inch: RM15.90 | Footlong: RM26.90", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Layered with pepperoni, Genoa salami, and chicken slice." },
+        { name: "Steak & Cheese", price: "6-inch: RM17.50 | Footlong: RM29.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Tender steak strips topped with melted cheese." },
+        { name: "Roast Beef", price: "6-inch: RM17.50 | Footlong: RM29.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Thinly sliced, tender roast beef." },
+        { name: "Spicy Italian", price: "6-inch: RM14.50 | Footlong: RM24.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "A spicy combo of pepperoni and Genoa salami." },
+        { name: "Meatball Marinara", price: "6-inch: RM14.50 | Footlong: RM24.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Hearty meatballs in a rich marinara sauce." },
+        { name: "Tuna", price: "6-inch: RM14.50 | Footlong: RM24.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Flaked tuna mixed with creamy mayonnaise." },
+        { name: "Seafood Sensation", price: "6-inch: RM15.50 | Footlong: RM26.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Creamy blend of seafood and mayo." },
+        { name: "Egg Mayo Tuna", price: "6-inch: RM15.00 | Footlong: RM25.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "A combination of classic tuna and creamy egg mayo." },
+        { name: "Egg Mayo", price: "6-inch: RM12.50 | Footlong: RM21.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "Simple and satisfying creamy egg mayonnaise." },
+        { name: "Veggie Delite", price: "6-inch: RM12.50 | Footlong: RM21.50", category: "6 Inches/Foot long Subs", menuType: "Regular Menu", description: "A healthy mix of your favorite fresh vegetables." },
+
+        // Regular Menu - Wraps
+        { name: "Roasted Chicken Wrap", price: "RM15.50", category: "Wraps", menuType: "Regular Menu", description: "Tender roasted chicken in a soft flour wrap." },
+        { name: "BBQ Chicken Wrap", price: "RM15.50", category: "Wraps", menuType: "Regular Menu", description: "Sweet BBQ chicken strips wrapped with fresh veggies." },
+        { name: "Bulgogi Chicken Wrap", price: "RM16.50", category: "Wraps", menuType: "Regular Menu", description: "Flavorful Bulgogi chicken in a convenient wrap." },
+        { name: "Chicken Teriyaki Wrap", price: "RM16.50", category: "Wraps", menuType: "Regular Menu", description: "Sweet and savory chicken teriyaki wrap." },
+        { name: "Spicy Mayo Chicken Wrap", price: "RM15.50", category: "Wraps", menuType: "Regular Menu", description: "Zesty spicy mayo chicken wrap." },
+        { name: "Chicken Slice Wrap", price: "RM14.50", category: "Wraps", menuType: "Regular Menu", description: "Classic chicken slice breakfast or lunch wrap." },
+        { name: "Italian B.M.T. Wrap", price: "RM16.90", category: "Wraps", menuType: "Regular Menu", description: "Signature Italian cold cuts in a wrap." },
+        { name: "Steak & Cheese Wrap", price: "RM18.50", category: "Wraps", menuType: "Regular Menu", description: "Premium steak and cheese in a soft wrap." },
+        { name: "Roast Beef Wrap", price: "RM18.50", category: "Wraps", menuType: "Regular Menu", description: "Tender roast beef wrapped with fresh vegetables." },
+        { name: "Spicy Italian Wrap", price: "RM15.50", category: "Wraps", menuType: "Regular Menu", description: "Spicy pepperoni and salami wrap." },
+        { name: "Meatball Marinara Wrap", price: "RM15.50", category: "Wraps", menuType: "Regular Menu", description: "Meatballs and sauce in a portable wrap." },
+        { name: "Tuna Wrap", price: "RM15.50", category: "Wraps", menuType: "Regular Menu", description: "Classic tuna mayo in a soft wrap." },
+        { name: "Seafood Sensation Wrap", price: "RM16.50", category: "Wraps", menuType: "Regular Menu", description: "Creamy seafood blend wrap." },
+        { name: "Egg Mayo Tuna Wrap", price: "RM16.00", category: "Wraps", menuType: "Regular Menu", description: "Duo of tuna and egg mayo in a wrap." },
+        { name: "Egg Mayo Wrap", price: "RM13.50", category: "Wraps", menuType: "Regular Menu", description: "Simple egg mayo breakfast wrap." },
+        { name: "Veggie Delite Wrap", price: "RM13.50", category: "Wraps", menuType: "Regular Menu", description: "Vegetable-packed healthy wrap." },
+
+        // Regular Menu - Salads
+        { name: "Roasted Chicken Salad", price: "RM16.50", category: "Salads", menuType: "Regular Menu", description: "Roasted chicken bowl with fresh greens." },
+        { name: "BBQ Chicken Salad", price: "RM16.50", category: "Salads", menuType: "Regular Menu", description: "Smoky BBQ chicken with a variety of vegetables." },
+        { name: "Bulgogi Chicken Salad", price: "RM17.50", category: "Salads", menuType: "Regular Menu", description: "Savory Bulgogi chicken salad." },
+        { name: "Chicken Teriyaki Salad", price: "RM17.50", category: "Salads", menuType: "Regular Menu", description: "Chicken teriyaki bowl with fresh greens." },
+        { name: "Spicy Mayo Chicken Salad", price: "RM16.50", category: "Salads", menuType: "Regular Menu", description: "Spicy mayo chicken over a bed of fresh veggies." },
+        { name: "Chicken Slice Salad", price: "RM15.50", category: "Salads", menuType: "Regular Menu", description: "Classic chicken slice salad." },
+        { name: "Italian B.M.T. Salad", price: "RM17.90", category: "Salads", menuType: "Regular Menu", description: "The B.M.T. proteins served as a salad." },
+        { name: "Steak & Cheese Salad", price: "RM19.50", category: "Salads", menuType: "Regular Menu", description: "Steak and melted cheese over fresh salad." },
+        { name: "Roast Beef Salad", price: "RM19.50", category: "Salads", menuType: "Regular Menu", description: "Premium roast beef salad." },
+        { name: "Spicy Italian Salad", price: "RM16.50", category: "Salads", menuType: "Regular Menu", description: "Spicy pepperoni and salami salad." },
+        { name: "Meatball Marinara Salad", price: "RM16.50", category: "Salads", menuType: "Regular Menu", description: "Marinara meatballs served over fresh greens." },
+        { name: "Tuna Salad", price: "RM16.50", category: "Salads", menuType: "Regular Menu", description: "Classic tuna salad." },
+        { name: "Seafood Sensation Salad", price: "RM17.50", category: "Salads", menuType: "Regular Menu", description: "Seafood blend salad." },
+        { name: "Egg Mayo Tuna Salad", price: "RM17.00", category: "Salads", menuType: "Regular Menu", description: "Combo salad with tuna and egg mayo." },
+        { name: "Egg Mayo Salad", price: "RM14.50", category: "Salads", menuType: "Regular Menu", description: "Creamy egg mayo salad." },
+        { name: "Veggie Delite Salad", price: "RM14.50", category: "Salads", menuType: "Regular Menu", description: "A fresh and crunchy vegetable salad bowl." },
+
+        // Breakfast Menu
+        { name: "6-inch Egg & Cheese", price: "RM10.50", category: "Breakfast", menuType: "Breakfast Menu", description: "Simple breakfast sub with fluffy eggs and melted cheese." },
+        { name: "Wrap Egg & Cheese", price: "RM11.50", category: "Breakfast", menuType: "Breakfast Menu", description: "Hand-held breakfast wrap with eggs and cheese." },
+        { name: "6-inch Chicken Slice & Egg", price: "RM11.50", category: "Breakfast", menuType: "Breakfast Menu", description: "Chicken slices and eggs in a breakfast sub." },
+        { name: "Wrap Chicken Slice & Egg", price: "RM12.50", category: "Breakfast", menuType: "Breakfast Menu", description: "Chicken slices and eggs in a soft wrap." },
+        { name: "6-inch Tuna & Egg", price: "RM12.50", category: "Breakfast", menuType: "Breakfast Menu", description: "Tuna and eggs for a protein-packed morning." },
+        { name: "Wrap Tuna & Egg", price: "RM13.50", category: "Breakfast", menuType: "Breakfast Menu", description: "Tuna and eggs wrapped in a soft flour tortilla." },
+
+        // Regular Menu - Cookies & Snacks
+        { name: "Chocolate Chip Cookie", price: "RM2.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Starbucks' famous chewy chocolate chip cookie." },
+        { name: "Double Chocolate Chip Cookie", price: "RM2.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Rich chocolate cookie with semi-sweet chocolate chips." },
+        { name: "Oatmeal Raisin Cookie", price: "RM2.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Traditional oatmeal cookie with sweet raisins." },
+        { name: "White Chocolate Chip Macadamia Cookie", price: "RM2.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "White chocolate chips and macadamia nuts." },
+        { name: "Subway Chips (Lays/Mister Potato)", price: "RM3.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Your choice of crunchy potato chips." },
+        { name: "Soup Bowl", price: "RM5.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Warm and comforting soup of the day." },
+        { name: "Corn in Cup (Garlic Herb Butter)", price: "RM4.90", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Sweet corn kernels tossed in garlic herb butter." },
+        { name: "2pcs Cheesy Garlic Toasties", price: "RM5.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Toasted bread with aromatic garlic and melted cheese." },
+        { name: "Mac & Cheese Bowl", price: "RM10.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Creamy macaroni and cheese bowl." },
+        { name: "Cheesy Meatball Bowl", price: "RM11.50", category: "Cookies & Snacks", menuType: "Regular Menu", description: "Hearty meatballs topped with lots of melted cheese." }
+      ]
     },
     {
       name: "Pop Meals",
@@ -6638,11 +4020,53 @@ export const brandMocks: Record<string, any[]> = {
       menu: popMealsMenu
     },
     {
+      name: "Salad Atelier",
+      slug: "salad-atelier",
+      category: 'sandwiches-health',
+      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600&h=400",
+      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
+      desc: "Customizable Healthy Bowls",
+      seoArticle: `\n<h2>Salad Atelier: Healthy Made Delicious</h2>
+<p>Healthy eating doesn't have to be boring, and Salad Atelier proves it. With highly customizable salad bowls, poke bowls, and wraps, you can pack in the nutrients without sacrificing flavor. Our guide helps you build the perfect macro-friendly meal.</p>\n`,
+      nutritionHtml: `
+<p class="text-lg">Salad Atelier offers a wide variety of items. It's always best to balance your meal by choosing lighter options when available.</p>
+<ul class="space-y-3 list-none">
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Portion Control: Customize your bowl with plenty of leafy greens and ask for dressings on the side to manage fat intake.</strong></span></li>
+  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Dietary Info: Let the salad team know about any nut, seed, seafood, or gluten allergies before customization.</strong></span></li>
+</ul>
+      `,
+      healthyTip: `"Opt for water or sugar-free drinks to keep your meal balanced while dining at Salad Atelier."`,
+      deliveryHtml: `
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
+    <p class="text-slate-500 text-sm font-medium">Order Salad Atelier directly to your door with fast delivery.</p>
+  </div>
+  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
+    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
+    <p class="text-slate-500 text-sm font-medium">A convenient option for ordering Salad Atelier meals during lunch hours.</p>
+  </div>
+</div>
+      `,
+      faqs: [
+        {
+                "q": "Does Salad Atelier offer delivery?",
+                "a": "Yes, Salad Atelier is available on major delivery platforms like GrabFood and Foodpanda in most areas."
+        },
+        {
+                "q": "Are there vegetarian options at Salad Atelier?",
+                "a": "Yes, Salad Atelier provides several meat-free and vegetarian-friendly options on their menu."
+        }
+      ],
+      
+      menu: []
+    },
+    {
       name: "Kenny Rogers Roasters",
       slug: "kenny-rogers-roasters",
     searchVolume: 1000,
       category: 'sandwiches-health',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1626082929543-eed647a6a43e?auto=format&fit=crop&q=80&w=600&h=400",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Less Fat, Less Salt, Less Calories",
       seoArticle: `\n<h2>Kenny Rogers Roasters: Guilt-Free Rotisserie</h2>
@@ -6715,23 +4139,6 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'buffet-dining': [
-    {
-      name: "Kuroma Buffet & Dining",
-      slug: "kuroma-buffet-dining",
-      category: 'buffet-dining',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Buffet", colors: "bg-blue-700 text-white" }],
-      desc: "Premium, all-you-can-eat Japanese and international buffet offering fresh sashimi, sushi, and a decadent dessert bar.",
-      seoArticle: `\n<h2>Kuroma Buffet & Dining</h2>\n<p>Kuroma Buffet & Dining is a premium, all-you-can-eat Japanese and international buffet located in Johor Bahru, Malaysia. It offers a diverse, high-quality spread featuring fresh sashimi, sushi, tempura, hot foods, and a decadent dessert bar. The establishment is highly popular for its vibrant atmosphere and value-for-money dining experience.</p>\n`,
-      faqs: [
-        { q: "What are the operating hours for Kuroma Buffet & Dining?", a: "Kuroma Buffet & Dining operates for dinner from 5:30 PM to 10:00 PM daily, and offers a lunch session from 12:00 PM to 2:00 PM from Friday to Sunday." },
-        { q: "How much does the buffet cost at Kuroma Buffet & Dining Malaysia?", a: "The weekday adult buffet is typically priced around RM 165++, while the weekend rate is approximately RM 175++. There are also discounted rates for senior citizens (around RM 85++) and children (around RM 45++)." },
-        { q: "Do I need to make a reservation before visiting Kuroma Buffet?", a: "Yes, it is highly recommended to book your table in advance, especially for weekends and public holidays, as the restaurant is very popular and frequently fully booked." },
-        { q: "What kind of food is served at Kuroma Buffet & Dining?", a: "The restaurant primarily serves premium Japanese cuisine including fresh sashimi, sushi, tempura, and yakitori, alongside international options, local Malaysian dishes, and an extensive dessert selection featuring Baskin Robbins ice cream." },
-        { q: "Is Kuroma Buffet halal-certified?", a: "While Kuroma Buffet & Dining is not officially halal-certified, it is widely recognized as Muslim-friendly because they do not use pork or lard in their food preparation." }
-      ],
-      menu: kuromaBuffetMenu
-    },
     {
       name: "Alva KL",
       slug: "alva-kl",
@@ -7006,23 +4413,6 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'specialty-burgers': [
-    {
-      name: "The Fat Burger",
-      slug: "the-fat-burger",
-      category: 'specialty-burgers',
-      image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Gourmet Burgers", colors: "bg-orange-800 text-white" }],
-      desc: "Popular burger joint in Penang famous for hearty, gourmet-style signature burgers.",
-      seoArticle: `\n<h2>The Fat Burger</h2>\n<p>The Fat Burger is a popular burger joint located in Penang, Malaysia, with outlets in Bayan Baru and The Zen, Bayan Lepas. They are famous for their hearty, gourmet-style signature burgers featuring premium ingredients like juicy beef patties, smoked brisket, and crispy chicken. The restaurant offers a mouth-watering menu for dine-in, takeout, and delivery, catering to burger enthusiasts looking for massive, flavor-packed meals.</p>\n`,
-      faqs: [
-        { q: "Where is The Fat Burger located in Penang, Malaysia?", a: "The Fat Burger currently operates outlets in Bayan Baru and The Zen, Bayan Lepas in Penang, Malaysia." },
-        { q: "What are the signature items on The Fat Burger Malaysia menu?", a: "Highly recommended signature items include the Burger Kawen Patty, Spicy Tomato Mayo Cheeseburger, The Fat Mess, and the towering Komtar Burger." },
-        { q: "What is the price range for burgers at The Fat Burger Penang?", a: "Menu prices for burgers typically range from RM 27.00 for classic options like the Cheeseburger, up to RM 58.50 for premium specialties like The Fat Brisket Burger." },
-        { q: "What are the opening hours for The Fat Burger in Penang?", a: "The Fat Burger is generally open from 4:30 PM to 11:00 PM and is typically closed on Mondays." },
-        { q: "Does The Fat Burger Penang offer food delivery?", a: "Yes, you can order from The Fat Burger for delivery through major platforms like Foodpanda in Malaysia." }
-      ],
-      menu: fatBurgerMenu
-    },
     {
       name: "Nak Nak",
       slug: "nak-nak",
