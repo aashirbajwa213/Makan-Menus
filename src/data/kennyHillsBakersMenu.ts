@@ -1,99 +1,40 @@
 export const kennyHillsBakersMenu = [
-  // Artisanal Pastries & Bakes
-  {
-    name: "Classic Butter Croissant",
-    price: "RM9.50",
-    category: "Artisanal Pastries",
-    description: "Our signature French-style pastry made with premium French butter, laminated to flaky, golden perfection."
-  },
-  {
-    name: "Almond Croissant",
-    price: "RM13.50",
-    category: "Artisanal Pastries",
-    description: "Twice-baked butter croissant filled with sweet almond frangipane and topped with sliced roasted almonds."
-  },
-  {
-    name: "Peach Strudel Slice",
-    price: "RM18.50",
-    category: "Artisanal Pastries",
-    description: "Layers of crisp puff pastry sandwiching sweet vanilla custard, fresh cream, and tender yellow peach slices."
-  },
-  {
-    name: "Pain au Chocolat",
-    price: "RM11.50",
-    category: "Artisanal Pastries",
-    description: "Flaky layered butter croissant pastry filled with two dark chocolate batons."
-  },
-  {
-    name: "Truffle & Mushroom Cruffin",
-    price: "RM16.50",
-    category: "Artisanal Pastries",
-    description: "A croissant-muffin hybrid loaded with creamed wild mushrooms infused with white truffle oil."
-  },
-
-  // Premium Cakes & Desserts
-  {
-    name: "Niko Neko Matcha Key Lime Pie",
-    price: "RM21.00",
-    category: "Premium Cakes",
-    description: "Tangy key lime custard on a digestive biscuit crust, dusted with premium Niko Neko matcha green tea powder."
-  },
-  {
-    name: "Salted Caramel Chocolate Cake",
-    price: "RM22.00",
-    category: "Premium Cakes",
-    description: "Rich, moist dark chocolate cake layered with premium sea-salted caramel sauce and dark chocolate ganache."
-  },
-  {
-    name: "Tiramisu Cake Slice (Non-Alcoholic)",
-    price: "RM24.00",
-    category: "Premium Cakes",
-    description: "Espresso-soaked sponge cake layered with rich mascarpone cheese sabayon and dusted with cocoa."
-  },
-
-  // Gourmet Mains
-  {
-    name: "Kenny Hills Classic Beef Burger",
-    price: "RM38.00",
-    category: "Gourmet Mains",
-    description: "House-ground wagyu beef patty (180g), melted cheddar, caramelized onions, gherkins, and house sauce on an organic brioche bun, served with fries."
-  },
-  {
-    name: "Truffle Fries",
-    price: "RM22.00",
-    category: "Gourmet Mains",
-    description: "Crispy skin-on potato fries tossed with white truffle oil, grated parmesan cheese, and parsley."
-  },
-  {
-    name: "Sourdough Margherita Pizza",
-    price: "RM36.00",
-    category: "Gourmet Mains",
-    description: "36-hour fermented organic sourdough crust topped with rich tomato sauce, fresh buffalo mozzarella, and fresh basil leaves."
-  },
-  {
-    name: "Smoked Salmon & Avocado Toast",
-    price: "RM34.00",
-    category: "Gourmet Mains",
-    description: "Premium cold-smoked salmon slices, crushed avocado, poached free-range egg, and dill on toasted house sourdough bread."
-  },
-
-  // Specialty Coffee
-  {
-    name: "Flat White (Hot)",
-    price: "RM13.00",
-    category: "Specialty Coffee",
-    description: "Double shot of premium house blend espresso with a thin, silky layer of velvety micro-foam milk."
-  },
-  {
-    name: "Spanish Latte (Hot / Iced)",
-    price: "RM15.00",
-    category: "Specialty Coffee",
-    description: "Espresso shot combined with fresh organic milk and sweetened with premium condensed milk."
-  },
-  {
-    name: "Cold Brew Coffee",
-    price: "RM14.00",
-    category: "Specialty Coffee",
-    description: "Single-origin beans steeped in cold water for 16 hours, yielding a smooth, naturally sweet cup."
-  }
+  { name: "Signature Egg Tart", price: "RM 8.00", category: "Pastries & Bakery", description: "Buttery, flaky tart shell filled with a silky smooth egg custard — a classic Kenny Hills Bakers signature." },
+  { name: "Plain Croissant", price: "RM 10.00", category: "Pastries & Bakery", description: "Classic French-style croissant made with premium butter, baked to a golden, layered crisp." },
+  { name: "Nutella / Kaya Croissant", price: "RM 14.00", category: "Pastries & Bakery", description: "Flaky croissant filled with rich Nutella or house-made kaya — a popular sweet breakfast treat." },
+  { name: "Peach Strudel", price: "RM 18.00", category: "Pastries & Bakery", description: "A beloved Kenny Hills Bakers signature — layers of flaky pastry filled with sweet stewed peach and almond cream." },
+  { name: "Canelé / Madeleines", price: "RM 7.00", category: "Pastries & Bakery", description: "Classic French petits fours — caramelised on the outside, soft and custardy within." },
+  { name: "Cinnamon Danish", price: "RM 12.00", category: "Pastries & Bakery", description: "Buttery viennoiserie pastry swirled with fragrant cinnamon sugar and baked to a soft, caramelised finish." },
+  { name: "Kouign Amman", price: "RM 14.00", category: "Pastries & Bakery", description: "Breton laminated pastry with a crunchy caramelised sugar crust and a soft, buttery centre." },
+  { name: "White Sourdough", price: "RM 22.00", category: "Artisan Organic Breads", description: "Classic white sourdough loaf made with organic stone-milled flour, slow-fermented for a mild tang and open crumb." },
+  { name: "Wholewheat Rye Sourdough", price: "RM 29.68", category: "Artisan Organic Breads", description: "Hearty sourdough loaf blended with wholegrain rye flour, offering a robust flavour and dense, chewy crumb." },
+  { name: "8-Grain Sourdough", price: "RM 31.80", category: "Artisan Organic Breads", description: "Nutrient-rich multigrain sourdough made with eight types of grains and seeds for a complex, earthy flavour." },
+  { name: "Spelt Sourdough", price: "RM 33.92", category: "Artisan Organic Breads", description: "Ancient grain sourdough baked with organic spelt flour — mildly nutty with a soft, light crumb." },
+  { name: "Baguette", price: "RM 8.48", category: "Artisan Organic Breads", description: "Classic thin French baguette with a crisp golden crust and airy interior, baked fresh daily." },
+  { name: "Bagel", price: "RM 6.36", category: "Artisan Organic Breads", description: "House-made chewy bagel, available plain or with seasonal toppings." },
+  { name: "The Big Breakfast", price: "RM 38.00", category: "All-Day Breakfast & Brunch", description: "A hearty platter featuring two organic eggs (any style), chicken sausages, sautéed mushrooms, roasted tomatoes, and toasted sourdough." },
+  { name: "Eggs Flamenco", price: "RM 28.00", category: "All-Day Breakfast & Brunch", description: "Organic eggs baked in a spiced tomato and pepper coulis with olives and herbs, served with sourdough toast." },
+  { name: "Corned Beef Egg in a Hole", price: "RM 30.00", category: "All-Day Breakfast & Brunch", description: "IOI City Mall exclusive — sourdough toast with a baked egg set in a corned beef hash, a satisfying brunch special." },
+  { name: "Mixed Berry French Toast", price: "RM 28.00", category: "All-Day Breakfast & Brunch", description: "Thick-cut brioche soaked in custard, pan-fried golden, and topped with mixed berry compote and whipped cream." },
+  { name: "Basmati Nasi Lemak", price: "RM 31.80", category: "All-Day Breakfast & Brunch", description: "Fragrant basmati rice cooked in coconut milk, served with 6-hour marinated ayam berempah, kampung egg, assam prawn, ikan bilis, peanuts, cucumber, and housemade sambal." },
+  { name: "Roast Beef Sandwich", price: "RM 30.00", category: "Sandwiches & Burgers", description: "Slow-roasted ribeye slices with caramelised onion, watercress, and horseradish mayo, served on an organic baguette." },
+  { name: "Smoked Salmon & Avocado Croissant", price: "RM 30.00", category: "Sandwiches & Burgers", description: "House-baked croissant filled with Norwegian smoked salmon, creamy avocado, cream cheese, and capers." },
+  { name: "Crispy Fried Chicken Burger", price: "RM 35.00", category: "Sandwiches & Burgers", description: "Crispy golden fried chicken thigh in a toasted brioche bun with house slaw, pickles, and spicy aioli." },
+  { name: "Creamy Smoked Duck Pasta", price: "RM 39.00", category: "Pasta", description: "Al dente pasta tossed in a rich creamy sauce with slices of smoked duck, mushrooms, and herbs." },
+  { name: "Seafood Aglio Olio", price: "RM 42.00", category: "Pasta", description: "Spaghetti tossed in extra-virgin olive oil, garlic, chilli flakes, and topped with a medley of fresh seafood." },
+  { name: "Soft Shell Crab & Ulam Butter Pasta", price: "RM 42.00", category: "Pasta", description: "Signature pasta dish featuring crispy soft shell crab in a fragrant ulam herb butter sauce — a Malaysian-inspired twist." },
+  { name: "Spicy Smoked Beef Ragu", price: "RM 44.00", category: "Pasta", description: "Slow-cooked smoked beef ragu with chilli, tomato, and fresh herbs, tossed with pappardelle pasta." },
+  { name: "Truffle Mac & Cheese", price: "RM 45.58", category: "Pasta", description: "Indulgent baked macaroni in a velvety four-cheese truffle sauce, topped with roasted mushrooms and crispy breadcrumbs." },
+  { name: "King Prawn Bisque Pasta", price: "RM 48.00", category: "Pasta", description: "Linguine in a luxurious bisque sauce made from king prawn shells, topped with whole king prawns and fresh herbs." },
+  { name: "Al Funghi Pizza", price: "RM 38.00", category: "Wood-Fired Sourdough Pizzas", description: "Wood-fired sourdough pizza topped with three varieties of mushrooms, garlic cream, mozzarella, and fresh thyme." },
+  { name: "Beef Pepperoni Pizza", price: "RM 40.00", category: "Wood-Fired Sourdough Pizzas", description: "Classic wood-fired pizza generously loaded with beef pepperoni, San Marzano tomato sauce, and melted mozzarella." },
+  { name: "Three Cheese Pizza", price: "RM 38.00", category: "Wood-Fired Sourdough Pizzas", description: "A decadent blend of mozzarella, parmesan, and gorgonzola on a smoky sourdough base with a honey drizzle." },
+  { name: "Wood-Fired Spring Chicken", price: "RM 45.00", category: "Wood-Fired Sourdough Pizzas", description: "IOI City Mall exclusive — half spring chicken marinated in herbs and slow-roasted in a wood-fired oven, served with roasted vegetables and jus." },
+  { name: "Individual Cake / Tart Slice", price: "RM 15.00 – RM 22.00", category: "Desserts & Cakes", description: "Rotating daily selection from the display counter — including Burnt Cheesecake, Lemon Meringue Pie, Key Lime Pie, Onde Onde Cake, and seasonal fruit tarts." },
+  { name: "Whole Cake (6-inch)", price: "From RM 148.00", category: "Desserts & Cakes", description: "Available for dine-in purchase. Options include Dark Chocolate Moist Cake, Blueberry Lemon Shortcake, and Chocolate Banana Cake." },
+  { name: "Hot Cappuccino", price: "RM 13.00", category: "Beverages", description: "A classic Italian espresso-based coffee topped with velvety steamed milk foam." },
+  { name: "Flat White", price: "RM 13.00", category: "Beverages", description: "A smooth, strong espresso with microfoam steamed milk — a café staple." },
+  { name: "Cold Brew Coffee", price: "RM 16.00", category: "Beverages", description: "Slow-steeped cold brew coffee served over ice — smooth, low-acid, and naturally sweet." },
+  { name: "Specialty Tea", price: "RM 12.00", category: "Beverages", description: "Selection of premium loose-leaf teas including English Breakfast, Earl Grey, and seasonal herbal blends." },
+  { name: "Fresh Juice", price: "RM 15.00", category: "Beverages", description: "Freshly pressed seasonal fruits, served chilled." }
 ];

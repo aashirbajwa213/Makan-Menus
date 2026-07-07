@@ -1,62 +1,16 @@
 export const tonyRomasMenu = [
-  {
-    name: "Bountiful Beef Ribs (Full Slab)",
-    price: "RM89.90",
-    category: "World Famous Ribs",
-    description: "Hearty, meaty beef ribs glazed with Tony Roma's signature original BBQ sauce, served with coleslaw and baked potato."
-  },
-  {
-    name: "Original Baby Back Ribs (Full Slab)",
-    price: "RM98.90",
-    category: "World Famous Ribs",
-    description: "Mouth-watering, tender pork loin ribs basted with world-famous BBQ sauce, served with French fries and corn on the cob."
-  },
-  {
-    name: "Filet Mignon (8 oz)",
-    price: "RM85.90",
-    category: "Steaks",
-    description: "Superbly tender center-cut beef filet, grilled to perfection, served with garlic green beans and mashed potatoes."
-  },
-  {
-    name: "New York Strip (12 oz)",
-    price: "RM95.90",
-    category: "Steaks",
-    description: "Premium, well-marbled beef strip loin steak offering incredible flavor and tenderness. Served with loaded baked potato."
-  },
-  {
-    name: "BBQ Quarter Chicken",
-    price: "RM29.90",
-    category: "Grills",
-    description: "Juicy quarter chicken basted with original BBQ sauce and slow-roasted, served with potato salad and steamed broccoli."
-  },
-  {
-    name: "Grilled Salmon with Scampi Butter",
-    price: "RM46.90",
-    category: "Seafood",
-    description: "Flame-grilled Norwegian salmon fillet topped with rich garlic herb scampi butter, served on wild rice."
-  },
-  {
-    name: "Roma's Crispy Onion Rings (Loaf)",
-    price: "RM19.90",
-    category: "Starters",
-    description: "Giant hand-cut Spanish onions, breaded and deep-fried into a crispy loaf. Served with original BBQ dipping sauce."
-  },
-  {
-    name: "Kickin' Shrimp",
-    price: "RM24.90",
-    category: "Starters",
-    description: "Battered shrimp fried to a golden crisp, tossed in a spicy, creamy sweet chili sauce."
-  },
-  {
-    name: "Skillet Cookie",
-    price: "RM18.90",
-    category: "Desserts",
-    description: "Warm, gooey chocolate chip cookie baked in a skillet, topped with vanilla ice cream and hot chocolate drizzle."
-  },
-  {
-    name: "Fresh Fruit Punch",
-    price: "RM11.90",
-    category: "Beverages",
-    description: "Refreshing blend of fresh orange, pineapple, mango juices with a dash of grenadine syrup."
-  }
+  { name: "Bountiful Beef Ribs", price: "RM 73.10", category: "Main Courses", description: "Signature beef ribs, cooked to perfection." },
+  { name: "Lamb Ribs", price: "RM 74.95", category: "Main Courses", description: "Award-winning, tender lamb ribs." },
+  { name: "Ribeye Steak (10oz)", price: "RM 80.40", category: "Main Courses", description: "Premium 10oz Ribeye steak." },
+  { name: "New York Strip Steak (10oz)", price: "RM 80.40", category: "Main Courses", description: "Premium 10oz New York Strip steak." },
+  { name: "Premium Steakhouse Burger", price: "RM 45.70", category: "Main Courses", description: "Hearty steakhouse style burger." },
+  { name: "Shrimp Scampi Pasta", price: "RM 50.25", category: "Main Courses", description: "Pasta tossed with shrimp in a scampi sauce." },
+  { name: "MOJO Chicken", price: "RM 36.45", category: "Main Courses", description: "Flavorful marinated chicken." },
+  { name: "Fish & Fries", price: "RM 32.00", category: "Main Courses", description: "Classic fish and chips style meal." },
+  { name: "Kickin' Shrimp", price: "RM 34.75", category: "Starters", description: "Crispy shrimp tossed in a spicy, creamy sauce." },
+  { name: "Red Hot Buffalo Wings", price: "RM 30.15", category: "Starters", description: "Chicken wings tossed in spicy buffalo sauce." },
+  { name: "Premium Carrot Cake", price: "RM 13.70", category: "Desserts", description: "Classic rich carrot cake." },
+  { name: "Rich Double Chocolate Treat", price: "RM 13.70", category: "Desserts", description: "Decadent double chocolate dessert." },
+  { name: "Rockin' Flavour Sampler", price: "RM 130.58", category: "Sharing Platters", description: "A sampler platter of popular items." },
+  { name: "Combo Ribs Bucket", price: "RM 274.96", category: "Sharing Platters", description: "Large bucket of ribs for sharing." }
 ];

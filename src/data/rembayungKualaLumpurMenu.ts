@@ -1,0 +1,23 @@
+export const rembayungKualaLumpurMenu = [
+  { name: "Ikan Siakap Sambal Berlado", price: "RM 68.90", category: "Main Dishes", description: "Deep-fried barramundi topped with spicy chili sambal." },
+  { name: "Daging Salai Masak Lemak Cili Api", price: "RM 35.90", category: "Main Dishes", description: "Smoked beef cooked in a rich, spicy coconut milk gravy." },
+  { name: "Udang Sambal Tumis Petai", price: "RM 39.90", category: "Main Dishes", description: "Prawns cooked in spicy sambal with stink beans (petai)." },
+  { name: "Ayam Salai Masak Lemak Cili Api", price: "RM 29.90", category: "Main Dishes", description: "Smoked chicken cooked in a rich, spicy coconut milk gravy." },
+  { name: "Sayur Masak Lemak Putih", price: "RM 18.90", category: "Main Dishes", description: "Vegetables stewed in a mild, non-spicy white coconut gravy." },
+  { name: "Terung Masak Sambal Hijau Petai", price: "RM 17.90", category: "Main Dishes", description: "Eggplant cooked with green chili sambal and petai." },
+  { name: "Cucur Udang", price: "RM 16.90", category: "Main Dishes", description: "Crispy prawn fritters, typically served with a dipping sauce." },
+  { name: "Ulam with Sambal Belacan", price: "RM 12.90", category: "Main Dishes", description: "Assortment of fresh raw herbs and vegetables with a spicy shrimp paste dip." },
+  { name: "Telur Dadar", price: "RM 9.90", category: "Main Dishes", description: "Traditional Malay-style omelette." },
+  { name: "Sambal Tempoyak", price: "RM 4.90", category: "Main Dishes", description: "Spicy condiment made with fermented durian and chilies." },
+  { name: "White Rice", price: "RM 3.90", category: "Main Dishes", description: "A single serving of steamed white rice." },
+  { name: "Asam Boi Fruit Mix", price: "RM 22.90", category: "Desserts & Snacks", description: "Mixed fruits tossed in tangy sour plum (asam boi) seasoning." },
+  { name: "Pengat Nangka bersama Pulut", price: "RM 22.90", category: "Desserts & Snacks", description: "Sweet jackfruit coconut milk dessert served with sticky rice." },
+  { name: "Tapai Pulut Aiskrim", price: "RM 15.90", category: "Desserts & Snacks", description: "Fermented glutinous rice served with ice cream." },
+  { name: "Cekodok Pisang", price: "RM 15.90", category: "Desserts & Snacks", description: "Deep-fried mashed banana balls." },
+  { name: "Assorted Kuih-muih", price: "RM 1.80", category: "Desserts & Snacks", description: "Traditional bite-sized Malay sweets and cakes (price per piece)." },
+  { name: "Orange Juice", price: "RM 14.90", category: "Drinks", description: "Freshly squeezed orange juice." },
+  { name: "Kopi Santan", price: "RM 14.90", category: "Drinks", description: "Coffee brewed with rich coconut milk." },
+  { name: "Teh O Limau Iced", price: "RM 6.90", category: "Drinks", description: "Iced black tea infused with fresh lime." },
+  { name: "Sirap Selasih Iced", price: "RM 4.90", category: "Drinks", description: "Iced rose syrup drink with sweet basil seeds." },
+  { name: "Iced Plain Water", price: "RM 0.50", category: "Drinks", description: "Chilled filtered water." }
+];

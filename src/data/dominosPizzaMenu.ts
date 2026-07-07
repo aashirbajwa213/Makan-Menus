@@ -1,107 +1,16 @@
 export const dominosPizzaMenu = [
-  // Signature Pizzas
-  {
-    name: "Classics Pizza: Classified Chicken (Regular)",
-    price: "RM32.90",
-    category: "Signature Pizzas",
-    description: "Dominos signature creamy sauce topped with tender shredded chicken, fresh mushrooms, and onions on a classic hand-tossed crust."
-  },
-  {
-    name: "Classics Pizza: Aloha Chicken (Regular)",
-    price: "RM32.90",
-    category: "Signature Pizzas",
-    description: "Topped with tender chicken slices, juicy pineapples, shredded mozzarella, and classic tomato sauce."
-  },
-  {
-    name: "Classics Pizza: Beef Pepperoni (Regular)",
-    price: "RM32.90",
-    category: "Signature Pizzas",
-    description: "A timeless favorite loaded with beef pepperoni, shredded mozzarella cheese, and rich tomato sauce."
-  },
-  {
-    name: "Classics Pizza: Spicy Sambal (Regular)",
-    price: "RM32.90",
-    category: "Signature Pizzas",
-    description: "A spicy local delight featuring anchovies, onions, red chilies, mozzarella, and a robust sambal sauce."
-  },
-
-  // Premium Pizzas
-  {
-    name: "Premium Pizza: Ultimate Hawaiian (Regular)",
-    price: "RM37.90",
-    category: "Premium Pizzas",
-    description: "A deluxe version featuring premium chicken roll slices, chicken pepperoni, juicy pineapples, shredded mozzarella, and rich tomato sauce."
-  },
-  {
-    name: "Premium Pizza: Extravaganzza (Regular)",
-    price: "RM37.90",
-    category: "Premium Pizzas",
-    description: "Loaded with beef pepperoni, ground beef, fresh green peppers, onions, mushrooms, and black olives."
-  },
-  {
-    name: "Premium Pizza: Meat Mania (Regular)",
-    price: "RM37.90",
-    category: "Premium Pizzas",
-    description: "A meat lovers dream loaded with beef pepperoni, beef sausage slices, ground beef, chicken roll, and mozzarella cheese."
-  },
-  {
-    name: "Cheese Burst Upgrade (Regular Size)",
-    price: "RM8.50",
-    category: "Premium Pizzas",
-    description: "Upgrade your pizza crust to double-layered crust stuffed with rich, liquid cheese sauce."
-  },
-
-  // Chicken & Pasta Sides
-  {
-    name: "Roasted Chicken Bites (6 pcs)",
-    price: "RM13.90",
-    category: "Chicken & Pasta Sides",
-    description: "Six pieces of tender, juicy boneless chicken bites roasted to golden perfection."
-  },
-  {
-    name: "Crazy Chicken Kickers (6 pcs)",
-    price: "RM14.90",
-    category: "Chicken & Pasta Sides",
-    description: "Six spicy breaded chicken bites served with a sweet and tangy dipping sauce."
-  },
-  {
-    name: "Chicken Carbonara Spaghetti",
-    price: "RM15.90",
-    category: "Chicken & Pasta Sides",
-    description: "Oven-baked spaghetti tossed in rich, creamy carbonara sauce with chicken breast chunks, mushrooms, and cheese."
-  },
-
-  // Breads & Snacks
-  {
-    name: "Garlic Bread",
-    price: "RM6.90",
-    category: "Breads & Snacks",
-    description: "A warm, toasted loaf of bread spread with rich garlic butter."
-  },
-  {
-    name: "Breadstix",
-    price: "RM8.90",
-    category: "Breads & Snacks",
-    description: "Eight pieces of freshly baked breadsticks sprinkled with garlic seasoning and served with marinara sauce."
-  },
-  {
-    name: "Banana Kaya Dessert Pizza",
-    price: "RM10.90",
-    category: "Breads & Snacks",
-    description: "Thin-crust pizza topped with sweet pandan kaya spread, sliced bananas, and a sprinkle of icing sugar."
-  },
-
-  // Desserts & Drinks
-  {
-    name: "Chocolate Lava Cake",
-    price: "RM10.90",
-    category: "Desserts & Drinks",
-    description: "Warm chocolate cake with a rich, gooey molten chocolate center."
-  },
-  {
-    name: "Soft Drink 1.5L (Coke / Sprite)",
-    price: "RM7.90",
-    category: "Desserts & Drinks",
-    description: "A large 1.5-liter bottle of your favorite carbonated drink."
-  }
+  { name: "Aloha Chicken Pizza (Regular)", price: "RM 35.90", category: "Pizzas", description: "A tropical blend of savory chicken slices, sweet pineapple chunks, and mozzarella cheese." },
+  { name: "Beef Pepperoni Pizza (Regular)", price: "RM 35.90", category: "Pizzas", description: "A classic favorite generously topped with beef pepperoni slices and 100% mozzarella cheese." },
+  { name: "Classified Chicken Pizza (Regular)", price: "RM 35.90", category: "Pizzas", description: "Tender chicken, mushrooms, and onions topped with signature Top Secret Sauce." },
+  { name: "Vegie Galore Pizza (Regular)", price: "RM 35.90", category: "Pizzas", description: "Loaded with fresh onions, green peppers, mushrooms, and ripe olives." },
+  { name: "Extravaganzza Pizza (Regular)", price: "RM 39.90", category: "Pizzas", description: "The ultimate feast with beef pepperoni, ground beef, mushrooms, green peppers, onions, and black olives." },
+  { name: "Spaghetti Chicken", price: "RM 16.90", category: "Pasta", description: "Al dente spaghetti cooked in a rich tomato sauce with chicken chunks." },
+  { name: "Macaroni & Cheese", price: "RM 16.90", category: "Pasta", description: "Classic creamy macaroni baked with a generous layer of melted cheese." },
+  { name: "Crazy Chicken Crunchies (Tom Yam)", price: "RM 15.90", category: "Sides", description: "Tender chicken breast cuts marinated in spicy and sour Tom Yam flavors, baked to perfection." },
+  { name: "Roasted Chicken Drummets (9 pcs)", price: "RM 20.90", category: "Sides", description: "Juicy chicken drummets perfectly roasted with a savory glaze." },
+  { name: "Cheesy Mozzarella Stix", price: "RM 12.90", category: "Sides", description: "Oven-baked sticks stuffed with stringy mozzarella cheese." },
+  { name: "Breadstix", price: "RM 9.90", category: "Sides", description: "Freshly baked breadsticks served with salsa sauce." },
+  { name: "Chocolate Lava Cake", price: "RM 12.90", category: "Desserts", description: "A decadent warm chocolate cake with a molten chocolate center." },
+  { name: "Banana Kaya Dessert", price: "RM 11.90", category: "Desserts", description: "A sweet pizza crust topped with rich kaya (coconut jam) and fresh banana slices." },
+  { name: "Pepsi Black (1.5L)", price: "RM 8.90", category: "Beverages", description: "Refreshing zero-calorie cola beverage." }
 ];

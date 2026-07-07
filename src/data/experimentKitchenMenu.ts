@@ -1,0 +1,21 @@
+export const experimentKitchenMenu = [
+  { name: "Talam Terasi", price: "RM 69.90", category: "Talam Series (Sharing Platters)", description: "A signature sharing platter for 2 pax served during Lunch Special (12 PM – 4 PM), featuring a curated selection of local and fusion dishes on a large tray." },
+  { name: "Talam Orked", price: "RM 95.90", category: "Talam Series (Sharing Platters)", description: "A premium sharing platter for 2 pax available during the Lunch Special (12 PM – 4 PM), with an elevated selection of dishes on a large communal tray." },
+  { name: "Talam Kekwa", price: "RM 129.90", category: "Talam Series (Sharing Platters)", description: "A large sharing platter for 3–4 pax during the Lunch Special (12 PM – 4 PM), perfect for group dining with a generous spread of Western and local flavours." },
+  { name: "You Butter Milk It – Chicken Popcorn", price: "RM 20.90", category: "Western & Signature Plates", description: "Crispy chicken popcorn coated in a rich, creamy buttermilk sauce — a crowd-favourite lighter option." },
+  { name: "You Butter Milk It – Chicken Chop", price: "RM 21.90", category: "Western & Signature Plates", description: "A juicy chicken chop drenched in Experiment Kitchen's signature buttermilk sauce." },
+  { name: "You Butter Milk It – Chicken Grill", price: "RM 21.90", category: "Western & Signature Plates", description: "Grilled chicken with the signature creamy buttermilk glaze, offering a lighter, smoky alternative." },
+  { name: "Tom Yummy – Chicken Chop", price: "RM 21.90", category: "Western & Signature Plates", description: "A fusion twist on a Western classic — chicken chop served with a spicy, tangy Tom Yum-inspired sauce." },
+  { name: "Masak Lomak Atok – Chicken Chop", price: "RM 22.90", category: "Western & Signature Plates", description: "A uniquely Malaysian fusion dish featuring chicken chop smothered in a rich, creamy Masak Lemak coconut milk-based sauce." },
+  { name: "You Butter Milk It – Fried Squid", price: "RM 23.90", category: "Western & Signature Plates", description: "Crispy fried squid rings generously coated in Experiment Kitchen's beloved buttermilk sauce." },
+  { name: "Tom Yummy – Seafood", price: "RM 23.90", category: "Western & Signature Plates", description: "A spicy Tom Yum-inspired seafood platter combining bold flavours with a hearty mix of fresh seafood." },
+  { name: "You Butter Milk It – Lamb Chop", price: "RM 24.90", category: "Western & Signature Plates", description: "Tender lamb chop served with the rich, creamy buttermilk sauce." },
+  { name: "Salted Egg-cellent – Chicken Chop", price: "RM 25.90", category: "Western & Signature Plates", description: "A popular chicken chop dish drizzled with a luscious, golden salted egg yolk sauce." },
+  { name: "Salted Egg-cellent – Fried Squid", price: "RM 26.90", category: "Western & Signature Plates", description: "Crispy fried squid coated in a rich salted egg yolk sauce." },
+  { name: "Burger Series", price: "Price varies", category: "Burger Series", description: "A selection of large, hearty burgers (beef and chicken options) available from 4 PM to 12 AM." },
+  { name: "Mac & Cheese", price: "Price varies", category: "Rice & Pasta", description: "Experiment Kitchen's take on a classic comfort food — creamy macaroni and cheese." },
+  { name: "Rice Dishes", price: "Price varies", category: "Rice & Pasta", description: "A selection of rice-based meals featuring local and fusion flavours." },
+  { name: "Waffle Series", price: "Price varies", category: "Waffles & Desserts", description: "Sweet and fluffy waffles served as a dessert or snack option in various topping combinations." },
+  { name: "Air Best XXL", price: "Price varies", category: "Drinks & Beverages", description: "Experiment Kitchen's signature oversized drink (1,700 ml), perfect for sharing at the table." },
+  { name: "Signature Frappes", price: "Price varies", category: "Drinks & Beverages", description: "A selection of blended, chilled signature frappes in unique flavour combinations." }
+];

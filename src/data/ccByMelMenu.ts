@@ -1,0 +1,20 @@
+export const ccByMelMenu = [
+  { name: "Trio Taco Box", price: "RM 68.00", category: "Appetizers / Light Bites", description: "Three signature nori seaweed shells with various premium fillings like salmon, tuna, and beef." },
+  { name: "Gyu Nori", price: "RM 26.00", category: "Appetizers / Light Bites", description: "Crispy seaweed taco shell filled with beef." },
+  { name: "Una Nori", price: "RM 25.00", category: "Appetizers / Light Bites", description: "Crispy seaweed taco shell filled with unagi (eel)." },
+  { name: "Yu Nori", price: "RM 24.00", category: "Appetizers / Light Bites", description: "Crispy seaweed taco shell with fresh fillings." },
+  { name: "Tropica Nori", price: "RM 24.00", category: "Appetizers / Light Bites", description: "Crispy seaweed taco shell with tropical-inspired fillings." },
+  { name: "Ocean Capellini", price: "RM 35.00", category: "Pasta & Noodles", description: "Cold pasta dish featuring sashimi, ikura, and a savory truffle oil dressing." },
+  { name: "Truffle Puddle", price: "RM 48.00", category: "Pasta & Noodles", description: "Rich and aromatic signature truffle pasta." },
+  { name: "Yuzu Capellini", price: "RM 26.00", category: "Pasta & Noodles", description: "Refreshing cold capellini infused with yuzu flavor." },
+  { name: "Shake Salmon Don", price: "RM 45.00", category: "Donburi / Mains", description: "Rice bowl topped with raw and grilled salmon, ikura, and a Japanese egg yolk." },
+  { name: "Wagyu Don", price: "RM 90.00", category: "Donburi / Mains", description: "Premium wagyu beef served over a bowl of Japanese rice." },
+  { name: "Kawaii Chicken Don", price: "RM 21.00", category: "Kids Menu", description: "A kid-friendly chicken and rice bowl." },
+  { name: "Happy Udon Bowl", price: "RM 20.00", category: "Kids Menu", description: "Simple, delicious, and comforting udon soup for children." },
+  { name: "Mac & Cheese Pasta", price: "RM 20.00", category: "Kids Menu", description: "Classic creamy macaroni and cheese." },
+  { name: "Egg Fried Rice", price: "RM 18.00", category: "Kids Menu", description: "Savory and mild egg fried rice." },
+  { name: "Matcha on Matcha", price: "RM 18.00", category: "Desserts", description: "A delightful double matcha dessert." },
+  { name: "Coconut Mochi Pandan", price: "RM 17.00", category: "Desserts", description: "Pandan-flavored mochi paired with coconut." },
+  { name: "Matilda Cake", price: "RM 20.00", category: "Desserts", description: "Decadent and rich chocolate cake." },
+  { name: "Ice Hojicha Latte", price: "RM 16.00", category: "Beverages", description: "Refreshing iced roasted green tea latte." }
+];
