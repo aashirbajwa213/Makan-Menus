@@ -430,40 +430,6 @@ export const brandMocks: Record<string, any[]> = {
       menu: subwayMenu
     },
     {
-      name: "Domino's Pizza",
-      slug: "dominos-pizza",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pizza", colors: "bg-blue-600 text-white" }],
-      desc: "Leading pizza delivery brand renowned for its wide variety of pizzas, fast service, and frequent promotional deals.",
-      seoArticle: `\n<h2>Domino's Pizza Malaysia</h2>\n<p>Domino's Pizza is a dominant force in Malaysia's fast-food pizza market, beloved for its speedy delivery, innovative pizza flavors, and unbeatable combo deals. From local favorites like Aloha Chicken and Beef Pepperoni to premium offerings like the Extravaganzza, Domino's provides a diverse menu that caters to all tastes. They are equally famous for their sides, particularly the Cheesy Mozzarella Stix and Chocolate Lava Cake, making them a go-to choice for parties, family gatherings, and late-night cravings.</p>\n`,
-      faqs: [
-        { q: "What sizes are Domino's pizzas in Malaysia?", a: "Domino's offers three main sizes: Personal (6-inch), Regular (9-inch), Large (12-inch), and Xtra Large (15-inch)." },
-        { q: "How much is a Regular pizza at Domino's Malaysia?", a: "The base price for a Regular pizza (a-la-carte) is typically around RM 35.90, but it is highly recommended to use their website's 'Hot Deals' where pizzas are often heavily discounted." },
-        { q: "Does Domino's Malaysia offer free delivery?", a: "Yes, Domino's Malaysia is famous for its 'Free Delivery' policy when ordering directly through their official app or website, with no hidden delivery charges." },
-        { q: "What are the most popular sides at Domino's?", a: "The Roasted Chicken Drummets, Cheesy Mozzarella Stix, and the Chocolate Lava Cake are among the most highly rated side items." },
-        { q: "Is Domino's Pizza Malaysia halal?", a: "Yes, Domino's Pizza Malaysia is 100% halal-certified by JAKIM." }
-      ],
-      menu: dominosPizzaMenu
-    },
-    {
-      name: "Stuff'd",
-      slug: "stuffd",
-      category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Kebabs & Burritos", colors: "bg-yellow-600 text-white" }],
-      desc: "Fast-casual chain specializing in hearty, customizable kebabs, burritos, and daily bowls made with fresh ingredients.",
-      seoArticle: `\n<h2>Stuff'd Malaysia</h2>\n<p>Stuff'd has rapidly become a favorite fast-casual dining option in Malaysia for those seeking quick, filling, and relatively healthy meals. Specializing in Mexican and Turkish-inspired fare, the menu is built around highly customizable Kebabs, Burritos, Quesadillas, and Daily Bowls. Customers can choose their base, protein (typically grilled chicken or savory beef), and load up on a wide variety of fresh vegetables, salsas, and signature sauces. Known for generous portion sizes and fresh ingredients, Stuff'd offers excellent value for money.</p>\n`,
-      faqs: [
-        { q: "What is the most popular item at Stuff'd?", a: "The Chicken Kebab and the Chicken Burrito are among the most popular items, known for being generously packed with fresh ingredients and flavorful sauces." },
-        { q: "How much does a meal cost at Stuff'd Malaysia?", a: "Prices are generally between RM 18.50 for a Kebab meal (which includes a side and drink) and up to RM 25.50 for a Beef Burrito or Daily Bowl meal." },
-        { q: "Are Stuff'd meals healthy?", a: "Yes, they can be very healthy. The 'Daily Bowl' option, in particular, allows you to skip the bread wrap and load up on lean proteins, complex carbs, and fresh vegetables." },
-        { q: "Is Stuff'd Malaysia halal?", a: "Yes, Stuff'd Malaysia is certified halal by JAKIM." },
-        { q: "Can I customize my order at Stuff'd?", a: "Absolutely! Customization is a core part of the experience. You can choose exactly which vegetables, toppings, and sauces you want in your kebab, burrito, or bowl." }
-      ],
-      menu: stuffdMenu
-    },
-    {
       name: "Potato Story",
       slug: "potato-story",
       category: 'fast-food',
@@ -1433,23 +1399,6 @@ export const brandMocks: Record<string, any[]> = {
       menu: donaBakehouseMenu
     },
     {
-      name: "O'Briens Irish Sandwich Cafe",
-      slug: "obriens",
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1481070555726-e2fe83477d15?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Healthy Sandwiches", colors: "bg-green-700 text-white" }],
-      desc: "Lifestyle cafe chain offering fresh, hand-cut, made-to-order healthy sandwiches, salads, and gourmet coffees.",
-      seoArticle: `\n<h2>O'Briens Irish Sandwich Cafe Malaysia</h2>\n<p>O'Briens Irish Sandwich Café is a globally recognized lifestyle café chain that has successfully brought authentic Irish café culture to Malaysia. It is highly favored by health-conscious diners and busy professionals for its wholesome, healthy meals. O'Briens specializes in freshly made-to-order, hand-cut sandwiches crafted with premium ingredients and their signature sugar-free bread (like the Shambo). With numerous convenient outlets across the country—including major malls and airports—the café also offers a fantastic variety of fresh salads, hearty wraps, gourmet coffees, and smoothies.</p>\n`,
-      faqs: [
-        { q: "What type of food does O'Briens Malaysia serve?", a: "O'Briens Malaysia serves freshly made-to-order hand-cut sandwiches, wraps, salads, and Irish snacks, alongside freshly brewed gourmet coffees, juices, and smoothies." },
-        { q: "How much does a sandwich cost at O'Briens Malaysia?", a: "Prices for a signature sandwich at O'Briens typically range from RM 18.00 to RM 29.60, depending on the specific branch and whether you are ordering via a delivery platform." },
-        { q: "Are there healthy options available on the O'Briens Malaysia menu?", a: "Yes, O'Briens is well-known for its healthy options, featuring fresh salads, egg and tuna wraps, and the use of premium sugar-free bread for their sandwiches." },
-        { q: "Does O'Briens Malaysia offer food delivery?", a: "Yes, O'Briens provides delivery services through their official online ordering system as well as popular platforms like GrabFood and foodpanda." },
-        { q: "Are the menu prices the same at all O'Briens locations in Malaysia?", a: "Prices may vary slightly by location, with premium locations like airports and major malls potentially having different pricing, as well as variations on delivery apps due to service fees." }
-      ],
-      menu: oBriensMenu
-    },
-    {
       name: "Sogno Coffee",
       slug: "sogno-coffee",
       category: 'coffee-bakeries',
@@ -2348,43 +2297,6 @@ export const brandMocks: Record<string, any[]> = {
       menu: oldtownWhiteCoffeeMenu
     },
     {
-      name: "Kenny Hills Bakers",
-      slug: "kenny-hills-bakers",
-    searchVolume: 4400,
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Premium Bakery", colors: "bg-purple-600 text-white" }],
-      desc: "Organic Sourdough, Peach Strudels & Specialty Coffee",
-      seoArticle: `\n<h2>Kenny Hills Bakers Malaysia: Premium Artisanal Bakes & Peach Strudels</h2>
-<p>Established as a cozy neighborhood bakery in Bukit Tunku, Kenny Hills Bakers has evolved into KL's premier destination for high-end artisanal pastries, organic sourdough breads, and gourmet brunch dishes. Renowned for their viral, freshly made Peach Strudel slice featuring crisp puff pastry layers, thick vanilla custard, and juicy peaches, they prioritize premium, imported ingredients. Explore our up-to-date price guide for their entire selection of pastries, wagyu burgers, sourdough pizzas, and specialty coffee.</p>\n`,
-      nutritionHtml: `
-<p class="text-lg">Kenny Hills Bakers is highly celebrated for its premium butter-rich pastries. Make an informed choice:</p>
-<ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Organic Sourdough Benefits:</strong> Sourdough is made via natural fermentation, making it easier to digest and having a lower glycemic index than commercial white breads.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Indulgent Custards:</strong> The signature Peach Strudel is rich in fresh dairy cream and custard. Share a slice to keep your sugar intake balanced.</span></li>
-</ul>
-      `,
-      healthyTip: `"Opt for the Poached Egg and Avocado Toast on house sourdough bread for a nutritious, protein-packed breakfast full of healthy fats."`,
-      deliveryHtml: `
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-purple-600">Kenny Hills Web</div>
-    <p class="text-slate-500 text-sm font-medium">Order directly from their official online shop for guaranteed delivery of whole artisanal cakes and freshly baked loaves.</p>
-  </div>
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-green-600">GrabFood Signature</div>
-    <p class="text-slate-500 text-sm font-medium">Enjoy premium on-demand delivery of croissants and hot specialty coffee straight to your home.</p>
-  </div>
-</div>
-      `,
-      faqs: [
-        { q: "Is Kenny Hills Bakers Halal?", a: "All Kenny Hills Bakers outlets operate on a strict pork-free and alcohol-free policy, using only Halal-certified ingredients and suppliers. They do not hold JAKIM Halal certification due to their premium imported ingredient sourcing." },
-        { q: "What is their most famous pastry?", a: "Their legendary Peach Strudel is widely considered the best in Kuala Lumpur." },
-        { q: "Can I buy whole loaves of bread?", a: "Yes! They bake fresh organic sourdough, brioche, and country loaves daily, available for retail purchase." }
-      ],
-      menu: kennyHillsBakersMenu
-    },
-    {
       name: "Dunkin' Malaysia",
       slug: "dunkin",
     searchVolume: 210,
@@ -2420,43 +2332,6 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Do they serve savory breakfast items?", a: "Yes, they offer egg, cheese, chicken bacon, and tuna mayo croissant sandwiches all day." }
       ],
       menu: dunkinMenu
-    },
-    {
-      name: "Krispy Kreme Malaysia",
-      slug: "krispy-kreme",
-    searchVolume: 1600,
-      category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal Status: JAKIM Certified", colors: "bg-green-500 text-white" }, { name: "Donuts", colors: "bg-pink-500 text-white" }],
-      desc: "Mouthwatering Glazed Donuts & Specialty Brews",
-      seoArticle: `\n<h2>Krispy Kreme Malaysia Menu 2026: Melt-in-Your-Mouth Glazed Donuts</h2>
-<p>Few things in life compare to the warm, pillowy softness of a freshly made Krispy Kreme Original Glazed donut. Since arriving in Malaysia, Krispy Kreme has captured the hearts of local dessert lovers with their signature theatrical 'Hot Light' theater experience. Our updated guide tracks the latest pricing for all their classic, premium, and value pack selections so you can plan the perfect sweet treat.</p>\n`,
-      nutritionHtml: `
-<p class="text-lg">Original Glazed is about 190 kcal. Premium varieties (stuffed with custard/nutella) range from 300 to 380 kcal.</p>
-<ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Original is Lighter:</strong> Stick to the classic Original Glazed which has fewer calories than cream-filled options.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Sugar Control:</strong> Balance your sweet treat by pairing it with a sugar-free hot drink.</span></li>
-</ul>
-      `,
-      healthyTip: `"If you're watching your sugar or calorie intake, stick to the classic Original Glazed which has fewer calories than cream-filled options, and pair it with a sugar-free black coffee."`,
-      deliveryHtml: `
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
-    <p class="text-slate-500 text-sm font-medium">Get signature green boxes of hot original glazed donuts delivered fast.</p>
-  </div>
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
-    <p class="text-slate-500 text-sm font-medium">Great discounts on half-dozen and double-dozen sharing packs.</p>
-  </div>
-</div>
-      `,
-      faqs: [
-        { q: "Is Krispy Kreme Halal certified in Malaysia?", a: "Yes, Krispy Kreme Malaysia is fully Halal certified by JAKIM." },
-        { q: "What does the Hot Light mean?", a: "When the neon 'Hot Light' is lit at theater outlets, it means original glazed donuts are coming fresh off the line!" },
-        { q: "How long do Krispy Kreme donuts stay fresh?", a: "They are best enjoyed on the day of purchase, but you can microwave them for 8 seconds to revive that melt-in-your-mouth texture." }
-      ],
-      menu: krispyKremeMenu
     },
     {
       name: "Big Apple Donuts & Coffee",
@@ -3388,39 +3263,6 @@ export const brandMocks: Record<string, any[]> = {
         { q: "What is the most popular dish?", a: "The Nasi Lemak with Curry Chicken and the Pappa Curry Laksa are fan favorites." }
       ],
       menu: pappaRichMenu
-    },
-    {
-      name: "OldTown White Coffee",
-      slug: "oldtown-white-coffee",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
-      desc: "The True White Coffee Origination",
-      seoArticle: `\n<h2>OldTown White Coffee: The Taste of Ipoh</h2>
-<p>Famous for their aromatic, smooth white coffee originating from Ipoh, OldTown is a breakfast staple. Pair their signature brew with a classic serving of Kaya Butter Toast or a hearty bowl of Ipoh Chicken Hor Fun. Our guide covers all their comforting local classics and current pricing.</p>\n`,
-      nutritionHtml: `
-<p class="text-lg">OldTown is famous for its rich White Coffee and classic toast sets.</p>
-<ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Vegetarian Options:</strong> They offer a dedicated plant-based and vegetarian menu series.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> OldTown White Coffee is fully Halal certified.</span></li>
-</ul>`,
-      healthyTip: `"For a lighter coffee, choose the 'Kosong' (no sugar/milk) option to fully enjoy the roasted aroma without the added calories."`,
-      deliveryHtml: `
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
-    <p class="text-slate-500 text-sm font-medium">Excellent for morning breakfast deliveries, bringing warm toast to your door.</p>
-  </div>
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
-    <p class="text-slate-500 text-sm font-medium">Convenient for lunch meals and ordering their signature noodles.</p>
-  </div>
-</div>`,
-      faqs: [
-        { q: "Are all OldTown White Coffee outlets Halal?", a: "Yes, all OldTown White Coffee outlets in Malaysia are Halal certified." },
-        { q: "What is White Coffee?", a: "White Coffee is a traditional Malaysian coffee roasting method using margarine, producing a smoother, lighter-colored brew." }
-      ],
-      menu: oldtownWhiteCoffeeMenu
     },
     {
       name: "Madam Kwan's",
@@ -5838,23 +5680,6 @@ export const brandMocks: Record<string, any[]> = {
       menu: bacioItalianKitchenMenu
     },
     {
-      name: "Flour, Fire & Stone",
-      slug: "flour-fire-stone",
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Sourdough Pizza", colors: "bg-red-500 text-white" }],
-      desc: "Modern rustic restaurant specializing in sourdough pizzas and wood-fired cooking.",
-      seoArticle: `\n<h2>Flour, Fire & Stone</h2>\n<p>Flour, Fire & Stone is a modern rustic restaurant and bakery located in Petaling Jaya, Malaysia, operating under the Kenny Hills Hospitality Group. The establishment specializes in flour-based dishes, wood-fired cooking, and artisan siphon coffee. They are renowned for their signature sourdough pizzas, hearty brunch options, and premium main courses.</p>\n`,
-      faqs: [
-        { q: "Where is Flour, Fire & Stone located in Malaysia?", a: "Flour, Fire & Stone is located at 17, Jalan Professor Khoo Kay Kim, PJS 13, 46100 Petaling Jaya, Selangor, Malaysia, situated next to the Pickle Park lifestyle hub." },
-        { q: "What are the operating hours for Flour, Fire & Stone?", a: "The restaurant is open daily from 9:00 AM to 10:00 PM." },
-        { q: "What are the signature items on the Flour, Fire & Stone menu?", a: "Their signature items include wood-fired sourdough pizzas, the Breakfast Smorgasbord, duck confit, squid ink risotto, and artisan siphon coffee." },
-        { q: "Is Flour, Fire & Stone part of the Kenny Hills Bakers group?", a: "Yes, Flour, Fire & Stone is a cafe and restaurant concept operated by the renowned Kenny Hills Hospitality Group." },
-        { q: "What kind of coffee does Flour, Fire & Stone serve?", a: "They serve artisan siphon coffee, utilizing their own-roasted Brazilian, Colombian, and Indonesian coffee beans." }
-      ],
-      menu: flourFireAndStoneMenu
-    },
-    {
       name: "Bienz",
       slug: "bienz",
       category: 'pizza-italian',
@@ -5912,43 +5737,6 @@ export const brandMocks: Record<string, any[]> = {
       ],
       
       menu: pizzaHutMenu
-    },
-    {
-      name: "Domino's Pizza Malaysia",
-      slug: "dominos-pizza",
-    searchVolume: 5400,
-      category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Delivery King", colors: "bg-blue-600 text-white" }],
-      desc: "It's All About The Dough",
-      seoArticle: `\n<h2>Domino's Pizza Malaysia: Delivery Specials & Hand-Tossed Classics</h2>
-<p>Domino's Pizza has secured its place as Malaysia's favorite pizza delivery service, famous for their "30-minute delivery guarantee" and highly addictive Garlic Twisty Bread. Their secret lies in the fresh, never-frozen hand-tossed dough and their signature rich tomato sauce. Whether you want to feed a large gathering with their Buy 1 Free 2 deals or enjoy a personal Classified Chicken pizza, our up-to-date price list contains all their pizzas, chicken sides, pastas, and desserts to help you maximize your savings.</p>\n`,
-      nutritionHtml: `
-<p class="text-lg">Domino's offers various crust types and toppings. Here's a breakdown for healthier dining:</p>
-<ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Thin & Crispy:</strong> Choose the Thin & Crispy crust option instead of Classic Hand-Tossed or Pan crusts to save up to 100 calories per slice.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Sauce & Toppings:</strong> Opt for lean toppings like chicken and mushrooms rather than double pepperoni and extra cheese layers.</span></li>
-</ul>
-      `,
-      healthyTip: `"Opt for a Thin & Crispy crust Classified Chicken or Veggie Galore pizza, and pair it with a garden salad or roasted chicken bites instead of loaded breadsticks."`,
-      deliveryHtml: `
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-blue-600">Domino's Delivery</div>
-    <p class="text-slate-500 text-sm font-medium">Use the official Domino's Malaysia website or app for direct, guaranteed 30-minute delivery and exclusive web-only coupons.</p>
-  </div>
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
-    <p class="text-slate-500 text-sm font-medium">Also available on major food delivery services with frequent seasonal merchant discounts.</p>
-  </div>
-</div>
-      `,
-      faqs: [
-        { q: "Is Domino's Pizza Halal certified in Malaysia?", a: "Yes, Domino's Pizza Malaysia is 100% Halal certified by JAKIM." },
-        { q: "What is the best-selling pizza at Domino's Malaysia?", a: "The Classified Chicken (featuring their signature rich, creamy white sauce) and the Beef or Chicken Pepperoni are the all-time favorites." },
-        { q: "Does Domino's charge for delivery?", a: "Domino's offers free delivery when ordering directly through their website or app, subject to a minimum order value." }
-      ],
-      menu: dominosPizzaMenu
     },
     {
       name: "US Pizza Malaysia",
@@ -6346,23 +6134,6 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Do they serve local food as well?", a: "The menu is heavily focused on Western dishes, though they occasionally feature localized variations or fusion items." }
       ],
       menu: alwisFoodMenu
-    },
-    {
-      name: "Bienz",
-      slug: "bienz",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Fusion & Pizzas", colors: "bg-red-800 text-white" }],
-      desc: "Modern cafe and restaurant serving a delightful mix of Western fusion dishes, specialty pizzas, and artisanal coffee.",
-      seoArticle: `\n<h2>Bienz Malaysia</h2>\n<p>Bienz is an emerging cafe and restaurant concept with notable branches in areas like Taman Sri Rampai and Seri Kembangan. It has quickly become a favorite for those seeking a stylish, casual dining experience with a menu that bridges Western classics and creative fusion. Highlights of their menu include the luxurious Golden Wagyu Pizza, rich buttermilk pastas, and an impressive beverage lineup featuring specialty lattes and matcha drinks. With its inviting ambiance and late-night weekend hours, it's a popular choice for both family dinners and late-night dessert runs.</p>\n`,
-      faqs: [
-        { q: "What is Bienz famous for?", a: "Bienz is highly recommended for its specialty pizzas, particularly the Golden Wagyu Pizza, as well as its diverse range of lattes and tiramisu desserts." },
-        { q: "What are the prices like at Bienz?", a: "Pizzas generally range from RM 40 to RM 70, while pastas sit around the RM 30+ mark. Specialty drinks are typically between RM 15 and RM 25." },
-        { q: "Does Bienz serve coffee?", a: "Yes, they offer a great selection of artisanal coffees, including Spanish Lattes and Tiramisu Lattes." },
-        { q: "Is Bienz suitable for family gatherings?", a: "Yes, the spacious seating and diverse menu featuring pizzas, pastas, and desserts make it a great spot for groups and families." },
-        { q: "Are they open late?", a: "Operating hours can vary by branch, but some locations are known to stay open until midnight on weekends." }
-      ],
-      menu: bienzMenu
     },
     {
       name: "Cleaver Shed",
@@ -6807,23 +6578,6 @@ export const brandMocks: Record<string, any[]> = {
       menu: peninsulaHouseMenu
     },
     {
-      name: "KBB Artisan Steakhouse",
-      slug: "kbb-artisan-steakhouse",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-835698b64e06?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Steaks", colors: "bg-red-900 text-white" }],
-      desc: "Halal-certified dining destination specializing in premium charcoal-grilled steaks and burgers.",
-      seoArticle: `\n<h2>KBB Artisan Steakhouse</h2>\n<p>KBB Artisan Steakhouse (also known as KBB Burger & Steak) in TTDI, Malaysia, is a popular, Halal-certified dining destination specializing in premium charcoal-grilled steaks and hearty burgers. Prepared using traditional techniques like their signature Josper oven, they offer an array of high-quality cuts including Wagyu, Tomahawk, and Porterhouse. The restaurant provides a comfortable, family-friendly atmosphere perfect for meat lovers looking for an authentic steakhouse experience.</p>\n`,
-      faqs: [
-        { q: "Is KBB Artisan Steakhouse Malaysia halal-certified?", a: "Yes, KBB Artisan Steakhouse (KBB Burger & Steak) is a fully Halal-certified restaurant, making it a great dining choice for Muslim patrons seeking premium steaks and burgers." },
-        { q: "What are the most popular items on the KBB Artisan Steakhouse TTDI menu?", a: "Some of the most highly recommended items include their signature charcoal-grilled Wagyu steaks, Braised Angus Beef Backribs, and the Josper Wagyu Burger." },
-        { q: "How much does a steak cost at KBB Artisan Steakhouse in Malaysia?", a: "Prices vary depending on the cut and weight, but premium mains like the Josper Aussie Rack of Lamb or Braised Angus Beef Backribs range from RM 167 to RM 178, while burgers and pastas are more affordable, ranging from RM 26 to RM 50." },
-        { q: "Does KBB Artisan Steakhouse offer non-beef options on their menu?", a: "Yes! The menu features plenty of non-beef alternatives such as the Brined 1/2 Chicken, Josper Grilled Barramundi, Aged Salmon Trout, and a variety of seafood or poultry pastas." },
-        { q: "Where is KBB Artisan Steakhouse located in KL?", a: "KBB Artisan Steakhouse is located at 26, Jalan Tun Mohd Fuad 1, Taman Tun Dr Ismail (TTDI), 60000 Kuala Lumpur, Malaysia." }
-      ],
-      menu: kbbArtisanSteakhouseMenu
-    },
-    {
       name: "The Brew House",
       slug: "the-brew-house",
       category: 'western-grilled',
@@ -6856,23 +6610,6 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Do the prices on the Firewood menu include taxes and fees?", a: "No, all menu prices at Firewood Penang are subject to an additional 10% service charge and prevailing government taxes." }
       ],
       menu: firewoodMenu
-    },
-    {
-      name: "Burger & Lobster",
-      slug: "burger-lobster",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Premium Burgers", colors: "bg-orange-600 text-white" }],
-      desc: "Internationally renowned for wild-caught Atlantic lobsters and prime-cut beef burgers.",
-      seoArticle: `\n<h2>Burger & Lobster</h2>\n<p>Burger & Lobster is an internationally renowned restaurant chain known for its high-quality, wild-caught Atlantic lobsters and prime-cut beef burgers. In Malaysia, it operates at prominent locations like SkyAvenue in Genting Highlands and Suria KLCC in Kuala Lumpur. The menu focuses on simple yet luxurious offerings, including signature lobster rolls, regional specialties like Chilli Lobster, and the indulgent B&L Beast Burger.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items on the Burger & Lobster Malaysia menu?", a: "The most popular items include The Classic Whole Lobster (steamed or grilled), the signature Lobster Roll, the B&L Beast Burger, and the region-exclusive Chilli Lobster." },
-        { q: "Is the Burger & Lobster Malaysia menu Halal-certified?", a: "The beef used in their burgers is halal-certified, and the menu heavily features seafood. However, some sauces or drinks may not be halal, so it's advisable to verify specific items with the staff." },
-        { q: "How much does a meal cost at Burger & Lobster Malaysia?", a: "Prices generally range from RM 45 to RM 88 for burgers and rolls, while signature lobster dishes like the Chilli Lobster or Classic Whole Lobster cost around RM 218 to RM 228." },
-        { q: "Does Burger & Lobster Malaysia accept reservations?", a: "Burger & Lobster locations in Malaysia typically operate on a walk-in basis only and do not accept reservations. Expect potential wait times, especially on weekends and holidays." },
-        { q: "Are there vegetarian or plant-based options available on the menu?", a: "Yes, Burger & Lobster offers plant-based and vegetarian options, alongside a variety of meat-free sides such as Spinach Gratin, Corn Ribs, and Truffle Fries." }
-      ],
-      menu: burgerLobsterMenu
     },
     {
       name: "Oceano Symphony",
@@ -6941,23 +6678,6 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Does Cleaver Shed Malaysia serve alcohol or allow BYOB?", a: "While they do not have a formal wine list, Cleaver Shed is known to allow guests to bring their own bottles (BYOB) for a reasonable corkage fee of approximately RM 30." }
       ],
       menu: cleaverShedMenu
-    },
-    {
-      name: "Zukkini",
-      slug: "zukkini",
-      category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-811114215b1a?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Pork-Free", colors: "bg-green-500 text-white" }],
-      desc: "Australian brunch culture with Asian-inspired flavors.",
-      seoArticle: `\n<h2>Zukkini</h2>\n<p>Zukkini is a popular fusion restaurant located in Oasis Ara Damansara, Malaysia. It features a lush, 'oasis' atmosphere and serves a menu that seamlessly blends Australian brunch culture with Asian-inspired flavors. As a pork-free establishment, it offers a variety of hearty brunch classics, unique mains, and delicious cakes.</p>\n`,
-      faqs: [
-        { q: "Is Zukkini Malaysia halal-certified?", a: "Zukkini is a pork-free restaurant, making it a Muslim-friendly dining option in Malaysia." },
-        { q: "What are the most popular brunch items on the Zukkini menu?", a: "Popular brunch choices include the Zukkini Champion Breakfast, Truffle Scramble, and Korean Baked Eggs, all offering a unique fusion twist." },
-        { q: "Does Zukkini offer vegetarian options on their menu?", a: "Yes, Zukkini offers several vegetarian dishes, including the Zukkini Vegetarian Pasta, along with customizable brunch plates like Eggs Your Way and Avocado On Toast." },
-        { q: "What is the price range for mains at Zukkini Malaysia?", a: "Mains at Zukkini typically range from RM 26 to RM 38, with signature dishes like the Zukkini Nasi Kerabu 2.0 and Aglio Olio Tiger Prawns." },
-        { q: "Where is Zukkini located in Malaysia?", a: "Zukkini is known for its beautiful flagship location in Oasis Ara Damansara, offering a lush, greenhouse-inspired dining environment." }
-      ],
-      menu: zukkiniMenu
     },
     {
       name: "Nando's",
@@ -7363,40 +7083,6 @@ export const brandMocks: Record<string, any[]> = {
       menu: saladAtelierMenu
     },
     {
-      name: "Stuff'D",
-      slug: "stuffd",
-      category: 'sandwiches-health',
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Healthy", colors: "bg-green-500 text-white" }],
-      desc: "Healthy, fresh, and customizable Mexican-Turkish fusion food.",
-      seoArticle: `\n<h2>Stuff'D</h2>\n<p>Stuff'D is a popular quick-service restaurant chain in Malaysia known for its healthy, fresh, and customizable Mexican-Turkish fusion food. They offer a delicious selection of kebabs, burritos, quesadillas, and daily bowls packed with premium meats, fresh vegetables, and signature sauces. With generous portions and Halal-certified ingredients, Stuff'D provides a wholesome and convenient dining option for people on the go.</p>\n`,
-      faqs: [
-        { q: "Is Stuff'D Malaysia Halal certified?", a: "Yes, all Stuff'D outlets in Malaysia are 100% Halal-certified by JAKIM, making it a safe and Muslim-friendly option." },
-        { q: "What are the most popular items on the Stuff'D Malaysia menu?", a: "The Chicken Burrito and the highly customizable Daily Bowl are among the most popular and highly recommended items on the menu." },
-        { q: "Can I customize my order at Stuff'D?", a: "Absolutely! Stuff'D is known for its fully customizable menu where you can choose your preferred base, proteins, fresh vegetables, and a variety of signature sauces." },
-        { q: "Does Stuff'D Malaysia offer vegetarian options?", a: "Yes, Stuff'D provides excellent vegetarian options, including the Veggie Kebab, Veggie Burrito, and Veggie Daily Bowl, which are packed with fresh salad and beans." },
-        { q: "What is the average price of a meal at Stuff'D Malaysia?", a: "Prices are very affordable, generally ranging from RM 10.90 for a basic kebab up to RM 18.50 for a beef burrito or daily bowl, with meal upgrades available." }
-      ],
-      menu: stuffdMenu
-    },
-    {
-      name: "O'Briens Irish Sandwich Cafe",
-      slug: "obriens",
-      category: 'sandwiches-health',
-      image: "https://images.unsplash.com/photo-1554433607-66b5efe9d304?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Healthy", colors: "bg-green-500 text-white" }],
-      desc: "Healthy, freshly made-to-order sandwiches.",
-      seoArticle: `\n<h2>O'Briens Irish Sandwich Cafe</h2>\n<p>O'Briens Irish Sandwich Cafe is a prominent lifestyle cafe chain in Malaysia known for its healthy, freshly made-to-order sandwiches, salads, and wraps. Originating from Ireland, the cafe offers a cozy ambiance perfect for a quick, nutritious meal or a relaxing coffee break. Their menu highlights a wide selection of premium ingredients, freshly baked breads, gourmet coffees, and refreshing smoothies.</p>\n`,
-      faqs: [
-        { q: "What are the most popular items on the O'Briens Malaysia menu?", a: "Some of the most popular items include the Classic Tripledecker Sandwich, the Chicken Tripledecker Toastie, and their fresh Smoked Salmon Salad." },
-        { q: "Are there vegetarian options available at O'Briens?", a: "Yes, O'Briens offers various vegetarian options, including customisable meat-free sandwiches, hearty salads, and savory pastries." },
-        { q: "Does O'Briens Malaysia serve coffee and other beverages?", a: "Absolutely! O'Briens serves a wide variety of gourmet coffees, premium teas, ice-blended smoothies, and refreshing frappes to complement your meal." },
-        { q: "How much does a sandwich usually cost at O'Briens in Malaysia?", a: "Signature sandwiches typically range between RM 16.00 and RM 29.00, depending on your choice of premium ingredients and whether you order in-store or via a delivery platform." },
-        { q: "Is O'Briens Irish Sandwich Cafe Muslim-friendly?", a: "Yes, O'Briens Malaysia uses halal-certified ingredients across its menu, making it a popular and Muslim-friendly cafe choice for many diners." }
-      ],
-      menu: oBriensMenu
-    },
-    {
       name: "Subway",
       slug: "subway",
       category: 'sandwiches-health',
@@ -7690,23 +7376,6 @@ export const brandMocks: Record<string, any[]> = {
         { q: "Is Kuroma Buffet halal-certified?", a: "While Kuroma Buffet & Dining is not officially halal-certified, it is widely recognized as Muslim-friendly because they do not use pork or lard in their food preparation." }
       ],
       menu: kuromaBuffetMenu
-    },
-    {
-      name: "BBQ Town",
-      slug: "bbq-town",
-      category: 'buffet-dining',
-      image: "https://images.unsplash.com/photo-1544025162-811114215b1a?auto=format&fit=crop&q=80&w=600&h=400",
-      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
-      desc: "2-in-1 BBQ and Shabu-shabu Buffet.",
-      seoArticle: `\n<h2>BBQ Town</h2>\n<p>BBQ Town in Malaysia offers an all-you-can-eat buffet experience featuring a unique 2-in-1 BBQ and shabu-shabu dining concept. The restaurant is well-known for its high-quality, free-flow Australian beef, lamb, chicken, and fresh seafood, served alongside their signature 8-hour boiled konbu chicken soup. As a Halal-certified establishment, it serves as a popular and inclusive dining destination for families and large groups.</p>\n`,
-      faqs: [
-        { q: "How much is the BBQ Town Malaysia buffet price?", a: "The buffet price generally ranges from RM 39.80 for weekday lunches to around RM 49.80+ for weekend dinners, though exact prices may vary by branch and current promotions." },
-        { q: "Is BBQ Town Malaysia Halal-certified?", a: "Yes, BBQ Town outlets in Malaysia are widely recognized as Halal-certified, making them a popular and safe choice for Muslim diners." },
-        { q: "What kind of food is served at BBQ Town?", a: "BBQ Town serves a 2-in-1 BBQ and shabu-shabu buffet, offering unlimited servings of premium Australian beef, lamb, chicken, fresh prawns, sushi, and a variety of vegetables." },
-        { q: "Is there a dining time limit at BBQ Town?", a: "Yes, to accommodate all guests, most BBQ Town branches implement a 2-hour dining limit per table." },
-        { q: "Is there a wastage fee at BBQ Town?", a: "Yes, BBQ Town typically charges a food wastage fee (often around 20% of the total bill) for significant amounts of unconsumed food, encouraging mindful dining." }
-      ],
-      menu: bbqTownMenu
     },
     {
       name: "Alva KL",
