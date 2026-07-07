@@ -1,0 +1,15 @@
+# Duplicate pages - redirect to 404
+/sandwiches-health/subway-menu/ /404 404
+/sandwiches-health/stuffd-menu/ /404 404
+/sandwiches-health/obriens-menu/ /404 404
+/buffet-dining/bbq-town-menu/ /404 404
+/western-grilled/bienz-menu/ /404 404
+/western-grilled/burger-lobster-menu/ /404 404
+/pizza-italian/dominos-pizza-menu/ /404 404
+/pizza-italian/flour-fire-stone-menu/ /404 404
+/western-grilled/kbb-artisan-steakhouse-menu/ /404 404
+/coffee-bakeries/kenny-hills-bakers-menu/ /404 404
+/coffee-bakeries/krispy-kreme-menu/ /404 404
+/coffee-bakeries/obriens-menu/ /404 404
+/local-asian/oldtown-white-coffee-menu/ /404 404
+/western-grilled/zukkini-menu/ /404 404
