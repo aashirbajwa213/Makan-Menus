@@ -6,6 +6,7 @@ export const familyMartMenu = [
     "price": "RM9.50",
     "category": "Oden & Soup Bowls",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Creamy Tom Yum Bihun Bowl",
@@ -13,6 +14,7 @@ export const familyMartMenu = [
     "price": "RM11.40",
     "category": "Oden & Soup Bowls",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Laksa Kahwin Noodle Bowl",
@@ -20,6 +22,7 @@ export const familyMartMenu = [
     "price": "RM10.70",
     "category": "Oden & Soup Bowls",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Laksa Kahwin Ramen",
@@ -27,6 +30,7 @@ export const familyMartMenu = [
     "price": "RM8.30",
     "category": "Oden & Soup Bowls",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "King Crab Skewer (Add-on)",
@@ -34,6 +38,7 @@ export const familyMartMenu = [
     "price": "RM3.50",
     "category": "Oden & Soup Bowls",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Korean Odeng Fish Cake (Add-on)",
@@ -41,6 +46,7 @@ export const familyMartMenu = [
     "price": "RM3.80",
     "category": "Oden & Soup Bowls",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Fried Fish Ball (Add-on)",
@@ -48,6 +54,7 @@ export const familyMartMenu = [
     "price": "RM3.00",
     "category": "Oden & Soup Bowls",
     "menuType": "Food Menu"
+  
   },
 
   // Bento & Ready Meals (Food Menu)
@@ -57,6 +64,7 @@ export const familyMartMenu = [
     "price": "RM16.20",
     "category": "Bento & Ready Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Ebi Chilli Bento",
@@ -64,6 +72,7 @@ export const familyMartMenu = [
     "price": "RM14.30",
     "category": "Bento & Ready Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Kimchi Fried Rice",
@@ -71,6 +80,7 @@ export const familyMartMenu = [
     "price": "RM11.90",
     "category": "Bento & Ready Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Gyudon (Beef Bowl)",
@@ -78,6 +88,7 @@ export const familyMartMenu = [
     "price": "RM15.00",
     "category": "Bento & Ready Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Creamy Macaroni and Cheese",
@@ -85,6 +96,7 @@ export const familyMartMenu = [
     "price": "RM16.60",
     "category": "Bento & Ready Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Spaghetti Napolitan",
@@ -92,6 +104,7 @@ export const familyMartMenu = [
     "price": "RM13.10",
     "category": "Bento & Ready Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Shoyu Ramen",
@@ -99,6 +112,7 @@ export const familyMartMenu = [
     "price": "RM16.20",
     "category": "Bento & Ready Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Fried Mee Mamak",
@@ -106,6 +120,7 @@ export const familyMartMenu = [
     "price": "RM9.50",
     "category": "Bento & Ready Meals",
     "menuType": "Food Menu"
+  
   },
 
   // Hot Bar Snacks (Food Menu)
@@ -115,6 +130,7 @@ export const familyMartMenu = [
     "price": "RM6.60",
     "category": "Hot Bar Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Salted Egg Crispy Chiki",
@@ -122,6 +138,7 @@ export const familyMartMenu = [
     "price": "RM7.10",
     "category": "Hot Bar Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Taiwan Sausage Bun",
@@ -129,6 +146,7 @@ export const familyMartMenu = [
     "price": "RM5.90",
     "category": "Hot Bar Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Flaming Triple Cheese Corn Sausage",
@@ -136,6 +154,7 @@ export const familyMartMenu = [
     "price": "RM10.70",
     "category": "Hot Bar Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Salmon Bar",
@@ -143,6 +162,7 @@ export const familyMartMenu = [
     "price": "RM3.80",
     "category": "Hot Bar Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Cheese Fish Tofu",
@@ -150,6 +170,7 @@ export const familyMartMenu = [
     "price": "RM3.80",
     "category": "Hot Bar Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Chicken Curry Puff",
@@ -157,6 +178,7 @@ export const familyMartMenu = [
     "price": "RM3.50",
     "category": "Hot Bar Snacks",
     "menuType": "Food Menu"
+  
   },
 
   // Bakery & Buns (Food Menu)
@@ -166,6 +188,7 @@ export const familyMartMenu = [
     "price": "RM5.60",
     "category": "Bakery & Buns",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Hokkaido Melon Pan",
@@ -173,6 +196,7 @@ export const familyMartMenu = [
     "price": "RM5.50",
     "category": "Bakery & Buns",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Cranberry Cream Cheese Oyaki Bun XL",
@@ -180,6 +204,7 @@ export const familyMartMenu = [
     "price": "RM5.00",
     "category": "Bakery & Buns",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Pandan Coconut Oyaki Bun XL",
@@ -187,6 +212,7 @@ export const familyMartMenu = [
     "price": "RM3.80",
     "category": "Bakery & Buns",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Teriyaki Chicken Bun XL",
@@ -194,6 +220,7 @@ export const familyMartMenu = [
     "price": "RM4.70",
     "category": "Bakery & Buns",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Chicken Slice with Egg Mayo Fried Pan",
@@ -201,6 +228,7 @@ export const familyMartMenu = [
     "price": "RM4.70",
     "category": "Bakery & Buns",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Strawberry Bomboloni",
@@ -208,6 +236,7 @@ export const familyMartMenu = [
     "price": "RM3.80",
     "category": "Bakery & Buns",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Buttermilk Bun (4-in-1)",
@@ -215,6 +244,7 @@ export const familyMartMenu = [
     "price": "RM7.40",
     "category": "Bakery & Buns",
     "menuType": "Food Menu"
+  
   },
 
   // Desserts & Pudding (Food Menu)
@@ -224,6 +254,7 @@ export const familyMartMenu = [
     "price": "RM3.90",
     "category": "Desserts & Pudding",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Souffle Pudding",
@@ -231,6 +262,7 @@ export const familyMartMenu = [
     "price": "RM11.20",
     "category": "Desserts & Pudding",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Brownie Cheesecake Bar",
@@ -238,6 +270,7 @@ export const familyMartMenu = [
     "price": "RM5.40",
     "category": "Desserts & Pudding",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Chocolate Lava Cake",
@@ -245,6 +278,7 @@ export const familyMartMenu = [
     "price": "RM7.80",
     "category": "Desserts & Pudding",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Matcha Cream Bun",
@@ -252,6 +286,7 @@ export const familyMartMenu = [
     "price": "RM6.40",
     "category": "Desserts & Pudding",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Mochi (Chocolate/Mango)",
@@ -259,6 +294,7 @@ export const familyMartMenu = [
     "price": "RM6.60",
     "category": "Desserts & Pudding",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Pistachio Milk Pudding",
@@ -266,6 +302,7 @@ export const familyMartMenu = [
     "price": "RM5.00",
     "category": "Desserts & Pudding",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Coffee Jelly",
@@ -273,6 +310,7 @@ export const familyMartMenu = [
     "price": "RM4.70",
     "category": "Desserts & Pudding",
     "menuType": "Food Menu"
+  
   },
 
   // Fresh Drinks (Drinks Menu)
@@ -282,6 +320,7 @@ export const familyMartMenu = [
     "price": "RM11.00",
     "category": "Fresh Drinks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Iced Matcha Latte",
@@ -289,6 +328,7 @@ export const familyMartMenu = [
     "price": "RM11.00",
     "category": "Fresh Drinks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Chocolate Cookie Latte",
@@ -296,6 +336,7 @@ export const familyMartMenu = [
     "price": "RM10.70",
     "category": "Fresh Drinks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Melon Milk",
@@ -303,6 +344,7 @@ export const familyMartMenu = [
     "price": "RM8.30",
     "category": "Fresh Drinks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Creamy Fuji Apple Cooler",
@@ -310,6 +352,7 @@ export const familyMartMenu = [
     "price": "RM9.50",
     "category": "Fresh Drinks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Sparkling Peach Oolong Tea",
@@ -317,6 +360,7 @@ export const familyMartMenu = [
     "price": "RM8.30",
     "category": "Fresh Drinks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Iced Kurma Milk",
@@ -324,6 +368,7 @@ export const familyMartMenu = [
     "price": "RM7.10",
     "category": "Fresh Drinks",
     "menuType": "Drinks Menu"
+  
   },
 
   // Frappe & Milkshakes (Drinks Menu)
@@ -333,6 +378,7 @@ export const familyMartMenu = [
     "price": "RM10.70",
     "category": "Frappe & Milkshakes",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Chocolate Cookies Frappe",
@@ -340,6 +386,7 @@ export const familyMartMenu = [
     "price": "RM10.70",
     "category": "Frappe & Milkshakes",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Matcha White Chocolate Sofuto Milkshake",
@@ -347,6 +394,7 @@ export const familyMartMenu = [
     "price": "RM8.30",
     "category": "Frappe & Milkshakes",
     "menuType": "Drinks Menu"
+  
   },
 
   // Coffee (Drinks Menu)
@@ -356,6 +404,7 @@ export const familyMartMenu = [
     "price": "RM8.10",
     "category": "Coffee",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Latte (Large Hot)",
@@ -363,6 +412,7 @@ export const familyMartMenu = [
     "price": "RM8.30",
     "category": "Coffee",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Caramel Latte (Hot/Iced)",
@@ -370,6 +420,7 @@ export const familyMartMenu = [
     "price": "RM9.50",
     "category": "Coffee",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Hazelnut Latte (Large Hot)",
@@ -377,6 +428,7 @@ export const familyMartMenu = [
     "price": "RM9.50",
     "category": "Coffee",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Cappuccino (Large Hot)",
@@ -384,5 +436,6 @@ export const familyMartMenu = [
     "price": "RM8.30",
     "category": "Coffee",
     "menuType": "Drinks Menu"
+  
   }
 ];

@@ -6,6 +6,7 @@ export const sushiZanmaiMenu = [
     "price": "RM22.80",
     "category": "House Specialty Rolls",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Spicy Salmon Roll",
@@ -13,6 +14,7 @@ export const sushiZanmaiMenu = [
     "price": "RM19.80",
     "category": "House Specialty Rolls",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Stamina Roll",
@@ -20,6 +22,7 @@ export const sushiZanmaiMenu = [
     "price": "RM20.80",
     "category": "House Specialty Rolls",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Spicy Unagi Roll",
@@ -27,6 +30,7 @@ export const sushiZanmaiMenu = [
     "price": "RM20.80",
     "category": "House Specialty Rolls",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Dragon Mentai Roll",
@@ -34,6 +38,7 @@ export const sushiZanmaiMenu = [
     "price": "RM17.80",
     "category": "House Specialty Rolls",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Salmon Mentai Roll",
@@ -41,6 +46,7 @@ export const sushiZanmaiMenu = [
     "price": "RM16.80",
     "category": "House Specialty Rolls",
     "menuType": "Main Menu"
+  
   },
 
   // Sashimi
@@ -50,6 +56,7 @@ export const sushiZanmaiMenu = [
     "price": "RM26.80",
     "category": "Sashimi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Salmon",
@@ -57,6 +64,7 @@ export const sushiZanmaiMenu = [
     "price": "RM19.80",
     "category": "Sashimi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Toro Salmon",
@@ -64,6 +72,7 @@ export const sushiZanmaiMenu = [
     "price": "RM22.80",
     "category": "Sashimi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Hamachi (Yellowtail)",
@@ -71,6 +80,7 @@ export const sushiZanmaiMenu = [
     "price": "RM22.80",
     "category": "Sashimi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Hokkigai (Surf Clam)",
@@ -78,6 +88,7 @@ export const sushiZanmaiMenu = [
     "price": "RM8.80",
     "category": "Sashimi",
     "menuType": "Main Menu"
+  
   },
 
   // Nigiri Sushi
@@ -87,6 +98,7 @@ export const sushiZanmaiMenu = [
     "price": "RM6.80",
     "category": "Nigiri Sushi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Salmon Mentai",
@@ -94,6 +106,7 @@ export const sushiZanmaiMenu = [
     "price": "RM7.80",
     "category": "Nigiri Sushi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Salmon Cheese",
@@ -101,6 +114,7 @@ export const sushiZanmaiMenu = [
     "price": "RM7.80",
     "category": "Nigiri Sushi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Toro Salmon",
@@ -108,6 +122,7 @@ export const sushiZanmaiMenu = [
     "price": "RM7.80",
     "category": "Nigiri Sushi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Unagi",
@@ -115,6 +130,7 @@ export const sushiZanmaiMenu = [
     "price": "RM7.80",
     "category": "Nigiri Sushi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Ebi (Prawn)",
@@ -122,6 +138,7 @@ export const sushiZanmaiMenu = [
     "price": "RM4.80",
     "category": "Nigiri Sushi",
     "menuType": "Main Menu"
+  
   },
 
   // Sushi Moriawase (Sets)
@@ -131,6 +148,7 @@ export const sushiZanmaiMenu = [
     "price": "RM38.80",
     "category": "Sushi Moriawase",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Aburi Zanmai",
@@ -138,6 +156,7 @@ export const sushiZanmaiMenu = [
     "price": "RM17.80",
     "category": "Sushi Moriawase",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Mentaiko Zanmai",
@@ -145,6 +164,7 @@ export const sushiZanmaiMenu = [
     "price": "RM17.80",
     "category": "Sushi Moriawase",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Hodaka",
@@ -152,6 +172,7 @@ export const sushiZanmaiMenu = [
     "price": "RM18.80",
     "category": "Sushi Moriawase",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Hourai",
@@ -159,6 +180,7 @@ export const sushiZanmaiMenu = [
     "price": "RM16.80",
     "category": "Sushi Moriawase",
     "menuType": "Main Menu"
+  
   },
 
   // Gunkan & Inari
@@ -168,6 +190,7 @@ export const sushiZanmaiMenu = [
     "price": "RM2.80",
     "category": "Gunkan & Inari",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Salmon Salad",
@@ -175,6 +198,7 @@ export const sushiZanmaiMenu = [
     "price": "RM4.80",
     "category": "Gunkan & Inari",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Tuna Salad",
@@ -182,6 +206,7 @@ export const sushiZanmaiMenu = [
     "price": "RM3.80",
     "category": "Gunkan & Inari",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Kani Mayo",
@@ -189,6 +214,7 @@ export const sushiZanmaiMenu = [
     "price": "RM6.80",
     "category": "Gunkan & Inari",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Inari (Plain)",
@@ -196,6 +222,7 @@ export const sushiZanmaiMenu = [
     "price": "RM2.80",
     "category": "Gunkan & Inari",
     "menuType": "Main Menu"
+  
   },
 
   // Appetizers & Salad
@@ -205,6 +232,7 @@ export const sushiZanmaiMenu = [
     "price": "RM7.80",
     "category": "Appetizers & Salad",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Edamame",
@@ -212,6 +240,7 @@ export const sushiZanmaiMenu = [
     "price": "RM5.80",
     "category": "Appetizers & Salad",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Sashimi Salad",
@@ -219,6 +248,7 @@ export const sushiZanmaiMenu = [
     "price": "RM26.80",
     "category": "Appetizers & Salad",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Kani Avocado Salad",
@@ -226,6 +256,7 @@ export const sushiZanmaiMenu = [
     "price": "RM22.80",
     "category": "Appetizers & Salad",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Mentaiko Takoyaki",
@@ -233,6 +264,7 @@ export const sushiZanmaiMenu = [
     "price": "RM10.80",
     "category": "Appetizers & Salad",
     "menuType": "Main Menu"
+  
   },
 
   // Donburi (Rice Bowls)
@@ -242,6 +274,7 @@ export const sushiZanmaiMenu = [
     "price": "RM25.80",
     "category": "Donburi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Chicken Katsudon",
@@ -249,6 +282,7 @@ export const sushiZanmaiMenu = [
     "price": "RM12.80",
     "category": "Donburi",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Ten Don (Tempura)",
@@ -256,5 +290,6 @@ export const sushiZanmaiMenu = [
     "price": "RM11.80",
     "category": "Donburi",
     "menuType": "Main Menu"
+  
   }
 ];

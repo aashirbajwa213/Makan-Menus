@@ -5,6 +5,7 @@ export const kfcMenu = [
     "price": "RM11.38",
     "category": "Limited Time Only",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2 Pcs Lychee Egg Tart",
@@ -12,6 +13,7 @@ export const kfcMenu = [
     "price": "RM11.39",
     "category": "Limited Time Only",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Latte (12oz)",
@@ -19,6 +21,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Limited Time Only",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Creme (12oz)",
@@ -26,6 +29,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Limited Time Only",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Pistachio (8oz)",
@@ -33,6 +37,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Limited Time Only",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2 Pcs Nasi Lemak KFC Combo",
@@ -40,6 +45,7 @@ export const kfcMenu = [
     "price": "RM22.99",
     "category": "Nasi Lemak KFC",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "1 Pc Nasi Lemak KFC Combo",
@@ -47,6 +53,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "Nasi Lemak KFC",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Nasi Lemak KFC Combo",
@@ -54,6 +61,7 @@ export const kfcMenu = [
     "price": "RM9.99",
     "category": "Nasi Lemak KFC",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2 Pcs Nasi Lemak KFC",
@@ -61,6 +69,7 @@ export const kfcMenu = [
     "price": "RM19.99",
     "category": "Nasi Lemak KFC",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "1 Pc Nasi Lemak KFC",
@@ -68,6 +77,7 @@ export const kfcMenu = [
     "price": "RM15.49",
     "category": "Nasi Lemak KFC",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Nasi Lemak KFC",
@@ -75,6 +85,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Nasi Lemak KFC",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Colonel Box Meal",
@@ -82,6 +93,7 @@ export const kfcMenu = [
     "price": "RM19.49",
     "category": "Box Meals",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Zinger Porridge Box Meal",
@@ -89,6 +101,7 @@ export const kfcMenu = [
     "price": "RM18.99",
     "category": "Box Meals",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Egg Riser Box Meal",
@@ -96,6 +109,7 @@ export const kfcMenu = [
     "price": "RM16.49",
     "category": "Box Meals",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Egg Twister Box Meal",
@@ -103,6 +117,7 @@ export const kfcMenu = [
     "price": "RM23.99",
     "category": "Box Meals",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2-pc Portuguese Egg Tart Combo",
@@ -110,6 +125,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Zinger Riser Combo (with hashbrown)",
@@ -117,6 +133,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Colonel Classic Combo (with hashbrown)",
@@ -124,6 +141,7 @@ export const kfcMenu = [
     "price": "RM16.99",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Zinger Porridge Combo (with hashbrown)",
@@ -131,6 +149,7 @@ export const kfcMenu = [
     "price": "RM16.49",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Egg Riser Combo (with hashbrown)",
@@ -138,6 +157,7 @@ export const kfcMenu = [
     "price": "RM14.49",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Egg Twister Combo (with hashbrown)",
@@ -145,6 +165,7 @@ export const kfcMenu = [
     "price": "RM21.99",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Zinger Riser Combo",
@@ -152,6 +173,7 @@ export const kfcMenu = [
     "price": "RM15.99",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Colonel Classic Combo",
@@ -159,6 +181,7 @@ export const kfcMenu = [
     "price": "RM13.99",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Zinger Porridge Combo",
@@ -166,6 +189,7 @@ export const kfcMenu = [
     "price": "RM14.49",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Egg Riser Combo",
@@ -173,6 +197,7 @@ export const kfcMenu = [
     "price": "RM12.49",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Egg Twister Combo",
@@ -180,6 +205,7 @@ export const kfcMenu = [
     "price": "RM19.99",
     "category": "Value Combos",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "6-pc Lychee Egg Tart",
@@ -187,6 +213,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "A la Carte",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "6-pc Mix-And-Match Gift Box",
@@ -194,6 +221,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "A la Carte",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "3-pc Lychee Egg Tart",
@@ -201,6 +229,7 @@ export const kfcMenu = [
     "price": "RM11.38",
     "category": "A la Carte",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2-pc Lychee Egg Tart",
@@ -208,6 +237,7 @@ export const kfcMenu = [
     "price": "RM7.88",
     "category": "A la Carte",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Zinger Riser",
@@ -215,6 +245,7 @@ export const kfcMenu = [
     "price": "RM10.99",
     "category": "A la Carte",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Colonel Classic",
@@ -222,6 +253,7 @@ export const kfcMenu = [
     "price": "RM10.99",
     "category": "A la Carte",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Zinger Porridge",
@@ -229,6 +261,7 @@ export const kfcMenu = [
     "price": "RM9.99",
     "category": "A la Carte",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Egg Twister",
@@ -236,6 +269,7 @@ export const kfcMenu = [
     "price": "RM15.99",
     "category": "A la Carte",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "6-pc Lychee Egg Tart",
@@ -243,6 +277,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "6-pc Mix-And-Match Gift Box",
@@ -250,6 +285,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "3-pc Lychee Egg Tart",
@@ -257,6 +293,7 @@ export const kfcMenu = [
     "price": "RM11.38",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2-pc Lychee Egg Tart",
@@ -264,6 +301,7 @@ export const kfcMenu = [
     "price": "RM7.88",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "6-pc Portuguese Egg Tart",
@@ -271,6 +309,7 @@ export const kfcMenu = [
     "price": "RM19.99",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "3-pc Portuguese Egg Tart",
@@ -278,6 +317,7 @@ export const kfcMenu = [
     "price": "RM10.99",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2-pc Portuguese Egg Tart",
@@ -285,6 +325,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hashbrown",
@@ -292,6 +333,7 @@ export const kfcMenu = [
     "price": "RM4.49",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Sunny Side Up Egg",
@@ -299,6 +341,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hard Boiled Egg",
@@ -306,6 +349,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Sambal Sauce",
@@ -313,6 +357,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Espresso (8oz)",
@@ -320,6 +365,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Cappuccino (8oz)",
@@ -327,6 +373,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Americano (8oz)",
@@ -334,6 +381,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Americano (12oz)",
@@ -341,6 +389,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Latte (8oz)",
@@ -348,6 +397,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Latte (12oz)",
@@ -355,6 +405,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Teh Tarik",
@@ -362,6 +413,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Tea",
@@ -369,6 +421,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Milo (M)",
@@ -376,6 +429,7 @@ export const kfcMenu = [
     "price": "RM8.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Milo (S)",
@@ -383,6 +437,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Sjora Mango Peach (M)",
@@ -390,6 +445,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Sjora Mango Peach (S)",
@@ -397,6 +453,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Latte (12oz)",
@@ -404,6 +461,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Crème (12oz)",
@@ -411,6 +469,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Pistachio Latte (8oz)",
@@ -418,6 +477,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Brown Butter Oat Latte (12oz)",
@@ -425,6 +485,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Milo",
@@ -432,6 +493,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola (L)",
@@ -439,6 +501,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola Zero Sugar (L)",
@@ -446,6 +509,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Sprite (L)",
@@ -453,6 +517,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Fanta Strawberry (L)",
@@ -460,6 +525,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola (M)",
@@ -467,6 +533,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola Zero Sugar (M)",
@@ -474,6 +541,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Sprite (M)",
@@ -481,6 +549,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Fanta Strawberry (M)",
@@ -488,6 +557,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Ice Lemon Tea (M)",
@@ -495,6 +565,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Minute Maid Refresh Orange (M)",
@@ -502,6 +573,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Ice Lemon Tea (S)",
@@ -509,6 +581,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Minute Maid Refresh Orange (S)",
@@ -516,6 +589,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Red Bull Energy Drink (250ml)",
@@ -523,6 +597,7 @@ export const kfcMenu = [
     "price": "RM8.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Mineral Water (600ML)",
@@ -530,6 +605,7 @@ export const kfcMenu = [
     "price": "RM4.49",
     "category": "Beverages",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "6-pc Lychee Egg Tart",
@@ -537,6 +613,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "6-pc Mix-And-Match Gift Box",
@@ -544,6 +621,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "3-pc Lychee Egg Tart",
@@ -551,6 +629,7 @@ export const kfcMenu = [
     "price": "RM11.38",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2-pc Lychee Egg Tart",
@@ -558,6 +637,7 @@ export const kfcMenu = [
     "price": "RM7.88",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Latte (12oz)",
@@ -565,6 +645,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Crème (12oz)",
@@ -572,6 +653,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Pistachio Latte (8oz)",
@@ -579,6 +661,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Brown Butter Oat Latte (12oz)",
@@ -586,6 +669,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "6-pc Portuguese Egg Tart",
@@ -593,6 +677,7 @@ export const kfcMenu = [
     "price": "RM19.99",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "3-pc Portuguese Egg Tart",
@@ -600,6 +685,7 @@ export const kfcMenu = [
     "price": "RM10.99",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2-pc Portuguese Egg Tart Combo",
@@ -607,6 +693,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "2-pc Portuguese Egg Tart",
@@ -614,6 +701,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Latte (12oz)",
@@ -621,6 +709,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Latte (8oz)",
@@ -628,6 +717,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Americano (12oz)",
@@ -635,6 +725,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Americano (8oz)",
@@ -642,6 +733,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Cappuccino (8oz)",
@@ -649,6 +741,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Espresso (8oz)",
@@ -656,6 +749,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Milo (M)",
@@ -663,6 +757,7 @@ export const kfcMenu = [
     "price": "RM8.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Iced Milo (S)",
@@ -670,6 +765,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Milo",
@@ -677,6 +773,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "Hot Teh Tarik",
@@ -684,6 +781,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "KFC Treats",
     "menuType": "Breakfast Menu (Before 10:00 AM)"
+  
   },
   {
     "name": "3-pc Ayam Riuh Rempah Combo",
@@ -691,6 +789,7 @@ export const kfcMenu = [
     "price": "RM27.99",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Ayam Riuh Rempah Combo",
@@ -698,6 +797,7 @@ export const kfcMenu = [
     "price": "RM21.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Riuh Rempah Box Meal",
@@ -705,6 +805,7 @@ export const kfcMenu = [
     "price": "RM25.99",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Burger Riuh Rempah Combo",
@@ -712,6 +813,7 @@ export const kfcMenu = [
     "price": "RM21.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Burger Riuh Rempah",
@@ -719,6 +821,7 @@ export const kfcMenu = [
     "price": "RM17.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Bucket Riuh",
@@ -726,6 +829,7 @@ export const kfcMenu = [
     "price": "RM53.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "10-pc Bucket Riuh",
@@ -733,6 +837,7 @@ export const kfcMenu = [
     "price": "RM81.99",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Treat Box",
@@ -740,6 +845,7 @@ export const kfcMenu = [
     "price": "RM17.38",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Kentang Goncang BBQ (XL)",
@@ -747,6 +853,7 @@ export const kfcMenu = [
     "price": "RM12.99",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Kentang Goncang BBQ (M)",
@@ -754,6 +861,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Shhh Secret Grill Sauce",
@@ -761,6 +869,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "White Curry Syiok! Sauce",
@@ -768,6 +877,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Onion Sauce",
@@ -775,6 +885,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Mala Mania Sauce",
@@ -782,6 +893,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Sour Cream & Onion Sauce",
@@ -789,6 +901,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Mango Cheese Mochi",
@@ -796,6 +909,7 @@ export const kfcMenu = [
     "price": "RM5.99",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "5-pc Cempedak Pie Gift Box",
@@ -803,6 +917,7 @@ export const kfcMenu = [
     "price": "RM33.95",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Choco Mochi",
@@ -810,6 +925,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Latte (12oz)",
@@ -817,6 +933,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Crème (12oz)",
@@ -824,6 +941,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Pistachio Latte (8oz)",
@@ -831,6 +949,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Brown Butter Oat Latte (12oz)",
@@ -838,6 +957,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cereal Cheezy Fries (M)",
@@ -845,6 +965,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Limited Time Only",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "5-pc Bucket Sehati",
@@ -852,6 +973,7 @@ export const kfcMenu = [
     "price": "RM44.49",
     "category": "Bucket Sehati",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "9-pc Bucket Sehati",
@@ -859,6 +981,7 @@ export const kfcMenu = [
     "price": "RM69.99",
     "category": "Bucket Sehati",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "15-pc Bucket Sehati",
@@ -866,6 +989,7 @@ export const kfcMenu = [
     "price": "RM102.99",
     "category": "Bucket Sehati",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Jimat Treats Set A",
@@ -873,6 +997,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Jimat Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Jimat Treats Set B",
@@ -880,6 +1005,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Jimat Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Jimat Treats Set C",
@@ -887,6 +1013,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Jimat Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Jimat Treats Set D",
@@ -894,6 +1021,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Jimat Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Jimat Treats Set E",
@@ -901,6 +1029,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Jimat Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Treat Box",
@@ -908,6 +1037,7 @@ export const kfcMenu = [
     "price": "RM17.38",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Lychee Egg Tart",
@@ -915,6 +1045,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Mix-And-Match Gift Box",
@@ -922,6 +1053,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Lychee Egg Tart",
@@ -929,6 +1061,7 @@ export const kfcMenu = [
     "price": "RM11.38",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Lychee Egg Tart",
@@ -936,6 +1069,7 @@ export const kfcMenu = [
     "price": "RM7.88",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Portuguese Egg Tart",
@@ -943,6 +1077,7 @@ export const kfcMenu = [
     "price": "RM19.99",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Portuguese Egg Tart",
@@ -950,6 +1085,7 @@ export const kfcMenu = [
     "price": "RM10.99",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Portuguese Egg Tart Combo",
@@ -957,6 +1093,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Portuguese Egg Tart",
@@ -964,6 +1101,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Egg Tarts",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Bucket Riuh",
@@ -971,6 +1109,7 @@ export const kfcMenu = [
     "price": "RM53.49",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "10-pc Bucket Riuh",
@@ -978,6 +1117,7 @@ export const kfcMenu = [
     "price": "RM81.99",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "5-pc Bucket Sehati",
@@ -985,6 +1125,7 @@ export const kfcMenu = [
     "price": "RM44.49",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "9-pc Bucket Sehati",
@@ -992,6 +1133,7 @@ export const kfcMenu = [
     "price": "RM69.99",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "15-pc Bucket Sehati",
@@ -999,6 +1141,7 @@ export const kfcMenu = [
     "price": "RM102.99",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "5-pc Combo",
@@ -1006,6 +1149,7 @@ export const kfcMenu = [
     "price": "RM44.49",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "9-pc Combo",
@@ -1013,6 +1157,7 @@ export const kfcMenu = [
     "price": "RM69.99",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "15-pc Combo",
@@ -1020,6 +1165,7 @@ export const kfcMenu = [
     "price": "RM102.99",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Variety Box A",
@@ -1027,6 +1173,7 @@ export const kfcMenu = [
     "price": "RM57.99",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Variety Box B",
@@ -1034,6 +1181,7 @@ export const kfcMenu = [
     "price": "RM84.99",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Variety Box C",
@@ -1041,6 +1189,7 @@ export const kfcMenu = [
     "price": "RM95.99",
     "category": "Family Buckets",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Riuh Rempah Box Meal",
@@ -1048,6 +1197,7 @@ export const kfcMenu = [
     "price": "RM25.99",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Treat Box",
@@ -1055,6 +1205,7 @@ export const kfcMenu = [
     "price": "RM17.38",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Double Down Box Meal",
@@ -1062,6 +1213,7 @@ export const kfcMenu = [
     "price": "RM26.99",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Signature Box - Classic",
@@ -1069,6 +1221,7 @@ export const kfcMenu = [
     "price": "RM23.49",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezilla Box",
@@ -1076,6 +1229,7 @@ export const kfcMenu = [
     "price": "RM29.99",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Colonel Classic Box",
@@ -1083,6 +1237,7 @@ export const kfcMenu = [
     "price": "RM20.49",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Cheezy Box",
@@ -1090,6 +1245,7 @@ export const kfcMenu = [
     "price": "RM25.99",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Twister Box",
@@ -1097,6 +1253,7 @@ export const kfcMenu = [
     "price": "RM24.49",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Snacker Box",
@@ -1104,6 +1261,7 @@ export const kfcMenu = [
     "price": "RM17.49",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Turbo Combo",
@@ -1111,6 +1269,7 @@ export const kfcMenu = [
     "price": "RM28.99",
     "category": "Box Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Ayam Riuh Rempah Combo",
@@ -1118,6 +1277,7 @@ export const kfcMenu = [
     "price": "RM27.99",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Ayam Riuh Rempah Combo",
@@ -1125,6 +1285,7 @@ export const kfcMenu = [
     "price": "RM21.49",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Turbo Combo",
@@ -1132,6 +1293,7 @@ export const kfcMenu = [
     "price": "RM28.99",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Dinner Plate Combo",
@@ -1139,6 +1301,7 @@ export const kfcMenu = [
     "price": "RM25.99",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Snack Plate Combo",
@@ -1146,6 +1309,7 @@ export const kfcMenu = [
     "price": "RM21.49",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Dinner Plate (without drink)",
@@ -1153,6 +1317,7 @@ export const kfcMenu = [
     "price": "RM23.99",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Snack Plate (without drink)",
@@ -1160,6 +1325,7 @@ export const kfcMenu = [
     "price": "RM19.99",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Chicken",
@@ -1167,6 +1333,7 @@ export const kfcMenu = [
     "price": "RM15.99",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Chicken",
@@ -1174,6 +1341,7 @@ export const kfcMenu = [
     "price": "RM24.49",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "5-pc Chicken",
@@ -1181,6 +1349,7 @@ export const kfcMenu = [
     "price": "RM34.99",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "9-pc Chicken",
@@ -1188,6 +1357,7 @@ export const kfcMenu = [
     "price": "RM58.49",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "15-pc Chicken",
@@ -1195,6 +1365,7 @@ export const kfcMenu = [
     "price": "RM94.49",
     "category": "Chicken Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "1-pc Rice Combo",
@@ -1202,6 +1373,7 @@ export const kfcMenu = [
     "price": "RM16.99",
     "category": "Rice Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Rice Combo",
@@ -1209,6 +1381,7 @@ export const kfcMenu = [
     "price": "RM21.49",
     "category": "Rice Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "1-pc Nasi Lemak KFC Combo",
@@ -1216,6 +1389,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "Rice Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Nasi Lemak KFC Combo",
@@ -1223,6 +1397,7 @@ export const kfcMenu = [
     "price": "RM22.99",
     "category": "Rice Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Burger Riuh Rempah Combo",
@@ -1230,6 +1405,7 @@ export const kfcMenu = [
     "price": "RM21.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Double Down Combo",
@@ -1237,6 +1413,7 @@ export const kfcMenu = [
     "price": "RM22.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Cheezy Combo",
@@ -1244,6 +1421,7 @@ export const kfcMenu = [
     "price": "RM22.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Classic Combo",
@@ -1251,6 +1429,7 @@ export const kfcMenu = [
     "price": "RM20.99",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Colonel Classic Combo",
@@ -1258,6 +1437,7 @@ export const kfcMenu = [
     "price": "RM16.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Cheezilla Combo",
@@ -1265,6 +1445,7 @@ export const kfcMenu = [
     "price": "RM28.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Twister Combo",
@@ -1272,6 +1453,7 @@ export const kfcMenu = [
     "price": "RM21.99",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Crispy Fillet Burger Combo",
@@ -1279,6 +1461,7 @@ export const kfcMenu = [
     "price": "RM12.99",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Burger Riuh Rempah",
@@ -1286,6 +1469,7 @@ export const kfcMenu = [
     "price": "RM17.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Double Down",
@@ -1293,6 +1477,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Cheezy",
@@ -1300,6 +1485,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Zinger Classic",
@@ -1307,6 +1493,7 @@ export const kfcMenu = [
     "price": "RM17.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Colonel Classic",
@@ -1314,6 +1501,7 @@ export const kfcMenu = [
     "price": "RM10.99",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Twister",
@@ -1321,6 +1509,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Crispy Fillet Burger",
@@ -1328,6 +1517,7 @@ export const kfcMenu = [
     "price": "RM9.99",
     "category": "Burgers & Twister",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "9-pc Nuggets Combo",
@@ -1335,6 +1525,7 @@ export const kfcMenu = [
     "price": "RM21.49",
     "category": "Nuggets & Tenders",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Nuggets Combo",
@@ -1342,6 +1533,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "Nuggets & Tenders",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "9-pc Nuggets",
@@ -1349,6 +1541,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "Nuggets & Tenders",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Nuggets",
@@ -1356,6 +1549,7 @@ export const kfcMenu = [
     "price": "RM12.99",
     "category": "Nuggets & Tenders",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Crispy Tenders Combo",
@@ -1363,6 +1557,7 @@ export const kfcMenu = [
     "price": "RM29.99",
     "category": "Nuggets & Tenders",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Crispy Tenders Combo",
@@ -1370,6 +1565,7 @@ export const kfcMenu = [
     "price": "RM25.49",
     "category": "Nuggets & Tenders",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Crispy Tenders",
@@ -1377,6 +1573,7 @@ export const kfcMenu = [
     "price": "RM15.49",
     "category": "Nuggets & Tenders",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Chicky Meal Combo A",
@@ -1384,6 +1581,7 @@ export const kfcMenu = [
     "price": "RM14.49",
     "category": "Chicky Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Chicky Meal Combo B",
@@ -1391,6 +1589,7 @@ export const kfcMenu = [
     "price": "RM14.49",
     "category": "Chicky Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Chicky Meal Combo C",
@@ -1398,6 +1597,7 @@ export const kfcMenu = [
     "price": "RM14.49",
     "category": "Chicky Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Chicky Meal Combo D",
@@ -1405,6 +1605,7 @@ export const kfcMenu = [
     "price": "RM14.49",
     "category": "Chicky Meals",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Treat Box",
@@ -1412,6 +1613,7 @@ export const kfcMenu = [
     "price": "RM17.38",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Lychee Egg Tart",
@@ -1419,6 +1621,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Mix-And-Match Gift Box",
@@ -1426,6 +1629,7 @@ export const kfcMenu = [
     "price": "RM22.88",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Lychee Egg Tart",
@@ -1433,6 +1637,7 @@ export const kfcMenu = [
     "price": "RM11.38",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Lychee Egg Tart",
@@ -1440,6 +1645,7 @@ export const kfcMenu = [
     "price": "RM7.88",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Kentang Goncang BBQ (XL)",
@@ -1447,6 +1653,7 @@ export const kfcMenu = [
     "price": "RM12.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Kentang Goncang BBQ (M)",
@@ -1454,6 +1661,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Mango Cheese Mochi",
@@ -1461,6 +1669,7 @@ export const kfcMenu = [
     "price": "RM5.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "5-pc Cempedak Pie Gift Box",
@@ -1468,6 +1677,7 @@ export const kfcMenu = [
     "price": "RM33.95",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cempedak Pie",
@@ -1475,6 +1685,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Choco Mochi",
@@ -1482,6 +1693,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Latte (12oz)",
@@ -1489,6 +1701,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Crème (12oz)",
@@ -1496,6 +1709,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Pistachio Latte (8oz)",
@@ -1503,6 +1717,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Brown Butter Oat Latte (12oz)",
@@ -1510,6 +1725,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Espresso (8oz)",
@@ -1517,6 +1733,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Portuguese Egg Tart",
@@ -1524,6 +1741,7 @@ export const kfcMenu = [
     "price": "RM19.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Portuguese Egg Tart",
@@ -1531,6 +1749,7 @@ export const kfcMenu = [
     "price": "RM10.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Portuguese Egg Tart Combo",
@@ -1538,6 +1757,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Portuguese Egg Tart",
@@ -1545,6 +1765,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "9-pc Nuggets Combo",
@@ -1552,6 +1773,7 @@ export const kfcMenu = [
     "price": "RM21.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Nuggets Combo",
@@ -1559,6 +1781,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "9-pc Nuggets",
@@ -1566,6 +1789,7 @@ export const kfcMenu = [
     "price": "RM18.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Nuggets",
@@ -1573,6 +1797,7 @@ export const kfcMenu = [
     "price": "RM12.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Teh Tarik",
@@ -1580,6 +1805,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Milo",
@@ -1587,6 +1813,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Milo (S)",
@@ -1594,6 +1821,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Milo (M)",
@@ -1601,6 +1829,7 @@ export const kfcMenu = [
     "price": "RM8.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cereal Cheezy Fries (M)",
@@ -1608,6 +1837,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Loaded Cheezy Fries (L)",
@@ -1615,6 +1845,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Fries (M)",
@@ -1622,6 +1853,7 @@ export const kfcMenu = [
     "price": "RM5.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Fries (L)",
@@ -1629,6 +1861,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Wedges (L)",
@@ -1636,6 +1869,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Popcorn Chicken",
@@ -1643,6 +1877,7 @@ export const kfcMenu = [
     "price": "RM14.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Popcorn Bowl",
@@ -1650,6 +1885,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Loaded Potato Bowl",
@@ -1657,6 +1893,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Crispy Tenders",
@@ -1664,6 +1901,7 @@ export const kfcMenu = [
     "price": "RM15.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "3-pc Crispy Tenders Combo",
@@ -1671,6 +1909,7 @@ export const kfcMenu = [
     "price": "RM25.49",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "6-pc Crispy Tenders Combo",
@@ -1678,6 +1917,7 @@ export const kfcMenu = [
     "price": "RM29.99",
     "category": "KFC Treats",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Mango Cheese Mochi",
@@ -1685,6 +1925,7 @@ export const kfcMenu = [
     "price": "RM5.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Kentang Goncang BBQ (XL)",
@@ -1692,6 +1933,7 @@ export const kfcMenu = [
     "price": "RM12.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Kentang Goncang BBQ (M)",
@@ -1699,6 +1941,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Shhh Secret Grill Sauce",
@@ -1706,6 +1949,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "White Curry Syiok! Sauce",
@@ -1713,6 +1957,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Onion Sauce",
@@ -1720,6 +1965,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Mala Mania Sauce",
@@ -1727,6 +1973,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Sour Cream & Onion Sauce",
@@ -1734,6 +1981,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "5-pc Cempedak Pie Gift Box",
@@ -1741,6 +1989,7 @@ export const kfcMenu = [
     "price": "RM33.95",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cempedak Pie",
@@ -1748,6 +1997,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "2-pc Choco Mochi",
@@ -1755,6 +2005,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cereal Cheezy Fries (M)",
@@ -1762,6 +2013,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Wedges (L)",
@@ -1769,6 +2021,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Loaded Cheezy Fries (L)",
@@ -1776,6 +2029,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Cheezy Popcorn Bowl",
@@ -1783,6 +2037,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Loaded Potato Bowl",
@@ -1790,6 +2045,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Nasi Lemak",
@@ -1797,6 +2053,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Colonel Rice",
@@ -1804,6 +2061,7 @@ export const kfcMenu = [
     "price": "RM4.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Popcorn Chicken",
@@ -1811,6 +2069,7 @@ export const kfcMenu = [
     "price": "RM14.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Fries (L)",
@@ -1818,6 +2077,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Fries (M)",
@@ -1825,6 +2085,7 @@ export const kfcMenu = [
     "price": "RM5.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Whipped Potato (14oz)",
@@ -1832,6 +2093,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Whipped Potato (4oz)",
@@ -1839,6 +2101,7 @@ export const kfcMenu = [
     "price": "RM5.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Coleslaw (14oz)",
@@ -1846,6 +2109,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Coleslaw (4oz)",
@@ -1853,6 +2117,7 @@ export const kfcMenu = [
     "price": "RM5.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Wedges (L)",
@@ -1860,6 +2125,7 @@ export const kfcMenu = [
     "price": "RM8.99",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Wedges (M)",
@@ -1867,6 +2133,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hard Boiled Egg",
@@ -1874,6 +2141,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Butterscotch Bun",
@@ -1881,6 +2149,7 @@ export const kfcMenu = [
     "price": "RM1.10",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Jalapeño Cheese Sauce",
@@ -1888,6 +2157,7 @@ export const kfcMenu = [
     "price": "RM2.00",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Sambal Sauce",
@@ -1895,6 +2165,7 @@ export const kfcMenu = [
     "price": "RM2.49",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "O.R Gravy",
@@ -1902,6 +2173,7 @@ export const kfcMenu = [
     "price": "RM2.00",
     "category": "Add-on Sides",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Milo (M)",
@@ -1909,6 +2181,7 @@ export const kfcMenu = [
     "price": "RM8.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Milo (S)",
@@ -1916,6 +2189,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Espresso (8oz)",
@@ -1923,6 +2197,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Sjora Mango Peach (M)",
@@ -1930,6 +2205,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Sjora Mango Peach (S)",
@@ -1937,6 +2213,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Latte (12oz)",
@@ -1944,6 +2221,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Pistachio Crème (12oz)",
@@ -1951,6 +2229,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Pistachio Latte (8oz)",
@@ -1958,6 +2237,7 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Iced Brown Butter Oat Latte(12oz)",
@@ -1965,6 +2245,7 @@ export const kfcMenu = [
     "price": "RM9.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola (M)",
@@ -1972,6 +2253,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola Zero Sugar (M)",
@@ -1979,6 +2261,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Sprite (M)",
@@ -1986,6 +2269,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Fanta Strawberry (M)",
@@ -1993,6 +2277,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola (L)",
@@ -2000,6 +2285,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola Zero Sugar (L)",
@@ -2007,6 +2293,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Sprite (L)",
@@ -2014,6 +2301,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Fanta Strawberry (L)",
@@ -2021,6 +2309,7 @@ export const kfcMenu = [
     "price": "RM6.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Ice Lemon Tea (M)",
@@ -2028,6 +2317,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Ice Lemon Tea (S)",
@@ -2035,6 +2325,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Minute Maid Refresh Orange (M)",
@@ -2042,6 +2333,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Minute Maid Refresh Orange (S)",
@@ -2049,6 +2341,7 @@ export const kfcMenu = [
     "price": "RM6.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Red Bull Energy Drink (250ml)",
@@ -2056,6 +2349,7 @@ export const kfcMenu = [
     "price": "RM8.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Milo",
@@ -2063,6 +2357,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Tea",
@@ -2070,6 +2365,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Hot Teh Tarik",
@@ -2077,6 +2373,7 @@ export const kfcMenu = [
     "price": "RM5.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Mineral Water (600ML)",
@@ -2084,6 +2381,7 @@ export const kfcMenu = [
     "price": "RM4.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola (1.5L Bottle)",
@@ -2091,6 +2389,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Coca-Cola Zero Sugar (1.5L Bottle)",
@@ -2098,6 +2397,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Sprite (1.5L Bottle)",
@@ -2105,6 +2405,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Fanta Strawberry (1.5L Bottle)",
@@ -2112,6 +2413,7 @@ export const kfcMenu = [
     "price": "RM7.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Fuze Tea Ice Lemon Tea (1.5L Bottle)",
@@ -2119,6 +2421,7 @@ export const kfcMenu = [
     "price": "RM7.99",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   },
   {
     "name": "Minute Maid Plus Orange (1.5L)",
@@ -2126,5 +2429,6 @@ export const kfcMenu = [
     "price": "RM10.49",
     "category": "Beverages",
     "menuType": "Regular Menu (After 10:00 AM)"
+  
   }
 ];

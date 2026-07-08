@@ -6,6 +6,7 @@ export const nakNakMenu = [
     "price": "RM16.90",
     "category": "Nak Dak (Boneless Thigh)",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Nak Dak Gochujang",
@@ -13,6 +14,7 @@ export const nakNakMenu = [
     "price": "RM16.90",
     "category": "Nak Dak (Boneless Thigh)",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Nak Dak with Cheese Sauce",
@@ -20,6 +22,7 @@ export const nakNakMenu = [
     "price": "RM17.90",
     "category": "Nak Dak (Boneless Thigh)",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Gochujang Wings (6-pc)",
@@ -27,6 +30,7 @@ export const nakNakMenu = [
     "price": "RM18.50",
     "category": "Wings & Drummettes",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Spicy Gochujang Wings (6-pc)",
@@ -34,6 +38,7 @@ export const nakNakMenu = [
     "price": "RM18.50",
     "category": "Wings & Drummettes",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Soy Garlic Wings (6-pc)",
@@ -41,6 +46,7 @@ export const nakNakMenu = [
     "price": "RM18.50",
     "category": "Wings & Drummettes",
     "menuType": "Food Menu"
+  
   },
 
   // Burgers (Food Menu)
@@ -50,6 +56,7 @@ export const nakNakMenu = [
     "price": "RM15.90",
     "category": "Nak Burger (100% Real Beef)",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Spicy Double Cheeseburger",
@@ -57,6 +64,7 @@ export const nakNakMenu = [
     "price": "RM22.90",
     "category": "Nak Burger (100% Real Beef)",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Original Nak Dak Burger",
@@ -64,6 +72,7 @@ export const nakNakMenu = [
     "price": "RM14.90",
     "category": "Nak Dak Burger (Fresh Chicken)",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Spicy Nak Dak Burger",
@@ -71,6 +80,7 @@ export const nakNakMenu = [
     "price": "RM15.50",
     "category": "Nak Dak Burger (Fresh Chicken)",
     "menuType": "Food Menu"
+  
   },
 
   // Sides (Food Menu)
@@ -80,6 +90,7 @@ export const nakNakMenu = [
     "price": "RM7.50",
     "category": "NakNak Fries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Loaded Brown Fries",
@@ -87,6 +98,7 @@ export const nakNakMenu = [
     "price": "RM11.90",
     "category": "NakNak Fries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Loaded Bulgogi Chicken Fries",
@@ -94,6 +106,7 @@ export const nakNakMenu = [
     "price": "RM14.50",
     "category": "NakNak Fries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Rice Plain White",
@@ -101,6 +114,7 @@ export const nakNakMenu = [
     "price": "RM3.50",
     "category": "NakNak Rices",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Rice Butter Gravy",
@@ -108,6 +122,7 @@ export const nakNakMenu = [
     "price": "RM5.50",
     "category": "NakNak Rices",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Rice Seaweed",
@@ -115,6 +130,7 @@ export const nakNakMenu = [
     "price": "RM4.50",
     "category": "NakNak Rices",
     "menuType": "Food Menu"
+  
   },
 
   // Desserts (Drinks & Desserts)
@@ -124,6 +140,7 @@ export const nakNakMenu = [
     "price": "RM6.50",
     "category": "NakNak Cookies",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Cookies Birthday Confetti",
@@ -131,6 +148,7 @@ export const nakNakMenu = [
     "price": "RM6.50",
     "category": "NakNak Cookies",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Cookies Marshmallow Choco Chip",
@@ -138,6 +156,7 @@ export const nakNakMenu = [
     "price": "RM7.50",
     "category": "NakNak Cookies",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Chocolate Sundae",
@@ -145,6 +164,7 @@ export const nakNakMenu = [
     "price": "RM5.90",
     "category": "Fresh Sundae Ice Cream",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Peach Sundae",
@@ -152,6 +172,7 @@ export const nakNakMenu = [
     "price": "RM6.90",
     "category": "Fresh Sundae Ice Cream",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Apple Pie Sundae",
@@ -159,6 +180,7 @@ export const nakNakMenu = [
     "price": "RM7.50",
     "category": "Fresh Sundae Ice Cream",
     "menuType": "Drinks & Desserts"
+  
   },
 
   // Drinks (Drinks & Desserts)
@@ -168,6 +190,7 @@ export const nakNakMenu = [
     "price": "RM12.50",
     "category": "Real Milkshake",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Joy Cookie Shake",
@@ -175,6 +198,7 @@ export const nakNakMenu = [
     "price": "RM13.50",
     "category": "Real Milkshake",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Strawberry Shake",
@@ -182,6 +206,7 @@ export const nakNakMenu = [
     "price": "RM12.50",
     "category": "Real Milkshake",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Homemade Iced Tea",
@@ -189,6 +214,7 @@ export const nakNakMenu = [
     "price": "RM5.50",
     "category": "NakNak Drinks",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Fresh Handsqueezed Lemonade",
@@ -196,6 +222,7 @@ export const nakNakMenu = [
     "price": "RM7.50",
     "category": "NakNak Drinks",
     "menuType": "Drinks & Desserts"
+  
   },
   {
     "name": "Soft Drinks",
@@ -203,5 +230,6 @@ export const nakNakMenu = [
     "price": "RM5.00",
     "category": "NakNak Drinks",
     "menuType": "Drinks & Desserts"
+  
   }
 ];

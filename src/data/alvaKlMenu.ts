@@ -6,6 +6,7 @@ export const alvaKlMenu = [
     "price": "RM35.00",
     "category": "Appetizers & Nibbles",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Spanish Garlic Tiger Prawns",
@@ -13,6 +14,7 @@ export const alvaKlMenu = [
     "price": "RM49.00",
     "category": "Appetizers & Nibbles",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Smoked Salmon Caesar Salad",
@@ -20,6 +22,7 @@ export const alvaKlMenu = [
     "price": "RM42.00",
     "category": "Appetizers & Nibbles",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Chili Lime Chicken Skewers",
@@ -27,6 +30,7 @@ export const alvaKlMenu = [
     "price": "RM30.00",
     "category": "Appetizers & Nibbles",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Nautical Seafood Soup",
@@ -34,6 +38,7 @@ export const alvaKlMenu = [
     "price": "RM33.00",
     "category": "Appetizers & Nibbles",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Hanwoo Beef Skewer (2pcs)",
@@ -41,6 +46,7 @@ export const alvaKlMenu = [
     "price": "RM60.00",
     "category": "Appetizers & Nibbles",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Amazing Nachos",
@@ -48,6 +54,7 @@ export const alvaKlMenu = [
     "price": "RM34.00",
     "category": "Appetizers & Nibbles",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Truffle Chips",
@@ -55,6 +62,7 @@ export const alvaKlMenu = [
     "price": "RM28.00",
     "category": "Appetizers & Nibbles",
     "menuType": "Main Menu"
+  
   },
 
   // Flame Grilled (Main)
@@ -64,6 +72,7 @@ export const alvaKlMenu = [
     "price": "RM148.00",
     "category": "Flame Grilled",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Atlantic Miso Black Cod",
@@ -71,6 +80,7 @@ export const alvaKlMenu = [
     "price": "RM90.00",
     "category": "Flame Grilled",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Tuscan Char-Grilled Chicken",
@@ -78,6 +88,7 @@ export const alvaKlMenu = [
     "price": "RM49.00",
     "category": "Flame Grilled",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Smoked Australian Lamb Ribs",
@@ -85,6 +96,7 @@ export const alvaKlMenu = [
     "price": "RM72.00",
     "category": "Flame Grilled",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Lamb Tomahawk",
@@ -92,6 +104,7 @@ export const alvaKlMenu = [
     "price": "RM168.00",
     "category": "Flame Grilled",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Flaming Wagyu Steak",
@@ -99,6 +112,7 @@ export const alvaKlMenu = [
     "price": "RM138.00",
     "category": "Flame Grilled",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Smokin' Beef Ribs",
@@ -106,6 +120,7 @@ export const alvaKlMenu = [
     "price": "RM98.00",
     "category": "Flame Grilled",
     "menuType": "Main Menu"
+  
   },
 
   // Pasta & Risotto
@@ -115,6 +130,7 @@ export const alvaKlMenu = [
     "price": "RM55.00",
     "category": "Pasta & Risotto",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Garlic Prawn Pasta",
@@ -122,6 +138,7 @@ export const alvaKlMenu = [
     "price": "RM45.00",
     "category": "Pasta & Risotto",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Seafood Marinara",
@@ -129,6 +146,7 @@ export const alvaKlMenu = [
     "price": "RM51.00",
     "category": "Pasta & Risotto",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Mushroom Alfredo Linguine",
@@ -136,6 +154,7 @@ export const alvaKlMenu = [
     "price": "RM38.00",
     "category": "Pasta & Risotto",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Bolognese Bliss",
@@ -143,6 +162,7 @@ export const alvaKlMenu = [
     "price": "RM30.00",
     "category": "Pasta & Risotto",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Spinach Risotto",
@@ -150,6 +170,7 @@ export const alvaKlMenu = [
     "price": "RM45.00",
     "category": "Pasta & Risotto",
     "menuType": "Main Menu"
+  
   },
 
   // Burgers & Sandwiches
@@ -159,6 +180,7 @@ export const alvaKlMenu = [
     "price": "RM65.00",
     "category": "Burgers & Sandwiches",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Chicken Croissant Burger",
@@ -166,6 +188,7 @@ export const alvaKlMenu = [
     "price": "RM60.00",
     "category": "Burgers & Sandwiches",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Aussie Lamb In Brioche Bun",
@@ -173,6 +196,7 @@ export const alvaKlMenu = [
     "price": "RM68.00",
     "category": "Burgers & Sandwiches",
     "menuType": "Main Menu"
+  
   },
 
   // Desserts
@@ -182,6 +206,7 @@ export const alvaKlMenu = [
     "price": "RM28.00",
     "category": "Desserts",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Starfruit Mille-feuille",
@@ -189,6 +214,7 @@ export const alvaKlMenu = [
     "price": "RM27.00",
     "category": "Desserts",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Coconut Panna Cotta",
@@ -196,6 +222,7 @@ export const alvaKlMenu = [
     "price": "RM20.00",
     "category": "Desserts",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Macadamia Dream Cheese Cake",
@@ -203,6 +230,7 @@ export const alvaKlMenu = [
     "price": "RM25.00",
     "category": "Desserts",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Strawberry Cream Cheese Mousse",
@@ -210,6 +238,7 @@ export const alvaKlMenu = [
     "price": "RM25.00",
     "category": "Desserts",
     "menuType": "Main Menu"
+  
   },
   {
     "name": "Ferrero Rocher Mousse Patisserie",
@@ -217,5 +246,6 @@ export const alvaKlMenu = [
     "price": "RM25.00",
     "category": "Desserts",
     "menuType": "Main Menu"
+  
   }
 ];

@@ -6,6 +6,7 @@ export const sukaDessertMenu = [
     "price": "RM28.00",
     "category": "Biskut & Wafer",
     "menuType": "All Day"
+  
   },
   {
     "name": "Choco Jar (Signature)",
@@ -13,6 +14,7 @@ export const sukaDessertMenu = [
     "price": "RM24.00",
     "category": "Biskut & Wafer",
     "menuType": "All Day"
+  
   },
   {
     "name": "Hiram Cookies with Signature Sauce",
@@ -20,6 +22,7 @@ export const sukaDessertMenu = [
     "price": "RM35.90",
     "category": "Biskut & Wafer",
     "menuType": "All Day"
+  
   },
   {
     "name": "Choc Chip Crunchy Cookies",
@@ -27,6 +30,7 @@ export const sukaDessertMenu = [
     "price": "RM28.00",
     "category": "Biskut & Wafer",
     "menuType": "All Day"
+  
   },
   {
     "name": "Bucket Cookies",
@@ -34,6 +38,7 @@ export const sukaDessertMenu = [
     "price": "RM32.00",
     "category": "Biskut & Wafer",
     "menuType": "All Day"
+  
   },
 
   // Pastri & Brownies
@@ -43,6 +48,7 @@ export const sukaDessertMenu = [
     "price": "RM19.00",
     "category": "Pastri & Brownies",
     "menuType": "All Day"
+  
   },
   {
     "name": "Cookies Pods",
@@ -50,6 +56,7 @@ export const sukaDessertMenu = [
     "price": "RM27.50",
     "category": "Pastri & Brownies",
     "menuType": "All Day"
+  
   },
   {
     "name": "Brownies Nutella",
@@ -57,6 +64,7 @@ export const sukaDessertMenu = [
     "price": "RM38.00",
     "category": "Pastri & Brownies",
     "menuType": "All Day"
+  
   },
   {
     "name": "Brownies Hazelnutchoc (6 inch)",
@@ -64,6 +72,7 @@ export const sukaDessertMenu = [
     "price": "RM40.50",
     "category": "Pastri & Brownies",
     "menuType": "All Day"
+  
   },
   {
     "name": "Choc Crowd Brownies (Small)",
@@ -71,6 +80,7 @@ export const sukaDessertMenu = [
     "price": "RM29.90",
     "category": "Pastri & Brownies",
     "menuType": "All Day"
+  
   },
 
   // Coklat Specialties
@@ -80,6 +90,7 @@ export const sukaDessertMenu = [
     "price": "RM18.00",
     "category": "Coklat Specialties",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chocolate Cookiesland",
@@ -87,6 +98,7 @@ export const sukaDessertMenu = [
     "price": "RM34.90",
     "category": "Coklat Specialties",
     "menuType": "All Day"
+  
   },
   {
     "name": "In Bowl Cake",
@@ -94,6 +106,7 @@ export const sukaDessertMenu = [
     "price": "RM25.00",
     "category": "Coklat Specialties",
     "menuType": "All Day"
+  
   },
   {
     "name": "Petite Pancake",
@@ -101,6 +114,7 @@ export const sukaDessertMenu = [
     "price": "RM18.00",
     "category": "Coklat Specialties",
     "menuType": "All Day"
+  
   },
   {
     "name": "Strawberry Dip Bowl",
@@ -108,6 +122,7 @@ export const sukaDessertMenu = [
     "price": "RM22.00",
     "category": "Coklat Specialties",
     "menuType": "All Day"
+  
   },
 
   // Savory Delights
@@ -117,6 +132,7 @@ export const sukaDessertMenu = [
     "price": "RM15.90",
     "category": "Savory Delights",
     "menuType": "All Day"
+  
   },
   {
     "name": "Korean Spicy Ramen",
@@ -124,6 +140,7 @@ export const sukaDessertMenu = [
     "price": "RM14.00",
     "category": "Savory Delights",
     "menuType": "All Day"
+  
   },
 
   // Dressing & Add-ons
@@ -133,6 +150,7 @@ export const sukaDessertMenu = [
     "price": "RM14.50",
     "category": "Dressing & Add-ons",
     "menuType": "All Day"
+  
   },
   {
     "name": "Melted Premium Chocolate",
@@ -140,5 +158,6 @@ export const sukaDessertMenu = [
     "price": "RM8.00",
     "category": "Dressing & Add-ons",
     "menuType": "All Day"
+  
   }
 ];

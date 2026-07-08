@@ -6,6 +6,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "Frappé Buddy",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Mango Spanish Frappé",
@@ -13,6 +14,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.20",
     "category": "Frappé Buddy",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Spanish Latté Frappé",
@@ -20,6 +22,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "Frappé Buddy",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Not Pistachio Latté",
@@ -27,6 +30,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Top Picks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "ZUS Signature Curry Puff",
@@ -34,6 +38,7 @@ export const zusCoffeeMenu = [
     "price": "RM6.50",
     "category": "Top Picks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Buttercrème Latté",
@@ -41,6 +46,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Top Picks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "CEO Latté",
@@ -48,6 +54,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.90",
     "category": "Top Picks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Spanish Latté",
@@ -55,6 +62,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.20",
     "category": "Top Picks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Double Chocolate Chip Frappé",
@@ -62,6 +70,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "Top Picks",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Ro-Ro-Rosie Frappé",
@@ -69,6 +78,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Rosie Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Rosie Latté",
@@ -76,6 +86,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.90",
     "category": "Rosie Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Rosie Cham Latté",
@@ -83,6 +94,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.90",
     "category": "Rosie Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Pumpkin Spice Frappé",
@@ -90,6 +102,7 @@ export const zusCoffeeMenu = [
     "price": "RM17.90",
     "category": "Pumpkin Spice",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Pumpkin Spice Black",
@@ -97,6 +110,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Pumpkin Spice",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Pumpkin Spice Latté",
@@ -104,6 +118,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Pumpkin Spice",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Tarik Milk Tea",
@@ -111,6 +126,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Tarik Cham Latté",
@@ -118,6 +134,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Earl Grey Milk Tea",
@@ -125,6 +142,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Earl Grey Cham Latté",
@@ -132,6 +150,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "White Peach Oolong Milk Tea",
@@ -139,6 +158,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Jasmine Milk Tea",
@@ -146,6 +166,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Dark Oolong Milk Tea",
@@ -153,6 +174,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "White Peach Oolong Cham Latté",
@@ -160,6 +182,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Jasmine Cham Latté",
@@ -167,6 +190,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Dark Oolong Cham Latté",
@@ -174,6 +198,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.20",
     "category": "Cham Latté",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Matcha Lemonade",
@@ -181,6 +206,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.90",
     "category": "Matcha Macam",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Matcha Strawberry Latté",
@@ -188,6 +214,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Matcha Macam",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Zirty Matcha Latté",
@@ -195,6 +222,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Matcha Macam",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Not Pistachio Latté",
@@ -202,6 +230,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Matcha Macam",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "CEO Coconut Latté",
@@ -209,6 +238,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "CEO Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "CEO Latté",
@@ -216,6 +246,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.90",
     "category": "CEO Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "SOE CEO Coconut Latté",
@@ -223,6 +254,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "SOE",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "SOE Spanish Latté",
@@ -230,6 +262,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.20",
     "category": "SOE",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "SOE Americano",
@@ -237,6 +270,7 @@ export const zusCoffeeMenu = [
     "price": "RM9.90",
     "category": "SOE",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "SOE CEO Latté",
@@ -244,6 +278,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.90",
     "category": "SOE",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Zirty Latté",
@@ -251,6 +286,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Classic",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Keto Black",
@@ -258,6 +294,7 @@ export const zusCoffeeMenu = [
     "price": "RM9.90",
     "category": "Functional",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "ZERO Frappé",
@@ -265,6 +302,7 @@ export const zusCoffeeMenu = [
     "price": "RM17.90",
     "category": "Functional",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "ZERO Latté",
@@ -272,6 +310,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Functional",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "OATSIDE CEO Latté",
@@ -279,6 +318,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.20",
     "category": "OATSIDE Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "OATSIDE Café Latté",
@@ -286,6 +326,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.50",
     "category": "OATSIDE Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "OATSIDE Japanese Genmaicha Latté",
@@ -293,6 +334,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.20",
     "category": "OATSIDE Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "OATSIDE Spanish Latté",
@@ -300,6 +342,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.50",
     "category": "OATSIDE Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Mango Frappé",
@@ -307,6 +350,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.20",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Watermelon Frappé",
@@ -314,6 +358,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.20",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Cheese Crème Strawberry Frappé",
@@ -321,6 +366,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Caramel Cream Frappé",
@@ -328,6 +374,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.20",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Japanese Matcha Frappé",
@@ -335,6 +382,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Double Chocolate Chip Frappé",
@@ -342,6 +390,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Salted Caramel Frappé",
@@ -349,6 +398,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.20",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Java Chip Frappé",
@@ -356,6 +406,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Espresso Frappé",
@@ -363,6 +414,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.20",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Cocoa Mocha Frappé",
@@ -370,6 +422,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "ZUS Frappé",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Butterscotch Frappé",
@@ -377,6 +430,7 @@ export const zusCoffeeMenu = [
     "price": "RM17.90",
     "category": "Butterscotch Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Butterbae",
@@ -384,6 +438,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Butterscotch Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Butterscotch Latté",
@@ -391,6 +446,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Butterscotch Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Coconut Mocha",
@@ -398,6 +454,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Coconut Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Coconut Latté",
@@ -405,6 +462,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Coconut Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Spanish Latté (with Coconut Milk)",
@@ -412,6 +470,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.20",
     "category": "Coconut Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Thunder",
@@ -419,6 +478,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.90",
     "category": "Coffee Mocktail",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Iced Cheese Crème Caramel Matcha",
@@ -426,6 +486,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Crème Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Iced Buttercrème Strawberry Latté",
@@ -433,6 +494,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Crème Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Iced Buttercrème Spanish Latté",
@@ -440,6 +502,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Crème Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Iced Buttercrème Chocolatta",
@@ -447,6 +510,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Crème Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Buttercrème Latté",
@@ -454,6 +518,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Crème Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Velvet Crème Latté",
@@ -461,6 +526,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Crème Series",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Pink Black",
@@ -468,6 +534,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.90",
     "category": "Coffee Mocktail",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Creamy Mango",
@@ -475,6 +542,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.90",
     "category": "Kids-Friendly",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Babycino",
@@ -482,6 +550,7 @@ export const zusCoffeeMenu = [
     "price": "RM8.90",
     "category": "Kids-Friendly",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Tahitian Lime Refresher",
@@ -489,6 +558,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.20",
     "category": "Refresher",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Mixed Berries Refresher",
@@ -496,6 +566,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.20",
     "category": "Refresher",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Pink Lemonade",
@@ -503,6 +574,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.20",
     "category": "Refresher",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "ZUS Lemonade",
@@ -510,6 +582,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.20",
     "category": "Refresher",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Lychee Strawberry Cooler",
@@ -517,6 +590,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.20",
     "category": "Refresher",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Roasted Hazelnut Chocolate",
@@ -524,6 +598,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Chocolate",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "French Vanilla Chocolate",
@@ -531,6 +606,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Chocolate",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Salted Caramel Chocolate",
@@ -538,6 +614,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Chocolate",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Australian Chocolate",
@@ -545,6 +622,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Chocolate",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Matcho Latté",
@@ -552,6 +630,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Chocolate",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Green Tea Latté",
@@ -559,6 +638,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.20",
     "category": "Tea",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Japanese Genmaicha Latté",
@@ -566,6 +646,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.20",
     "category": "Tea",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Watermelon Berry Refresher (1L)",
@@ -573,6 +654,7 @@ export const zusCoffeeMenu = [
     "price": "RM22.00",
     "category": "ZUS Bottled Necessity",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Vietnamese Spanish Latté (1L)",
@@ -580,6 +662,7 @@ export const zusCoffeeMenu = [
     "price": "RM29.90",
     "category": "ZUS Bottled Necessity",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "For The Love Of Fruits (Bottled)",
@@ -587,14 +670,17 @@ export const zusCoffeeMenu = [
     "price": "RM11.90",
     "category": "ZUS Bottled Necessity",
     "menuType": "Drinks Menu"
+  
   },
-  { "name": "Oh My Orange \"ZUS\" (Bottled)", "description": "A refreshing serving of Oh My Orange \"ZUS\" (Bottled), perfect to quench your thirst.", "price": "RM11.90", "category": "ZUS Bottled Necessity", "menuType": "Drinks Menu" },
+  { "name": "Oh My Orange \"ZUS\" (Bottled)", "description": "A refreshing serving of Oh My Orange \"ZUS\" (Bottled), perfect to quench your thirst.", "price": "RM11.90", "category": "ZUS Bottled Necessity", "menuType": "Drinks Menu" 
+  },
   {
     "name": "ZUS Mineral Water",
     "description": "Enjoy the delightful taste of our ZUS Mineral Water, a popular choice among our customers.",
     "price": "RM3.50",
     "category": "ZUS Bottled Necessity",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Cafe Mocha (1L)",
@@ -602,6 +688,7 @@ export const zusCoffeeMenu = [
     "price": "RM32.90",
     "category": "ZUS Bottled Necessity",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Cafe Latté (1L)",
@@ -609,6 +696,7 @@ export const zusCoffeeMenu = [
     "price": "RM26.90",
     "category": "ZUS Bottled Necessity",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Spanish Latté (1L)",
@@ -616,6 +704,7 @@ export const zusCoffeeMenu = [
     "price": "RM29.90",
     "category": "ZUS Bottled Necessity",
     "menuType": "Drinks Menu"
+  
   },
   {
     "name": "Americano (1L)",
@@ -623,6 +712,7 @@ export const zusCoffeeMenu = [
     "price": "RM18.90",
     "category": "ZUS Bottled Necessity",
     "menuType": "Drinks Menu"
+  
   },
 
   // Food Menu
@@ -632,6 +722,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.50",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Pearl Sugar Waffle",
@@ -639,6 +730,7 @@ export const zusCoffeeMenu = [
     "price": "RM7.90",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "ZUS Signature Curry Puff",
@@ -646,6 +738,7 @@ export const zusCoffeeMenu = [
     "price": "RM6.50",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Tom Yum Chicken Puff",
@@ -653,6 +746,7 @@ export const zusCoffeeMenu = [
     "price": "RM7.50",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Chocolate Roll",
@@ -660,6 +754,7 @@ export const zusCoffeeMenu = [
     "price": "RM8.50",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Chicken Slice & Cheese Croissant",
@@ -667,6 +762,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.50",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Mushroom Chicken Deluxe",
@@ -674,6 +770,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.50",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Strawberry Donut",
@@ -681,6 +778,7 @@ export const zusCoffeeMenu = [
     "price": "RM5.90",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Chocolate Donut",
@@ -688,6 +786,7 @@ export const zusCoffeeMenu = [
     "price": "RM5.90",
     "category": "Pastries",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Kapitan Chicken Curry with Rice",
@@ -695,6 +794,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "ZUS x Santan",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Ayam Masak Merah with Rice",
@@ -702,6 +802,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "ZUS x Santan",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Kampung Fried Rice",
@@ -709,6 +810,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "ZUS x Santan",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Pak Nasser’s Nasi Lemak Ayam Rendang",
@@ -716,6 +818,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "ZUS x Santan",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Spaghetti Carbonara",
@@ -723,6 +826,7 @@ export const zusCoffeeMenu = [
     "price": "RM16.90",
     "category": "Hot Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Korean Mac & Cheese",
@@ -730,6 +834,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Hot Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "ZUS Signature Chicken Lasagna",
@@ -737,6 +842,7 @@ export const zusCoffeeMenu = [
     "price": "RM18.90",
     "category": "Hot Meals",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Biscoff Baked Cheese Cake",
@@ -744,6 +850,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Cakes",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Burnt Cheese Cake",
@@ -751,6 +858,7 @@ export const zusCoffeeMenu = [
     "price": "RM14.90",
     "category": "Cakes",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Summer Berries Cheese Cake",
@@ -758,6 +866,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Cakes",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "BBQ Peanut Crunch",
@@ -765,6 +874,7 @@ export const zusCoffeeMenu = [
     "price": "RM4.50",
     "category": "Healthy Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Dark Chocolate Chip Cookies",
@@ -772,6 +882,7 @@ export const zusCoffeeMenu = [
     "price": "RM6.90",
     "category": "Healthy Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Butterscotch Cashew Chocolate Chip Cookies",
@@ -779,6 +890,7 @@ export const zusCoffeeMenu = [
     "price": "RM6.90",
     "category": "Healthy Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Mini Banana Bread Granola Bites (40g)",
@@ -786,6 +898,7 @@ export const zusCoffeeMenu = [
     "price": "RM6.50",
     "category": "Healthy Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Mini Chocolate Hazelnut Granola Bites (40g)",
@@ -793,6 +906,7 @@ export const zusCoffeeMenu = [
     "price": "RM6.50",
     "category": "Healthy Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Mini Pandan Coconut Nut Mix (30g)",
@@ -800,6 +914,7 @@ export const zusCoffeeMenu = [
     "price": "RM5.50",
     "category": "Healthy Snacks",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Pearl Sugar Waffle Soft Serve",
@@ -807,6 +922,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.50",
     "category": "Soft Serve",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Vienna Latté Float",
@@ -814,6 +930,7 @@ export const zusCoffeeMenu = [
     "price": "RM13.90",
     "category": "Soft Serve",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Affogato",
@@ -821,6 +938,7 @@ export const zusCoffeeMenu = [
     "price": "RM10.50",
     "category": "Soft Serve",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Drizzle Soft Serve",
@@ -828,6 +946,7 @@ export const zusCoffeeMenu = [
     "price": "RM7.50",
     "category": "Soft Serve",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Vanilla Soft Serve",
@@ -835,6 +954,7 @@ export const zusCoffeeMenu = [
     "price": "RM6.50",
     "category": "Soft Serve",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Classic Nasi Lemak with Curry Chicken",
@@ -842,6 +962,7 @@ export const zusCoffeeMenu = [
     "price": "RM15.90",
     "category": "Local Menu",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Soft Boiled Eggs",
@@ -849,6 +970,7 @@ export const zusCoffeeMenu = [
     "price": "RM4.50",
     "category": "Local Menu",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Toast with Curry Chicken",
@@ -856,6 +978,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.50",
     "category": "Local Menu",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Kaya Butter Toast",
@@ -863,6 +986,7 @@ export const zusCoffeeMenu = [
     "price": "RM6.50",
     "category": "Local Menu",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Kaya Butter Toast with Soft Boiled Eggs",
@@ -870,6 +994,7 @@ export const zusCoffeeMenu = [
     "price": "RM9.90",
     "category": "Local Menu",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Tasty Chicken Sandwich",
@@ -877,6 +1002,7 @@ export const zusCoffeeMenu = [
     "price": "RM12.50",
     "category": "Sandwiches",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Tuna & Egg Sandwich",
@@ -884,6 +1010,7 @@ export const zusCoffeeMenu = [
     "price": "RM11.50",
     "category": "Sandwiches",
     "menuType": "Food Menu"
+  
   },
   {
     "name": "Egg Mayo Sandwich",
@@ -891,5 +1018,6 @@ export const zusCoffeeMenu = [
     "price": "RM10.50",
     "category": "Sandwiches",
     "menuType": "Food Menu"
+  
   }
 ];

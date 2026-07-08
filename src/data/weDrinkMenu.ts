@@ -6,6 +6,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chocolate Oreo Sundae",
@@ -13,6 +14,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Red Bean Matcha Sundae",
@@ -20,6 +22,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Strawberry Sundae",
@@ -27,6 +30,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mango Sundae",
@@ -34,6 +38,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Peach Sundae",
@@ -41,6 +46,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Blueberry Sundae",
@@ -48,6 +54,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "King Sundae (Cookie bits & Mango)",
@@ -55,6 +62,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Matcha Ice Cream",
@@ -62,6 +70,7 @@ export const weDrinkMenu = [
     "price": "RM2.50",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Vanilla Ice Cream",
@@ -69,6 +78,7 @@ export const weDrinkMenu = [
     "price": "RM2.00",
     "category": "Fresh Ice Cream & Sundae",
     "menuType": "All Day"
+  
   },
 
   // Milkshakes & Snow Tops
@@ -78,6 +88,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
   {
     "name": "Strawberry Milkshake",
@@ -85,6 +96,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
   {
     "name": "Matcha Milkshake",
@@ -92,6 +104,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
   {
     "name": "Raspberry Milkshake",
@@ -99,6 +112,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
   {
     "name": "Grape Milkshake",
@@ -106,6 +120,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chocolate Oreo Smoothie Snow Top",
@@ -113,6 +128,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mango Ice Smoothie Snow Top",
@@ -120,6 +136,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
   {
     "name": "Coffee Smoothie Snow Top",
@@ -127,6 +144,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
   {
     "name": "Strawberry Ice Smoothie Snow Top",
@@ -134,6 +152,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milkshakes & Snow Tops",
     "menuType": "All Day"
+  
   },
 
   // Milk Tea Series
@@ -143,6 +162,7 @@ export const weDrinkMenu = [
     "price": "RM6.50",
     "category": "Milk Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Coconut Jelly Milk Tea",
@@ -150,6 +170,7 @@ export const weDrinkMenu = [
     "price": "RM6.50",
     "category": "Milk Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Peach Oolong Milk Tea",
@@ -157,6 +178,7 @@ export const weDrinkMenu = [
     "price": "RM6.50",
     "category": "Milk Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Original Milk Tea",
@@ -164,6 +186,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Milk Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Jasmine Milk Tea",
@@ -171,6 +194,7 @@ export const weDrinkMenu = [
     "price": "RM8.00",
     "category": "Milk Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Super Milk Tea Bucket (3 toppings)",
@@ -178,6 +202,7 @@ export const weDrinkMenu = [
     "price": "RM9.00",
     "category": "Milk Tea Series",
     "menuType": "All Day"
+  
   },
 
   // Fruit Tea Series
@@ -187,6 +212,7 @@ export const weDrinkMenu = [
     "price": "RM4.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Iced Fresh Passion Fruit Tea",
@@ -194,6 +220,7 @@ export const weDrinkMenu = [
     "price": "RM4.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Lemon Black Tea",
@@ -201,6 +228,7 @@ export const weDrinkMenu = [
     "price": "RM4.50",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Six Grapes Fruit Tea",
@@ -208,6 +236,7 @@ export const weDrinkMenu = [
     "price": "RM6.50",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Watermelon Fruit Tea",
@@ -215,6 +244,7 @@ export const weDrinkMenu = [
     "price": "RM5.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Watermelon Smoothies",
@@ -222,6 +252,7 @@ export const weDrinkMenu = [
     "price": "RM7.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Grape Jasmine Tea with Jelly Ball",
@@ -229,6 +260,7 @@ export const weDrinkMenu = [
     "price": "RM7.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mulberry Jasmine Tea with Jelly Ball",
@@ -236,6 +268,7 @@ export const weDrinkMenu = [
     "price": "RM7.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Passion Fruit Pearl & Jelly Tea",
@@ -243,6 +276,7 @@ export const weDrinkMenu = [
     "price": "RM7.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Australia Orange Juice",
@@ -250,6 +284,7 @@ export const weDrinkMenu = [
     "price": "RM4.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Super Fruit Bucket (1L)",
@@ -257,6 +292,7 @@ export const weDrinkMenu = [
     "price": "RM9.00",
     "category": "Fruit Tea Series",
     "menuType": "All Day"
+  
   },
 
   // Coffee Series
@@ -266,6 +302,7 @@ export const weDrinkMenu = [
     "price": "RM5.00",
     "category": "Coffee Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Coffee Snow Top",
@@ -273,6 +310,7 @@ export const weDrinkMenu = [
     "price": "RM7.00",
     "category": "Coffee Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Latte",
@@ -280,6 +318,7 @@ export const weDrinkMenu = [
     "price": "RM7.00",
     "category": "Coffee Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mocha",
@@ -287,6 +326,7 @@ export const weDrinkMenu = [
     "price": "RM8.00",
     "category": "Coffee Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Coconut Latte",
@@ -294,6 +334,7 @@ export const weDrinkMenu = [
     "price": "RM8.00",
     "category": "Coffee Series",
     "menuType": "All Day"
+  
   },
 
   // Waffle & Snacks
@@ -303,6 +344,7 @@ export const weDrinkMenu = [
     "price": "RM5.50",
     "category": "Waffle & Snacks",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chocolate Waffle",
@@ -310,6 +352,7 @@ export const weDrinkMenu = [
     "price": "RM5.50",
     "category": "Waffle & Snacks",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mango Coconut Pudding",
@@ -317,6 +360,7 @@ export const weDrinkMenu = [
     "price": "RM6.00",
     "category": "Waffle & Snacks",
     "menuType": "All Day"
+  
   },
   {
     "name": "Red Bean Milk Pudding",
@@ -324,5 +368,6 @@ export const weDrinkMenu = [
     "price": "RM5.00",
     "category": "Waffle & Snacks",
     "menuType": "All Day"
+  
   }
 ];

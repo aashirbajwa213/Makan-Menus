@@ -6,6 +6,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Signature Drinks",
     "menuType": "All Day"
+  
   },
   {
     "name": "TK Signature 1+1 Hot (Large)",
@@ -13,6 +14,7 @@ export const thongBowlMenu = [
     "price": "RM6.90",
     "category": "Signature Drinks",
     "menuType": "All Day"
+  
   },
   {
     "name": "TK Signature MK Hot (Milo + Kopi)",
@@ -20,6 +22,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Signature Drinks",
     "menuType": "All Day"
+  
   },
   {
     "name": "Cham Ice (Large)",
@@ -27,6 +30,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Signature Drinks",
     "menuType": "All Day"
+  
   },
   {
     "name": "Cham Hot (Large)",
@@ -34,6 +38,7 @@ export const thongBowlMenu = [
     "price": "RM6.90",
     "category": "Signature Drinks",
     "menuType": "All Day"
+  
   },
 
   // Classic Kopi & Teh
@@ -43,6 +48,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Classic Kopi & Teh",
     "menuType": "All Day"
+  
   },
   {
     "name": "Kopi Hot (Large)",
@@ -50,6 +56,7 @@ export const thongBowlMenu = [
     "price": "RM6.90",
     "category": "Classic Kopi & Teh",
     "menuType": "All Day"
+  
   },
   {
     "name": "Kopi O Hot (Large)",
@@ -57,6 +64,7 @@ export const thongBowlMenu = [
     "price": "RM5.90",
     "category": "Classic Kopi & Teh",
     "menuType": "All Day"
+  
   },
   {
     "name": "Teh Ice (Large)",
@@ -64,6 +72,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Classic Kopi & Teh",
     "menuType": "All Day"
+  
   },
   {
     "name": "Teh Hot (Large)",
@@ -71,6 +80,7 @@ export const thongBowlMenu = [
     "price": "RM6.90",
     "category": "Classic Kopi & Teh",
     "menuType": "All Day"
+  
   },
   {
     "name": "Three Layer Teh Ice (Large)",
@@ -78,6 +88,7 @@ export const thongBowlMenu = [
     "price": "RM8.90",
     "category": "Classic Kopi & Teh",
     "menuType": "All Day"
+  
   },
   {
     "name": "White Coffee Ice (Large)",
@@ -85,6 +96,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Classic Kopi & Teh",
     "menuType": "All Day"
+  
   },
 
   // Other Beverages
@@ -94,6 +106,7 @@ export const thongBowlMenu = [
     "price": "RM6.90",
     "category": "Other Beverages",
     "menuType": "All Day"
+  
   },
   {
     "name": "Neslo Geng Chou Hot (Large)",
@@ -101,6 +114,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Other Beverages",
     "menuType": "All Day"
+  
   },
   {
     "name": "Teh O Lemon Ice (Large)",
@@ -108,6 +122,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Other Beverages",
     "menuType": "All Day"
+  
   },
   {
     "name": "Green Coffee Hot (Large)",
@@ -115,6 +130,7 @@ export const thongBowlMenu = [
     "price": "RM6.90",
     "category": "Other Beverages",
     "menuType": "All Day"
+  
   },
   {
     "name": "Lemon Asam Ice (Large)",
@@ -122,6 +138,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Other Beverages",
     "menuType": "All Day"
+  
   },
 
   // Breads & Breakfast
@@ -131,6 +148,7 @@ export const thongBowlMenu = [
     "price": "RM4.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Hainan Sandwich (3-in-1)",
@@ -138,6 +156,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Croissant (Kaya Butter)",
@@ -145,6 +164,7 @@ export const thongBowlMenu = [
     "price": "RM8.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Croissant (3-in-1)",
@@ -152,6 +172,7 @@ export const thongBowlMenu = [
     "price": "RM9.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Muffin (3-in-1)",
@@ -159,6 +180,7 @@ export const thongBowlMenu = [
     "price": "RM7.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Muffin (Ayam Pedas)",
@@ -166,6 +188,7 @@ export const thongBowlMenu = [
     "price": "RM10.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Doughnut (3-in-1)",
@@ -173,6 +196,7 @@ export const thongBowlMenu = [
     "price": "RM9.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Doughnut (Classic Sugar)",
@@ -180,6 +204,7 @@ export const thongBowlMenu = [
     "price": "RM5.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Breakfast 7 Star (Big Breakfast)",
@@ -187,6 +212,7 @@ export const thongBowlMenu = [
     "price": "RM13.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
   {
     "name": "Hot Dog King",
@@ -194,6 +220,7 @@ export const thongBowlMenu = [
     "price": "RM12.90",
     "category": "Breads & Breakfast",
     "menuType": "All Day"
+  
   },
 
   // Noodles & Main Meals
@@ -203,6 +230,7 @@ export const thongBowlMenu = [
     "price": "RM13.90",
     "category": "Noodles & Main Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "Wan Tan Mee (Dry)",
@@ -210,6 +238,7 @@ export const thongBowlMenu = [
     "price": "RM13.90",
     "category": "Noodles & Main Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "TK Style Chili Pan Mee (Dry)",
@@ -217,6 +246,7 @@ export const thongBowlMenu = [
     "price": "RM14.90",
     "category": "Noodles & Main Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "TK Style Soup Pan Mee",
@@ -224,6 +254,7 @@ export const thongBowlMenu = [
     "price": "RM13.90",
     "category": "Noodles & Main Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "Claypot Lau Shu Fen",
@@ -231,6 +262,7 @@ export const thongBowlMenu = [
     "price": "RM14.90",
     "category": "Noodles & Main Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "Loh Pan Mee",
@@ -238,6 +270,7 @@ export const thongBowlMenu = [
     "price": "RM14.90",
     "category": "Noodles & Main Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "TK Shredded Chicken Hor Fun",
@@ -245,6 +278,7 @@ export const thongBowlMenu = [
     "price": "RM13.90",
     "category": "Noodles & Main Meals",
     "menuType": "All Day"
+  
   },
 
   // Chicken Rice Series
@@ -254,6 +288,7 @@ export const thongBowlMenu = [
     "price": "RM17.90",
     "category": "Chicken Rice Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Boneless Licin Chicken Rice",
@@ -261,6 +296,7 @@ export const thongBowlMenu = [
     "price": "RM17.90",
     "category": "Chicken Rice Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Happy Chicken Chop Rice",
@@ -268,6 +304,7 @@ export const thongBowlMenu = [
     "price": "RM18.90",
     "category": "Chicken Rice Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chicken Porridge",
@@ -275,6 +312,7 @@ export const thongBowlMenu = [
     "price": "RM8.90",
     "category": "Chicken Rice Series",
     "menuType": "All Day"
+  
   },
 
   // Craving Corner (Pastries)
@@ -284,6 +322,7 @@ export const thongBowlMenu = [
     "price": "RM9.90",
     "category": "Craving Corner",
     "menuType": "All Day"
+  
   },
   {
     "name": "Popiah (3 pcs)",
@@ -291,6 +330,7 @@ export const thongBowlMenu = [
     "price": "RM8.90",
     "category": "Craving Corner",
     "menuType": "All Day"
+  
   },
   {
     "name": "Kaya Kok (3 pcs)",
@@ -298,6 +338,7 @@ export const thongBowlMenu = [
     "price": "RM9.90",
     "category": "Craving Corner",
     "menuType": "All Day"
+  
   },
   {
     "name": "TK Egg Tarts (6 pcs)",
@@ -305,6 +346,7 @@ export const thongBowlMenu = [
     "price": "RM20.90",
     "category": "Craving Corner",
     "menuType": "All Day"
+  
   },
   {
     "name": "Butter Cake (1 Slice)",
@@ -312,6 +354,7 @@ export const thongBowlMenu = [
     "price": "RM5.90",
     "category": "Craving Corner",
     "menuType": "All Day"
+  
   },
   {
     "name": "Kuih Bahulu (1 Box)",
@@ -319,6 +362,7 @@ export const thongBowlMenu = [
     "price": "RM12.90",
     "category": "Craving Corner",
     "menuType": "All Day"
+  
   },
   {
     "name": "Onzen Eggs (10 pcs)",
@@ -326,5 +370,6 @@ export const thongBowlMenu = [
     "price": "RM16.90",
     "category": "Craving Corner",
     "menuType": "All Day"
+  
   }
 ];

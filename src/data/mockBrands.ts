@@ -1,3 +1,72 @@
+import { benihanaMenu } from './benihanaMenu';
+import { kluangRailwayCoffeeMenu } from './kluangRailwayCoffeeMenu';
+import { soi55Menu } from './soi55Menu';
+import { ellyMellieCafeMenu } from './ellyMellieCafeMenu';
+import { restoranThongNeThaeMenu } from './restoranThongNeThaeMenu';
+import { wheelersGeorgeTownMenu } from './wheelersGeorgeTownMenu';
+import { railwayBriyaniStationMenu } from './railwayBriyaniStationMenu';
+import { buldojangMenu } from './buldojangMenu';
+import { thaiCoMenu } from './thaiCoMenu';
+import { hayyanHudaOpahsKitchenMenu } from './hayyanHudaOpahsKitchenMenu';
+import { comeTrueCafeTheStarhillMenu } from './comeTrueCafeTheStarhillMenu';
+import { dinDinTaiFungMenu } from './dinDinTaiFungMenu';
+import { oneMorePizzaTamanParamountPjMenu } from './oneMorePizzaTamanParamountPjMenu';
+import { antCaveMenu } from './antCaveMenu';
+import { canningDimSumMenu } from './canningDimSumMenu';
+import { divaKaraoke1UtamaMenu } from './divaKaraoke1UtamaMenu';
+import { theHungryBeastSriDamansaraMenu } from './theHungryBeastSriDamansaraMenu';
+import { prettysHotChickenSetapakMenu } from './prettysHotChickenSetapakMenu';
+import { khanIndianCuisineMenu } from './khanIndianCuisineMenu';
+import { ramaVEnthaicinglyThaiMenu } from './ramaVEnthaicinglyThaiMenu';
+import { bottegaPjMenu } from './bottegaPjMenu';
+import { khmStrawberriesJamMenu } from './khmStrawberriesJamMenu';
+import { honestButcherChefNicktMenu } from './honestButcherChefNicktMenu';
+import { ceyloneseSdnBhdMenu } from './ceyloneseSdnBhdMenu';
+import { stapleDoughMenu } from './stapleDoughMenu';
+import { urbanDaybreakCafeMenu } from './urbanDaybreakCafeMenu';
+import { shakeShackMenu } from './shakeShackMenu';
+import { theTamarraIramaDiningMenu } from './theTamarraIramaDiningMenu';
+import { theRedBeanbagMenu } from './theRedBeanbagMenu';
+import { marrybrownNewMenu } from './marrybrownNewMenu';
+import { halzanMenu } from './halzanMenu';
+import { topGlobalMenu } from './topGlobalMenu';
+import { gloriaJeansMenu } from './gloriaJeansMenu';
+import { chinaHouseMenu } from './chinaHouseMenu';
+import { mollagaaMenu } from './mollagaaMenu';
+import { berbukaPuasaMenu } from './berbukaPuasaMenu';
+import { teksenMenu } from './teksenMenu';
+import { sky51Menu } from './sky51Menu';
+import { betawiIndonesianCuisineMenu } from './betawiIndonesianCuisineMenu';
+import { ramlyBurgerMenu } from './ramlyBurgerMenu';
+import { experimentKitchenMenu } from './experimentKitchenMenu';
+import { labuLabuMenu } from './labuLabuMenu';
+import { tgskMenu } from './tgskMenu';
+import { fairymilkSs15Menu } from './fairymilkSs15Menu';
+import { cafeBistrotDavidMenu } from './cafeBistrotDavidMenu';
+import { alohaKaraokePyramidMenu } from './alohaKaraokePyramidMenu';
+import { allAceMenu } from './allAceMenu';
+import { dancingFishMenu } from './dancingFishMenu';
+import { bakersCottageMenu } from './bakersCottageMenu';
+import { meokjaCafeMenu } from './meokjaCafeMenu';
+import { fishMarketManhattanMenu } from './fishMarketManhattanMenu';
+import { fuelShackMenu } from './fuelShackMenu';
+import { kennyHillsBakersIoiCityMallMenu } from './kennyHillsBakersIoiCityMallMenu';
+import { theSavorMenu } from './theSavorMenu';
+import { experimentKitchenMerabMenu } from './experimentKitchenMerabMenu';
+import { alRawshaMenu } from './alRawshaMenu';
+import { loafAdamMenu } from './loafAdamMenu';
+import { superSaigonMenu } from './superSaigonMenu';
+import { positanoRistoMenu } from './positanoRistoMenu';
+import { kuromaBuffetDiningMenu } from './kuromaBuffetDiningMenu';
+import { shabuyakiByNipponSushiMenu } from './shabuyakiByNipponSushiMenu';
+import { potatoStoryMenu } from './potatoStoryMenu';
+import { bocadoMenu } from './bocadoMenu';
+import { bidadariTurunMalamCafeMenu } from './bidadariTurunMalamCafeMenu';
+import { redKettleTheGardensMallMenu } from './redKettleTheGardensMallMenu';
+import { homstMenu } from './homstMenu';
+import { theHungryBeastVelocity2Menu } from './theHungryBeastVelocity2Menu';
+import { tenGramsMenu } from './tenGramsMenu';
+import { kantanMenu } from './kantanMenu';
 import { kfcMenu } from './kfcMenu';
 import { secretRecipeMenu } from './secretRecipeMenu';
 import { zusCoffeeMenu } from './zusCoffeeMenu';
@@ -106,10 +175,102 @@ import { taproomMenu } from './taproomMenu';
 export const brandMocks: Record<string, any[]> = {
   'fast-food': [
     {
+      name: "Shake Shack",
+      slug: "shake-shack",
+      category: "fast-food",
+      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=400&fit=crop",
+      desc: "The iconic American modern day 'roadside' burger stand.",
+      seoArticle: `
+<h2>Shake Shack</h2>
+<p>Originating from a hot dog cart in Madison Square Park, New York, Shake Shack is a global phenomenon that has finally reached Malaysian shores. Famous for their 100% all-natural Angus beef burgers, crinkle-cut fries, and spun-fresh frozen custard, it offers an elevated, premium fast-food experience in a vibrant setting.</p>
+`,
+      healthyTip: `"If you want the Shake Shack flavor with fewer carbs, ask for your burger to be served as a 'lettuce wrap' instead of the potato bun."`,
+      faqs: [
+        {
+                q: "Is the Malaysian Shake Shack Halal?",
+                a: "Yes, the menu in Malaysia uses Halal-certified meat and ingredients."
+        },
+        {
+                q: "What is their most famous item?",
+                a: "The classic 'ShackBurger' and the 'Shroom Burger' (for vegetarians) are their most iconic items."
+        }
+],
+      menu: shakeShackMenu
+    },
+    {
+      name: "Marrybrown",
+      slug: "marrybrown-new",
+      category: "fast-food",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Malaysia's largest homegrown fast-food chain.",
+      seoArticle: `
+<h2>Marrybrown</h2>
+<p>Marrybrown holds the title as Malaysia's largest homegrown Halal fast-food chain. Known for taking classic Western fried chicken and infusing it with local flavors, it offers unique items like Nasi Marrybrown and Mi Kari alongside their crispy chicken. It's a beloved brand that successfully marries fast food convenience with local Malaysian tastes.</p>
+`,
+      healthyTip: `"For a balanced fast-food meal, swap your fries for a side of mashed potato or coleslaw, and opt for plain water."`,
+      faqs: [
+        {
+                q: "Is Marrybrown Halal?",
+                a: "Yes, it is 100% Halal-certified and is one of the pioneering Halal fast-food chains."
+        },
+        {
+                q: "What is their signature dish?",
+                a: "Their Nasi Marrybrown (a fast-food take on Nasi Lemak) is incredibly popular."
+        }
+],
+      menu: marrybrownNewMenu
+    },
+    {
+      name: "Ramly Burger",
+      slug: "ramly-burger",
+      category: "fast-food",
+      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=400&fit=crop",
+      desc: "The iconic Malaysian street burger experience.",
+      seoArticle: `
+<h2>Ramly Burger</h2>
+<p>No late-night food hunt in Malaysia is complete without a Ramly Burger. A true street food icon, Ramly is famous for its heavily seasoned patties wrapped in a thin omelette layer, generously drenched in chili sauce and mayonnaise. While primarily sold at street stalls, its standardized ingredients ensure that nostalgic, messy, and deeply satisfying taste everywhere.</p>
+`,
+      healthyTip: `"Street burgers are heavily reliant on margarine and sauces. Ask the vendor for 'kurang sos' (less sauce) to reduce your calorie intake."`,
+      faqs: [
+        {
+                q: "Is this a physical restaurant?",
+                a: "While Ramly Halal Marts exist, the classic 'Ramly Burger' is typically sold at franchised street carts nationwide."
+        },
+        {
+                q: "What is a 'Burger Special'?",
+                a: "A 'Burger Special' means the meat patty is wrapped in a thin fried egg omelette before being placed in the bun."
+        }
+],
+      menu: ramlyBurgerMenu
+    },
+    {
+      name: "Fuel Shack",
+      slug: "fuel-shack",
+      category: "fast-food",
+      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=400&fit=crop",
+      desc: "100% grass-fed Australian beef burgers.",
+      seoArticle: `
+<h2>Fuel Shack</h2>
+<p>Fuel Shack has revolutionized the local fast-food scene by offering gourmet-quality burgers at accessible prices. Priding themselves on using 100% grass-fed Australian beef with no fillers, their burgers are juicy, massive, and cooked to order. It's the ultimate destination for burger purists.</p>
+`,
+      healthyTip: `"You can ask for your burger to be 'lettuce-wrapped' (without the bun) to significantly reduce your carbohydrate intake."`,
+      faqs: [
+        {
+                q: "Is the beef imported?",
+                a: "Yes, Fuel Shack strictly uses 100% grass-fed beef imported from Australia."
+        },
+        {
+                q: "Are they Halal certified?",
+                a: "Yes, Fuel Shack is a Halal-certified burger chain."
+        }
+],
+      menu: fuelShackMenu
+    },
+    {
       name: "McDonald's",
       slug: "mcdonalds",
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1552895638-f7fe08d2f7d5?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Burgers, Fries & Fried Chicken",
       seoArticle: `\n<h2>McDonald's: A Malaysian Morning Tradition</h2>
@@ -223,7 +384,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "KFC",
       slug: "kfc",
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Finger Lickin' Good Fried Chicken",
       seoArticle: `\n<h2>KFC: The Undisputed King of Fried Chicken</h2>
@@ -537,7 +698,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "carls-jr",
     searchVolume: 480,
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Beef & Angus", colors: "bg-blue-600 text-white" }],
       desc: "Chargrilled Thickburgers & Premium Shakes",
       seoArticle: `\n<h2>Carl's Jr. Malaysia: Big, Juicy Chargrilled Thickburgers</h2>
@@ -574,7 +735,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "richeese-factory",
     searchVolume: 3600,
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Spicy", colors: "bg-red-600 text-white" }],
       desc: "Fire Chicken & Signature Cheese Sauce",
       seoArticle: `\n<h2>Richeese Factory: The Ultimate Fiery Fire Chicken & Rich Cheese Sauce</h2>
@@ -611,7 +772,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "sugarbun",
     searchVolume: 3600,
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Sarawakian", colors: "bg-amber-600 text-white" }],
       desc: "East Malaysian Broasted Chicken & Rice Meals",
       seoArticle: `\n<h2>SugarBun Malaysia: Home of Broasted Chicken & Savoury Rice</h2>
@@ -648,7 +809,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "taco-bell",
     searchVolume: 2900,
       category: 'fast-food',
-      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Tex-Mex", colors: "bg-purple-600 text-white" }],
       desc: "Tacos, Quesadillas, and Burritos",
       seoArticle: `\n<h2>Taco Bell Malaysia: Fresh Mexican-Inspired Flavors</h2>
@@ -684,10 +845,263 @@ export const brandMocks: Record<string, any[]> = {
 
   'coffee-bakeries': [
     {
+      name: "Kluang Railway Coffee",
+      slug: "kluang-railway-coffee",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&h=400&fit=crop",
+      desc: "A historic institution serving traditional Hainanese coffee and toast.",
+      seoArticle: `
+<h2>Kluang Railway Coffee</h2>
+<p>Founded at the Kluang railway station in 1938, Kluang Railway Coffee is a piece of living Malaysian history. This legendary kopitiam continues to serve its highly guarded recipe of locally roasted coffee, alongside perfectly charcoal-toasted buns loaded with butter and homemade kaya. It is the definitive traditional Malaysian breakfast experience.</p>
+`,
+      healthyTip: `"Kopi 'O' Kosong (black coffee without sugar) is zero calories and a perfect companion to the rich, buttery toasts."`,
+      faqs: [
+        {
+                q: "Is it still located at a railway station?",
+                a: "The original outlet remains at the Kluang Railway Station, though they have expanded to other locations."
+        },
+        {
+                q: "What should I order for my first time?",
+                a: "You must order the Charcoal Toasted Bun with Butter & Kaya, paired with their signature Kopi (Coffee)."
+        }
+],
+      menu: kluangRailwayCoffeeMenu
+    },
+    {
+      name: "Elly Mellie Cafe",
+      slug: "elly-mellie-cafe",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop",
+      desc: "Charming cafe known for delightful pastries and aesthetic cakes.",
+      seoArticle: `
+<h2>Elly Mellie Cafe</h2>
+<p>Elly Mellie Cafe is a whimsical, highly Instagrammable bakery and coffee shop that delights patrons with its beautifully crafted cakes and delicate pastries. With its pastel decor and quiet ambiance, it is the perfect spot for a relaxed afternoon tea or a sweet date.</p>
+`,
+      healthyTip: `"Enjoying a slice of cake? Pair it with an unsweetened Earl Grey or Green Tea instead of a sugary frappe to balance your sugar intake."`,
+      faqs: [
+        {
+                q: "Do they do custom cakes?",
+                a: "Yes, they are famous for taking custom orders for beautifully designed celebration cakes."
+        },
+        {
+                q: "Are they Halal?",
+                a: "They use Halal-certified ingredients and are alcohol-free."
+        }
+],
+      menu: ellyMellieCafeMenu
+    },
+    {
+      name: "Come True Cafe The Starhill",
+      slug: "come-true-cafe-the-starhill",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop",
+      desc: "Award-winning Taiwanese specialty coffee and soufflé pancakes.",
+      seoArticle: `
+<h2>Come True Cafe The Starhill</h2>
+<p>Originating from Taiwan, Come True Cafe has brought its world-class coffee roasting and breathtaking desserts to the luxurious Starhill Gallery. They are intensely famous for their incredibly fluffy, jiggly Soufflé Pancakes and award-winning creative coffee mocktails, providing a truly premium cafe experience in Bukit Bintang.</p>
+`,
+      healthyTip: `"The soufflé pancakes are heavy on sugar and eggs. Share a portion with a friend and pair it with a sugar-free black coffee to balance the meal."`,
+      faqs: [
+        {
+                q: "Do the pancakes take a long time to make?",
+                a: "Yes, because they are made fresh to order from scratch, expect a 20-30 minute wait for the soufflé pancakes."
+        },
+        {
+                q: "Are they Halal?",
+                a: "They are a pork-free and alcohol-free establishment."
+        }
+],
+      menu: comeTrueCafeTheStarhillMenu
+    },
+    {
+      name: "Staple Dough",
+      slug: "staple-dough",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?w=600&h=400&fit=crop",
+      desc: "Specialty fresh pasta bar and artisanal bakery.",
+      seoArticle: `
+<h2>Staple Dough</h2>
+<p>Staple Dough is a haven for carb lovers, acting as both an artisanal bakery and a specialty fresh pasta bar. Everything is made from scratch daily, from their sourdough loaves to their hand-cut tagliatelle. It’s a warm, inviting space dedicated to the simple, comforting art of dough-making.</p>
+`,
+      healthyTip: `"Fresh pasta is generally lower on the glycemic index than dried pasta. Pair it with a light, olive-oil based aglio olio sauce for a healthier meal."`,
+      faqs: [
+        {
+                q: "Do they sell fresh pasta to cook at home?",
+                a: "Yes, you can purchase their freshly extruded pastas by the gram over the counter."
+        },
+        {
+                q: "Is it a cafe or a restaurant?",
+                a: "It operates as a bakery cafe during the day and serves an excellent fresh pasta menu for lunch and dinner."
+        }
+],
+      menu: stapleDoughMenu
+    },
+    {
+      name: "Urban Daybreak Cafe",
+      slug: "urban-daybreak-cafe",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop",
+      desc: "Australian-style artisan brunch and specialty coffee.",
+      seoArticle: `
+<h2>Urban Daybreak Cafe</h2>
+<p>Urban Daybreak brings a slice of sunny, laid-back Australian brunch culture to the city. Highly praised for its creative, hearty breakfast plates and excellent specialty coffee, the cafe focuses on using fresh, locally sourced ingredients to create dishes that are both beautiful and incredibly satisfying.</p>
+`,
+      healthyTip: `"Their avocado toast options and fresh smoothie bowls are packed with healthy fats and vitamins, making for a perfect nutritious start to your day."`,
+      faqs: [
+        {
+                q: "Do they have vegan options?",
+                a: "Yes, they offer a variety of plant-based dishes including smoothie bowls and vegan toasts."
+        },
+        {
+                q: "Is it pet-friendly?",
+                a: "Yes, many Urban Daybreak outlets feature pet-friendly outdoor seating areas."
+        }
+],
+      menu: urbanDaybreakCafeMenu
+    },
+    {
+      name: "The Red Beanbag",
+      slug: "the-red-beanbag",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Australian-inspired brunch and artisanal coffee.",
+      seoArticle: `
+<h2>The Red Beanbag</h2>
+<p>An institution in the local cafe scene, The Red Beanbag brings the vibrant, laid-back Australian cafe culture to Malaysia. Famous for its excellent artisanal coffee, hearty Melbourne-style breakfasts, and creative brunch plates, it remains a top destination for weekend brunch enthusiasts.</p>
+`,
+      healthyTip: `"Poached eggs on sourdough with a side of sautéed spinach is one of the healthiest and most satisfying brunch options available."`,
+      faqs: [
+        {
+                q: "Do they roast their own coffee?",
+                a: "They source premium beans from top local and international roasters to ensure a perfect cup."
+        },
+        {
+                q: "Are they kid-friendly?",
+                a: "Yes, they have a dedicated kid's menu and a very welcoming, family-friendly atmosphere."
+        }
+],
+      menu: theRedBeanbagMenu
+    },
+    {
+      name: "Cafe Bistrot David",
+      slug: "cafe-bistrot-david",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop",
+      desc: "European-style bistro and bakery offering artisanal pies.",
+      seoArticle: `
+<h2>Cafe Bistrot David</h2>
+<p>Cafe Bistrot David offers a slice of Europe in Malaysia. Helmed by Chef David, this premium bistro and bakery is celebrated for its meticulously crafted meat pies, gourmet sandwiches, and excellent coffee. The elegant, laid-back atmosphere makes it a prime spot for weekend brunches and relaxed business meetings.</p>
+`,
+      healthyTip: `"Pies can be quite heavy in butter and fat. Share a pie with a friend and order a side of garden salad for a balanced meal."`,
+      faqs: [
+        {
+                q: "What is their most famous item?",
+                a: "They are incredibly famous for their artisanal gourmet meat pies, especially the classic beef and mushroom pie."
+        },
+        {
+                q: "Do they serve dinner?",
+                a: "Yes, the bistro transitions into a cozy dining spot in the evening serving hearty European mains."
+        }
+],
+      menu: cafeBistrotDavidMenu
+    },
+    {
+      name: "Bakers Cottage",
+      slug: "bakers-cottage",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop",
+      desc: "Famous for their affordable whole roast chickens and cakes.",
+      seoArticle: `
+<h2>Bakers Cottage</h2>
+<p>Baker's Cottage is a household name in Malaysia, renowned not just for their wide variety of affordable cakes and pastries, but also for their incredibly popular and value-for-money Whole Roast Chicken. It’s the ultimate stop for picking up a quick family dinner along with dessert for any celebration.</p>
+`,
+      healthyTip: `"The roast chicken is an excellent source of protein. Remove the skin to significantly cut down on calories and fat."`,
+      faqs: [
+        {
+                q: "Is Baker's Cottage Halal?",
+                a: "Yes, Baker's Cottage is fully Halal-certified by JAKIM."
+        },
+        {
+                q: "Do they sell ready-to-eat hot food?",
+                a: "Yes, their signature hot item is the BBQ and Black Pepper Whole Roast Chicken."
+        }
+],
+      menu: bakersCottageMenu
+    },
+    {
+      name: "Meokja Cafe",
+      slug: "meokja-cafe",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop",
+      desc: "Korean-inspired minimal cafe serving delightful bakes and coffee.",
+      seoArticle: `
+<h2>Meokja Cafe</h2>
+<p>Meokja Cafe captures the essence of a modern, minimalist Korean coffee shop right in the heart of the city. Meaning 'Let's Eat' in Korean, the cafe specializes in aesthetically pleasing bakes, croffles (croissant-waffles), and specialty coffee. It's an incredibly popular spot for cafe-hoppers looking for the perfect Instagram shot and a quiet corner to read or work.</p>
+`,
+      healthyTip: `"For a guilt-free treat, pair your Americano with their fruit-topped croffles instead of the heavy cream or chocolate-loaded ones."`,
+      faqs: [
+        {
+                q: "Is Meokja Cafe Muslim-friendly?",
+                a: "Yes, all ingredients used are sourced from Halal suppliers and they do not serve alcohol."
+        },
+        {
+                q: "Do they have Wi-Fi?",
+                a: "Yes, they provide high-speed Wi-Fi making it a great spot for remote work."
+        }
+],
+      menu: meokjaCafeMenu
+    },
+    {
+      name: "Kenny Hills Bakers Ioi City Mall",
+      slug: "kenny-hills-bakers-ioi-city-mall",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?w=600&h=400&fit=crop",
+      desc: "Premium artisanal bakery and hearty brunch spot.",
+      seoArticle: `
+<h2>Kenny Hills Bakers Ioi City Mall</h2>
+<p>Expanding from its legendary Bukit Tunku roots, Kenny Hills Bakers in IOI City Mall brings its famous artisanal pastries, organic breads, and hearty wood-fired pizzas to the massive shopping hub. Known for using high-quality ingredients, it is a favorite stop for mall shoppers looking for a premium coffee and cake break or a wholesome brunch.</p>
+`,
+      healthyTip: `"Their salads are massive and incredibly fresh! A great alternative to their delicious but heavy pastries if you want a lighter meal."`,
+      faqs: [
+        {
+                q: "Are the pastries baked fresh?",
+                a: "Yes, all pastries, cakes, and breads are baked fresh daily."
+        },
+        {
+                q: "Do they serve heavy meals?",
+                a: "Yes, aside from pastries, they serve excellent wood-fired pizzas, pastas, and roast chicken."
+        }
+],
+      menu: kennyHillsBakersIoiCityMallMenu
+    },
+    {
+      name: "Bidadari Turun Malam Cafe",
+      slug: "bidadari-turun-malam-cafe",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop",
+      desc: "A mystical late-night cafe offering artisan coffee and pastries.",
+      seoArticle: `
+<h2>Bidadari Turun Malam Cafe</h2>
+<p>Bidadari Turun Malam Cafe is a unique, late-night haven for coffee lovers and dessert enthusiasts. With its enchanting ambiance and beautifully crafted beverages, it has become a trending spot for night owls looking for a relaxing space to unwind over artisan pastries and specialty coffee.</p>
+`,
+      healthyTip: `"If visiting late at night, opt for a decaf coffee or a soothing chamomile tea to ensure a good night's sleep."`,
+      faqs: [
+        {
+                q: "What does the name mean?",
+                a: "The name loosely translates to 'Angel Descending at Night', reflecting its enchanting evening vibe."
+        },
+        {
+                q: "Do they serve hot food?",
+                a: "They primarily serve gourmet coffee, artisan cakes, and light pastries."
+        }
+],
+      menu: bidadariTurunMalamCafeMenu
+    },
+    {
       name: "Starbucks",
       slug: "starbucks",
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Premium Coffee & Beverages",
       seoArticle: `\n<h2>Starbucks: The Ultimate 'Third Place'</h2>
@@ -794,7 +1208,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "ZUS Coffee",
       slug: "zus-coffee",
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "A Necessity, Not a Luxury",
       seoArticle: `\n<h2>ZUS Coffee: Premium Brews for Everyone</h2>
@@ -860,7 +1274,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Coffee Bean & Tea Leaf",
       slug: "coffee-bean-tea-leaf",
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Find Your Flavor with Premium Coffee & Tea",
       seoArticle: `\n<h2>Coffee Bean & Tea Leaf: A Relaxed Retreat</h2>
@@ -894,7 +1308,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "kenangan-coffee",
     searchVolume: 5400,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Gula Aren", colors: "bg-amber-600 text-white" }],
       desc: "Home of Kopi Kenangan Mantan & Avocado Coffee",
       seoArticle: `\n<h2>Kenangan Coffee Malaysia: Signature Gula Aren & Bold Espresso</h2>
@@ -931,7 +1345,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "gigi-coffee",
     searchVolume: 4400,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Buttercream", colors: "bg-blue-500 text-white" }],
       desc: "Everyday Premium Coffee & Velvet Buttercream",
       seoArticle: `\n<h2>Gigi Coffee Malaysia: Legendary Buttercream Foam & Peach Teas</h2>
@@ -968,7 +1382,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "hock-kee-kopitiam",
     searchVolume: 1300,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Traditional", colors: "bg-red-600 text-white" }],
       desc: "Nanyang Kopi, Charcoal Toast & Laksa",
       seoArticle: `\n<h2>Hock Kee Kopitiam Malaysia: Retro Nanyang Flavours & Charcoal Toast</h2>
@@ -1005,7 +1419,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "oldtown-white-coffee",
     searchVolume: 4400,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Ipoh White Coffee", colors: "bg-yellow-600 text-white" }],
       desc: "The Original Ipoh 3-Bean Blend & Kopitiam Classics",
       seoArticle: `\n<h2>OldTown White Coffee Malaysia: The Pioneer of Creamy White Coffee</h2>
@@ -1042,7 +1456,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "kenny-hills-bakers",
     searchVolume: 4400,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Premium Bakery", colors: "bg-purple-600 text-white" }],
       desc: "Organic Sourdough, Peach Strudels & Specialty Coffee",
       seoArticle: `\n<h2>Kenny Hills Bakers Malaysia: Premium Artisanal Bakes & Peach Strudels</h2>
@@ -1079,7 +1493,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "dunkin",
     searchVolume: 210,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Donuts", colors: "bg-pink-500 text-white" }],
       desc: "World-Famous Donuts, Fresh Brewed Coffee & Sandwiches",
       seoArticle: `\n<h2>Dunkin' Malaysia: Sweet Glazed Donuts & Fresh Arabica Brews</h2>
@@ -1116,7 +1530,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "krispy-kreme",
     searchVolume: 1600,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Status: JAKIM Certified", colors: "bg-green-500 text-white" }, { name: "Donuts", colors: "bg-pink-500 text-white" }],
       desc: "Mouthwatering Glazed Donuts & Specialty Brews",
       seoArticle: `\n<h2>Krispy Kreme Malaysia Menu 2026: Melt-in-Your-Mouth Glazed Donuts</h2>
@@ -1153,7 +1567,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "big-apple-donuts",
     searchVolume: 70,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1612240498936-65f5101365d2?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Local Brand", colors: "bg-blue-500 text-white" }],
       desc: "Delectable Malaysian-Born Craft Donuts & Beverages",
       seoArticle: `\n<h2>Big Apple Donuts Malaysia: Local Craftsmanship & Creative Flavors</h2>
@@ -1190,7 +1604,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "grumpy-bagel",
     searchVolume: 4400,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1541271696563-3be2f555fc4e?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Artisanal", colors: "bg-indigo-500 text-white" }],
       desc: "Handcrafted New York Style Bagels & Gourmet Spreads",
       seoArticle: `\n<h2>Grumpy Bagel KL: The Ultimate New York Style Bagel Hotspot</h2>
@@ -1227,7 +1641,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "luckin-coffee",
     searchVolume: 3600,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1481833761820-0509d3217039?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Status: Muslim-Friendly", colors: "bg-green-500 text-white" }, { name: "Tech-Driven", colors: "bg-blue-500 text-white" }],
       desc: "Rapidly Growing Premium Coffee & Smart Retail",
       seoArticle: `\n<h2>Luckin Coffee Malaysia Menu: Tech-First Specialty Coffee & Modern Blends</h2>
@@ -1264,7 +1678,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "bakery-cottage",
     searchVolume: 2400,
       category: 'coffee-bakeries',
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Status: Muslim-Owned", colors: "bg-green-500 text-white" }],
       desc: "Traditional Freshly Baked Breads, Cakes & Pastries",
       seoArticle: `\n<h2>Bakery Cottage Malaysia: Nostalgic Breads & Affordable Pastries</h2>
@@ -1298,6 +1712,1110 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'local-asian': [
+    {
+      name: "Benihana",
+      slug: "benihana",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "World-famous Japanese Teppanyaki steakhouse.",
+      seoArticle: `
+<h2>Benihana</h2>
+<p>Benihana is a globally recognized Japanese steakhouse that pioneered the exciting concept of Teppanyaki dining. Diners are seated around a large steel grill where highly skilled chefs cook premium steaks, seafood, and vegetables right in front of them with dazzling theatrical flair, making it an unforgettable dining and entertainment experience.</p>
+`,
+      healthyTip: `"Teppanyaki can use a lot of butter and oil. You can kindly ask the chef to use less oil or butter when preparing your portion."`,
+      faqs: [
+        {
+                q: "Is it suitable for celebrating birthdays?",
+                a: "Absolutely! The theatrical cooking style and lively chefs make it one of the best venues for celebrations."
+        },
+        {
+                q: "Do they serve regular sushi?",
+                a: "Yes, alongside the Teppanyaki grill, they offer an extensive menu of premium sushi and sashimi."
+        }
+],
+      menu: benihanaMenu
+    },
+    {
+      name: "Soi 55",
+      slug: "soi-55",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Modern and accessible Thai street food.",
+      seoArticle: `
+<h2>Soi 55</h2>
+<p>Soi 55 is a highly popular modern Thai restaurant chain that brings the vibrant flavors of Bangkok's Soi (streets) into a clean, comfortable, and trendy environment. Offering massive Mookata (Thai BBQ Steamboat) sets and a huge variety of authentic Thai stir-fries, it’s a fantastic venue for group dining and celebrations.</p>
+`,
+      healthyTip: `"When eating Mookata (Thai BBQ), focus on boiling vegetables and lean meats in the soup base rather than relying entirely on the grilled fatty meats."`,
+      faqs: [
+        {
+                q: "What is Mookata?",
+                a: "Mookata is a traditional Thai dining style that combines a domed grill for meats and a surrounding moat of broth for boiling vegetables."
+        },
+        {
+                q: "Is Soi 55 Halal?",
+                a: "Yes, Soi 55 uses Halal-certified ingredients and offers a pork-free Mookata experience."
+        }
+],
+      menu: soi55Menu
+    },
+    {
+      name: "Restoran Thong Ne Thae",
+      slug: "restoran-thong-ne-thae",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      desc: "Authentic and unapologetically fiery Thai-Isan cuisine.",
+      seoArticle: `
+<h2>Restoran Thong Ne Thae</h2>
+<p>Restoran Thong Ne Thae is a hidden gem for those seeking genuinely authentic and uncompromisingly spicy Thai food, specifically focusing on the bold flavors of the Isan (Northeastern Thai) region. From their fiercely spicy Som Tum to intensely flavorful grilled pork neck, it offers an authentic street-side Thai experience.</p>
+`,
+      healthyTip: `"Isan food is generally very healthy as it relies on grilling and fresh salads rather than deep-frying. Enjoy the grilled meats and raw vegetables!"`,
+      faqs: [
+        {
+                q: "Is the food very spicy?",
+                a: "Yes, authentic Isan food is notoriously spicy. Be sure to request 'less spicy' if you cannot handle extreme heat."
+        },
+        {
+                q: "Is it Halal?",
+                a: "No, they serve traditional Thai pork dishes."
+        }
+],
+      menu: restoranThongNeThaeMenu
+    },
+    {
+      name: "Wheeler's George Town",
+      slug: "wheelers-george-town",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Trendy cafe serving hearty breakfasts and artisanal coffee in Penang.",
+      seoArticle: `
+<h2>Wheeler's George Town</h2>
+<p>Located in the historic heart of Penang, Wheeler's is a bustling, bicycle-themed cafe that has become a staple for both locals and tourists. Renowned for its excellent artisanal coffee, generous brunch portions, and vibrant atmosphere, it's the perfect starting point before exploring the heritage streets of George Town.</p>
+`,
+      healthyTip: `"For a lighter brunch, swap out the heavy sausages and bacon for extra mushrooms and grilled tomatoes."`,
+      faqs: [
+        {
+                q: "Do they serve local Penang food?",
+                a: "While they occasionally have fusion items, they are primarily known for their excellent Western brunch and coffee."
+        },
+        {
+                q: "Is the cafe bicycle-themed?",
+                a: "Yes, the decor is famously inspired by bicycles, giving it a unique rustic charm."
+        }
+],
+      menu: wheelersGeorgeTownMenu
+    },
+    {
+      name: "Railway Briyani Station",
+      slug: "railway-briyani-station",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&h=400&fit=crop",
+      desc: "Aromatic, slow-cooked traditional Dum Biryani.",
+      seoArticle: `
+<h2>Railway Briyani Station</h2>
+<p>Railway Briyani Station captures the nostalgic essence of classic Indian railway food, where massive pots of intensely aromatic biryani are served to hungry travelers. Known for its generous portions, perfectly cooked basmati rice, and tender meats falling off the bone, it is a haven for biryani enthusiasts.</p>
+`,
+      healthyTip: `"Biryani is a heavy, carb-rich meal. Balance it out by ordering a side of cucumber Raita (yogurt) which aids in digestion."`,
+      faqs: [
+        {
+                q: "What makes it a 'Railway' biryani?",
+                a: "It pays homage to the hearty, heavily spiced biryanis historically sold at major Indian railway junctions."
+        },
+        {
+                q: "Is it very spicy?",
+                a: "The biryani is highly spiced and aromatic, but usually has a moderate heat level."
+        }
+],
+      menu: railwayBriyaniStationMenu
+    },
+    {
+      name: "Thai Co",
+      slug: "thai-co",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop",
+      desc: "Vibrant and authentic Thai street food.",
+      seoArticle: `
+<h2>Thai Co</h2>
+<p>Thai Co brings the energetic and bold flavors of Bangkok's street food directly to Malaysia. Specializing in intensely flavorful Tom Yum, savory Pad Kra Pao, and refreshing Som Tum (Papaya Salad), it is an essential dining spot for anyone craving a quick, authentic, and spicy Thai meal.</p>
+`,
+      healthyTip: `"The Som Tum (Papaya Salad) and clear Tom Yum soups are incredibly low in calories and packed with vitamins."`,
+      faqs: [
+        {
+                q: "Is Thai Co Halal?",
+                a: "Yes, Thai Co sources its ingredients from Halal-certified suppliers."
+        },
+        {
+                q: "Do they serve Thai milk tea?",
+                a: "Yes, they serve freshly brewed, authentic Thai Milk Tea (Cha Yen)."
+        }
+],
+      menu: thaiCoMenu
+    },
+    {
+      name: "Hayyan Huda Opah's Kitchen",
+      slug: "hayyan-huda-opahs-kitchen",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Heartwarming traditional Malay recipes inspired by a grandmother's cooking.",
+      seoArticle: `
+<h2>Hayyan Huda Opah's Kitchen</h2>
+<p>Hayyan Huda Opah's Kitchen serves as a tribute to traditional Malay home cooking. 'Opah' means grandmother in Malay, and true to its name, this restaurant offers deeply comforting, nostalgic dishes like rich rendang, slow-cooked curries, and perfectly fried chicken, providing a true taste of Malaysian heritage in a cozy setting.</p>
+`,
+      healthyTip: `"To keep your meal balanced, pair the rich and flavorful curries with a generous side of Ulam (fresh raw herbs) which are very low in calories."`,
+      faqs: [
+        {
+                q: "What is their signature dish?",
+                a: "Their Nasi Dulang, which is a massive platter of rice served with various traditional side dishes, is highly recommended."
+        },
+        {
+                q: "Is the food very spicy?",
+                a: "It has an authentic level of spice typical of Malay village cooking, but milder options are available."
+        }
+],
+      menu: hayyanHudaOpahsKitchenMenu
+    },
+    {
+      name: "Din Din Tai Fung",
+      slug: "din-din-tai-fung",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1582878826629-29b7ad1cb438?w=600&h=400&fit=crop",
+      desc: "The pork-free, Halal-certified version of the world-famous dumpling house.",
+      seoArticle: `
+<h2>Din Din Tai Fung</h2>
+<p>Din by Din Tai Fung brings the globally acclaimed, Michelin-star quality Xiao Long Bao (soup dumplings) to the Halal market in Malaysia. This pork-free concept ensures that Muslim diners can finally experience the legendary 18-fold dumplings, savory fried rice, and impeccable service that made the original brand famous worldwide.</p>
+`,
+      healthyTip: `"Steamed dumplings and clear chicken soups are incredibly healthy and low in fat. Avoid overeating the fried rice if you are watching your carbs."`,
+      faqs: [
+        {
+                q: "Is Din different from regular Din Tai Fung?",
+                a: "Yes, 'Din' is the specific pork-free, Halal-certified concept of the Din Tai Fung brand."
+        },
+        {
+                q: "What is their most famous dish?",
+                a: "The Chicken Xiao Long Bao (Steamed Chicken Soup Dumpling) is their absolute must-try signature item."
+        }
+],
+      menu: dinDinTaiFungMenu
+    },
+    {
+      name: "Ant Cave",
+      slug: "ant-cave",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "A hidden, rustic cafe serving hearty local and Western dishes.",
+      seoArticle: `
+<h2>Ant Cave</h2>
+<p>Tucked away like a hidden gem, Ant Cave boasts a unique, rustic, cavern-like interior that offers a cozy escape from the city. The menu is a hearty mix of massive Western chops, comforting local Asian rice dishes, and artisanal coffee, making it a popular neighborhood hangout for relaxed dinners.</p>
+`,
+      healthyTip: `"Their grilled chicken chops are a great lean protein choice; just request the heavy black pepper or mushroom sauce on the side."`,
+      faqs: [
+        {
+                q: "Is it actually in a cave?",
+                a: "No, but the interior is heavily themed with rustic rock walls and dim, cozy lighting to simulate a luxurious cave."
+        },
+        {
+                q: "Do they serve dessert?",
+                a: "Yes, they have a great selection of cakes and a famous sizzling brownie."
+        }
+],
+      menu: antCaveMenu
+    },
+    {
+      name: "Canning Dim Sum",
+      slug: "canning-dim-sum",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&h=400&fit=crop",
+      desc: "Ipoh's famous Halal-certified Dim Sum institution.",
+      seoArticle: `
+<h2>Canning Dim Sum</h2>
+<p>Originating from Ipoh, Canning Dim Sum has revolutionized the traditional Chinese breakfast scene by offering a vibrant, 100% Halal-certified Dim Sum menu. Famous for their colorful, naturally dyed dumplings, incredibly flaky egg tarts, and salted egg buns, it's a bustling, family-friendly destination for weekend brunch.</p>
+`,
+      healthyTip: `"Dim sum is easily tailored for health. Focus on steamed items like Har Gao (prawn dumplings) and avoid deep-fried radish cakes."`,
+      faqs: [
+        {
+                q: "Is the Dim Sum truly Halal?",
+                a: "Yes, Canning Dim Sum is very famous for being fully JAKIM Halal-certified."
+        },
+        {
+                q: "What makes their dumplings colorful?",
+                a: "They use natural extracts from vegetables and flowers like blue pea and beetroot to color their dumpling skins."
+        }
+],
+      menu: canningDimSumMenu
+    },
+    {
+      name: "Diva Karaoke 1 Utama",
+      slug: "diva-karaoke-1-utama",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      desc: "Premium karaoke lounge with an extensive Asian menu.",
+      seoArticle: `
+<h2>Diva Karaoke 1 Utama</h2>
+<p>Diva Karaoke in 1 Utama offers a premium entertainment experience coupled with a surprisingly extensive and high-quality food menu. Unlike standard karaoke joints, Diva serves up serious local Asian comfort food—from hot noodle soups to savory sharing snacks—ensuring you don't have to pause the party to grab a good dinner.</p>
+`,
+      healthyTip: `"Singing burns calories! But to keep things balanced, order their clear soup noodles instead of deep-fried finger foods."`,
+      faqs: [
+        {
+                q: "Can we order food directly to the room?",
+                a: "Yes, they offer full room service so you can eat while you sing."
+        },
+        {
+                q: "Do they serve alcohol?",
+                a: "Yes, they have a fully stocked bar with beers, wines, and spirits."
+        }
+],
+      menu: divaKaraoke1UtamaMenu
+    },
+    {
+      name: "The Hungry Beast Sri Damansara",
+      slug: "the-hungry-beast-sri-damansara",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Massive fusion platters and local comfort food.",
+      seoArticle: `
+<h2>The Hungry Beast Sri Damansara</h2>
+<p>Expanding on its legendary reputation, the Sri Damansara outlet of The Hungry Beast continues to serve up monstrous portions of local and fusion comfort food. Known for their incredible sharing platters, towering burgers, and heavy rice bowls, it is the ultimate destination to satisfy a massive appetite with friends and family.</p>
+`,
+      healthyTip: `"The portions here are notoriously huge. The healthiest approach is to share a main dish and pair it with a side salad."`,
+      faqs: [
+        {
+                q: "Is the menu the same as the Velocity outlet?",
+                a: "The core menu is identical, featuring the same famous giant burgers and rice bowls, with a few outlet-specific specials."
+        },
+        {
+                q: "Are they Halal?",
+                a: "Yes, The Hungry Beast is a Muslim-owned establishment."
+        }
+],
+      menu: theHungryBeastSriDamansaraMenu
+    },
+    {
+      name: "Pretty's Hot Chicken Setapak",
+      slug: "prettys-hot-chicken-setapak",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1626082929543-eed647a6a43e?w=600&h=400&fit=crop",
+      desc: "Nashville-style hot chicken with a local twist.",
+      seoArticle: `
+<h2>Pretty's Hot Chicken Setapak</h2>
+<p>Pretty's Hot Chicken has ignited the local food scene in Setapak with its unapologetic take on Nashville-style hot chicken. Famous for their massive, intensely spiced fried chicken burgers and loaded fries, this spot has quickly become a massive hit among students and spice-lovers looking for a serious kick.</p>
+`,
+      healthyTip: `"This is pure comfort food! If you're counting calories, this might be a 'cheat day' meal, though you can skip the extra cheese sauce to reduce fat."`,
+      faqs: [
+        {
+                q: "How spicy is the chicken?",
+                a: "You can choose your spice level, ranging from 'Mild' all the way to a fiercely hot 'Reaper' level."
+        },
+        {
+                q: "Do they serve anything other than chicken?",
+                a: "The menu is heavily focused on their signature fried chicken, though they offer great sides like mac & cheese."
+        }
+],
+      menu: prettysHotChickenSetapakMenu
+    },
+    {
+      name: "Khan Indian Cuisine",
+      slug: "khan-indian-cuisine",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&h=400&fit=crop",
+      desc: "Premium North Indian and Mughlai dining.",
+      seoArticle: `
+<h2>Khan Indian Cuisine</h2>
+<p>Khan Indian Cuisine brings the majestic flavors of North India and the royal kitchens of the Mughals to Malaysia. Specializing in incredibly rich, slow-cooked curries, perfectly charred Tandoori meats, and massive Biryani platters, it is a top destination for those seeking an upscale, authentic Indian feast.</p>
+`,
+      healthyTip: `"Tandoori chicken is an excellent, low-fat protein choice because it is baked in a clay oven rather than deep-fried."`,
+      faqs: [
+        {
+                q: "Do they serve vegetarian food?",
+                a: "Yes, North Indian cuisine has a massive selection of rich vegetarian dishes like Paneer Butter Masala and Dal Makhani."
+        },
+        {
+                q: "Is the biryani spicy?",
+                a: "The biryani is richly spiced and aromatic rather than fiercely hot, making it suitable for most palates."
+        }
+],
+      menu: khanIndianCuisineMenu
+    },
+    {
+      name: "Rama V Enthaicingly Thai",
+      slug: "rama-v-enthaicingly-thai",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop",
+      desc: "Award-winning fine dining Thai cuisine.",
+      seoArticle: `
+<h2>Rama V Enthaicingly Thai</h2>
+<p>Hidden in a beautifully restored standalone bungalow in Kuala Lumpur, Rama V was Malaysia’s first authentic Thai fine-dining restaurant. It offers an exquisite, royal-inspired Thai dining experience away from the bustling city, featuring rich curries, extremely fresh seafood, and an elegant ambiance that has won it numerous awards.</p>
+`,
+      healthyTip: `"Thai food is naturally packed with fresh herbs. Opt for their clear Tom Yam soups instead of the heavy, coconut milk-based green curries for a lower calorie option."`,
+      faqs: [
+        {
+                q: "Is there a dress code at Rama V?",
+                a: "Yes, they enforce a smart casual dress code to maintain the fine dining atmosphere."
+        },
+        {
+                q: "Are they Halal certified?",
+                a: "Rama V is pork-free and sources ingredients from Halal suppliers, though they do serve alcohol on the premises."
+        }
+],
+      menu: ramaVEnthaicinglyThaiMenu
+    },
+    {
+      name: "Bottega Pj",
+      slug: "bottega-pj",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      desc: "Authentic Italian deli, grocer, and cozy dining space.",
+      seoArticle: `
+<h2>Bottega Pj</h2>
+<p>Bottega PJ operates as an authentic Italian deli and a cozy, unpretentious dining spot. Hidden in a quiet neighborhood, it is a treasure trove of imported Italian cheeses, cold cuts, and wines. Diners can enjoy freshly made pastas, authentic pizzas, and spectacular charcuterie boards in a warm, rustic environment.</p>
+`,
+      healthyTip: `"A Mediterranean diet is naturally healthy! Enjoy their fresh salads with extra virgin olive oil and share a cheese board."`,
+      faqs: [
+        {
+                q: "Can I buy ingredients to take home?",
+                a: "Yes, Bottega is a fully functioning deli and grocer selling imported Italian goods."
+        },
+        {
+                q: "Do they serve alcohol?",
+                a: "Yes, they offer a fantastic, reasonably priced selection of Italian wines."
+        }
+],
+      menu: bottegaPjMenu
+    },
+    {
+      name: "Khm Strawberries & Jam",
+      slug: "khm-strawberries-jam",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Cameron Highlands specialty strawberry cafe and farm shop.",
+      seoArticle: `
+<h2>Khm Strawberries & Jam</h2>
+<p>Bringing the cool, refreshing vibes of Cameron Highlands to the city, KHM Strawberries & Jam specializes in everything strawberry. From their famous homemade scones served with fresh strawberry jam to strawberry-infused local dishes like Nasi Lemak Sambal Strawberry, it offers a uniquely sweet and savory dining experience.</p>
+`,
+      healthyTip: `"Fresh strawberries are packed with Vitamin C! Opt for their fresh fruit salads or juices without added sugar."`,
+      faqs: [
+        {
+                q: "Are the strawberries grown locally?",
+                a: "Yes, they source their fresh strawberries directly from their farms in Cameron Highlands."
+        },
+        {
+                q: "What is 'Sambal Strawberry'?",
+                a: "It is a unique twist on the traditional spicy sambal, blending chili heat with the slight tartness of fresh strawberries."
+        }
+],
+      menu: khmStrawberriesJamMenu
+    },
+    {
+      name: "Honest Butcher Chef Nickt",
+      slug: "honest-butcher-chef-nickt",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
+      desc: "Premium artisanal butchery and meat-centric dining.",
+      seoArticle: `
+<h2>Honest Butcher Chef Nickt</h2>
+<p>Founded by the renowned Chef Nickt, Honest Butcher is both a premium artisanal butchery and a stellar dining destination. The concept is simple: choose your cut of premium, dry-aged, or Wagyu beef from the display, and have it expertly grilled to perfection by the chef. It’s a true sanctuary for serious carnivores.</p>
+`,
+      healthyTip: `"Steak is a great source of protein and iron. Pair it with a fresh garden salad instead of heavy mashed potatoes to balance the meal."`,
+      faqs: [
+        {
+                q: "Can I just buy raw meat to cook at home?",
+                a: "Yes, they operate as a fully functional premium butcher shop alongside the restaurant."
+        },
+        {
+                q: "Do they serve anything other than beef?",
+                a: "Yes, they also offer premium lamb cuts, chicken, and excellent gourmet burgers."
+        }
+],
+      menu: honestButcherChefNicktMenu
+    },
+    {
+      name: "Ceylonese Sdn Bhd",
+      slug: "ceylonese-sdn-bhd",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      desc: "Authentic Sri Lankan and South Indian cuisine.",
+      seoArticle: `
+<h2>Ceylonese Sdn Bhd</h2>
+<p>Ceylonese Sdn Bhd is a legendary establishment offering an uncompromising taste of authentic Sri Lankan cuisine. Famous for their incredibly flavorful crab curries, crispy appams, and deeply spiced meat dishes, this restaurant has been a staple for those seeking genuine, fiery South Asian flavors in Malaysia.</p>
+`,
+      healthyTip: `"Appams (fermented rice pancakes) are light and oil-free, making them a much healthier alternative to deep-fried breads like Puri."`,
+      faqs: [
+        {
+                q: "What is their most famous dish?",
+                a: "Their Sri Lankan Crab Curry is legendary and highly sought after by seafood lovers."
+        },
+        {
+                q: "Is Sri Lankan food similar to Indian food?",
+                a: "It shares similarities with South Indian cuisine but heavily features coconut, pandan leaves, and unique roasted curry powders."
+        }
+],
+      menu: ceyloneseSdnBhdMenu
+    },
+    {
+      name: "The Tamarra Irama Dining",
+      slug: "the-tamarra-irama-dining",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Exquisite fine dining focused on Malay heritage cuisine.",
+      seoArticle: `
+<h2>The Tamarra Irama Dining</h2>
+<p>The Tamarra by Irama Dining elevates traditional Malay heritage cuisine into a breathtaking fine-dining experience. Set in a beautifully decorated, opulent environment, the restaurant serves intricately prepared local dishes using premium ingredients. It is the perfect venue for grand celebrations and experiencing the true richness of Malaysian culinary history.</p>
+`,
+      healthyTip: `"Many traditional Malay salads (Kerabu) are offered here. They are extremely healthy, packed with fresh herbs, and low in calories."`,
+      faqs: [
+        {
+                q: "Is there a dress code?",
+                a: "Yes, smart casual attire is encouraged to match the elegant dining environment."
+        },
+        {
+                q: "Do they serve alcoholic beverages?",
+                a: "No, The Tamarra is a Halal establishment and serves excellent artisan mocktails."
+        }
+],
+      menu: theTamarraIramaDiningMenu
+    },
+    {
+      name: "Halzan",
+      slug: "halzan",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Modern Middle-Eastern and Asian fusion dining.",
+      seoArticle: `
+<h2>Halzan</h2>
+<p>Halzan beautifully bridges the gap between Middle Eastern spices and Asian cooking techniques. Offering an upscale yet highly accessible dining experience, the restaurant is praised for its elegant ambiance, premium grilled meats, and innovative fusion dishes like hummus with local flatbreads.</p>
+`,
+      healthyTip: `"Grilled kebabs are an excellent source of lean protein. Pair them with a fresh fattoush salad instead of heavy rice."`,
+      faqs: [
+        {
+                q: "Is Halzan suitable for formal dinners?",
+                a: "Yes, its modern and elegant interior makes it perfect for business dinners and romantic dates."
+        },
+        {
+                q: "Do they serve vegetarian options?",
+                a: "Yes, they have an extensive selection of vegetarian mezze (appetizers)."
+        }
+],
+      menu: halzanMenu
+    },
+    {
+      name: "Top Global",
+      slug: "top-global",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Affordable local dining with a vast menu of favorites.",
+      seoArticle: `
+<h2>Top Global</h2>
+<p>Top Global is the quintessential neighborhood restaurant that offers a massive menu of beloved Malaysian dishes under one roof. From morning Roti Canai to late-night Tom Yum and Nasi Goreng, it provides reliable, affordable, and deeply comforting local food for all ages at any time of the day.</p>
+`,
+      healthyTip: `"Tom yum soup is low in calories but high in sodium. Enjoy the seafood and vegetables, but try not to drink all the broth."`,
+      faqs: [
+        {
+                q: "Is Top Global open 24/7?",
+                a: "Many Top Global outlets operate 24 hours or very late into the night."
+        },
+        {
+                q: "What type of food do they serve?",
+                a: "They serve everything from Mamak-style flatbreads to Thai-Malay seafood cooking (Tom Yum)."
+        }
+],
+      menu: topGlobalMenu
+    },
+    {
+      name: "Gloria Jean's",
+      slug: "gloria-jeans",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Global coffeehouse serving premium roasts and local bites.",
+      seoArticle: `
+<h2>Gloria Jean's</h2>
+<p>Gloria Jean's Coffees brings a global standard of premium roasted coffee to Malaysia while incorporating local Asian flair into its food menu. It's an excellent spot for both a quick morning espresso and a relaxed afternoon meeting, offering comfortable seating, reliable Wi-Fi, and a great mix of Western pastries and local hot meals.</p>
+`,
+      healthyTip: `"Avoid the heavy whipped cream on the iced blended chillers if you want a lower-calorie caffeine boost."`,
+      faqs: [
+        {
+                q: "Do they serve hot meals?",
+                a: "Yes, alongside pastries, they offer pies, pastas, and local fusion dishes."
+        },
+        {
+                q: "Is the coffee Halal?",
+                a: "Yes, Gloria Jean's in Malaysia is Halal-certified."
+        }
+],
+      menu: gloriaJeansMenu
+    },
+    {
+      name: "China House",
+      slug: "china-house",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      desc: "A massive heritage compound serving food, art, and legendary cakes.",
+      seoArticle: `
+<h2>China House</h2>
+<p>Located in the heart of Penang, China House is a sprawling compound of three heritage buildings linked by an open-air courtyard. While it offers excellent Asian and Western meals, it is most legendary for its massive cake table featuring over 30 different freshly baked cakes daily. It's a must-visit cultural and culinary landmark.</p>
+`,
+      healthyTip: `"Their cake slices are famously huge. Share one slice between two people to satisfy your sweet tooth without overindulging."`,
+      faqs: [
+        {
+                q: "Is there an entrance fee?",
+                a: "No, it operates as a café, restaurant, and art space open to the public."
+        },
+        {
+                q: "What is their most famous cake?",
+                a: "The Tiramisu Cake and the classic Carrot Cake are absolute crowd favorites."
+        }
+],
+      menu: chinaHouseMenu
+    },
+    {
+      name: "Mollagaa",
+      slug: "mollagaa",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Authentic South Indian Chettinad cuisine.",
+      seoArticle: `
+<h2>Mollagaa</h2>
+<p>Mollagaa delivers an incredibly authentic South Indian dining experience, specializing in the fiery and aromatic Chettinad cuisine. Known for their robust spices, perfectly cooked biryanis, and rich curries served on traditional banana leaves, Mollagaa is a haven for those seeking genuine, uncompromised Indian flavors.</p>
+`,
+      healthyTip: `"Indian cuisine uses healthy spices like turmeric and cumin. Opt for Tandoori (clay oven) meats instead of deep-fried options."`,
+      faqs: [
+        {
+                q: "Is the food very spicy?",
+                a: "Chettinad cuisine is known for its heat and use of black pepper, but mild options like butter chicken are available."
+        },
+        {
+                q: "Do they serve vegetarian food?",
+                a: "Yes, they have a vast and excellent selection of pure vegetarian dishes."
+        }
+],
+      menu: mollagaaMenu
+    },
+    {
+      name: "Berbuka Puasa",
+      slug: "berbuka-puasa",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "The ultimate Ramadan buffet experience.",
+      seoArticle: `
+<h2>Berbuka Puasa</h2>
+<p>While 'Berbuka Puasa' literally translates to breaking the fast, this curated dining experience offers the ultimate Ramadan buffet feast all year round. Specializing in massive spreads of traditional Malay kampong food, roasted whole lamb (Kambing Golek), and endless traditional kueh, it’s a celebration of Malaysian heritage and communal dining.</p>
+`,
+      healthyTip: `"When breaking fast, start with dates and water. Don't rush into heavy, spicy foods immediately to avoid indigestion."`,
+      faqs: [
+        {
+                q: "Is this only available during Ramadan?",
+                a: "While the biggest spreads are during Ramadan, the restaurant offers this grand feast style throughout the year."
+        },
+        {
+                q: "What is the highlight of the buffet?",
+                a: "The live carving station featuring Kambing Golek (whole roasted lamb) is the star attraction."
+        }
+],
+      menu: berbukaPuasaMenu
+    },
+    {
+      name: "Teksen",
+      slug: "teksen",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Legendary Penang-style Chinese cooking.",
+      seoArticle: `
+<h2>Teksen</h2>
+<p>Originating from the food haven of Penang, Teksen is a legendary establishment renowned for its incredible wok-hei (breath of the wok) and authentic home-style Chinese cooking. Their famous Double Roasted Pork with Chili Padi is a must-try dish that perfectly balances sweet, salty, and spicy flavors.</p>
+`,
+      healthyTip: `"Share their rich, savory dishes with a large portion of steamed rice and a side of plain stir-fried greens."`,
+      faqs: [
+        {
+                q: "Is Teksen Halal?",
+                a: "No, Teksen is a non-Halal restaurant famous for its pork dishes."
+        },
+        {
+                q: "Should I expect a queue?",
+                a: "Yes, Teksen is extremely popular, so arriving early before peak meal hours is highly recommended."
+        }
+],
+      menu: teksenMenu
+    },
+    {
+      name: "Sky51",
+      slug: "sky51",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Luxurious dining with a breathtaking view of the KL skyline.",
+      seoArticle: `
+<h2>Sky51</h2>
+<p>Elevate your dining experience at Sky51, a premium restaurant that pairs stunning, panoramic views of the Kuala Lumpur skyline with an exquisite menu. While categorized as a local-asian dining spot, the chefs here utilize premium local ingredients to create sophisticated fusion dishes that are as visually spectacular as the view outside the window.</p>
+`,
+      healthyTip: `"For a lighter, elegant meal, opt for their steamed seafood selections or grilled white meats."`,
+      faqs: [
+        {
+                q: "Is there a dress code?",
+                a: "Yes, Sky51 enforces a smart casual dress code. No slippers or sleeveless shirts for men."
+        },
+        {
+                q: "Do I need reservations?",
+                a: "Reservations are strictly required, especially if you wish to secure a window seat."
+        }
+],
+      menu: sky51Menu
+    },
+    {
+      name: "Betawi Indonesian Cuisine",
+      slug: "betawi-indonesian-cuisine",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Authentic Jakarta-style Indonesian food.",
+      seoArticle: `
+<h2>Betawi Indonesian Cuisine</h2>
+<p>Named after the native people of Jakarta, Betawi brings authentic, rich, and spicy Indonesian flavors to Malaysia. From their deeply flavorful Soto Betawi (beef soup with coconut milk) to the famously spicy Ayam Penyet (smashed fried chicken), it’s the perfect place for those who love bold, unapologetic Southeast Asian spices.</p>
+`,
+      healthyTip: `"Indonesian food can be heavy on coconut milk. Balance your meal by ordering fresh Gado-Gado (vegetable salad with peanut sauce)."`,
+      faqs: [
+        {
+                q: "Is the food very spicy?",
+                a: "Yes, Indonesian sambal is notoriously spicy, but you can request the sambal to be served on the side."
+        },
+        {
+                q: "Do they serve Nasi Padang?",
+                a: "They focus primarily on Betawi (Jakarta) cuisine, though there are some overlapping Indonesian favorites."
+        }
+],
+      menu: betawiIndonesianCuisineMenu
+    },
+    {
+      name: "Experiment Kitchen",
+      slug: "experiment-kitchen",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "A bold culinary space redefining local flavors.",
+      seoArticle: `
+<h2>Experiment Kitchen</h2>
+<p>Experiment Kitchen is a dynamic culinary space that refuses to be boxed into a single cuisine. Constantly innovating, the chefs here play with bold flavors, merging Western cooking techniques with beloved Malaysian ingredients. The result is a menu full of surprises, from rendang pastas to salted egg burgers.</p>
+`,
+      healthyTip: `"Fusion food can sometimes pack hidden calories in sauces. You can always request sauces to be served on the side."`,
+      faqs: [
+        {
+                q: "Is this the same as Experiment Kitchen Merab?",
+                a: "This is the primary brand/outlet that pioneered the experimental fusion concept."
+        },
+        {
+                q: "Is the menu permanent?",
+                a: "They have a core menu, but frequently introduce 'experimental' limited-time dishes."
+        }
+],
+      menu: experimentKitchenMenu
+    },
+    {
+      name: "Labu Labu",
+      slug: "labu-labu",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Traditional Malay village-style cuisine.",
+      seoArticle: `
+<h2>Labu Labu</h2>
+<p>Labu Labu transports diners back to the kampong (village) with its deeply traditional Malay menu. Specializing in 'Masakan Kampung' or village-style cooking, the restaurant is famous for its rich coconut curries (Masak Lemak), spicy sambals, and fresh ulam (raw herbs), offering a nostalgic and highly flavorful dining experience.</p>
+`,
+      healthyTip: `"Take advantage of the 'Ulam' (raw local herbs) platter. They are extremely rich in antioxidants and very low in calories!"`,
+      faqs: [
+        {
+                q: "What is their signature cooking style?",
+                a: "They are famous for 'Masak Lemak Cili Api', a spicy turmeric and coconut milk-based curry."
+        },
+        {
+                q: "Do they serve individual portions?",
+                a: "While they have individual rice sets, the dishes are best enjoyed family-style with shared plates."
+        }
+],
+      menu: labuLabuMenu
+    },
+    {
+      name: "Tgsk",
+      slug: "tgsk",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      desc: "Authentic local comfort food and vibrant street flavors.",
+      seoArticle: `
+<h2>Tgsk</h2>
+<p>TGSK (Tiga Sekawan) is a highly popular eatery known for bringing authentic, robust local street food flavors into a clean, comfortable restaurant setting. From deeply flavorful curries to perfectly wok-charred noodles, TGSK offers an unapologetic taste of true Malaysian comfort food that keeps locals coming back.</p>
+`,
+      healthyTip: `"Ask for 'kurang minyak' (less oil) when ordering fried rice or noodles to make your meal slightly healthier."`,
+      faqs: [
+        {
+                q: "What does TGSK stand for?",
+                a: "It stands for Tiga Sekawan, representing the three friends who founded the restaurant."
+        },
+        {
+                q: "Are they Halal?",
+                a: "Yes, TGSK is a Muslim-owned establishment."
+        }
+],
+      menu: tgskMenu
+    },
+    {
+      name: "Fairymilk Ss15",
+      slug: "fairymilk-ss15",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Trendy dessert and milk-based drink specialist.",
+      seoArticle: `
+<h2>Fairymilk Ss15</h2>
+<p>Located in the bustling student hub of SS15, Fairymilk is a trendy dessert cafe specializing in premium milk-based beverages, boba teas, and creative shaved ice desserts. Known for its cute, whimsical branding and refreshing drinks, it’s a go-to spot for cooling down on a hot afternoon.</p>
+`,
+      healthyTip: `"Always opt for the 'less sugar' or '25% sugar' option when ordering milk teas to significantly cut down on empty calories."`,
+      faqs: [
+        {
+                q: "Do they serve food?",
+                a: "They focus primarily on beverages and light desserts, not heavy meals."
+        },
+        {
+                q: "Can I customize the sugar level?",
+                a: "Yes, sugar and ice levels are fully customizable for all their drinks."
+        }
+],
+      menu: fairymilkSs15Menu
+    },
+    {
+      name: "Aloha Karaoke Pyramid",
+      slug: "aloha-karaoke-pyramid",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Family-friendly karaoke lounge serving great local snacks.",
+      seoArticle: `
+<h2>Aloha Karaoke Pyramid</h2>
+<p>Located in Sunway Pyramid, Aloha Karaoke is more than just a place to sing your heart out. It’s a popular entertainment venue that surprises guests with a highly satisfying menu of local Asian snacks and hearty meals. From sharing platters to comforting noodles, the food here keeps the energy high all night.</p>
+`,
+      healthyTip: `"Snacking while singing can add up quickly! Choose fruit platters or edamame instead of deep-fried finger foods to keep calories in check."`,
+      faqs: [
+        {
+                q: "Do they serve full meals in the karaoke rooms?",
+                a: "Yes, you can order a wide range of full meals and snacks directly to your private room."
+        },
+        {
+                q: "Are the food prices included in the room rate?",
+                a: "Food is usually ordered a la carte, though they often have package deals that include snacks."
+        }
+],
+      menu: alohaKaraokePyramidMenu
+    },
+    {
+      name: "All Ace",
+      slug: "all-ace",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Modern Asian food court offering a diverse range of local hits.",
+      seoArticle: `
+<h2>All Ace</h2>
+<p>All Ace provides a vibrant, modern food court experience under one roof. It brings together the best of local Malaysian street food, from sizzling noodles to fragrant rice dishes, in a clean and comfortable environment. It is the perfect spot for groups where everyone wants something different.</p>
+`,
+      healthyTip: `"Opt for clear soup noodles or mixed rice (chap fan) where you can control the amount of vegetables and lean proteins on your plate."`,
+      faqs: [
+        {
+                q: "Is it a single restaurant or a food court?",
+                a: "All Ace operates as a curated modern food hall featuring multiple local Asian cuisine stalls."
+        },
+        {
+                q: "Is the seating air-conditioned?",
+                a: "Yes, it offers a fully air-conditioned, comfortable dining environment."
+        }
+],
+      menu: allAceMenu
+    },
+    {
+      name: "Dancing Fish",
+      slug: "dancing-fish",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600&h=400&fit=crop",
+      desc: "Award-winning Malay-Indo cuisine famous for crispy deep-fried fish.",
+      seoArticle: `
+<h2>Dancing Fish</h2>
+<p>Located in Bangsar Shopping Centre, Dancing Fish is an award-winning restaurant that elevated Malay-Indo cuisine to fine dining standards. Named after its spectacular signature dish—a whole fish deep-fried to look like it is dancing—the restaurant offers a luxurious and unforgettable culinary experience deeply rooted in regional flavors.</p>
+`,
+      healthyTip: `"Balance the richness of the Dancing Fish by ordering their steamed or lightly sautéed vegetable dishes, like the Pucuk Paku."`,
+      faqs: [
+        {
+                q: "What is the 'Dancing Fish'?",
+                a: "It is a whole Nila fish, expertly butterflied and deep-fried so the flesh curls up, creating a 'dancing' appearance."
+        },
+        {
+                q: "Are they Michelin-rated?",
+                a: "Dancing Fish has received the Michelin Bib Gourmand recognition for its exceptional food quality."
+        }
+],
+      menu: dancingFishMenu
+    },
+    {
+      name: "The Savor",
+      slug: "the-savor",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Elegant dining focused on premium local ingredients.",
+      seoArticle: `
+<h2>The Savor</h2>
+<p>The Savor offers an elevated dining experience that celebrates the richness of Malaysian produce. With a focus on high-quality ingredients and meticulous preparation, the restaurant takes classic local dishes and presents them with a modern, sophisticated twist, perfect for intimate dinners or business lunches.</p>
+`,
+      healthyTip: `"Enjoy their fresh seafood options which are often steamed or lightly grilled, preserving nutrients and keeping calories low."`,
+      faqs: [
+        {
+                q: "Is The Savor a fine dining restaurant?",
+                a: "It is considered 'premium casual'—offering high-quality, elegant dishes in a relaxed environment."
+        },
+        {
+                q: "Do they serve traditional food?",
+                a: "Yes, but often with a modern twist or utilizing premium ingredients like Wagyu or fresh local catches."
+        }
+],
+      menu: theSavorMenu
+    },
+    {
+      name: "Experiment Kitchen Merab",
+      slug: "experiment-kitchen-merab",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "A creative culinary lab serving innovative fusion dishes.",
+      seoArticle: `
+<h2>Experiment Kitchen Merab</h2>
+<p>Experiment Kitchen in Sungai Merab lives up to its name by continuously pushing the boundaries of local dining. Acting as a culinary lab, it offers an ever-evolving menu that blends traditional Malaysian spices with modern Western cooking techniques, resulting in unique and highly flavorful fusion dishes.</p>
+`,
+      healthyTip: `"Ask for dressings and heavy sauces on the side to better control the calorie content of their creative fusion meals."`,
+      faqs: [
+        {
+                q: "What kind of food do they serve?",
+                a: "They specialize in experimental fusion food, mixing local Malay flavors with Western concepts like pastas and burgers."
+        },
+        {
+                q: "Do they have a fixed menu?",
+                a: "While they have staples, the menu often features seasonal 'experiments' and new creations."
+        }
+],
+      menu: experimentKitchenMerabMenu
+    },
+    {
+      name: "Al Rawsha",
+      slug: "al-rawsha",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      desc: "Majestic Middle Eastern dining and authentic Mandi rice.",
+      seoArticle: `
+<h2>Al Rawsha</h2>
+<p>Housed in its iconic castle-like building in Kuala Lumpur, Al Rawsha is a landmark for authentic Middle Eastern cuisine. Famous for its massive platters of tender Lamb Mandi, freshly baked Arabic breads, and rich hummus, it provides a royal dining experience that is perfect for large families and late-night gatherings.</p>
+`,
+      healthyTip: `"Middle Eastern cuisine can be very healthy! Fill up on grilled meats and hummus, but be mindful of portion sizes with the heavy Mandi rice."`,
+      faqs: [
+        {
+                q: "Is Al Rawsha open 24 hours?",
+                a: "Al Rawsha is famous for its late-night operating hours, often staying open 24/7."
+        },
+        {
+                q: "Is it suitable for large groups?",
+                a: "Absolutely. Their large dining halls and massive family platters are designed specifically for group dining."
+        }
+],
+      menu: alRawshaMenu
+    },
+    {
+      name: "Loaf Adam",
+      slug: "loaf-adam",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop",
+      desc: "Artisanal breads and hearty local breakfast favorites.",
+      seoArticle: `
+<h2>Loaf Adam</h2>
+<p>Loaf Adam merges the rustic charm of an artisanal bakery with the comforting flavors of Malaysian breakfast. Renowned for their freshly baked sourdoughs, buttery pastries, and elevated versions of local classics like Nasi Lemak and thick Kaya Toast, it is a beloved morning destination for many locals.</p>
+`,
+      healthyTip: `"Opt for sourdough bread when ordering toast—it's easier to digest and won't spike your blood sugar as much as white bread."`,
+      faqs: [
+        {
+                q: "Do they bake their own bread?",
+                a: "Yes, all breads and pastries are baked fresh in-house daily."
+        },
+        {
+                q: "Is it a good spot for working?",
+                a: "With its cozy ambiance and great coffee, it's a popular spot for remote workers during weekdays."
+        }
+],
+      menu: loafAdamMenu
+    },
+    {
+      name: "Super Saigon",
+      slug: "super-saigon",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Melbourne-style Vietnamese Pho and Banh Mi.",
+      seoArticle: `
+<h2>Super Saigon</h2>
+<p>Super Saigon brings the trendy, Melbourne-style Vietnamese dining experience to Malaysia. Famous for their rich, aromatic Pho (beef noodle soup) and freshly baked Banh Mi, it’s a Halal-certified spot that beautifully combines fresh herbs, premium meats, and vibrant street-food flavors in a highly aesthetic, Instagram-worthy setting.</p>
+`,
+      healthyTip: `"Pho is naturally quite healthy! Enjoy the clear broth and lean beef cuts, but try to use less hoisin sauce if you are monitoring your sugar intake."`,
+      faqs: [
+        {
+                q: "Is Super Saigon Halal?",
+                a: "Yes, all Super Saigon outlets are Halal-certified."
+        },
+        {
+                q: "Do they serve vegetarian Pho?",
+                a: "Yes, they offer a highly-rated Vegetarian Pho made with a rich vegetable broth and tofu."
+        }
+],
+      menu: superSaigonMenu
+    },
+    {
+      name: "Potato Story",
+      slug: "potato-story",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Creative and loaded potato-based street food.",
+      seoArticle: `
+<h2>Potato Story</h2>
+<p>Potato Story turns the humble potato into gourmet street food. From loaded baked potatoes overflowing with cheese and meats to perfectly crispy wedges and creative potato snacks, this local favorite is a paradise for carb-lovers looking for quick, delicious, and satisfying comfort food.</p>
+`,
+      healthyTip: `"If you're watching your calories, skip the extra cheese and mayo sauces, and opt for a classic baked potato with vegetables."`,
+      faqs: [
+        {
+                q: "Are the potatoes freshly made?",
+                a: "Yes, all potato snacks are prepared fresh to order to ensure maximum crispiness and flavor."
+        },
+        {
+                q: "Do they have vegetarian options?",
+                a: "Absolutely! The Loaded Veggie Potato and classic seasoned wedges are great vegetarian choices."
+        }
+],
+      menu: potatoStoryMenu
+    },
+    {
+      name: "Bocado",
+      slug: "bocado",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Mediterranean and Spanish tapas with a vibrant atmosphere.",
+      seoArticle: `
+<h2>Bocado</h2>
+<p>Bocado brings the lively spirit of the Mediterranean to Malaysia. Specializing in Spanish tapas, paellas, and premium grilled meats, Bocado offers a vibrant dining experience. Whether you're sharing small plates with friends or enjoying a hearty seafood paella, the rich flavors and energetic ambiance make it a standout destination.</p>
+`,
+      healthyTip: `"Tapas are great for portion control. Stick to grilled seafood and vegetable tapas like Padron peppers for a healthy meal."`,
+      faqs: [
+        {
+                q: "What is Bocado famous for?",
+                a: "They are highly renowned for their authentic Spanish Tapas and massive Seafood Paella."
+        },
+        {
+                q: "Is Bocado suitable for large groups?",
+                a: "Yes, the tapas-style sharing menu is perfect for group dining and celebrations."
+        }
+],
+      menu: bocadoMenu
+    },
+    {
+      name: "Red Kettle The Gardens Mall",
+      slug: "red-kettle-the-gardens-mall",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      desc: "Comforting Asian-Western fusion in a modern setting.",
+      seoArticle: `
+<h2>Red Kettle The Gardens Mall</h2>
+<p>Located in the heart of The Gardens Mall, Red Kettle brings a comforting menu of Asian-Western fusion dishes. Known for its artisanal bakery goods, hearty brunch options, and legendary pork-free comfort food, Red Kettle is a premium casual dining spot perfect for mall-goers and food enthusiasts.</p>
+`,
+      healthyTip: `"For a lighter brunch, try their avocado toast or a warm chicken salad instead of the heavy big breakfast."`,
+      faqs: [
+        {
+                q: "Does Red Kettle serve breakfast all day?",
+                a: "They serve a fantastic selection of brunch items and freshly baked goods."
+        },
+        {
+                q: "Is Red Kettle Halal?",
+                a: "Red Kettle is a pork-free restaurant that sources ingredients from Halal-certified suppliers."
+        }
+],
+      menu: redKettleTheGardensMallMenu
+    },
+    {
+      name: "Homst",
+      slug: "homst",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      desc: "Renowned Chinese Muslim cuisine offering authentic family-style dishes.",
+      seoArticle: `
+<h2>Homst</h2>
+<p>Homst has long been celebrated as one of the best Chinese Muslim restaurants in Malaysia. Offering a warm, family-friendly atmosphere, the restaurant serves a wide array of authentic Halal Chinese dishes. From their famous Butter Prawns to sizzling tofu and dim sum, Homst provides an unforgettable dining experience for large gatherings.</p>
+`,
+      healthyTip: `"Choose steamed fish or stir-fried mixed vegetables instead of deep-fried sweet and sour dishes to keep calorie counts low."`,
+      faqs: [
+        {
+                q: "Is Homst Halal certified?",
+                a: "Yes, Homst is a fully Halal-certified Chinese Muslim restaurant."
+        },
+        {
+                q: "What should I order for a family dinner?",
+                a: "The Butter Prawns, Steamed Fish with Soy Sauce, and Sizzling Tofu are perfect for sharing."
+        }
+],
+      menu: homstMenu
+    },
+    {
+      name: "The Hungry Beast Velocity 2",
+      slug: "the-hungry-beast-velocity-2",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "A hearty mix of local and fusion street-style food.",
+      seoArticle: `
+<h2>The Hungry Beast Velocity 2</h2>
+<p>The Hungry Beast offers a bold and flavorful dining experience with its unique take on local Malaysian and fusion cuisine. Known for generous portions and intense flavors, it's the perfect spot to satisfy massive cravings and enjoy comfort food at its best.</p>
+`,
+      healthyTip: `"Share a large platter with a friend to manage portion sizes, and opt for grilled options over deep-fried items."`,
+      faqs: [
+        {
+                q: "What are the signature dishes at The Hungry Beast?",
+                a: "They are known for their massive meat platters, fusion rice bowls, and loaded fries."
+        },
+        {
+                q: "Are the portions large?",
+                a: "Yes, true to its name, the restaurant serves very generous portions meant to satisfy big appetites."
+        }
+],
+      menu: theHungryBeastVelocity2Menu
+    },
+    {
+      name: "10 Grams",
+      slug: "10-grams",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
+      desc: "Fusion of Western and Eastern cuisines with a touch of local Malaysian flavors.",
+      seoArticle: `
+<h2>10 Grams</h2>
+<p>10 Grams is a popular restaurant and café chain in Malaysia that serves a delightful fusion of Western and Eastern cuisines. With an aesthetically pleasing environment, it offers a diverse menu ranging from hearty breakfast sets to pastas, pizzas, and Asian-fusion dishes.</p>
+`,
+      healthyTip: `"Opt for their grilled chicken or fish dishes instead of pastas if you are looking for a lower-carb option."`,
+      faqs: [
+        {
+                q: "What kind of food does 10 Grams serve?",
+                a: "They serve a mix of Western cuisine, pastas, local Asian favorites like Nasi Lemak, and artisanal coffee."
+        },
+        {
+                q: "Is 10 Grams good for breakfast?",
+                a: "Yes, they have a fantastic brunch and breakfast menu available."
+        }
+],
+      menu: tenGramsMenu
+    },
+    {
+      name: "Kantan",
+      slug: "kantan",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
+      desc: "Authentic Kelantanese cuisine and premium Malay comfort food.",
+      seoArticle: `
+<h2>Kantan</h2>
+<p>Kantan is a highly-rated restaurant that specializes in authentic Kelantanese cuisine and premium Malay comfort food. Serving signature dishes like Nasi Kerabu Ayam Percik and Laksam in an elegant yet cozy setting, it is a perfect place to experience traditional family recipes.</p>
+`,
+      healthyTip: `"For a healthier choice, pair your Nasi Kerabu with grilled meats like Ayam Percik instead of fried options, and ask for less sambal if you're watching your sodium intake."`,
+      faqs: [
+        {
+                q: "What is Kantan known for?",
+                a: "Kantan is famous for its authentic Nasi Kerabu, Ayam Percik, and traditional Laksam."
+        },
+        {
+                q: "Are the dishes spicy?",
+                a: "Most Kelantanese dishes have a mild to moderate spice level, but you can request extra sambal on the side."
+        }
+],
+      menu: kantanMenu
+    },
     {
       name: "Secret Recipe",
       slug: "secret-recipe",
@@ -1336,7 +2854,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "papparich",
     searchVolume: 880,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1626804475297-41609ea0db49?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Authentic Malaysian Delights",
       seoArticle: `\n<h2>PappaRich: Authentic Malaysian Kopitiam Fare</h2>
@@ -1369,7 +2887,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "OldTown White Coffee",
       slug: "oldtown-white-coffee",
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1481833761820-0509d3217039?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "The True White Coffee Origination",
       seoArticle: `\n<h2>OldTown White Coffee: The Taste of Ipoh</h2>
@@ -1503,7 +3021,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "the-chicken-rice-shop",
     searchVolume: 1000,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1598515214211-89d3e73ae83b?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Malaysia's Favorite Chicken Rice Chain",
       seoArticle: `\n<h2>The Chicken Rice Shop: A Household Name in Malaysia</h2>
@@ -1540,7 +3058,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "bananabro",
     searchVolume: 3600,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Contemporary Banana Leaf Rice",
       seoArticle: `\n<h2>BananaBro: Reinventing Banana Leaf Rice in Malaysia</h2>
@@ -1577,7 +3095,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "cili-kampung",
     searchVolume: 3600,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Muslim-Owned", colors: "bg-green-600 text-white" }],
       desc: "Traditional Negeri Sembilan Traditional Malay Cuisine",
       seoArticle: `\n<h2>Cili Kampung: The Realm of Fire and Flavor</h2>
@@ -1614,7 +3132,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "murni-discovery",
     searchVolume: 3600,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
       desc: "Innovative Malaysian Mamak Fusion",
       seoArticle: `\n<h2>Murni Discovery: Revolutionizing the Mamak Scene</h2>
@@ -1651,7 +3169,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "serai",
     searchVolume: 5400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Refined Malaysian Comfort Dining",
       seoArticle: `\n<h2>Serai: Elegant Malaysian Dining Redefined</h2>
@@ -1688,7 +3206,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "mohd-chan",
     searchVolume: 3600,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Premier Chinese Muslim Cuisine in Malaysia",
       seoArticle: `\n<h2>Mohd Chan: The Pioneers of Halal Cantonese Dining</h2>
@@ -1725,7 +3243,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "dolly-dim-sum",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1582878826629-29b7ad1cb438?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Elegant All-Day Halal Dim Sum",
       seoArticle: `\n<h2>Dolly Dim Sum: Reimagining the Chinese Tea House</h2>
@@ -1762,7 +3280,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "bungkus-kaw-kaw",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1579888944880-d983411bf957?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Traditional Kopitiam Drinks & Quick Bites",
       seoArticle: `\n<h2>Bungkus Kaw Kaw: Strong Brews and Nostalgic Flavors</h2>
@@ -1799,7 +3317,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "village-park",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "The Home of Selangor's Ultimate Nasi Lemak",
       seoArticle: `\n<h2>Village Park: The Undisputed King of Nasi Lemak</h2>
@@ -1836,7 +3354,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "absolute-thai",
     searchVolume: 2900,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
       desc: "Contemporary Thai Casual Dining",
       seoArticle: `\n<h2>Absolute Thai: The True Essences of Siam</h2>
@@ -1873,7 +3391,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "para-thai",
     searchVolume: 2400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Authentic and Vibrant Thai Cuisine",
       seoArticle: `\n<h2>Para Thai: A Grand Culinary Voyage to Siam</h2>
@@ -1910,7 +3428,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "suki-ya",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1547496502-affa230ba425?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Unlimited Japanese Hotpot, Sukiyaki & Shabu-Shabu Buffet",
       seoArticle: `\n<h2>Suki-Ya: The Ultimate Comfort of Hotpot Buffet</h2>
@@ -1947,7 +3465,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "souper-tang",
     searchVolume: 880,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Non-Halal", colors: "bg-red-500 text-white" }],
       desc: "Nourishing Chinese Herbal Soups & Tonic Wellness Cuisine",
       seoArticle: `\n<h2>Souper Tang: Elevating Wellness through Herbal Broths</h2>
@@ -1984,7 +3502,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "bumbu-babah",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Authentic Indonesian & Nyonya Heritage Delights",
       seoArticle: `\n<h2>Bumbu Babah: A Heritage Fusion of Indonesian & Peranakan Cuisine</h2>
@@ -2021,7 +3539,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "ayam-gepuk-pak-gembus",
     searchVolume: 6600,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Famous Indonesian Crispy Smashed Chicken & Hot Cashew Sambal",
       seoArticle: `\n<h2>Ayam Gepuk Pak Gembus: Fiery Smashed Chicken Phenomenon</h2>
@@ -2058,7 +3576,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "empat-sekawan",
     searchVolume: 1600,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Delectable Chinese-Style Dumplings & Hand-Pulled Noodle Bowls",
       seoArticle: `\n<h2>Empat Sekawan: Comforting Bowls of Artisan Noodles</h2>
@@ -2095,7 +3613,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "black-canyon",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Modern Fusion Thai Cuisine & Premium Specially Brewed Coffee",
       seoArticle: `\n<h2>Black Canyon: An Exciting Fusion of Thai and Western Dining</h2>
@@ -2132,7 +3650,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "ole-ole-bali",
     searchVolume: 4400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1537216696835-41915a1af316?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Premium Balinese Culinary Feast & Fragrant Lemongrass Grills",
       seoArticle: `\n<h2>Ole-Ole Bali: An Immersive Balinese Dining Experience</h2>
@@ -2169,7 +3687,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "jibby-co",
     searchVolume: 2400,
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Aesthetic Glasshouse Cafes & Contemporary Fusion Western Cooking",
       seoArticle: `\n<h2>Jibby & Co: A Masterclass in Modern Cafe Dining</h2>
@@ -2205,7 +3723,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Chef J Restaurant",
       slug: "chef-j",
       category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Artisanal Asian Fusion & Modern Seafood Platters",
       seoArticle: `\n<h2>Chef J Restaurant: Modern Mastery of Chinese & Seafood Fusion</h2>
@@ -2243,7 +3761,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Chagee",
       slug: "chagee",
       category: 'teas-desserts',
-      image: "/images/chagee.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Premium Fresh Milk Tea & Oolong Specialists",
       seoArticle: `\n<h2>Chagee: Premium Tea in a Modern Cup</h2>
@@ -2285,7 +3803,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Ai-Cha",
       slug: "ai-cha",
       category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Ice Cream & Specialty Tea",
       seoArticle: `\n<h2>Ai-Cha: Sweet Treats That Don't Break the Bank</h2>
@@ -2327,7 +3845,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Mixue",
       slug: "mixue",
       category: 'teas-desserts',
-      image: "/images/mixue.png",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Ice Cream & Fruit Tea Specialists",
       seoArticle: `\n<h2>Mixue: The Ice Cream Giant</h2>
@@ -2369,7 +3887,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Tealive",
       slug: "tealive",
       category: 'teas-desserts',
-      image: "/images/tealive.png",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Always in your cup",
       seoArticle: `\n<h2>Tealive: Always in Your Cup</h2>
@@ -2411,7 +3929,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Bingxue",
       slug: "bingxue",
       category: 'teas-desserts',
-      image: "/images/bingxue.png",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Ice Cream & Tea Experience",
       seoArticle: `\n<h2>Bingxue: Refreshing Fruit Teas & Sundaes</h2>
@@ -2453,7 +3971,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "llaollao",
       slug: "llaollao",
       category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Natural Frozen Yogurt",
       seoArticle: `\n<h2>llaollao: Natural Frozen Yogurt Joy</h2>
@@ -2486,7 +4004,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Suka Dessert",
       slug: "suka-dessert",
       category: 'teas-desserts',
-      image: "/images/suka-dessert.png",
+      image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Paradise for Chocolate & Brownie Lovers",
       seoArticle: `\n<h2>Suka Dessert: A Chocolate Lover's Paradise</h2>
@@ -2528,7 +4046,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "We Drink",
       slug: "we-drink",
       category: 'teas-desserts',
-      image: "/images/we-drink.png",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Fresh Ice Cream & Fruit Tea Specialist",
       seoArticle: `\n<h2>We Drink: Cool Down with Fresh Fruit</h2>
@@ -2571,7 +4089,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "heytea",
     searchVolume: 3600,
       category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }, { name: "Cheese Tea", colors: "bg-yellow-500 text-white" }],
       desc: "The Creator of Original Cheese Tea & Fresh Fruit Tea",
       seoArticle: `\n<h2>Heytea Malaysia: Pioneering Artisanal Cheese Tea & Fresh Grape Blends</h2>
@@ -2608,7 +4126,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "beau-tea",
     searchVolume: 3600,
       category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Status: Muslim-Friendly", colors: "bg-green-500 text-white" }],
       desc: "Beautifully Crafted Chinese Herbal & Milk Teas",
       seoArticle: `\n<h2>Beau Tea Malaysia: Modern Chinese Herbal Brews & Aesthetic Milk Teas</h2>
@@ -2645,7 +4163,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "gong-cha",
     searchVolume: 2400,
       category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "World-Class Milk Tea & Signature Salted Milk Foam",
       seoArticle: `\n<h2>Gong Cha Malaysia Menu: The Pioneers of Salty Milk Foam Brews</h2>
@@ -2682,7 +4200,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "chatramue",
     searchVolume: 2400,
       category: 'teas-desserts',
-      image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Status: Muslim-Friendly", colors: "bg-green-500 text-white" }, { name: "Thai Tea", colors: "bg-orange-500 text-white" }],
       desc: "Number One Brand for Authentic Thai Milk Tea Since 1945",
       seoArticle: `\n<h2>ChaTraMue Malaysia Menu: Original Thai Milk Tea & Rose Tea Delights</h2>
@@ -2717,10 +4235,56 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'japanese-korean': [
     {
+      name: "Buldojang",
+      slug: "buldojang",
+      category: "japanese-korean",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Authentic Korean-Chinese cuisine focusing on Jajangmyeon.",
+      seoArticle: `
+<h2>Buldojang</h2>
+<p>Buldojang specializes in Korean-Chinese cuisine, a highly popular hybrid food culture in South Korea. It is most famous for its deeply satisfying Jajangmyeon (black bean noodles) and Tangsuyuk (sweet and sour crispy pork/chicken). It offers a unique and hearty dining experience that differs significantly from standard Korean BBQ.</p>
+`,
+      healthyTip: `"Korean-Chinese food is delicious but can be heavy in carbs and sauces. Share a large bowl of Jajangmyeon with a friend to manage portions."`,
+      faqs: [
+        {
+                q: "What is Jajangmyeon?",
+                a: "It is a popular Korean noodle dish topped with a thick sauce made of chunjang (sweet bean paste), diced meat, and vegetables."
+        },
+        {
+                q: "Are they a Halal restaurant?",
+                a: "Buldojang is typically a non-Halal establishment as they serve traditional Tangsuyuk (pork)."
+        }
+],
+      menu: buldojangMenu
+    },
+    {
+      name: "Shabuyaki by Nippon Sushi",
+      slug: "shabuyaki-by-nippon-sushi",
+      category: "japanese-korean",
+      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
+      desc: "Premium Japanese Shabu-Shabu and Yakiniku buffet.",
+      seoArticle: `
+<h2>Shabuyaki by Nippon Sushi</h2>
+<p>Brought to you by the creators of Nippon Sushi, Shabuyaki offers a premium All-You-Can-Eat Japanese Shabu-Shabu and Yakiniku experience. Diners can enjoy an unlimited flow of freshly sliced meats, seafood, and a massive vegetable bar. It's the ultimate destination for Japanese hotpot and grill lovers.</p>
+`,
+      healthyTip: `"Load up your hotpot with fresh leafy greens and mushrooms, and choose lean cuts of meat while avoiding excessive dipping sauces to keep the meal healthy."`,
+      faqs: [
+        {
+                q: "Is Shabuyaki Halal certified?",
+                a: "Yes, like Nippon Sushi, Shabuyaki operates with Halal-certified ingredients."
+        },
+        {
+                q: "Is there a time limit for the buffet?",
+                a: "Yes, standard dining time for the buffet is usually limited to 120 minutes."
+        }
+],
+      menu: shabuyakiByNipponSushiMenu
+    },
+    {
       name: "Sushi King",
       slug: "sushi-king",
       category: 'japanese-korean',
-      image: "/images/sushi-king.png",
+      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Japan's Finest at Your Fingertips Since 1995",
       seoArticle: `\n<h2>Sushi King: Malaysia's First Kaiten Experience</h2>
@@ -2762,7 +4326,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Sushi Zanmai",
       slug: "sushi-zanmai",
       category: 'japanese-korean',
-      image: "/images/sushi-zanmai.png",
+      image: "https://images.unsplash.com/photo-1583623025817-d180a2221d0a?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Authentic & Accessible Conveyor Belt Sushi",
       seoArticle: `\n<h2>Sushi Zanmai: Authentic Japanese Dining</h2>
@@ -2804,7 +4368,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Don Omakase",
       slug: "don-omakase",
       category: 'japanese-korean',
-      image: "/images/don-omakase.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "International", colors: "bg-blue-500 text-white" }],
       desc: "Premium Omakase-Style Donburi Bowls",
       seoArticle: `\n<h2>Don Omakase: Premium Japanese Bowls</h2>
@@ -2846,7 +4410,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "MyeongDong Topokki",
       slug: "myeongdong-topokki",
       category: 'japanese-korean',
-      image: "/images/myeongdong-topokki.png",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Authentic Korean Street Food",
       seoArticle: `\n<h2>MyeongDong Topokki: Korean Street Food Vibes</h2>
@@ -2888,7 +4452,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Mr. Dakgalbi",
       slug: "mr-dakgalbi",
       category: 'japanese-korean',
-      image: "/images/mr-dakgalbi.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Authentic Stir-Fried Chicken (Dakgalbi)",
       seoArticle: `\n<h2>Mr. Dakgalbi: The Ultimate Pan-Fried Feast</h2>
@@ -2930,7 +4494,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Sopoong",
       slug: "sopoong",
       category: 'japanese-korean',
-      image: "/images/sopoong.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Traditional Korean Comfort Food",
       seoArticle: `\n<h2>Sopoong: Wholesome Korean Meals</h2>
@@ -2972,7 +4536,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Oiso",
       slug: "oiso",
       category: 'japanese-korean',
-      image: "/images/oiso.png",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Traditional Korean Cuisine & Fried Chicken",
       seoArticle: `\n<h2>Oiso: Traditional Korean Flavors</h2>
@@ -3014,7 +4578,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Empire Sushi",
       slug: "empire-sushi",
       category: 'japanese-korean',
-      image: "/images/empire-sushi.png",
+      image: "https://images.unsplash.com/photo-1583623025817-d180a2221d0a?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Malaysia's Favorite Grab-and-Go Sushi",
       seoArticle: `\n<h2>Empire Sushi: Premium Grab-and-Go</h2>
@@ -3056,7 +4620,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Yakiniku Kuro",
       slug: "yakiniku-kuro",
       category: 'japanese-korean',
-      image: "/images/yakiniku-kuro.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Premium Japanese BBQ & Yakiniku",
       seoArticle: `\n<h2>Yakiniku Kuro: The Personal BBQ Experience</h2>
@@ -3098,7 +4662,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Kingu Kongu",
       slug: "kingu-kongu",
       category: 'japanese-korean',
-      image: "/images/kingu-kongu.png",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Muslim-Owned", colors: "bg-orange-500 text-white" }, { name: "Pork-Free", colors: "bg-gray-500 text-white" }],
       desc: "Trendy Japanese Izakaya & Fusion Dining",
       seoArticle: `\n<h2>Kingu Kongu: Fun and Flavorful Izakaya</h2>
@@ -3141,7 +4705,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "sushi-mentai",
     searchVolume: 5400,
       category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Affordable Conveyor Belt Sushi & Torched Mentai Delights",
       seoArticle: `\n<h2>Sushi Mentai: The Conveyor Belt Revolution in Malaysia</h2>
@@ -3178,7 +4742,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "ichiban-ramen",
     searchVolume: 2400,
       category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Authentic Chicken-Broth Japanese Ramen & Tasty Donburi Bowls",
       seoArticle: `\n<h2>Ichiban Ramen: Hearty Japanese Comfort Food in Malaysia</h2>
@@ -3214,7 +4778,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Kyochon 1991",
       slug: "kyochon",
       category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "South Korea's Finest Premium Double-Fried Chicken",
       seoArticle: `\n<h2>Kyochon 1991: Authentic Korean Double-Fried Perfection</h2>
@@ -3250,7 +4814,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "K-Fry Urban Korean",
       slug: "k-fry",
       category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
       desc: "Viral Tableside Cheesy Chicken & Modern Korean Street Comforts",
       seoArticle: `\n<h2>K-Fry Urban Korean: Sizzling Cheese Pulls & Dynamic K-Dining</h2>
@@ -3286,7 +4850,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Mitasu Cuisine",
       slug: "mitasu",
       category: 'japanese-korean',
-      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Premium A La Carte Japanese Buffet & Fresh Sashimi Feast",
       seoArticle: `\n<h2>Mitasu Cuisine: The Ultimate Premium Japanese Buffet Experience</h2>
@@ -3321,10 +4885,56 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'pizza-italian': [
     {
+      name: "1more Pizza Taman Paramount Pj",
+      slug: "1more-pizza-taman-paramount-pj",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&h=400&fit=crop",
+      desc: "Artisanal sourdough pizzas in a cozy neighborhood setting.",
+      seoArticle: `
+<h2>1more Pizza Taman Paramount Pj</h2>
+<p>Located in the trendy neighborhood of Taman Paramount, 1more Pizza is a beloved local pizzeria dedicated to the craft of sourdough. Their naturally leavened, hand-stretched pizzas feature a beautifully charred, chewy crust topped with high-quality ingredients, making it impossible to stop at just one slice.</p>
+`,
+      healthyTip: `"Sourdough is naturally better for gut health and blood sugar levels than regular pizza dough. Stick to vegetable or simple Margherita toppings for a lighter meal."`,
+      faqs: [
+        {
+                q: "Is the pizza crust thin or thick?",
+                a: "It is a Neapolitan-style thin crust with a thick, puffy, and slightly charred edge (cornicione)."
+        },
+        {
+                q: "Do they offer delivery?",
+                a: "Yes, they offer delivery around the PJ area, though the pizza is best enjoyed fresh out of the oven in-store."
+        }
+],
+      menu: oneMorePizzaTamanParamountPjMenu
+    },
+    {
+      name: "Positano Risto",
+      slug: "positano-risto",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Voted as one of the best Halal Italian restaurants.",
+      seoArticle: `
+<h2>Positano Risto</h2>
+<p>Voted as the #1 Halal Italian restaurant, Positano Risto delivers an authentic taste of the Amalfi Coast right here in Malaysia. Renowned for its hand-tossed Roman-style pizzas, rich handmade pastas, and warm hospitality, it provides a premium Italian dining experience without compromising on Halal standards.</p>
+`,
+      healthyTip: `"For a lighter Italian meal, choose tomato-based pastas like Arrabbiata instead of rich cream-based sauces."`,
+      faqs: [
+        {
+                q: "Is Positano Risto fully Halal?",
+                a: "Yes, they are 100% Muslim-owned and fully Halal-certified."
+        },
+        {
+                q: "What is their signature dish?",
+                a: "Their signature dishes include the Supreme Calzone and the classic Margherita Pizza."
+        }
+],
+      menu: positanoRistoMenu
+    },
+    {
       name: "Pizza Hut",
       slug: "pizza-hut",
       category: 'pizza-italian',
-      image: "/images/pizza-hut.png",
+      image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "No One OutPizzas The Hut",
       seoArticle: `\n<h2>Pizza Hut: The Iconic Pan Pizza</h2>
@@ -3367,7 +4977,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "dominos-pizza",
     searchVolume: 5400,
       category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Delivery King", colors: "bg-blue-600 text-white" }],
       desc: "It's All About The Dough",
       seoArticle: `\n<h2>Domino's Pizza Malaysia: Delivery Specials & Hand-Tossed Classics</h2>
@@ -3404,7 +5014,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "us-pizza",
     searchVolume: 3600,
       category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }, { name: "Cheese Pull", colors: "bg-yellow-500 text-dark" }],
       desc: "The Pizza Professionals & Cheese Boats",
       seoArticle: `\n<h2>US Pizza Malaysia: Creative Recipes & Legendary Cheese Boats</h2>
@@ -3441,7 +5051,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "mokkys-pizza",
     searchVolume: 210,
       category: 'pizza-italian',
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=600&h=400&fit=crop",
       tags: [{ name: "Muslim-Owned", colors: "bg-emerald-600 text-white" }, { name: "Artisanal", colors: "bg-amber-600 text-white" }],
       desc: "Real New York Style Slices in Malaysia",
       seoArticle: `\n<h2>Mokky's Pizza: Huge, Foldable New York Style Slices</h2>
@@ -3476,10 +5086,33 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'western-grilled': [
     {
+      name: "Fish Market Manhattan",
+      slug: "fish-market-manhattan",
+      category: "western-grilled",
+      image: "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=600&h=400&fit=crop",
+      desc: "American-style seafood dining and flaming platters.",
+      seoArticle: `
+<h2>Fish Market Manhattan</h2>
+<p>Inspired by the historic Fulton Fish Market in New York, Manhattan Fish Market brings a fun, American-style seafood dining experience to Malaysia. Famous for their dramatic flaming platters and signature garlic herb sauce, it's a fantastic spot for families and seafood lovers to share massive, freshly prepared catches.</p>
+`,
+      healthyTip: `"Opt for their 'Baked' or 'Poached' seafood options instead of the classic deep-fried 'Fish & Chips' to save on calories and fat."`,
+      faqs: [
+        {
+                q: "What is the Manhattan Flaming Seafood Platter?",
+                a: "It's their signature sharing platter featuring prawns, fish fillets, oysters, and calamari, famously flambéed right at your table."
+        },
+        {
+                q: "Is the restaurant Halal?",
+                a: "Yes, Manhattan Fish Market is fully Halal-certified."
+        }
+],
+      menu: fishMarketManhattanMenu
+    },
+    {
       name: "Nando's",
       slug: "nandos",
       category: 'western-grilled',
-      image: "/images/nandos.png",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Home of PERi-PERi Flame-Grilled Chicken",
       seoArticle: `\n<h2>Nando's: Fiery PERi-PERi Perfection</h2>
@@ -3521,7 +5154,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Chili's Grill & Bar",
       slug: "chilis",
       category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Big Mouth Burgers, Sizzling Fajitas & Smoked Ribs",
       seoArticle: `\n<h2>Chili's Malaysia: American-Mexican Comfort Feast</h2>
@@ -3557,7 +5190,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Me'nate Specialty Steakhouse",
       slug: "menate-specialty-steakhouse",
       category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1546964124-0cce460f38ef?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Premium Wagyu Steaks & Artisanal Halal Butchers",
       seoArticle: `\n<h2>Me'nate Specialty Steakhouse: The Halal Steak Connoisseur</h2>
@@ -3594,7 +5227,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "tony-romas",
     searchVolume: 2400,
       category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
       desc: "World Famous BBQ Ribs & Classic Flame-Grills",
       seoArticle: `\n<h2>Tony Roma's Malaysia: Legendary Ribs and Grill Heritage</h2>
@@ -3631,7 +5264,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "beard-brothers-bbq",
     searchVolume: 2400,
       category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
       desc: "Authentic Texas-Style Low & Slow Smoked Meats",
       seoArticle: `\n<h2>Beard Brothers BBQ: The Pioneers of Artisanal Smoked Meats</h2>
@@ -3668,7 +5301,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "beard-brothers",
     searchVolume: 210,
       category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
       desc: "Smoked Meat Sandwiches, Deli Buns & Quick Bites",
       seoArticle: `\n<h2>Beard Brothers: Gourmet Smoked Deli & Quick Bites</h2>
@@ -3704,7 +5337,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Grub by Ahong & Friends",
       slug: "grub-by-ahong",
       category: 'western-grilled',
-      image: "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Artisanal, No-Frills Steaks & Casual Western Comfort",
       seoArticle: `\n<h2>Grub by Ahong: Incredible Steaks Without the Fancy Price Tag</h2>
@@ -3742,7 +5375,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "FamilyMart",
       slug: "familymart",
       category: 'convenience-stores',
-      image: "/images/familymart.png",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Fresh Oden, Bento, Onigiri & Sofuto",
       seoArticle: `\n<h2>FamilyMart: The Konbini Culture</h2>
@@ -3784,7 +5417,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "CU Mart",
       slug: "cu-mart",
       category: 'convenience-stores',
-      image: "/images/cu-mart.png",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Korean Street Food & Convenience Store",
       seoArticle: `\n<h2>CU Mart: Korean Convenience at its Best</h2>
@@ -3827,7 +5460,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "emart24",
     searchVolume: 1000,
       category: 'convenience-stores',
-      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Halal Ingredients", colors: "bg-blue-500 text-white" }],
       desc: "Trendy Korean Lifestyle Convenience Store & Street Food Hub",
       seoArticle: `\n<h2>Emart24: The Hottest Korean Convenience Culture in Malaysia</h2>
@@ -3865,7 +5498,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Subway",
       slug: "subway",
       category: 'sandwiches-health',
-      image: "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Eat Fresh",
       seoArticle: `\n<h2>Subway: Eat Fresh, Your Way</h2>
@@ -3981,7 +5614,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Pop Meals",
       slug: "pop-meals",
       category: 'sandwiches-health',
-      image: "/images/pop-meals.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Top Rated Food Voted by People",
       seoArticle: `\n<h2>Pop Meals: Data-Driven Comfort Food</h2>
@@ -4023,7 +5656,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Salad Atelier",
       slug: "salad-atelier",
       category: 'sandwiches-health',
-      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Customizable Healthy Bowls",
       seoArticle: `\n<h2>Salad Atelier: Healthy Made Delicious</h2>
@@ -4066,7 +5699,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "kenny-rogers-roasters",
     searchVolume: 1000,
       category: 'sandwiches-health',
-      image: "https://images.unsplash.com/photo-1626082929543-eed647a6a43e?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Less Fat, Less Salt, Less Calories",
       seoArticle: `\n<h2>Kenny Rogers Roasters: Guilt-Free Rotisserie</h2>
@@ -4099,7 +5732,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Boost Juice Bars",
       slug: "boost-juice",
       category: 'sandwiches-health',
-      image: "/images/boost-juice.png",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Love Life! Fresh Smoothies & Juices",
       seoArticle: `\n<h2>Boost Juice: The Ultimate Smoothie Fix</h2>
@@ -4140,10 +5773,33 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'buffet-dining': [
     {
+      name: "Kuroma Buffet & Dining",
+      slug: "kuroma-buffet-dining",
+      category: "buffet-dining",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
+      desc: "Premium international and Japanese buffet experience.",
+      seoArticle: `
+<h2>Kuroma Buffet & Dining</h2>
+<p>Kuroma Buffet & Dining stands out as a premier destination for those looking to indulge in an expansive array of international and Japanese cuisines. Offering a luxurious setting, the buffet features fresh seafood, premium sushi and sashimi, live cooking stations, and an incredible dessert bar that ensures a satisfying feast for every palate.</p>
+`,
+      healthyTip: `"Pace yourself at the buffet by starting with fresh salads and sashimi, avoiding heavy, deep-fried items to enjoy a balanced meal."`,
+      faqs: [
+        {
+                q: "Is Kuroma Buffet Halal?",
+                a: "Kuroma sources its ingredients from Halal-certified suppliers and maintains a pork-free environment."
+        },
+        {
+                q: "Do I need to make a reservation?",
+                a: "Yes, it is highly recommended to book in advance, especially for weekend dinners and public holidays."
+        }
+],
+      menu: kuromaBuffetDiningMenu
+    },
+    {
       name: "Alva KL",
       slug: "alva-kl",
       category: 'buffet-dining',
-      image: "/images/alva-kl.png",
+      image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Sky Dining & Gourmet Experience",
       seoArticle: `\n<h2>Alva KL: Elevated Dining Experience</h2>
@@ -4185,7 +5841,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Envi Skydining",
       slug: "envi-skydining",
       category: 'buffet-dining',
-      image: "/images/envi-skydining.png",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Buffet & Fine Dining with KL Skyline Views",
       seoArticle: `\n<h2>Envi Skydining: Dinner with a View</h2>
@@ -4227,7 +5883,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "The Tokyo Restaurant",
       slug: "the-tokyo-restaurant",
       category: 'buffet-dining',
-      image: "/images/the-tokyo-restaurant.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "International", colors: "bg-blue-500 text-white" }],
       desc: "Contemporary Japanese Fusion & Famous Cheesecake",
       seoArticle: `\n<h2>The Tokyo Restaurant: The Famous Cheesecake</h2>
@@ -4269,7 +5925,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Jogoya Buffet",
       slug: "jogoya",
       category: 'buffet-dining',
-      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Ultimate Luxury Seafood & Japanese Buffet",
       seoArticle: `\n<h2>Jogoya Buffet: Malaysia's Legendary Seafood Feast</h2>
@@ -4306,7 +5962,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "thirty8",
     searchVolume: 480,
       category: 'buffet-dining',
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free", colors: "bg-orange-500 text-white" }],
       desc: "Luxury Elevated Dining with 360° Kuala Lumpur Skyline Views",
       seoArticle: `\n<h2>Thirty8 Grand Hyatt: Elevated Fine Dining at the Highest Level</h2>
@@ -4342,7 +5998,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Saloma KL",
       slug: "saloma-kl",
       category: 'buffet-dining',
-      image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal-Certified", colors: "bg-green-500 text-white" }],
       desc: "Traditional Malay Buffet & Spectacular Cultural Dance Performances",
       seoArticle: `\n<h2>Saloma Link KL: A Cultural Celebration of Authentic Malay Cuisine</h2>
@@ -4379,7 +6035,7 @@ export const brandMocks: Record<string, any[]> = {
       slug: "taproom",
     searchVolume: 70,
       category: 'buffet-dining',
-      image: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&q=80&w=600&h=400",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "Pork-Free Meats", colors: "bg-orange-500 text-white" }],
       desc: "Beautiful Greenhouse Bistro, Wood-Fired Pizzas & Craft Brews",
       seoArticle: `\n<h2>Taproom Bamboo Hills: Contemporary Culinary Craft in a Garden Paradise</h2>
@@ -4417,7 +6073,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Nak Nak",
       slug: "nak-nak",
       category: 'specialty-burgers',
-      image: "/images/naknak.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Authentic Korean-Inspired Fast Food",
       seoArticle: `\n<h2>Nak Nak: Premium Korean Burgers & Chicken</h2>
@@ -4459,7 +6115,7 @@ export const brandMocks: Record<string, any[]> = {
       name: "Woodfire",
       slug: "woodfire",
       category: 'specialty-burgers',
-      image: "/images/woodfire.png",
+      image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
       desc: "Gourmet Wood-Fired Burgers",
       seoArticle: `\n<h2>Woodfire: The Artisanal Burger Masters</h2>

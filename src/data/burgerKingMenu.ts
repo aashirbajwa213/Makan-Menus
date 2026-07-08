@@ -6,6 +6,7 @@ export const burgerKingMenu = [
     "price": "RM16.50",
     "category": "Whopper Series",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Whopper Medium Meal",
@@ -13,6 +14,7 @@ export const burgerKingMenu = [
     "price": "RM20.90",
     "category": "Whopper Series",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Whopper Large Meal",
@@ -20,6 +22,7 @@ export const burgerKingMenu = [
     "price": "RM22.90",
     "category": "Whopper Series",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Double Whopper",
@@ -27,6 +30,7 @@ export const burgerKingMenu = [
     "price": "RM21.50",
     "category": "Whopper Series",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Whopper Jr.",
@@ -34,6 +38,7 @@ export const burgerKingMenu = [
     "price": "RM11.50",
     "category": "Whopper Series",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Whopper Jr. Medium Meal",
@@ -41,6 +46,7 @@ export const burgerKingMenu = [
     "price": "RM16.00",
     "category": "Whopper Series",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Triple Whopper Jr. with Cheese",
@@ -48,6 +54,7 @@ export const burgerKingMenu = [
     "price": "RM23.00",
     "category": "Whopper Series",
     "menuType": "Regular Menu"
+  
   },
 
   // Royal Selection
@@ -57,6 +64,7 @@ export const burgerKingMenu = [
     "price": "RM23.90",
     "category": "Royal Selection",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Steakhouse Whopper Medium Meal",
@@ -64,6 +72,7 @@ export const burgerKingMenu = [
     "price": "RM28.20",
     "category": "Royal Selection",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Ultimate Steakhouse Whopper",
@@ -71,6 +80,7 @@ export const burgerKingMenu = [
     "price": "RM25.90",
     "category": "Royal Selection",
     "menuType": "Regular Menu"
+  
   },
 
   // Beef Burgers
@@ -80,6 +90,7 @@ export const burgerKingMenu = [
     "price": "RM15.40",
     "category": "Beef Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Double Cheeseburger Medium Meal",
@@ -87,6 +98,7 @@ export const burgerKingMenu = [
     "price": "RM19.90",
     "category": "Beef Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Mushroom Swiss (Single)",
@@ -94,6 +106,7 @@ export const burgerKingMenu = [
     "price": "RM13.90",
     "category": "Beef Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Mushroom Swiss (Double)",
@@ -101,6 +114,7 @@ export const burgerKingMenu = [
     "price": "RM18.40",
     "category": "Beef Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "BBQ Beefacon (Single)",
@@ -108,6 +122,7 @@ export const burgerKingMenu = [
     "price": "RM13.90",
     "category": "Beef Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "BBQ Beefacon (Double)",
@@ -115,6 +130,7 @@ export const burgerKingMenu = [
     "price": "RM18.40",
     "category": "Beef Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Cheeseburger",
@@ -122,6 +138,7 @@ export const burgerKingMenu = [
     "price": "RM10.90",
     "category": "Beef Burgers",
     "menuType": "Regular Menu"
+  
   },
 
   // Chicken & Fish
@@ -131,6 +148,7 @@ export const burgerKingMenu = [
     "price": "RM16.00",
     "category": "Chicken & Fish",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Tender Crisp Medium Meal",
@@ -138,6 +156,7 @@ export const burgerKingMenu = [
     "price": "RM20.50",
     "category": "Chicken & Fish",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Tender Grill",
@@ -145,6 +164,7 @@ export const burgerKingMenu = [
     "price": "RM15.00",
     "category": "Chicken & Fish",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Mushroom Tender Grill",
@@ -152,6 +172,7 @@ export const burgerKingMenu = [
     "price": "RM18.90",
     "category": "Chicken & Fish",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Long Chicken",
@@ -159,6 +180,7 @@ export const burgerKingMenu = [
     "price": "RM13.50",
     "category": "Chicken & Fish",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Chick 'n Crisp",
@@ -166,6 +188,7 @@ export const burgerKingMenu = [
     "price": "RM10.50",
     "category": "Chicken & Fish",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Fish 'n Crisp",
@@ -173,6 +196,7 @@ export const burgerKingMenu = [
     "price": "RM10.50",
     "category": "Chicken & Fish",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Supreme Nachos Tendercrisp",
@@ -180,6 +204,7 @@ export const burgerKingMenu = [
     "price": "RM21.25",
     "category": "Chicken & Fish",
     "menuType": "Regular Menu"
+  
   },
 
   // Sides & Snacks
@@ -189,6 +214,7 @@ export const burgerKingMenu = [
     "price": "RM9.50",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Fries (Medium)",
@@ -196,6 +222,7 @@ export const burgerKingMenu = [
     "price": "RM5.50",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Onion Rings (Medium)",
@@ -203,6 +230,7 @@ export const burgerKingMenu = [
     "price": "RM6.50",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Chicken Nuggets (6-pc)",
@@ -210,6 +238,7 @@ export const burgerKingMenu = [
     "price": "RM9.50",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Snack Box",
@@ -217,6 +246,7 @@ export const burgerKingMenu = [
     "price": "RM25.70",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
 
   // Desserts
@@ -226,6 +256,7 @@ export const burgerKingMenu = [
     "price": "RM12.50",
     "category": "Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Apple Pie",
@@ -233,6 +264,7 @@ export const burgerKingMenu = [
     "price": "RM4.90",
     "category": "Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Taro Pie",
@@ -240,6 +272,7 @@ export const burgerKingMenu = [
     "price": "RM4.90",
     "category": "Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Soft Serve (Cone)",
@@ -247,6 +280,7 @@ export const burgerKingMenu = [
     "price": "RM2.50",
     "category": "Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Sundae (Chocolate/Strawberry)",
@@ -254,6 +288,7 @@ export const burgerKingMenu = [
     "price": "RM5.50",
     "category": "Desserts",
     "menuType": "Regular Menu"
+  
   },
 
   // Beverages
@@ -263,6 +298,7 @@ export const burgerKingMenu = [
     "price": "RM4.50",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Iced Lemon Tea (Medium)",
@@ -270,6 +306,7 @@ export const burgerKingMenu = [
     "price": "RM4.50",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Hot Americano",
@@ -277,6 +314,7 @@ export const burgerKingMenu = [
     "price": "RM6.50",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Hot Cappuccino",
@@ -284,6 +322,7 @@ export const burgerKingMenu = [
     "price": "RM8.50",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Mineral Water",
@@ -291,5 +330,6 @@ export const burgerKingMenu = [
     "price": "RM3.50",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   }
 ];

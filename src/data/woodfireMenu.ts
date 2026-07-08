@@ -6,6 +6,7 @@ export const woodfireMenu = [
     "price": "RM27.90",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "BBQ Burger",
@@ -13,6 +14,7 @@ export const woodfireMenu = [
     "price": "RM28.90",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Gourmet Burger (Salted Egg Sauce)",
@@ -20,6 +22,7 @@ export const woodfireMenu = [
     "price": "RM27.90",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Mushroom Burger",
@@ -27,6 +30,7 @@ export const woodfireMenu = [
     "price": "RM31.90",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Smoked Burger",
@@ -34,6 +38,7 @@ export const woodfireMenu = [
     "price": "RM31.90",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Double Patty Burger (Mixed/Beef)",
@@ -41,6 +46,7 @@ export const woodfireMenu = [
     "price": "RM39.80",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Brisket Burger (Signature)",
@@ -48,6 +54,7 @@ export const woodfireMenu = [
     "price": "RM52.90",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Crispy Smoked Chicken Burger",
@@ -55,6 +62,7 @@ export const woodfireMenu = [
     "price": "RM35.90",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Pistachio Burger",
@@ -62,6 +70,7 @@ export const woodfireMenu = [
     "price": "RM26.90",
     "category": "Gourmet Burgers",
     "menuType": "Regular Menu"
+  
   },
 
   // Specialties & Platters
@@ -71,6 +80,7 @@ export const woodfireMenu = [
     "price": "RM33.20",
     "category": "Specialties & Platters",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Cheesesteak (Beef)",
@@ -78,6 +88,7 @@ export const woodfireMenu = [
     "price": "RM26.50",
     "category": "Specialties & Platters",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Cheesesteak with Brisket",
@@ -85,6 +96,7 @@ export const woodfireMenu = [
     "price": "RM41.90",
     "category": "Specialties & Platters",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Smoked Chicken Platter",
@@ -92,6 +104,7 @@ export const woodfireMenu = [
     "price": "RM29.90",
     "category": "Specialties & Platters",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Smoked Brisket Platter (200g)",
@@ -99,6 +112,7 @@ export const woodfireMenu = [
     "price": "RM62.90",
     "category": "Specialties & Platters",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Angus Steak Platter",
@@ -106,6 +120,7 @@ export const woodfireMenu = [
     "price": "RM89.90",
     "category": "Specialties & Platters",
     "menuType": "Regular Menu"
+  
   },
 
   // Sides & Snacks
@@ -115,6 +130,7 @@ export const woodfireMenu = [
     "price": "RM9.20",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Coney Fries (Beef Sauce & Cheese)",
@@ -122,6 +138,7 @@ export const woodfireMenu = [
     "price": "RM18.50",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Beef & Cheese Fries",
@@ -129,6 +146,7 @@ export const woodfireMenu = [
     "price": "RM20.90",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Cheesy Fries",
@@ -136,6 +154,7 @@ export const woodfireMenu = [
     "price": "RM16.90",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Nugget & Fries",
@@ -143,6 +162,7 @@ export const woodfireMenu = [
     "price": "RM16.90",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Mushroom Soup",
@@ -150,6 +170,7 @@ export const woodfireMenu = [
     "price": "RM8.50",
     "category": "Sides & Snacks",
     "menuType": "Regular Menu"
+  
   },
 
   // Kids Menu
@@ -159,6 +180,7 @@ export const woodfireMenu = [
     "price": "RM18.50",
     "category": "Kids Menu",
     "menuType": "Regular Menu"
+  
   },
 
   // Milkshakes & Desserts
@@ -168,6 +190,7 @@ export const woodfireMenu = [
     "price": "RM22.50",
     "category": "Milkshakes & Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Matcha Milkshake",
@@ -175,6 +198,7 @@ export const woodfireMenu = [
     "price": "RM22.50",
     "category": "Milkshakes & Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Chocolate / Vanilla / Strawberry Shake",
@@ -182,6 +206,7 @@ export const woodfireMenu = [
     "price": "RM22.50",
     "category": "Milkshakes & Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Oreo Milkshake",
@@ -189,6 +214,7 @@ export const woodfireMenu = [
     "price": "RM22.50",
     "category": "Milkshakes & Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Chocolate Waffle",
@@ -196,6 +222,7 @@ export const woodfireMenu = [
     "price": "RM17.30",
     "category": "Milkshakes & Desserts",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Biscoff Waffle",
@@ -203,6 +230,7 @@ export const woodfireMenu = [
     "price": "RM17.30",
     "category": "Milkshakes & Desserts",
     "menuType": "Regular Menu"
+  
   },
 
   // Beverages
@@ -212,6 +240,7 @@ export const woodfireMenu = [
     "price": "RM6.00",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Butter Soda",
@@ -219,6 +248,7 @@ export const woodfireMenu = [
     "price": "RM9.20",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "A&W Float",
@@ -226,6 +256,7 @@ export const woodfireMenu = [
     "price": "RM9.20",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Peach Tea / Strawberry Lemonade",
@@ -233,6 +264,7 @@ export const woodfireMenu = [
     "price": "RM8.00",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Iced Lemon Tea",
@@ -240,6 +272,7 @@ export const woodfireMenu = [
     "price": "RM6.00",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   },
   {
     "name": "Mineral Water",
@@ -247,5 +280,6 @@ export const woodfireMenu = [
     "price": "RM3.00",
     "category": "Beverages",
     "menuType": "Regular Menu"
+  
   }
 ];

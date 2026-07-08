@@ -6,6 +6,7 @@ export const damascusMenu = [
     "price": "RM14.90",
     "category": "Shawarma (Sandwiches)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chicken Cheese Shawarma Sandwich",
@@ -13,6 +14,7 @@ export const damascusMenu = [
     "price": "RM16.90",
     "category": "Shawarma (Sandwiches)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Beef Shawarma Sandwich",
@@ -20,6 +22,7 @@ export const damascusMenu = [
     "price": "RM17.90",
     "category": "Shawarma (Sandwiches)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Beef Cheese Shawarma Sandwich",
@@ -27,6 +30,7 @@ export const damascusMenu = [
     "price": "RM19.90",
     "category": "Shawarma (Sandwiches)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chicken Shawarma Meal Sandwich",
@@ -34,6 +38,7 @@ export const damascusMenu = [
     "price": "RM19.90",
     "category": "Shawarma (Sandwiches)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Beef Shawarma Meal Sandwich",
@@ -41,6 +46,7 @@ export const damascusMenu = [
     "price": "RM22.90",
     "category": "Shawarma (Sandwiches)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Americana Chicken Shawarma",
@@ -48,6 +54,7 @@ export const damascusMenu = [
     "price": "RM19.90",
     "category": "Shawarma (Sandwiches)",
     "menuType": "All Day"
+  
   },
 
   // Shawarma (Plates)
@@ -57,6 +64,7 @@ export const damascusMenu = [
     "price": "RM24.90",
     "category": "Shawarma (Plates)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Cheesy Arabic Plate (Chicken)",
@@ -64,6 +72,7 @@ export const damascusMenu = [
     "price": "RM28.90",
     "category": "Shawarma (Plates)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mixed Arabi Plate (Chicken & Beef)",
@@ -71,6 +80,7 @@ export const damascusMenu = [
     "price": "RM27.90",
     "category": "Shawarma (Plates)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chicken Shawarma Plate",
@@ -78,6 +88,7 @@ export const damascusMenu = [
     "price": "RM29.90",
     "category": "Shawarma (Plates)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chicken Cheese Shawarma Plate",
@@ -85,6 +96,7 @@ export const damascusMenu = [
     "price": "RM33.90",
     "category": "Shawarma (Plates)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mixed Shawarma Plate",
@@ -92,6 +104,7 @@ export const damascusMenu = [
     "price": "RM33.90",
     "category": "Shawarma (Plates)",
     "menuType": "All Day"
+  
   },
 
   // Shawarma (Rice)
@@ -101,6 +114,7 @@ export const damascusMenu = [
     "price": "RM24.90",
     "category": "Shawarma (Rice)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chicken Cheese Shawarma Rice",
@@ -108,6 +122,7 @@ export const damascusMenu = [
     "price": "RM29.90",
     "category": "Shawarma (Rice)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Creamy Chicken Shawarma with Rice",
@@ -115,6 +130,7 @@ export const damascusMenu = [
     "price": "RM23.90",
     "category": "Shawarma (Rice)",
     "menuType": "All Day"
+  
   },
 
   // Lamb & Rice Meals
@@ -124,6 +140,7 @@ export const damascusMenu = [
     "price": "RM42.90",
     "category": "Lamb & Rice Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "Biryani Lamb Meal",
@@ -131,6 +148,7 @@ export const damascusMenu = [
     "price": "RM42.90",
     "category": "Lamb & Rice Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "Kabsa Lamb Meal",
@@ -138,6 +156,7 @@ export const damascusMenu = [
     "price": "RM42.90",
     "category": "Lamb & Rice Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "Lamb Shank with Mandi Rice",
@@ -145,6 +164,7 @@ export const damascusMenu = [
     "price": "RM52.90",
     "category": "Lamb & Rice Meals",
     "menuType": "All Day"
+  
   },
 
   // Chicken & Rice Meals
@@ -154,6 +174,7 @@ export const damascusMenu = [
     "price": "RM24.90",
     "category": "Chicken & Rice Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "Maklouba Chicken",
@@ -161,6 +182,7 @@ export const damascusMenu = [
     "price": "RM26.90",
     "category": "Chicken & Rice Meals",
     "menuType": "All Day"
+  
   },
   {
     "name": "Chicken Cubes (Shish Taouk) with Rice",
@@ -168,6 +190,7 @@ export const damascusMenu = [
     "price": "RM28.90",
     "category": "Chicken & Rice Meals",
     "menuType": "All Day"
+  
   },
 
   // Appetizers (Cold)
@@ -177,6 +200,7 @@ export const damascusMenu = [
     "price": "RM44.90",
     "category": "Appetizers (Cold)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Hummus",
@@ -184,6 +208,7 @@ export const damascusMenu = [
     "price": "RM14.90",
     "category": "Appetizers (Cold)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Baba Ghanoush",
@@ -191,6 +216,7 @@ export const damascusMenu = [
     "price": "RM14.90",
     "category": "Appetizers (Cold)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Warak Enab (Grape Leaves)",
@@ -198,6 +224,7 @@ export const damascusMenu = [
     "price": "RM14.90",
     "category": "Appetizers (Cold)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Tabbouleh Salad",
@@ -205,6 +232,7 @@ export const damascusMenu = [
     "price": "RM14.90",
     "category": "Appetizers (Cold)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Arabic Salad",
@@ -212,6 +240,7 @@ export const damascusMenu = [
     "price": "RM14.90",
     "category": "Appetizers (Cold)",
     "menuType": "All Day"
+  
   },
 
   // Appetizers (Hot)
@@ -221,6 +250,7 @@ export const damascusMenu = [
     "price": "RM21.90",
     "category": "Appetizers (Hot)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Hummus Chicken Shawarma",
@@ -228,6 +258,7 @@ export const damascusMenu = [
     "price": "RM19.90",
     "category": "Appetizers (Hot)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Hummus Lamb",
@@ -235,6 +266,7 @@ export const damascusMenu = [
     "price": "RM22.90",
     "category": "Appetizers (Hot)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Falafel Plate",
@@ -242,6 +274,7 @@ export const damascusMenu = [
     "price": "RM18.90",
     "category": "Appetizers (Hot)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Fried Kebbeh (per pc)",
@@ -249,6 +282,7 @@ export const damascusMenu = [
     "price": "RM6.00",
     "category": "Appetizers (Hot)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Cheezy Samosa (4 pcs)",
@@ -256,6 +290,7 @@ export const damascusMenu = [
     "price": "RM12.90",
     "category": "Appetizers (Hot)",
     "menuType": "All Day"
+  
   },
   {
     "name": "French Fries Plate",
@@ -263,6 +298,7 @@ export const damascusMenu = [
     "price": "RM12.90",
     "category": "Appetizers (Hot)",
     "menuType": "All Day"
+  
   },
 
   // Breakfast Series
@@ -272,6 +308,7 @@ export const damascusMenu = [
     "price": "RM18.90",
     "category": "Breakfast Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Fatteh",
@@ -279,6 +316,7 @@ export const damascusMenu = [
     "price": "RM23.90",
     "category": "Breakfast Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Egg & Lamb",
@@ -286,6 +324,7 @@ export const damascusMenu = [
     "price": "RM19.90",
     "category": "Breakfast Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Strained Yogurt (Labneh)",
@@ -293,6 +332,7 @@ export const damascusMenu = [
     "price": "RM14.90",
     "category": "Breakfast Series",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mixed Dairy Platter",
@@ -300,6 +340,7 @@ export const damascusMenu = [
     "price": "RM39.90",
     "category": "Breakfast Series",
     "menuType": "All Day"
+  
   },
 
   // Grills (Charcoal)
@@ -309,6 +350,7 @@ export const damascusMenu = [
     "price": "RM29.90",
     "category": "Grills (Charcoal)",
     "menuType": "All Day"
+  
   },
   {
     "name": "Creamy Lamb Kebab with Rice",
@@ -316,6 +358,7 @@ export const damascusMenu = [
     "price": "RM33.90",
     "category": "Grills (Charcoal)",
     "menuType": "All Day"
+  
   },
   {
     "name": "BBQ Mixed Grill Platter",
@@ -323,6 +366,7 @@ export const damascusMenu = [
     "price": "RM55.00",
     "category": "Grills (Charcoal)",
     "menuType": "All Day"
+  
   },
 
   // Beverages
@@ -332,6 +376,7 @@ export const damascusMenu = [
     "price": "RM12.00",
     "category": "Beverages",
     "menuType": "All Day"
+  
   },
   {
     "name": "Arabic Mint Tea",
@@ -339,6 +384,7 @@ export const damascusMenu = [
     "price": "RM6.00",
     "category": "Beverages",
     "menuType": "All Day"
+  
   },
   {
     "name": "Soft Drinks",
@@ -346,5 +392,6 @@ export const damascusMenu = [
     "price": "RM5.00",
     "category": "Beverages",
     "menuType": "All Day"
+  
   }
 ];

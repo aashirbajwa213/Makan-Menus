@@ -1,20 +1,38 @@
 export const donaBakehouseMenu = [
-  { name: "Doña Breakfast", price: "RM 38.00", category: "All-Day Breakfast & Mains", description: "A hearty breakfast platter featuring a variety of morning favorites." },
-  { name: "Classic Eggs Benedict", price: "RM 34.00", category: "All-Day Breakfast & Mains", description: "Poached eggs served over toasted bread with hollandaise sauce." },
-  { name: "Healthy Green Benedict", price: "RM 34.00", category: "All-Day Breakfast & Mains", description: "A vegetarian twist on the classic eggs benedict with healthy greens." },
-  { name: "HEC & Mashed Avo Bagel", price: "RM 32.00", category: "All-Day Breakfast & Mains", description: "A delicious bagel layered with mashed avocado and savory fillings." },
-  { name: "Truffle Mushroom Soup", price: "RM 22.00", category: "All-Day Breakfast & Mains", description: "Creamy mushroom soup enhanced with the rich flavor of truffle." },
-  { name: "Greek Yogurt with Banana & Berries", price: "RM 19.00", category: "Acai, Yogurt & Oats", description: "Creamy Greek yogurt topped with fresh banana slices and mixed berries." },
-  { name: "Healthy Overnight Oats", price: "RM 22.00", category: "Acai, Yogurt & Oats", description: "Nutritious overnight oats prepared for a wholesome start to the day." },
-  { name: "Açaí Bowl with Chia Pudding", price: "RM 22.00", category: "Acai, Yogurt & Oats", description: "Refreshing açaí base served with chia pudding and assorted toppings." },
-  { name: "Truffle Parmesan Fries", price: "RM 18.00", category: "Snacks & Sides", description: "Crispy fries tossed with truffle oil and grated parmesan cheese." },
-  { name: "Sweet Potato Fries", price: "RM 18.00", category: "Snacks & Sides", description: "Golden and crispy sweet potato fries." },
-  { name: "Potato Tots", price: "RM 18.00", category: "Snacks & Sides", description: "Bite-sized, crispy potato hash browns." },
-  { name: "Plain Butter Croissant", price: "RM 9.50", category: "Pastries & Sweets", description: "A classic, flaky, and buttery French-style croissant." },
-  { name: "Pain au Chocolat", price: "RM 11.50", category: "Pastries & Sweets", description: "Flaky pastry rolled with rich chocolate batons." },
-  { name: "Pistachio Rose Croissant", price: "RM 17.50", category: "Pastries & Sweets", description: "A signature croissant filled and topped with pistachio and subtle rose notes." },
-  { name: "Vanilla Swiss Roll", price: "RM 13.90", category: "Pastries & Sweets", description: "Soft sponge cake rolled with a light vanilla cream filling." },
-  { name: "Blueberry Cheese Cake", price: "RM 26.00", category: "Pastries & Sweets", description: "Rich and creamy cheesecake swirled with blueberry compote." },
-  { name: "Wholemeal Sourdough", price: "RM 20.00", category: "Sourdough Loaves", description: "Freshly baked, crusty wholemeal sourdough bread." },
-  { name: "Cranberry Walnut Sourdough", price: "RM 24.00", category: "Sourdough Loaves", description: "Artisan sourdough loaf studded with tart cranberries and crunchy walnuts." }
+  { name: "Doña Breakfast", price: "RM 38.00", category: "All-Day Breakfast & Mains", description: "A hearty breakfast platter featuring a variety of morning favorites." 
+  },
+  { name: "Classic Eggs Benedict", price: "RM 34.00", category: "All-Day Breakfast & Mains", description: "Poached eggs served over toasted bread with hollandaise sauce." 
+  },
+  { name: "Healthy Green Benedict", price: "RM 34.00", category: "All-Day Breakfast & Mains", description: "A vegetarian twist on the classic eggs benedict with healthy greens." 
+  },
+  { name: "HEC & Mashed Avo Bagel", price: "RM 32.00", category: "All-Day Breakfast & Mains", description: "A delicious bagel layered with mashed avocado and savory fillings." 
+  },
+  { name: "Truffle Mushroom Soup", price: "RM 22.00", category: "All-Day Breakfast & Mains", description: "Creamy mushroom soup enhanced with the rich flavor of truffle." 
+  },
+  { name: "Greek Yogurt with Banana & Berries", price: "RM 19.00", category: "Acai, Yogurt & Oats", description: "Creamy Greek yogurt topped with fresh banana slices and mixed berries." 
+  },
+  { name: "Healthy Overnight Oats", price: "RM 22.00", category: "Acai, Yogurt & Oats", description: "Nutritious overnight oats prepared for a wholesome start to the day." 
+  },
+  { name: "Açaí Bowl with Chia Pudding", price: "RM 22.00", category: "Acai, Yogurt & Oats", description: "Refreshing açaí base served with chia pudding and assorted toppings." 
+  },
+  { name: "Truffle Parmesan Fries", price: "RM 18.00", category: "Snacks & Sides", description: "Crispy fries tossed with truffle oil and grated parmesan cheese." 
+  },
+  { name: "Sweet Potato Fries", price: "RM 18.00", category: "Snacks & Sides", description: "Golden and crispy sweet potato fries." 
+  },
+  { name: "Potato Tots", price: "RM 18.00", category: "Snacks & Sides", description: "Bite-sized, crispy potato hash browns." 
+  },
+  { name: "Plain Butter Croissant", price: "RM 9.50", category: "Pastries & Sweets", description: "A classic, flaky, and buttery French-style croissant." 
+  },
+  { name: "Pain au Chocolat", price: "RM 11.50", category: "Pastries & Sweets", description: "Flaky pastry rolled with rich chocolate batons." 
+  },
+  { name: "Pistachio Rose Croissant", price: "RM 17.50", category: "Pastries & Sweets", description: "A signature croissant filled and topped with pistachio and subtle rose notes." 
+  },
+  { name: "Vanilla Swiss Roll", price: "RM 13.90", category: "Pastries & Sweets", description: "Soft sponge cake rolled with a light vanilla cream filling." 
+  },
+  { name: "Blueberry Cheese Cake", price: "RM 26.00", category: "Pastries & Sweets", description: "Rich and creamy cheesecake swirled with blueberry compote." 
+  },
+  { name: "Wholemeal Sourdough", price: "RM 20.00", category: "Sourdough Loaves", description: "Freshly baked, crusty wholemeal sourdough bread." 
+  },
+  { name: "Cranberry Walnut Sourdough", price: "RM 24.00", category: "Sourdough Loaves", description: "Artisan sourdough loaf studded with tart cranberries and crunchy walnuts." 
+  }
 ];

@@ -6,6 +6,7 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Waffle",
     "menuType": "All Day"
+  
   },
   {
     "name": "Egg Waffle Matcha",
@@ -13,6 +14,7 @@ export const bingxueMenu = [
     "price": "RM24.00",
     "category": "Waffle",
     "menuType": "All Day"
+  
   },
   {
     "name": "Egg Waffle Vanilla",
@@ -20,6 +22,7 @@ export const bingxueMenu = [
     "price": "RM24.00",
     "category": "Waffle",
     "menuType": "All Day"
+  
   },
   {
     "name": "Egg Waffle Red Bean",
@@ -27,6 +30,7 @@ export const bingxueMenu = [
     "price": "RM24.00",
     "category": "Waffle",
     "menuType": "All Day"
+  
   },
   {
     "name": "Egg Waffle Brown Sugar Bubble",
@@ -34,6 +38,7 @@ export const bingxueMenu = [
     "price": "RM24.00",
     "category": "Waffle",
     "menuType": "All Day"
+  
   },
 
   // Party Sundae
@@ -43,6 +48,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Party Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Party Sundae Strawberry",
@@ -50,6 +56,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Party Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Party Sundae Brown Sugar Bubble",
@@ -57,6 +64,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Party Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Party Sundae Peach",
@@ -64,6 +72,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Party Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Party Sundae Mango",
@@ -71,6 +80,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Party Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Party Sundae Oreo",
@@ -78,6 +88,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Party Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Party Sundae Waffle",
@@ -85,6 +96,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Party Sundae",
     "menuType": "All Day"
+  
   },
   {
     "name": "Party Sundae Red Bean",
@@ -92,6 +104,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Party Sundae",
     "menuType": "All Day"
+  
   },
 
   // Fresh Ice Cream
@@ -101,6 +114,7 @@ export const bingxueMenu = [
     "price": "RM8.00",
     "category": "Fresh Ice Cream",
     "menuType": "All Day"
+  
   },
   {
     "name": "Vanilla Ice Cream",
@@ -108,6 +122,7 @@ export const bingxueMenu = [
     "price": "RM8.00",
     "category": "Fresh Ice Cream",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mix Ice Cream",
@@ -115,6 +130,7 @@ export const bingxueMenu = [
     "price": "RM8.00",
     "category": "Fresh Ice Cream",
     "menuType": "All Day"
+  
   },
 
   // Bing-Shake
@@ -124,6 +140,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Bing-Shake",
     "menuType": "All Day"
+  
   },
   {
     "name": "Strawberry Bing-Shake",
@@ -131,6 +148,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Bing-Shake",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mango Bing-Shake",
@@ -138,6 +156,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Bing-Shake",
     "menuType": "All Day"
+  
   },
   {
     "name": "Oreo Bing-Shake",
@@ -145,6 +164,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Bing-Shake",
     "menuType": "All Day"
+  
   },
 
   // Fresh Coffee
@@ -154,6 +174,7 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Fresh Coffee",
     "menuType": "All Day"
+  
   },
   {
     "name": "Americano Coffee",
@@ -161,6 +182,7 @@ export const bingxueMenu = [
     "price": "RM15.00",
     "category": "Fresh Coffee",
     "menuType": "All Day"
+  
   },
   {
     "name": "Coconut Latte",
@@ -168,6 +190,7 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Fresh Coffee",
     "menuType": "All Day"
+  
   },
   {
     "name": "Ice Cream Coffee",
@@ -175,6 +198,7 @@ export const bingxueMenu = [
     "price": "RM16.00",
     "category": "Fresh Coffee",
     "menuType": "All Day"
+  
   },
 
   // Matcha
@@ -184,6 +208,7 @@ export const bingxueMenu = [
     "price": "RM24.00",
     "category": "Matcha",
     "menuType": "All Day"
+  
   },
   {
     "name": "Matcha Frappe",
@@ -191,6 +216,7 @@ export const bingxueMenu = [
     "price": "RM20.00",
     "category": "Matcha",
     "menuType": "All Day"
+  
   },
   {
     "name": "Matcha Latte with Coffee",
@@ -198,6 +224,7 @@ export const bingxueMenu = [
     "price": "RM24.00",
     "category": "Matcha",
     "menuType": "All Day"
+  
   },
   {
     "name": "Matcha Latte with Red Bean",
@@ -205,6 +232,7 @@ export const bingxueMenu = [
     "price": "RM20.00",
     "category": "Matcha",
     "menuType": "All Day"
+  
   },
 
   // Fresh Milk Tea
@@ -214,6 +242,7 @@ export const bingxueMenu = [
     "price": "RM19.00",
     "category": "Fresh Milk Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Brown Sugar Bubble Milk Tea (L)",
@@ -221,6 +250,7 @@ export const bingxueMenu = [
     "price": "RM22.00",
     "category": "Fresh Milk Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Red Bean Milk Tea (M)",
@@ -228,6 +258,7 @@ export const bingxueMenu = [
     "price": "RM19.00",
     "category": "Fresh Milk Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Red Bean Milk Tea (L)",
@@ -235,6 +266,7 @@ export const bingxueMenu = [
     "price": "RM22.00",
     "category": "Fresh Milk Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Supreme Mixed Milk Tea (L)",
@@ -242,6 +274,7 @@ export const bingxueMenu = [
     "price": "RM22.00",
     "category": "Fresh Milk Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Coconut Jelly Milk Tea (M)",
@@ -249,6 +282,7 @@ export const bingxueMenu = [
     "price": "RM19.00",
     "category": "Fresh Milk Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Coconut Jelly Milk Tea (L)",
@@ -256,6 +290,7 @@ export const bingxueMenu = [
     "price": "RM22.00",
     "category": "Fresh Milk Tea",
     "menuType": "All Day"
+  
   },
 
   // Original Tea
@@ -265,6 +300,7 @@ export const bingxueMenu = [
     "price": "RM10.00",
     "category": "Original Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Assam Black Tea",
@@ -272,6 +308,7 @@ export const bingxueMenu = [
     "price": "RM10.00",
     "category": "Original Tea",
     "menuType": "All Day"
+  
   },
 
   // Real Fruit Tea
@@ -281,6 +318,7 @@ export const bingxueMenu = [
     "price": "RM20.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Ice Passion Fruit",
@@ -288,6 +326,7 @@ export const bingxueMenu = [
     "price": "RM20.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Fresh-Squeezed Lemonade",
@@ -295,6 +334,7 @@ export const bingxueMenu = [
     "price": "RM10.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Lemon Assam Black Tea",
@@ -302,6 +342,7 @@ export const bingxueMenu = [
     "price": "RM12.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Lemon Jasmine Tea",
@@ -309,6 +350,7 @@ export const bingxueMenu = [
     "price": "RM12.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Lychee Watermelon (M)",
@@ -316,6 +358,7 @@ export const bingxueMenu = [
     "price": "RM15.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Lychee Watermelon (L)",
@@ -323,6 +366,7 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Cool Crisp Lychee Tea (M)",
@@ -330,6 +374,7 @@ export const bingxueMenu = [
     "price": "RM15.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
   {
     "name": "Cool Crisp Lychee Tea (L)",
@@ -337,6 +382,7 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Real Fruit Tea",
     "menuType": "All Day"
+  
   },
 
   // Coconut Milk
@@ -346,6 +392,7 @@ export const bingxueMenu = [
     "price": "RM22.00",
     "category": "Coconut Milk",
     "menuType": "All Day"
+  
   },
   {
     "name": "Mango Coconut Milk",
@@ -353,6 +400,7 @@ export const bingxueMenu = [
     "price": "RM22.00",
     "category": "Coconut Milk",
     "menuType": "All Day"
+  
   },
 
   // 1L Bucket
@@ -362,6 +410,7 @@ export const bingxueMenu = [
     "price": "RM26.00",
     "category": "1L Bucket",
     "menuType": "All Day"
+  
   },
   {
     "name": "Colorful Fruit Bucket",
@@ -369,6 +418,7 @@ export const bingxueMenu = [
     "price": "RM26.00",
     "category": "1L Bucket",
     "menuType": "All Day"
+  
   },
 
   // Fruit Kult
@@ -378,6 +428,7 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Fruit Kult",
     "menuType": "All Day"
+  
   },
   {
     "name": "Lemon Kult",
@@ -385,6 +436,7 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Fruit Kult",
     "menuType": "All Day"
+  
   },
   {
     "name": "Passion Kult",
@@ -392,6 +444,7 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Fruit Kult",
     "menuType": "All Day"
+  
   },
   {
     "name": "Strawberry Kult",
@@ -399,5 +452,6 @@ export const bingxueMenu = [
     "price": "RM18.00",
     "category": "Fruit Kult",
     "menuType": "All Day"
+  
   }
 ];
