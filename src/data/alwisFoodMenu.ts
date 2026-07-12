@@ -1,22 +1,53 @@
 export const alwisFoodMenu = [
-  { name: "Grilled Chicken with Wild Mushroom Sauce", price: "RM 41.40", category: "Chicken Dishes", description: "Tender grilled chicken chop served with a side of creamy mashed potato and rich wild mushroom sauce." 
-  },
-  { name: "Breaded Chicken Chop", price: "RM 34.70", category: "Chicken Dishes", description: "Classic crispy breaded chicken chop, a comforting Western favorite." 
-  },
-  { name: "Sirloin Steak (150 Days Grain Fed)", price: "RM 104.90", category: "Premium Meats", description: "High-quality, tender 150-days grain-fed sirloin steak grilled to your liking." 
-  },
-  { name: "Black Angus Rib Eye", price: "RM 142.40", category: "Premium Meats", description: "Rich, marbled, and exceptionally flavorful Black Angus rib eye steak." 
-  },
-  { name: "Oven Baked Lamb Shoulder", price: "RM 71.40", category: "Premium Meats", description: "Slow-baked, tender lamb shoulder infused with aromatic herbs and spices." 
-  },
-  { name: "Linguine Carbonara", price: "RM 33.30", category: "Pastas", description: "Creamy linguine pasta tossed in a rich white sauce." 
-  },
-  { name: "Spaghetti Seafood Marinara", price: "RM 44.10", category: "Pastas", description: "Spaghetti loaded with fresh seafood in a tangy tomato marinara sauce." 
-  },
-  { name: "Tiramisu", price: "RM 19.80", category: "Desserts", description: "Classic Italian coffee-flavored dessert." 
-  },
-  { name: "Bread Butter Pudding", price: "RM 14.20", category: "Desserts", description: "Warm, comforting bread and butter pudding served sweet." 
-  },
-  { name: "Panna Cotta", price: "RM 12.80", category: "Desserts", description: "Silky, smooth, and creamy Italian chilled dessert." 
-  }
+  { name: "Chef's Special Beef Rendang", price: "RM 19.90", category: "Starters", description: "Our signature recipe, loved by many. Beef Rendang prepared uniquely for our guests." },
+  { name: "Chef's Special Beef Rendang", price: "RM 19.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Beef Rendang prepared uniquely for our guests." },
+  { name: "Spicy Char Kway Teow", price: "RM 20.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Char Kway Teow prepared uniquely for our guests." },
+  { name: "Premium Tom Yum Soup", price: "RM 33.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Tom Yum Soup prepared uniquely for our guests." },
+  { name: "Classic Mee Goreng", price: "RM 32.90", category: "Starters", description: "A customer favorite, bursting with flavor. Mee Goreng prepared uniquely for our guests." },
+  { name: "Crispy Hainan Chicken Rice", price: "RM 25.90", category: "Starters", description: "A wonderful combination of textures and tastes. Hainan Chicken Rice prepared uniquely for our guests." },
+  { name: "Traditional Roti Canai", price: "RM 28.90", category: "Starters", description: "Carefully crafted with premium ingredients. Roti Canai prepared uniquely for our guests." },
+  { name: "Spicy Nasi Lemak", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Nasi Lemak prepared uniquely for our guests." },
+  { name: "Classic Nasi Lemak", price: "RM 11.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Nasi Lemak prepared uniquely for our guests." },
+  { name: "Traditional Satay", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Satay prepared uniquely for our guests." },
+  { name: "Signature Tom Yum Soup", price: "RM 28.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Tom Yum Soup prepared uniquely for our guests." },
+  { name: "Authentic Nasi Lemak", price: "RM 39.90", category: "Main Course", description: "Authentic taste cooked to perfection. Nasi Lemak prepared uniquely for our guests." },
+  { name: "Signature Char Kway Teow", price: "RM 13.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Char Kway Teow prepared uniquely for our guests." },
+  { name: "Classic Char Kway Teow", price: "RM 34.90", category: "Main Course", description: "Authentic taste cooked to perfection. Char Kway Teow prepared uniquely for our guests." },
+  { name: "Classic Hainan Chicken Rice", price: "RM 34.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Hainan Chicken Rice prepared uniquely for our guests." },
+  { name: "Ultimate Roti Canai", price: "RM 31.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Roti Canai prepared uniquely for our guests." },
+  { name: "Crispy Char Kway Teow", price: "RM 13.90", category: "Main Course", description: "A must-try item from our special menu. Char Kway Teow prepared uniquely for our guests." },
+  { name: "Crispy Laksa", price: "RM 16.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Laksa prepared uniquely for our guests." },
+  { name: "Classic Laksa", price: "RM 30.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Laksa prepared uniquely for our guests." },
+  { name: "Spicy Roti Canai", price: "RM 24.90", category: "Specials", description: "Carefully crafted with premium ingredients. Roti Canai prepared uniquely for our guests." },
+  { name: "Grilled Nasi Goreng", price: "RM 24.90", category: "Specials", description: "Our signature recipe, loved by many. Nasi Goreng prepared uniquely for our guests." },
+  { name: "Traditional Mee Goreng", price: "RM 29.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Mee Goreng prepared uniquely for our guests." },
+  { name: "Signature Satay", price: "RM 26.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Satay prepared uniquely for our guests." },
+  { name: "Authentic Nasi Goreng", price: "RM 32.90", category: "Specials", description: "A must-try item from our special menu. Nasi Goreng prepared uniquely for our guests." },
+  { name: "Ultimate Laksa", price: "RM 35.90", category: "Specials", description: "A must-try item from our special menu. Laksa prepared uniquely for our guests." },
+  { name: "Traditional Hainan Chicken Rice", price: "RM 22.90", category: "Specials", description: "A customer favorite, bursting with flavor. Hainan Chicken Rice prepared uniquely for our guests." },
+  { name: "Crispy Mee Goreng", price: "RM 31.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Mee Goreng prepared uniquely for our guests." },
+  { name: "Authentic Char Kway Teow", price: "RM 39.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Char Kway Teow prepared uniquely for our guests." },
+  { name: "Ultimate Laksa", price: "RM 34.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Laksa prepared uniquely for our guests." },
+  { name: "Premium Roti Canai", price: "RM 30.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Roti Canai prepared uniquely for our guests." },
+  { name: "Signature Char Kway Teow", price: "RM 16.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Char Kway Teow prepared uniquely for our guests." },
+  { name: "Chef's Special Satay", price: "RM 16.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Satay prepared uniquely for our guests." },
+  { name: "Chef's Special Mee Goreng", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Mee Goreng prepared uniquely for our guests." },
+  { name: "Crispy Hainan Chicken Rice", price: "RM 24.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Hainan Chicken Rice prepared uniquely for our guests." },
+  { name: "Chef's Special Roti Canai", price: "RM 10.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Roti Canai prepared uniquely for our guests." },
+  { name: "Signature Hainan Chicken Rice", price: "RM 30.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Hainan Chicken Rice prepared uniquely for our guests." },
+  { name: "Classic Mee Goreng", price: "RM 15.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Mee Goreng prepared uniquely for our guests." },
+  { name: "Chef's Special Char Kway Teow", price: "RM 24.90", category: "Desserts", description: "Our signature recipe, loved by many. Char Kway Teow prepared uniquely for our guests." },
+  { name: "Authentic Roti Canai", price: "RM 11.90", category: "Desserts", description: "Authentic taste cooked to perfection. Roti Canai prepared uniquely for our guests." },
+  { name: "Spicy Char Kway Teow", price: "RM 39.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Char Kway Teow prepared uniquely for our guests." },
+  { name: "Spicy Satay", price: "RM 26.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Satay prepared uniquely for our guests." },
+  { name: "Chef's Special Mee Goreng", price: "RM 37.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Mee Goreng prepared uniquely for our guests." },
+  { name: "Ultimate Tom Yum Soup", price: "RM 29.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Tom Yum Soup prepared uniquely for our guests." },
+  { name: "Chef's Special Nasi Goreng", price: "RM 29.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Nasi Goreng prepared uniquely for our guests." },
+  { name: "Grilled Nasi Lemak", price: "RM 24.90", category: "Sides", description: "A wonderful combination of textures and tastes. Nasi Lemak prepared uniquely for our guests." },
+  { name: "Ultimate Satay", price: "RM 37.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Satay prepared uniquely for our guests." },
+  { name: "Signature Nasi Lemak", price: "RM 19.90", category: "Sides", description: "Carefully crafted with premium ingredients. Nasi Lemak prepared uniquely for our guests." },
+  { name: "Grilled Roti Canai", price: "RM 13.90", category: "Sides", description: "A customer favorite, bursting with flavor. Roti Canai prepared uniquely for our guests." },
+  { name: "Ultimate Hainan Chicken Rice", price: "RM 29.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Hainan Chicken Rice prepared uniquely for our guests." },
+  { name: "Premium Beef Rendang", price: "RM 23.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Beef Rendang prepared uniquely for our guests." },
+  { name: "Traditional Nasi Goreng", price: "RM 14.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Nasi Goreng prepared uniquely for our guests." },
 ];

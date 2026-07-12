@@ -1,86 +1,56 @@
 export const donkaiMenu = [
-  {
-    name: "Chicken Hamburg Rice Bowl",
-    price: "RM 28.90",
-    category: "Hamburg Rice Bowls",
-    description: "Handmade chicken hamburg steak served with unlimited refills of rice, vegetables, and miso soup."
-  
-  },
-  {
-    name: "Angus Beef Hamburg Rice Bowl",
-    price: "RM 33.00",
-    category: "Hamburg Rice Bowls",
-    description: "Handmade Angus beef hamburg steak served with unlimited refills of rice, vegetables, and miso soup."
-  
-  },
-  {
-    name: "Japanese Wagyu Hamburg Rice Bowl",
-    price: "RM 43.00",
-    category: "Hamburg Rice Bowls",
-    description: "Handmade Japanese Wagyu hamburg steak served with unlimited refills of rice, vegetables, and miso soup."
-  
-  },
-  {
-    name: "Chicken Teriyaki Don",
-    price: "RM 19.00",
-    category: "Donburi & Rice Dishes",
-    description: "Classic chicken teriyaki served over a bowl of rice."
-  
-  },
-  {
-    name: "Yakiniku Don",
-    price: "RM 22.00",
-    category: "Donburi & Rice Dishes",
-    description: "Sliced beef cooked in savory yakiniku style served over rice."
-  
-  },
-  {
-    name: "Chicken Katsu Curry Don",
-    price: "RM 21.00",
-    category: "Donburi & Rice Dishes",
-    description: "Breaded chicken cutlet topped with Japanese curry over rice."
-  
-  },
-  {
-    name: "Unagi Don",
-    price: "RM 34.00",
-    category: "Donburi & Rice Dishes",
-    description: "Grilled eel glazed with sweet soy sauce served over a bed of rice."
-  
-  },
-  {
-    name: "Chicken Hamburger Omurice",
-    price: "RM 19.00",
-    category: "Omurice",
-    description: "Fluffy omelette over rice topped with a chicken hamburger patty."
-  
-  },
-  {
-    name: "Salmon Katsu Omurice",
-    price: "RM 23.00",
-    category: "Omurice",
-    description: "Fluffy omelette over rice topped with a crispy fried salmon cutlet."
-  
-  },
-  {
-    name: "Chicken Karaage",
-    price: "RM 16.00",
-    category: "Sides",
-    description: "Japanese style deep-fried marinated chicken bites."
-  
-  },
-  {
-    name: "Ebi Tempura",
-    price: "RM 18.00",
-    category: "Sides",
-    description: "Lightly battered and deep-fried prawns."
-  
-  },
-  {
-    name: "Wagyu Skewers",
-    price: "RM 22.00",
-    category: "Sides",
-    description: "Grilled premium wagyu beef served on skewers."
-  
-  }
+  { name: "Classic Bulgogi", price: "RM 19.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Bulgogi prepared uniquely for our guests." },
+  { name: "Chef's Special Sushi Roll", price: "RM 10.90", category: "Starters", description: "A wonderful combination of textures and tastes. Sushi Roll prepared uniquely for our guests." },
+  { name: "Grilled Mochi", price: "RM 20.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Mochi prepared uniquely for our guests." },
+  { name: "Ultimate Ramen", price: "RM 18.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Ramen prepared uniquely for our guests." },
+  { name: "Chef's Special Mochi", price: "RM 25.90", category: "Starters", description: "Our signature recipe, loved by many. Mochi prepared uniquely for our guests." },
+  { name: "Ultimate Ramen", price: "RM 38.90", category: "Starters", description: "Our signature recipe, loved by many. Ramen prepared uniquely for our guests." },
+  { name: "Crispy Takoyaki", price: "RM 17.90", category: "Starters", description: "Our signature recipe, loved by many. Takoyaki prepared uniquely for our guests." },
+  { name: "Signature Matcha Ice Cream", price: "RM 10.90", category: "Starters", description: "Our signature recipe, loved by many. Matcha Ice Cream prepared uniquely for our guests." },
+  { name: "Ultimate Bibimbap", price: "RM 28.90", category: "Starters", description: "Carefully crafted with premium ingredients. Bibimbap prepared uniquely for our guests." },
+  { name: "Ultimate Udon", price: "RM 14.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Udon prepared uniquely for our guests." },
+  { name: "Signature Mochi", price: "RM 11.90", category: "Main Course", description: "A must-try item from our special menu. Mochi prepared uniquely for our guests." },
+  { name: "Spicy Sashimi Platter", price: "RM 12.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Sashimi Platter prepared uniquely for our guests." },
+  { name: "Grilled Bibimbap", price: "RM 24.90", category: "Main Course", description: "Our signature recipe, loved by many. Bibimbap prepared uniquely for our guests." },
+  { name: "Classic Udon", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Udon prepared uniquely for our guests." },
+  { name: "Ultimate Sashimi Platter", price: "RM 33.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Sashimi Platter prepared uniquely for our guests." },
+  { name: "Ultimate Matcha Ice Cream", price: "RM 17.90", category: "Main Course", description: "Authentic taste cooked to perfection. Matcha Ice Cream prepared uniquely for our guests." },
+  { name: "Crispy Sushi Roll", price: "RM 20.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Sushi Roll prepared uniquely for our guests." },
+  { name: "Chef's Special Sushi Roll", price: "RM 34.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Sushi Roll prepared uniquely for our guests." },
+  { name: "Signature Udon", price: "RM 15.90", category: "Specials", description: "Authentic taste cooked to perfection. Udon prepared uniquely for our guests." },
+  { name: "Crispy Sushi Roll", price: "RM 17.90", category: "Specials", description: "Our signature recipe, loved by many. Sushi Roll prepared uniquely for our guests." },
+  { name: "Classic Bulgogi", price: "RM 37.90", category: "Specials", description: "Carefully crafted with premium ingredients. Bulgogi prepared uniquely for our guests." },
+  { name: "Classic Matcha Ice Cream", price: "RM 32.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Matcha Ice Cream prepared uniquely for our guests." },
+  { name: "Crispy Kimchi Fried Rice", price: "RM 39.90", category: "Specials", description: "A customer favorite, bursting with flavor. Kimchi Fried Rice prepared uniquely for our guests." },
+  { name: "Classic Matcha Ice Cream", price: "RM 30.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Matcha Ice Cream prepared uniquely for our guests." },
+  { name: "Ultimate Mochi", price: "RM 12.90", category: "Specials", description: "Authentic taste cooked to perfection. Mochi prepared uniquely for our guests." },
+  { name: "Authentic Bulgogi", price: "RM 24.90", category: "Specials", description: "Authentic taste cooked to perfection. Bulgogi prepared uniquely for our guests." },
+  { name: "Authentic Bulgogi", price: "RM 23.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Bulgogi prepared uniquely for our guests." },
+  { name: "Grilled Matcha Ice Cream", price: "RM 22.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Matcha Ice Cream prepared uniquely for our guests." },
+  { name: "Crispy Kimchi Fried Rice", price: "RM 10.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Kimchi Fried Rice prepared uniquely for our guests." },
+  { name: "Spicy Bulgogi", price: "RM 28.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Bulgogi prepared uniquely for our guests." },
+  { name: "Traditional Ramen", price: "RM 17.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Ramen prepared uniquely for our guests." },
+  { name: "Authentic Bibimbap", price: "RM 34.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Bibimbap prepared uniquely for our guests." },
+  { name: "Classic Bulgogi", price: "RM 20.90", category: "Beverages", description: "A must-try item from our special menu. Bulgogi prepared uniquely for our guests." },
+  { name: "Premium Sushi Roll", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Sushi Roll prepared uniquely for our guests." },
+  { name: "Signature Bibimbap", price: "RM 11.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Bibimbap prepared uniquely for our guests." },
+  { name: "Ultimate Takoyaki", price: "RM 20.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Takoyaki prepared uniquely for our guests." },
+  { name: "Classic Mochi", price: "RM 31.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Mochi prepared uniquely for our guests." },
+  { name: "Classic Sushi Roll", price: "RM 23.90", category: "Desserts", description: "Our signature recipe, loved by many. Sushi Roll prepared uniquely for our guests." },
+  { name: "Grilled Sushi Roll", price: "RM 26.90", category: "Desserts", description: "Authentic taste cooked to perfection. Sushi Roll prepared uniquely for our guests." },
+  { name: "Spicy Udon", price: "RM 10.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Udon prepared uniquely for our guests." },
+  { name: "Chef's Special Kimchi Fried Rice", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Kimchi Fried Rice prepared uniquely for our guests." },
+  { name: "Chef's Special Bibimbap", price: "RM 10.90", category: "Desserts", description: "Our signature recipe, loved by many. Bibimbap prepared uniquely for our guests." },
+  { name: "Signature Sashimi Platter", price: "RM 36.90", category: "Desserts", description: "Authentic taste cooked to perfection. Sashimi Platter prepared uniquely for our guests." },
+  { name: "Premium Mochi", price: "RM 25.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Mochi prepared uniquely for our guests." },
+  { name: "Ultimate Sashimi Platter", price: "RM 32.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Sashimi Platter prepared uniquely for our guests." },
+  { name: "Premium Sashimi Platter", price: "RM 10.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Sashimi Platter prepared uniquely for our guests." },
+  { name: "Classic Sushi Roll", price: "RM 17.90", category: "Sides", description: "Authentic taste cooked to perfection. Sushi Roll prepared uniquely for our guests." },
+  { name: "Grilled Udon", price: "RM 13.90", category: "Sides", description: "Authentic taste cooked to perfection. Udon prepared uniquely for our guests." },
+  { name: "Authentic Ramen", price: "RM 18.90", category: "Sides", description: "A wonderful combination of textures and tastes. Ramen prepared uniquely for our guests." },
+  { name: "Spicy Matcha Ice Cream", price: "RM 30.90", category: "Sides", description: "A wonderful combination of textures and tastes. Matcha Ice Cream prepared uniquely for our guests." },
+  { name: "Chef's Special Takoyaki", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Takoyaki prepared uniquely for our guests." },
+  { name: "Chef's Special Udon", price: "RM 39.90", category: "Sides", description: "Authentic taste cooked to perfection. Udon prepared uniquely for our guests." },
+  { name: "Classic Kimchi Fried Rice", price: "RM 28.90", category: "Sides", description: "Our signature recipe, loved by many. Kimchi Fried Rice prepared uniquely for our guests." },
+  { name: "Traditional Bibimbap", price: "RM 24.90", category: "Sides", description: "A customer favorite, bursting with flavor. Bibimbap prepared uniquely for our guests." },
 ];

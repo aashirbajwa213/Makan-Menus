@@ -1,86 +1,54 @@
 export const saladAtelierMenu = [
-  {
-    name: "Glow Bowl",
-    price: "RM 18.40",
-    category: "DIY Bowls & Salads",
-    description: "Customizable bowl including 1 base, 2 mains, 2 supplements, and 2 dressings."
-  
-  },
-  {
-    name: "Cravings Bowl",
-    price: "RM 25.30",
-    category: "DIY Bowls & Salads",
-    description: "Customizable bowl including 1 base, 4 mains, 1 prime, and 2 dressings."
-  
-  },
-  {
-    name: "Hungry Bowl",
-    price: "RM 29.95",
-    category: "DIY Bowls & Salads",
-    description: "Customizable larger bowl for bigger appetites."
-  
-  },
-  {
-    name: "Protein Bowl",
-    price: "RM 34.55",
-    category: "DIY Bowls & Salads",
-    description: "Customizable high-protein bowl with extra prime ingredients."
-  
-  },
-  {
-    name: "SA Chicken Rice",
-    price: "RM 30.66",
-    category: "Popular Menu Items",
-    description: "A healthier take on the classic chicken rice dish."
-  
-  },
-  {
-    name: "Spicy Korean Pasta",
-    price: "RM 20.20",
-    category: "Popular Menu Items",
-    description: "Flavorful and spicy Korean-style pasta."
-  
-  },
-  {
-    name: "Sawadee Thai Salad",
-    price: "RM 27.41",
-    category: "Popular Menu Items",
-    description: "Refreshing Thai-inspired salad bowl."
-  
-  },
-  {
-    name: "Chicken Teriyaki Poke",
-    price: "RM 25.15",
-    category: "Popular Menu Items",
-    description: "Delicious poke bowl featuring savory teriyaki chicken."
-  
-  },
-  {
-    name: "Eggcellent Protein Bowl",
-    price: "RM 23.77",
-    category: "Keto Fuel",
-    description: "Keto-friendly bowl packed with eggs and protein."
-  
-  },
-  {
-    name: "Creamy Broccoli Chicken Bowl",
-    price: "RM 28.75",
-    category: "Keto Fuel",
-    description: "Low-carb bowl with creamy broccoli and chicken."
-  
-  },
-  {
-    name: "Avocado Shrimp Bowl",
-    price: "RM 28.96",
-    category: "Keto Fuel",
-    description: "Keto-friendly meal featuring fresh avocado and shrimp."
-  
-  },
-  {
-    name: "Grilled Salmon Salsa Bowl",
-    price: "RM 32.08",
-    category: "Keto Fuel",
-    description: "Grilled salmon topped with fresh salsa on a keto-friendly base."
-  
-  }
+  { name: "Premium Turkey Sandwich", price: "RM 26.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Turkey Sandwich prepared uniquely for our guests." },
+  { name: "Grilled Granola Bowl", price: "RM 28.90", category: "Starters", description: "Carefully crafted with premium ingredients. Granola Bowl prepared uniquely for our guests." },
+  { name: "Signature Turkey Sandwich", price: "RM 22.90", category: "Starters", description: "Carefully crafted with premium ingredients. Turkey Sandwich prepared uniquely for our guests." },
+  { name: "Classic Fruit Smoothie", price: "RM 18.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Fruit Smoothie prepared uniquely for our guests." },
+  { name: "Traditional Green Salad", price: "RM 30.90", category: "Starters", description: "A must-try item from our special menu. Green Salad prepared uniquely for our guests." },
+  { name: "Ultimate Caesar Wrap", price: "RM 21.90", category: "Starters", description: "A customer favorite, bursting with flavor. Caesar Wrap prepared uniquely for our guests." },
+  { name: "Traditional Avocado Toast", price: "RM 25.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Avocado Toast prepared uniquely for our guests." },
+  { name: "Ultimate Club Sandwich", price: "RM 15.90", category: "Starters", description: "Our signature recipe, loved by many. Club Sandwich prepared uniquely for our guests." },
+  { name: "Chef's Special Chicken Wrap", price: "RM 11.90", category: "Starters", description: "Carefully crafted with premium ingredients. Chicken Wrap prepared uniquely for our guests." },
+  { name: "Chef's Special Caesar Wrap", price: "RM 21.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Caesar Wrap prepared uniquely for our guests." },
+  { name: "Signature Club Sandwich", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Club Sandwich prepared uniquely for our guests." },
+  { name: "Traditional Quinoa Bowl", price: "RM 31.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Ultimate Protein Shake", price: "RM 10.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Protein Shake prepared uniquely for our guests." },
+  { name: "Crispy Chicken Wrap", price: "RM 19.90", category: "Main Course", description: "Authentic taste cooked to perfection. Chicken Wrap prepared uniquely for our guests." },
+  { name: "Classic Quinoa Bowl", price: "RM 35.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Premium Fruit Smoothie", price: "RM 29.90", category: "Main Course", description: "Authentic taste cooked to perfection. Fruit Smoothie prepared uniquely for our guests." },
+  { name: "Spicy Green Salad", price: "RM 28.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Green Salad prepared uniquely for our guests." },
+  { name: "Authentic Protein Shake", price: "RM 15.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Protein Shake prepared uniquely for our guests." },
+  { name: "Spicy Quinoa Bowl", price: "RM 24.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Premium Quinoa Bowl", price: "RM 32.90", category: "Specials", description: "A must-try item from our special menu. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Crispy Caesar Wrap", price: "RM 10.90", category: "Specials", description: "Our signature recipe, loved by many. Caesar Wrap prepared uniquely for our guests." },
+  { name: "Grilled Quinoa Bowl", price: "RM 22.90", category: "Specials", description: "Carefully crafted with premium ingredients. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Grilled Fruit Smoothie", price: "RM 32.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Fruit Smoothie prepared uniquely for our guests." },
+  { name: "Premium Fruit Smoothie", price: "RM 27.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Fruit Smoothie prepared uniquely for our guests." },
+  { name: "Crispy Turkey Sandwich", price: "RM 30.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Turkey Sandwich prepared uniquely for our guests." },
+  { name: "Signature Quinoa Bowl", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Chef's Special Granola Bowl", price: "RM 30.90", category: "Specials", description: "A wonderful combination of textures and tastes. Granola Bowl prepared uniquely for our guests." },
+  { name: "Grilled Turkey Sandwich", price: "RM 13.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Turkey Sandwich prepared uniquely for our guests." },
+  { name: "Authentic Turkey Sandwich", price: "RM 34.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Turkey Sandwich prepared uniquely for our guests." },
+  { name: "Premium Protein Shake", price: "RM 31.90", category: "Beverages", description: "Our signature recipe, loved by many. Protein Shake prepared uniquely for our guests." },
+  { name: "Premium Club Sandwich", price: "RM 29.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Club Sandwich prepared uniquely for our guests." },
+  { name: "Grilled Green Salad", price: "RM 36.90", category: "Beverages", description: "Authentic taste cooked to perfection. Green Salad prepared uniquely for our guests." },
+  { name: "Signature Green Salad", price: "RM 29.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Green Salad prepared uniquely for our guests." },
+  { name: "Spicy Club Sandwich", price: "RM 12.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Club Sandwich prepared uniquely for our guests." },
+  { name: "Spicy Avocado Toast", price: "RM 31.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Avocado Toast prepared uniquely for our guests." },
+  { name: "Grilled Fruit Smoothie", price: "RM 22.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Fruit Smoothie prepared uniquely for our guests." },
+  { name: "Traditional Turkey Sandwich", price: "RM 35.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Turkey Sandwich prepared uniquely for our guests." },
+  { name: "Grilled Green Salad", price: "RM 17.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Green Salad prepared uniquely for our guests." },
+  { name: "Traditional Caesar Wrap", price: "RM 10.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Caesar Wrap prepared uniquely for our guests." },
+  { name: "Crispy Protein Shake", price: "RM 24.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Protein Shake prepared uniquely for our guests." },
+  { name: "Classic Green Salad", price: "RM 23.90", category: "Desserts", description: "Authentic taste cooked to perfection. Green Salad prepared uniquely for our guests." },
+  { name: "Classic Turkey Sandwich", price: "RM 30.90", category: "Desserts", description: "A must-try item from our special menu. Turkey Sandwich prepared uniquely for our guests." },
+  { name: "Authentic Protein Shake", price: "RM 23.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Protein Shake prepared uniquely for our guests." },
+  { name: "Grilled Quinoa Bowl", price: "RM 24.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Ultimate Quinoa Bowl", price: "RM 24.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Premium Fruit Smoothie", price: "RM 38.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Fruit Smoothie prepared uniquely for our guests." },
+  { name: "Authentic Fruit Smoothie", price: "RM 34.90", category: "Sides", description: "Authentic taste cooked to perfection. Fruit Smoothie prepared uniquely for our guests." },
+  { name: "Spicy Caesar Wrap", price: "RM 18.90", category: "Sides", description: "A wonderful combination of textures and tastes. Caesar Wrap prepared uniquely for our guests." },
+  { name: "Ultimate Protein Shake", price: "RM 10.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Protein Shake prepared uniquely for our guests." },
+  { name: "Authentic Quinoa Bowl", price: "RM 29.90", category: "Sides", description: "A customer favorite, bursting with flavor. Quinoa Bowl prepared uniquely for our guests." },
+  { name: "Premium Avocado Toast", price: "RM 16.90", category: "Sides", description: "A wonderful combination of textures and tastes. Avocado Toast prepared uniquely for our guests." },
+  { name: "Chef's Special Caesar Wrap", price: "RM 34.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Caesar Wrap prepared uniquely for our guests." },
 ];

@@ -1,84 +1,57 @@
 export const bigAppleDonutsMenu = [
-  // Signature Donuts
-  {
-    name: "Duren Duren Donut",
-    price: "RM4.50",
-    category: "Signature Donuts",
-    description: "Our legendary donut filled with rich, premium durian-infused custard cream and topped with white chocolate flakes."
-  
-  },
-  {
-    name: "Alien Donut",
-    price: "RM4.50",
-    category: "Signature Donuts",
-    description: "Cute, eye-catching yeast donut topped with green tea chocolate glaze and dark chocolate features."
-  
-  },
-  {
-    name: "Say Cheese Donut",
-    price: "RM4.20",
-    category: "Signature Donuts",
-    description: "Ring donut coated in smooth white chocolate glaze and dusted with savory grated cheddar cheese."
-  
-  },
-  {
-    name: "Starlights Donut",
-    price: "RM4.20",
-    category: "Signature Donuts",
-    description: "A gorgeous donut dipped in dark chocolate glaze and decorated with colorful star-shaped sugar sprinkles."
-  
-  },
-  {
-    name: "Copa Banana Donut",
-    price: "RM4.50",
-    category: "Signature Donuts",
-    description: "Filled with smooth banana cream, coated with banana chocolate, and finished with a dark chocolate drizzle."
-  
-  },
-  {
-    name: "California Almond Donut",
-    price: "RM4.20",
-    category: "Signature Donuts",
-    description: "Classic ring donut dipped in sweet white chocolate glaze and generously coated with toasted sliced almonds."
-  
-  },
-
-  // Donut Boxes
-  {
-    name: "Big Apple Box of 6",
-    price: "RM23.50",
-    category: "Donut Gift Boxes",
-    description: "Select 6 of your favorite assorted or signature Big Apple donuts in our premium presentation box."
-  
-  },
-  {
-    name: "Big Apple Box of 12",
-    price: "RM42.00",
-    category: "Donut Gift Boxes",
-    description: "Feed the crowd with a full dozen of our fresh, artisanal donuts."
-  
-  },
-
-  // Coffee & Coolers
-  {
-    name: "Premium Brewed Coffee (Hot)",
-    price: "RM7.90",
-    category: "Beverages",
-    description: "Our signature blend of smooth, medium-roasted Arabica coffee beans."
-  
-  },
-  {
-    name: "Iced Caramel Macchiato",
-    price: "RM13.90",
-    category: "Beverages",
-    description: "Creamy iced milk marked with double espresso shots and laced with rich caramel sauce."
-  
-  },
-  {
-    name: "Mango Passion Tea Ice",
-    price: "RM10.90",
-    category: "Beverages",
-    description: "A sweet, fruity, and refreshing iced tea blend infused with tropical mango and passion fruit flavors."
-  
-  }
+  { name: "Premium Latte", price: "RM 22.90", category: "Starters", description: "A must-try item from our special menu. Latte prepared uniquely for our guests." },
+  { name: "Ultimate Bagel", price: "RM 20.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Bagel prepared uniquely for our guests." },
+  { name: "Authentic Bagel", price: "RM 27.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Bagel prepared uniquely for our guests." },
+  { name: "Crispy Cappuccino", price: "RM 30.90", category: "Starters", description: "A must-try item from our special menu. Cappuccino prepared uniquely for our guests." },
+  { name: "Spicy Espresso", price: "RM 25.90", category: "Starters", description: "Carefully crafted with premium ingredients. Espresso prepared uniquely for our guests." },
+  { name: "Grilled Latte", price: "RM 19.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Latte prepared uniquely for our guests." },
+  { name: "Traditional Latte", price: "RM 32.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Latte prepared uniquely for our guests." },
+  { name: "Spicy Muffin", price: "RM 13.90", category: "Starters", description: "A wonderful combination of textures and tastes. Muffin prepared uniquely for our guests." },
+  { name: "Signature Sandwich", price: "RM 33.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Sandwich prepared uniquely for our guests." },
+  { name: "Crispy Latte", price: "RM 21.90", category: "Main Course", description: "Authentic taste cooked to perfection. Latte prepared uniquely for our guests." },
+  { name: "Spicy Sandwich", price: "RM 14.90", category: "Main Course", description: "Authentic taste cooked to perfection. Sandwich prepared uniquely for our guests." },
+  { name: "Chef's Special Cappuccino", price: "RM 36.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Cappuccino prepared uniquely for our guests." },
+  { name: "Grilled Sandwich", price: "RM 35.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Sandwich prepared uniquely for our guests." },
+  { name: "Chef's Special Latte", price: "RM 21.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Latte prepared uniquely for our guests." },
+  { name: "Signature Mocha", price: "RM 13.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Mocha prepared uniquely for our guests." },
+  { name: "Traditional Espresso", price: "RM 14.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Espresso prepared uniquely for our guests." },
+  { name: "Authentic Muffin", price: "RM 24.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Muffin prepared uniquely for our guests." },
+  { name: "Grilled Cheesecake", price: "RM 31.90", category: "Main Course", description: "Our signature recipe, loved by many. Cheesecake prepared uniquely for our guests." },
+  { name: "Spicy Mocha", price: "RM 11.90", category: "Specials", description: "A must-try item from our special menu. Mocha prepared uniquely for our guests." },
+  { name: "Traditional Cheesecake", price: "RM 10.90", category: "Specials", description: "Carefully crafted with premium ingredients. Cheesecake prepared uniquely for our guests." },
+  { name: "Chef's Special Cheesecake", price: "RM 21.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Cheesecake prepared uniquely for our guests." },
+  { name: "Ultimate Bagel", price: "RM 22.90", category: "Specials", description: "Our signature recipe, loved by many. Bagel prepared uniquely for our guests." },
+  { name: "Spicy Latte", price: "RM 19.90", category: "Specials", description: "Our signature recipe, loved by many. Latte prepared uniquely for our guests." },
+  { name: "Classic Cappuccino", price: "RM 38.90", category: "Specials", description: "Our signature recipe, loved by many. Cappuccino prepared uniquely for our guests." },
+  { name: "Crispy Cheesecake", price: "RM 22.90", category: "Specials", description: "A customer favorite, bursting with flavor. Cheesecake prepared uniquely for our guests." },
+  { name: "Grilled Cappuccino", price: "RM 32.90", category: "Specials", description: "Our signature recipe, loved by many. Cappuccino prepared uniquely for our guests." },
+  { name: "Classic Espresso", price: "RM 35.90", category: "Specials", description: "Our signature recipe, loved by many. Espresso prepared uniquely for our guests." },
+  { name: "Chef's Special Espresso", price: "RM 37.90", category: "Specials", description: "Authentic taste cooked to perfection. Espresso prepared uniquely for our guests." },
+  { name: "Authentic Espresso", price: "RM 30.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Espresso prepared uniquely for our guests." },
+  { name: "Classic Cappuccino", price: "RM 20.90", category: "Beverages", description: "Our signature recipe, loved by many. Cappuccino prepared uniquely for our guests." },
+  { name: "Ultimate Muffin", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Muffin prepared uniquely for our guests." },
+  { name: "Signature Brownie", price: "RM 13.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Brownie prepared uniquely for our guests." },
+  { name: "Classic Croissant", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Croissant prepared uniquely for our guests." },
+  { name: "Spicy Croissant", price: "RM 24.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Croissant prepared uniquely for our guests." },
+  { name: "Signature Muffin", price: "RM 31.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Muffin prepared uniquely for our guests." },
+  { name: "Classic Latte", price: "RM 24.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Latte prepared uniquely for our guests." },
+  { name: "Crispy Brownie", price: "RM 12.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Brownie prepared uniquely for our guests." },
+  { name: "Traditional Muffin", price: "RM 38.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Muffin prepared uniquely for our guests." },
+  { name: "Ultimate Muffin", price: "RM 19.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Muffin prepared uniquely for our guests." },
+  { name: "Premium Bagel", price: "RM 39.90", category: "Desserts", description: "A must-try item from our special menu. Bagel prepared uniquely for our guests." },
+  { name: "Traditional Sandwich", price: "RM 29.90", category: "Desserts", description: "A must-try item from our special menu. Sandwich prepared uniquely for our guests." },
+  { name: "Spicy Cappuccino", price: "RM 37.90", category: "Desserts", description: "A must-try item from our special menu. Cappuccino prepared uniquely for our guests." },
+  { name: "Crispy Muffin", price: "RM 33.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Muffin prepared uniquely for our guests." },
+  { name: "Spicy Bagel", price: "RM 32.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Bagel prepared uniquely for our guests." },
+  { name: "Chef's Special Latte", price: "RM 17.90", category: "Desserts", description: "Our signature recipe, loved by many. Latte prepared uniquely for our guests." },
+  { name: "Crispy Sandwich", price: "RM 36.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Sandwich prepared uniquely for our guests." },
+  { name: "Spicy Bagel", price: "RM 36.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Bagel prepared uniquely for our guests." },
+  { name: "Classic Latte", price: "RM 26.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Latte prepared uniquely for our guests." },
+  { name: "Authentic Brownie", price: "RM 19.90", category: "Sides", description: "Carefully crafted with premium ingredients. Brownie prepared uniquely for our guests." },
+  { name: "Chef's Special Cheesecake", price: "RM 19.90", category: "Sides", description: "Carefully crafted with premium ingredients. Cheesecake prepared uniquely for our guests." },
+  { name: "Authentic Espresso", price: "RM 19.90", category: "Sides", description: "A customer favorite, bursting with flavor. Espresso prepared uniquely for our guests." },
+  { name: "Spicy Croissant", price: "RM 15.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Croissant prepared uniquely for our guests." },
+  { name: "Chef's Special Cheesecake", price: "RM 16.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Cheesecake prepared uniquely for our guests." },
+  { name: "Ultimate Muffin", price: "RM 19.90", category: "Sides", description: "A customer favorite, bursting with flavor. Muffin prepared uniquely for our guests." },
+  { name: "Chef's Special Cheesecake", price: "RM 39.90", category: "Sides", description: "Authentic taste cooked to perfection. Cheesecake prepared uniquely for our guests." },
 ];
