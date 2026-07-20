@@ -476,7 +476,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "FAST FOOD", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Boss Burger Solo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Boss Burger Solo menu with prices in malaysia</h1>
 <p>Welcome to Boss Burger Solo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of fast food cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -499,7 +499,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "FAST FOOD", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Ahmad Fried Chicken Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Ahmad Fried Chicken menu with prices in malaysia</h1>
 <p>Welcome to Ahmad Fried Chicken. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of fast food cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -522,7 +522,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "FAST FOOD", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Fat Burger Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Fat Burger menu with prices in malaysia</h1>
 <p>Welcome to The Fat Burger. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of fast food cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -545,7 +545,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "FAST FOOD", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>D Apple Fried Chicken Menu</h2>
+<h1 class="text-4xl font-bold mb-4">D Apple Fried Chicken menu with prices in malaysia</h1>
 <p>Welcome to D Apple Fried Chicken. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of fast food cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -568,7 +568,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1476224203421-9ce22602115a?w=600&h=400&fit=crop",
       tags: [{ name: "FAST FOOD", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Burger & Lobster Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Burger & Lobster menu with prices in malaysia</h1>
 <p>Welcome to Burger & Lobster. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of fast food cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1260,7 +1260,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pejam Mata Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pejam Mata Cafe menu with prices in malaysia</h1>
 <p>Welcome to Pejam Mata Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1283,7 +1283,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Arest Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Arest Cafe menu with prices in malaysia</h1>
 <p>Welcome to Arest Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1306,7 +1306,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Daily Fix Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Daily Fix Cafe menu with prices in malaysia</h1>
 <p>Welcome to The Daily Fix Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1329,7 +1329,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Bijou Cafe Ara Damansara Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Bijou Cafe Ara Damansara menu with prices in malaysia</h1>
 <p>Welcome to Bijou Cafe Ara Damansara. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1352,7 +1352,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Christine's Bakery Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Christine's Bakery menu with prices in malaysia</h1>
 <p>Welcome to Christine's Bakery. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1375,7 +1375,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Yardhouse Kitchen Cafe & Bar Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Yardhouse Kitchen Cafe & Bar menu with prices in malaysia</h1>
 <p>Welcome to The Yardhouse Kitchen Cafe & Bar. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1398,7 +1398,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Ho Kow Hainam Kopitiam Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Ho Kow Hainam Kopitiam menu with prices in malaysia</h1>
 <p>Welcome to Ho Kow Hainam Kopitiam. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1421,7 +1421,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Luck Bros Kopi Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Luck Bros Kopi menu with prices in malaysia</h1>
 <p>Welcome to Luck Bros Kopi. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1444,7 +1444,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kula Cakes Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kula Cakes menu with prices in malaysia</h1>
 <p>Welcome to Kula Cakes. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1467,7 +1467,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kenny Hills Bakers Georgetown Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kenny Hills Bakers Georgetown menu with prices in malaysia</h1>
 <p>Welcome to Kenny Hills Bakers Georgetown. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1490,7 +1490,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Gula Cakery Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Gula Cakery menu with prices in malaysia</h1>
 <p>Welcome to Gula Cakery. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1513,7 +1513,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Joja Bagels Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Joja Bagels menu with prices in malaysia</h1>
 <p>Welcome to Joja Bagels. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1536,7 +1536,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kopihut Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kopihut menu with prices in malaysia</h1>
 <p>Welcome to Kopihut. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1559,7 +1559,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Traffic Bean Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Traffic Bean menu with prices in malaysia</h1>
 <p>Welcome to Traffic Bean. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1582,7 +1582,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kenny Hills Bakers George Town Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kenny Hills Bakers George Town menu with prices in malaysia</h1>
 <p>Welcome to Kenny Hills Bakers George Town. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1605,7 +1605,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kopi Ping Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kopi Ping menu with prices in malaysia</h1>
 <p>Welcome to Kopi Ping. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1628,7 +1628,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nimmies Pastry Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nimmies Pastry Cafe menu with prices in malaysia</h1>
 <p>Welcome to Nimmies Pastry Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1651,7 +1651,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nasken Coffee Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nasken Coffee menu with prices in malaysia</h1>
 <p>Welcome to Nasken Coffee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1674,7 +1674,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kopi Hut Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kopi Hut menu with prices in malaysia</h1>
 <p>Welcome to Kopi Hut. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1697,7 +1697,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Brew House Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Brew House menu with prices in malaysia</h1>
 <p>Welcome to Brew House. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1720,7 +1720,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dd36?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Brew And Bread Kota Kemuning Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Brew And Bread Kota Kemuning menu with prices in malaysia</h1>
 <p>Welcome to Brew And Bread Kota Kemuning. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1742,7 +1742,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cafe Salim Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cafe Salim menu with prices in malaysia</h1>
 <p>Welcome to Cafe Salim. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1764,7 +1764,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1588168333986-5078d1255e82?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Shikomi Coffee Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Shikomi Coffee menu with prices in malaysia</h1>
 <p>Welcome to Shikomi Coffee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1786,7 +1786,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pak Mat Western Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pak Mat Western Cafe menu with prices in malaysia</h1>
 <p>Welcome to Pak Mat Western Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1808,7 +1808,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Daily Coffee Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Daily Coffee menu with prices in malaysia</h1>
 <p>Welcome to Daily Coffee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1830,7 +1830,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1482049149124-69bfb0c8046f?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Ekues Cabin Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Ekues Cabin Cafe menu with prices in malaysia</h1>
 <p>Welcome to Ekues Cabin Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1852,7 +1852,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1546069901-ba6c37922b7a?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Sogno Coffee Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Sogno Coffee menu with prices in malaysia</h1>
 <p>Welcome to Sogno Coffee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1874,7 +1874,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Makan Fizzy Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Makan Fizzy Cafe menu with prices in malaysia</h1>
 <p>Welcome to Makan Fizzy Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1896,7 +1896,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kopitiam Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kopitiam menu with prices in malaysia</h1>
 <p>Welcome to Kopitiam. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1918,7 +1918,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1504754522776-8f4fdfce8e37?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Rich Kopitiam Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Rich Kopitiam menu with prices in malaysia</h1>
 <p>Welcome to Rich Kopitiam. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1940,7 +1940,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Timothy Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Timothy Cafe menu with prices in malaysia</h1>
 <p>Welcome to Timothy Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1962,7 +1962,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Malaiqa Gula Cakery Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Malaiqa Gula Cakery menu with prices in malaysia</h1>
 <p>Welcome to Malaiqa Gula Cakery. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -1984,7 +1984,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1476224203421-9ce22602115a?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>San Francisco Coffee Menu</h2>
+<h1 class="text-4xl font-bold mb-4">San Francisco Coffee menu with prices in malaysia</h1>
 <p>Welcome to San Francisco Coffee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -2006,7 +2006,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Reggae Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Reggae Cafe menu with prices in malaysia</h1>
 <p>Welcome to Reggae Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -2028,7 +2028,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop",
       tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>103 Coffee Menu</h2>
+<h1 class="text-4xl font-bold mb-4">103 Coffee menu with prices in malaysia</h1>
 <p>Welcome to 103 Coffee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -2918,7 +2918,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Shihlin Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Shihlin menu with prices in malaysia</h1>
 <p>Welcome to Shihlin. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -2941,7 +2941,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Bistro L A Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Bistro L A menu with prices in malaysia</h1>
 <p>Welcome to Bistro L A. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -2964,7 +2964,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Yatie Kitchen Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Yatie Kitchen menu with prices in malaysia</h1>
 <p>Welcome to Yatie Kitchen. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -2987,7 +2987,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Uncle Bob Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Uncle Bob menu with prices in malaysia</h1>
 <p>Welcome to Uncle Bob. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3010,7 +3010,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pine Yard Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pine Yard menu with prices in malaysia</h1>
 <p>Welcome to Pine Yard. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3033,7 +3033,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kafe Kleptokrat Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kafe Kleptokrat menu with prices in malaysia</h1>
 <p>Welcome to Kafe Kleptokrat. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3056,7 +3056,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Annabell Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Annabell menu with prices in malaysia</h1>
 <p>Welcome to Annabell. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3079,7 +3079,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Entier French Dining Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Entier French Dining menu with prices in malaysia</h1>
 <p>Welcome to Entier French Dining. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3102,7 +3102,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cili Kampung Hartamas Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cili Kampung Hartamas menu with prices in malaysia</h1>
 <p>Welcome to Cili Kampung Hartamas. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3125,7 +3125,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Sek Yuen Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Sek Yuen menu with prices in malaysia</h1>
 <p>Welcome to Sek Yuen. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3148,7 +3148,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Common Feed Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Common Feed menu with prices in malaysia</h1>
 <p>Welcome to Common Feed. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3171,7 +3171,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Qing Banquet & Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Qing Banquet & menu with prices in malaysia</h1>
 <p>Welcome to The Qing Banquet &. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3194,7 +3194,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>La Gaya Menu</h2>
+<h1 class="text-4xl font-bold mb-4">La Gaya menu with prices in malaysia</h1>
 <p>Welcome to La Gaya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3217,7 +3217,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kindan Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kindan menu with prices in malaysia</h1>
 <p>Welcome to Kindan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3240,7 +3240,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Flat 18 Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Flat 18 menu with prices in malaysia</h1>
 <p>Welcome to Flat 18. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3263,7 +3263,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Roofino Sky Dining Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Roofino Sky Dining menu with prices in malaysia</h1>
 <p>Welcome to Roofino Sky Dining. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3286,7 +3286,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Open House Raya Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Open House Raya menu with prices in malaysia</h1>
 <p>Welcome to Open House Raya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3309,7 +3309,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jibby Chow Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jibby Chow menu with prices in malaysia</h1>
 <p>Welcome to Jibby Chow. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3332,7 +3332,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Hidden Langkawi Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Hidden Langkawi menu with prices in malaysia</h1>
 <p>Welcome to Hidden Langkawi. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3355,7 +3355,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mykori Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mykori menu with prices in malaysia</h1>
 <p>Welcome to Mykori. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3378,7 +3378,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nifayyi Warung & Kafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nifayyi Warung & Kafe menu with prices in malaysia</h1>
 <p>Welcome to Nifayyi Warung & Kafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3401,7 +3401,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>House Of Wheat Menu</h2>
+<h1 class="text-4xl font-bold mb-4">House Of Wheat menu with prices in malaysia</h1>
 <p>Welcome to House Of Wheat. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3424,7 +3424,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Lago The Lake Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Lago The Lake menu with prices in malaysia</h1>
 <p>Welcome to Lago The Lake. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3447,7 +3447,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Keijometo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Keijometo menu with prices in malaysia</h1>
 <p>Welcome to Keijometo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3470,7 +3470,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jibril Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jibril menu with prices in malaysia</h1>
 <p>Welcome to Jibril. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3493,7 +3493,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Koppiku Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Koppiku menu with prices in malaysia</h1>
 <p>Welcome to Koppiku. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3516,7 +3516,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kantan Damas Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kantan Damas menu with prices in malaysia</h1>
 <p>Welcome to Kantan Damas. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3539,7 +3539,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Oomph Tropika Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Oomph Tropika menu with prices in malaysia</h1>
 <p>Welcome to Oomph Tropika. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3562,7 +3562,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Tgif Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Tgif menu with prices in malaysia</h1>
 <p>Welcome to Tgif. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3585,7 +3585,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mod Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mod menu with prices in malaysia</h1>
 <p>Welcome to Mod. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3608,7 +3608,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Fowlboys Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Fowlboys menu with prices in malaysia</h1>
 <p>Welcome to Fowlboys. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3631,7 +3631,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Ritzy Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Ritzy menu with prices in malaysia</h1>
 <p>Welcome to Ritzy. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3654,7 +3654,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Butter & Spice Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Butter & Spice menu with prices in malaysia</h1>
 <p>Welcome to Butter & Spice. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3677,7 +3677,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Wallace Chicken Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Wallace Chicken menu with prices in malaysia</h1>
 <p>Welcome to Wallace Chicken. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3700,7 +3700,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Norm Micro Roastery Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Norm Micro Roastery menu with prices in malaysia</h1>
 <p>Welcome to Norm Micro Roastery. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3723,7 +3723,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pokok Pyramid Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pokok Pyramid menu with prices in malaysia</h1>
 <p>Welcome to Pokok Pyramid. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3746,7 +3746,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Roost Bayan Lepas Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Roost Bayan Lepas menu with prices in malaysia</h1>
 <p>Welcome to The Roost Bayan Lepas. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3769,7 +3769,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nero Nero Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nero Nero menu with prices in malaysia</h1>
 <p>Welcome to Nero Nero. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3792,7 +3792,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Calia Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Calia menu with prices in malaysia</h1>
 <p>Welcome to Calia. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3815,7 +3815,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Thong Bowl Paradigm Mall Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Thong Bowl Paradigm Mall menu with prices in malaysia</h1>
 <p>Welcome to Thong Bowl Paradigm Mall. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3838,7 +3838,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mr Tuk Tuk Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mr Tuk Tuk menu with prices in malaysia</h1>
 <p>Welcome to Mr Tuk Tuk. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3861,7 +3861,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Haiku Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Haiku menu with prices in malaysia</h1>
 <p>Welcome to Haiku. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3884,7 +3884,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Leen's Middle East Kitchen Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Leen's Middle East Kitchen menu with prices in malaysia</h1>
 <p>Welcome to Leen's Middle East Kitchen. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3907,7 +3907,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cili Kampung The Light Hotel Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cili Kampung The Light Hotel menu with prices in malaysia</h1>
 <p>Welcome to Cili Kampung The Light Hotel. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3930,7 +3930,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Thank God It's Friday Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Thank God It's Friday menu with prices in malaysia</h1>
 <p>Welcome to Thank God It's Friday. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3953,7 +3953,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Hot Bird Damansara Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Hot Bird Damansara menu with prices in malaysia</h1>
 <p>Welcome to Hot Bird Damansara. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3976,7 +3976,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pineyard Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pineyard menu with prices in malaysia</h1>
 <p>Welcome to Pineyard. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -3999,7 +3999,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kompassion Thai Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kompassion Thai menu with prices in malaysia</h1>
 <p>Welcome to Kompassion Thai. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4022,7 +4022,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Roomah Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Roomah menu with prices in malaysia</h1>
 <p>Welcome to The Roomah. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4045,7 +4045,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Giggles And Geeks Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Giggles And Geeks menu with prices in malaysia</h1>
 <p>Welcome to Giggles And Geeks. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4068,7 +4068,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Maki Maki Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Maki Maki menu with prices in malaysia</h1>
 <p>Welcome to Maki Maki. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4091,7 +4091,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Lepau Kuching Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Lepau Kuching menu with prices in malaysia</h1>
 <p>Welcome to Lepau Kuching. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4114,7 +4114,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Uo Shin Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Uo Shin menu with prices in malaysia</h1>
 <p>Welcome to Uo Shin. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4137,7 +4137,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cc Mel Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cc Mel menu with prices in malaysia</h1>
 <p>Welcome to Cc Mel. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4160,7 +4160,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>White Butter Menu</h2>
+<h1 class="text-4xl font-bold mb-4">White Butter menu with prices in malaysia</h1>
 <p>Welcome to White Butter. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4183,7 +4183,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Oomph Petaling Jaya Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Oomph Petaling Jaya menu with prices in malaysia</h1>
 <p>Welcome to Oomph Petaling Jaya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4206,7 +4206,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Yut Kee Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Yut Kee menu with prices in malaysia</h1>
 <p>Welcome to Yut Kee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4229,7 +4229,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Two Sons Bistro Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Two Sons Bistro menu with prices in malaysia</h1>
 <p>Welcome to Two Sons Bistro. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4252,7 +4252,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Rembayung Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Rembayung menu with prices in malaysia</h1>
 <p>Welcome to Rembayung. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4275,7 +4275,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Baba Phang Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Baba Phang menu with prices in malaysia</h1>
 <p>Welcome to Baba Phang. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4298,7 +4298,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Ginger Bamboo Hills Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Ginger Bamboo Hills menu with prices in malaysia</h1>
 <p>Welcome to Ginger Bamboo Hills. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4321,7 +4321,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Fatty Crab Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Fatty Crab menu with prices in malaysia</h1>
 <p>Welcome to Fatty Crab. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4344,7 +4344,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Atsky Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Atsky menu with prices in malaysia</h1>
 <p>Welcome to Atsky. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4367,7 +4367,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Tehyeish Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Tehyeish menu with prices in malaysia</h1>
 <p>Welcome to Tehyeish. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4390,7 +4390,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>IKEA Menu</h2>
+<h1 class="text-4xl font-bold mb-4">IKEA menu with prices in malaysia</h1>
 <p>Welcome to IKEA. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4413,7 +4413,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pokok Lalaport Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pokok Lalaport menu with prices in malaysia</h1>
 <p>Welcome to Pokok Lalaport. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4436,7 +4436,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Salam Noodles Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Salam Noodles menu with prices in malaysia</h1>
 <p>Welcome to Salam Noodles. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4459,7 +4459,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Lesong Johara Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Lesong Johara menu with prices in malaysia</h1>
 <p>Welcome to Lesong Johara. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4482,7 +4482,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>I Love Yoo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">I Love Yoo menu with prices in malaysia</h1>
 <p>Welcome to I Love Yoo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4505,7 +4505,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Baan Suwarin Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Baan Suwarin menu with prices in malaysia</h1>
 <p>Welcome to Baan Suwarin. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4528,7 +4528,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Makan Tengahari Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Makan Tengahari menu with prices in malaysia</h1>
 <p>Welcome to Makan Tengahari. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4551,7 +4551,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Saigon Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Saigon menu with prices in malaysia</h1>
 <p>Welcome to Saigon. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4574,7 +4574,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Makan Malam Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Makan Malam menu with prices in malaysia</h1>
 <p>Welcome to Makan Malam. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4597,7 +4597,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Marini's On 57 Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Marini's On 57 menu with prices in malaysia</h1>
 <p>Welcome to Marini's On 57. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4620,7 +4620,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jaman Tory Resepi Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jaman Tory Resepi menu with prices in malaysia</h1>
 <p>Welcome to Jaman Tory Resepi. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4643,7 +4643,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nak Nak Ioi Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nak Nak Ioi menu with prices in malaysia</h1>
 <p>Welcome to Nak Nak Ioi. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4666,7 +4666,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Ali Muthu Ah Hock Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Ali Muthu Ah Hock menu with prices in malaysia</h1>
 <p>Welcome to Ali Muthu Ah Hock. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4689,7 +4689,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>I Dragon Menu</h2>
+<h1 class="text-4xl font-bold mb-4">I Dragon menu with prices in malaysia</h1>
 <p>Welcome to I Dragon. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4712,7 +4712,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Starter Food Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Starter Food menu with prices in malaysia</h1>
 <p>Welcome to Starter Food. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4735,7 +4735,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Momoyo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Momoyo menu with prices in malaysia</h1>
 <p>Welcome to Momoyo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4758,7 +4758,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Uncle Jack Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Uncle Jack menu with prices in malaysia</h1>
 <p>Welcome to Uncle Jack. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4781,7 +4781,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>If Only Menu</h2>
+<h1 class="text-4xl font-bold mb-4">If Only menu with prices in malaysia</h1>
 <p>Welcome to If Only. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4804,7 +4804,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Johnny Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Johnny menu with prices in malaysia</h1>
 <p>Welcome to Johnny. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4827,7 +4827,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nippori Bistro Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nippori Bistro menu with prices in malaysia</h1>
 <p>Welcome to Nippori Bistro. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4850,7 +4850,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Gastrohub Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Gastrohub menu with prices in malaysia</h1>
 <p>Welcome to Gastrohub. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4873,7 +4873,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Frenchie's Brunch & Dates Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Frenchie's Brunch & Dates menu with prices in malaysia</h1>
 <p>Welcome to Frenchie's Brunch & Dates. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4896,7 +4896,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Siang Malam Sheila Rusly Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Siang Malam Sheila Rusly menu with prices in malaysia</h1>
 <p>Welcome to Siang Malam Sheila Rusly. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4919,7 +4919,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>P&c Kitchen Eco Ardence Menu</h2>
+<h1 class="text-4xl font-bold mb-4">P&c Kitchen Eco Ardence menu with prices in malaysia</h1>
 <p>Welcome to P&c Kitchen Eco Ardence. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4942,7 +4942,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jp & Co Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jp & Co menu with prices in malaysia</h1>
 <p>Welcome to Jp & Co. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4965,7 +4965,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Hotbird Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Hotbird menu with prices in malaysia</h1>
 <p>Welcome to Hotbird. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -4988,7 +4988,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Bamboo Hills Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Bamboo Hills menu with prices in malaysia</h1>
 <p>Welcome to Bamboo Hills. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5011,7 +5011,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mesa On 51 Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mesa On 51 menu with prices in malaysia</h1>
 <p>Welcome to Mesa On 51. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5034,7 +5034,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Hotzilla Ss15 Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Hotzilla Ss15 menu with prices in malaysia</h1>
 <p>Welcome to Hotzilla Ss15. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5057,7 +5057,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>All About Chew Menu</h2>
+<h1 class="text-4xl font-bold mb-4">All About Chew menu with prices in malaysia</h1>
 <p>Welcome to All About Chew. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5080,7 +5080,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Strangers 47 Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Strangers 47 menu with prices in malaysia</h1>
 <p>Welcome to Strangers 47. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5103,7 +5103,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Asador V Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Asador V menu with prices in malaysia</h1>
 <p>Welcome to Asador V. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5126,7 +5126,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Fifty Tales Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Fifty Tales menu with prices in malaysia</h1>
 <p>Welcome to Fifty Tales. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5149,7 +5149,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Uncle Don Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Uncle Don menu with prices in malaysia</h1>
 <p>Welcome to Uncle Don. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5172,7 +5172,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Raw Kitchen Hall Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Raw Kitchen Hall menu with prices in malaysia</h1>
 <p>Welcome to Raw Kitchen Hall. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5195,7 +5195,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Sds Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Sds menu with prices in malaysia</h1>
 <p>Welcome to Sds. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5218,7 +5218,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Fuego Troika Sky Dining Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Fuego Troika Sky Dining menu with prices in malaysia</h1>
 <p>Welcome to Fuego Troika Sky Dining. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5241,7 +5241,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Makanan Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Makanan menu with prices in malaysia</h1>
 <p>Welcome to Makanan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5264,7 +5264,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Smith And Wollensky Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Smith And Wollensky menu with prices in malaysia</h1>
 <p>Welcome to Smith And Wollensky. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5287,7 +5287,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Happy Potato Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Happy Potato menu with prices in malaysia</h1>
 <p>Welcome to Happy Potato. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5310,7 +5310,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Thong Bowl Ioi City Mall Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Thong Bowl Ioi City Mall menu with prices in malaysia</h1>
 <p>Welcome to Thong Bowl Ioi City Mall. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5333,7 +5333,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Wet Deck W Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Wet Deck W menu with prices in malaysia</h1>
 <p>Welcome to Wet Deck W. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5356,7 +5356,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Soru Station Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Soru Station menu with prices in malaysia</h1>
 <p>Welcome to Soru Station. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5379,7 +5379,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mamak Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mamak menu with prices in malaysia</h1>
 <p>Welcome to Mamak. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5402,7 +5402,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mrsm Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mrsm menu with prices in malaysia</h1>
 <p>Welcome to Mrsm. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5425,7 +5425,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Wanomiya Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Wanomiya menu with prices in malaysia</h1>
 <p>Welcome to Wanomiya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5448,7 +5448,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jibril Ss15 Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jibril Ss15 menu with prices in malaysia</h1>
 <p>Welcome to Jibril Ss15. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5471,7 +5471,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kooky Plate Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kooky Plate menu with prices in malaysia</h1>
 <p>Welcome to Kooky Plate. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5494,7 +5494,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Noir Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Noir menu with prices in malaysia</h1>
 <p>Welcome to Noir. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5517,7 +5517,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Biru Biru On The Island Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Biru Biru On The Island menu with prices in malaysia</h1>
 <p>Welcome to Biru Biru On The Island. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5540,7 +5540,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Potluck Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Potluck menu with prices in malaysia</h1>
 <p>Welcome to Potluck. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5563,7 +5563,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Stefania Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Stefania menu with prices in malaysia</h1>
 <p>Welcome to Stefania. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5586,7 +5586,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Dojo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Dojo menu with prices in malaysia</h1>
 <p>Welcome to Dojo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5609,7 +5609,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Sweetree Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Sweetree menu with prices in malaysia</h1>
 <p>Welcome to Sweetree. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5632,7 +5632,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Q Bistro Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Q Bistro menu with prices in malaysia</h1>
 <p>Welcome to Q Bistro. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5655,7 +5655,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nasi Lemak Burung Hantu Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nasi Lemak Burung Hantu menu with prices in malaysia</h1>
 <p>Welcome to Nasi Lemak Burung Hantu. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5678,7 +5678,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Supamala Hotpot Pyramid Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Supamala Hotpot Pyramid menu with prices in malaysia</h1>
 <p>Welcome to Supamala Hotpot Pyramid. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5701,7 +5701,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Duaswarp Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Duaswarp menu with prices in malaysia</h1>
 <p>Welcome to Duaswarp. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5724,7 +5724,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kapitan Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kapitan menu with prices in malaysia</h1>
 <p>Welcome to Kapitan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5747,7 +5747,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>La Spiga D Oro Menu</h2>
+<h1 class="text-4xl font-bold mb-4">La Spiga D Oro menu with prices in malaysia</h1>
 <p>Welcome to La Spiga D Oro. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5770,7 +5770,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jibby The Park Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jibby The Park menu with prices in malaysia</h1>
 <p>Welcome to Jibby The Park. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5793,7 +5793,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Farm The Sphere Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Farm The Sphere menu with prices in malaysia</h1>
 <p>Welcome to The Farm The Sphere. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5816,7 +5816,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Peninsula House Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Peninsula House menu with prices in malaysia</h1>
 <p>Welcome to Peninsula House. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5839,7 +5839,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>O'brien Menu</h2>
+<h1 class="text-4xl font-bold mb-4">O'brien menu with prices in malaysia</h1>
 <p>Welcome to O'brien. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5862,7 +5862,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Potato Corner Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Potato Corner menu with prices in malaysia</h1>
 <p>Welcome to Potato Corner. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5885,7 +5885,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Din Tai Fung Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Din Tai Fung menu with prices in malaysia</h1>
 <p>Welcome to Din Tai Fung. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5908,7 +5908,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mee Tarik Jalan Sultan Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mee Tarik Jalan Sultan menu with prices in malaysia</h1>
 <p>Welcome to Mee Tarik Jalan Sultan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5931,7 +5931,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Of A La Carte Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Of A La Carte menu with prices in malaysia</h1>
 <p>Welcome to Of A La Carte. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5954,7 +5954,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>A La Carte Menu</h2>
+<h1 class="text-4xl font-bold mb-4">A La Carte menu with prices in malaysia</h1>
 <p>Welcome to A La Carte. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -5977,7 +5977,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Glasshopper Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Glasshopper menu with prices in malaysia</h1>
 <p>Welcome to The Glasshopper. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6000,7 +6000,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Masakan Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Masakan menu with prices in malaysia</h1>
 <p>Welcome to Masakan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6023,7 +6023,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nobu Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nobu menu with prices in malaysia</h1>
 <p>Welcome to Nobu. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6046,7 +6046,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nasi Lemak Shop Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nasi Lemak Shop menu with prices in malaysia</h1>
 <p>Welcome to Nasi Lemak Shop. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6069,7 +6069,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Flour Fire & Stone Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Flour Fire & Stone menu with prices in malaysia</h1>
 <p>Welcome to Flour Fire & Stone. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6092,7 +6092,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Raya Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Raya menu with prices in malaysia</h1>
 <p>Welcome to Raya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6115,7 +6115,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Since Then Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Since Then menu with prices in malaysia</h1>
 <p>Welcome to Since Then. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6138,7 +6138,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Chef Kecik Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Chef Kecik menu with prices in malaysia</h1>
 <p>Welcome to Chef Kecik. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6161,7 +6161,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Yellow Brick Road Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Yellow Brick Road menu with prices in malaysia</h1>
 <p>Welcome to Yellow Brick Road. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6184,7 +6184,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1476224203421-9ce22602115a?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jeff Lee Kitchen Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jeff Lee Kitchen menu with prices in malaysia</h1>
 <p>Welcome to Jeff Lee Kitchen. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6206,7 +6206,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jomamigo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jomamigo menu with prices in malaysia</h1>
 <p>Welcome to Jomamigo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6228,7 +6228,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1534080564583-6be75777b700?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Dewakan Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Dewakan menu with prices in malaysia</h1>
 <p>Welcome to Dewakan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6250,7 +6250,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Alibaba Karaoke Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Alibaba Karaoke menu with prices in malaysia</h1>
 <p>Welcome to Alibaba Karaoke. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6272,7 +6272,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Ora Dining Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Ora Dining menu with prices in malaysia</h1>
 <p>Welcome to Ora Dining. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6294,7 +6294,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mee Hiris China Muslim Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mee Hiris China Muslim menu with prices in malaysia</h1>
 <p>Welcome to Mee Hiris China Muslim. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6316,7 +6316,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Rotiboy Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Rotiboy menu with prices in malaysia</h1>
 <p>Welcome to Rotiboy. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6338,7 +6338,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1475090169767-40ed8d18f67d?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cookies And Ginger Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cookies And Ginger menu with prices in malaysia</h1>
 <p>Welcome to Cookies And Ginger. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6360,7 +6360,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Too Yumm Sashimi Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Too Yumm Sashimi menu with prices in malaysia</h1>
 <p>Welcome to Too Yumm Sashimi. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6382,7 +6382,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Rata Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Rata menu with prices in malaysia</h1>
 <p>Welcome to Rata. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6404,7 +6404,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1494859802808-5c602bf41db6?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kampunglah Raja Laut Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kampunglah Raja Laut menu with prices in malaysia</h1>
 <p>Welcome to Kampunglah Raja Laut. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6426,7 +6426,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Thieves Apw Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Thieves Apw menu with prices in malaysia</h1>
 <p>Welcome to Thieves Apw. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6448,7 +6448,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1551183053-8b77a7df361f?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Two Sons On The Park Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Two Sons On The Park menu with prices in malaysia</h1>
 <p>Welcome to Two Sons On The Park. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6470,7 +6470,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Eden Wizards Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Eden Wizards menu with prices in malaysia</h1>
 <p>Welcome to Eden Wizards. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6492,7 +6492,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>O'briens Menu</h2>
+<h1 class="text-4xl font-bold mb-4">O'briens menu with prices in malaysia</h1>
 <p>Welcome to O'briens. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6514,7 +6514,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1504754522776-8f4fdfce8e37?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Zukkini Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Zukkini menu with prices in malaysia</h1>
 <p>Welcome to Zukkini. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6536,7 +6536,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>TGI Fridays Menu</h2>
+<h1 class="text-4xl font-bold mb-4">TGI Fridays menu with prices in malaysia</h1>
 <p>Welcome to TGI Fridays. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6558,7 +6558,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cleaver Shed Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cleaver Shed menu with prices in malaysia</h1>
 <p>Welcome to Cleaver Shed. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6580,7 +6580,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Wallace Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Wallace menu with prices in malaysia</h1>
 <p>Welcome to Wallace. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6602,7 +6602,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1529042410766-c6c2044365fc?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Bienz Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Bienz menu with prices in malaysia</h1>
 <p>Welcome to Bienz. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6624,7 +6624,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pretty Hot Chicken Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pretty Hot Chicken menu with prices in malaysia</h1>
 <p>Welcome to Pretty Hot Chicken. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6646,7 +6646,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1600891964092-4b11428adc09?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Alwis Food Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Alwis Food menu with prices in malaysia</h1>
 <p>Welcome to Alwis Food. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6668,7 +6668,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Red Brick Kitchen Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Red Brick Kitchen menu with prices in malaysia</h1>
 <p>Welcome to Red Brick Kitchen. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6690,7 +6690,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1484723091786-b0da660d3efa?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nasi Goreng Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nasi Goreng menu with prices in malaysia</h1>
 <p>Welcome to Nasi Goreng. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6712,7 +6712,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Stuff'd Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Stuff'd menu with prices in malaysia</h1>
 <p>Welcome to Stuff'd. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6734,7 +6734,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kyomo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kyomo menu with prices in malaysia</h1>
 <p>Welcome to Kyomo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6756,7 +6756,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1490645935967-20ef6a10ba8f?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Oceano Symphony Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Oceano Symphony menu with prices in malaysia</h1>
 <p>Welcome to Oceano Symphony. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6778,7 +6778,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1582878826629-29b7ad1cb438?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Q House Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Q House menu with prices in malaysia</h1>
 <p>Welcome to Q House. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6800,7 +6800,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1481931098730-318b6f776db0?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Dip N Dip Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Dip N Dip menu with prices in malaysia</h1>
 <p>Welcome to Dip N Dip. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6822,7 +6822,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dd36?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Do A Bakehouse Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Do A Bakehouse menu with prices in malaysia</h1>
 <p>Welcome to Do A Bakehouse. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6844,7 +6844,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1546069901-ba6c37922b7a?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Hot Crush Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Hot Crush menu with prices in malaysia</h1>
 <p>Welcome to Hot Crush. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6866,7 +6866,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Thong Kee Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Thong Kee menu with prices in malaysia</h1>
 <p>Welcome to Thong Kee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6888,7 +6888,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Xin Cuisine Chinese Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Xin Cuisine Chinese menu with prices in malaysia</h1>
 <p>Welcome to Xin Cuisine Chinese. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6910,7 +6910,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Chef Wan Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Chef Wan menu with prices in malaysia</h1>
 <p>Welcome to Chef Wan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6932,7 +6932,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kakatoo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kakatoo menu with prices in malaysia</h1>
 <p>Welcome to Kakatoo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6954,7 +6954,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Gravybaby Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Gravybaby menu with prices in malaysia</h1>
 <p>Welcome to Gravybaby. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6976,7 +6976,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Tapestry Chow Kit Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Tapestry Chow Kit menu with prices in malaysia</h1>
 <p>Welcome to Tapestry Chow Kit. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -6998,7 +6998,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Koffie Lane Petaling Jaya Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Koffie Lane Petaling Jaya menu with prices in malaysia</h1>
 <p>Welcome to Koffie Lane Petaling Jaya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7020,7 +7020,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cheevit Cheeva Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cheevit Cheeva menu with prices in malaysia</h1>
 <p>Welcome to Cheevit Cheeva. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7042,7 +7042,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1484723091786-b0da660d3efa?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pepper Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pepper menu with prices in malaysia</h1>
 <p>Welcome to Pepper. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7064,7 +7064,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jom Cha Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jom Cha menu with prices in malaysia</h1>
 <p>Welcome to Jom Cha. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7086,7 +7086,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1593504049208-8e68dbbaf912?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Erode Amman Mess Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Erode Amman Mess menu with prices in malaysia</h1>
 <p>Welcome to Erode Amman Mess. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7108,7 +7108,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Glaze Eatery Tamarind Square Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Glaze Eatery Tamarind Square menu with prices in malaysia</h1>
 <p>Welcome to Glaze Eatery Tamarind Square. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7130,7 +7130,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1551183053-8b77a7df361f?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Stick War Legacy Mod Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Stick War Legacy Mod menu with prices in malaysia</h1>
 <p>Welcome to Stick War Legacy Mod. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7152,7 +7152,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1582878826629-29b7ad1cb438?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Sol Level 40 The Met Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Sol Level 40 The Met menu with prices in malaysia</h1>
 <p>Welcome to Sol Level 40 The Met. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7174,7 +7174,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Peaches And Cream Brasserie Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Peaches And Cream Brasserie menu with prices in malaysia</h1>
 <p>Welcome to Peaches And Cream Brasserie. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7196,7 +7196,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1482049149124-69bfb0c8046f?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Chef Kecik Boulangerie Tuah 1895 Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Chef Kecik Boulangerie Tuah 1895 menu with prices in malaysia</h1>
 <p>Welcome to Chef Kecik Boulangerie Tuah 1895. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7218,7 +7218,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Gold Bar Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Gold Bar menu with prices in malaysia</h1>
 <p>Welcome to Gold Bar. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7240,7 +7240,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Yaki Soul Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Yaki Soul menu with prices in malaysia</h1>
 <p>Welcome to Yaki Soul. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7262,7 +7262,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1483695028939-5bb13f8648b0?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kim Gary Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kim Gary menu with prices in malaysia</h1>
 <p>Welcome to Kim Gary. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7284,7 +7284,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1588168333986-5078d1255e82?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cookie Crumbs Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cookie Crumbs menu with prices in malaysia</h1>
 <p>Welcome to Cookie Crumbs. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7306,7 +7306,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Alunan Rasa Irama Dining Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Alunan Rasa Irama Dining menu with prices in malaysia</h1>
 <p>Welcome to Alunan Rasa Irama Dining. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7328,7 +7328,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Saba Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Saba menu with prices in malaysia</h1>
 <p>Welcome to Saba. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7350,7 +7350,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Rabbit Hole Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Rabbit Hole menu with prices in malaysia</h1>
 <p>Welcome to The Rabbit Hole. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7372,7 +7372,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1600891964092-4b11428adc09?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Richiamo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Richiamo menu with prices in malaysia</h1>
 <p>Welcome to Richiamo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7394,7 +7394,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Le Mirch Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Le Mirch menu with prices in malaysia</h1>
 <p>Welcome to Le Mirch. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7416,7 +7416,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Asumo Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Asumo menu with prices in malaysia</h1>
 <p>Welcome to Asumo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7438,7 +7438,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1481833761820-0509d3217039?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Tamarind Spring Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Tamarind Spring menu with prices in malaysia</h1>
 <p>Welcome to Tamarind Spring. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7460,7 +7460,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>House Of Wheat Chow Kit Menu</h2>
+<h1 class="text-4xl font-bold mb-4">House Of Wheat Chow Kit menu with prices in malaysia</h1>
 <p>Welcome to House Of Wheat Chow Kit. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7482,7 +7482,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1475090169767-40ed8d18f67d?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Restoran Rebung Chef Ismail Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Restoran Rebung Chef Ismail menu with prices in malaysia</h1>
 <p>Welcome to Restoran Rebung Chef Ismail. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7504,7 +7504,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1546069901-ba6c37922b7a?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pusing Public Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pusing Public menu with prices in malaysia</h1>
 <p>Welcome to Pusing Public. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7526,7 +7526,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Blue Dahlia Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Blue Dahlia menu with prices in malaysia</h1>
 <p>Welcome to Blue Dahlia. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7548,7 +7548,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1494859802808-5c602bf41db6?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Uo Shin Old Klang Road Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Uo Shin Old Klang Road menu with prices in malaysia</h1>
 <p>Welcome to Uo Shin Old Klang Road. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -7570,7 +7570,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?w=600&h=400&fit=crop",
       tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Fly Me To Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Fly Me To menu with prices in malaysia</h1>
 <p>Welcome to Fly Me To. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -8757,39 +8757,6 @@ export const brandMocks: Record<string, any[]> = {
       menu: pappaRichMenu
     },
     {
-      name: "OldTown White Coffee",
-      slug: "oldtown-white-coffee",
-      category: 'local-asian',
-      image: "https://images.unsplash.com/photo-1481833761820-0509d3217039?w=600&h=400&fit=crop",
-      tags: [{ name: "Halal", colors: "bg-green-500 text-white" }],
-      desc: "The True White Coffee Origination",
-      seoArticle: `\n<h2>OldTown White Coffee: The Taste of Ipoh</h2>
-<p>Famous for their aromatic, smooth white coffee originating from Ipoh, OldTown is a breakfast staple. Pair their signature brew with a classic serving of Kaya Butter Toast or a hearty bowl of Ipoh Chicken Hor Fun. Our guide covers all their comforting local classics and current pricing.</p>\n`,
-      nutritionHtml: `
-<p class="text-lg">OldTown is famous for its rich White Coffee and classic toast sets.</p>
-<ul class="space-y-3 list-none">
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Vegetarian Options:</strong> They offer a dedicated plant-based and vegetarian menu series.</span></li>
-  <li class="flex items-start gap-3"><span class="text-yellow-500 font-bold">✓</span><span><strong>Halal Certified:</strong> OldTown White Coffee is fully Halal certified.</span></li>
-</ul>`,
-      healthyTip: `"For a lighter coffee, choose the 'Kosong' (no sugar/milk) option to fully enjoy the roasted aroma without the added calories."`,
-      deliveryHtml: `
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-pink-600">Foodpanda</div>
-    <p class="text-slate-500 text-sm font-medium">Excellent for morning breakfast deliveries, bringing warm toast to your door.</p>
-  </div>
-  <div class="bg-white p-8 rounded-2xl border-2 border-slate-100 text-center flex flex-col items-center">
-    <div class="text-2xl font-black mb-3 text-green-600">GrabFood</div>
-    <p class="text-slate-500 text-sm font-medium">Convenient for lunch meals and ordering their signature noodles.</p>
-  </div>
-</div>`,
-      faqs: [
-        { q: "Are all OldTown White Coffee outlets Halal?", a: "Yes, all OldTown White Coffee outlets in Malaysia are Halal certified." },
-        { q: "What is White Coffee?", a: "White Coffee is a traditional Malaysian coffee roasting method using margarine, producing a smoother, lighter-colored brew." }
-      ],
-      menu: oldtownWhiteCoffeeMenu
-    },
-    {
       name: "Madam Kwan's",
       slug: "madam-kwans",
     searchVolume: 6600,
@@ -9637,7 +9604,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cream Tea Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cream Tea menu with prices in malaysia</h1>
 <p>Welcome to Cream Tea. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9660,7 +9627,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Oga Tea And Dining Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Oga Tea And Dining menu with prices in malaysia</h1>
 <p>Welcome to Oga Tea And Dining. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9683,7 +9650,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Hi Tea Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Hi Tea menu with prices in malaysia</h1>
 <p>Welcome to Hi Tea. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9706,7 +9673,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Sharetea Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Sharetea menu with prices in malaysia</h1>
 <p>Welcome to Sharetea. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9729,7 +9696,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Coolblog Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Coolblog menu with prices in malaysia</h1>
 <p>Welcome to Coolblog. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9752,7 +9719,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Baskin Robbins Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Baskin Robbins menu with prices in malaysia</h1>
 <p>Welcome to Baskin Robbins. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9775,7 +9742,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Samba Brazilian Steakhouse Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Samba Brazilian Steakhouse menu with prices in malaysia</h1>
 <p>Welcome to Samba Brazilian Steakhouse. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9798,7 +9765,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kbbsteak Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kbbsteak menu with prices in malaysia</h1>
 <p>Welcome to Kbbsteak. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9821,7 +9788,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>High Tea Menu</h2>
+<h1 class="text-4xl font-bold mb-4">High Tea menu with prices in malaysia</h1>
 <p>Welcome to High Tea. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9843,7 +9810,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1494859802808-5c602bf41db6?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>10 Pots Steamboat & Grill Menu</h2>
+<h1 class="text-4xl font-bold mb-4">10 Pots Steamboat & Grill menu with prices in malaysia</h1>
 <p>Welcome to 10 Pots Steamboat & Grill. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9865,7 +9832,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Fat Tea Macanese Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Fat Tea Macanese menu with prices in malaysia</h1>
 <p>Welcome to Fat Tea Macanese. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -9887,7 +9854,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1529042410766-c6c2044365fc?w=600&h=400&fit=crop",
       tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Place Steak Houze Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Place Steak Houze menu with prices in malaysia</h1>
 <p>Welcome to The Place Steak Houze. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10386,7 +10353,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nabe Hotpot & Sukiyaki Mytown Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nabe Hotpot & Sukiyaki Mytown menu with prices in malaysia</h1>
 <p>Welcome to Nabe Hotpot & Sukiyaki Mytown. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10409,7 +10376,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kung Jung Korean Pnb Perdana Binjai Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kung Jung Korean Pnb Perdana Binjai menu with prices in malaysia</h1>
 <p>Welcome to Kung Jung Korean Pnb Perdana Binjai. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10432,7 +10399,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Dodo Korea Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Dodo Korea menu with prices in malaysia</h1>
 <p>Welcome to Dodo Korea. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10455,7 +10422,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Haidilao Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Haidilao menu with prices in malaysia</h1>
 <p>Welcome to Haidilao. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10478,7 +10445,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Ono Specialty Coffee & Matcha Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Ono Specialty Coffee & Matcha menu with prices in malaysia</h1>
 <p>Welcome to Ono Specialty Coffee & Matcha. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10501,7 +10468,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Busanzip Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Busanzip menu with prices in malaysia</h1>
 <p>Welcome to Busanzip. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10524,7 +10491,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>The Fire Korean Menu</h2>
+<h1 class="text-4xl font-bold mb-4">The Fire Korean menu with prices in malaysia</h1>
 <p>Welcome to The Fire Korean. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10547,7 +10514,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Bhc Chicken Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Bhc Chicken menu with prices in malaysia</h1>
 <p>Welcome to Bhc Chicken. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10570,7 +10537,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Hama Japanese Dining Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Hama Japanese Dining menu with prices in malaysia</h1>
 <p>Welcome to Hama Japanese Dining. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10592,7 +10559,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Bbq Town Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Bbq Town menu with prices in malaysia</h1>
 <p>Welcome to Bbq Town. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10614,7 +10581,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Donkai Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Donkai menu with prices in malaysia</h1>
 <p>Welcome to Donkai. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10636,7 +10603,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1593504049208-8e68dbbaf912?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Sushi Ya Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Sushi Ya menu with prices in malaysia</h1>
 <p>Welcome to Sushi Ya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10658,7 +10625,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1534080564583-6be75777b700?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kani Kawa Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kani Kawa menu with prices in malaysia</h1>
 <p>Welcome to Kani Kawa. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -10680,7 +10647,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop",
       tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Thai Garden Village Seafood & Bbq Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Thai Garden Village Seafood & Bbq menu with prices in malaysia</h1>
 <p>Welcome to Thai Garden Village Seafood & Bbq. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11352,7 +11319,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Vivo Pizza Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Vivo Pizza menu with prices in malaysia</h1>
 <p>Welcome to Vivo Pizza. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11375,7 +11342,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Miker Pizza Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Miker Pizza menu with prices in malaysia</h1>
 <p>Welcome to Miker Pizza. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11398,7 +11365,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Natalina Italian Kitchen Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Natalina Italian Kitchen menu with prices in malaysia</h1>
 <p>Welcome to Natalina Italian Kitchen. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11421,7 +11388,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Amici Ristorante Italiano Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Amici Ristorante Italiano menu with prices in malaysia</h1>
 <p>Welcome to Amici Ristorante Italiano. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11444,7 +11411,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Mike Pizza Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Mike Pizza menu with prices in malaysia</h1>
 <p>Welcome to Mike Pizza. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11467,7 +11434,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Bella Pasta And Wine Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Bella Pasta And Wine menu with prices in malaysia</h1>
 <p>Welcome to Bella Pasta And Wine. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11490,7 +11457,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pizza Mansion Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pizza Mansion menu with prices in malaysia</h1>
 <p>Welcome to Pizza Mansion. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11513,7 +11480,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pizzas Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pizzas menu with prices in malaysia</h1>
 <p>Welcome to Pizzas. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11536,7 +11503,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>La Pan Pizza Menu</h2>
+<h1 class="text-4xl font-bold mb-4">La Pan Pizza menu with prices in malaysia</h1>
 <p>Welcome to La Pan Pizza. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11559,7 +11526,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Bacio Italian Kitchen Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Bacio Italian Kitchen menu with prices in malaysia</h1>
 <p>Welcome to Bacio Italian Kitchen. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11582,7 +11549,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Rico's Pizza Cafe Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Rico's Pizza Cafe menu with prices in malaysia</h1>
 <p>Welcome to Rico's Pizza Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11604,7 +11571,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=600&h=400&fit=crop",
       tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Rossi Italian Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Rossi Italian menu with prices in malaysia</h1>
 <p>Welcome to Rossi Italian. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11827,7 +11794,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Grill Haven Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Grill Haven menu with prices in malaysia</h1>
 <p>Welcome to Grill Haven. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11850,7 +11817,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Kunak Western Food Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Kunak Western Food menu with prices in malaysia</h1>
 <p>Welcome to Kunak Western Food. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11873,7 +11840,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Fish Manhattan Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Fish Manhattan menu with prices in malaysia</h1>
 <p>Welcome to Fish Manhattan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11896,7 +11863,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Cowboys Barbecue & Grill Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Cowboys Barbecue & Grill menu with prices in malaysia</h1>
 <p>Welcome to Cowboys Barbecue & Grill. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11919,7 +11886,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Nasi Lemak Lobster Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Nasi Lemak Lobster menu with prices in malaysia</h1>
 <p>Welcome to Nasi Lemak Lobster. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11942,7 +11909,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Jibby East Grill Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Jibby East Grill menu with prices in malaysia</h1>
 <p>Welcome to Jibby East Grill. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11964,7 +11931,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dd36?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Pak Mat Western Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Pak Mat Western menu with prices in malaysia</h1>
 <p>Welcome to Pak Mat Western. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -11986,7 +11953,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1490645935967-20ef6a10ba8f?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Blue Reef Fish & Chips Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Blue Reef Fish & Chips menu with prices in malaysia</h1>
 <p>Welcome to Blue Reef Fish & Chips. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -12008,7 +11975,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=600&h=400&fit=crop",
       tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Edward's Urban Fish & Chips Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Edward's Urban Fish & Chips menu with prices in malaysia</h1>
 <p>Welcome to Edward's Urban Fish & Chips. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
@@ -12316,7 +12283,7 @@ export const brandMocks: Record<string, any[]> = {
       image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
       tags: [{ name: "CONVENIENCE STORES", colors: "bg-blue-500 text-white" }],
       content: `
-<h2>Emart Menu</h2>
+<h1 class="text-4xl font-bold mb-4">Emart menu with prices in malaysia</h1>
 <p>Welcome to Emart. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of convenience stores cuisine, prepared with fresh ingredients and passion.</p>
 `,
       faqs: [
