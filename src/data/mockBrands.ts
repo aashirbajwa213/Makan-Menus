@@ -1,3 +1,102 @@
+import { makanMalamMenu } from './makanMalamMenu';
+import { marinisOn57Menu } from './marinisOn57Menu';
+import { onoSpecialtyCoffeeMatchaMenu } from './onoSpecialtyCoffeeMatchaMenu';
+import { jamanToryResepiMenu } from './jamanToryResepiMenu';
+import { gulaCakeryMenu } from './gulaCakeryMenu';
+import { nakNakIoiMenu } from './nakNakIoiMenu';
+import { amiciRistoranteItalianoMenu } from './amiciRistoranteItalianoMenu';
+import { mikePizzaMenu } from './mikePizzaMenu';
+import { ahmadFriedChickenMenu } from './ahmadFriedChickenMenu';
+import { aliMuthuAhHockMenu } from './aliMuthuAhHockMenu';
+import { iDragonMenu } from './iDragonMenu';
+import { starterFoodMenu } from './starterFoodMenu';
+import { momoyoMenu } from './momoyoMenu';
+import { uncleJackMenu } from './uncleJackMenu';
+import { ifOnlyMenu } from './ifOnlyMenu';
+import { johnnyMenu } from './johnnyMenu';
+import { nipporiBistroMenu } from './nipporiBistroMenu';
+import { gastrohubMenu } from './gastrohubMenu';
+import { frenchieSBrunchDatesMenu } from './frenchieSBrunchDatesMenu';
+import { bellaPastaAndWineMenu } from './bellaPastaAndWineMenu';
+import { jojaBagelsMenu } from './jojaBagelsMenu';
+import { busanzipMenu } from './busanzipMenu';
+import { pizzaMansionMenu } from './pizzaMansionMenu';
+import { siangMalamSheilaRuslyMenu } from './siangMalamSheilaRuslyMenu';
+import { pCKitchenEcoArdenceMenu } from './pCKitchenEcoArdenceMenu';
+import { jpCoMenu } from './jpCoMenu';
+import { hotbirdMenu } from './hotbirdMenu';
+import { bambooHillsMenu } from './bambooHillsMenu';
+import { mesaOn51Menu } from './mesaOn51Menu';
+import { hotzillaSs15Menu } from './hotzillaSs15Menu';
+import { baskinRobbinsMenu } from './baskinRobbinsMenu';
+import { emartMenu } from './emartMenu';
+import { kopiHutMenu } from './kopiHutMenu';
+import { theFireKoreanMenu } from './theFireKoreanMenu';
+import { allAboutChewMenu } from './allAboutChewMenu';
+import { strangers47Menu } from './strangers47Menu';
+import { asadorVMenu } from './asadorVMenu';
+import { trafficBeanMenu } from './trafficBeanMenu';
+import { fiftyTalesMenu } from './fiftyTalesMenu';
+import { uncleDonMenu } from './uncleDonMenu';
+import { rawKitchenHallMenu } from './rawKitchenHallMenu';
+import { sdsMenu } from './sdsMenu';
+import { fuegoTroikaSkyDiningMenu } from './fuegoTroikaSkyDiningMenu';
+import { makananMenu } from './makananMenu';
+import { smithAndWollenskyMenu } from './smithAndWollenskyMenu';
+import { happyPotatoMenu } from './happyPotatoMenu';
+import { thongBowlIoiCityMallMenu } from './thongBowlIoiCityMallMenu';
+import { wetDeckWMenu } from './wetDeckWMenu';
+import { soruStationMenu } from './soruStationMenu';
+import { mamakMenu } from './mamakMenu';
+import { sambaBrazilianSteakhouseMenu } from './sambaBrazilianSteakhouseMenu';
+import { kennyHillsBakersGeorgeTownMenu } from './kennyHillsBakersGeorgeTownMenu';
+import { mrsmMenu } from './mrsmMenu';
+import { wanomiyaMenu } from './wanomiyaMenu';
+import { jibrilSs15Menu } from './jibrilSs15Menu';
+import { kopiPingMenu } from './kopiPingMenu';
+import { kookyPlateMenu } from './kookyPlateMenu';
+import { noirMenu } from './noirMenu';
+import { biruBiruOnTheIslandMenu } from './biruBiruOnTheIslandMenu';
+import { potluckMenu } from './potluckMenu';
+import { stefaniaMenu } from './stefaniaMenu';
+import { dojoMenu } from './dojoMenu';
+import { sweetreeMenu } from './sweetreeMenu';
+import { qBistroMenu } from './qBistroMenu';
+import { nasiLemakBurungHantuMenu } from './nasiLemakBurungHantuMenu';
+import { nimmiesPastryCafeMenu } from './nimmiesPastryCafeMenu';
+import { supamalaHotpotPyramidMenu } from './supamalaHotpotPyramidMenu';
+import { duaswarpMenu } from './duaswarpMenu';
+import { bhcChickenMenu } from './bhcChickenMenu';
+import { kapitanMenu } from './kapitanMenu';
+import { pizzasMenu } from './pizzasMenu';
+import { laSpigaDoroMenu } from './laSpigaDoroMenu';
+import { jibbyTheParkMenu } from './jibbyTheParkMenu';
+import { laPanPizzaMenu } from './laPanPizzaMenu';
+import { theFarmTheSphereMenu } from './theFarmTheSphereMenu';
+import { peninsulaHouseMenu } from './peninsulaHouseMenu';
+import { naskenCoffeeMenu } from './naskenCoffeeMenu';
+import { oBrienMenu } from './oBrienMenu';
+import { potatoCornerMenu } from './potatoCornerMenu';
+import { theFatBurgerMenu } from './theFatBurgerMenu';
+import { bacioItalianKitchenMenu } from './bacioItalianKitchenMenu';
+import { dinTaiFungMenu } from './dinTaiFungMenu';
+import { meeTarikJalanSultanMenu } from './meeTarikJalanSultanMenu';
+import { nasiLemakLobsterMenu } from './nasiLemakLobsterMenu';
+import { kopiHutMenu } from './kopiHutMenu';
+import { ofALaCarteMenu } from './ofALaCarteMenu';
+import { aLaCarteMenu } from './aLaCarteMenu';
+import { theGlasshopperMenu } from './theGlasshopperMenu';
+import { brewHouseMenu } from './brewHouseMenu';
+import { masakanMenu } from './masakanMenu';
+import { nobuMenu } from './nobuMenu';
+import { kbbsteakMenu } from './kbbsteakMenu';
+import { nasiLemakShopMenu } from './nasiLemakShopMenu';
+import { flourFireStoneMenu } from './flourFireStoneMenu';
+import { rayaMenu } from './rayaMenu';
+import { sinceThenMenu } from './sinceThenMenu';
+import { dAppleFriedChickenMenu } from './dAppleFriedChickenMenu';
+import { chefKecikMenu } from './chefKecikMenu';
+import { yellowBrickRoadMenu } from './yellowBrickRoadMenu';
 import { benihanaMenu } from './benihanaMenu';
 import { kluangRailwayCoffeeMenu } from './kluangRailwayCoffeeMenu';
 import { soi55Menu } from './soi55Menu';
@@ -272,6 +371,75 @@ import { doABakehouseMenu } from './doABakehouseMenu';
 
 export const brandMocks: Record<string, any[]> = {
   'fast-food': [
+    {
+      name: "Ahmad Fried Chicken",
+      slug: "ahmad-fried-chicken",
+      category: "fast-food",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "FAST FOOD", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Ahmad Fried Chicken Menu</h2>
+<p>Welcome to Ahmad Fried Chicken. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of fast food cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: ahmadFriedChickenMenu
+    },
+
+    {
+      name: "The Fat Burger",
+      slug: "the-fat-burger",
+      category: "fast-food",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "FAST FOOD", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>The Fat Burger Menu</h2>
+<p>Welcome to The Fat Burger. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of fast food cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: theFatBurgerMenu
+    },
+
+    {
+      name: "D Apple Fried Chicken",
+      slug: "d-apple-fried-chicken",
+      category: "fast-food",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "FAST FOOD", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>D Apple Fried Chicken Menu</h2>
+<p>Welcome to D Apple Fried Chicken. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of fast food cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: dAppleFriedChickenMenu
+    },
+
     {
       name: "Burger & Lobster",
       slug: "burger-lobster",
@@ -964,6 +1132,236 @@ export const brandMocks: Record<string, any[]> = {
   ],
 
   'coffee-bakeries': [
+    {
+      name: "Gula Cakery",
+      slug: "gula-cakery",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Gula Cakery Menu</h2>
+<p>Welcome to Gula Cakery. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: gulaCakeryMenu
+    },
+
+    {
+      name: "Joja Bagels",
+      slug: "joja-bagels",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Joja Bagels Menu</h2>
+<p>Welcome to Joja Bagels. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: jojaBagelsMenu
+    },
+
+    {
+      name: "Kopihut",
+      slug: "kopihut",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Kopihut Menu</h2>
+<p>Welcome to Kopihut. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: kopiHutMenu
+    },
+
+    {
+      name: "Traffic Bean",
+      slug: "traffic-bean",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Traffic Bean Menu</h2>
+<p>Welcome to Traffic Bean. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: trafficBeanMenu
+    },
+
+    {
+      name: "Kenny Hills Bakers George Town",
+      slug: "kenny-hills-bakers-george-town",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Kenny Hills Bakers George Town Menu</h2>
+<p>Welcome to Kenny Hills Bakers George Town. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: kennyHillsBakersGeorgeTownMenu
+    },
+
+    {
+      name: "Kopi Ping",
+      slug: "kopi-ping",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Kopi Ping Menu</h2>
+<p>Welcome to Kopi Ping. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: kopiPingMenu
+    },
+
+    {
+      name: "Nimmies Pastry Cafe",
+      slug: "nimmies-pastry-cafe",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Nimmies Pastry Cafe Menu</h2>
+<p>Welcome to Nimmies Pastry Cafe. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: nimmiesPastryCafeMenu
+    },
+
+    {
+      name: "Nasken Coffee",
+      slug: "nasken-coffee",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Nasken Coffee Menu</h2>
+<p>Welcome to Nasken Coffee. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: naskenCoffeeMenu
+    },
+
+    {
+      name: "Kopi Hut",
+      slug: "kopi-hut",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Kopi Hut Menu</h2>
+<p>Welcome to Kopi Hut. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: kopiHutMenu
+    },
+
+    {
+      name: "Brew House",
+      slug: "brew-house",
+      category: "coffee-bakeries",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "COFFEE BAKERIES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Brew House Menu</h2>
+<p>Welcome to Brew House. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of coffee bakeries cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: brewHouseMenu
+    },
+
     {
       name: "Brew And Bread Kota Kemuning",
       slug: "brew-and-bread-kota-kemuning",
@@ -2162,6 +2560,1616 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'local-asian': [
+    {
+      name: "Makan Malam",
+      slug: "makan-malam",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Makan Malam Menu</h2>
+<p>Welcome to Makan Malam. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: makanMalamMenu
+    },
+
+    {
+      name: "Marini's On 57",
+      slug: "marini-s-on-57",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Marini's On 57 Menu</h2>
+<p>Welcome to Marini's On 57. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: marinisOn57Menu
+    },
+
+    {
+      name: "Jaman Tory Resepi",
+      slug: "jaman-tory-resepi",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Jaman Tory Resepi Menu</h2>
+<p>Welcome to Jaman Tory Resepi. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: jamanToryResepiMenu
+    },
+
+    {
+      name: "Nak Nak Ioi",
+      slug: "nak-nak-ioi",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Nak Nak Ioi Menu</h2>
+<p>Welcome to Nak Nak Ioi. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: nakNakIoiMenu
+    },
+
+    {
+      name: "Ali Muthu Ah Hock",
+      slug: "ali-muthu-ah-hock",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Ali Muthu Ah Hock Menu</h2>
+<p>Welcome to Ali Muthu Ah Hock. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: aliMuthuAhHockMenu
+    },
+
+    {
+      name: "I Dragon",
+      slug: "i-dragon",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>I Dragon Menu</h2>
+<p>Welcome to I Dragon. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: iDragonMenu
+    },
+
+    {
+      name: "Starter Food",
+      slug: "starter-food",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Starter Food Menu</h2>
+<p>Welcome to Starter Food. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: starterFoodMenu
+    },
+
+    {
+      name: "Momoyo",
+      slug: "momoyo",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Momoyo Menu</h2>
+<p>Welcome to Momoyo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: momoyoMenu
+    },
+
+    {
+      name: "Uncle Jack",
+      slug: "uncle-jack",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Uncle Jack Menu</h2>
+<p>Welcome to Uncle Jack. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: uncleJackMenu
+    },
+
+    {
+      name: "If Only",
+      slug: "if-only",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>If Only Menu</h2>
+<p>Welcome to If Only. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: ifOnlyMenu
+    },
+
+    {
+      name: "Johnny",
+      slug: "johnny",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Johnny Menu</h2>
+<p>Welcome to Johnny. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: johnnyMenu
+    },
+
+    {
+      name: "Nippori Bistro",
+      slug: "nippori-bistro",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Nippori Bistro Menu</h2>
+<p>Welcome to Nippori Bistro. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: nipporiBistroMenu
+    },
+
+    {
+      name: "Gastrohub",
+      slug: "gastrohub",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Gastrohub Menu</h2>
+<p>Welcome to Gastrohub. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: gastrohubMenu
+    },
+
+    {
+      name: "Frenchie's Brunch & Dates",
+      slug: "frenchie-s-brunch-dates",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Frenchie's Brunch & Dates Menu</h2>
+<p>Welcome to Frenchie's Brunch & Dates. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: frenchieSBrunchDatesMenu
+    },
+
+    {
+      name: "Siang Malam Sheila Rusly",
+      slug: "siang-malam-sheila-rusly",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Siang Malam Sheila Rusly Menu</h2>
+<p>Welcome to Siang Malam Sheila Rusly. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: siangMalamSheilaRuslyMenu
+    },
+
+    {
+      name: "P&c Kitchen Eco Ardence",
+      slug: "p-c-kitchen-eco-ardence",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>P&c Kitchen Eco Ardence Menu</h2>
+<p>Welcome to P&c Kitchen Eco Ardence. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: pCKitchenEcoArdenceMenu
+    },
+
+    {
+      name: "Jp & Co",
+      slug: "jp-co",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Jp & Co Menu</h2>
+<p>Welcome to Jp & Co. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: jpCoMenu
+    },
+
+    {
+      name: "Hotbird",
+      slug: "hotbird",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Hotbird Menu</h2>
+<p>Welcome to Hotbird. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: hotbirdMenu
+    },
+
+    {
+      name: "Bamboo Hills",
+      slug: "bamboo-hills",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Bamboo Hills Menu</h2>
+<p>Welcome to Bamboo Hills. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: bambooHillsMenu
+    },
+
+    {
+      name: "Mesa On 51",
+      slug: "mesa-on-51",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Mesa On 51 Menu</h2>
+<p>Welcome to Mesa On 51. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: mesaOn51Menu
+    },
+
+    {
+      name: "Hotzilla Ss15",
+      slug: "hotzilla-ss15",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Hotzilla Ss15 Menu</h2>
+<p>Welcome to Hotzilla Ss15. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: hotzillaSs15Menu
+    },
+
+    {
+      name: "All About Chew",
+      slug: "all-about-chew",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>All About Chew Menu</h2>
+<p>Welcome to All About Chew. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: allAboutChewMenu
+    },
+
+    {
+      name: "Strangers 47",
+      slug: "strangers-47",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Strangers 47 Menu</h2>
+<p>Welcome to Strangers 47. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: strangers47Menu
+    },
+
+    {
+      name: "Asador V",
+      slug: "asador-v",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Asador V Menu</h2>
+<p>Welcome to Asador V. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: asadorVMenu
+    },
+
+    {
+      name: "Fifty Tales",
+      slug: "fifty-tales",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Fifty Tales Menu</h2>
+<p>Welcome to Fifty Tales. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: fiftyTalesMenu
+    },
+
+    {
+      name: "Uncle Don",
+      slug: "uncle-don",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Uncle Don Menu</h2>
+<p>Welcome to Uncle Don. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: uncleDonMenu
+    },
+
+    {
+      name: "Raw Kitchen Hall",
+      slug: "raw-kitchen-hall",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Raw Kitchen Hall Menu</h2>
+<p>Welcome to Raw Kitchen Hall. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: rawKitchenHallMenu
+    },
+
+    {
+      name: "Sds",
+      slug: "sds",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Sds Menu</h2>
+<p>Welcome to Sds. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: sdsMenu
+    },
+
+    {
+      name: "Fuego Troika Sky Dining",
+      slug: "fuego-troika-sky-dining",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Fuego Troika Sky Dining Menu</h2>
+<p>Welcome to Fuego Troika Sky Dining. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: fuegoTroikaSkyDiningMenu
+    },
+
+    {
+      name: "Makanan",
+      slug: "makanan",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Makanan Menu</h2>
+<p>Welcome to Makanan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: makananMenu
+    },
+
+    {
+      name: "Smith And Wollensky",
+      slug: "smith-and-wollensky",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Smith And Wollensky Menu</h2>
+<p>Welcome to Smith And Wollensky. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: smithAndWollenskyMenu
+    },
+
+    {
+      name: "Happy Potato",
+      slug: "happy-potato",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Happy Potato Menu</h2>
+<p>Welcome to Happy Potato. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: happyPotatoMenu
+    },
+
+    {
+      name: "Thong Bowl Ioi City Mall",
+      slug: "thong-bowl-ioi-city-mall",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Thong Bowl Ioi City Mall Menu</h2>
+<p>Welcome to Thong Bowl Ioi City Mall. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: thongBowlIoiCityMallMenu
+    },
+
+    {
+      name: "Wet Deck W",
+      slug: "wet-deck-w",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Wet Deck W Menu</h2>
+<p>Welcome to Wet Deck W. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: wetDeckWMenu
+    },
+
+    {
+      name: "Soru Station",
+      slug: "soru-station",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Soru Station Menu</h2>
+<p>Welcome to Soru Station. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: soruStationMenu
+    },
+
+    {
+      name: "Mamak",
+      slug: "mamak",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Mamak Menu</h2>
+<p>Welcome to Mamak. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: mamakMenu
+    },
+
+    {
+      name: "Mrsm",
+      slug: "mrsm",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Mrsm Menu</h2>
+<p>Welcome to Mrsm. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: mrsmMenu
+    },
+
+    {
+      name: "Wanomiya",
+      slug: "wanomiya",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Wanomiya Menu</h2>
+<p>Welcome to Wanomiya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: wanomiyaMenu
+    },
+
+    {
+      name: "Jibril Ss15",
+      slug: "jibril-ss15",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Jibril Ss15 Menu</h2>
+<p>Welcome to Jibril Ss15. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: jibrilSs15Menu
+    },
+
+    {
+      name: "Kooky Plate",
+      slug: "kooky-plate",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Kooky Plate Menu</h2>
+<p>Welcome to Kooky Plate. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: kookyPlateMenu
+    },
+
+    {
+      name: "Noir",
+      slug: "noir",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Noir Menu</h2>
+<p>Welcome to Noir. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: noirMenu
+    },
+
+    {
+      name: "Biru Biru On The Island",
+      slug: "biru-biru-on-the-island",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Biru Biru On The Island Menu</h2>
+<p>Welcome to Biru Biru On The Island. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: biruBiruOnTheIslandMenu
+    },
+
+    {
+      name: "Potluck",
+      slug: "potluck",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Potluck Menu</h2>
+<p>Welcome to Potluck. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: potluckMenu
+    },
+
+    {
+      name: "Stefania",
+      slug: "stefania",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Stefania Menu</h2>
+<p>Welcome to Stefania. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: stefaniaMenu
+    },
+
+    {
+      name: "Dojo",
+      slug: "dojo",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Dojo Menu</h2>
+<p>Welcome to Dojo. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: dojoMenu
+    },
+
+    {
+      name: "Sweetree",
+      slug: "sweetree",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Sweetree Menu</h2>
+<p>Welcome to Sweetree. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: sweetreeMenu
+    },
+
+    {
+      name: "Q Bistro",
+      slug: "q-bistro",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Q Bistro Menu</h2>
+<p>Welcome to Q Bistro. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: qBistroMenu
+    },
+
+    {
+      name: "Nasi Lemak Burung Hantu",
+      slug: "nasi-lemak-burung-hantu",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Nasi Lemak Burung Hantu Menu</h2>
+<p>Welcome to Nasi Lemak Burung Hantu. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: nasiLemakBurungHantuMenu
+    },
+
+    {
+      name: "Supamala Hotpot Pyramid",
+      slug: "supamala-hotpot-pyramid",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Supamala Hotpot Pyramid Menu</h2>
+<p>Welcome to Supamala Hotpot Pyramid. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: supamalaHotpotPyramidMenu
+    },
+
+    {
+      name: "Duaswarp",
+      slug: "duaswarp",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Duaswarp Menu</h2>
+<p>Welcome to Duaswarp. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: duaswarpMenu
+    },
+
+    {
+      name: "Kapitan",
+      slug: "kapitan",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Kapitan Menu</h2>
+<p>Welcome to Kapitan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: kapitanMenu
+    },
+
+    {
+      name: "La Spiga D Oro",
+      slug: "la-spiga-d-oro",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>La Spiga D Oro Menu</h2>
+<p>Welcome to La Spiga D Oro. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: laSpigaDoroMenu
+    },
+
+    {
+      name: "Jibby The Park",
+      slug: "jibby-the-park",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Jibby The Park Menu</h2>
+<p>Welcome to Jibby The Park. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: jibbyTheParkMenu
+    },
+
+    {
+      name: "The Farm The Sphere",
+      slug: "the-farm-the-sphere",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>The Farm The Sphere Menu</h2>
+<p>Welcome to The Farm The Sphere. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: theFarmTheSphereMenu
+    },
+
+    {
+      name: "Peninsula House",
+      slug: "peninsula-house",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Peninsula House Menu</h2>
+<p>Welcome to Peninsula House. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: peninsulaHouseMenu
+    },
+
+    {
+      name: "O'brien",
+      slug: "o-brien",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>O'brien Menu</h2>
+<p>Welcome to O'brien. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: oBrienMenu
+    },
+
+    {
+      name: "Potato Corner",
+      slug: "potato-corner",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Potato Corner Menu</h2>
+<p>Welcome to Potato Corner. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: potatoCornerMenu
+    },
+
+    {
+      name: "Din Tai Fung",
+      slug: "din-tai-fung",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Din Tai Fung Menu</h2>
+<p>Welcome to Din Tai Fung. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: dinTaiFungMenu
+    },
+
+    {
+      name: "Mee Tarik Jalan Sultan",
+      slug: "mee-tarik-jalan-sultan",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Mee Tarik Jalan Sultan Menu</h2>
+<p>Welcome to Mee Tarik Jalan Sultan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: meeTarikJalanSultanMenu
+    },
+
+    {
+      name: "Of A La Carte",
+      slug: "of-a-la-carte",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Of A La Carte Menu</h2>
+<p>Welcome to Of A La Carte. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: ofALaCarteMenu
+    },
+
+    {
+      name: "A La Carte",
+      slug: "a-la-carte",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>A La Carte Menu</h2>
+<p>Welcome to A La Carte. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: aLaCarteMenu
+    },
+
+    {
+      name: "The Glasshopper",
+      slug: "the-glasshopper",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>The Glasshopper Menu</h2>
+<p>Welcome to The Glasshopper. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: theGlasshopperMenu
+    },
+
+    {
+      name: "Masakan",
+      slug: "masakan",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Masakan Menu</h2>
+<p>Welcome to Masakan. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: masakanMenu
+    },
+
+    {
+      name: "Nobu",
+      slug: "nobu",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Nobu Menu</h2>
+<p>Welcome to Nobu. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: nobuMenu
+    },
+
+    {
+      name: "Nasi Lemak Shop",
+      slug: "nasi-lemak-shop",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Nasi Lemak Shop Menu</h2>
+<p>Welcome to Nasi Lemak Shop. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: nasiLemakShopMenu
+    },
+
+    {
+      name: "Flour Fire & Stone",
+      slug: "flour-fire-stone",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Flour Fire & Stone Menu</h2>
+<p>Welcome to Flour Fire & Stone. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: flourFireStoneMenu
+    },
+
+    {
+      name: "Raya",
+      slug: "raya",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Raya Menu</h2>
+<p>Welcome to Raya. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: rayaMenu
+    },
+
+    {
+      name: "Since Then",
+      slug: "since-then",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Since Then Menu</h2>
+<p>Welcome to Since Then. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: sinceThenMenu
+    },
+
+    {
+      name: "Chef Kecik",
+      slug: "chef-kecik",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Chef Kecik Menu</h2>
+<p>Welcome to Chef Kecik. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: chefKecikMenu
+    },
+
+    {
+      name: "Yellow Brick Road",
+      slug: "yellow-brick-road",
+      category: "local-asian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "LOCAL ASIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Yellow Brick Road Menu</h2>
+<p>Welcome to Yellow Brick Road. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of local asian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: yellowBrickRoadMenu
+    },
+
     {
       name: "Jeff Lee Kitchen",
       slug: "jeff-lee-kitchen",
@@ -5616,6 +7624,75 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'teas-desserts': [
     {
+      name: "Baskin Robbins",
+      slug: "baskin-robbins",
+      category: "teas-desserts",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Baskin Robbins Menu</h2>
+<p>Welcome to Baskin Robbins. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: baskinRobbinsMenu
+    },
+
+    {
+      name: "Samba Brazilian Steakhouse",
+      slug: "samba-brazilian-steakhouse",
+      category: "teas-desserts",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Samba Brazilian Steakhouse Menu</h2>
+<p>Welcome to Samba Brazilian Steakhouse. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: sambaBrazilianSteakhouseMenu
+    },
+
+    {
+      name: "Kbbsteak",
+      slug: "kbbsteak",
+      category: "teas-desserts",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "TEAS DESSERTS", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Kbbsteak Menu</h2>
+<p>Welcome to Kbbsteak. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of teas desserts cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: kbbsteakMenu
+    },
+
+    {
       name: "High Tea",
       slug: "high-tea",
       category: "teas-desserts",
@@ -6180,6 +8257,98 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'japanese-korean': [
+    {
+      name: "Ono Specialty Coffee & Matcha",
+      slug: "ono-specialty-coffee-matcha",
+      category: "japanese-korean",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Ono Specialty Coffee & Matcha Menu</h2>
+<p>Welcome to Ono Specialty Coffee & Matcha. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: onoSpecialtyCoffeeMatchaMenu
+    },
+
+    {
+      name: "Busanzip",
+      slug: "busanzip",
+      category: "japanese-korean",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Busanzip Menu</h2>
+<p>Welcome to Busanzip. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: busanzipMenu
+    },
+
+    {
+      name: "The Fire Korean",
+      slug: "the-fire-korean",
+      category: "japanese-korean",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>The Fire Korean Menu</h2>
+<p>Welcome to The Fire Korean. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: theFireKoreanMenu
+    },
+
+    {
+      name: "Bhc Chicken",
+      slug: "bhc-chicken",
+      category: "japanese-korean",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "JAPANESE KOREAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Bhc Chicken Menu</h2>
+<p>Welcome to Bhc Chicken. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of japanese korean cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: bhcChickenMenu
+    },
+
     {
       name: "Hama Japanese Dining",
       slug: "hama-japanese-dining",
@@ -6963,6 +9132,167 @@ export const brandMocks: Record<string, any[]> = {
   ],
   'pizza-italian': [
     {
+      name: "Amici Ristorante Italiano",
+      slug: "amici-ristorante-italiano",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Amici Ristorante Italiano Menu</h2>
+<p>Welcome to Amici Ristorante Italiano. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: amiciRistoranteItalianoMenu
+    },
+
+    {
+      name: "Mike Pizza",
+      slug: "mike-pizza",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Mike Pizza Menu</h2>
+<p>Welcome to Mike Pizza. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: mikePizzaMenu
+    },
+
+    {
+      name: "Bella Pasta And Wine",
+      slug: "bella-pasta-and-wine",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Bella Pasta And Wine Menu</h2>
+<p>Welcome to Bella Pasta And Wine. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: bellaPastaAndWineMenu
+    },
+
+    {
+      name: "Pizza Mansion",
+      slug: "pizza-mansion",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Pizza Mansion Menu</h2>
+<p>Welcome to Pizza Mansion. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: pizzaMansionMenu
+    },
+
+    {
+      name: "Pizzas",
+      slug: "pizzas",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Pizzas Menu</h2>
+<p>Welcome to Pizzas. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: pizzasMenu
+    },
+
+    {
+      name: "La Pan Pizza",
+      slug: "la-pan-pizza",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>La Pan Pizza Menu</h2>
+<p>Welcome to La Pan Pizza. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: laPanPizzaMenu
+    },
+
+    {
+      name: "Bacio Italian Kitchen",
+      slug: "bacio-italian-kitchen",
+      category: "pizza-italian",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "PIZZA ITALIAN", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Bacio Italian Kitchen Menu</h2>
+<p>Welcome to Bacio Italian Kitchen. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of pizza italian cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: bacioItalianKitchenMenu
+    },
+
+    {
       name: "Rico's Pizza Cafe",
       slug: "rico-s-pizza-cafe",
       category: "pizza-italian",
@@ -7207,6 +9537,29 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'western-grilled': [
+    {
+      name: "Nasi Lemak Lobster",
+      slug: "nasi-lemak-lobster",
+      category: "western-grilled",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "WESTERN GRILLED", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Nasi Lemak Lobster Menu</h2>
+<p>Welcome to Nasi Lemak Lobster. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of western grilled cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: nasiLemakLobsterMenu
+    },
+
     {
       name: "Jibby East Grill",
       slug: "jibby-east-grill",
@@ -7581,6 +9934,29 @@ export const brandMocks: Record<string, any[]> = {
     }
   ],
   'convenience-stores': [
+    {
+      name: "Emart",
+      slug: "emart",
+      category: "convenience-stores",
+      image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&h=400&fit=crop",
+      tags: [{ name: "CONVENIENCE STORES", colors: "bg-blue-500 text-white" }],
+      content: `
+<h2>Emart Menu</h2>
+<p>Welcome to Emart. We offer a wide variety of delicious options tailored to satisfy your cravings. Enjoy our carefully curated menu featuring the best of convenience stores cuisine, prepared with fresh ingredients and passion.</p>
+`,
+      faqs: [
+        {
+          q: "What are the operating hours?",
+          a: "We are open from 10:00 AM to 10:00 PM daily."
+        },
+        {
+          q: "Do you offer delivery?",
+          a: "Yes, delivery is available through major delivery partners."
+        }
+      ],
+      menu: emartMenu
+    },
+
     {
       name: "FamilyMart",
       slug: "familymart",
