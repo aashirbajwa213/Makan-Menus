@@ -1,4 +1,4 @@
-export const kennyHillsBakersGeorgetownMenu = [
+export const kennyHillsBakersGeorgeTownMenu = [
   { name: "Kenny Hills Bakers Georgetown Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
   { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
   { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
