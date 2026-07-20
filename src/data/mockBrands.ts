@@ -82,7 +82,6 @@ import { bacioItalianKitchenMenu } from './bacioItalianKitchenMenu';
 import { dinTaiFungMenu } from './dinTaiFungMenu';
 import { meeTarikJalanSultanMenu } from './meeTarikJalanSultanMenu';
 import { nasiLemakLobsterMenu } from './nasiLemakLobsterMenu';
-import { kopiHutMenu } from './kopiHutMenu';
 import { ofALaCarteMenu } from './ofALaCarteMenu';
 import { aLaCarteMenu } from './aLaCarteMenu';
 import { theGlasshopperMenu } from './theGlasshopperMenu';
