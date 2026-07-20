@@ -1,46 +1,72 @@
 export const kbbBurgerAndSteakMenu = [
-  { name: "Steakhouse Fries", price: "RM 10.60", category: "Appetizers & Sides", description: "Classic thick-cut steakhouse fries, perfectly crispy on the outside and fluffy inside." 
-  },
-  { name: "Grilled Cauliflower Steak", price: "RM 19.08", category: "Appetizers & Sides", description: "Tender cauliflower steak grilled with aromatic spices." 
-  },
-  { name: "Josper Grilled Eggplant", price: "RM 19.08", category: "Appetizers & Sides", description: "Smoky eggplant charred and cooked to perfection in a Josper oven." 
-  },
-  { name: "Truffle Fries", price: "RM 23.32", category: "Appetizers & Sides", description: "Crispy golden fries generously drizzled with premium truffle oil." 
-  },
-  { name: "Loaded Nachos", price: "RM 37.10", category: "Appetizers & Sides", description: "Crunchy tortilla chips loaded with melted cheese, jalapeños, and savory toppings." 
-  },
-  { name: "Grilled Spanish Calamari", price: "RM 44.52", category: "Appetizers & Sides", description: "Fresh Spanish calamari, lightly seasoned and grilled." 
-  },
-  { name: "Angus Beef Tongue", price: "RM 47.70", category: "Appetizers & Sides", description: "Premium Angus beef tongue, slow-cooked for a melt-in-your-mouth texture." 
-  },
-  { name: "Josper Roasted Bone Marrow", price: "RM 93.28", category: "Appetizers & Sides", description: "Rich, savory, and decadent bone marrow roasted in a charcoal Josper oven." 
-  },
-  { name: "Josper Grilled Barramundi", price: "RM 50.88", category: "Mains", description: "Fresh barramundi fillet with a smoky char, cooked in the Josper grill." 
-  },
-  { name: "Smoked Duck Breast", price: "RM 60.42", category: "Mains", description: "Succulent duck breast, perfectly smoked to enhance its natural flavors." 
-  },
-  { name: "Brined 1/2 Chicken", price: "RM 72.08", category: "Mains", description: "Juicy and tender half chicken, brined before being expertly grilled." 
-  },
-  { name: "Aged Salmon Trout", price: "RM 79.50", category: "Mains", description: "Premium aged salmon trout fillet, offering deep and rich flavors." 
-  },
-  { name: "Braised Denver Lamb Ribs", price: "RM 167.48", category: "Mains", description: "Slow-braised Denver lamb ribs, tender and flavorful." 
-  },
-  { name: "Braised Angus Beef Backribs", price: "RM 178.08", category: "Mains", description: "Tender, fall-off-the-bone Angus beef backribs smothered in a rich glaze." 
-  },
-  { name: "Aglio Olio Streaky Beef", price: "RM 26.50", category: "Burgers & Pastas", description: "Classic garlic and oil pasta tossed with savory streaky beef." 
-  },
-  { name: "Beef Carbonara", price: "RM 27.56", category: "Burgers & Pastas", description: "Creamy Italian-style pasta cooked with beef strips and a rich sauce." 
-  },
-  { name: "Classic Mac & Cheese", price: "RM 28.62", category: "Burgers & Pastas", description: "Traditional comfort food featuring macaroni smothered in a decadent cheese sauce." 
-  },
-  { name: "Smokey Beef Burger", price: "RM 29.68", category: "Burgers & Pastas", description: "Signature beef burger delivering a robust and smoky flavor profile." 
-  },
-  { name: "Aged Smoked Duck with Pesto Pasta", price: "RM 33.92", category: "Burgers & Pastas", description: "Vibrant green pesto pasta topped with slices of aged smoked duck." 
-  },
-  { name: "Double Beef Extreme Burger", price: "RM 34.98", category: "Burgers & Pastas", description: "A massive burger featuring two juicy beef patties for extreme cravings." 
-  },
-  { name: "Aglio Olio Prawn Pasta", price: "RM 40.28", category: "Burgers & Pastas", description: "Spicy and garlicky Aglio Olio pasta tossed with fresh, succulent prawns." 
-  },
-  { name: "Triple Smashed Burger", price: "RM 42.40", category: "Burgers & Pastas", description: "Three perfectly smashed beef patties stacked with melted cheese and fresh buns." 
-  }
+  { name: "Kbb Burger And Steak Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kbb Burger And Steak Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kbb Burger And Steak Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kbb Burger And Steak Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kbb Burger And Steak Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kbb Burger And Steak Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kbb Burger And Steak Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

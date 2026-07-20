@@ -1,77 +1,72 @@
 export const mixueMenu = [
-  // Ice Cream Series
-  { name: "Mixue Ice Cream", price: "RM2.00", category: "Ice Cream Series", menuType: "Ice Cream", description: "Signature creamy vanilla soft serve ice cream." 
-  },
-  { name: "Pearl Brulee Sundae", price: "RM5.00", category: "Ice Cream Series", menuType: "Ice Cream", description: "Vanilla ice cream with brown sugar pearls and brulee topping." 
-  },
-  { name: "Kiwi Sundae", price: "RM5.00", category: "Ice Cream Series", menuType: "Ice Cream", description: "Refreshing vanilla ice cream with tangy kiwi sauce." 
-  },
-  { name: "Super Boba Sundae", price: "RM5.00", category: "Ice Cream Series", menuType: "Ice Cream", description: "Classic sundae topped with chewy brown sugar boba." 
-  },
-  { name: "Super Mango Sundae", price: "RM5.00", category: "Ice Cream Series", menuType: "Ice Cream", description: "Sweet mango chunks and sauce over creamy vanilla ice cream." 
-  },
-  { name: "Strawberry Crispy Sundae", price: "RM5.00", category: "Ice Cream Series", menuType: "Ice Cream", description: "Vanilla ice cream with fresh strawberry sauce and crispy toppings." 
-  },
-  { name: "O-Crispy Sundae", price: "RM5.00", category: "Ice Cream Series", menuType: "Ice Cream", description: "Sundae topped with crunchy chocolate cookie bits." 
-  },
-  { name: "Peach Sundae", price: "RM5.00", category: "Ice Cream Series", menuType: "Ice Cream", description: "Sweet peach pieces over creamy vanilla soft serve." 
-  },
-
-  // Fruit Tea Series
-  { name: "Fresh Lemonade", price: "RM3.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "The iconic Mixue fresh lemonade, zesty and refreshing." 
-  },
-  { name: "Kiwi Jasmine Tea", price: "RM5.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "Floral jasmine tea infused with fresh kiwi." 
-  },
-  { name: "Strawberry Peach", price: "RM5.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "A sweet blend of strawberry and peach fruit tea." 
-  },
-  { name: "Lemon Jasmine Tea", price: "RM4.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "Fresh lemon slices in aromatic jasmine green tea." 
-  },
-  { name: "Creamy Mango Boba", price: "RM7.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "Creamy mango base with chewy boba pearls." 
-  },
-  { name: "Peach Black Tea", price: "RM6.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "Classic black tea with sweet peach flavor." 
-  },
-  { name: "Peach Jasmine Tea", price: "RM6.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "Light jasmine tea with sweet peach pieces." 
-  },
-  { name: "Lemon Black Tea", price: "RM4.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "Classic black tea with fresh lemon slices." 
-  },
-  { name: "Strawberry Bobo", price: "RM5.00", category: "Fruit Tea Series", menuType: "Fruit Tea", description: "Strawberry fruit tea with chewy toppings." 
-  },
-
-  // Milk Tea Series
-  { name: "Mango Brulee", price: "RM5.50", category: "Milk Tea Series", menuType: "Milk Tea", description: "Mango flavored milk tea with a caramelized brulee finish." 
-  },
-  { name: "Brown Sugar Bubble Tea", price: "RM5.50", category: "Milk Tea Series", menuType: "Milk Tea", description: "Classic milk tea with brown sugar syrup and pearls." 
-  },
-  { name: "Strawberry Creamy Drink", price: "RM4.50", category: "Milk Tea Series", menuType: "Milk Tea", description: "Creamy beverage with sweet strawberry flavor." 
-  },
-  { name: "Kiwi Creamy Drink", price: "RM4.50", category: "Milk Tea Series", menuType: "Milk Tea", description: "Creamy beverage with refreshing kiwi flavor." 
-  },
-  { name: "Toffee Hazelnut Milk Tea", price: "RM5.50", category: "Milk Tea Series", menuType: "Milk Tea", description: "Indulgent milk tea with toffee and hazelnut notes." 
-  },
-  { name: "O-CoCo Milk Tea", price: "RM6.00", category: "Milk Tea Series", menuType: "Milk Tea", description: "Milk tea with chocolate and coconut flavors." 
-  },
-  { name: "Super-Triple Milk Tea", price: "RM7.00", category: "Milk Tea Series", menuType: "Milk Tea", description: "Rich milk tea with three different types of toppings." 
-  },
-  { name: "Brulee Milk Tea", price: "RM5.00", category: "Milk Tea Series", menuType: "Milk Tea", description: "Creamy milk tea topped with caramelized sugar." 
-  },
-  { name: "Toffee Lava Brulee", price: "RM5.00", category: "Milk Tea Series", menuType: "Milk Tea", description: "Toffee-flavored milk tea with a lava brulee topping." 
-  },
-  { name: "Classical Milk Tea (Medium)", price: "RM5.00", category: "Milk Tea Series", menuType: "Milk Tea", description: "Smooth and traditional Mixue milk tea." 
-  },
-  { name: "Classical Milk Tea (Large)", price: "RM6.50", category: "Milk Tea Series", menuType: "Milk Tea", description: "Large portion of the classic Mixue milk tea." 
-  },
-
-  // Coffee Series
-  { name: "Ice Cream Toffee Hazelnut Latte", price: "RM5.50", category: "Coffee Series", menuType: "Coffee", description: "Latte with toffee hazelnut syrup topped with vanilla ice cream." 
-  },
-  { name: "Ice Cream Mocha", price: "RM5.50", category: "Coffee Series", menuType: "Coffee", description: "Mocha coffee topped with signature vanilla ice cream." 
-  },
-  { name: "Ice Cream Latte", price: "RM5.50", category: "Coffee Series", menuType: "Coffee", description: "Classic latte topped with creamy vanilla ice cream." 
-  },
-  { name: "Iced Latte", price: "RM4.00", category: "Coffee Series", menuType: "Coffee", description: "Chilled latte with a smooth coffee flavor." 
-  },
-  { name: "Brown Sugar Latte", price: "RM4.50", category: "Coffee Series", menuType: "Coffee", description: "Latte sweetened with rich brown sugar syrup." 
-  },
-  { name: "Toffee Hazelnut Latte", price: "RM4.50", category: "Coffee Series", menuType: "Coffee", description: "Hot or iced latte with toffee hazelnut flavors." 
-  },
+  { name: "Mixue Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Mixue Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Mixue Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Mixue Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Mixue Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Mixue Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Mixue Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

@@ -1,285 +1,72 @@
 export const woodfireMenu = [
-  // Gourmet Burgers (Beef/Chicken)
-  {
-    "name": "Stuffed Cheese Burger",
-    "description": "Our signature Stuffed Cheese Burger, made with premium ingredients and served fresh.",
-    "price": "RM27.90",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "BBQ Burger",
-    "description": "Our signature BBQ Burger, made with premium ingredients and served fresh.",
-    "price": "RM28.90",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Gourmet Burger (Salted Egg Sauce)",
-    "description": "Our signature Gourmet Burger (Salted Egg Sauce), made with premium ingredients and served fresh.",
-    "price": "RM27.90",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Mushroom Burger",
-    "description": "Our signature Mushroom Burger, made with premium ingredients and served fresh.",
-    "price": "RM31.90",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Smoked Burger",
-    "description": "Our signature Smoked Burger, made with premium ingredients and served fresh.",
-    "price": "RM31.90",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Double Patty Burger (Mixed/Beef)",
-    "description": "Our signature Double Patty Burger (Mixed/Beef), made with premium ingredients and served fresh.",
-    "price": "RM39.80",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Brisket Burger (Signature)",
-    "description": "Our signature Brisket Burger (Signature), made with premium ingredients and served fresh.",
-    "price": "RM52.90",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Crispy Smoked Chicken Burger",
-    "description": "Our signature Crispy Smoked Chicken Burger, made with premium ingredients and served fresh.",
-    "price": "RM35.90",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Pistachio Burger",
-    "description": "Our signature Pistachio Burger, made with premium ingredients and served fresh.",
-    "price": "RM26.90",
-    "category": "Gourmet Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Specialties & Platters
-  {
-    "name": "Madhen Nashville Hot Chicken",
-    "description": "Tender and flavorful Madhen Nashville Hot Chicken, cooked to perfection.",
-    "price": "RM33.20",
-    "category": "Specialties & Platters",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Cheesesteak (Beef)",
-    "description": "Enjoy the delightful taste of our Cheesesteak (Beef), a popular choice among our customers.",
-    "price": "RM26.50",
-    "category": "Specialties & Platters",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Cheesesteak with Brisket",
-    "description": "Enjoy the delightful taste of our Cheesesteak with Brisket, a popular choice among our customers.",
-    "price": "RM41.90",
-    "category": "Specialties & Platters",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Smoked Chicken Platter",
-    "description": "A refreshing serving of Smoked Chicken Platter, perfect to quench your thirst.",
-    "price": "RM29.90",
-    "category": "Specialties & Platters",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Smoked Brisket Platter (200g)",
-    "description": "A refreshing serving of Smoked Brisket Platter (200g), perfect to quench your thirst.",
-    "price": "RM62.90",
-    "category": "Specialties & Platters",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Angus Steak Platter",
-    "description": "A refreshing serving of Angus Steak Platter, perfect to quench your thirst.",
-    "price": "RM89.90",
-    "category": "Specialties & Platters",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Sides & Snacks
-  {
-    "name": "Curly Fries",
-    "description": "A perfect side of Curly Fries to complement your main meal.",
-    "price": "RM9.20",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Coney Fries (Beef Sauce & Cheese)",
-    "description": "A perfect side of Coney Fries (Beef Sauce & Cheese) to complement your main meal.",
-    "price": "RM18.50",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Beef & Cheese Fries",
-    "description": "A perfect side of Beef & Cheese Fries to complement your main meal.",
-    "price": "RM20.90",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Cheesy Fries",
-    "description": "A perfect side of Cheesy Fries to complement your main meal.",
-    "price": "RM16.90",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Nugget & Fries",
-    "description": "A perfect side of Nugget & Fries to complement your main meal.",
-    "price": "RM16.90",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Mushroom Soup",
-    "description": "A perfect side of Mushroom Soup to complement your main meal.",
-    "price": "RM8.50",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Kids Menu
-  {
-    "name": "Kids Burger (Beef/Chicken)",
-    "description": "Our signature Kids Burger (Beef/Chicken), made with premium ingredients and served fresh.",
-    "price": "RM18.50",
-    "category": "Kids Menu",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Milkshakes & Desserts
-  {
-    "name": "Biscoff Milkshake",
-    "description": "A sweet and delicious Biscoff Milkshake to satisfy your cravings.",
-    "price": "RM22.50",
-    "category": "Milkshakes & Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Matcha Milkshake",
-    "description": "A sweet and delicious Matcha Milkshake to satisfy your cravings.",
-    "price": "RM22.50",
-    "category": "Milkshakes & Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Chocolate / Vanilla / Strawberry Shake",
-    "description": "A sweet and delicious Chocolate / Vanilla / Strawberry Shake to satisfy your cravings.",
-    "price": "RM22.50",
-    "category": "Milkshakes & Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Oreo Milkshake",
-    "description": "A sweet and delicious Oreo Milkshake to satisfy your cravings.",
-    "price": "RM22.50",
-    "category": "Milkshakes & Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Chocolate Waffle",
-    "description": "A sweet and delicious Chocolate Waffle to satisfy your cravings.",
-    "price": "RM17.30",
-    "category": "Milkshakes & Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Biscoff Waffle",
-    "description": "A sweet and delicious Biscoff Waffle to satisfy your cravings.",
-    "price": "RM17.30",
-    "category": "Milkshakes & Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Beverages
-  {
-    "name": "Salt Cola (Signature)",
-    "description": "A refreshing serving of Salt Cola (Signature), perfect to quench your thirst.",
-    "price": "RM6.00",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Butter Soda",
-    "description": "A refreshing serving of Butter Soda, perfect to quench your thirst.",
-    "price": "RM9.20",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "A&W Float",
-    "description": "A refreshing serving of A&W Float, perfect to quench your thirst.",
-    "price": "RM9.20",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Peach Tea / Strawberry Lemonade",
-    "description": "A refreshing serving of Peach Tea / Strawberry Lemonade, perfect to quench your thirst.",
-    "price": "RM8.00",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Iced Lemon Tea",
-    "description": "A refreshing serving of Iced Lemon Tea, perfect to quench your thirst.",
-    "price": "RM6.00",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Mineral Water",
-    "description": "A refreshing serving of Mineral Water, perfect to quench your thirst.",
-    "price": "RM3.00",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  }
+  { name: "Woodfire Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Woodfire Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Woodfire Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Woodfire Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Woodfire Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Woodfire Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Woodfire Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

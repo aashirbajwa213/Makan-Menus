@@ -1,121 +1,72 @@
 export const brewHouseMenu = [
-  {
-    name: "Mushroom & Bacon Soup",
-    price: "RM 16.80",
-    category: "Appetizers & Snacks",
-    description: "Warm and comforting creamy soup made with mushrooms and savory bacon bits."
-  
-  },
-  {
-    name: "Classic Caesar Salad with Bacon",
-    price: "RM 23.80",
-    category: "Appetizers & Snacks",
-    description: "Fresh romaine lettuce tossed in Caesar dressing and topped with crispy bacon."
-  
-  },
-  {
-    name: "Salted Egg Fish Skin with Pork Floss",
-    price: "RM 24.80",
-    category: "Appetizers & Snacks",
-    description: "Crispy fish skin coated in rich salted egg yolk with savory pork floss."
-  
-  },
-  {
-    name: "Kimchi Jjigae Soup",
-    price: "RM 16.80",
-    category: "Appetizers & Snacks",
-    description: "A traditional Korean spicy and sour kimchi stew."
-  
-  },
-  {
-    name: "Korean Fried Chicken Wings",
-    price: "RM 19.80",
-    category: "Appetizers & Snacks",
-    description: "Crispy fried chicken wings glazed with a sweet and spicy Korean-style sauce."
-  
-  },
-  {
-    name: "Luncheon Meat Fries",
-    price: "RM 21.80",
-    category: "Appetizers & Snacks",
-    description: "Deep-fried strips of savory luncheon meat served as fries."
-  
-  },
-  {
-    name: "Pigs In A Blanket",
-    price: "RM 21.80",
-    category: "Appetizers & Snacks",
-    description: "Delicious sausages wrapped in crispy bacon."
-  
-  },
-  {
-    name: "Grilled Chicken Chop",
-    price: "RM 23.80",
-    category: "Mains",
-    description: "Tender grilled chicken chop served with a side of vegetables and fries."
-  
-  },
-  {
-    name: "Hainanese Chicken Chop",
-    price: "RM 26.80",
-    category: "Mains",
-    description: "Classic Hainanese-style deep-fried chicken chop accompanied by a rich savory sauce."
-  
-  },
-  {
-    name: "Brew House Signature Pork Chop",
-    price: "RM 25.80",
-    category: "Mains",
-    description: "The signature juicy pork chop grilled to perfection."
-  
-  },
-  {
-    name: "Brew House Pork Burger",
-    price: "RM 24.80",
-    category: "Mains",
-    description: "A hearty burger featuring a flavorful pork patty and fresh vegetables."
-  
-  },
-  {
-    name: "Mac & Chick Burger",
-    price: "RM 27.80",
-    category: "Mains",
-    description: "A unique burger combination of creamy mac and cheese with a chicken patty."
-  
-  },
-  {
-    name: "Bacon Steak",
-    price: "RM 29.80",
-    category: "Mains",
-    description: "A thick, juicy cut of bacon steak grilled and served with savory sides."
-  
-  },
-  {
-    name: "Grilled Lamb Chop",
-    price: "RM 44.80",
-    category: "Mains",
-    description: "Premium lamb chops grilled and seasoned with aromatic herbs."
-  
-  },
-  {
-    name: "Grilled Grain-Fed Beef (200gm)",
-    price: "RM 49.80",
-    category: "Mains",
-    description: "A tender 200g cut of grain-fed beef steak grilled to your preference."
-  
-  },
-  {
-    name: "Sausage & Luncheon Meat Fried Rice",
-    price: "RM 17.80",
-    category: "Asian Specialties",
-    description: "Wok-fried rice mixed with flavorful sausage and luncheon meat slices."
-  
-  },
-  {
-    name: "Nyonya Laksa with Roasted Pork",
-    price: "RM 20.80",
-    category: "Asian Specialties",
-    description: "A rich, spicy coconut milk-based noodle soup topped with crispy roasted pork."
-  
-  }
+  { name: "Brew House Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Brew House Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Brew House Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Brew House Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Brew House Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Brew House Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Brew House Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

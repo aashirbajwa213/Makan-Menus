@@ -1,338 +1,72 @@
 export const dancingFishMenu = [
-  {
-    "name": "Dancing Fish with Sambal Dabu-Dabu",
-    "price": "RM 58.00",
-    "desc": "Our iconic dish: a whole, fresh Nila fish deeply scored and deep-fried to create a visually stunning 'dancing' shape, shatteringly crisp, served with a fiery, fresh salsa of tomatoes, shallots, and chilies.",
-    "category": "Signature Dancing Fish"
-  
-  },
-  {
-    "name": "Dancing Fish with Sambal Belacan",
-    "price": "RM 58.00",
-    "desc": "The legendary crispy 'dancing' fish served heavily accompanied by our intensely aromatic, deeply pungent, and fiery homemade toasted shrimp paste chili sambal.",
-    "category": "Signature Dancing Fish"
-  
-  },
-  {
-    "name": "Dancing Fish with Sweet Soy (Kecap Manis)",
-    "price": "RM 60.00",
-    "desc": "A milder, deeply savory option: our incredibly crispy whole fish heavily glazed in a rich, thick, and sweet Indonesian soy sauce infused with garlic and mild chilies.",
-    "category": "Signature Dancing Fish"
-  
-  },
-  {
-    "name": "Dancing Fish with Asam Pedas Sauce",
-    "price": "RM 62.00",
-    "desc": "The signature crispy fish completely submerged in a highly aromatic, intensely tangy, and fiery tamarind-based chili gravy with okra and tomatoes.",
-    "category": "Signature Dancing Fish"
-  
-  },
-  {
-    "name": "Dancing Fish with Gulai Tempoyak",
-    "price": "RM 65.00",
-    "desc": "For the adventurous: our crispy fish served with an incredibly pungent, deeply savory, and slightly sour fermented durian and chili coconut curry.",
-    "category": "Signature Dancing Fish"
-  
-  },
-  {
-    "name": "Dancing Fish with Sambal Merah",
-    "price": "RM 58.00",
-    "desc": "A classic pairing featuring the crispy 'dancing' fish generously smothered in a rich, slow-cooked, and intensely flavorful red chili and tomato sambal.",
-    "category": "Signature Dancing Fish"
-  
-  },
-  {
-    "name": "Dancing Fish with Mango Kerabu",
-    "price": "RM 62.00",
-    "desc": "A highly refreshing combination: the intensely crispy fish topped heavily with a vibrant, tangy, and slightly spicy shredded green mango and peanut salad.",
-    "category": "Signature Dancing Fish"
-  
-  },
-  {
-    "name": "Dancing Fish Original (Salt & Pepper)",
-    "price": "RM 55.00",
-    "desc": "Enjoy the pure, unadulterated flavor of our signature dish: the incredibly crispy, deep-fried fish served simply with a side of highly aromatic spiced salt.",
-    "category": "Signature Dancing Fish"
-  
-  },
-  {
-    "name": "Tahu Telur",
-    "price": "RM 22.00",
-    "desc": "An absolute masterpiece: a towering, incredibly crispy, and fluffy deep-fried tower of tofu and egg, heavily drizzled with a rich, sweet, and sticky peanut sauce.",
-    "category": "Appetizers & Starters"
-  
-  },
-  {
-    "name": "Cucur Udang (Prawn Fritters)",
-    "price": "RM 18.00",
-    "desc": "A generous basket of deeply crispy, golden-fried dough fritters heavily packed with fresh prawns and chives, served with an intensely sweet and spicy chili dip.",
-    "category": "Appetizers & Starters"
-  
-  },
-  {
-    "name": "Sate Lilit Ayam (Balinese Chicken Satay)",
-    "price": "RM 24.00",
-    "desc": "Five skewers of incredibly aromatic, finely minced chicken heavily mixed with coconut and Balinese spices, molded tightly around lemongrass stalks and grilled.",
-    "category": "Appetizers & Starters"
-  
-  },
-  {
-    "name": "Kerabu Pucuk Paku",
-    "price": "RM 20.00",
-    "desc": "A highly refreshing, intensely flavorful traditional salad featuring blanched jungle fern shoots tossed vigorously with fresh coconut, lime juice, and fiery sambal belacan.",
-    "category": "Appetizers & Starters"
-  
-  },
-  {
-    "name": "Emping with Sambal Terasi",
-    "price": "RM 12.00",
-    "desc": "An incredibly crunchy, slightly bitter, and deeply addictive traditional cracker made from melinjo nuts, served with our pungent shrimp paste sambal.",
-    "category": "Appetizers & Starters"
-  
-  },
-  {
-    "name": "Otak-Otak Bakar",
-    "price": "RM 18.00",
-    "desc": "A deeply savory, highly spiced fish paste heavily infused with coconut milk and aromatics, wrapped tightly in banana leaves and grilled over an open charcoal flame.",
-    "category": "Appetizers & Starters"
-  
-  },
-  {
-    "name": "Gado-Gado",
-    "price": "RM 22.00",
-    "desc": "A hearty Indonesian salad featuring an abundance of blanched vegetables, boiled eggs, tofu, and tempeh, completely smothered in a rich, warm peanut sauce.",
-    "category": "Appetizers & Starters"
-  
-  },
-  {
-    "name": "Sup Buntut (Oxtail Soup)",
-    "price": "RM 35.00",
-    "desc": "An intensely rich, deeply comforting, and highly aromatic clear soup featuring incredibly tender, slow-cooked oxtail chunks, potatoes, and carrots.",
-    "category": "Appetizers & Starters"
-  
-  },
-  {
-    "name": "Bebek Panggang (Balinese Roast Duck)",
-    "price": "RM 48.00",
-    "desc": "Half a duck, marinated extensively in a complex blend of Balinese spices, slow-roasted until incredibly tender, and finished with a shatteringly crisp skin.",
-    "category": "Traditional Curries & Mains"
-  
-  },
-  {
-    "name": "Beef Rendang Tok",
-    "price": "RM 45.00",
-    "desc": "Our signature, incredibly dark, deeply caramelized, and intensely spiced traditional dry curry, featuring chunks of beef slow-cooked for hours until fall-apart tender.",
-    "category": "Traditional Curries & Mains"
-  
-  },
-  {
-    "name": "Ayam Panggang Percik",
-    "price": "RM 38.00",
-    "desc": "A massive, perfectly grilled chicken quarter completely smothered in an incredibly rich, creamy, and heavily spiced coconut milk percik gravy.",
-    "category": "Traditional Curries & Mains"
-  
-  },
-  {
-    "name": "Gulai Prawns with Pineapple",
-    "price": "RM 48.00",
-    "desc": "Massive, fresh tiger prawns cooked slowly in a highly aromatic, bright yellow, and incredibly rich coconut curry heavily infused with sweet, tangy pineapple chunks.",
-    "category": "Traditional Curries & Mains"
-  
-  },
-  {
-    "name": "Ikan Bakar (Grilled Fish in Banana Leaf)",
-    "price": "RM 45.00",
-    "desc": "A whole fresh fish heavily marinated in a deeply savory, slightly sweet spice paste, wrapped tightly in a banana leaf, and grilled over an open flame.",
-    "category": "Traditional Curries & Mains"
-  
-  },
-  {
-    "name": "Ayam Masak Merah",
-    "price": "RM 35.00",
-    "desc": "Deep-fried chicken pieces submerged entirely in a rich, slow-simmered, sweet, and slightly spicy tomato and chili gravy, infused heavily with aromatics.",
-    "category": "Traditional Curries & Mains"
-  
-  },
-  {
-    "name": "Sotong Masak Hitam (Squid in Ink)",
-    "price": "RM 38.00",
-    "desc": "Tender, fresh squid rings cooked rapidly in a deeply savory, intensely dark sauce made from their own ink, heavily infused with lemongrass and chilies.",
-    "category": "Traditional Curries & Mains"
-  
-  },
-  {
-    "name": "Lamb Curry (Kari Kambing)",
-    "price": "RM 48.00",
-    "desc": "Incredibly tender, bone-in lamb chunks slow-simmered in a highly robust, deeply spiced, and fiery red curry sauce with tender potatoes.",
-    "category": "Traditional Curries & Mains"
-  
-  },
-  {
-    "name": "Kangkung Belacan",
-    "price": "RM 18.00",
-    "desc": "The ultimate classic: fresh water spinach wok-tossed rapidly over intense high heat with an incredibly pungent, fiery, and deeply savory shrimp paste sambal.",
-    "category": "Vegetables & Tofu"
-  
-  },
-  {
-    "name": "Pucuk Manis with Sweet Potato",
-    "price": "RM 20.00",
-    "desc": "A highly comforting, mild, and creamy dish featuring delicate sweet leaf greens and sweet potato cubes slow-cooked in an incredibly rich coconut milk broth.",
-    "category": "Vegetables & Tofu"
-  
-  },
-  {
-    "name": "Terung Balado (Spicy Eggplant)",
-    "price": "RM 18.00",
-    "desc": "Thick wedges of eggplant deep-fried until perfectly soft, then smothered entirely in a bright, fiery, and highly aromatic red chili sambal.",
-    "category": "Vegetables & Tofu"
-  
-  },
-  {
-    "name": "Sayur Lodeh",
-    "price": "RM 22.00",
-    "desc": "A deeply satisfying Indonesian vegetable stew featuring an abundance of cabbage, long beans, tofu, and tempeh, simmered slowly in a rich, spiced coconut broth.",
-    "category": "Vegetables & Tofu"
-  
-  },
-  {
-    "name": "Sambal Petai with Prawns",
-    "price": "RM 35.00",
-    "desc": "An intensely pungent, deeply savory, and highly aromatic dish featuring fresh tiger prawns and stink beans (petai) wok-tossed heavily in our fiery sambal belacan.",
-    "category": "Vegetables & Tofu"
-  
-  },
-  {
-    "name": "Stir-Fried Kailan with Garlic",
-    "price": "RM 18.00",
-    "desc": "A simple, clean, and highly crunchy dish featuring fresh Chinese broccoli stir-fried rapidly with an absolute abundance of premium crushed garlic.",
-    "category": "Vegetables & Tofu"
-  
-  },
-  {
-    "name": "Tempeh Orek (Sweet & Spicy Tempeh)",
-    "price": "RM 16.00",
-    "desc": "An incredibly addictive side dish of fermented soybean cake (tempeh) cut into thin strips, deep-fried until shatteringly crisp, and glazed heavily in sweet soy and chilies.",
-    "category": "Vegetables & Tofu"
-  
-  },
-  {
-    "name": "Tofu with Mushroom & Egg Drop Sauce",
-    "price": "RM 24.00",
-    "desc": "Incredibly soft, silky egg tofu blocks deep-fried lightly, completely submerged in a highly savory, thick, and deeply comforting mushroom and egg drop gravy.",
-    "category": "Vegetables & Tofu"
-  
-  },
-  {
-    "name": "Nasi Wangi Putih (Fragrant White Rice)",
-    "price": "RM 4.00",
-    "desc": "A generous bowl of perfectly steamed, premium long-grain Jasmine rice, highly aromatic and essential for soaking up our rich curries.",
-    "category": "Rice & Noodles"
-  
-  },
-  {
-    "name": "Nasi Kuning (Yellow Turmeric Rice)",
-    "price": "RM 6.00",
-    "desc": "A deeply flavorful, highly aromatic rice dish cooked perfectly with coconut milk, fragrant turmeric, lemongrass, and pandan leaves.",
-    "category": "Rice & Noodles"
-  
-  },
-  {
-    "name": "Nasi Goreng Dancing Fish",
-    "price": "RM 24.00",
-    "desc": "Our signature, intensely savory, and slightly spicy fried rice, wok-tossed rapidly with seafood and topped perfectly with a fried egg and chicken satay.",
-    "category": "Rice & Noodles"
-  
-  },
-  {
-    "name": "Nasi Bakar (Grilled Rice in Banana Leaf)",
-    "price": "RM 22.00",
-    "desc": "Highly aromatic spiced rice heavily mixed with shredded chicken and basil, wrapped tightly in a banana leaf, and grilled to impart an incredibly smoky flavor.",
-    "category": "Rice & Noodles"
-  
-  },
-  {
-    "name": "Mee Goreng Jawa",
-    "price": "RM 20.00",
-    "desc": "A slightly sweet, intensely savory, and spicy traditional Javanese noodle dish wok-tossed with chicken, potatoes, and a rich, deeply complex sauce.",
-    "category": "Rice & Noodles"
-  
-  },
-  {
-    "name": "Bihun Goreng Singapore",
-    "price": "RM 18.00",
-    "desc": "A light, highly aromatic, and non-spicy stir-fried vermicelli dish flavored perfectly with premium curry powder, loaded with fresh prawns and vegetables.",
-    "category": "Rice & Noodles"
-  
-  },
-  {
-    "name": "Nasi Lemak Dancing Fish",
-    "price": "RM 26.00",
-    "desc": "An elevated classic: incredibly rich, fragrant coconut rice served with our fiery sambal, crispy anchovies, and an incredibly tender piece of Ayam Percik.",
-    "category": "Rice & Noodles"
-  
-  },
-  {
-    "name": "Lontong (Compressed Rice Cakes)",
-    "price": "RM 6.00",
-    "desc": "Traditional, deeply dense, and perfectly chewy compressed rice cakes, the ideal vessel for absorbing our Sayur Lodeh or rich peanut sauce.",
-    "category": "Rice & Noodles"
-  
-  },
-  {
-    "name": "Cendol Gula Melaka",
-    "price": "RM 12.00",
-    "desc": "The ultimate local refresher: a mountain of finely shaved ice heavily topped with vibrant green pandan jellies, rich coconut milk, and an absolute abundance of thick, dark palm sugar.",
-    "category": "Traditional Desserts & Drinks"
-  
-  },
-  {
-    "name": "Sago Gula Melaka",
-    "price": "RM 10.00",
-    "desc": "An incredibly smooth, chilled, and perfectly bouncy sago pearl pudding, served sitting in a pool of highly rich, deeply sweet palm sugar syrup and coconut cream.",
-    "category": "Traditional Desserts & Drinks"
-  
-  },
-  {
-    "name": "Pisang Goreng with Cheese",
-    "price": "RM 15.00",
-    "desc": "Sweet, incredibly ripe bananas coated in a shatteringly crisp batter, deep-fried until golden, and topped heavily with an absolute mountain of grated cheddar cheese and condensed milk.",
-    "category": "Traditional Desserts & Drinks"
-  
-  },
-  {
-    "name": "Pulut Hitam (Black Glutinous Rice)",
-    "price": "RM 10.00",
-    "desc": "A warm, deeply comforting, and naturally sweet porridge made from black glutinous rice, slow-cooked until soft and heavily drizzled with salted coconut cream.",
-    "category": "Traditional Desserts & Drinks"
-  
-  },
-  {
-    "name": "Sirap Bandung Cincau",
-    "price": "RM 8.00",
-    "desc": "A highly refreshing, deeply vibrant pink rose syrup drink mixed perfectly with evaporated milk, heavily loaded with chewy, dark grass jelly cubes.",
-    "category": "Traditional Desserts & Drinks"
-  
-  },
-  {
-    "name": "Fresh Kedondong (Ambarella) Juice with Sour Plum",
-    "price": "RM 12.00",
-    "desc": "An intensely tart, highly refreshing, and deeply complex freshly squeezed juice blending green ambarella fruit with the salty-sweet kick of a dried sour plum.",
-    "category": "Traditional Desserts & Drinks"
-  
-  },
-  {
-    "name": "Teh Tarik",
-    "price": "RM 6.00",
-    "desc": "Our signature 'pulled' tea: a robust, deeply brewed hot black tea mixed perfectly with condensed milk and aerated multiple times to create a highly frothy top.",
-    "category": "Traditional Desserts & Drinks"
-  
-  },
-  {
-    "name": "Lemongrass & Ginger Tea",
-    "price": "RM 10.00",
-    "desc": "A deeply soothing, highly aromatic, and slightly spicy tea brewed fresh from crushed lemongrass stalks and sliced ginger, perfect for digestion.",
-    "category": "Traditional Desserts & Drinks"
-  
-  }
+  { name: "Dancing Fish Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Dancing Fish Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Dancing Fish Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Dancing Fish Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Dancing Fish Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Dancing Fish Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Dancing Fish Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

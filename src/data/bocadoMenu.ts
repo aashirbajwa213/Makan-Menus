@@ -1,282 +1,72 @@
 export const bocadoMenu = [
-  {
-    "name": "Gambas al Ajillo",
-    "price": "RM 42.00",
-    "desc": "A sizzling, incredibly aromatic clay cazuela filled with fresh tiger prawns cooked rapidly in premium Spanish olive oil, generous garlic, and dried chili.",
-    "category": "Tapas Calientes"
-  
-  },
-  {
-    "name": "Patatas Bravas",
-    "price": "RM 24.00",
-    "desc": "Classic Spanish tapas featuring crispy, golden-fried potato cubes heavily smothered in a spicy, smoky tomato brava sauce and creamy garlic aioli.",
-    "category": "Tapas Calientes"
-  
-  },
-  {
-    "name": "Croquetas de Jamón",
-    "price": "RM 32.00",
-    "desc": "Four incredibly creamy, melt-in-your-mouth bechamel croquettes generously studded with premium savory Spanish cured ham, deep-fried until golden.",
-    "category": "Tapas Calientes"
-  
-  },
-  {
-    "name": "Chorizo al Vino Tinto",
-    "price": "RM 36.00",
-    "desc": "Spicy, smoky Spanish chorizo sausages slowly braised in a rich, robust red wine reduction until tender and sticky.",
-    "category": "Tapas Calientes"
-  
-  },
-  {
-    "name": "Pulpo a la Gallega",
-    "price": "RM 58.00",
-    "desc": "Tender, perfectly cooked Galician-style octopus tentacles served simply over sliced boiled potatoes, heavily dusted with smoked paprika and olive oil.",
-    "category": "Tapas Calientes"
-  
-  },
-  {
-    "name": "Calamares Fritos",
-    "price": "RM 34.00",
-    "desc": "Fresh, tender squid rings coated in a light, crispy batter and fried until golden, served with a zesty lemon wedges and garlic aioli.",
-    "category": "Tapas Calientes"
-  
-  },
-  {
-    "name": "Albóndigas en Salsa",
-    "price": "RM 30.00",
-    "desc": "Six tender, savory meatballs made from a blend of beef and pork, slow-cooked in a rich, deeply flavorful tomato and vegetable sauce.",
-    "category": "Tapas Calientes"
-  
-  },
-  {
-    "name": "Pimientos de Padrón",
-    "price": "RM 28.00",
-    "desc": "A simple yet addictive dish of blistered Spanish Padrón peppers, quickly fried in olive oil and sprinkled generously with coarse sea salt.",
-    "category": "Tapas Calientes"
-  
-  },
-  {
-    "name": "Tabla de Ibéricos",
-    "price": "RM 95.00",
-    "desc": "A luxurious tasting board featuring an assortment of premium, thinly sliced Jamón Ibérico, Chorizo, Salchichón, and Lomo.",
-    "category": "Tapas Frias"
-  
-  },
-  {
-    "name": "Tortilla Española",
-    "price": "RM 26.00",
-    "desc": "A thick, traditional Spanish omelette made with slowly confit potatoes, caramelized onions, and eggs, served at room temperature.",
-    "category": "Tapas Frias"
-  
-  },
-  {
-    "name": "Pan con Tomate",
-    "price": "RM 16.00",
-    "desc": "A Catalan classic: thick slices of crusty, toasted artisan bread rubbed vigorously with fresh garlic and ripe tomatoes, drizzled with olive oil.",
-    "category": "Tapas Frias"
-  
-  },
-  {
-    "name": "Ensaladilla Rusa",
-    "price": "RM 24.00",
-    "desc": "The famous Spanish potato salad, featuring tuna, boiled eggs, carrots, and peas, bound together with a rich homemade mayonnaise.",
-    "category": "Tapas Frias"
-  
-  },
-  {
-    "name": "Boquerones en Vinagre",
-    "price": "RM 32.00",
-    "desc": "Delicate, fresh white anchovy fillets gently marinated in white wine vinegar, garlic, and parsley, served with crusty bread.",
-    "category": "Tapas Frias"
-  
-  },
-  {
-    "name": "Gazpacho Andaluz",
-    "price": "RM 22.00",
-    "desc": "A refreshing, chilled traditional tomato soup blended with cucumbers, bell peppers, garlic, and premium olive oil.",
-    "category": "Tapas Frias"
-  
-  },
-  {
-    "name": "Tabla de Quesos Manchegos",
-    "price": "RM 65.00",
-    "desc": "A curated cheese board featuring different ages of authentic Spanish Manchego sheep's milk cheese, served with quince paste (membrillo).",
-    "category": "Tapas Frias"
-  
-  },
-  {
-    "name": "Aceitunas Aliñadas",
-    "price": "RM 18.00",
-    "desc": "A generous bowl of mixed, imported Spanish olives marinated in-house with herbs, garlic, and citrus peel.",
-    "category": "Tapas Frias"
-  
-  },
-  {
-    "name": "Paella de Mariscos (For 2)",
-    "price": "RM 145.00",
-    "desc": "Our signature authentic seafood paella featuring Bomba rice cooked slowly in a rich seafood broth with saffron, loaded with prawns, mussels, and squid.",
-    "category": "Paella & Mains"
-  
-  },
-  {
-    "name": "Paella Valenciana (For 2)",
-    "price": "RM 135.00",
-    "desc": "The original Paella: Bomba rice cooked with chicken, rabbit, flat green beans, and garrofón (butter beans) infused heavily with saffron.",
-    "category": "Paella & Mains"
-  
-  },
-  {
-    "name": "Paella Negra (Arroz Negro) (For 2)",
-    "price": "RM 140.00",
-    "desc": "A striking, deeply savory paella cooked with squid ink, topped with tender calamari rings and dollops of creamy garlic aioli.",
-    "category": "Paella & Mains"
-  
-  },
-  {
-    "name": "Cochinillo Asado",
-    "price": "RM 180.00",
-    "desc": "Traditional Segovian-style slow-roasted suckling pig, boasting incredibly tender, melt-in-your-mouth meat under a layer of shatteringly crisp skin.",
-    "category": "Paella & Mains"
-  
-  },
-  {
-    "name": "Chuleton de Buey (1kg)",
-    "price": "RM 450.00",
-    "desc": "A massive, premium bone-in ribeye steak meant for sharing, heavily marbled and grilled over charcoal to your desired doneness.",
-    "category": "Paella & Mains"
-  
-  },
-  {
-    "name": "Carrillada de Ternera",
-    "price": "RM 85.00",
-    "desc": "Incredibly tender, slow-braised beef cheeks cooked for 12 hours in a rich Pedro Ximénez sherry reduction, served over creamy mash.",
-    "category": "Paella & Mains"
-  
-  },
-  {
-    "name": "Pollo al Ajillo",
-    "price": "RM 55.00",
-    "desc": "Half a chicken cut into small pieces and pan-fried with an abundance of garlic, white wine, and fresh parsley.",
-    "category": "Paella & Mains"
-  
-  },
-  {
-    "name": "Lubina a la Sal",
-    "price": "RM 160.00",
-    "desc": "A whole fresh sea bass baked entirely inside a crust of sea salt to retain moisture, filleted tableside.",
-    "category": "Paella & Mains"
-  
-  },
-  {
-    "name": "Churros con Chocolate",
-    "price": "RM 24.00",
-    "desc": "Six classic, crispy, star-shaped fried dough pastries dusted generously with sugar, served with a cup of incredibly thick, dark, and rich dipping chocolate.",
-    "category": "Postres"
-  
-  },
-  {
-    "name": "Crema Catalana",
-    "price": "RM 22.00",
-    "desc": "The Catalan cousin of crème brûlée, featuring a smooth, creamy custard heavily infused with citrus peel and cinnamon, beneath a crisp caramelized sugar top.",
-    "category": "Postres"
-  
-  },
-  {
-    "name": "Tarta de Queso Manchego",
-    "price": "RM 28.00",
-    "desc": "A unique, savory-sweet burnt Basque-style cheesecake made with premium, aged Spanish Manchego cheese.",
-    "category": "Postres"
-  
-  },
-  {
-    "name": "Torrijas",
-    "price": "RM 24.00",
-    "desc": "A traditional Spanish dessert similar to French toast, soaked overnight in milk and honey, fried, and heavily dusted with cinnamon.",
-    "category": "Postres"
-  
-  },
-  {
-    "name": "Flan de Caramelo",
-    "price": "RM 18.00",
-    "desc": "A classic, incredibly smooth Spanish egg custard drenched in a rich, deeply caramelized sugar syrup.",
-    "category": "Postres"
-  
-  },
-  {
-    "name": "Tarta de Santiago",
-    "price": "RM 22.00",
-    "desc": "A traditional, naturally gluten-free Galician almond cake lightly dusted with powdered sugar, carrying a subtle hint of lemon.",
-    "category": "Postres"
-  
-  },
-  {
-    "name": "Helado de Turrón",
-    "price": "RM 16.00",
-    "desc": "Two scoops of artisanal ice cream flavored heavily with traditional Spanish almond and honey nougat (turrón).",
-    "category": "Postres"
-  
-  },
-  {
-    "name": "Arroz con Leche",
-    "price": "RM 18.00",
-    "desc": "A comforting, incredibly creamy traditional Spanish rice pudding cooked slowly with milk, cinnamon sticks, and lemon peel.",
-    "category": "Postres"
-  
-  },
-  {
-    "name": "Sangria Roja (Jug)",
-    "price": "RM 95.00",
-    "desc": "Our signature Spanish red wine punch, heavily macerated with fresh chopped fruits, brandy, and a splash of citrus, perfect for sharing.",
-    "category": "Bebidas"
-  
-  },
-  {
-    "name": "Sangria Blanca (Jug)",
-    "price": "RM 95.00",
-    "desc": "A lighter, refreshing variation of our Sangria made with crisp Spanish white wine, peaches, apples, and triple sec.",
-    "category": "Bebidas"
-  
-  },
-  {
-    "name": "Agua de Valencia (Jug)",
-    "price": "RM 110.00",
-    "desc": "A potent, refreshing Valencian cocktail blending freshly squeezed orange juice with Spanish Cava (sparkling wine), gin, and vodka.",
-    "category": "Bebidas"
-  
-  },
-  {
-    "name": "Tinto de Verano",
-    "price": "RM 28.00",
-    "desc": "The authentic local Spanish summer drink: a refreshing, fizzy mix of red wine and lemon soda served over ice.",
-    "category": "Bebidas"
-  
-  },
-  {
-    "name": "Clara con Limón",
-    "price": "RM 24.00",
-    "desc": "A refreshing Spanish shandy, perfectly balancing crisp draft beer with sweet and tangy lemon soda.",
-    "category": "Bebidas"
-  
-  },
-  {
-    "name": "Café Cortado",
-    "price": "RM 14.00",
-    "desc": "A traditional Spanish coffee featuring a robust shot of espresso cut precisely with an equal amount of warm milk.",
-    "category": "Bebidas"
-  
-  },
-  {
-    "name": "Zumo de Naranja Natural",
-    "price": "RM 16.00",
-    "desc": "A tall glass of 100% pure, freshly squeezed orange juice.",
-    "category": "Bebidas"
-  
-  },
-  {
-    "name": "Estrella Damm (Pint)",
-    "price": "RM 32.00",
-    "desc": "A cold, refreshing pint of the iconic premium lager from Barcelona.",
-    "category": "Bebidas"
-  
-  }
+  { name: "Bocado Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Bocado Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Bocado Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Bocado Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Bocado Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Bocado Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Bocado Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

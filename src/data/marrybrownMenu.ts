@@ -1,380 +1,72 @@
 export const marrybrownMenu = [
-  {
-    "name": "Lucky Plate (2-pc Chicken Combo)",
-    "price": "RM18.90",
-    "category": "Ayam Goreng Meals",
-    "description": "Marrybrown's classic 2-piece chicken meal served with mashed potato, coleslaw, and a bun."
-  
-  },
-  {
-    "name": "Happiness Plate (3-pc Chicken Combo)",
-    "price": "RM23.50",
-    "category": "Ayam Goreng Meals",
-    "description": "The ultimate satisfaction with 3 pieces of signature MB chicken and sides."
-  
-  },
-  {
-    "name": "Chick-A-Licious (Chicken with Gravy)",
-    "price": "RM19.90",
-    "category": "Ayam Goreng Meals",
-    "description": "Tender chicken doused in savory black pepper gravy."
-  
-  },
-  {
-    "name": "Cheesy Chicken (2-pc with Cheese Sauce)",
-    "price": "RM20.50",
-    "category": "Ayam Goreng Meals",
-    "description": "Signature crispy chicken served with a rich and creamy cheese sauce."
-  
-  },
-  {
-    "name": "Jumbo Meal (Burger + Chicken + Fries)",
-    "price": "RM25.90",
-    "category": "Ayam Goreng Meals",
-    "description": "A massive feast combining a burger, chicken piece, and fries."
-  
-  },
-  {
-    "name": "Chicken Burger Combo",
-    "price": "RM13.90",
-    "category": "Burger Meals",
-    "description": "The classic MB chicken burger served with fries and a drink."
-  
-  },
-  {
-    "name": "Cheesy Burger Combo",
-    "price": "RM15.50",
-    "category": "Burger Meals",
-    "description": "Chicken burger topped with melted cheese sauce."
-  
-  },
-  {
-    "name": "Hotouch Burger Combo",
-    "price": "RM17.90",
-    "category": "Burger Meals",
-    "description": "Spicy and zesty chicken burger for those who love a kick."
-  
-  },
-  {
-    "name": "Tower Burger Combo",
-    "price": "RM20.90",
-    "category": "Burger Meals",
-    "description": "The ultimate tower burger with double chicken patties and cheese."
-  
-  },
-  {
-    "name": "Nasi Lemak MB",
-    "price": "RM16.90",
-    "category": "Local Delights",
-    "description": "A Malaysian favorite: fragrant rice with signature MB chicken and sambal."
-  
-  },
-  {
-    "name": "Nasi Kandar MB",
-    "price": "RM17.50",
-    "category": "Local Delights",
-    "description": "Delicious Nasi Kandar style meal with aromatic rice and MB chicken."
-  
-  },
-  {
-    "name": "Nasi Ayam MB",
-    "price": "RM15.50",
-    "category": "Local Delights",
-    "description": "Savory chicken rice served with MB chicken and condiments."
-  
-  },
-  {
-    "name": "Bubur Ayam MB",
-    "price": "RM8.50",
-    "category": "Local Delights",
-    "description": "Warm and comforting chicken porridge."
-  
-  },
-  {
-    "name": "Bubur Pedas",
-    "price": "RM9.50",
-    "category": "Local Delights",
-    "description": "A spicy twist on the classic chicken porridge."
-  
-  },
-  {
-    "name": "Mi Kari MB",
-    "price": "RM14.90",
-    "category": "Local Delights",
-    "description": "Rich and flavorful curry noodles with MB chicken."
-  
-  },
-  {
-    "name": "Fish Fillet Burger Combo",
-    "price": "RM16.50",
-    "category": "Fish Meals",
-    "description": "Crispy fish fillet burger served with fries and a drink."
-  
-  },
-  {
-    "name": "Fish 'n' Chips",
-    "price": "RM19.90",
-    "category": "Fish Meals",
-    "description": "Classic deep-fried fish fillets served with golden fries."
-  
-  },
-  {
-    "name": "Buddy Meal (4-pc Chicken + Sides)",
-    "price": "RM42.90",
-    "category": "Sharing Meals",
-    "description": "A perfect sharing set for two."
-  
-  },
-  {
-    "name": "Happy Combo",
-    "price": "RM35.00",
-    "category": "Sharing Meals",
-    "description": "A cheerful combo deal for groups."
-  
-  },
-  {
-    "name": "Family Meal (8-pc Chicken + Large Sides)",
-    "price": "RM78.00",
-    "category": "Sharing Meals",
-    "description": "The ultimate family feast with 8 pieces of crispy chicken."
-  
-  },
-  {
-    "name": "Kiddy Meal A - Chicken Burger",
-    "price": "RM12.50",
-    "category": "Kiddy Meals",
-    "description": "Small chicken burger combo with a treat."
-  
-  },
-  {
-    "name": "Kiddy Meal B - 1-pc Ayam Goreng",
-    "price": "RM12.50",
-    "category": "Kiddy Meals",
-    "description": "1 piece of chicken combo with a treat."
-  
-  },
-  {
-    "name": "Kiddy Meal C - 4-pc Chicken Nugget",
-    "price": "RM12.50",
-    "category": "Kiddy Meals",
-    "description": "4 pieces nuggets combo with a treat."
-  
-  },
-  {
-    "name": "Kiddy Meal D - Bubur Ayam (S)",
-    "price": "RM11.50",
-    "category": "Kiddy Meals",
-    "description": "Small chicken porridge combo with a treat."
-  
-  },
-  {
-    "name": "Nasi Kari Bowl",
-    "price": "RM10.90",
-    "category": "MB Nasi Bowls",
-    "description": "Savory curry rice served in a convenient bowl."
-  
-  },
-  {
-    "name": "Chick-O-Rice Bowl",
-    "price": "RM10.90",
-    "category": "MB Nasi Bowls",
-    "description": "MB chicken and rice bowl with signature flavors."
-  
-  },
-  {
-    "name": "2-pc Ayam Goreng MB",
-    "price": "RM14.50",
-    "category": "Ayam Goreng MB (A la carte)",
-    "description": "2 pieces of our world-famous crispy fried chicken."
-  
-  },
-  {
-    "name": "5-pc Ayam Goreng MB",
-    "price": "RM34.50",
-    "category": "Ayam Goreng MB (A la carte)",
-    "description": "5 pieces of crispy MB chicken."
-  
-  },
-  {
-    "name": "9-pc Ayam Goreng MB",
-    "price": "RM59.90",
-    "category": "Ayam Goreng MB (A la carte)",
-    "description": "A bucket of 9 pieces of signature crispy chicken."
-  
-  },
-  {
-    "name": "French Fries",
-    "price": "RM6.50",
-    "category": "Side Orders",
-    "description": "Classic and golden french fries."
-  
-  },
-  {
-    "name": "Potato Wedges",
-    "price": "RM8.50",
-    "category": "Side Orders",
-    "description": "Crispy and seasoned potato wedges."
-  
-  },
-  {
-    "name": "Cheesy Fries",
-    "price": "RM9.50",
-    "category": "Side Orders",
-    "description": "Fries topped with rich cheese sauce."
-  
-  },
-  {
-    "name": "Cheesy Wedges",
-    "price": "RM10.50",
-    "category": "Side Orders",
-    "description": "Seasoned wedges topped with creamy cheese sauce."
-  
-  },
-  {
-    "name": "Chicken Nugget (6-pc)",
-    "price": "RM10.90",
-    "category": "Side Orders",
-    "description": "6 pieces of tender chicken nuggets."
-  
-  },
-  {
-    "name": "Prawn Finger",
-    "price": "RM11.50",
-    "category": "Side Orders",
-    "description": "Crispy breaded prawn fingers."
-  
-  },
-  {
-    "name": "Chicken Strip",
-    "price": "RM10.50",
-    "category": "Side Orders",
-    "description": "Tender chicken breast strips."
-  
-  },
-  {
-    "name": "Onion Ring",
-    "price": "RM7.50",
-    "category": "Side Orders",
-    "description": "Crispy, deep-fried onion rings."
-  
-  },
-  {
-    "name": "Mashed Potato",
-    "price": "RM5.50",
-    "category": "Side Orders",
-    "description": "Creamy mashed potato with gravy."
-  
-  },
-  {
-    "name": "Vegetable Salad",
-    "price": "RM5.50",
-    "category": "Side Orders",
-    "description": "Fresh and light vegetable salad."
-  
-  },
-  {
-    "name": "Mushroom Soup",
-    "price": "RM6.50",
-    "category": "Side Orders",
-    "description": "Warm and creamy mushroom soup."
-  
-  },
-  {
-    "name": "Coca-Cola / Sprite / Fanta",
-    "price": "RM5.50",
-    "category": "Beverages",
-    "description": "Refreshing chilled soft drinks."
-  
-  },
-  {
-    "name": "Iced Milo",
-    "price": "RM6.90",
-    "category": "Beverages",
-    "description": "Chilled Malaysian favorite chocolate malt drink."
-  
-  },
-  {
-    "name": "Minute Maid Refresh Orange",
-    "price": "RM6.50",
-    "category": "Beverages",
-    "description": "Zesty and cooling orange juice."
-  
-  },
-  {
-    "name": "Fuze Iced Lemon Tea",
-    "price": "RM6.50",
-    "category": "Beverages",
-    "description": "Refreshing iced lemon tea."
-  
-  },
-  {
-    "name": "Teh Tarik (Hot)",
-    "price": "RM5.00",
-    "category": "Beverages",
-    "description": "Traditional hot pulled milk tea."
-  
-  },
-  {
-    "name": "White Coffee (Hot)",
-    "price": "RM5.50",
-    "category": "Beverages",
-    "description": "Aromatic hot white coffee."
-  
-  },
-  {
-    "name": "Frozen Coca-Cola / Fanta",
-    "price": "RM6.50",
-    "category": "Beverages",
-    "description": "Slushy versions of your favorite drinks."
-  
-  },
-  {
-    "name": "Chocolate Banana Pie",
-    "price": "RM4.50",
-    "category": "Desserts",
-    "description": "Warm, crispy pie with chocolate and banana filling."
-  
-  },
-  {
-    "name": "Nestle Drumstick Ice Cream",
-    "price": "RM5.00",
-    "category": "Desserts",
-    "description": "The classic ice cream cone treat."
-  
-  },
-  {
-    "name": "MILO Cup",
-    "price": "RM4.50",
-    "category": "Desserts",
-    "description": "Chilled Milo flavor in a cup."
-  
-  },
-  {
-    "name": "Oreo Stick",
-    "price": "RM5.50",
-    "category": "Desserts",
-    "description": "Oreo chocolate bar on a stick."
-  
-  },
-  {
-    "name": "Vanilla / Chocolate / Mix Softserve",
-    "price": "RM2.50",
-    "category": "Desserts",
-    "description": "Creamy soft serve ice cream."
-  
-  },
-  {
-    "name": "Sundae (Chocolate / Strawberry)",
-    "price": "RM5.50",
-    "category": "Desserts",
-    "description": "Iced soft serve topped with rich sauce."
-  
-  },
-  {
-    "name": "Twist (Oreo / Smarties)",
-    "price": "RM7.50",
-    "category": "Desserts",
-    "description": "Blended soft serve with crunchy toppings."
-  
-  }
+  { name: "Marrybrown Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Marrybrown Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Marrybrown Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Marrybrown Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Marrybrown Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Marrybrown Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Marrybrown Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

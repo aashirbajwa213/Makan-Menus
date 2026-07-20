@@ -1,295 +1,72 @@
 export const sushiZanmaiMenu = [
-  // House Specialty Rolls
-  {
-    "name": "Mentaiko Spider Roll",
-    "description": "Freshly prepared Mentaiko Spider Roll, offering an authentic taste experience.",
-    "price": "RM22.80",
-    "category": "House Specialty Rolls",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Spicy Salmon Roll",
-    "description": "Freshly prepared Spicy Salmon Roll, offering an authentic taste experience.",
-    "price": "RM19.80",
-    "category": "House Specialty Rolls",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Stamina Roll",
-    "description": "Freshly prepared Stamina Roll, offering an authentic taste experience.",
-    "price": "RM20.80",
-    "category": "House Specialty Rolls",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Spicy Unagi Roll",
-    "description": "Freshly prepared Spicy Unagi Roll, offering an authentic taste experience.",
-    "price": "RM20.80",
-    "category": "House Specialty Rolls",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Dragon Mentai Roll",
-    "description": "Freshly prepared Dragon Mentai Roll, offering an authentic taste experience.",
-    "price": "RM17.80",
-    "category": "House Specialty Rolls",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Salmon Mentai Roll",
-    "description": "Freshly prepared Salmon Mentai Roll, offering an authentic taste experience.",
-    "price": "RM16.80",
-    "category": "House Specialty Rolls",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Sashimi
-  {
-    "name": "Maguro (Tuna)",
-    "description": "Freshly prepared Maguro (Tuna), offering an authentic taste experience.",
-    "price": "RM26.80",
-    "category": "Sashimi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Salmon",
-    "description": "Freshly prepared Salmon, offering an authentic taste experience.",
-    "price": "RM19.80",
-    "category": "Sashimi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Toro Salmon",
-    "description": "Freshly prepared Toro Salmon, offering an authentic taste experience.",
-    "price": "RM22.80",
-    "category": "Sashimi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Hamachi (Yellowtail)",
-    "description": "Freshly prepared Hamachi (Yellowtail), offering an authentic taste experience.",
-    "price": "RM22.80",
-    "category": "Sashimi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Hokkigai (Surf Clam)",
-    "description": "Freshly prepared Hokkigai (Surf Clam), offering an authentic taste experience.",
-    "price": "RM8.80",
-    "category": "Sashimi",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Nigiri Sushi
-  {
-    "name": "Salmon",
-    "description": "Freshly prepared Salmon, offering an authentic taste experience.",
-    "price": "RM6.80",
-    "category": "Nigiri Sushi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Salmon Mentai",
-    "description": "Freshly prepared Salmon Mentai, offering an authentic taste experience.",
-    "price": "RM7.80",
-    "category": "Nigiri Sushi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Salmon Cheese",
-    "description": "Freshly prepared Salmon Cheese, offering an authentic taste experience.",
-    "price": "RM7.80",
-    "category": "Nigiri Sushi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Toro Salmon",
-    "description": "Freshly prepared Toro Salmon, offering an authentic taste experience.",
-    "price": "RM7.80",
-    "category": "Nigiri Sushi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Unagi",
-    "description": "Freshly prepared Unagi, offering an authentic taste experience.",
-    "price": "RM7.80",
-    "category": "Nigiri Sushi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Ebi (Prawn)",
-    "description": "Freshly prepared Ebi (Prawn), offering an authentic taste experience.",
-    "price": "RM4.80",
-    "category": "Nigiri Sushi",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Sushi Moriawase (Sets)
-  {
-    "name": "Salmon Zanmai",
-    "description": "Freshly prepared Salmon Zanmai, offering an authentic taste experience.",
-    "price": "RM38.80",
-    "category": "Sushi Moriawase",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Aburi Zanmai",
-    "description": "Freshly prepared Aburi Zanmai, offering an authentic taste experience.",
-    "price": "RM17.80",
-    "category": "Sushi Moriawase",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Mentaiko Zanmai",
-    "description": "Freshly prepared Mentaiko Zanmai, offering an authentic taste experience.",
-    "price": "RM17.80",
-    "category": "Sushi Moriawase",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Hodaka",
-    "description": "Freshly prepared Hodaka, offering an authentic taste experience.",
-    "price": "RM18.80",
-    "category": "Sushi Moriawase",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Hourai",
-    "description": "Freshly prepared Hourai, offering an authentic taste experience.",
-    "price": "RM16.80",
-    "category": "Sushi Moriawase",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Gunkan & Inari
-  {
-    "name": "Chuka Wakame",
-    "description": "Enjoy the delightful taste of our Chuka Wakame, a popular choice among our customers.",
-    "price": "RM2.80",
-    "category": "Gunkan & Inari",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Salmon Salad",
-    "description": "Freshly prepared Salmon Salad, offering an authentic taste experience.",
-    "price": "RM4.80",
-    "category": "Gunkan & Inari",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Tuna Salad",
-    "description": "Enjoy the delightful taste of our Tuna Salad, a popular choice among our customers.",
-    "price": "RM3.80",
-    "category": "Gunkan & Inari",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Kani Mayo",
-    "description": "Enjoy the delightful taste of our Kani Mayo, a popular choice among our customers.",
-    "price": "RM6.80",
-    "category": "Gunkan & Inari",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Inari (Plain)",
-    "description": "Enjoy the delightful taste of our Inari (Plain), a popular choice among our customers.",
-    "price": "RM2.80",
-    "category": "Gunkan & Inari",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Appetizers & Salad
-  {
-    "name": "Atsuyaki Tamago",
-    "description": "Enjoy the delightful taste of our Atsuyaki Tamago, a popular choice among our customers.",
-    "price": "RM7.80",
-    "category": "Appetizers & Salad",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Edamame",
-    "description": "Enjoy the delightful taste of our Edamame, a popular choice among our customers.",
-    "price": "RM5.80",
-    "category": "Appetizers & Salad",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Sashimi Salad",
-    "description": "Enjoy the delightful taste of our Sashimi Salad, a popular choice among our customers.",
-    "price": "RM26.80",
-    "category": "Appetizers & Salad",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Kani Avocado Salad",
-    "description": "Enjoy the delightful taste of our Kani Avocado Salad, a popular choice among our customers.",
-    "price": "RM22.80",
-    "category": "Appetizers & Salad",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Mentaiko Takoyaki",
-    "description": "Enjoy the delightful taste of our Mentaiko Takoyaki, a popular choice among our customers.",
-    "price": "RM10.80",
-    "category": "Appetizers & Salad",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Donburi (Rice Bowls)
-  {
-    "name": "Unadon (Grilled Eel)",
-    "description": "Enjoy the delightful taste of our Unadon (Grilled Eel), a popular choice among our customers.",
-    "price": "RM25.80",
-    "category": "Donburi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Chicken Katsudon",
-    "description": "Tender and flavorful Chicken Katsudon, cooked to perfection.",
-    "price": "RM12.80",
-    "category": "Donburi",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Ten Don (Tempura)",
-    "description": "Enjoy the delightful taste of our Ten Don (Tempura), a popular choice among our customers.",
-    "price": "RM11.80",
-    "category": "Donburi",
-    "menuType": "Main Menu"
-  
-  }
+  { name: "Sushi Zanmai Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Sushi Zanmai Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Sushi Zanmai Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Sushi Zanmai Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Sushi Zanmai Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Sushi Zanmai Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Sushi Zanmai Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

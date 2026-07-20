@@ -1,235 +1,72 @@
 export const nakNakMenu = [
-  // Nak Dak / Chickens (Food Menu)
-  {
-    "name": "Nak Dak Soy Garlic",
-    "description": "Enjoy the delightful taste of our Nak Dak Soy Garlic, a popular choice among our customers.",
-    "price": "RM16.90",
-    "category": "Nak Dak (Boneless Thigh)",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Nak Dak Gochujang",
-    "description": "Enjoy the delightful taste of our Nak Dak Gochujang, a popular choice among our customers.",
-    "price": "RM16.90",
-    "category": "Nak Dak (Boneless Thigh)",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Nak Dak with Cheese Sauce",
-    "description": "Enjoy the delightful taste of our Nak Dak with Cheese Sauce, a popular choice among our customers.",
-    "price": "RM17.90",
-    "category": "Nak Dak (Boneless Thigh)",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Gochujang Wings (6-pc)",
-    "description": "Tender and flavorful Gochujang Wings (6-pc), cooked to perfection.",
-    "price": "RM18.50",
-    "category": "Wings & Drummettes",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Spicy Gochujang Wings (6-pc)",
-    "description": "Tender and flavorful Spicy Gochujang Wings (6-pc), cooked to perfection.",
-    "price": "RM18.50",
-    "category": "Wings & Drummettes",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Soy Garlic Wings (6-pc)",
-    "description": "Tender and flavorful Soy Garlic Wings (6-pc), cooked to perfection.",
-    "price": "RM18.50",
-    "category": "Wings & Drummettes",
-    "menuType": "Food Menu"
-  
-  },
-
-  // Burgers (Food Menu)
-  {
-    "name": "Cheeseburger",
-    "description": "Our signature Cheeseburger, made with premium ingredients and served fresh.",
-    "price": "RM15.90",
-    "category": "Nak Burger (100% Real Beef)",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Spicy Double Cheeseburger",
-    "description": "Our signature Spicy Double Cheeseburger, made with premium ingredients and served fresh.",
-    "price": "RM22.90",
-    "category": "Nak Burger (100% Real Beef)",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Original Nak Dak Burger",
-    "description": "Our signature Original Nak Dak Burger, made with premium ingredients and served fresh.",
-    "price": "RM14.90",
-    "category": "Nak Dak Burger (Fresh Chicken)",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Spicy Nak Dak Burger",
-    "description": "Our signature Spicy Nak Dak Burger, made with premium ingredients and served fresh.",
-    "price": "RM15.50",
-    "category": "Nak Dak Burger (Fresh Chicken)",
-    "menuType": "Food Menu"
-  
-  },
-
-  // Sides (Food Menu)
-  {
-    "name": "Original Fries",
-    "description": "A perfect side of Original Fries to complement your main meal.",
-    "price": "RM7.50",
-    "category": "NakNak Fries",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Loaded Brown Fries",
-    "description": "A perfect side of Loaded Brown Fries to complement your main meal.",
-    "price": "RM11.90",
-    "category": "NakNak Fries",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Loaded Bulgogi Chicken Fries",
-    "description": "Tender and flavorful Loaded Bulgogi Chicken Fries, cooked to perfection.",
-    "price": "RM14.50",
-    "category": "NakNak Fries",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Rice Plain White",
-    "description": "A hearty portion of Rice Plain White, served warm and flavorful.",
-    "price": "RM3.50",
-    "category": "NakNak Rices",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Rice Butter Gravy",
-    "description": "A hearty portion of Rice Butter Gravy, served warm and flavorful.",
-    "price": "RM5.50",
-    "category": "NakNak Rices",
-    "menuType": "Food Menu"
-  
-  },
-  {
-    "name": "Rice Seaweed",
-    "description": "A hearty portion of Rice Seaweed, served warm and flavorful.",
-    "price": "RM4.50",
-    "category": "NakNak Rices",
-    "menuType": "Food Menu"
-  
-  },
-
-  // Desserts (Drinks & Desserts)
-  {
-    "name": "Cookies Chocolate Chip",
-    "description": "Enjoy the delightful taste of our Cookies Chocolate Chip, a popular choice among our customers.",
-    "price": "RM6.50",
-    "category": "NakNak Cookies",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Cookies Birthday Confetti",
-    "description": "Enjoy the delightful taste of our Cookies Birthday Confetti, a popular choice among our customers.",
-    "price": "RM6.50",
-    "category": "NakNak Cookies",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Cookies Marshmallow Choco Chip",
-    "description": "Enjoy the delightful taste of our Cookies Marshmallow Choco Chip, a popular choice among our customers.",
-    "price": "RM7.50",
-    "category": "NakNak Cookies",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Chocolate Sundae",
-    "description": "Enjoy the delightful taste of our Chocolate Sundae, a popular choice among our customers.",
-    "price": "RM5.90",
-    "category": "Fresh Sundae Ice Cream",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Peach Sundae",
-    "description": "Enjoy the delightful taste of our Peach Sundae, a popular choice among our customers.",
-    "price": "RM6.90",
-    "category": "Fresh Sundae Ice Cream",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Apple Pie Sundae",
-    "description": "Enjoy the delightful taste of our Apple Pie Sundae, a popular choice among our customers.",
-    "price": "RM7.50",
-    "category": "Fresh Sundae Ice Cream",
-    "menuType": "Drinks & Desserts"
-  
-  },
-
-  // Drinks (Drinks & Desserts)
-  {
-    "name": "Mango Shake",
-    "description": "Enjoy the delightful taste of our Mango Shake, a popular choice among our customers.",
-    "price": "RM12.50",
-    "category": "Real Milkshake",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Joy Cookie Shake",
-    "description": "Enjoy the delightful taste of our Joy Cookie Shake, a popular choice among our customers.",
-    "price": "RM13.50",
-    "category": "Real Milkshake",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Strawberry Shake",
-    "description": "Enjoy the delightful taste of our Strawberry Shake, a popular choice among our customers.",
-    "price": "RM12.50",
-    "category": "Real Milkshake",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Homemade Iced Tea",
-    "description": "A refreshing serving of Homemade Iced Tea, perfect to quench your thirst.",
-    "price": "RM5.50",
-    "category": "NakNak Drinks",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Fresh Handsqueezed Lemonade",
-    "description": "A refreshing serving of Fresh Handsqueezed Lemonade, perfect to quench your thirst.",
-    "price": "RM7.50",
-    "category": "NakNak Drinks",
-    "menuType": "Drinks & Desserts"
-  
-  },
-  {
-    "name": "Soft Drinks",
-    "description": "A refreshing serving of Soft Drinks, perfect to quench your thirst.",
-    "price": "RM5.00",
-    "category": "NakNak Drinks",
-    "menuType": "Drinks & Desserts"
-  
-  }
+  { name: "Nak Nak Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Nak Nak Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Nak Nak Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Nak Nak Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Nak Nak Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Nak Nak Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Nak Nak Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

@@ -1,397 +1,72 @@
 export const damascusMenu = [
-  // Shawarma (Sandwiches)
-  {
-    "name": "Chicken Shawarma Sandwich",
-    "description": "Tender and flavorful Chicken Shawarma Sandwich, cooked to perfection.",
-    "price": "RM14.90",
-    "category": "Shawarma (Sandwiches)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chicken Cheese Shawarma Sandwich",
-    "description": "Tender and flavorful Chicken Cheese Shawarma Sandwich, cooked to perfection.",
-    "price": "RM16.90",
-    "category": "Shawarma (Sandwiches)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Beef Shawarma Sandwich",
-    "description": "Enjoy the delightful taste of our Beef Shawarma Sandwich, a popular choice among our customers.",
-    "price": "RM17.90",
-    "category": "Shawarma (Sandwiches)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Beef Cheese Shawarma Sandwich",
-    "description": "Enjoy the delightful taste of our Beef Cheese Shawarma Sandwich, a popular choice among our customers.",
-    "price": "RM19.90",
-    "category": "Shawarma (Sandwiches)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chicken Shawarma Meal Sandwich",
-    "description": "Tender and flavorful Chicken Shawarma Meal Sandwich, cooked to perfection.",
-    "price": "RM19.90",
-    "category": "Shawarma (Sandwiches)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Beef Shawarma Meal Sandwich",
-    "description": "A satisfying Beef Shawarma Meal Sandwich offering great value and delicious flavors.",
-    "price": "RM22.90",
-    "category": "Shawarma (Sandwiches)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Americana Chicken Shawarma",
-    "description": "Tender and flavorful Americana Chicken Shawarma, cooked to perfection.",
-    "price": "RM19.90",
-    "category": "Shawarma (Sandwiches)",
-    "menuType": "All Day"
-  
-  },
-
-  // Shawarma (Plates)
-  {
-    "name": "Arabic Plate (Chicken)",
-    "description": "Tender and flavorful Arabic Plate (Chicken), cooked to perfection.",
-    "price": "RM24.90",
-    "category": "Shawarma (Plates)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Cheesy Arabic Plate (Chicken)",
-    "description": "Tender and flavorful Cheesy Arabic Plate (Chicken), cooked to perfection.",
-    "price": "RM28.90",
-    "category": "Shawarma (Plates)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Mixed Arabi Plate (Chicken & Beef)",
-    "description": "Tender and flavorful Mixed Arabi Plate (Chicken & Beef), cooked to perfection.",
-    "price": "RM27.90",
-    "category": "Shawarma (Plates)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chicken Shawarma Plate",
-    "description": "Tender and flavorful Chicken Shawarma Plate, cooked to perfection.",
-    "price": "RM29.90",
-    "category": "Shawarma (Plates)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chicken Cheese Shawarma Plate",
-    "description": "Tender and flavorful Chicken Cheese Shawarma Plate, cooked to perfection.",
-    "price": "RM33.90",
-    "category": "Shawarma (Plates)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Mixed Shawarma Plate",
-    "description": "Enjoy the delightful taste of our Mixed Shawarma Plate, a popular choice among our customers.",
-    "price": "RM33.90",
-    "category": "Shawarma (Plates)",
-    "menuType": "All Day"
-  
-  },
-
-  // Shawarma (Rice)
-  {
-    "name": "Chicken Shawarma Rice",
-    "description": "Tender and flavorful Chicken Shawarma Rice, cooked to perfection.",
-    "price": "RM24.90",
-    "category": "Shawarma (Rice)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chicken Cheese Shawarma Rice",
-    "description": "Tender and flavorful Chicken Cheese Shawarma Rice, cooked to perfection.",
-    "price": "RM29.90",
-    "category": "Shawarma (Rice)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Creamy Chicken Shawarma with Rice",
-    "description": "Tender and flavorful Creamy Chicken Shawarma with Rice, cooked to perfection.",
-    "price": "RM23.90",
-    "category": "Shawarma (Rice)",
-    "menuType": "All Day"
-  
-  },
-
-  // Lamb & Rice Meals
-  {
-    "name": "Mandi Lamb Meal",
-    "description": "A satisfying Mandi Lamb Meal offering great value and delicious flavors.",
-    "price": "RM42.90",
-    "category": "Lamb & Rice Meals",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Biryani Lamb Meal",
-    "description": "A satisfying Biryani Lamb Meal offering great value and delicious flavors.",
-    "price": "RM42.90",
-    "category": "Lamb & Rice Meals",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Kabsa Lamb Meal",
-    "description": "A satisfying Kabsa Lamb Meal offering great value and delicious flavors.",
-    "price": "RM42.90",
-    "category": "Lamb & Rice Meals",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Lamb Shank with Mandi Rice",
-    "description": "A satisfying Lamb Shank with Mandi Rice offering great value and delicious flavors.",
-    "price": "RM52.90",
-    "category": "Lamb & Rice Meals",
-    "menuType": "All Day"
-  
-  },
-
-  // Chicken & Rice Meals
-  {
-    "name": "Mandi Chicken",
-    "description": "Tender and flavorful Mandi Chicken, cooked to perfection.",
-    "price": "RM24.90",
-    "category": "Chicken & Rice Meals",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Maklouba Chicken",
-    "description": "Tender and flavorful Maklouba Chicken, cooked to perfection.",
-    "price": "RM26.90",
-    "category": "Chicken & Rice Meals",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chicken Cubes (Shish Taouk) with Rice",
-    "description": "Tender and flavorful Chicken Cubes (Shish Taouk) with Rice, cooked to perfection.",
-    "price": "RM28.90",
-    "category": "Chicken & Rice Meals",
-    "menuType": "All Day"
-  
-  },
-
-  // Appetizers (Cold)
-  {
-    "name": "Mixed Appetizer (Large)",
-    "description": "Enjoy the delightful taste of our Mixed Appetizer (Large), a popular choice among our customers.",
-    "price": "RM44.90",
-    "category": "Appetizers (Cold)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Hummus",
-    "description": "Enjoy the delightful taste of our Hummus, a popular choice among our customers.",
-    "price": "RM14.90",
-    "category": "Appetizers (Cold)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Baba Ghanoush",
-    "description": "Enjoy the delightful taste of our Baba Ghanoush, a popular choice among our customers.",
-    "price": "RM14.90",
-    "category": "Appetizers (Cold)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Warak Enab (Grape Leaves)",
-    "description": "Enjoy the delightful taste of our Warak Enab (Grape Leaves), a popular choice among our customers.",
-    "price": "RM14.90",
-    "category": "Appetizers (Cold)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Tabbouleh Salad",
-    "description": "Enjoy the delightful taste of our Tabbouleh Salad, a popular choice among our customers.",
-    "price": "RM14.90",
-    "category": "Appetizers (Cold)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Arabic Salad",
-    "description": "Enjoy the delightful taste of our Arabic Salad, a popular choice among our customers.",
-    "price": "RM14.90",
-    "category": "Appetizers (Cold)",
-    "menuType": "All Day"
-  
-  },
-
-  // Appetizers (Hot)
-  {
-    "name": "Hummus Beef Shawarma",
-    "description": "Enjoy the delightful taste of our Hummus Beef Shawarma, a popular choice among our customers.",
-    "price": "RM21.90",
-    "category": "Appetizers (Hot)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Hummus Chicken Shawarma",
-    "description": "Tender and flavorful Hummus Chicken Shawarma, cooked to perfection.",
-    "price": "RM19.90",
-    "category": "Appetizers (Hot)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Hummus Lamb",
-    "description": "Enjoy the delightful taste of our Hummus Lamb, a popular choice among our customers.",
-    "price": "RM22.90",
-    "category": "Appetizers (Hot)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Falafel Plate",
-    "description": "Enjoy the delightful taste of our Falafel Plate, a popular choice among our customers.",
-    "price": "RM18.90",
-    "category": "Appetizers (Hot)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Fried Kebbeh (per pc)",
-    "description": "Enjoy the delightful taste of our Fried Kebbeh (per pc), a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Appetizers (Hot)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Cheezy Samosa (4 pcs)",
-    "description": "Enjoy the delightful taste of our Cheezy Samosa (4 pcs), a popular choice among our customers.",
-    "price": "RM12.90",
-    "category": "Appetizers (Hot)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "French Fries Plate",
-    "description": "A perfect side of French Fries Plate to complement your main meal.",
-    "price": "RM12.90",
-    "category": "Appetizers (Hot)",
-    "menuType": "All Day"
-  
-  },
-
-  // Breakfast Series
-  {
-    "name": "Shakshuka",
-    "description": "Enjoy the delightful taste of our Shakshuka, a popular choice among our customers.",
-    "price": "RM18.90",
-    "category": "Breakfast Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Fatteh",
-    "description": "Enjoy the delightful taste of our Fatteh, a popular choice among our customers.",
-    "price": "RM23.90",
-    "category": "Breakfast Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Egg & Lamb",
-    "description": "Enjoy the delightful taste of our Egg & Lamb, a popular choice among our customers.",
-    "price": "RM19.90",
-    "category": "Breakfast Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Strained Yogurt (Labneh)",
-    "description": "Enjoy the delightful taste of our Strained Yogurt (Labneh), a popular choice among our customers.",
-    "price": "RM14.90",
-    "category": "Breakfast Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Mixed Dairy Platter",
-    "description": "A refreshing serving of Mixed Dairy Platter, perfect to quench your thirst.",
-    "price": "RM39.90",
-    "category": "Breakfast Series",
-    "menuType": "All Day"
-  
-  },
-
-  // Grills (Charcoal)
-  {
-    "name": "Lamb Kebab",
-    "description": "Enjoy the delightful taste of our Lamb Kebab, a popular choice among our customers.",
-    "price": "RM29.90",
-    "category": "Grills (Charcoal)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Creamy Lamb Kebab with Rice",
-    "description": "A hearty portion of Creamy Lamb Kebab with Rice, served warm and flavorful.",
-    "price": "RM33.90",
-    "category": "Grills (Charcoal)",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "BBQ Mixed Grill Platter",
-    "description": "A refreshing serving of BBQ Mixed Grill Platter, perfect to quench your thirst.",
-    "price": "RM55.00",
-    "category": "Grills (Charcoal)",
-    "menuType": "All Day"
-  
-  },
-
-  // Beverages
-  {
-    "name": "Fresh Orange Juice",
-    "description": "A refreshing serving of Fresh Orange Juice, perfect to quench your thirst.",
-    "price": "RM12.00",
-    "category": "Beverages",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Arabic Mint Tea",
-    "description": "A refreshing serving of Arabic Mint Tea, perfect to quench your thirst.",
-    "price": "RM6.00",
-    "category": "Beverages",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Soft Drinks",
-    "description": "A refreshing serving of Soft Drinks, perfect to quench your thirst.",
-    "price": "RM5.00",
-    "category": "Beverages",
-    "menuType": "All Day"
-  
-  }
+  { name: "Damascus Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Damascus Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Damascus Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Damascus Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Damascus Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Damascus Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Damascus Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

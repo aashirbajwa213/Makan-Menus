@@ -1,373 +1,72 @@
 export const weDrinkMenu = [
-  // Fresh Ice Cream & Sundae
-  {
-    "name": "Brown Sugar Pearl Sundae",
-    "description": "Enjoy the delightful taste of our Brown Sugar Pearl Sundae, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chocolate Oreo Sundae",
-    "description": "Enjoy the delightful taste of our Chocolate Oreo Sundae, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Red Bean Matcha Sundae",
-    "description": "Enjoy the delightful taste of our Red Bean Matcha Sundae, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Strawberry Sundae",
-    "description": "Enjoy the delightful taste of our Strawberry Sundae, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Mango Sundae",
-    "description": "Enjoy the delightful taste of our Mango Sundae, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Peach Sundae",
-    "description": "Enjoy the delightful taste of our Peach Sundae, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Blueberry Sundae",
-    "description": "Enjoy the delightful taste of our Blueberry Sundae, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "King Sundae (Cookie bits & Mango)",
-    "description": "Enjoy the delightful taste of our King Sundae (Cookie bits & Mango), a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Matcha Ice Cream",
-    "description": "A sweet and delicious Matcha Ice Cream to satisfy your cravings.",
-    "price": "RM2.50",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Vanilla Ice Cream",
-    "description": "A sweet and delicious Vanilla Ice Cream to satisfy your cravings.",
-    "price": "RM2.00",
-    "category": "Fresh Ice Cream & Sundae",
-    "menuType": "All Day"
-  
-  },
-
-  // Milkshakes & Snow Tops
-  {
-    "name": "Boba Milkshake",
-    "description": "Enjoy the delightful taste of our Boba Milkshake, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Strawberry Milkshake",
-    "description": "Enjoy the delightful taste of our Strawberry Milkshake, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Matcha Milkshake",
-    "description": "Enjoy the delightful taste of our Matcha Milkshake, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Raspberry Milkshake",
-    "description": "Enjoy the delightful taste of our Raspberry Milkshake, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Grape Milkshake",
-    "description": "Enjoy the delightful taste of our Grape Milkshake, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chocolate Oreo Smoothie Snow Top",
-    "description": "Enjoy the delightful taste of our Chocolate Oreo Smoothie Snow Top, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Mango Ice Smoothie Snow Top",
-    "description": "Enjoy the delightful taste of our Mango Ice Smoothie Snow Top, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Coffee Smoothie Snow Top",
-    "description": "Enjoy the delightful taste of our Coffee Smoothie Snow Top, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Strawberry Ice Smoothie Snow Top",
-    "description": "Enjoy the delightful taste of our Strawberry Ice Smoothie Snow Top, a popular choice among our customers.",
-    "price": "RM6.00",
-    "category": "Milkshakes & Snow Tops",
-    "menuType": "All Day"
-  
-  },
-
-  // Milk Tea Series
-  {
-    "name": "Brown Sugar Pearl Milk Tea",
-    "description": "A refreshing serving of Brown Sugar Pearl Milk Tea, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Milk Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Coconut Jelly Milk Tea",
-    "description": "A refreshing serving of Coconut Jelly Milk Tea, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Milk Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Peach Oolong Milk Tea",
-    "description": "A refreshing serving of Peach Oolong Milk Tea, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Milk Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Original Milk Tea",
-    "description": "A refreshing serving of Original Milk Tea, perfect to quench your thirst.",
-    "price": "RM6.00",
-    "category": "Milk Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Jasmine Milk Tea",
-    "description": "A refreshing serving of Jasmine Milk Tea, perfect to quench your thirst.",
-    "price": "RM8.00",
-    "category": "Milk Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Super Milk Tea Bucket (3 toppings)",
-    "description": "A refreshing serving of Super Milk Tea Bucket (3 toppings), perfect to quench your thirst.",
-    "price": "RM9.00",
-    "category": "Milk Tea Series",
-    "menuType": "All Day"
-  
-  },
-
-  // Fruit Tea Series
-  {
-    "name": "Fresh-squeezed Lemonade",
-    "description": "A refreshing serving of Fresh-squeezed Lemonade, perfect to quench your thirst.",
-    "price": "RM4.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Iced Fresh Passion Fruit Tea",
-    "description": "A refreshing serving of Iced Fresh Passion Fruit Tea, perfect to quench your thirst.",
-    "price": "RM4.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Lemon Black Tea",
-    "description": "A refreshing serving of Lemon Black Tea, perfect to quench your thirst.",
-    "price": "RM4.50",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Six Grapes Fruit Tea",
-    "description": "A refreshing serving of Six Grapes Fruit Tea, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Watermelon Fruit Tea",
-    "description": "A refreshing serving of Watermelon Fruit Tea, perfect to quench your thirst.",
-    "price": "RM5.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Watermelon Smoothies",
-    "description": "A refreshing serving of Watermelon Smoothies, perfect to quench your thirst.",
-    "price": "RM7.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Grape Jasmine Tea with Jelly Ball",
-    "description": "A refreshing serving of Grape Jasmine Tea with Jelly Ball, perfect to quench your thirst.",
-    "price": "RM7.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Mulberry Jasmine Tea with Jelly Ball",
-    "description": "A refreshing serving of Mulberry Jasmine Tea with Jelly Ball, perfect to quench your thirst.",
-    "price": "RM7.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Passion Fruit Pearl & Jelly Tea",
-    "description": "A refreshing serving of Passion Fruit Pearl & Jelly Tea, perfect to quench your thirst.",
-    "price": "RM7.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Australia Orange Juice",
-    "description": "A refreshing serving of Australia Orange Juice, perfect to quench your thirst.",
-    "price": "RM4.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Super Fruit Bucket (1L)",
-    "description": "A refreshing serving of Super Fruit Bucket (1L), perfect to quench your thirst.",
-    "price": "RM9.00",
-    "category": "Fruit Tea Series",
-    "menuType": "All Day"
-  
-  },
-
-  // Coffee Series
-  {
-    "name": "Americano",
-    "description": "A refreshing serving of Americano, perfect to quench your thirst.",
-    "price": "RM5.00",
-    "category": "Coffee Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Coffee Snow Top",
-    "description": "A refreshing serving of Coffee Snow Top, perfect to quench your thirst.",
-    "price": "RM7.00",
-    "category": "Coffee Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Latte",
-    "description": "A refreshing serving of Latte, perfect to quench your thirst.",
-    "price": "RM7.00",
-    "category": "Coffee Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Mocha",
-    "description": "A refreshing serving of Mocha, perfect to quench your thirst.",
-    "price": "RM8.00",
-    "category": "Coffee Series",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Coconut Latte",
-    "description": "A refreshing serving of Coconut Latte, perfect to quench your thirst.",
-    "price": "RM8.00",
-    "category": "Coffee Series",
-    "menuType": "All Day"
-  
-  },
-
-  // Waffle & Snacks
-  {
-    "name": "Original Waffle",
-    "description": "A perfect side of Original Waffle to complement your main meal.",
-    "price": "RM5.50",
-    "category": "Waffle & Snacks",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chocolate Waffle",
-    "description": "A perfect side of Chocolate Waffle to complement your main meal.",
-    "price": "RM5.50",
-    "category": "Waffle & Snacks",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Mango Coconut Pudding",
-    "description": "A perfect side of Mango Coconut Pudding to complement your main meal.",
-    "price": "RM6.00",
-    "category": "Waffle & Snacks",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Red Bean Milk Pudding",
-    "description": "A perfect side of Red Bean Milk Pudding to complement your main meal.",
-    "price": "RM5.00",
-    "category": "Waffle & Snacks",
-    "menuType": "All Day"
-  
-  }
+  { name: "We Drink Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "We Drink Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "We Drink Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "We Drink Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "We Drink Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "We Drink Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "We Drink Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

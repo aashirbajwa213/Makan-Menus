@@ -1,151 +1,72 @@
 export const carlsJrMenu = [
-  // Chargrilled Thickburgers
-  {
-    name: "Famous Star with Cheese",
-    price: "RM19.90",
-    category: "Chargrilled Thickburgers",
-    description: "Chargrilled beef patty, melted American cheese, lettuce, tomato, sliced onions, dill pickles, Special Sauce, and mayonnaise on a seeded bun."
-  
-  },
-  {
-    name: "Super Star with Cheese",
-    price: "RM26.90",
-    category: "Chargrilled Thickburgers",
-    description: "Two chargrilled beef patties, two slices of melted American cheese, lettuce, tomato, sliced onions, dill pickles, Special Sauce, and mayonnaise on a seeded bun."
-  
-  },
-  {
-    name: "Western Bacon Cheeseburger",
-    price: "RM22.90",
-    category: "Chargrilled Thickburgers",
-    description: "Chargrilled beef patty, melted American cheese, crispy beef bacon, onion rings, and tangy BBQ sauce on a seeded bun."
-  
-  },
-  {
-    name: "Double Western Bacon Cheeseburger",
-    price: "RM29.90",
-    category: "Chargrilled Thickburgers",
-    description: "Two chargrilled beef patties, melted American cheese, double crispy beef bacon, onion rings, and tangy BBQ sauce on a seeded bun."
-  
-  },
-  {
-    name: "Portobello Mushroom Thickburger",
-    price: "RM28.90",
-    category: "Chargrilled Thickburgers",
-    description: "Chargrilled Angus beef patty topped with premium Portobello mushrooms in a rich garlic-herb sauce, Swiss cheese, red onion, tomato, and mayonnaise."
-  
-  },
-  {
-    name: "Chili Cheese Thickburger",
-    price: "RM24.90",
-    category: "Chargrilled Thickburgers",
-    description: "Chargrilled beef patty topped with spicy beef chili, melted American cheese, mustard, and sliced onions."
-  
-  },
-
-  // Chicken & Sandwiches
-  {
-    name: "Charbroiled Chicken Club Sandwich",
-    price: "RM21.90",
-    category: "Chicken & Sandwiches",
-    description: "Charbroiled chicken breast, melted Swiss cheese, crispy beef bacon, lettuce, tomato, and mayonnaise on a honey wheat bun."
-  
-  },
-  {
-    name: "Spicy Chicken Sandwich",
-    price: "RM17.90",
-    category: "Chicken & Sandwiches",
-    description: "Spicy crispy chicken patty, lettuce, tomato, and mayonnaise on a seeded bun."
-  
-  },
-  {
-    name: "Hand-Breaded Chicken Tenders (3 pcs)",
-    price: "RM15.90",
-    category: "Chicken & Sandwiches",
-    description: "Three pieces of premium, hand-breaded all-white meat chicken tenders, golden-fried and served with dipping sauce."
-  
-  },
-  {
-    name: "Hand-Breaded Chicken Tenders (5 pcs)",
-    price: "RM23.90",
-    category: "Chicken & Sandwiches",
-    description: "Five pieces of hand-breaded all-white meat chicken tenders, golden-fried and served with dipping sauce."
-  
-  },
-
-  // Sides & Snacks
-  {
-    name: "Natural-Cut French Fries (Medium)",
-    price: "RM8.90",
-    category: "Sides & Snacks",
-    description: "Skin-on, natural-cut potato French fries, lightly salted and hot."
-  
-  },
-  {
-    name: "Natural-Cut French Fries (Large)",
-    price: "RM10.90",
-    category: "Sides & Snacks",
-    description: "Skin-on, natural-cut potato French fries in a larger portion."
-  
-  },
-  {
-    name: "Crisscut Fries",
-    price: "RM11.90",
-    category: "Sides & Snacks",
-    description: "Signature crispy, seasoned waffle-cut potato fries."
-  
-  },
-  {
-    name: "Onion Rings",
-    price: "RM9.90",
-    category: "Sides & Snacks",
-    description: "Crispy, golden-fried breaded onion rings."
-  
-  },
-  {
-    name: "Beef Chili Cheese Fries",
-    price: "RM14.90",
-    category: "Sides & Snacks",
-    description: "Natural-cut fries topped with rich beef chili and warm, melted cheddar cheese sauce."
-  
-  },
-
-  // Hand-Scooped Shakes
-  {
-    name: "Hand-Scooped Real Ice Cream Shake (Vanilla)",
-    price: "RM14.90",
-    category: "Hand-Scooped Ice Cream Shakes",
-    description: "Rich, creamy vanilla ice cream blended with milk, topped with whipped cream."
-  
-  },
-  {
-    name: "Hand-Scooped Real Ice Cream Shake (Chocolate)",
-    price: "RM14.90",
-    category: "Hand-Scooped Ice Cream Shakes",
-    description: "Creamy chocolate shake made with real ice cream and premium chocolate syrup, topped with whipped cream."
-  
-  },
-  {
-    name: "Hand-Scooped Real Ice Cream Shake (Oreo)",
-    price: "RM15.90",
-    category: "Hand-Scooped Ice Cream Shakes",
-    description: "Creamy vanilla ice cream blended with crushed Oreo cookies, topped with whipped cream."
-  
-  },
-
-  // Beverages
-  {
-    name: "Soft Drinks (Refillable)",
-    price: "RM7.90",
-    category: "Beverages",
-    description: "Bottomless cup of your choice of carbonated soft drinks, including Coca-Cola, Sprite, and Fanta."
-  
-  },
-  {
-    name: "Bottled Water",
-    price: "RM4.90",
-    category: "Beverages",
-    description: "Chilled pure bottled mineral water."
-  
-  }
+  { name: "Carls Jr Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Carls Jr Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Carls Jr Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Carls Jr Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Carls Jr Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Carls Jr Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Carls Jr Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

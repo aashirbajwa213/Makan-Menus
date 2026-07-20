@@ -1,338 +1,72 @@
 export const betawiIndonesianCuisineMenu = [
-  {
-    "name": "Nasi Uduk Betawi",
-    "price": "RM 18.00",
-    "desc": "A highly aromatic, deeply comforting Betawi classic: steamed rice cooked entirely in rich coconut milk, lemongrass, and pandan, served with fried chicken, egg, and tempeh.",
-    "category": "Authentic Betawi Mains"
-  
-  },
-  {
-    "name": "Soto Betawi (Beef)",
-    "price": "RM 22.00",
-    "desc": "An intensely rich, deeply savory, and highly aromatic beef soup featuring a thick, milky broth heavily infused with coconut and complex Indonesian spices.",
-    "category": "Authentic Betawi Mains"
-  
-  },
-  {
-    "name": "Soto Betawi (Chicken)",
-    "price": "RM 18.00",
-    "desc": "A lighter, yet equally flavorful version of our signature soup, featuring tender shredded chicken in an incredibly rich, spiced coconut milk broth.",
-    "category": "Authentic Betawi Mains"
-  
-  },
-  {
-    "name": "Ayam Goreng Betawi",
-    "price": "RM 16.00",
-    "desc": "Half a spring chicken heavily marinated in turmeric and coriander, deep-fried rapidly until the skin is shatteringly crisp while the meat remains incredibly juicy.",
-    "category": "Authentic Betawi Mains"
-  
-  },
-  {
-    "name": "Asinan Betawi",
-    "price": "RM 14.00",
-    "desc": "A highly refreshing, deeply pungent, and intensely tangy salad of mixed pickled vegetables and tofu, drenched completely in a thin, fiery peanut sauce.",
-    "category": "Authentic Betawi Mains"
-  
-  },
-  {
-    "name": "Kerak Telor",
-    "price": "RM 15.00",
-    "desc": "A unique, intensely savory traditional Betawi omelette made from glutinous rice, egg, and dried shrimp, cooked perfectly over an open charcoal fire.",
-    "category": "Authentic Betawi Mains"
-  
-  },
-  {
-    "name": "Semur Jengkol",
-    "price": "RM 16.00",
-    "desc": "For the adventurous: dogfruit (jengkol) stewed for hours in an incredibly dark, deeply sweet, and intensely savory soy sauce gravy until soft and tender.",
-    "category": "Authentic Betawi Mains"
-  
-  },
-  {
-    "name": "Nasi Ulam Betawi",
-    "price": "RM 18.00",
-    "desc": "A deeply traditional, highly aromatic rice dish heavily mixed with finely shredded fresh herbs, roasted coconut, and served with a deeply spiced beef jerky (dendeng).",
-    "category": "Authentic Betawi Mains"
-  
-  },
-  {
-    "name": "Sop Buntut (Oxtail Soup)",
-    "price": "RM 35.00",
-    "desc": "An intensely rich, deeply comforting, and highly aromatic clear soup featuring incredibly tender, slow-cooked oxtail chunks, potatoes, and carrots.",
-    "category": "Traditional Indonesian Soups"
-  
-  },
-  {
-    "name": "Sop Iga Sapi (Beef Rib Soup)",
-    "price": "RM 32.00",
-    "desc": "Massive, fall-off-the-bone tender beef ribs slow-simmered in a deeply robust, highly spiced, and peppery clear broth with fresh tomatoes and celery.",
-    "category": "Traditional Indonesian Soups"
-  
-  },
-  {
-    "name": "Sayur Asem",
-    "price": "RM 12.00",
-    "desc": "A highly refreshing, intensely sour, and slightly spicy clear tamarind soup loaded heavily with corn, chayote, long beans, and peanuts.",
-    "category": "Traditional Indonesian Soups"
-  
-  },
-  {
-    "name": "Soto Madura",
-    "price": "RM 20.00",
-    "desc": "A deeply savory, highly spiced beef soup from Madura Island, featuring an aromatic yellow broth heavily garnished with crispy fried shallots and lime.",
-    "category": "Traditional Indonesian Soups"
-  
-  },
-  {
-    "name": "Rawon (Black Beef Soup)",
-    "price": "RM 24.00",
-    "desc": "An incredibly dark, intensely earthy, and highly complex East Javanese beef soup, flavored entirely with the unique black keluak nut.",
-    "category": "Traditional Indonesian Soups"
-  
-  },
-  {
-    "name": "Sop Ayam Kampung",
-    "price": "RM 18.00",
-    "desc": "A deeply comforting, simple yet highly aromatic clear soup made from free-range chicken, boiled slowly with garlic, ginger, and white pepper.",
-    "category": "Traditional Indonesian Soups"
-  
-  },
-  {
-    "name": "Soto Banjar",
-    "price": "RM 22.00",
-    "desc": "A highly aromatic, deeply spiced chicken soup originating from South Kalimantan, thickened slightly with mashed potatoes and served with rice cakes.",
-    "category": "Traditional Indonesian Soups"
-  
-  },
-  {
-    "name": "Sop Kaki Kambing",
-    "price": "RM 28.00",
-    "desc": "An intensely rich, milky, and highly robust soup featuring tender goat trotters cooked slowly in a deeply complex, spiced coconut broth.",
-    "category": "Traditional Indonesian Soups"
-  
-  },
-  {
-    "name": "Ayam Bakar Kecap",
-    "price": "RM 18.00",
-    "desc": "A massive chicken quarter grilled slowly over charcoal, heavily basted in an intensely sweet, thick, and sticky Indonesian soy sauce (kecap manis).",
-    "category": "Grilled & Fried Meats"
-  
-  },
-  {
-    "name": "Ayam Penyet",
-    "price": "RM 16.00",
-    "desc": "An incredibly crispy, deep-fried chicken piece 'smashed' with a mortar to loosen the meat, served heavily topped with a fiery, pungent sambal.",
-    "category": "Grilled & Fried Meats"
-  
-  },
-  {
-    "name": "Bebek Goreng (Crispy Duck)",
-    "price": "RM 24.00",
-    "desc": "Half a duck boiled slowly in highly aromatic spices until incredibly tender, then deep-fried rapidly to achieve a shatteringly crisp skin.",
-    "category": "Grilled & Fried Meats"
-  
-  },
-  {
-    "name": "Iga Bakar (Grilled Beef Ribs)",
-    "price": "RM 35.00",
-    "desc": "Incredibly tender, slow-cooked beef ribs heavily coated in a deeply savory, slightly sweet coriander glaze and grilled perfectly over an open flame.",
-    "category": "Grilled & Fried Meats"
-  
-  },
-  {
-    "name": "Empal Gentong",
-    "price": "RM 22.00",
-    "desc": "Deeply savory, highly spiced, and slightly sweet fried beef slices, pounded until incredibly tender and served with a fiery chili paste.",
-    "category": "Grilled & Fried Meats"
-  
-  },
-  {
-    "name": "Ikan Bakar Jimbaran",
-    "price": "RM 38.00",
-    "desc": "A whole fresh fish heavily marinated in an incredibly complex, fiery, and deeply savory Balinese spice paste, grilled perfectly over coconut husks.",
-    "category": "Grilled & Fried Meats"
-  
-  },
-  {
-    "name": "Gurame Terbang (Flying Fish)",
-    "price": "RM 42.00",
-    "desc": "A visually stunning whole Gourami fish deeply scored and deep-fried to create a highly crispy 'flying' shape, served with sweet and sour sauce.",
-    "category": "Grilled & Fried Meats"
-  
-  },
-  {
-    "name": "Ayam Taliwang",
-    "price": "RM 20.00",
-    "desc": "An intensely fiery, highly aromatic grilled chicken dish from Lombok, completely smothered in a deeply pungent shrimp paste and chili sauce.",
-    "category": "Grilled & Fried Meats"
-  
-  },
-  {
-    "name": "Sate Ayam Madura (10 pcs)",
-    "price": "RM 16.00",
-    "desc": "Ten skewers of incredibly tender chicken chunks grilled perfectly over charcoal, entirely smothered in a deeply rich, thick, and sweet peanut sauce.",
-    "category": "Sate & Skewers"
-  
-  },
-  {
-    "name": "Sate Kambing (10 pcs)",
-    "price": "RM 22.00",
-    "desc": "Highly premium, intensely flavorful mutton skewers charred perfectly over an open flame, served simply with sweet soy sauce, raw onions, and chilies.",
-    "category": "Sate & Skewers"
-  
-  },
-  {
-    "name": "Sate Padang (10 pcs)",
-    "price": "RM 18.00",
-    "desc": "A deeply unique, highly savory dish featuring beef skewers submerged completely in a thick, vibrant yellow, and intensely spiced rice flour curry gravy.",
-    "category": "Sate & Skewers"
-  
-  },
-  {
-    "name": "Sate Lilit Bali (6 pcs)",
-    "price": "RM 20.00",
-    "desc": "Incredibly aromatic, finely minced chicken heavily mixed with coconut and Balinese spices, molded tightly around fresh lemongrass stalks and grilled.",
-    "category": "Sate & Skewers"
-  
-  },
-  {
-    "name": "Sate Maranggi (10 pcs)",
-    "price": "RM 22.00",
-    "desc": "Deeply sweet and savory beef skewers originating from Purwakarta, marinated heavily in coriander and palm sugar before being grilled perfectly.",
-    "category": "Sate & Skewers"
-  
-  },
-  {
-    "name": "Sate Buntel (3 pcs)",
-    "price": "RM 24.00",
-    "desc": "Three massive, intensely rich skewers of heavily spiced minced mutton wrapped entirely in caul fat and grilled until the exterior is shatteringly crisp.",
-    "category": "Sate & Skewers"
-  
-  },
-  {
-    "name": "Sate Usus (Chicken Intestine - 5 pcs)",
-    "price": "RM 10.00",
-    "desc": "A deeply traditional, highly chewy, and savory street food snack of chicken intestines heavily marinated and grilled perfectly over charcoal.",
-    "category": "Sate & Skewers"
-  
-  },
-  {
-    "name": "Sate Telur Puyuh (Quail Egg - 5 pcs)",
-    "price": "RM 12.00",
-    "desc": "A highly popular side dish featuring boiled quail eggs braised slowly in an incredibly dark, deeply sweet soy sauce, skewered and grilled lightly.",
-    "category": "Sate & Skewers"
-  
-  },
-  {
-    "name": "Gado-Gado Betawi",
-    "price": "RM 16.00",
-    "desc": "A deeply satisfying salad of blanched vegetables, boiled eggs, tofu, and potatoes, completely smothered in an incredibly rich, warm, and highly savory peanut sauce.",
-    "category": "Vegetable & Tofu Dishes"
-  
-  },
-  {
-    "name": "Kangkung Belacan",
-    "price": "RM 14.00",
-    "desc": "Fresh water spinach wok-tossed rapidly over intense high heat with an incredibly pungent, fiery, and deeply savory toasted shrimp paste sambal.",
-    "category": "Vegetable & Tofu Dishes"
-  
-  },
-  {
-    "name": "Tahu Telur",
-    "price": "RM 18.00",
-    "desc": "An absolute masterpiece: a towering, incredibly crispy, and fluffy deep-fried tower of tofu and egg, heavily drizzled with a rich, sweet peanut sauce.",
-    "category": "Vegetable & Tofu Dishes"
-  
-  },
-  {
-    "name": "Sayur Lodeh",
-    "price": "RM 15.00",
-    "desc": "A deeply comforting Indonesian vegetable stew featuring an abundance of cabbage, long beans, and tempeh, simmered slowly in a rich, spiced coconut broth.",
-    "category": "Vegetable & Tofu Dishes"
-  
-  },
-  {
-    "name": "Tumis Daun Singkong",
-    "price": "RM 12.00",
-    "desc": "Highly earthy, slightly bitter cassava leaves stir-fried rapidly with an absolute abundance of garlic, chilies, and deeply savory dried shrimp.",
-    "category": "Vegetable & Tofu Dishes"
-  
-  },
-  {
-    "name": "Tempeh Orek",
-    "price": "RM 10.00",
-    "desc": "An incredibly addictive side dish of fermented soybean cake cut into strips, deep-fried until shatteringly crisp, and glazed heavily in sweet soy and chilies.",
-    "category": "Vegetable & Tofu Dishes"
-  
-  },
-  {
-    "name": "Pecel Lele (Fried Catfish with Sambal)",
-    "price": "RM 15.00",
-    "desc": "A whole, deeply scored catfish deep-fried until intensely crispy, served heavily accompanied by a fiery, fresh tomato and chili sambal.",
-    "category": "Vegetable & Tofu Dishes"
-  
-  },
-  {
-    "name": "Urap Sayur",
-    "price": "RM 12.00",
-    "desc": "A highly refreshing, deeply traditional salad of blanched mixed vegetables tossed vigorously with a highly spiced, intensely aromatic grated coconut dressing.",
-    "category": "Vegetable & Tofu Dishes"
-  
-  },
-  {
-    "name": "Es Teler",
-    "price": "RM 12.00",
-    "desc": "A highly refreshing, intensely icy, and deeply creamy dessert featuring fresh avocado, jackfruit, and young coconut served in sweetened condensed milk.",
-    "category": "Indonesian Desserts"
-  
-  },
-  {
-    "name": "Es Campur",
-    "price": "RM 10.00",
-    "desc": "A highly colorful, intensely icy dessert mountain featuring shaved ice, grass jelly, red beans, and sweet syrups, offering a deeply nostalgic flavor.",
-    "category": "Indonesian Desserts"
-  
-  },
-  {
-    "name": "Pisang Bakar Coklat Keju",
-    "price": "RM 14.00",
-    "desc": "An incredibly decadent street food classic: sweet bananas grilled perfectly, then heavily topped with an absolute mountain of grated cheese and chocolate sprinkles.",
-    "category": "Indonesian Desserts"
-  
-  },
-  {
-    "name": "Kolak Pisang",
-    "price": "RM 10.00",
-    "desc": "A deeply comforting, warm sweet soup featuring incredibly tender plantain slices and sweet potato stewed perfectly in rich coconut milk and dark palm sugar.",
-    "category": "Indonesian Desserts"
-  
-  },
-  {
-    "name": "Bika Ambon",
-    "price": "RM 15.00",
-    "desc": "A highly unique, incredibly chewy, and deeply aromatic yellow cake from Medan, famous for its distinct honeycomb texture and fragrant pandan flavor.",
-    "category": "Indonesian Desserts"
-  
-  },
-  {
-    "name": "Kue Putu",
-    "price": "RM 12.00",
-    "desc": "Deeply traditional, highly aromatic steamed rice flour cakes filled perfectly with hot, liquid palm sugar, served heavily coated in freshly grated coconut.",
-    "category": "Indonesian Desserts"
-  
-  },
-  {
-    "name": "Es Cendol Dawet",
-    "price": "RM 10.00",
-    "desc": "A classic refresher: an incredibly creamy, deeply sweet drink featuring green rice flour jellies, rich coconut milk, and thick, dark palm sugar syrup.",
-    "category": "Indonesian Desserts"
-  
-  },
-  {
-    "name": "Martabak Manis (Sweet Pancake)",
-    "price": "RM 25.00",
-    "desc": "A massive, incredibly thick, and highly dense Indonesian sweet pancake, folded perfectly and heavily stuffed with crushed peanuts, chocolate, and cheese.",
-    "category": "Indonesian Desserts"
-  
-  }
+  { name: "Betawi Indonesian Cuisine Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Betawi Indonesian Cuisine Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Betawi Indonesian Cuisine Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Betawi Indonesian Cuisine Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Betawi Indonesian Cuisine Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Betawi Indonesian Cuisine Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Betawi Indonesian Cuisine Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

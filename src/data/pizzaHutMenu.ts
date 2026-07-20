@@ -1,233 +1,72 @@
 export const pizzaHutMenu = [
-  {
-    "name": "Aloha Chicken",
-    "price": "RM32.90",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "Chicken rolls, pineapple, and mozzarella cheese on a signature crust."
-  
-  },
-  {
-    "name": "Beef Pepperoni",
-    "price": "RM32.90",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "Flavorful beef pepperoni topped with mozzarella cheese."
-  
-  },
-  {
-    "name": "Chicken Pepperoni",
-    "price": "RM32.90",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "Tender chicken pepperoni slices on a cheesy base."
-  
-  },
-  {
-    "name": "Deluxe Cheese",
-    "price": "RM30.50",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "A classic blend of multiple cheese varieties for cheese lovers."
-  
-  },
-  {
-    "name": "Hawaiian Chicken",
-    "price": "RM32.90",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "A tropical mix of chicken meat, pineapple, and cheese."
-  
-  },
-  {
-    "name": "Island Supreme",
-    "price": "RM35.90",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "Loaded with tropical flavors, seafood, and pineapple."
-  
-  },
-  {
-    "name": "Meat Lovers",
-    "price": "RM35.90",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "A meat-packed pizza with beef, chicken, and pepperoni."
-  
-  },
-  {
-    "name": "Super Supreme",
-    "price": "RM35.90",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "The ultimate supreme pizza with a mix of meats and vegetables."
-  
-  },
-  {
-    "name": "Veggie Lover",
-    "price": "RM30.50",
-    "category": "Pizza (Hand-Stretched/Pan)",
-    "description": "A fresh mix of vegetables for a light and healthy choice."
-  
-  },
-  {
-    "name": "Cheesy Poppers Pizza",
-    "price": "RM42.90",
-    "category": "Pizza (Specialty)",
-    "description": "Innovative pizza with cheesy poppers built into the crust."
-  
-  },
-  {
-    "name": "Cheese Stuffed Crust Pizza (Add-on)",
-    "price": "RM8.00",
-    "category": "Pizza (Specialty)",
-    "description": "Upgrade your crust to be stuffed with melted cheese."
-  
-  },
-  {
-    "name": "Aloha Chicken Melts",
-    "price": "RM18.90",
-    "category": "Melts",
-    "description": "A crispy folded pizza featuring Aloha Chicken flavors."
-  
-  },
-  {
-    "name": "Beef Pepperoni Melts",
-    "price": "RM18.90",
-    "category": "Melts",
-    "description": "Folded crispy crust with beef pepperoni and cheese."
-  
-  },
-  {
-    "name": "Chicken Pepperoni Melts",
-    "price": "RM18.90",
-    "category": "Melts",
-    "description": "Tender chicken pepperoni in a crispy melty wrap."
-  
-  },
-  {
-    "name": "Surf's Up Melts",
-    "price": "RM19.90",
-    "category": "Melts",
-    "description": "Seafood flavors in a crispy, melty pizza fold."
-  
-  },
-  {
-    "name": "Chicken Lasagna",
-    "price": "RM18.50",
-    "category": "Pasta",
-    "description": "Layers of pasta, chicken, and rich cheese sauce."
-  
-  },
-  {
-    "name": "Beef Lasagna",
-    "price": "RM18.50",
-    "category": "Pasta",
-    "description": "Layers of pasta, savory beef, and cheese."
-  
-  },
-  {
-    "name": "Creamy Carbonara",
-    "price": "RM16.90",
-    "category": "Pasta",
-    "description": "Spaghetti in a rich and creamy white sauce."
-  
-  },
-  {
-    "name": "Spicy Chicken Arrabbiata",
-    "price": "RM16.90",
-    "category": "Pasta",
-    "description": "A kick of spice with chicken in tomato-based sauce."
-  
-  },
-  {
-    "name": "Garlic Bread",
-    "price": "RM6.50",
-    "category": "Sides",
-    "description": "Warm, toasted bread with aromatic garlic butter."
-  
-  },
-  {
-    "name": "Mushroom Soup",
-    "price": "RM6.50",
-    "category": "Sides",
-    "description": "Creamy and rich mushroom soup."
-  
-  },
-  {
-    "name": "Potato Wedges",
-    "price": "RM9.50",
-    "category": "Sides",
-    "description": "Crispy and seasoned potato wedges."
-  
-  },
-  {
-    "name": "Tasty Twists",
-    "price": "RM8.50",
-    "category": "Sides",
-    "description": "Fun, twisted dough sticks."
-  
-  },
-  {
-    "name": "Chicken Wings (6pcs)",
-    "price": "RM18.90",
-    "category": "Sides",
-    "description": "6 pieces of our signature flavored chicken wings."
-  
-  },
-  {
-    "name": "Chicken Wings (10pcs)",
-    "price": "RM28.90",
-    "category": "Sides",
-    "description": "10 pieces of our signature flavored chicken wings."
-  
-  },
-  {
-    "name": "Crispy Fries",
-    "price": "RM6.50",
-    "category": "Sides",
-    "description": "Perfectly golden and crispy french fries."
-  
-  },
-  {
-    "name": "Pepsi (Bottle 1.5L)",
-    "price": "RM7.50",
-    "category": "Drinks",
-    "description": "Large 1.5L bottle of Pepsi."
-  
-  },
-  {
-    "name": "Pepsi (Can)",
-    "price": "RM4.50",
-    "category": "Drinks",
-    "description": "Cooling 320ml can of Pepsi."
-  
-  },
-  {
-    "name": "7-Up (Can)",
-    "price": "RM4.50",
-    "category": "Drinks",
-    "description": "Refreshing lemon-lime soda."
-  
-  },
-  {
-    "name": "Iced Lemon Tea (Can)",
-    "price": "RM4.90",
-    "category": "Drinks",
-    "description": "Zesty and chilled iced lemon tea."
-  
-  },
-  {
-    "name": "Mineral Water (600ml)",
-    "price": "RM3.50",
-    "category": "Drinks",
-    "description": "Clean and refreshing mineral water."
-  
-  },
-  {
-    "name": "Chocolate Lava Cake",
-    "price": "RM12.50",
-    "category": "Desserts",
-    "description": "Warm chocolate cake with a molten center."
-  
-  },
-  {
-    "name": "Cinnamon Twist",
-    "price": "RM7.50",
-    "category": "Desserts",
-    "description": "A sweet finish with cinnamon-dusted dough twists."
-  
-  }
+  { name: "Pizza Hut Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Pizza Hut Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Pizza Hut Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Pizza Hut Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Pizza Hut Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Pizza Hut Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Pizza Hut Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

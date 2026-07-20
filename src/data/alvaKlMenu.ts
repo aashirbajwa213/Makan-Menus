@@ -1,251 +1,72 @@
 export const alvaKlMenu = [
-  // Appetizers & Nibbles
-  {
-    "name": "5 Star Crispy Salad",
-    "description": "Enjoy the delightful taste of our 5 Star Crispy Salad, a popular choice among our customers.",
-    "price": "RM35.00",
-    "category": "Appetizers & Nibbles",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Spanish Garlic Tiger Prawns",
-    "description": "Enjoy the delightful taste of our Spanish Garlic Tiger Prawns, a popular choice among our customers.",
-    "price": "RM49.00",
-    "category": "Appetizers & Nibbles",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Smoked Salmon Caesar Salad",
-    "description": "Freshly prepared Smoked Salmon Caesar Salad, offering an authentic taste experience.",
-    "price": "RM42.00",
-    "category": "Appetizers & Nibbles",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Chili Lime Chicken Skewers",
-    "description": "Tender and flavorful Chili Lime Chicken Skewers, cooked to perfection.",
-    "price": "RM30.00",
-    "category": "Appetizers & Nibbles",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Nautical Seafood Soup",
-    "description": "Enjoy the delightful taste of our Nautical Seafood Soup, a popular choice among our customers.",
-    "price": "RM33.00",
-    "category": "Appetizers & Nibbles",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Hanwoo Beef Skewer (2pcs)",
-    "description": "Enjoy the delightful taste of our Hanwoo Beef Skewer (2pcs), a popular choice among our customers.",
-    "price": "RM60.00",
-    "category": "Appetizers & Nibbles",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Amazing Nachos",
-    "description": "Enjoy the delightful taste of our Amazing Nachos, a popular choice among our customers.",
-    "price": "RM34.00",
-    "category": "Appetizers & Nibbles",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Truffle Chips",
-    "description": "Enjoy the delightful taste of our Truffle Chips, a popular choice among our customers.",
-    "price": "RM28.00",
-    "category": "Appetizers & Nibbles",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Flame Grilled (Main)
-  {
-    "name": "Australian Black Angus Ribeye",
-    "description": "Enjoy the delightful taste of our Australian Black Angus Ribeye, a popular choice among our customers.",
-    "price": "RM148.00",
-    "category": "Flame Grilled",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Atlantic Miso Black Cod",
-    "description": "Enjoy the delightful taste of our Atlantic Miso Black Cod, a popular choice among our customers.",
-    "price": "RM90.00",
-    "category": "Flame Grilled",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Tuscan Char-Grilled Chicken",
-    "description": "Tender and flavorful Tuscan Char-Grilled Chicken, cooked to perfection.",
-    "price": "RM49.00",
-    "category": "Flame Grilled",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Smoked Australian Lamb Ribs",
-    "description": "Enjoy the delightful taste of our Smoked Australian Lamb Ribs, a popular choice among our customers.",
-    "price": "RM72.00",
-    "category": "Flame Grilled",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Lamb Tomahawk",
-    "description": "Enjoy the delightful taste of our Lamb Tomahawk, a popular choice among our customers.",
-    "price": "RM168.00",
-    "category": "Flame Grilled",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Flaming Wagyu Steak",
-    "description": "Enjoy the delightful taste of our Flaming Wagyu Steak, a popular choice among our customers.",
-    "price": "RM138.00",
-    "category": "Flame Grilled",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Smokin' Beef Ribs",
-    "description": "Enjoy the delightful taste of our Smokin' Beef Ribs, a popular choice among our customers.",
-    "price": "RM98.00",
-    "category": "Flame Grilled",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Pasta & Risotto
-  {
-    "name": "Seafood Aglio Olio",
-    "description": "Enjoy the delightful taste of our Seafood Aglio Olio, a popular choice among our customers.",
-    "price": "RM55.00",
-    "category": "Pasta & Risotto",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Garlic Prawn Pasta",
-    "description": "Enjoy the delightful taste of our Garlic Prawn Pasta, a popular choice among our customers.",
-    "price": "RM45.00",
-    "category": "Pasta & Risotto",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Seafood Marinara",
-    "description": "Enjoy the delightful taste of our Seafood Marinara, a popular choice among our customers.",
-    "price": "RM51.00",
-    "category": "Pasta & Risotto",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Mushroom Alfredo Linguine",
-    "description": "Enjoy the delightful taste of our Mushroom Alfredo Linguine, a popular choice among our customers.",
-    "price": "RM38.00",
-    "category": "Pasta & Risotto",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Bolognese Bliss",
-    "description": "Enjoy the delightful taste of our Bolognese Bliss, a popular choice among our customers.",
-    "price": "RM30.00",
-    "category": "Pasta & Risotto",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Spinach Risotto",
-    "description": "Enjoy the delightful taste of our Spinach Risotto, a popular choice among our customers.",
-    "price": "RM45.00",
-    "category": "Pasta & Risotto",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Burgers & Sandwiches
-  {
-    "name": "Steak Sandwich",
-    "description": "Our signature Steak Sandwich, made with premium ingredients and served fresh.",
-    "price": "RM65.00",
-    "category": "Burgers & Sandwiches",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Chicken Croissant Burger",
-    "description": "Our signature Chicken Croissant Burger, made with premium ingredients and served fresh.",
-    "price": "RM60.00",
-    "category": "Burgers & Sandwiches",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Aussie Lamb In Brioche Bun",
-    "description": "Our signature Aussie Lamb In Brioche Bun, made with premium ingredients and served fresh.",
-    "price": "RM68.00",
-    "category": "Burgers & Sandwiches",
-    "menuType": "Main Menu"
-  
-  },
-
-  // Desserts
-  {
-    "name": "Above the Cloud Tiramisu",
-    "description": "A sweet and delicious Above the Cloud Tiramisu to satisfy your cravings.",
-    "price": "RM28.00",
-    "category": "Desserts",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Starfruit Mille-feuille",
-    "description": "A sweet and delicious Starfruit Mille-feuille to satisfy your cravings.",
-    "price": "RM27.00",
-    "category": "Desserts",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Coconut Panna Cotta",
-    "description": "A sweet and delicious Coconut Panna Cotta to satisfy your cravings.",
-    "price": "RM20.00",
-    "category": "Desserts",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Macadamia Dream Cheese Cake",
-    "description": "A sweet and delicious Macadamia Dream Cheese Cake to satisfy your cravings.",
-    "price": "RM25.00",
-    "category": "Desserts",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Strawberry Cream Cheese Mousse",
-    "description": "A sweet and delicious Strawberry Cream Cheese Mousse to satisfy your cravings.",
-    "price": "RM25.00",
-    "category": "Desserts",
-    "menuType": "Main Menu"
-  
-  },
-  {
-    "name": "Ferrero Rocher Mousse Patisserie",
-    "description": "A sweet and delicious Ferrero Rocher Mousse Patisserie to satisfy your cravings.",
-    "price": "RM25.00",
-    "category": "Desserts",
-    "menuType": "Main Menu"
-  
-  }
+  { name: "Alva Kl Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Alva Kl Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Alva Kl Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Alva Kl Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Alva Kl Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Alva Kl Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Alva Kl Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

@@ -1,292 +1,72 @@
 export const aiChaMenu = [
-  // Ai-Scream
-  {
-    "name": "Ai-SCREAM VANILLA",
-    "description": "Enjoy the delightful taste of our Ai-SCREAM VANILLA, a popular choice among our customers.",
-    "price": "RM2.50",
-    "category": "Ai-Scream"
-  
-  },
-  {
-    "name": "Ai-Scream Seasalt",
-    "description": "Enjoy the delightful taste of our Ai-Scream Seasalt, a popular choice among our customers.",
-    "price": "RM2.50",
-    "category": "Ai-Scream"
-  
-  },
-  {
-    "name": "Ai-Mix Vanilla Seasalt",
-    "description": "Enjoy the delightful taste of our Ai-Mix Vanilla Seasalt, a popular choice among our customers.",
-    "price": "RM2.50",
-    "category": "Ai-Scream"
-  
-  },
-
-  // Milk Tea Series
-  {
-    "name": "Ai-Brown Sugar Milk Tea Pearl",
-    "description": "A refreshing serving of Ai-Brown Sugar Milk Tea Pearl, perfect to quench your thirst.",
-    "price": "RM7.50",
-    "category": "Milk Tea Series"
-  
-  },
-  {
-    "name": "Ai-Milk Black Tea",
-    "description": "A refreshing serving of Ai-Milk Black Tea, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Milk Tea Series"
-  
-  },
-  {
-    "name": "Ai-Milk Jasmine Tea",
-    "description": "A refreshing serving of Ai-Milk Jasmine Tea, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Milk Tea Series"
-  
-  },
-
-  // Real Fruit Tea
-  {
-    "name": "Ai-Fresh Orange Strawberries",
-    "description": "A refreshing serving of Ai-Fresh Orange Strawberries, perfect to quench your thirst.",
-    "price": "RM10.50",
-    "category": "Real Fruit Tea"
-  
-  },
-  {
-    "name": "Ai-Fresh Orange Mango",
-    "description": "A refreshing serving of Ai-Fresh Orange Mango, perfect to quench your thirst.",
-    "price": "RM10.50",
-    "category": "Real Fruit Tea"
-  
-  },
-  {
-    "name": "Ai-Squash Lemonade",
-    "description": "A refreshing serving of Ai-Squash Lemonade, perfect to quench your thirst.",
-    "price": "RM4.50",
-    "category": "Real Fruit Tea"
-  
-  },
-  {
-    "name": "Ai-Lemon Black Tea",
-    "description": "A refreshing serving of Ai-Lemon Black Tea, perfect to quench your thirst.",
-    "price": "RM5.50",
-    "category": "Real Fruit Tea"
-  
-  },
-  {
-    "name": "Ai-Lemon Jasmine Tea",
-    "description": "A refreshing serving of Ai-Lemon Jasmine Tea, perfect to quench your thirst.",
-    "price": "RM5.50",
-    "category": "Real Fruit Tea"
-  
-  },
-  {
-    "name": "Ai-Fresh Blueberry Fruit",
-    "description": "A refreshing serving of Ai-Fresh Blueberry Fruit, perfect to quench your thirst.",
-    "price": "RM10.50",
-    "category": "Real Fruit Tea"
-  
-  },
-
-  // Sund-Ai Series
-  {
-    "name": "Sund-Ai Boba",
-    "description": "Enjoy the delightful taste of our Sund-Ai Boba, a popular choice among our customers.",
-    "price": "RM5.50",
-    "category": "Sund-Ai Series"
-  
-  },
-  {
-    "name": "Sund-Ai Mango",
-    "description": "Enjoy the delightful taste of our Sund-Ai Mango, a popular choice among our customers.",
-    "price": "RM5.50",
-    "category": "Sund-Ai Series"
-  
-  },
-  {
-    "name": "Sund-Ai Vanilla Chococrisp",
-    "description": "Enjoy the delightful taste of our Sund-Ai Vanilla Chococrisp, a popular choice among our customers.",
-    "price": "RM5.50",
-    "category": "Sund-Ai Series"
-  
-  },
-  {
-    "name": "Sund-Ai Strawberry",
-    "description": "Enjoy the delightful taste of our Sund-Ai Strawberry, a popular choice among our customers.",
-    "price": "RM5.50",
-    "category": "Sund-Ai Series"
-  
-  },
-  {
-    "name": "Sund-Ai Blueberry",
-    "description": "Enjoy the delightful taste of our Sund-Ai Blueberry, a popular choice among our customers.",
-    "price": "RM5.50",
-    "category": "Sund-Ai Series"
-  
-  },
-  {
-    "name": "Sund-Ai Chocolate Oreo",
-    "description": "Enjoy the delightful taste of our Sund-Ai Chocolate Oreo, a popular choice among our customers.",
-    "price": "RM5.50",
-    "category": "Sund-Ai Series"
-  
-  },
-
-  // Smoothies Series
-  {
-    "name": "Ai-SMOOTHIES MANGO",
-    "description": "Enjoy the delightful taste of our Ai-SMOOTHIES MANGO, a popular choice among our customers.",
-    "price": "RM8.50",
-    "category": "Smoothies Series"
-  
-  },
-  {
-    "name": "Ai-Smoothies Strawberry",
-    "description": "Enjoy the delightful taste of our Ai-Smoothies Strawberry, a popular choice among our customers.",
-    "price": "RM8.50",
-    "category": "Smoothies Series"
-  
-  },
-  {
-    "name": "Ai-Smoothies Chocolate Cookies",
-    "description": "Enjoy the delightful taste of our Ai-Smoothies Chocolate Cookies, a popular choice among our customers.",
-    "price": "RM8.50",
-    "category": "Smoothies Series"
-  
-  },
-  {
-    "name": "Ai-Smoothies Matcha",
-    "description": "Enjoy the delightful taste of our Ai-Smoothies Matcha, a popular choice among our customers.",
-    "price": "RM8.50",
-    "category": "Smoothies Series"
-  
-  },
-
-  // Tea Series
-  {
-    "name": "Ai-Black Tea",
-    "description": "A refreshing serving of Ai-Black Tea, perfect to quench your thirst.",
-    "price": "RM4.50",
-    "category": "Tea Series"
-  
-  },
-  {
-    "name": "Ai-Jasmine Tea",
-    "description": "A refreshing serving of Ai-Jasmine Tea, perfect to quench your thirst.",
-    "price": "RM4.50",
-    "category": "Tea Series"
-  
-  },
-  {
-    "name": "Ai-Scream Jasmine Tea",
-    "description": "A refreshing serving of Ai-Scream Jasmine Tea, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Tea Series"
-  
-  },
-  {
-    "name": "Ai-Scream Black Tea",
-    "description": "A refreshing serving of Ai-Scream Black Tea, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Tea Series"
-  
-  },
-
-  // Mycha Series
-  {
-    "name": "Ai-Mycha Lemonade",
-    "description": "Enjoy the delightful taste of our Ai-Mycha Lemonade, a popular choice among our customers.",
-    "price": "RM7.50",
-    "category": "Mycha Series"
-  
-  },
-  {
-    "name": "Ai-Mycha Latte",
-    "description": "A refreshing serving of Ai-Mycha Latte, perfect to quench your thirst.",
-    "price": "RM9.50",
-    "category": "Mycha Series"
-  
-  },
-  {
-    "name": "Ai-Mycha Oreo",
-    "description": "Enjoy the delightful taste of our Ai-Mycha Oreo, a popular choice among our customers.",
-    "price": "RM10.50",
-    "category": "Mycha Series"
-  
-  },
-
-  // Coffee Series (Iced)
-  {
-    "name": "Ai-Coffee Ice Cream",
-    "description": "A refreshing serving of Ai-Coffee Ice Cream, perfect to quench your thirst.",
-    "price": "RM7.50",
-    "category": "Coffee Series (Iced)"
-  
-  },
-  {
-    "name": "Ai-Americano",
-    "description": "A refreshing serving of Ai-Americano, perfect to quench your thirst.",
-    "price": "RM5.50",
-    "category": "Coffee Series (Iced)"
-  
-  },
-  {
-    "name": "Ai-Coffee Latte",
-    "description": "A refreshing serving of Ai-Coffee Latte, perfect to quench your thirst.",
-    "price": "RM8.50",
-    "category": "Coffee Series (Iced)"
-  
-  },
-  {
-    "name": "Ai-Choco Espresso",
-    "description": "A refreshing serving of Ai-Choco Espresso, perfect to quench your thirst.",
-    "price": "RM9.50",
-    "category": "Coffee Series (Iced)"
-  
-  },
-
-  // Coffee Series (Hot)
-  {
-    "name": "Ai-Mycha Latte (Hot)",
-    "description": "A refreshing serving of Ai-Mycha Latte (Hot), perfect to quench your thirst.",
-    "price": "RM9.50",
-    "category": "Coffee Series (Hot)"
-  
-  },
-  {
-    "name": "Ai-Coffee Latte (Hot)",
-    "description": "A refreshing serving of Ai-Coffee Latte (Hot), perfect to quench your thirst.",
-    "price": "RM8.50",
-    "category": "Coffee Series (Hot)"
-  
-  },
-  {
-    "name": "Ai-Americano (Hot)",
-    "description": "A refreshing serving of Ai-Americano (Hot), perfect to quench your thirst.",
-    "price": "RM5.50",
-    "category": "Coffee Series (Hot)"
-  
-  },
-  {
-    "name": "Ai-Lemon Black Tea (Hot)",
-    "description": "A refreshing serving of Ai-Lemon Black Tea (Hot), perfect to quench your thirst.",
-    "price": "RM5.50",
-    "category": "Coffee Series (Hot)"
-  
-  },
-  {
-    "name": "Ai-Milk Black Tea (Hot)",
-    "description": "A refreshing serving of Ai-Milk Black Tea (Hot), perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Coffee Series (Hot)"
-  
-  },
-  {
-    "name": "Ai-Black Tea (Hot)",
-    "description": "A refreshing serving of Ai-Black Tea (Hot), perfect to quench your thirst.",
-    "price": "RM4.50",
-    "category": "Coffee Series (Hot)"
-  
-  }
+  { name: "Ai Cha Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Ai Cha Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Ai Cha Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Ai Cha Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Ai Cha Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Ai Cha Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Ai Cha Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

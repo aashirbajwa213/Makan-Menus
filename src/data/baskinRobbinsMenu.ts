@@ -1,268 +1,72 @@
 export const baskinRobbinsMenu = [
-  {
-    name: "Junior Scoop",
-    price: "RM 6.00",
-    category: "Ice Cream & Handpacked",
-    description: "A single junior scoop of ice cream, available as part of specific promotions like the BR-Sama Pack."
-  
-  },
-  {
-    name: "Kids Scoop",
-    price: "RM 9.50",
-    category: "Ice Cream & Handpacked",
-    description: "A single kids-sized scoop of your favorite ice cream flavor."
-  
-  },
-  {
-    name: "Triple Fun Scoop Cup",
-    price: "RM 13.90",
-    category: "Ice Cream & Handpacked",
-    description: "Three scoops of ice cream served in a fun cup."
-  
-  },
-  {
-    name: "4 Single Regular Scoops",
-    price: "RM 56.00",
-    category: "Ice Cream & Handpacked",
-    description: "Four regular-sized single scoops of ice cream."
-  
-  },
-  {
-    name: "Handpacked Pint (350g) + 12 Sugar Cones",
-    price: "RM 49.00",
-    category: "Ice Cream & Handpacked",
-    description: "A 350g pint of handpacked ice cream served with 12 crispy sugar cones."
-  
-  },
-  {
-    name: "Handpacked Quart (700g) + 12 Sugar Cones",
-    price: "RM 86.00",
-    category: "Ice Cream & Handpacked",
-    description: "A 700g quart of handpacked ice cream served with 12 crispy sugar cones."
-  
-  },
-  {
-    name: "Quart (24oz)",
-    price: "RM 35.00",
-    category: "Ice Cream & Handpacked",
-    description: "A 24oz quart of your favorite handpacked ice cream."
-  
-  },
-  {
-    name: "Half Gallon (48oz)",
-    price: "RM 67.50",
-    category: "Ice Cream & Handpacked",
-    description: "A 48oz half gallon of your favorite handpacked ice cream."
-  
-  },
-  {
-    name: "Happy Pinwheel",
-    price: "RM 98.00",
-    category: "Ice Cream Cakes",
-    description: "A vibrant and cheerful 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Roti",
-    price: "RM 98.00",
-    category: "Ice Cream Cakes",
-    description: "A classic 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Strawberry Cheesecake",
-    price: "RM 105.00",
-    category: "Ice Cream Cakes",
-    description: "A delicious 6-inch cake featuring strawberry cheesecake flavor."
-  
-  },
-  {
-    name: "Just Say Yes",
-    price: "RM 113.00",
-    category: "Ice Cream Cakes",
-    description: "A premium 6-inch ice cream cake design."
-  
-  },
-  {
-    name: "Cookie Splendor",
-    price: "RM 118.00",
-    category: "Ice Cream Cakes",
-    description: "A 6-inch ice cream cake loaded with cookie goodness."
-  
-  },
-  {
-    name: "Choco Delight",
-    price: "RM 118.00",
-    category: "Ice Cream Cakes",
-    description: "A 6-inch chocolate lover's ice cream cake."
-  
-  },
-  {
-    name: "Hello Panda",
-    price: "RM 123.00",
-    category: "Ice Cream Cakes",
-    description: "An adorable panda-themed 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Cookies N Cream",
-    price: "RM 128.00",
-    category: "Ice Cream Cakes",
-    description: "A 6-inch cake featuring the classic cookies n cream flavor."
-  
-  },
-  {
-    name: "Happy Song",
-    price: "RM 129.00",
-    category: "Ice Cream Cakes",
-    description: "A celebratory 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Peek-a-boo Bunny",
-    price: "RM 130.00",
-    category: "Ice Cream Cakes",
-    description: "A cute bunny-themed 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Your Majesty",
-    price: "RM 135.00",
-    category: "Ice Cream Cakes",
-    description: "A regal 6-inch ice cream cake design."
-  
-  },
-  {
-    name: "Scoops of Joy",
-    price: "RM 138.00",
-    category: "Ice Cream Cakes",
-    description: "A joyful 6-inch ice cream cake for any occasion."
-  
-  },
-  {
-    name: "Safari",
-    price: "RM 138.00",
-    category: "Ice Cream Cakes",
-    description: "A fun safari-themed 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Ohana",
-    price: "RM 139.00",
-    category: "Ice Cream Cakes",
-    description: "A family-friendly 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Eternal Love",
-    price: "RM 140.00",
-    category: "Ice Cream Cakes",
-    description: "A beautifully designed 6-inch ice cream cake for romantic occasions."
-  
-  },
-  {
-    name: "Chocolate Tuxedo",
-    price: "RM 141.00",
-    category: "Ice Cream Cakes",
-    description: "An elegant chocolate tuxedo 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Teddy's World",
-    price: "RM 149.00",
-    category: "Ice Cream Cakes",
-    description: "A 6-inch ice cream cake featuring a teddy bear design."
-  
-  },
-  {
-    name: "Scoops of Love",
-    price: "RM 149.00",
-    category: "Ice Cream Cakes",
-    description: "A lovely 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Dreamyland",
-    price: "RM 159.00",
-    category: "Ice Cream Cakes",
-    description: "A dreamy 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Bear With Me",
-    price: "RM 163.00",
-    category: "Ice Cream Cakes",
-    description: "A large bear-themed 6-inch ice cream cake."
-  
-  },
-  {
-    name: "Scoopyland",
-    price: "RM 163.00",
-    category: "Ice Cream Cakes",
-    description: "A premium 6-inch ice cream cake packed with flavors."
-  
-  },
-  {
-    name: "Rainbow Tuxedo (9\")",
-    price: "RM 269.00",
-    category: "Ice Cream Cakes",
-    description: "A large 9-inch premium rainbow tuxedo ice cream cake."
-  
-  },
-  {
-    name: "Milkshake (Junior)",
-    price: "RM 15.80",
-    category: "Beverages & Others",
-    description: "A junior-sized creamy milkshake blended with your favorite ice cream flavor."
-  
-  },
-  {
-    name: "Milkshake (Regular)",
-    price: "RM 19.50",
-    category: "Beverages & Others",
-    description: "A regular-sized creamy milkshake blended with your favorite ice cream flavor."
-  
-  },
-  {
-    name: "Blast (Cappuccino/Chocolate/Mocha)",
-    price: "RM 17.50",
-    category: "Beverages & Others",
-    description: "A refreshing blended beverage available in cappuccino, chocolate, or mocha flavors."
-  
-  },
-  {
-    name: "Tiramisu Cone",
-    price: "RM 9.90",
-    category: "Beverages & Others",
-    description: "A special tiramisu-flavored ice cream cone."
-  
-  },
-  {
-    name: "Noodle Candle",
-    price: "RM 9.90",
-    category: "Beverages & Others",
-    description: "A fun novelty candle for decorating cakes."
-  
-  },
-  {
-    name: "HBD Garland",
-    price: "RM 19.80",
-    category: "Beverages & Others",
-    description: "A 'Happy Birthday' garland for party decorations."
-  
-  },
-  {
-    name: "HBD Headband",
-    price: "RM 19.90",
-    category: "Beverages & Others",
-    description: "A festive 'Happy Birthday' headband."
-  
-  },
-  {
-    name: "HBD Foil Balloon",
-    price: "RM 29.80",
-    category: "Beverages & Others",
-    description: "A shiny 'Happy Birthday' foil balloon to celebrate special occasions."
-  
-  }
+  { name: "Baskin Robbins Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Baskin Robbins Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Baskin Robbins Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Baskin Robbins Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Baskin Robbins Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Baskin Robbins Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Baskin Robbins Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

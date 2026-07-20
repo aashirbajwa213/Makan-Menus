@@ -1,338 +1,72 @@
 export const theRedBeanbagMenu = [
-  {
-    "name": "The Awesome Fry-Up",
-    "price": "RM 38.00",
-    "desc": "Our incredibly massive signature breakfast featuring two eggs any style, chicken bratwurst, beef bacon, sautéed wild mushrooms, roasted cherry tomatoes, hash browns, and artisan sourdough.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Skylar's Baked Eggs",
-    "price": "RM 32.00",
-    "desc": "A deeply comforting, intensely savory Middle Eastern skillet featuring two perfectly runny eggs baked in a rich, highly spiced, and fiery lamb and tomato stew.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Classic Eggs Benedict",
-    "price": "RM 30.00",
-    "desc": "Two incredibly perfectly poached eggs sitting atop premium turkey ham and toasted English muffins, entirely smothered in a highly rich, intensely buttery handmade hollandaise sauce.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Smoked Salmon Croissant",
-    "price": "RM 34.00",
-    "desc": "A highly buttery, intensely flaky, and freshly baked massive croissant stuffed completely with premium smoked salmon, fluffy scrambled eggs, and fresh dill cream cheese.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Avocado & Feta Smash",
-    "price": "RM 28.00",
-    "desc": "Thick slices of toasted artisan sourdough heavily loaded with intensely fresh, creamy smashed avocados, crumbly feta cheese, cherry tomatoes, and a highly vibrant balsamic glaze.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Truffle Mushroom Omelette",
-    "price": "RM 26.00",
-    "desc": "An incredibly fluffy, deeply savory three-egg omelette stuffed entirely with sautéed wild mushrooms and heavily drizzled with intensely aromatic premium white truffle oil.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Crispy Hash Brown Stack",
-    "price": "RM 28.00",
-    "desc": "A highly satisfying tower featuring deeply crispy golden hash browns layered perfectly with mashed avocado, crispy beef bacon, and topped with a runny poached egg.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Breakfast Burrito Bowl",
-    "price": "RM 30.00",
-    "desc": "An intensely hearty, deeply comforting bowl packed entirely with fluffy scrambled eggs, black beans, sweet corn salsa, guacamole, and slightly spicy chicken chorizo.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "RBB Signature Fluffy Pancakes",
-    "price": "RM 26.00",
-    "desc": "Three incredibly thick, deeply fluffy buttermilk pancakes stacked high, served perfectly with a massive pat of honeycomb butter and pure Canadian maple syrup.",
-    "category": "Artisan Pancakes & French Toast"
-  
-  },
-  {
-    "name": "Caramelized Banana French Toast",
-    "price": "RM 28.00",
-    "desc": "Thick-cut brioche bread soaked perfectly in a rich egg custard, pan-fried until golden, and heavily topped with intensely sweet caramelized bananas and crushed pecans.",
-    "category": "Artisan Pancakes & French Toast"
-  
-  },
-  {
-    "name": "Matcha Ricotta Hotcakes",
-    "price": "RM 30.00",
-    "desc": "A visually stunning, deeply earthy, and intensely fluffy Japanese-style pancake heavily infused with premium matcha, topped perfectly with fresh strawberries and mascarpone.",
-    "category": "Artisan Pancakes & French Toast"
-  
-  },
-  {
-    "name": "Berry Compote Waffles",
-    "price": "RM 26.00",
-    "desc": "A freshly made, thick Belgian waffle, shatteringly crispy on the outside, heavily topped with a deeply tart mixed berry compote and vanilla bean ice cream.",
-    "category": "Artisan Pancakes & French Toast"
-  
-  },
-  {
-    "name": "Nutella & Strawberry Crepes",
-    "price": "RM 24.00",
-    "desc": "Three incredibly delicate, highly thin French crepes completely smothered in rich Nutella hazelnut spread and stuffed entirely with sweet, fresh strawberry slices.",
-    "category": "Artisan Pancakes & French Toast"
-  
-  },
-  {
-    "name": "Bacon & Maple Pancakes",
-    "price": "RM 28.00",
-    "desc": "The ultimate sweet and savory combination: our signature fluffy pancakes layered perfectly with deeply crispy beef bacon strips and drenched in sweet maple syrup.",
-    "category": "Artisan Pancakes & French Toast"
-  
-  },
-  {
-    "name": "Lemon Curd Dutch Baby",
-    "price": "RM 25.00",
-    "desc": "A highly theatrical, deeply puffed oven-baked German pancake, served hot in a cast-iron skillet, heavily topped with intensely tangy handmade lemon curd and powdered sugar.",
-    "category": "Artisan Pancakes & French Toast"
-  
-  },
-  {
-    "name": "Tiramisu French Toast",
-    "price": "RM 32.00",
-    "desc": "An incredibly decadent breakfast dessert: espresso-soaked brioche entirely smothered in highly rich mascarpone cream and an absolute abundance of cocoa powder.",
-    "category": "Artisan Pancakes & French Toast"
-  
-  },
-  {
-    "name": "Signature RBB Beef Burger",
-    "price": "RM 42.00",
-    "desc": "A towering, incredibly premium burger featuring a thick, highly juicy Australian beef patty, melted aged cheddar, caramelized onions, and truffle mayo in a brioche bun.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Crispy Buttermilk Chicken Burger",
-    "price": "RM 36.00",
-    "desc": "An oversized, deeply crispy deep-fried chicken breast entirely encased in a highly seasoned buttermilk batter, topped with spicy mayo and crunchy coleslaw.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Truffle Mushroom Risotto",
-    "price": "RM 38.00",
-    "desc": "A highly luxurious, intensely creamy, and deeply earthy Italian rice dish heavily loaded with wild mushrooms and finished with a heavy drizzle of premium truffle oil.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Pan-Seared Norwegian Salmon",
-    "price": "RM 45.00",
-    "desc": "A thick, highly premium fillet of fresh salmon pan-seared to achieve a shatteringly crispy skin, served with creamy mashed potatoes and a delicate lemon butter sauce.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Classic Fish & Chips",
-    "price": "RM 38.00",
-    "desc": "A massive, incredibly flaky white fish fillet completely encased in a light, highly crispy, and golden beer batter, served with thick-cut chips and zesty tartar sauce.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Spaghetti Carbonara",
-    "price": "RM 34.00",
-    "desc": "An intensely authentic, deeply creamy pasta dish made entirely without cream, using only fresh egg yolks, an abundance of parmesan cheese, and crispy beef bacon.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Grilled Chicken Chop",
-    "price": "RM 32.00",
-    "desc": "A massive, incredibly juicy, and perfectly grilled chicken thigh, served with a mountain of fries, a fresh side salad, and our deeply savory black pepper sauce.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Seafood Aglio Olio",
-    "price": "RM 38.00",
-    "desc": "Al dente spaghetti tossed rapidly in premium olive oil, generous garlic, and fiery chili flakes, heavily loaded with an abundance of fresh prawns, squid, and mussels.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "RBB Power Quinoa Bowl",
-    "price": "RM 30.00",
-    "desc": "An incredibly healthy, highly textured bowl loaded entirely with fluffy quinoa, roasted sweet potatoes, fresh avocado, edamame, and a deeply sweet honey-mustard dressing.",
-    "category": "Wholesome Salads & Bowls"
-  
-  },
-  {
-    "name": "Classic Caesar Salad with Grilled Chicken",
-    "price": "RM 28.00",
-    "desc": "Crisp, fresh romaine lettuce tossed vigorously in a highly rich, homemade Caesar dressing, heavily topped with crunchy croutons, parmesan, and warm grilled chicken.",
-    "category": "Wholesome Salads & Bowls"
-  
-  },
-  {
-    "name": "Smoked Salmon & Grapefruit Salad",
-    "price": "RM 32.00",
-    "desc": "A highly vibrant, intensely refreshing salad featuring premium smoked salmon, bitter grapefruit segments, and mixed greens dressed perfectly in a zesty citrus vinaigrette.",
-    "category": "Wholesome Salads & Bowls"
-  
-  },
-  {
-    "name": "Teriyaki Chicken Grain Bowl",
-    "price": "RM 28.00",
-    "desc": "A deeply satisfying, intensely savory bowl featuring tender grilled chicken glazed heavily in sticky teriyaki sauce, served over brown rice with steamed broccoli.",
-    "category": "Wholesome Salads & Bowls"
-  
-  },
-  {
-    "name": "Roasted Pumpkin & Feta Salad",
-    "price": "RM 26.00",
-    "desc": "A highly vibrant, deeply earthy salad featuring sweet roasted pumpkin wedges, crumbly feta cheese, toasted pine nuts, and spinach, tossed in a balsamic vinaigrette.",
-    "category": "Wholesome Salads & Bowls"
-  
-  },
-  {
-    "name": "Spicy Thai Beef Salad",
-    "price": "RM 34.00",
-    "desc": "A highly refreshing, deeply tangy Thai-inspired salad featuring incredibly tender, rare roast beef slices and fresh herbs in an intensely fiery chili-lime dressing.",
-    "category": "Wholesome Salads & Bowls"
-  
-  },
-  {
-    "name": "Vegan Buddha Bowl",
-    "price": "RM 28.00",
-    "desc": "A deeply comforting, highly nutritious bowl featuring an abundance of crispy spiced chickpeas, roasted cauliflower, avocado, and a rich tahini drizzle.",
-    "category": "Wholesome Salads & Bowls"
-  
-  },
-  {
-    "name": "Wild Mushroom Soup",
-    "price": "RM 18.00",
-    "desc": "A thick, deeply comforting, and earthy bowl of creamy blended wild mushrooms, completely finished with truffle oil and served with warm artisan sourdough bread.",
-    "category": "Wholesome Salads & Bowls"
-  
-  },
-  {
-    "name": "Signature RBB Latte",
-    "price": "RM 14.00",
-    "desc": "A deeply comforting, smooth blend of our meticulously roasted, premium house espresso combined perfectly with velvety steamed micro-foam milk and beautiful latte art.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Flat White",
-    "price": "RM 14.00",
-    "desc": "An intensely robust, highly balanced Australian classic: a double ristretto shot poured perfectly over thinly textured, highly silky steamed milk.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Iced Caramel Macchiato",
-    "price": "RM 16.00",
-    "desc": "A visually stunning layered iced coffee featuring cold milk, a robust double shot of espresso, sweet vanilla syrup, and a highly generous, sticky caramel drizzle.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Cold Brew Original",
-    "price": "RM 15.00",
-    "desc": "An intensely smooth, deeply robust, and highly refreshing coffee steeped slowly in cold water for 24 hours to extract an incredibly pure, naturally sweet flavor.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Matcha Espresso Fusion",
-    "price": "RM 18.00",
-    "desc": "A highly visually striking, deeply complex layered drink featuring earthy Japanese matcha, cold milk, and an intense double shot of our premium espresso.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Classic Cappuccino",
-    "price": "RM 14.00",
-    "desc": "An intensely traditional Italian favorite: equal parts robust espresso, deeply steamed milk, and a massive, highly airy layer of milk foam dusted lightly with cocoa.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Mocha Frappe",
-    "price": "RM 18.00",
-    "desc": "An incredibly thick, icy, and intensely chocolatey blended coffee drink topped heavily with fresh whipped cream and an absolute abundance of cocoa powder.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Oat Milk Honey Latte",
-    "price": "RM 17.00",
-    "desc": "A deeply comforting, highly creamy dairy-free option featuring premium oat milk and fresh espresso, sweetened perfectly with pure, natural honey.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Green Detox Smoothie",
-    "price": "RM 18.00",
-    "desc": "A highly refreshing, intensely healthy blend of fresh green apple, cucumber, celery, spinach, and a zingy kick of fresh ginger.",
-    "category": "Fresh Smoothies & Juices"
-  
-  },
-  {
-    "name": "Mixed Berry Blast Smoothie",
-    "price": "RM 18.00",
-    "desc": "An incredibly thick, highly vibrant, and deeply sweet smoothie packed entirely with an absolute abundance of strawberries, blueberries, and raspberries.",
-    "category": "Fresh Smoothies & Juices"
-  
-  },
-  {
-    "name": "Mango Passionfruit Crusher",
-    "price": "RM 16.00",
-    "desc": "An intensely icy, highly tropical, and deeply refreshing slushie blended perfectly from sweet, ripe mango puree and tart, fresh passionfruit pulp.",
-    "category": "Fresh Smoothies & Juices"
-  
-  },
-  {
-    "name": "Fresh Squeezed Orange Juice",
-    "price": "RM 15.00",
-    "desc": "A tall glass of 100% pure, completely natural, and highly refreshing orange juice, squeezed fresh to order.",
-    "category": "Fresh Smoothies & Juices"
-  
-  },
-  {
-    "name": "Watermelon Lychee Slush",
-    "price": "RM 16.00",
-    "desc": "An intensely icy, naturally sweet, and highly refreshing slushie blended exclusively from fresh red watermelon and whole, sweet lychees.",
-    "category": "Fresh Smoothies & Juices"
-  
-  },
-  {
-    "name": "Peanut Butter Banana Protein Shake",
-    "price": "RM 20.00",
-    "desc": "An incredibly thick, highly filling, and deeply rich shake blended completely with fresh bananas, creamy peanut butter, milk, and whey protein.",
-    "category": "Fresh Smoothies & Juices"
-  
-  },
-  {
-    "name": "ABC Juice (Apple Beetroot Carrot)",
-    "price": "RM 16.00",
-    "desc": "A highly vibrant, intensely earthy, and deeply sweet classic cold-pressed juice perfectly balancing fresh apples, raw beetroot, and carrots.",
-    "category": "Fresh Smoothies & Juices"
-  
-  },
-  {
-    "name": "Iced Peach Tea",
-    "price": "RM 14.00",
-    "desc": "A deeply refreshing, highly aromatic, and naturally sweet iced beverage featuring premium black tea cold-brewed perfectly with fresh peach slices.",
-    "category": "Fresh Smoothies & Juices"
-  
-  }
+  { name: "The Red Beanbag Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "The Red Beanbag Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "The Red Beanbag Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "The Red Beanbag Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "The Red Beanbag Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "The Red Beanbag Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "The Red Beanbag Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

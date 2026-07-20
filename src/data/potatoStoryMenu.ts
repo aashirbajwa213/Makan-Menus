@@ -1,282 +1,72 @@
 export const potatoStoryMenu = [
-  {
-    "name": "Original Crispy Shoestring Fries",
-    "price": "RM 10.00",
-    "desc": "A massive serving of our classic, incredibly thin and crispy shoestring potatoes, perfectly salted to satisfy your cravings.",
-    "category": "Signature Fries"
-  
-  },
-  {
-    "name": "Loaded Cheese Fries",
-    "price": "RM 16.00",
-    "desc": "A large basket of golden fries completely smothered in our signature hot, gooey, and rich melted cheese sauce and creamy mayo.",
-    "category": "Signature Fries"
-  
-  },
-  {
-    "name": "Spicy Cajun Fries",
-    "price": "RM 12.00",
-    "desc": "Crispy french fries tossed aggressively in a fiery, deeply flavorful Louisiana Cajun spice blend for an extra kick.",
-    "category": "Signature Fries"
-  
-  },
-  {
-    "name": "Truffle Parmesan Fries",
-    "price": "RM 18.00",
-    "desc": "Premium, thick-cut fries tossed in aromatic, luxurious truffle oil and heavily dusted with freshly grated parmesan cheese.",
-    "category": "Signature Fries"
-  
-  },
-  {
-    "name": "BBQ Beef Loaded Fries",
-    "price": "RM 20.00",
-    "desc": "A meal on its own: fries heavily topped with slow-cooked, smoky pulled beef, BBQ sauce, and jalapenos.",
-    "category": "Signature Fries"
-  
-  },
-  {
-    "name": "Seaweed Shaker Fries",
-    "price": "RM 12.00",
-    "desc": "Hot, crispy fries served in a shaker bag with an intensely savory, umami-rich roasted seaweed seasoning powder.",
-    "category": "Signature Fries"
-  
-  },
-  {
-    "name": "Curly Fries Supreme",
-    "price": "RM 14.00",
-    "desc": "Perfectly seasoned, incredibly crispy spiral-cut potatoes, offering a fun shape and a delicious savory crunch.",
-    "category": "Signature Fries"
-  
-  },
-  {
-    "name": "Sour Cream & Onion Fries",
-    "price": "RM 12.00",
-    "desc": "Golden fries coated generously in a tangy, savory, and addictive sour cream and chive seasoning.",
-    "category": "Signature Fries"
-  
-  },
-  {
-    "name": "Golden Hash Browns (3 pcs)",
-    "price": "RM 10.00",
-    "desc": "Three large, perfectly crispy, golden-fried potato hash browns with a soft, fluffy, and hot interior.",
-    "category": "Potato Snacks"
-  
-  },
-  {
-    "name": "Crispy Tater Tots",
-    "price": "RM 12.00",
-    "desc": "A generous bowl of bite-sized, incredibly crunchy cylindrical potato puffs, perfect for popping and sharing.",
-    "category": "Potato Snacks"
-  
-  },
-  {
-    "name": "Thick Potato Wedges",
-    "price": "RM 13.00",
-    "desc": "Hearty, thick-cut potato wedges with the skin left on for extra flavor, served with a side of sweet chili sauce.",
-    "category": "Potato Snacks"
-  
-  },
-  {
-    "name": "Mashed Potato Bowl with Gravy",
-    "price": "RM 9.00",
-    "desc": "A comforting bowl of smooth, buttery, and creamy mashed potatoes featuring a deep pool of rich brown savory gravy.",
-    "category": "Potato Snacks"
-  
-  },
-  {
-    "name": "Potato Croquettes (4 pcs)",
-    "price": "RM 14.00",
-    "desc": "Creamy mashed potatoes mixed with herbs, breaded, and deep-fried until perfectly crispy on the outside.",
-    "category": "Potato Snacks"
-  
-  },
-  {
-    "name": "Smiley Potato Faces",
-    "price": "RM 10.00",
-    "desc": "A fun, nostalgic snack featuring crispy, shaped potato patties that are sure to bring a smile.",
-    "category": "Potato Snacks"
-  
-  },
-  {
-    "name": "Waffle Cut Fries",
-    "price": "RM 14.00",
-    "desc": "Crispy, lattice-shaped potatoes that offer maximum surface area for capturing dipping sauces.",
-    "category": "Potato Snacks"
-  
-  },
-  {
-    "name": "Loaded Baked Potato",
-    "price": "RM 16.00",
-    "desc": "A massive, soft baked potato sliced open and heavily loaded with butter, sour cream, cheese, and crispy beef bacon bits.",
-    "category": "Potato Snacks"
-  
-  },
-  {
-    "name": "Mozzarella Cheese Sticks (6 pcs)",
-    "price": "RM 16.00",
-    "desc": "Crispy, golden-breaded sticks filled entirely with stringy, incredibly stretchy, and melted mozzarella cheese.",
-    "category": "Cheesy Bites & Sides"
-  
-  },
-  {
-    "name": "Jalapeno Cheese Poppers (5 pcs)",
-    "price": "RM 15.00",
-    "desc": "Spicy jalapeno peppers stuffed generously with rich cream cheese, breaded, and fried until golden.",
-    "category": "Cheesy Bites & Sides"
-  
-  },
-  {
-    "name": "Mac & Cheese Bites (6 pcs)",
-    "price": "RM 14.00",
-    "desc": "Creamy, cheesy macaroni pasta formed into bite-sized balls, crumbed, and deep-fried for a crispy shell.",
-    "category": "Cheesy Bites & Sides"
-  
-  },
-  {
-    "name": "Cheesy Onion Rings",
-    "price": "RM 12.00",
-    "desc": "Thick, crispy battered onion rings served with a large dipping bowl of our signature hot cheese sauce.",
-    "category": "Cheesy Bites & Sides"
-  
-  },
-  {
-    "name": "Nacho Cheese Dip (Extra)",
-    "price": "RM 4.00",
-    "desc": "An extra large container of our signature rich, gooey, and slightly spicy nacho cheese sauce.",
-    "category": "Cheesy Bites & Sides"
-  
-  },
-  {
-    "name": "Chili Cheese Nuggets",
-    "price": "RM 14.00",
-    "desc": "Spicy, bite-sized nuggets filled with a blend of melted cheddar cheese and fiery chili pieces.",
-    "category": "Cheesy Bites & Sides"
-  
-  },
-  {
-    "name": "Cheesy Garlic Bread",
-    "price": "RM 10.00",
-    "desc": "Four slices of freshly toasted garlic baguette, heavily blanketed with melted mozzarella and cheddar.",
-    "category": "Cheesy Bites & Sides"
-  
-  },
-  {
-    "name": "Fried Calamari Rings",
-    "price": "RM 18.00",
-    "desc": "Tender, crispy battered squid rings served with a side of zesty tartar dipping sauce.",
-    "category": "Cheesy Bites & Sides"
-  
-  },
-  {
-    "name": "Chicken Nuggets (10 pcs)",
-    "price": "RM 14.00",
-    "desc": "Ten pieces of juicy, tender, golden-fried chicken nuggets, served with your choice of BBQ or sweet chili sauce.",
-    "category": "Fried Chicken Combos"
-  
-  },
-  {
-    "name": "Crispy Chicken Popcorn",
-    "price": "RM 13.00",
-    "desc": "A massive cup filled with bite-sized, highly addictive crispy fried chicken chunks, perfect for snacking.",
-    "category": "Fried Chicken Combos"
-  
-  },
-  {
-    "name": "Spicy Chicken Tenders (4 pcs)",
-    "price": "RM 16.00",
-    "desc": "Four large, premium, boneless chicken breast strips, breaded in a spicy coating and deep-fried.",
-    "category": "Fried Chicken Combos"
-  
-  },
-  {
-    "name": "Combo A: Fries + Nuggets",
-    "price": "RM 18.00",
-    "desc": "The perfect pairing: a regular portion of our original crispy shoestring fries alongside 6 pieces of chicken nuggets.",
-    "category": "Fried Chicken Combos"
-  
-  },
-  {
-    "name": "Combo B: Wedges + Tenders",
-    "price": "RM 22.00",
-    "desc": "A hearty combination featuring our thick potato wedges and 3 pieces of large, crispy spicy chicken tenders.",
-    "category": "Fried Chicken Combos"
-  
-  },
-  {
-    "name": "Combo C: Curly Fries + Popcorn",
-    "price": "RM 20.00",
-    "desc": "A fun mix of our signature seasoned curly fries combined with a generous portion of crispy chicken popcorn.",
-    "category": "Fried Chicken Combos"
-  
-  },
-  {
-    "name": "Korean Sweet & Spicy Wings (6 pcs)",
-    "price": "RM 18.00",
-    "desc": "Deep-fried chicken wings heavily coated in a sticky, sweet, and moderately spicy Korean Gochujang glaze.",
-    "category": "Fried Chicken Combos"
-  
-  },
-  {
-    "name": "Garlic Parmesan Wings (6 pcs)",
-    "price": "RM 18.00",
-    "desc": "Crispy chicken wings tossed generously in aromatic garlic butter and heavily dusted with parmesan cheese.",
-    "category": "Fried Chicken Combos"
-  
-  },
-  {
-    "name": "Sweet Potato Balls (10 pcs)",
-    "price": "RM 12.00",
-    "desc": "Our famous, incredibly chewy and naturally sweet deep-fried sweet potato balls with a satisfyingly crispy exterior.",
-    "category": "Sweet Potato Delights"
-  
-  },
-  {
-    "name": "Crispy Sweet Potato Fries",
-    "price": "RM 14.00",
-    "desc": "A large serving of sweet potato fries, offering the perfect balance of a crispy, salty exterior and a sweet, soft interior.",
-    "category": "Sweet Potato Delights"
-  
-  },
-  {
-    "name": "Purple Sweet Potato Balls (10 pcs)",
-    "price": "RM 13.00",
-    "desc": "Visually striking and delicious chewy balls made exclusively from premium, earthy purple sweet potatoes.",
-    "category": "Sweet Potato Delights"
-  
-  },
-  {
-    "name": "Sweet Potato Croquettes",
-    "price": "RM 15.00",
-    "desc": "Mashed sweet potato mixed with a touch of honey, breaded, and deep-fried into crispy croquettes.",
-    "category": "Sweet Potato Delights"
-  
-  },
-  {
-    "name": "Mixed Potato Ball Combo",
-    "price": "RM 14.00",
-    "desc": "A mix of both our classic orange sweet potato balls and our premium purple sweet potato balls.",
-    "category": "Sweet Potato Delights"
-  
-  },
-  {
-    "name": "Sweet Potato Wedges",
-    "price": "RM 15.00",
-    "desc": "Thick-cut, hearty sweet potato wedges served with a side of creamy garlic aioli for dipping.",
-    "category": "Sweet Potato Delights"
-  
-  },
-  {
-    "name": "Taro & Sweet Potato Balls",
-    "price": "RM 14.00",
-    "desc": "A mixed basket featuring our sweet potato balls alongside earthy, aromatic taro (yam) balls.",
-    "category": "Sweet Potato Delights"
-  
-  },
-  {
-    "name": "Sweet Potato Fries with Honey Dip",
-    "price": "RM 16.00",
-    "desc": "Our signature sweet potato fries served with a side of pure, sweet honey for an irresistible sweet-and-salty combination.",
-    "category": "Sweet Potato Delights"
-  
-  }
+  { name: "Potato Story Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Potato Story Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Potato Story Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Potato Story Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Potato Story Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Potato Story Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Potato Story Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

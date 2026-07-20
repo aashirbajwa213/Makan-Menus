@@ -1,191 +1,72 @@
 export const fiftyTalesMenu = [
-  {
-    name: "OG Style Noodles (Poached Chicken)",
-    price: "RM 24.00",
-    category: "Lunch Noodles & Rice",
-    description: "Noodles tossed in pork lard and soy sauce, served with poached chicken, pickled cucumber, a Shaoxing soy egg, and bok choy."
-  
-  },
-  {
-    name: "OG Style Noodles (Beer Braised Pork)",
-    price: "RM 26.00",
-    category: "Lunch Noodles & Rice",
-    description: "Noodles tossed in pork lard and soy sauce, served with beer-braised pork belly, pickled cucumber, a Shaoxing soy egg, and bok choy."
-  
-  },
-  {
-    name: "50 Tales Nyonya Laksa (Vegetarian)",
-    price: "RM 22.00",
-    category: "Lunch Noodles & Rice",
-    description: "Vegetarian Nyonya laksa."
-  
-  },
-  {
-    name: "50 Tales Nyonya Laksa (Poached Chicken)",
-    price: "RM 26.00",
-    category: "Lunch Noodles & Rice",
-    description: "Nyonya laksa with poached chicken."
-  
-  },
-  {
-    name: "50 Tales Nyonya Laksa (Beer Braised Pork)",
-    price: "RM 28.00",
-    category: "Lunch Noodles & Rice",
-    description: "Nyonya laksa with beer-braised pork."
-  
-  },
-  {
-    name: "Emerald Dragon (Poached Chicken)",
-    price: "RM 24.00",
-    category: "Lunch Noodles & Rice",
-    description: "Emerald Dragon noodles with poached chicken."
-  
-  },
-  {
-    name: "Emerald Dragon (Beer Braised Pork)",
-    price: "RM 26.00",
-    category: "Lunch Noodles & Rice",
-    description: "Emerald Dragon noodles with beer braised pork."
-  
-  },
-  {
-    name: "Minegar Noodles (Vegetarian)",
-    price: "RM 20.00",
-    category: "Lunch Noodles & Rice",
-    description: "A brighter, sweeter option featuring Penang vinegar, pickled ginger, ching long choy, a Shaoxing soy egg, and shimeji mushrooms."
-  
-  },
-  {
-    name: "Minegar Noodles (Poached Chicken)",
-    price: "RM 24.00",
-    category: "Lunch Noodles & Rice",
-    description: "Minegar Noodles paired with poached chicken."
-  
-  },
-  {
-    name: "Minegar Noodles (Beer Braised Pork)",
-    price: "RM 26.00",
-    category: "Lunch Noodles & Rice",
-    description: "Minegar Noodles paired with beer braised pork."
-  
-  },
-  {
-    name: "Rice Please (Poached Chicken)",
-    price: "RM 21.00",
-    category: "Lunch Noodles & Rice",
-    description: "Rice bowl with poached chicken."
-  
-  },
-  {
-    name: "Rice Please (Beer Braised Pork)",
-    price: "RM 23.00",
-    category: "Lunch Noodles & Rice",
-    description: "Rice bowl with beer braised pork."
-  
-  },
-  {
-    name: "Salted Olive Rice (Vegetarian)",
-    price: "RM 18.00",
-    category: "Lunch Noodles & Rice",
-    description: "Vegetarian salted olive rice bowl."
-  
-  },
-  {
-    name: "Salted Olive Rice (Poached Chicken)",
-    price: "RM 21.00",
-    category: "Lunch Noodles & Rice",
-    description: "Salted olive rice bowl with poached chicken."
-  
-  },
-  {
-    name: "Salted Olive Rice (Beer Braised Pork)",
-    price: "RM 23.00",
-    category: "Lunch Noodles & Rice",
-    description: "Salted olive rice bowl with beer braised pork."
-  
-  },
-  {
-    name: "Pork & Fish Dumplings",
-    price: "RM 18.00",
-    category: "Small Plates & Add-Ons",
-    description: "Small plate dumpling sharing dish."
-  
-  },
-  {
-    name: "Braised Pork Ears",
-    price: "RM 16.00",
-    category: "Small Plates & Add-Ons",
-    description: "Small plate of braised pork ears."
-  
-  },
-  {
-    name: "Poached Chicken Add-On",
-    price: "RM 6.00",
-    category: "Small Plates & Add-Ons",
-    description: "Extra portion of poached chicken."
-  
-  },
-  {
-    name: "Beer Braised Pork Slices Add-On",
-    price: "RM 9.00",
-    category: "Small Plates & Add-Ons",
-    description: "Extra portion of beer braised pork slices."
-  
-  },
-  {
-    name: "32 Days Aged Duck Ham",
-    price: "RM 10.00",
-    category: "Small Plates & Add-Ons",
-    description: "Aged duck ham add-on."
-  
-  },
-  {
-    name: "Marinated Egg",
-    price: "RM 4.00",
-    category: "Small Plates & Add-Ons",
-    description: "Shaoxing soy marinated egg add-on."
-  
-  },
-  {
-    name: "Crispy Pork Lard",
-    price: "RM 5.00",
-    category: "Small Plates & Add-Ons",
-    description: "Extra crispy pork lard."
-  
-  },
-  {
-    name: "Extra Noodles",
-    price: "RM 5.00",
-    category: "Small Plates & Add-Ons",
-    description: "Extra portion of handmade egg noodles."
-  
-  },
-  {
-    name: "Loose Leaf Tea (HOJO)",
-    price: "RM 18.00",
-    category: "Beverages & Sweets",
-    description: "Curated selection of loose-leaf tea (starts at RM 18)."
-  
-  },
-  {
-    name: "Soda/Fizz",
-    price: "RM 12.00",
-    category: "Beverages & Sweets",
-    description: "House-made fizzy drinks, such as monkfruit or ginger soda."
-  
-  },
-  {
-    name: "Kek Batik",
-    price: "RM 18.00",
-    category: "Beverages & Sweets",
-    description: "Classic Malaysian chocolate biscuit cake dessert."
-  
-  },
-  {
-    name: "Scallop & Morel Noodles",
-    price: "RM 79.00",
-    category: "Dinner Specialties",
-    description: "To share dinner menu specialty noodle dish."
-  
-  }
+  { name: "Fifty Tales Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Fifty Tales Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Fifty Tales Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Fifty Tales Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Fifty Tales Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Fifty Tales Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Fifty Tales Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

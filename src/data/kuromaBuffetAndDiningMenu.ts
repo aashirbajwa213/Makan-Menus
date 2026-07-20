@@ -1,338 +1,72 @@
 export const kuromaBuffetAndDiningMenu = [
-  {
-    "name": "Fresh Oysters (Half Dozen)",
-    "price": "Buffet",
-    "desc": "Premium, freshly shucked, incredibly plump oysters served on a bed of crushed ice with lemon wedges and tangy Mignonette sauce.",
-    "category": "Seafood on Ice"
-  
-  },
-  {
-    "name": "Alaskan King Crab Legs",
-    "price": "Buffet",
-    "desc": "Massive, naturally sweet, and incredibly tender King Crab legs, pre-cracked and served chilled.",
-    "category": "Seafood on Ice"
-  
-  },
-  {
-    "name": "Poached Tiger Prawns",
-    "price": "Buffet",
-    "desc": "Large, firm, and vibrant orange tiger prawns, gently poached and quickly chilled to retain their natural sweet ocean flavor.",
-    "category": "Seafood on Ice"
-  
-  },
-  {
-    "name": "Half-Shell Scallops",
-    "price": "Buffet",
-    "desc": "Fresh, delicate scallops served elegantly on the half shell, ready to be enjoyed with spicy seafood sauce.",
-    "category": "Seafood on Ice"
-  
-  },
-  {
-    "name": "Green Lipped Mussels",
-    "price": "Buffet",
-    "desc": "Large, meaty New Zealand green mussels presented beautifully on ice.",
-    "category": "Seafood on Ice"
-  
-  },
-  {
-    "name": "Chilled Slipper Lobsters",
-    "price": "Buffet",
-    "desc": "Sweet, firm, and decadent slipper lobster halves, perfectly boiled and chilled.",
-    "category": "Seafood on Ice"
-  
-  },
-  {
-    "name": "Fresh Sea Snails (Escargot)",
-    "price": "Buffet",
-    "desc": "Tender, chewy sea snails served with a variety of intense garlic and chili dipping sauces.",
-    "category": "Seafood on Ice"
-  
-  },
-  {
-    "name": "Sashimi Grade Baby Octopus",
-    "price": "Buffet",
-    "desc": "Chilled, marinated baby octopus offering a delightful crunch and a sweet, savory soy flavor profile.",
-    "category": "Seafood on Ice"
-  
-  },
-  {
-    "name": "Salmon & Tuna Sashimi",
-    "price": "Buffet",
-    "desc": "Unlimited access to thick, freshly sliced, premium raw Norwegian salmon and ruby-red tuna.",
-    "category": "Japanese Station"
-  
-  },
-  {
-    "name": "Assorted Nigiri Sushi",
-    "price": "Buffet",
-    "desc": "A massive, colorful display of hand-pressed sushi including salmon, tuna, ebi (prawn), tamago (egg), and unagi (eel).",
-    "category": "Japanese Station"
-  
-  },
-  {
-    "name": "Maki & California Rolls",
-    "price": "Buffet",
-    "desc": "A constantly replenished variety of sushi rolls, featuring spicy tuna, crispy soft shell crab, and vegetarian options.",
-    "category": "Japanese Station"
-  
-  },
-  {
-    "name": "Shrimp Tempura",
-    "price": "Buffet",
-    "desc": "Large, fresh prawns coated in a remarkably light, airy, and shatteringly crisp tempura batter, fried live at the station.",
-    "category": "Japanese Station"
-  
-  },
-  {
-    "name": "Vegetable Tempura",
-    "price": "Buffet",
-    "desc": "Crispy battered slices of sweet potato, eggplant, and pumpkin, served with warm tentsuyu dipping broth.",
-    "category": "Japanese Station"
-  
-  },
-  {
-    "name": "Beef Teppanyaki",
-    "price": "Buffet",
-    "desc": "Tender slices of beef intensely grilled to order on a roaring hot iron griddle with garlic and sweet soy sauce.",
-    "category": "Japanese Station"
-  
-  },
-  {
-    "name": "Chicken Yakitori",
-    "price": "Buffet",
-    "desc": "Aromatic, charcoal-grilled chicken skewers heavily glazed in a sticky, sweet, and savory tare sauce.",
-    "category": "Japanese Station"
-  
-  },
-  {
-    "name": "Chawanmushi",
-    "price": "Buffet",
-    "desc": "Incredibly smooth, delicate, and savory steamed egg custard served in small cups, topped with a mushroom and a prawn.",
-    "category": "Japanese Station"
-  
-  },
-  {
-    "name": "Roast Prime Rib of Beef",
-    "price": "Buffet",
-    "desc": "A massive, heavily encrusted prime rib, slow-roasted to a perfect medium-rare, carved live and served with rich beef au jus.",
-    "category": "Western Carvery & Mains"
-  
-  },
-  {
-    "name": "Roasted Leg of Lamb",
-    "price": "Buffet",
-    "desc": "Tender, succulent lamb infused deeply with garlic and rosemary, roasted until perfectly pink, served with traditional mint jelly.",
-    "category": "Western Carvery & Mains"
-  
-  },
-  {
-    "name": "Baked Salmon En Croute",
-    "price": "Buffet",
-    "desc": "A whole side of fresh salmon, wrapped in buttery, flaky puff pastry with spinach and cream cheese, baked until golden.",
-    "category": "Western Carvery & Mains"
-  
-  },
-  {
-    "name": "Truffle Mashed Potatoes",
-    "price": "Buffet",
-    "desc": "Incredibly rich, creamy, and buttery mashed potatoes heavily scented with premium white truffle oil.",
-    "category": "Western Carvery & Mains"
-  
-  },
-  {
-    "name": "Pasta Station (Live Cooking)",
-    "price": "Buffet",
-    "desc": "Customizable pasta cooked to order: choose from spaghetti or penne, and carbonara, bolognese, or aglio olio sauces.",
-    "category": "Western Carvery & Mains"
-  
-  },
-  {
-    "name": "Mushroom Fricassee",
-    "price": "Buffet",
-    "desc": "A luxurious, creamy ragout of mixed wild mushrooms, perfect as a side dish for the roasted meats.",
-    "category": "Western Carvery & Mains"
-  
-  },
-  {
-    "name": "Oven-Roasted Root Vegetables",
-    "price": "Buffet",
-    "desc": "A colorful, healthy medley of carrots, parsnips, and potatoes roasted slowly with thyme and olive oil.",
-    "category": "Western Carvery & Mains"
-  
-  },
-  {
-    "name": "Cream of Mushroom Soup",
-    "price": "Buffet",
-    "desc": "A thick, earthy, and comforting soup served with an array of freshly baked artisan bread rolls and butter.",
-    "category": "Western Carvery & Mains"
-  
-  },
-  {
-    "name": "Singapore Chili Crab",
-    "price": "Buffet",
-    "desc": "Massive mud crabs wok-tossed in a vibrant, sweet, savory, and spicy tomato-chili gravy, served with fried mantou buns.",
-    "category": "Asian Delights"
-  
-  },
-  {
-    "name": "Beef Rendang",
-    "price": "Buffet",
-    "desc": "Incredibly tender chunks of beef slow-cooked for hours in a rich, deeply spiced, and caramelized coconut milk gravy.",
-    "category": "Asian Delights"
-  
-  },
-  {
-    "name": "Ayam Masak Merah",
-    "price": "Buffet",
-    "desc": "Classic Malay-style chicken simmered in a rich, sweet, and slightly spicy tomato and chili paste.",
-    "category": "Asian Delights"
-  
-  },
-  {
-    "name": "Wok-Fried Black Pepper Beef",
-    "price": "Buffet",
-    "desc": "Tender beef slices rapidly stir-fried with bell peppers and onions in a pungent, highly savory black pepper sauce.",
-    "category": "Asian Delights"
-  
-  },
-  {
-    "name": "Steamed Seabass in Soy Sauce",
-    "price": "Buffet",
-    "desc": "Fresh fish steamed to perfection, dressed simply in a premium light soy sauce, and heavily topped with ginger and scallions.",
-    "category": "Asian Delights"
-  
-  },
-  {
-    "name": "Sweet & Sour Prawns",
-    "price": "Buffet",
-    "desc": "Large prawns coated in a light batter and wok-tossed in a classic, vibrant sweet and sour sauce with pineapple chunks.",
-    "category": "Asian Delights"
-  
-  },
-  {
-    "name": "Nasi Briyani",
-    "price": "Buffet",
-    "desc": "Highly aromatic, long-grain basmati rice cooked perfectly with a complex blend of spices, saffron, and ghee.",
-    "category": "Asian Delights"
-  
-  },
-  {
-    "name": "Stir-Fried Mixed Vegetables",
-    "price": "Buffet",
-    "desc": "A healthy, crisp medley of broccoli, cauliflower, carrots, and snow peas tossed quickly in a light garlic oyster sauce.",
-    "category": "Asian Delights"
-  
-  },
-  {
-    "name": "Har Gao (Shrimp Dumplings)",
-    "price": "Buffet",
-    "desc": "Delicate, translucent steamed dumplings packed generously with large, crunchy, and fresh shrimp.",
-    "category": "Dim Sum & Noodles"
-  
-  },
-  {
-    "name": "Chicken Siew Mai",
-    "price": "Buffet",
-    "desc": "Classic, savory steamed dumplings made from a finely minced blend of chicken and shrimp.",
-    "category": "Dim Sum & Noodles"
-  
-  },
-  {
-    "name": "Salted Egg Lava Buns",
-    "price": "Buffet",
-    "desc": "Soft, fluffy steamed white buns that tear open to reveal a hot, oozing, sweet and savory golden salted egg custard.",
-    "category": "Dim Sum & Noodles"
-  
-  },
-  {
-    "name": "BBQ Chicken Buns",
-    "price": "Buffet",
-    "desc": "Steamed buns filled with a deeply savory, sweet, and sticky diced BBQ chicken filling.",
-    "category": "Dim Sum & Noodles"
-  
-  },
-  {
-    "name": "Pan-Fried Radish Cake",
-    "price": "Buffet",
-    "desc": "Savory turnip cake squares, pan-fried until the exterior is perfectly golden and crispy.",
-    "category": "Dim Sum & Noodles"
-  
-  },
-  {
-    "name": "Prawn Noodle Soup (Har Mee)",
-    "price": "Buffet",
-    "desc": "A live noodle station serving yellow noodles in an intensely rich, deeply savory, and spicy prawn head broth.",
-    "category": "Dim Sum & Noodles"
-  
-  },
-  {
-    "name": "Curry Laksa",
-    "price": "Buffet",
-    "desc": "Noodles served in a thick, fiery, and aromatic coconut curry soup, topped with tofu puffs and fish cakes.",
-    "category": "Dim Sum & Noodles"
-  
-  },
-  {
-    "name": "Chicken Rice Station",
-    "price": "Buffet",
-    "desc": "Authentic Hainanese steamed and roasted chicken, served with fragrant garlic rice, chili sauce, and ginger paste.",
-    "category": "Dim Sum & Noodles"
-  
-  },
-  {
-    "name": "Chocolate Fondue Fountain",
-    "price": "Buffet",
-    "desc": "A massive, cascading fountain of warm, rich milk chocolate, surrounded by strawberries, marshmallows, and melon for dipping.",
-    "category": "Sweet Endings"
-  
-  },
-  {
-    "name": "Assorted French Macarons",
-    "price": "Buffet",
-    "desc": "Delicate, colorful almond meringue cookies filled with a variety of rich ganaches and buttercreams.",
-    "category": "Sweet Endings"
-  
-  },
-  {
-    "name": "Classic Crème Brûlée",
-    "price": "Buffet",
-    "desc": "A smooth, rich vanilla bean custard topped with a shatteringly crisp layer of freshly torched caramelized sugar.",
-    "category": "Sweet Endings"
-  
-  },
-  {
-    "name": "Mango Pudding",
-    "price": "Buffet",
-    "desc": "A chilled, incredibly smooth and refreshing Asian-style pudding made with sweet, ripe mango puree.",
-    "category": "Sweet Endings"
-  
-  },
-  {
-    "name": "Assorted Mini Cheesecakes",
-    "price": "Buffet",
-    "desc": "Bite-sized portions of rich, creamy cheesecakes in various flavors including New York, Blueberry, and Matcha.",
-    "category": "Sweet Endings"
-  
-  },
-  {
-    "name": "Traditional Malay Kuih",
-    "price": "Buffet",
-    "desc": "A colorful, extensive assortment of traditional, sweet, and sticky local delicacies made from coconut milk and palm sugar.",
-    "category": "Sweet Endings"
-  
-  },
-  {
-    "name": "Premium Ice Cream Station",
-    "price": "Buffet",
-    "desc": "Multiple tubs of premium ice cream including Vanilla, Chocolate, Strawberry, and Matcha, with a massive toppings bar.",
-    "category": "Sweet Endings"
-  
-  },
-  {
-    "name": "Fresh Seasonal Fruit Platter",
-    "price": "Buffet",
-    "desc": "A beautifully arranged display of freshly cut watermelon, honeydew, pineapple, dragon fruit, and grapes.",
-    "category": "Sweet Endings"
-  
-  }
+  { name: "Kuroma Buffet And Dining Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kuroma Buffet And Dining Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kuroma Buffet And Dining Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kuroma Buffet And Dining Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kuroma Buffet And Dining Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kuroma Buffet And Dining Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Kuroma Buffet And Dining Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

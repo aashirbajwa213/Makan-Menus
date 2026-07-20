@@ -1,335 +1,72 @@
 export const burgerKingMenu = [
-  // Whopper Series
-  {
-    "name": "Whopper",
-    "description": "Our signature Whopper, made with premium ingredients and served fresh.",
-    "price": "RM16.50",
-    "category": "Whopper Series",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Whopper Medium Meal",
-    "description": "Our signature Whopper Medium Meal, made with premium ingredients and served fresh.",
-    "price": "RM20.90",
-    "category": "Whopper Series",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Whopper Large Meal",
-    "description": "Our signature Whopper Large Meal, made with premium ingredients and served fresh.",
-    "price": "RM22.90",
-    "category": "Whopper Series",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Double Whopper",
-    "description": "Our signature Double Whopper, made with premium ingredients and served fresh.",
-    "price": "RM21.50",
-    "category": "Whopper Series",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Whopper Jr.",
-    "description": "Our signature Whopper Jr., made with premium ingredients and served fresh.",
-    "price": "RM11.50",
-    "category": "Whopper Series",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Whopper Jr. Medium Meal",
-    "description": "Our signature Whopper Jr. Medium Meal, made with premium ingredients and served fresh.",
-    "price": "RM16.00",
-    "category": "Whopper Series",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Triple Whopper Jr. with Cheese",
-    "description": "Our signature Triple Whopper Jr. with Cheese, made with premium ingredients and served fresh.",
-    "price": "RM23.00",
-    "category": "Whopper Series",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Royal Selection
-  {
-    "name": "Steakhouse Whopper",
-    "description": "Our signature Steakhouse Whopper, made with premium ingredients and served fresh.",
-    "price": "RM23.90",
-    "category": "Royal Selection",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Steakhouse Whopper Medium Meal",
-    "description": "Our signature Steakhouse Whopper Medium Meal, made with premium ingredients and served fresh.",
-    "price": "RM28.20",
-    "category": "Royal Selection",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Ultimate Steakhouse Whopper",
-    "description": "Our signature Ultimate Steakhouse Whopper, made with premium ingredients and served fresh.",
-    "price": "RM25.90",
-    "category": "Royal Selection",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Beef Burgers
-  {
-    "name": "Double Cheeseburger",
-    "description": "Our signature Double Cheeseburger, made with premium ingredients and served fresh.",
-    "price": "RM15.40",
-    "category": "Beef Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Double Cheeseburger Medium Meal",
-    "description": "Our signature Double Cheeseburger Medium Meal, made with premium ingredients and served fresh.",
-    "price": "RM19.90",
-    "category": "Beef Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Mushroom Swiss (Single)",
-    "description": "Our signature Mushroom Swiss (Single), made with premium ingredients and served fresh.",
-    "price": "RM13.90",
-    "category": "Beef Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Mushroom Swiss (Double)",
-    "description": "Our signature Mushroom Swiss (Double), made with premium ingredients and served fresh.",
-    "price": "RM18.40",
-    "category": "Beef Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "BBQ Beefacon (Single)",
-    "description": "Our signature BBQ Beefacon (Single), made with premium ingredients and served fresh.",
-    "price": "RM13.90",
-    "category": "Beef Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "BBQ Beefacon (Double)",
-    "description": "Our signature BBQ Beefacon (Double), made with premium ingredients and served fresh.",
-    "price": "RM18.40",
-    "category": "Beef Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Cheeseburger",
-    "description": "Our signature Cheeseburger, made with premium ingredients and served fresh.",
-    "price": "RM10.90",
-    "category": "Beef Burgers",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Chicken & Fish
-  {
-    "name": "Tender Crisp",
-    "description": "Tender and flavorful Tender Crisp, cooked to perfection.",
-    "price": "RM16.00",
-    "category": "Chicken & Fish",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Tender Crisp Medium Meal",
-    "description": "Tender and flavorful Tender Crisp Medium Meal, cooked to perfection.",
-    "price": "RM20.50",
-    "category": "Chicken & Fish",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Tender Grill",
-    "description": "Tender and flavorful Tender Grill, cooked to perfection.",
-    "price": "RM15.00",
-    "category": "Chicken & Fish",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Mushroom Tender Grill",
-    "description": "Tender and flavorful Mushroom Tender Grill, cooked to perfection.",
-    "price": "RM18.90",
-    "category": "Chicken & Fish",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Long Chicken",
-    "description": "Tender and flavorful Long Chicken, cooked to perfection.",
-    "price": "RM13.50",
-    "category": "Chicken & Fish",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Chick 'n Crisp",
-    "description": "Tender and flavorful Chick 'n Crisp, cooked to perfection.",
-    "price": "RM10.50",
-    "category": "Chicken & Fish",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Fish 'n Crisp",
-    "description": "Tender and flavorful Fish 'n Crisp, cooked to perfection.",
-    "price": "RM10.50",
-    "category": "Chicken & Fish",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Supreme Nachos Tendercrisp",
-    "description": "Tender and flavorful Supreme Nachos Tendercrisp, cooked to perfection.",
-    "price": "RM21.25",
-    "category": "Chicken & Fish",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Sides & Snacks
-  {
-    "name": "Cheesy Loaded Fries",
-    "description": "A perfect side of Cheesy Loaded Fries to complement your main meal.",
-    "price": "RM9.50",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Fries (Medium)",
-    "description": "A perfect side of Fries (Medium) to complement your main meal.",
-    "price": "RM5.50",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Onion Rings (Medium)",
-    "description": "A perfect side of Onion Rings (Medium) to complement your main meal.",
-    "price": "RM6.50",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Chicken Nuggets (6-pc)",
-    "description": "Tender and flavorful Chicken Nuggets (6-pc), cooked to perfection.",
-    "price": "RM9.50",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Snack Box",
-    "description": "A perfect side of Snack Box to complement your main meal.",
-    "price": "RM25.70",
-    "category": "Sides & Snacks",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Desserts
-  {
-    "name": "Hershey's Pie",
-    "description": "A sweet and delicious Hershey's Pie to satisfy your cravings.",
-    "price": "RM12.50",
-    "category": "Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Apple Pie",
-    "description": "A sweet and delicious Apple Pie to satisfy your cravings.",
-    "price": "RM4.90",
-    "category": "Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Taro Pie",
-    "description": "A sweet and delicious Taro Pie to satisfy your cravings.",
-    "price": "RM4.90",
-    "category": "Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Soft Serve (Cone)",
-    "description": "A sweet and delicious Soft Serve (Cone) to satisfy your cravings.",
-    "price": "RM2.50",
-    "category": "Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Sundae (Chocolate/Strawberry)",
-    "description": "A sweet and delicious Sundae (Chocolate/Strawberry) to satisfy your cravings.",
-    "price": "RM5.50",
-    "category": "Desserts",
-    "menuType": "Regular Menu"
-  
-  },
-
-  // Beverages
-  {
-    "name": "Coca-Cola/Sprite/Fanta (Medium)",
-    "description": "A refreshing serving of Coca-Cola/Sprite/Fanta (Medium), perfect to quench your thirst.",
-    "price": "RM4.50",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Iced Lemon Tea (Medium)",
-    "description": "A refreshing serving of Iced Lemon Tea (Medium), perfect to quench your thirst.",
-    "price": "RM4.50",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Hot Americano",
-    "description": "A refreshing serving of Hot Americano, perfect to quench your thirst.",
-    "price": "RM6.50",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Hot Cappuccino",
-    "description": "A refreshing serving of Hot Cappuccino, perfect to quench your thirst.",
-    "price": "RM8.50",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  },
-  {
-    "name": "Mineral Water",
-    "description": "A refreshing serving of Mineral Water, perfect to quench your thirst.",
-    "price": "RM3.50",
-    "category": "Beverages",
-    "menuType": "Regular Menu"
-  
-  }
+  { name: "Burger King Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Burger King Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Burger King Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Burger King Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Burger King Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Burger King Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Burger King Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

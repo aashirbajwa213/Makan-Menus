@@ -1,338 +1,72 @@
 export const wheelersGeorgeTownMenu = [
-  {
-    "name": "Wheeler's Big Breakfast",
-    "price": "RM 38.00",
-    "desc": "An incredibly massive morning feast featuring two eggs your way, artisan chicken sausage, crispy beef bacon, sautéed wild mushrooms, roasted tomatoes, perfectly crispy hash browns, and thick sourdough toast.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Eggs Benedict on Croissant",
-    "price": "RM 34.00",
-    "desc": "Two incredibly perfectly poached eggs sitting atop premium smoked salmon and a highly buttery, freshly baked massive croissant, entirely smothered in a highly rich, intensely buttery handmade hollandaise sauce.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Avocado & Feta Smash Toast",
-    "price": "RM 28.00",
-    "desc": "Thick slices of toasted artisan sourdough heavily loaded with intensely fresh, creamy smashed avocados, crumbly feta cheese, cherry tomatoes, a runny poached egg, and a highly vibrant balsamic glaze.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Shakshuka Baked Eggs",
-    "price": "RM 30.00",
-    "desc": "A deeply comforting, intensely savory Middle Eastern skillet featuring two perfectly runny eggs baked in a rich, highly spiced, and fiery tomato, bell pepper, and cumin stew, served with sourdough.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Truffle Mushroom Omelette",
-    "price": "RM 26.00",
-    "desc": "An incredibly fluffy, deeply savory three-egg omelette stuffed entirely with earthy sautéed wild mushrooms, fresh baby spinach, and heavily drizzled with intensely aromatic premium white truffle oil.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Caramelized Banana French Toast",
-    "price": "RM 28.00",
-    "desc": "Thick-cut brioche bread soaked perfectly in a rich egg custard, pan-fried until golden, and heavily topped with intensely sweet caramelized bananas, roasted pecans, and pure maple syrup.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Fluffy Buttermilk Pancakes",
-    "price": "RM 26.00",
-    "desc": "Three incredibly thick, deeply fluffy buttermilk pancakes stacked high, heavily topped with an absolute abundance of fresh mixed berries, a massive pat of butter, and maple syrup.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Breakfast Burrito Wrap",
-    "price": "RM 28.00",
-    "desc": "An intensely hearty, deeply comforting wrap packed entirely with fluffy scrambled eggs, black beans, sweet corn salsa, fresh guacamole, melted cheese, and highly spiced chicken chorizo.",
-    "category": "Signature All-Day Brunch"
-  
-  },
-  {
-    "name": "Wheeler's Signature Beef Burger",
-    "price": "RM 42.00",
-    "desc": "A towering, incredibly premium burger featuring a thick, highly juicy Australian beef patty, melted aged cheddar, caramelized onions, and truffle mayo in a toasted brioche bun.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Crispy Buttermilk Chicken Burger",
-    "price": "RM 36.00",
-    "desc": "An oversized, deeply crispy deep-fried chicken breast entirely encased in a highly seasoned buttermilk batter, topped with spicy mayo and crunchy coleslaw.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Pan-Seared Norwegian Salmon",
-    "price": "RM 48.00",
-    "desc": "A thick, highly premium fillet of fresh salmon pan-seared to achieve a shatteringly crispy skin, served perfectly with creamy mashed potatoes, roasted asparagus, and a delicate lemon butter sauce.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Classic Fish & Chips",
-    "price": "RM 38.00",
-    "desc": "A massive, incredibly flaky white fish fillet completely encased in a light, highly crispy, and golden beer batter, served with thick-cut chips and zesty tartar sauce.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Grilled Chicken Chop",
-    "price": "RM 32.00",
-    "desc": "A massive, incredibly juicy, and perfectly grilled chicken thigh, served with a mountain of crispy fries, a fresh side salad, and our deeply savory signature black pepper sauce.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Australian Ribeye Steak (250g)",
-    "price": "RM 75.00",
-    "desc": "A highly premium, intensely flavorful cut of Australian beef, grilled perfectly to your liking, served heavily with mashed potatoes, roasted vegetables, and a rich brown jus.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Slow-Braised Lamb Shank",
-    "price": "RM 58.00",
-    "desc": "A deeply comforting, mildly spiced dish featuring an incredibly tender, massive lamb shank slow-cooked perfectly for 6 hours until fall-off-the-bone tender, served with creamy mash.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "BBQ Pulled Beef Sandwich",
-    "price": "RM 34.00",
-    "desc": "Slow-roasted, incredibly tender, fall-apart shredded beef brisket completely mixed in a deeply smoky BBQ sauce, piled incredibly high in a soft brioche bun with crunchy coleslaw.",
-    "category": "Hearty Western Mains"
-  
-  },
-  {
-    "name": "Truffle Mushroom Fettuccine",
-    "price": "RM 36.00",
-    "desc": "Wide pasta ribbons coated completely in an earthy, highly luxurious creamy wild mushroom sauce, finished with a heavy, deeply aromatic drizzle of premium white truffle oil and parmesan.",
-    "category": "Artisanal Pasta Dishes"
-  
-  },
-  {
-    "name": "Seafood Aglio Olio",
-    "price": "RM 38.00",
-    "desc": "Al dente spaghetti tossed rapidly in premium olive oil, generous garlic, and fiery chili flakes, heavily loaded with an absolute abundance of fresh tiger prawns, squid, and mussels.",
-    "category": "Artisanal Pasta Dishes"
-  
-  },
-  {
-    "name": "Classic Beef Bolognese",
-    "price": "RM 32.00",
-    "desc": "A deeply comforting, hearty bowl of al dente spaghetti topped heavily with our incredibly rich, slow-simmered, traditional Italian minced beef and tomato ragu.",
-    "category": "Artisanal Pasta Dishes"
-  
-  },
-  {
-    "name": "Spaghetti Carbonara (Beef Bacon)",
-    "price": "RM 34.00",
-    "desc": "An incredibly rich, deeply comforting pasta dish featuring spaghetti tossed vigorously with an intensely creamy sauce, egg yolk, parmesan cheese, and an abundance of crispy beef bacon.",
-    "category": "Artisanal Pasta Dishes"
-  
-  },
-  {
-    "name": "Pesto Chicken Penne",
-    "price": "RM 30.00",
-    "desc": "Short penne tubes thoroughly coated in our highly vibrant, intensely aromatic homemade fresh basil, garlic, parmesan, and pine nut pesto, topped heavily with grilled chicken slices.",
-    "category": "Artisanal Pasta Dishes"
-  
-  },
-  {
-    "name": "Spicy Soft Shell Crab Pasta",
-    "price": "RM 42.00",
-    "desc": "A highly luxurious, visually stunning dish featuring linguine coated perfectly in a rich, slightly fiery tomato cream sauce, completely topped with a massive, shatteringly crisp deep-fried soft shell crab.",
-    "category": "Artisanal Pasta Dishes"
-  
-  },
-  {
-    "name": "Smoked Duck Mac & Cheese",
-    "price": "RM 35.00",
-    "desc": "An incredibly rich, highly comforting oven-baked skillet of macaroni completely smothered in a four-cheese melted sauce, heavily loaded with intensely savory, premium smoked duck slices.",
-    "category": "Artisanal Pasta Dishes"
-  
-  },
-  {
-    "name": "Salmon & Spinach Cream Pasta",
-    "price": "RM 38.00",
-    "desc": "A deeply satisfying, highly elegant pasta featuring fettuccine completely coated in a highly delicate, deeply creamy sauce, loaded entirely with fresh spinach leaves and premium salmon chunks.",
-    "category": "Artisanal Pasta Dishes"
-  
-  },
-  {
-    "name": "Classic Caesar Salad with Grilled Chicken",
-    "price": "RM 28.00",
-    "desc": "Crisp, fresh romaine lettuce tossed vigorously in a highly rich, homemade Caesar dressing, heavily topped with crunchy croutons, parmesan shavings, and warm grilled chicken.",
-    "category": "Fresh Salads & Smoothie Bowls"
-  
-  },
-  {
-    "name": "Smoked Salmon & Avocado Salad",
-    "price": "RM 32.00",
-    "desc": "A highly vibrant, intensely refreshing salad featuring premium smoked salmon, fresh avocado slices, and mixed greens dressed perfectly in a zesty, deeply tangy lemon vinaigrette.",
-    "category": "Fresh Salads & Smoothie Bowls"
-  
-  },
-  {
-    "name": "Roasted Pumpkin & Quinoa Salad",
-    "price": "RM 28.00",
-    "desc": "A highly vibrant, deeply earthy salad featuring sweet roasted pumpkin wedges, fluffy quinoa, crumbly feta cheese, toasted pine nuts, and spinach, tossed in a balsamic glaze.",
-    "category": "Fresh Salads & Smoothie Bowls"
-  
-  },
-  {
-    "name": "Spicy Thai Beef Salad",
-    "price": "RM 34.00",
-    "desc": "A highly refreshing, deeply tangy Thai-inspired salad featuring incredibly tender, rare roast beef slices and fresh herbs in an intensely fiery chili-lime dressing.",
-    "category": "Fresh Salads & Smoothie Bowls"
-  
-  },
-  {
-    "name": "Wild Mushroom Soup with Garlic Bread",
-    "price": "RM 18.00",
-    "desc": "A thick, deeply comforting, and earthy bowl of creamy blended wild mushrooms, completely finished with truffle oil and served with two massive slices of freshly toasted garlic bread.",
-    "category": "Fresh Salads & Smoothie Bowls"
-  
-  },
-  {
-    "name": "Acai Berry Smoothie Bowl",
-    "price": "RM 28.00",
-    "desc": "A highly refreshing, deeply nutritious, and intensely vibrant blended acai smoothie bowl heavily topped with fresh strawberries, blueberries, homemade granola, and chia seeds.",
-    "category": "Fresh Salads & Smoothie Bowls"
-  
-  },
-  {
-    "name": "Mango Tropical Smoothie Bowl",
-    "price": "RM 26.00",
-    "desc": "An intensely tropical, highly sweet smoothie bowl blended entirely from fresh mangoes and bananas, heavily topped with fresh kiwi slices, coconut flakes, and crunchy seeds.",
-    "category": "Fresh Salads & Smoothie Bowls"
-  
-  },
-  {
-    "name": "Green Detox Smoothie Bowl",
-    "price": "RM 26.00",
-    "desc": "An incredibly healthy, highly vibrant green bowl blended perfectly from spinach, matcha, banana, and almond milk, heavily topped with fresh green apples and mixed nuts.",
-    "category": "Fresh Salads & Smoothie Bowls"
-  
-  },
-  {
-    "name": "Wheeler's Signature Flat White",
-    "price": "RM 14.00",
-    "desc": "An intensely robust, highly balanced Australian classic: a double ristretto shot poured perfectly over thinly textured, highly silky steamed milk.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Artisan Cafe Latte",
-    "price": "RM 14.00",
-    "desc": "A deeply comforting, smooth blend of our meticulously roasted, premium house espresso combined perfectly with velvety steamed micro-foam milk and beautiful latte art.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Classic Cappuccino",
-    "price": "RM 14.00",
-    "desc": "An intensely traditional Italian favorite: equal parts robust espresso, deeply steamed milk, and a massive, highly airy layer of milk foam dusted lightly with dark cocoa powder.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Iced Caramel Macchiato",
-    "price": "RM 16.00",
-    "desc": "A visually stunning layered iced coffee featuring cold milk, a robust double shot of espresso, sweet vanilla syrup, and a highly generous, sticky caramel drizzle.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Cold Brew (24-Hour Steep)",
-    "price": "RM 16.00",
-    "desc": "An intensely smooth, deeply robust, and highly refreshing coffee steeped slowly in cold water for 24 hours to extract an incredibly pure, naturally sweet flavor without bitterness.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Mocha Frappe Ice Blended",
-    "price": "RM 18.00",
-    "desc": "An incredibly thick, icy, and intensely chocolatey blended coffee drink topped heavily with fresh whipped cream and an absolute abundance of cocoa powder.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Matcha Espresso Fusion",
-    "price": "RM 18.00",
-    "desc": "A highly visually striking, deeply complex layered drink featuring earthy Japanese matcha green tea, cold milk, and an intense double shot of our premium house espresso.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Oat Milk Honey Latte",
-    "price": "RM 17.00",
-    "desc": "A deeply comforting, highly creamy dairy-free option featuring premium oat milk and fresh espresso, sweetened perfectly with pure, natural organic honey.",
-    "category": "Specialty Coffee & Espresso"
-  
-  },
-  {
-    "name": "Classic Tiramisu",
-    "price": "RM 22.00",
-    "desc": "Our legendary, incredibly decadent signature dessert featuring thick layers of espresso-soaked ladyfingers, intensely rich mascarpone cream, and an absolute mountain of dark cocoa powder.",
-    "category": "Decadent Cafe Desserts"
-  
-  },
-  {
-    "name": "Basque Burnt Cheesecake",
-    "price": "RM 20.00",
-    "desc": "A highly trendy, incredibly creamy crustless cheesecake baked at extremely high heat to achieve a deeply caramelized, intensely rich, and slightly bitter 'burnt' top.",
-    "category": "Decadent Cafe Desserts"
-  
-  },
-  {
-    "name": "Warm Chocolate Lava Cake",
-    "price": "RM 24.00",
-    "desc": "A warm, incredibly decadent dark chocolate cake that oozes an intensely rich, molten chocolate center, served perfectly with a scoop of premium vanilla bean ice cream.",
-    "category": "Decadent Cafe Desserts"
-  
-  },
-  {
-    "name": "Wheeler's Signature Waffle",
-    "price": "RM 22.00",
-    "desc": "A massive, freshly baked Belgian waffle, shatteringly crispy on the outside, completely smothered in a mountain of fresh mixed berries, chocolate sauce, and vanilla ice cream.",
-    "category": "Decadent Cafe Desserts"
-  
-  },
-  {
-    "name": "Lemon Meringue Tart",
-    "price": "RM 18.00",
-    "desc": "A highly delicate, intensely buttery shortcrust pastry shell completely filled with an incredibly tart, vibrant lemon curd, perfectly topped with a massive, beautifully torched sweet meringue.",
-    "category": "Decadent Cafe Desserts"
-  
-  },
-  {
-    "name": "Earl Grey Mille Crepe Cake",
-    "price": "RM 20.00",
-    "desc": "A highly technical, visually striking cake featuring 20 incredibly thin, delicate French crepes layered entirely with an intensely aromatic, light Earl Grey tea infused cream.",
-    "category": "Decadent Cafe Desserts"
-  
-  },
-  {
-    "name": "Chocolate Brownie Skillet",
-    "price": "RM 22.00",
-    "desc": "A highly decadent, incredibly dense, and deeply fudgy warm chocolate brownie served perfectly in a hot cast-iron skillet, heavily topped with vanilla ice cream and hot fudge.",
-    "category": "Decadent Cafe Desserts"
-  
-  },
-  {
-    "name": "Affogato al Caffe",
-    "price": "RM 16.00",
-    "desc": "A simple yet perfect dessert featuring a single massive scoop of premium vanilla bean ice cream 'drowned' entirely in a hot, robust double shot of freshly brewed espresso.",
-    "category": "Decadent Cafe Desserts"
-  
-  }
+  { name: "Wheelers George Town Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Wheelers George Town Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Wheelers George Town Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Wheelers George Town Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Wheelers George Town Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Wheelers George Town Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Wheelers George Town Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];

@@ -1,163 +1,72 @@
 export const sukaDessertMenu = [
-  // Biskut & Wafer
-  {
-    "name": "Chopstick Cookies",
-    "description": "Enjoy the delightful taste of our Chopstick Cookies, a popular choice among our customers.",
-    "price": "RM28.00",
-    "category": "Biskut & Wafer",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Choco Jar (Signature)",
-    "description": "Enjoy the delightful taste of our Choco Jar (Signature), a popular choice among our customers.",
-    "price": "RM24.00",
-    "category": "Biskut & Wafer",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Hiram Cookies with Signature Sauce",
-    "description": "Enjoy the delightful taste of our Hiram Cookies with Signature Sauce, a popular choice among our customers.",
-    "price": "RM35.90",
-    "category": "Biskut & Wafer",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Choc Chip Crunchy Cookies",
-    "description": "Enjoy the delightful taste of our Choc Chip Crunchy Cookies, a popular choice among our customers.",
-    "price": "RM28.00",
-    "category": "Biskut & Wafer",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Bucket Cookies",
-    "description": "Enjoy the delightful taste of our Bucket Cookies, a popular choice among our customers.",
-    "price": "RM32.00",
-    "category": "Biskut & Wafer",
-    "menuType": "All Day"
-  
-  },
-
-  // Pastri & Brownies
-  {
-    "name": "Mountain Lava Brownie",
-    "description": "Enjoy the delightful taste of our Mountain Lava Brownie, a popular choice among our customers.",
-    "price": "RM19.00",
-    "category": "Pastri & Brownies",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Cookies Pods",
-    "description": "Enjoy the delightful taste of our Cookies Pods, a popular choice among our customers.",
-    "price": "RM27.50",
-    "category": "Pastri & Brownies",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Brownies Nutella",
-    "description": "Enjoy the delightful taste of our Brownies Nutella, a popular choice among our customers.",
-    "price": "RM38.00",
-    "category": "Pastri & Brownies",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Brownies Hazelnutchoc (6 inch)",
-    "description": "Enjoy the delightful taste of our Brownies Hazelnutchoc (6 inch), a popular choice among our customers.",
-    "price": "RM40.50",
-    "category": "Pastri & Brownies",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Choc Crowd Brownies (Small)",
-    "description": "Enjoy the delightful taste of our Choc Crowd Brownies (Small), a popular choice among our customers.",
-    "price": "RM29.90",
-    "category": "Pastri & Brownies",
-    "menuType": "All Day"
-  
-  },
-
-  // Coklat Specialties
-  {
-    "name": "Hazelnut Choc Cocoa Ball",
-    "description": "Enjoy the delightful taste of our Hazelnut Choc Cocoa Ball, a popular choice among our customers.",
-    "price": "RM18.00",
-    "category": "Coklat Specialties",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Chocolate Cookiesland",
-    "description": "Enjoy the delightful taste of our Chocolate Cookiesland, a popular choice among our customers.",
-    "price": "RM34.90",
-    "category": "Coklat Specialties",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "In Bowl Cake",
-    "description": "A sweet and delicious In Bowl Cake to satisfy your cravings.",
-    "price": "RM25.00",
-    "category": "Coklat Specialties",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Petite Pancake",
-    "description": "A sweet and delicious Petite Pancake to satisfy your cravings.",
-    "price": "RM18.00",
-    "category": "Coklat Specialties",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Strawberry Dip Bowl",
-    "description": "Enjoy the delightful taste of our Strawberry Dip Bowl, a popular choice among our customers.",
-    "price": "RM22.00",
-    "category": "Coklat Specialties",
-    "menuType": "All Day"
-  
-  },
-
-  // Savory Delights
-  {
-    "name": "Nasi Ramen (Signature)",
-    "description": "A comforting bowl of Nasi Ramen (Signature), rich in authentic flavors.",
-    "price": "RM15.90",
-    "category": "Savory Delights",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Korean Spicy Ramen",
-    "description": "A comforting bowl of Korean Spicy Ramen, rich in authentic flavors.",
-    "price": "RM14.00",
-    "category": "Savory Delights",
-    "menuType": "All Day"
-  
-  },
-
-  // Dressing & Add-ons
-  {
-    "name": "Signature Sauce (Extra)",
-    "description": "Enjoy the delightful taste of our Signature Sauce (Extra), a popular choice among our customers.",
-    "price": "RM14.50",
-    "category": "Dressing & Add-ons",
-    "menuType": "All Day"
-  
-  },
-  {
-    "name": "Melted Premium Chocolate",
-    "description": "Enjoy the delightful taste of our Melted Premium Chocolate, a popular choice among our customers.",
-    "price": "RM8.00",
-    "category": "Dressing & Add-ons",
-    "menuType": "All Day"
-  
-  }
+  { name: "Suka Dessert Special Starters 1", price: "RM 12.90", category: "Starters", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Starters 2", price: "RM 15.90", category: "Starters", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Starters 3", price: "RM 18.90", category: "Starters", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Starters 4", price: "RM 14.90", category: "Starters", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Starters 5", price: "RM 16.90", category: "Starters", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Starters 6", price: "RM 20.90", category: "Starters", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Starters 7", price: "RM 22.90", category: "Starters", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Starters 8", price: "RM 19.90", category: "Starters", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Starters 9", price: "RM 21.90", category: "Starters", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Starters 10", price: "RM 17.90", category: "Starters", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Suka Dessert Special Main Course 1", price: "RM 12.90", category: "Main Course", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Main Course 2", price: "RM 15.90", category: "Main Course", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Main Course 3", price: "RM 18.90", category: "Main Course", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Main Course 4", price: "RM 14.90", category: "Main Course", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Main Course 5", price: "RM 16.90", category: "Main Course", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Main Course 6", price: "RM 20.90", category: "Main Course", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Main Course 7", price: "RM 22.90", category: "Main Course", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Main Course 8", price: "RM 19.90", category: "Main Course", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Main Course 9", price: "RM 21.90", category: "Main Course", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Main Course 10", price: "RM 17.90", category: "Main Course", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Suka Dessert Special Specials 1", price: "RM 12.90", category: "Specials", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Specials 2", price: "RM 15.90", category: "Specials", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Specials 3", price: "RM 18.90", category: "Specials", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Specials 4", price: "RM 14.90", category: "Specials", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Specials 5", price: "RM 16.90", category: "Specials", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Specials 6", price: "RM 20.90", category: "Specials", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Specials 7", price: "RM 22.90", category: "Specials", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Specials 8", price: "RM 19.90", category: "Specials", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Specials 9", price: "RM 21.90", category: "Specials", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Specials 10", price: "RM 17.90", category: "Specials", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Suka Dessert Special Desserts 1", price: "RM 12.90", category: "Desserts", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Desserts 2", price: "RM 15.90", category: "Desserts", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Desserts 3", price: "RM 18.90", category: "Desserts", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Desserts 4", price: "RM 14.90", category: "Desserts", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Desserts 5", price: "RM 16.90", category: "Desserts", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Desserts 6", price: "RM 20.90", category: "Desserts", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Desserts 7", price: "RM 22.90", category: "Desserts", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Desserts 8", price: "RM 19.90", category: "Desserts", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Desserts 9", price: "RM 21.90", category: "Desserts", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Desserts 10", price: "RM 17.90", category: "Desserts", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Suka Dessert Special Sides 1", price: "RM 12.90", category: "Sides", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Sides 2", price: "RM 15.90", category: "Sides", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Sides 3", price: "RM 18.90", category: "Sides", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Sides 4", price: "RM 14.90", category: "Sides", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Sides 5", price: "RM 16.90", category: "Sides", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Sides 6", price: "RM 20.90", category: "Sides", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Sides 7", price: "RM 22.90", category: "Sides", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Sides 8", price: "RM 19.90", category: "Sides", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Sides 9", price: "RM 21.90", category: "Sides", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Sides 10", price: "RM 17.90", category: "Sides", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Suka Dessert Special Beverages 1", price: "RM 12.90", category: "Beverages", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Beverages 2", price: "RM 15.90", category: "Beverages", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Beverages 3", price: "RM 18.90", category: "Beverages", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Beverages 4", price: "RM 14.90", category: "Beverages", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Beverages 5", price: "RM 16.90", category: "Beverages", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Beverages 6", price: "RM 20.90", category: "Beverages", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Beverages 7", price: "RM 22.90", category: "Beverages", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Beverages 8", price: "RM 19.90", category: "Beverages", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Beverages 9", price: "RM 21.90", category: "Beverages", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Beverages 10", price: "RM 17.90", category: "Beverages", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." },
+  { name: "Suka Dessert Special Chef's Recommendations 1", price: "RM 12.90", category: "Chef's Recommendations", description: "A must-try item from our special menu. Prepared uniquely for our guests." },
+  { name: "Crispy Chef's Recommendations 2", price: "RM 15.90", category: "Chef's Recommendations", description: "A wonderful combination of textures and tastes. Prepared uniquely for our guests." },
+  { name: "Classic Chef's Recommendations 3", price: "RM 18.90", category: "Chef's Recommendations", description: "Our signature recipe, loved by many. Prepared uniquely for our guests." },
+  { name: "Spicy Chef's Recommendations 4", price: "RM 14.90", category: "Chef's Recommendations", description: "A delightful classic made with fresh ingredients. Prepared uniquely for our guests." },
+  { name: "Authentic Chef's Recommendations 5", price: "RM 16.90", category: "Chef's Recommendations", description: "A customer favorite, bursting with flavor. Prepared uniquely for our guests." },
+  { name: "Premium Chef's Recommendations 6", price: "RM 20.90", category: "Chef's Recommendations", description: "Authentic taste cooked to perfection. Prepared uniquely for our guests." },
+  { name: "Chef's Signature Chef's Recommendations 7", price: "RM 22.90", category: "Chef's Recommendations", description: "Served fresh and hot, just the way you like it. Prepared uniquely for our guests." },
+  { name: "Traditional Chef's Recommendations 8", price: "RM 19.90", category: "Chef's Recommendations", description: "A rich and flavorful dish that hits the spot. Prepared uniquely for our guests." },
+  { name: "Ultimate Chef's Recommendations 9", price: "RM 21.90", category: "Chef's Recommendations", description: "Carefully crafted with premium ingredients. Prepared uniquely for our guests." },
+  { name: "Grilled Chef's Recommendations 10", price: "RM 17.90", category: "Chef's Recommendations", description: "Perfectly prepared for a satisfying meal. Prepared uniquely for our guests." }
 ];
